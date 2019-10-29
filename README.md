@@ -1,2 +1,3 @@
-# developer-portfolio
-Portfolio for Developer ( Build on Reactjs and GraphQl )⚡️
+# Developer Portfolio 👋
+
+### Build on Reactjs and GraphQl 
