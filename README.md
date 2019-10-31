@@ -1,3 +1,3 @@
 # Developer Portfolio 👋
 
-### Build on Reactjs and GraphQl 
+### Build on Reactjs and GraphQL
