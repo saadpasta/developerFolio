@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font: 19px / 23px Avenir, "Avenir Next", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+html,
+body {
+  font: 19px / 23px Avenir, "Avenir Next", sans-serif;
+  scroll-behavior: smooth;
+}

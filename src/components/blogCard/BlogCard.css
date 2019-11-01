@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.square:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+.square {
+  width: 460px;
+  height: 430px;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0px 20px 50px #d9dbdf;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin-top: 30px;
+}
+
+.mask {
+  clip: rect(0px, 460px, 220px, 0px);
+  border-radius: 4px;
+  position: absolute;
+}
+
+.blog-card-image {
+  width: 460px;
+}
+
+.blog-card-title {
+  margin: auto;
+  text-align: left;
+  margin-top: 240px;
+  padding-left: 30px;
+  font-size: 24px;
+}
+.blog-card-subtitle {
+  text-align: justify;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 12px;
+  color: #c8c8c8;
+  line-height: 18px;
+}
+
+.button {
+  background-color: #3edd84;
+  color: white;
+  width: 90px;
+  padding: 10px 18px;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 70px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+  .mask {
+    clip: rect(0px, 300px, 220px, 0px);
+  }
+  .blog-card-image {
+    width: 300px;
+  }
+
+  .square {
+    width: 300px;
+    height: 450px;
+  }
+}
