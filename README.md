@@ -122,7 +122,7 @@ I highly recommend to use [Github Pages](https://create-react-app.dev/docs/deplo
 
 ## License 📄
 
-This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details
 
 
 
