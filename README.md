@@ -11,7 +11,7 @@ Feel free to use it as-is or customize it as much as you want. If you created so
 ✔️ Big Projects\
 ✔️ Achievements And Certifications 🏆\
 ✔️ Blogs\
-✔️ Contact me\
+✔️ Contact me
 
 To view a live example, **[click here](https://saadpasta.github.io/)**
 
