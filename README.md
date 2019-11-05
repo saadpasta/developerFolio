@@ -32,14 +32,14 @@ git@2.17.1 or higher
 
 ## How To Use 🔧
 
-From your command line, clone and run developer-portfolio:
+From your command line, clone and run developerFolio:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/username/developer-portfolio
+$ git clone https://github.com/username/developerFolio
 
 # Go into the repository
-$ cd developer-portfolio
+$ cd developerFolio
 
 # Install dependencies
 $ npm install
