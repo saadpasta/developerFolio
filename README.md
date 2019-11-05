@@ -1,4 +1,4 @@
-# Software Developer Folio ⚡️
+# Software Developer Folio ⚡️ [![GitHub](https://img.shields.io/github/license/saadpasta/developer-portfolio?color=blue)](https://github.com/saadpasta/developer-portfolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/saadpasta/developer-portfolio) ![GitHub forks](https://img.shields.io/github/forks/saadpasta/developer-portfolio)
 
 ## A clean, beautiful and responsive portfolio template for Developers!
 
