@@ -28,7 +28,7 @@ export default function Projects() {
       .query({
         query: gql`
           {
-            repositoryOwner(login: "saadpasta") {
+            repositoryOwner(login: "your github username") {
               ... on User {
                 pinnedRepositories(first: 6) {
                   edges {
