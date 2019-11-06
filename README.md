@@ -137,13 +137,15 @@ This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE)
 
 
 ## For the Future 
-If you can help us with these.Please don't hesitate to open an [pull request](https://github.com/saadpasta/developerFolio/pulls).
+If you can help us with these. Please don't hesitate to open an [pull request](https://github.com/saadpasta/developerFolio/pulls).
 
-> Connect with LinkedIn to get Summary, Skills, Education and Experience
+- Connect with LinkedIn to get Summary, Skills, Education and Experience
 
-> Move to Gatasby
+- Move to Gatasby
 
-> Add More Sections and Move to Multi Page
+- Add More Sections and Move to Multi Page
+
+- Move all the details to config so any one can change the details from there so they don't have to find the file and change it there
 
 ## Contributors ✨
 
