@@ -25,6 +25,11 @@
 }
 
 /* Media Query */
+@media (max-width: 1380px) {
+  .contact-title {
+    font-size: 40px;
+  }
+}
 @media (max-width: 768px) {
   .contact-title {
     font-size: 30px;

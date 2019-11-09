@@ -1,12 +1,12 @@
 .main {
-  max-width: 1600px;
+  width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
   margin-top: 4rem;
 }
 
 .gretting-main {
-  max-width: 1600px;
+  width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
 }
@@ -40,9 +40,17 @@
 }
 
 /* Media Query */
+@media (max-width: 1380px) {
+  .greeting-text {
+    font-size: 50px;
+  }
+  .greeting-text-p {
+    font-size: 20px;
+  }
+}
 @media (max-width: 768px) {
   .button-greeting-div{
-justify-content: space-around;
+    justify-content: space-around;
   }
   .greeting-text {
     font-size: 30px;

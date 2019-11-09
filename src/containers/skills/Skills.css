@@ -21,6 +21,11 @@
 }
 
 /* Media Query */
+@media (max-width: 1380px) {
+  .skills-heading {
+    font-size: 40px;
+  }
+}
 @media (max-width: 768px) {
   .skills-heading {
     font-size: 30px;
