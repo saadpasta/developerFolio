@@ -1,7 +1,7 @@
 /* header */
 
 .header {
-  max-width: 1600px;
+  max-width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
 }
@@ -128,5 +128,10 @@
   }
   .header .menu-icon {
     display: none;
+  }
+}
+@media (max-width: 960px) and (min-width: 768px) {
+  .header {
+    font-size: 12px;
   }
 }

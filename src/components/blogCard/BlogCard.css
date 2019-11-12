@@ -8,7 +8,7 @@
 }
 
 .square {
-  width: 460px;
+  width: 440px;
   height: 430px;
   background: white;
   border-radius: 4px;
@@ -26,14 +26,14 @@
 }
 
 .blog-card-image {
-  width: 460px;
+  width: 440px;
 }
 
 .blog-card-title {
   margin: auto;
   text-align: left;
   margin-top: 240px;
-  padding-left: 30px;
+  padding: 0 30px;
   font-size: 24px;
 }
 .blog-card-subtitle {
@@ -62,16 +62,26 @@
 }
 
 /* Media Query */
+@media (max-width: 1380px) {
+  .card-title {
+    font-size: 25px;
+  }
+}
 @media (max-width: 768px) {
   .mask {
-    clip: rect(0px, 300px, 220px, 0px);
+    clip-path: none;
+    position: relative
+  }
+  .blog-card-title {
+    margin-top: 10px;
   }
   .blog-card-image {
-    width: 300px;
+    width: 100%;
   }
 
   .square {
-    width: 300px;
-    height: 450px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
   }
 }
