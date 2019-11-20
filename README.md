@@ -50,7 +50,7 @@ From your command line, clone and run developerFolio:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/username/developerFolio
+$ git clone https://github.com/username/developerFolio.git
 
 # Go into the repository
 $ cd developerFolio
