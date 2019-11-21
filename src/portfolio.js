@@ -131,4 +131,11 @@ const blogSection = {
   ]
 };
 
-export { gretting, socialMediaLinks, skillsSection, openSource, bigProjects, blogSection };
+const contactInfo = {
+  title: "Contact Me ☎️",
+  subtitle: "Discuss a project or just want to say hi my inbox is open for all",
+  number: "+92-3243454077",
+  email_address: "saadpasta70@gmail.com"
+};
+
+export { gretting, socialMediaLinks, skillsSection, openSource, bigProjects, blogSection, contactInfo };
