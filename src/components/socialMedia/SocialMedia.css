@@ -51,6 +51,13 @@
   background-color: #1da1f2;
 }
 
+/*Hover Transition*/
+.twitter i:hover, .google i:hover, .gitlab i:hover,
+.github i:hover ,.linkedin i:hover ,.facebook i:hover{
+  background-color: black;
+  transition: 0.3s ease-in;
+}
+
 /* Media Query */
 @media (max-width: 768px) {
   .social-media-div {
