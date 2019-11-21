@@ -4,6 +4,7 @@ import { gql } from "apollo-boost";
 import "./Project.css";
 import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
 import Button from "../../components/button/Button";
+import { openSource } from "../../portfolio";
 
 export default function Projects() {
   const [repo, setrepo] = useState([]);
@@ -18,7 +19,7 @@ export default function Projects() {
       request: operation => {
         operation.setContext({
           headers: {
-            authorization: `Bearer ${atob("YOUR CONVERTED GITHUB TOKEN")}`
+            authorization: `Bearer ${atob(openSource.githubConvertedToken)}`
           }
         });
       }
@@ -28,7 +29,7 @@ export default function Projects() {
       .query({
         query: gql`
           {
-            repositoryOwner(login: "your github username") {
+            repositoryOwner(login: "${openSource.githubUserName}") {
               ... on User {
                 pinnedRepositories(first: 6) {
                   edges {

@@ -86,4 +86,11 @@ const skillsSection = {
   ]
 };
 
-export { gretting, socialMediaLinks, skillsSection };
+const openSource = {
+  /* Your Open Source Section to View Your Github Pinned Projects */
+  /* To know how to get github key look at readme.md */
+  githubConvertedToken: "ODM5ODY0MWRmYzUxOTcyZTdhMWMxM2NmZGIwNWU4Yzc3NmI5NTg0ZQ==",
+  githubUserName: "saadpasta"
+};
+
+export { gretting, socialMediaLinks, skillsSection, openSource };
