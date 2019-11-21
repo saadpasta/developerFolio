@@ -1,5 +1,6 @@
 import React from "react";
 import "./StartupProjects.css";
+import { bigProjects } from "../../portfolio";
 
 export default function StartupProject() {
   function openProjectInNewWindow(url) {
@@ -10,16 +11,17 @@ export default function StartupProject() {
   return (
     <div className="main" id="projects">
       <div>
-        <h1 className="skills-heading">Big Projects</h1>
-        <p className="subTitle project-subtitle">SOME STARTUPS AND COMPANIES THAT I HELP TO CREATE THEIR TECH.</p>
+        <h1 className="skills-heading">{bigProjects.title}</h1>
+        <p className="subTitle project-subtitle">{bigProjects.subtitle}</p>
         <div className="startup-projects-main">
           <div className="startup-project-text">
-            <div className="saaya-health-div" onClick={() => openProjectInNewWindow("http://saayahealth.com/")}>
-              <img alt="Saad Working" src={require("../../assests/images/saayaHealthLogo.png")}></img>
-            </div>
-            <div className="nextu-div" onClick={() => openProjectInNewWindow("http://nextu.se/")}>
-              <img alt="Saad Working" src={require("../../assests/images/nextuLogo.jpg")}></img>
-            </div>
+            {bigProjects.projects.map(project => {
+              return (
+                <div className="saaya-health-div" onClick={() => openProjectInNewWindow(project.link)}>
+                  <img alt="Saad Working" src={project.image}></img>
+                </div>
+              );
+            })}
           </div>
           <div className="starup-project-image"></div>
         </div>

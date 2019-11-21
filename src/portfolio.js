@@ -93,4 +93,20 @@ const openSource = {
   githubUserName: "saadpasta"
 };
 
-export { gretting, socialMediaLinks, skillsSection, openSource };
+const bigProjects = {
+  /* Some Big Projects You have worked with your company */
+  title: "Big Projects",
+  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELP TO CREATE THEIR TECH",
+  projects: [
+    {
+      image: "https://drive.google.com/uc?id=1exWn9T6j8TsfDDHJnS3VR66eP6RiGAfY",
+      link: "http://saayahealth.com/"
+    },
+    {
+      image: "http://nextu.se/wp-content/themes/nextu/images/og_img.jpg",
+      link: "http://nextu.se/"
+    }
+  ]
+};
+
+export { gretting, socialMediaLinks, skillsSection, openSource, bigProjects };
