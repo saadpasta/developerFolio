@@ -93,8 +93,7 @@ Copy your converted token and paste it in `/src/portfolio.js`
 const gretting = {
   /* Your Summary And Gretting Section */
   title: "Hi all 👋 I'm Saad",
-  subTitle:
-    "A passionate Full Stack Software Developer 🚀 having an      experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks",
+  subTitle: "A passionate Full Stack Software Developer 🚀.
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
 };
 
@@ -106,6 +105,19 @@ const socialMediaLinks = {
   gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/saad.pasta7"
 };
+
+
+const skillsSection = { .... }
+
+const openSource = { .... } 
+
+const bigProjects = { .... }
+
+const achievementSection = { .... }
+
+const blogSection = { .... }
+
+const contactInfo = { .... }
 
 ```
 
