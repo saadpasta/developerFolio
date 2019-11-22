@@ -63,10 +63,10 @@ $ npm install
 
 ### Genrate a Github personal access token using these [Instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line)
 
-Copy the token and open your developer console to convert your token to base64 so github do not revert your token when you push your token to git
+Copy the token and open Chrome Developer Console to convert your token to base64 so github do not revert your token when you push your token to git
 
 ```bash
-# Open your developer console paste the token inside btoa
+# Open your Chrome Developer Console console paste the token inside btoa
 $ btoa("YOUR GITHUB TOKEN")
 ```
 
