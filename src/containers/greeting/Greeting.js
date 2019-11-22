@@ -2,6 +2,7 @@ import React from "react";
 import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
+import { gretting } from "../../portfolio";
 
 export default function Greeting() {
   return (
@@ -9,15 +10,12 @@ export default function Greeting() {
       <div className="greeting-main">
         <div className="greeting-text-div">
           <div>
-            <h1 className="greeting-text">Hi all 👋 I'm Saad</h1>
-            <p className="greeting-text-p subTitle">
-              A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some
-              other cool libraries and frameworks .
-            </p>
+            <h1 className="greeting-text">{gretting.title}</h1>
+            <p className="greeting-text-p subTitle">{gretting.subTitle}</p>
             <SocialMedia />
             <div className="button-greeting-div">
               <Button text="Contact me" href="#contact" />
-              <Button text="See my resume" newTab={true} href="https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing" />
+              <Button text="See my resume" newTab={true} href={gretting.resumeLink} />
             </div>
           </div>
         </div>
