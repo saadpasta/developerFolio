@@ -153,8 +153,6 @@ If you can help us with these. Please don't hesitate to open an [pull request](h
 
 - Add More Sections and Move to Multi Page
 
-- Move all the details to change able details to one file so developer has to just change one file to reflect changes
-
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
