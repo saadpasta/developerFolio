@@ -10,7 +10,7 @@
 </p>
 
 
-Feel free to use it as-is or customize it as much as you want. 
+Just change `src/porfolio.js` to get your personal portfolio . Feel free to use it as-is or customize it as much as you want. 
 
 But if you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/saadpasta/developerFolio/issues).
 
