@@ -70,59 +70,45 @@ Copy the token and open your developer console to convert your token to base64 s
 $ btoa("YOUR GITHUB TOKEN")
 ```
 
-Copy your converted token and paste it in `/src/containers/project/Project.js`
+Copy your converted token and paste it in `/src/portfolio.js`
 
 ```javascript
-  function getRepoData() {
-    const client = new ApolloClient({
-      uri: "https://api.github.com/graphql",
-      request: operation => {
-        operation.setContext({
-          headers: {
-            authorization: `Bearer ${atob("YOUR CONVERTED GITHUB TOKEN")}`
-          }
-        });
-      }
-    });
+  const openSource = {
+  /* Your Open Source Section to View Your Github Pinned Projects */
+  /* To know how to get github key look at readme.md */
+  
+  githubConvertedToken: "Your Github Converted Token",
+  githubUserName: "Your Github Username"
+};
 ```
 
-Change username to your github username to get your projects 
+
+## Change and customize every section according to your need.
+
+### To Change website content go to `/src/portfolio.js` and change content according to yours.
 
 ```javascript
-    client
-      .query({
-        query: gql`
-          {
-            repositoryOwner(login: "your github username") {
-              ... on User {
-                pinnedRepositories(first: 6) {
-                  edges {
-                    node {
-                      nameWithOwner
-                      description
-                      forkCount
-                      stargazers {
-                        totalCount
-                      }
-                      url
-                      id
-                      diskUsage
-                      primaryLanguage {
-                        name
-                        color
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        `
-      })
+/* Change this file to get your Personal Porfolio */
+
+const gretting = {
+  /* Your Summary And Gretting Section */
+  title: "Hi all 👋 I'm Saad",
+  subTitle:
+    "A passionate Full Stack Software Developer 🚀 having an      experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks",
+  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+};
+
+const socialMediaLinks = {
+  /* Your Social Media Link */
+  github: "https://github.com/saadpasta",
+  linkedin: "https://www.linkedin.com/in/saadpasta/",
+  gmail: "saadpasta70@gmail.com",
+  gitlab: "https://gitlab.com/saadpasta",
+  facebook: "https://www.facebook.com/saad.pasta7"
+};
 
 ```
 
-## Change and customize every section according to your need. 
 
 ## Technologies used 🛠️
 
