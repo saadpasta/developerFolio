@@ -1,6 +1,7 @@
 import React from "react";
 import "./Skills.css";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
+import { skillsSection } from "../../portfolio";
 
 export default function Skills() {
   return (
@@ -10,13 +11,13 @@ export default function Skills() {
           <img alt="Saad Working" src={require("../../assests/images/developerActivity.svg")}></img>
         </div>
         <div className="skills-text-div">
-          <h1 className="skills-heading">What i do </h1>
-          <p className="subTitle skills-text-subtitle">CRAZY FULL STACK DEVELOPER WHO WANT TO EXPLORE EVERY TECH STACK </p>
+          <h1 className="skills-heading">{skillsSection.title} </h1>
+          <p className="subTitle skills-text-subtitle">{skillsSection.subTitle}</p>
           <SoftwareSkill />
           <div>
-            <p className="subTitle skills-text">⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications</p>
-            <p className="subTitle skills-text">⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks</p>
-            <p className="subTitle skills-text">⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean</p>
+            {skillsSection.skills.map(skills => {
+              return <p className="subTitle skills-text">{skills}</p>;
+            })}
           </div>
         </div>
       </div>
