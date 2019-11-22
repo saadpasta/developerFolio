@@ -10,7 +10,7 @@
 </p>
 
 
-Feel free to use it as-is or customize it as much as you want. 
+Just change `src/porfolio.js` to get your personal portfolio . Feel free to use it as-is or customize it as much as you want. 
 
 But if you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/saadpasta/developerFolio/issues).
 
@@ -63,66 +63,64 @@ $ npm install
 
 ### Genrate a Github personal access token using these [Instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line)
 
-Copy the token and open your developer console to convert your token to base64 so github do not revert your token when you push your token to git
+Copy the token and open Chrome Developer Console to convert your token to base64 so github do not revert your token when you push your token to git
 
 ```bash
-# Open your developer console paste the token inside btoa
+# Open your Chrome Developer Console console paste the token inside btoa
 $ btoa("YOUR GITHUB TOKEN")
 ```
 
-Copy your converted token and paste it in `/src/containers/project/Project.js`
+Copy your converted token and paste it in `/src/portfolio.js`
 
 ```javascript
-  function getRepoData() {
-    const client = new ApolloClient({
-      uri: "https://api.github.com/graphql",
-      request: operation => {
-        operation.setContext({
-          headers: {
-            authorization: `Bearer ${atob("YOUR CONVERTED GITHUB TOKEN")}`
-          }
-        });
-      }
-    });
+  const openSource = {
+  /* Your Open Source Section to View Your Github Pinned Projects */
+  /* To know how to get github key look at readme.md */
+  
+  githubConvertedToken: "Your Github Converted Token",
+  githubUserName: "Your Github Username"
+};
 ```
 
-Change username to your github username to get your projects 
+
+## Change and customize every section according to your need.
+
+### To Change website content go to `/src/portfolio.js` and change content according to yours.
 
 ```javascript
-    client
-      .query({
-        query: gql`
-          {
-            repositoryOwner(login: "your github username") {
-              ... on User {
-                pinnedRepositories(first: 6) {
-                  edges {
-                    node {
-                      nameWithOwner
-                      description
-                      forkCount
-                      stargazers {
-                        totalCount
-                      }
-                      url
-                      id
-                      diskUsage
-                      primaryLanguage {
-                        name
-                        color
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        `
-      })
+/* Change this file to get your Personal Porfolio */
+
+const gretting = {
+  /* Your Summary And Gretting Section */
+  title: "Hi all 👋 I'm Saad",
+  subTitle: "A passionate Full Stack Software Developer 🚀.
+  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+};
+
+const socialMediaLinks = {
+  /* Your Social Media Link */
+  github: "https://github.com/saadpasta",
+  linkedin: "https://www.linkedin.com/in/saadpasta/",
+  gmail: "saadpasta70@gmail.com",
+  gitlab: "https://gitlab.com/saadpasta",
+  facebook: "https://www.facebook.com/saad.pasta7"
+};
+
+
+const skillsSection = { .... }
+
+const openSource = { .... } 
+
+const bigProjects = { .... }
+
+const achievementSection = { .... }
+
+const blogSection = { .... }
+
+const contactInfo = { .... }
 
 ```
 
-## Change and customize every section according to your need. 
 
 ## Technologies used 🛠️
 
@@ -154,8 +152,6 @@ If you can help us with these. Please don't hesitate to open an [pull request](h
 - Move to Gatasby
 
 - Add More Sections and Move to Multi Page
-
-- Move all the details to change able details to one file so developer has to just change one file to reflect changes
 
 ## Contributors ✨
 
