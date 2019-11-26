@@ -4,9 +4,10 @@
   font-weight: normal;
   src: local('Agustina Regular'), url('./assests/fonts/Agustina.woff') format('woff');
 }
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 body {
   margin: 0;
-  font: 19px / 23px Avenir, "Avenir Next", sans-serif;
+  font: 19px / 23px Montserrat, "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -18,7 +19,7 @@ code {
 
 html,
 body {
-  font: 19px / 23px Avenir, "Avenir Next", sans-serif;
+  font: 19px / 23px Montserrat, "Montserrat", sans-serif;
   scroll-behavior: smooth;
 }
 
