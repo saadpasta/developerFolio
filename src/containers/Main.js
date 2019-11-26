@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import Header from "../components/header/Header";
 import Greeting from "./greeting/Greeting";
 import Skills from "./skills/Skills";
@@ -9,20 +9,26 @@ import Blogs from "./blogs/Blogs";
 import Contact from "./contact/Contact";
 import Footer from "../components/footer/Footer";
 
-export default class Main extends Component {
-  render() {
-    return (
-      <div>
-        <Header />
-        <Greeting />
-        <Skills />
-        <Projects />
-        <StartupProject />
-        <Achievement />
-        <Blogs />
-        <Contact />
-        <Footer />
-      </div>
-    );
-  }
+const Main = () => {
+  useEffect(() => {
+    if (process.env.NODE_ENV === "production") {
+      fetch(`https://api.countapi.xyz/hit/${window.location.hostname}/visits`)
+    }
+  }, [])
+
+  return (
+    <div>
+      <Header />
+      <Greeting />
+      <Skills />
+      <Projects />
+      <StartupProject />
+      <Achievement />
+      <Blogs />
+      <Contact />
+      <Footer />
+    </div>
+  );
 }
+
+export default Main;
