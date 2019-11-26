@@ -4,14 +4,14 @@
   font-weight: normal;
   src: local('Agustina Regular'), url('./assests/fonts/Agustina.woff') format('woff');
 }
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-
-
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url('./assests/fonts/Montserrat-Regular.ttf') format('woff');
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
 html,
 body {
   scroll-behavior: smooth;
