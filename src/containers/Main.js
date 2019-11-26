@@ -12,9 +12,9 @@ import Footer from "../components/footer/Footer";
 const Main = () => {
   useEffect(() => {
     if (process.env.NODE_ENV === "production") {
-      fetch(`https://api.countapi.xyz/hit/${window.location.hostname}/visits`)
+      fetch(`https://api.countapi.xyz/hit/${window.location.hostname}/visits`);
     }
-  }, [])
+  }, []);
 
   return (
     <div>
@@ -29,6 +29,6 @@ const Main = () => {
       <Footer />
     </div>
   );
-}
+};
 
 export default Main;
