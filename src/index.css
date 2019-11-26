@@ -5,12 +5,7 @@
   src: local('Agustina Regular'), url('./assests/fonts/Agustina.woff') format('woff');
 }
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-body {
-  margin: 0;
-  font: 19px / 23px Montserrat, "Montserrat", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -19,10 +14,14 @@ code {
 
 html,
 body {
-  font: 19px / 23px Montserrat, "Montserrat", sans-serif;
   scroll-behavior: smooth;
 }
-
+body {
+  margin: 0;
+  font: 19px / 23px Montserrat, "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 /* Media Query */
 @media (max-width: 1380px) {
   html,
