@@ -1,5 +1,6 @@
 .main-button {
   background-color: #55198b;
+  border: solid 1px #55198b;
   color: white;
   font-weight: 700;
   width: max-content;
@@ -14,7 +15,11 @@
   font-size: 16px;
   cursor: pointer;
 }
-
+.main-button:hover {
+  background-color: #ffffff;
+  color: black;
+  transition: ease-in 0.3s;
+}
 .project-button{
   display: flex;
   justify-content: center;
