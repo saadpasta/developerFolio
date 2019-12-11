@@ -5,7 +5,7 @@ import { talkSection } from "../../portfolio";
 
 export default function Talks() {
   return (
-    <div className="main">
+    <div className="main" id="talks">
       <div className="talk-header">
         <h1 className="talk-header-title">{talkSection.title}</h1>
         <p className="subTitle talk-header-subtitle">{talkSection.subtitle}</p>
