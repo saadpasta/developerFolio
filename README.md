@@ -154,6 +154,8 @@ If you can help us with these. Please don't hesitate to open an [pull request](h
 
 - Add More Sections and Move to Multi Page
 
+- Add Podcast Section and Video Section
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
