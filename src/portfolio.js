@@ -187,6 +187,15 @@ const talkSection = {
   ]
 };
 
+// Podcast Section
+const podcastSection = {
+  title: "Podcast 🎙️",
+  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+
+  // Please Provide with Your Podcast embeded Link
+  podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"]
+};
+
 const contactInfo = {
   title: "Contact Me ☎️",
   subtitle: "Discuss a project or just want to say hi my inbox is open for all",
@@ -194,4 +203,4 @@ const contactInfo = {
   email_address: "saadpasta70@gmail.com"
 };
 
-export { gretting, socialMediaLinks, skillsSection, openSource, bigProjects, achievementSection, blogSection, talkSection,contactInfo };
+export { gretting, socialMediaLinks, skillsSection, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo };
