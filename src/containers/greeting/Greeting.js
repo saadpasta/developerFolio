@@ -2,20 +2,20 @@ import React from "react";
 import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-import { gretting } from "../../portfolio";
+import { greeting } from "../../portfolio";
 
 export default function Greeting() {
   return (
-    <div className="gretting-main" id="greeting">
+    <div className="greeting-main" id="greeting">
       <div className="greeting-main">
         <div className="greeting-text-div">
           <div>
-            <h1 className="greeting-text">{gretting.title}</h1>
-            <p className="greeting-text-p subTitle">{gretting.subTitle}</p>
+            <h1 className="greeting-text">{greeting.title}</h1>
+            <p className="greeting-text-p subTitle">{greeting.subTitle}</p>
             <SocialMedia />
             <div className="button-greeting-div">
               <Button text="Contact me" href="#contact" />
-              <Button text="See my resume" newTab={true} href={gretting.resumeLink} />
+              <Button text="See my resume" newTab={true} href={greeting.resumeLink} />
             </div>
           </div>
         </div>
