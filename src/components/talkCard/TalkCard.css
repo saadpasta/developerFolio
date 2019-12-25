@@ -3,22 +3,21 @@
     justify-content: center;
   }
   
-  .square:hover {
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
-  }
-  
-  .square {
-    width: 440px;
-    height: 430px;
+  .rectangle {
+    width: 360px;
+    height: 300px;
     background: white;
     border-radius: 4px;
     box-shadow: 0px 20px 50px #d9dbdf;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    margin-top: 30px;
+    margin-top: 50px;
   }
-  
+  .rectangle:hover {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  }
+
   .mask {
     clip: rect(0px, 460px, 220px, 0px);
     border-radius: 4px;
@@ -32,9 +31,9 @@
   .talk-card-title {
     margin: auto;
     text-align: left;
-    margin-top: 240px;
-    padding: 0 30px;
-    font-size: 24px;
+    margin-top: 40px;
+    padding: 0px 0px 40px 30px;
+    font-size: 28px;
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -85,7 +84,7 @@
       position: relative
     }
     .talk-card-title {
-      margin-top: 10px;
+      margin-top: 30px;
     }
     .talk-card-image {
       width: 100%;
