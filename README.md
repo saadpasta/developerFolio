@@ -25,6 +25,7 @@ If you created something awesome and want to contribute then feel free to open P
 ✔️ Big Projects\
 ✔️ Achievements And Certifications 🏆\
 ✔️ Blogs\
+✔️ Talks\
 ✔️ Contact me
 
 To view a live example, **[click here](https://saadpasta.github.io/)**
@@ -152,6 +153,8 @@ If you can help us with these. Please don't hesitate to open an [pull request](h
 - Move to Gatasby
 
 - Add More Sections and Move to Multi Page
+
+- Add Podcast Section and Video Section
 
 ## Contributors ✨
 
