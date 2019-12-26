@@ -26,6 +26,7 @@ If you created something awesome and want to contribute then feel free to open P
 ✔️ Achievements And Certifications 🏆\
 ✔️ Blogs\
 ✔️ Talks\
+✔️ Podcast\
 ✔️ Contact me
 
 To view a live example, **[click here](https://saadpasta.github.io/)**
