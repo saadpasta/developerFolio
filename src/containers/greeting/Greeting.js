@@ -6,7 +6,7 @@ import { greeting } from "../../portfolio";
 
 export default function Greeting() {
   return (
-    <div className="greeting-main" id="greeting">
+    <div className="greet-main" id="greeting">
       <div className="greeting-main">
         <div className="greeting-text-div">
           <div>
