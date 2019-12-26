@@ -1,7 +1,7 @@
 /* Change this file to get your personal Porfolio */
 
-const gretting = {
-  /* Your Summary And Gretting Section */
+const greeting = {
+  /* Your Summary And Greeting Section */
   title: "Hi all 👋 I'm Saad",
   subTitle:
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks",
@@ -203,4 +203,4 @@ const contactInfo = {
   email_address: "saadpasta70@gmail.com"
 };
 
-export { gretting, socialMediaLinks, skillsSection, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo };
+export { greeting, socialMediaLinks, skillsSection, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo };

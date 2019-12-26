@@ -5,12 +5,8 @@ export default function TalkCard({talkDetails}) {
   return (
     <div>
       <div class="container">
-        <div class="square">
-          <img
-            src={talkDetails.image}
-            alt="talk"
-            className="talk-card-image mask"
-          />
+        <div class="rectangle">
+          <div class="diagonal-fill"></div>
           <div class="talk-card-title">{talkDetails.title}</div>
           <p className="talk-card-subtitle">{talkDetails.subtitle}</p>
 
