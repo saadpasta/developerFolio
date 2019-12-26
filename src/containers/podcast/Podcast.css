@@ -10,7 +10,7 @@
 
 .podcast-main-div {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem 1rem;
 }
 @media (max-width: 768px) {
@@ -25,7 +25,7 @@
   }
 
   .podcast {
-    width: 400px;
+    width: 300px;
   }
   .podcast-main-div{
       text-align: center;
