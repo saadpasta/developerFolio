@@ -19,7 +19,7 @@ export default function GithubRepoCard({ repo }) {
           </svg>
           <p className="repo-name">{repo.node.nameWithOwner}</p>
         </div>
-        <p>{repo.node.description}</p>
+        <p className="repo-description">{repo.node.description}</p>
         <div className="repo-stats">
           <div className="repo-left-stat">
             <span>

@@ -44,11 +44,22 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "kartik918",
+      "name": "Kartik Choudhary",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/48270786?v=4",
+      "profile": "https://github.com/kartik918",
+      "contributions": [
+        "design",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
   "projectName": "developerFolio",
   "projectOwner": "saadpasta",
   "repoType": "github",
-  "repoHost": "https://github.com"
+  "repoHost": "https://github.com",
+  "skipCi": true
 }
