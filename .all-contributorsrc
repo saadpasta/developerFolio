@@ -37,20 +37,12 @@
       ]
     },
     {
-      "login": "kartikch918",
-      "name": "Kartik Choudhary",
-      "avatar_url": "https://avatars1.githubusercontent.com/u/48270786?v=4",
-      "profile": "https://github.com/kartikch918",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
       "login": "kartik918",
       "name": "Kartik Choudhary",
       "avatar_url": "https://avatars1.githubusercontent.com/u/48270786?v=4",
       "profile": "https://github.com/kartik918",
       "contributions": [
+        "code",
         "design",
         "ideas"
       ]
