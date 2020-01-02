@@ -91,7 +91,7 @@ const openSource = {
   /* To know how to get github key look at readme.md */
 
   githubConvertedToken: "Your Github Converted Token",
-  githubUserName: "Your Github Username"
+  githubUserName: "DittoGod"
 };
 
 const bigProjects = {
