@@ -2,7 +2,7 @@
   "name": "dittogod.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.mywebsite.com",
+  "homepage": "https://www.dittogod.com",
   "dependencies": {
     "@apollo/react-hooks": "^3.1.3",
     "apollo-boost": "^0.4.7",
