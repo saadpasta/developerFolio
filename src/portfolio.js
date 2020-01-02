@@ -114,22 +114,12 @@ const achievementSection = {
         { name: "Udemy Course", url: "https://www.udemy.com/course/the-web-developer-bootcamp/" }
       ]
     },
-    {
-      title: "Google Assistant Action",
-      description: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Google_Assistant_logo.svg/1200px-Google_Assistant_logo.svg.png",
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      description: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu93Bd6LDbxPEOXr-hfLqLYzmHny8c0MJoI3exQP-lwpFLRT7g&s",
-      footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
-      ]
-    }
+    // {
+    //   title: "Google Assistant Action",
+    //   description: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+    //   image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Google_Assistant_logo.svg/1200px-Google_Assistant_logo.svg.png",
+    //   footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
+    // }
   ]
 };
 
@@ -140,18 +130,12 @@ const blogSection = {
   subtitle: "With Love for Developing cool stuff. i love to write and teach others what i have learned",
 
   blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      image: "https://miro.medium.com/max/400/1*pYHONrA_3QM4dgtBSKrYWQ.jpeg",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min."
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      image: "https://miro.medium.com/max/1280/1*o08b2PW-1PVs94riZuhNMA.png",
-      title: "Why REACT Is The Best?",
-      description: "React is a JavaScript library for building the user interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
+    // {
+    //   url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+    //   image: "https://miro.medium.com/max/400/1*pYHONrA_3QM4dgtBSKrYWQ.jpeg",
+    //   title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+    //   description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min."
+    // },
   ]
 };
 
