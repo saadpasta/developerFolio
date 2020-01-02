@@ -63,7 +63,7 @@ $ npm install
 ```
 ## Github Setup For Open Source Projects
 
-### Genrate a Github personal access token using these [Instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) `Make sure you don't select any scope just genrate a simple token`
+### Genrate a Github personal access token using these [Instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) `Make sure you don't select any scope just generate a simple token`
 
 Copy the token and open Chrome Developer Console to convert your token to base64 so github do not revert your token when you push your token to git
 
