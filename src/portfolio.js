@@ -148,7 +148,7 @@ const talkSection = {
   // title: "TALKS",
   // subtitle: "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅",
 
-  // talks: [
+  talks: [
   //   {
   //     title: "Build Actions For Google Assistant",
   //     subtitle: "Codelab at GDG DevFest Karachi 2019",
@@ -157,16 +157,16 @@ const talkSection = {
   //     image:
   //       "https://scontent.fkhi6-1.fna.fbcdn.net/v/t1.0-9/76714032_1730516240415559_1293494289556307968_o.jpg?_nc_cat=103&_nc_ohc=s5f81rdZd6wAQmqUa52YQBA21MjVOy7e-HN9jI7MspRDC-v5ahEouyInQ&_nc_ht=scontent.fkhi6-1.fna&oh=c29141a9a0de7ff2011a8191f5475a78&oe=5E83127C"
   //   }
-  // ]
+  ]
 };
 
 // Podcast Section
 const podcastSection = {
-  // title: "Podcast 🎙️",
-  // subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  title: "Podcast 🎙️",
+  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  // podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"]
+  podcast: [""]
 };
 
 const contactInfo = {
