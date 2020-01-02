@@ -13,7 +13,7 @@ const socialMediaLinks = {
   github: "https://github.com/dittogod",
   linkedin: "https://www.linkedin.com/in/simbarashendoro/",
   gmail: "dittogod1@gmail.com",
-  facebook: "https://www.facebook.com/saad.pasta7"
+  // facebook: "https://www.facebook.com/saad.pasta7"
 };
 
 const skillsSection = {
@@ -21,9 +21,8 @@ const skillsSection = {
   title: "What i do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANT TO EXPLORE EVERY TECH STACK",
   skills: [
-    "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
-    "⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks",
-    "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+    "⚡ FullStack Web Developer",
+    "⚡ FLutter Developer"
   ],
 
   /* Make Sure You include correct Font Awesome Classname to view your icon */
@@ -47,32 +46,16 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
     },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "MongoDB",
       fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
     },
     {
       skillName: "python",
@@ -81,6 +64,14 @@ const skillsSection = {
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Bootstrap-4",
+      fontAwesomeClassname: "fab fa-bootstrap"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
     }
   ]
 };
@@ -89,7 +80,7 @@ const openSource = {
   /* Your Open Source Section to View Your Github Pinned Projects */
   /* To know how to get github key look at readme.md */
 
-  githubConvertedToken: "Your Github Converted Token",
+  githubConvertedToken: "ZTNkZmVkMTllZWM0YzdhYzQyMTRiZDEyYzExYTZjYTQzZjI3OTNkNg==",
   githubUserName: "DittoGod"
 };
 
@@ -98,14 +89,10 @@ const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELP TO CREATE THEIR TECH",
   projects: [
-    {
-      image: "https://drive.google.com/uc?id=1exWn9T6j8TsfDDHJnS3VR66eP6RiGAfY",
-      link: "http://saayahealth.com/"
-    },
-    {
-      image: "http://nextu.se/wp-content/themes/nextu/images/og_img.jpg",
-      link: "http://nextu.se/"
-    }
+    // {
+    //   image: "https://drive.google.com/uc?id=1exWn9T6j8TsfDDHJnS3VR66eP6RiGAfY",
+    //   link: "http://saayahealth.com/"
+    // },
   ]
 };
 
@@ -117,14 +104,14 @@ const achievementSection = {
 
   achivementsCards: [
     {
-      title: "Google Code-In Finalist",
-      description: "First Pakistani to be selected as Google Google-in Finalist from 4000 students from 77 diffrent countries",
+      title: "FullStack Web Developer",
+      description: "Completed FullStack Web Developer Course on Udemy",
       image:
-        "https://1.bp.blogspot.com/-Ig-v1tDXZt4/XDODmZvWp1I/AAAAAAAAB0A/KtbFdBPFVQw2O15FekkIR0Yg8MUp--rngCLcBGAs/s1600/GCI%2B-%2BVertical%2B-%2BGray%2BText%2B-%2BWhite%2BBG.png",
+        "https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg",
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+        { name: "Certification", url: "https://udemy-certificate.s3.amazonaws.com/image/UC-2Y2YGPYB.jpg?l=null" },
+        { name: "Award Letter", url: "https://www.udemy.com/certificate/UC-2Y2YGPYB/" },
+        { name: "Udemy Course", url: "https://www.udemy.com/course/the-web-developer-bootcamp/" }
       ]
     },
     {
