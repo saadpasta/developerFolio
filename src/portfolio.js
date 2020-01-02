@@ -11,15 +11,15 @@ const greeting = {
 const socialMediaLinks = {
   /* Your Social Media Link */
   github: "https://github.com/dittogod",
-  linkedin: "https://www.linkedin.com/in/simbarashendoro/",
+  linkedin: "https://www.linkedin.com/in/simbarashe-ndoro/",
   gmail: "dittogod1@gmail.com",
   // facebook: "https://www.facebook.com/saad.pasta7"
 };
 
 const skillsSection = {
   /* Your Skills Section  */
-  title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANT TO EXPLORE EVERY TECH STACK",
+  title: "What I do",
+  subTitle: "FULL STACK AND FLUTTER DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     "⚡ FullStack Web Developer",
     "⚡ FLutter Developer"
@@ -79,7 +79,6 @@ const skillsSection = {
 const openSource = {
   /* Your Open Source Section to View Your Github Pinned Projects */
   /* To know how to get github key look at readme.md */
-
   githubConvertedToken: "ZTNkZmVkMTllZWM0YzdhYzQyMTRiZDEyYzExYTZjYTQzZjI3OTNkNg==",
   githubUserName: "DittoGod"
 };
@@ -87,7 +86,7 @@ const openSource = {
 const bigProjects = {
   /* Some Big Projects You have worked with your company */
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELP TO CREATE THEIR TECH",
+  subtitle: "SOME BIG PROJECTS I AM WORKING ON AND ONES THAT I HAVE FINISHED",
   projects: [
     // {
     //   image: "https://drive.google.com/uc?id=1exWn9T6j8TsfDDHJnS3VR66eP6RiGAfY",
@@ -100,7 +99,7 @@ const achievementSection = {
   /* Your Achievement Section Include Your Certification Talks and More */
 
   title: "Achievements And Certifications 🏆 ",
-  subtitle: "Achievements, Certifications Award Letters and Some Cool Stuff that i have done !",
+  subtitle: "Achievements, Certifications, Award Letters and Some Other Cool Stuff that I have done!",
 
   achivementsCards: [
     {
@@ -115,6 +114,10 @@ const achievementSection = {
       ]
     },
     // {
+    //   title: "Cloud Fundamentals",
+    //   description: ""
+    // }
+    // {
     //   title: "Google Assistant Action",
     //   description: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
     //   image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Google_Assistant_logo.svg/1200px-Google_Assistant_logo.svg.png",
@@ -127,7 +130,7 @@ const blogSection = {
   /* Blogs Section */
 
   title: "Blogs",
-  subtitle: "With Love for Developing cool stuff. i love to write and teach others what i have learned",
+  subtitle: "With Love for Developing cool stuff. I love to write and teach others what i have learned",
 
   blogs: [
     // {
@@ -142,35 +145,35 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
-  subtitle: "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅",
+  // title: "TALKS",
+  // subtitle: "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅",
 
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/",
-      image:
-        "https://scontent.fkhi6-1.fna.fbcdn.net/v/t1.0-9/76714032_1730516240415559_1293494289556307968_o.jpg?_nc_cat=103&_nc_ohc=s5f81rdZd6wAQmqUa52YQBA21MjVOy7e-HN9jI7MspRDC-v5ahEouyInQ&_nc_ht=scontent.fkhi6-1.fna&oh=c29141a9a0de7ff2011a8191f5475a78&oe=5E83127C"
-    }
-  ]
+  // talks: [
+  //   {
+  //     title: "Build Actions For Google Assistant",
+  //     subtitle: "Codelab at GDG DevFest Karachi 2019",
+  //     slides_url: "https://bit.ly/saadpasta-slides",
+  //     event_url: "https://www.facebook.com/events/2339906106275053/",
+  //     image:
+  //       "https://scontent.fkhi6-1.fna.fbcdn.net/v/t1.0-9/76714032_1730516240415559_1293494289556307968_o.jpg?_nc_cat=103&_nc_ohc=s5f81rdZd6wAQmqUa52YQBA21MjVOy7e-HN9jI7MspRDC-v5ahEouyInQ&_nc_ht=scontent.fkhi6-1.fna&oh=c29141a9a0de7ff2011a8191f5475a78&oe=5E83127C"
+  //   }
+  // ]
 };
 
 // Podcast Section
 const podcastSection = {
-  title: "Podcast 🎙️",
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  // title: "Podcast 🎙️",
+  // subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"]
+  // podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"]
 };
 
 const contactInfo = {
   title: "Contact Me ☎️",
   subtitle: "Discuss a project or just want to say hi my inbox is open for all",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+44 7376954578",
+  email_address: "dittogod1@gmail.com"
 };
 
 export { greeting, socialMediaLinks, skillsSection, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo };
