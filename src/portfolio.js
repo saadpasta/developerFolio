@@ -4,8 +4,8 @@ const greeting = {
   /* Your Summary And Greeting Section */
   title: "Hi all 👋 I'm Simba",
   subTitle:
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks",
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+    "A passionate Full Stack Software Developer 🚀 having experience of building Web and Mobile applications with JavaScript / Dart / Nodejs / Flutter and some other cool libraries and frameworks",
+  resumeLink: "https://drive.google.com/file/d/1fqQy-SQkK6qa60SWd52Id960eVQlDL0B/view?usp=sharing"
 };
 
 const socialMediaLinks = {
@@ -30,7 +30,7 @@ const skillsSection = {
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "html5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
@@ -66,12 +66,20 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-docker"
     },
     {
-      skillName: "Bootstrap-4",
+      skillName: "Bootstrap4",
       fontAwesomeClassname: "fab fa-bootstrap"
     },
     {
       skillName: "Git",
       fontAwesomeClassname: "fab fa-git-alt"
+    },
+    {
+      skillName: "Flutter",
+      fontAwesomeClassname: "fas fa-dove"
+    },
+    {
+      skillName: "Dart",
+      fontAwesomeClassname: "fas fa-dice-d6"
     }
   ]
 };
@@ -129,17 +137,17 @@ const achievementSection = {
 const blogSection = {
   /* Blogs Section */
 
-  title: "Blogs",
-  subtitle: "With Love for Developing cool stuff. I love to write and teach others what i have learned",
+  // title: "Blogs",
+  // subtitle: "Considering starting a blog to share what I have learnt.",
 
-  blogs: [
+  // blogs: [
     // {
     //   url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
     //   image: "https://miro.medium.com/max/400/1*pYHONrA_3QM4dgtBSKrYWQ.jpeg",
     //   title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
     //   description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min."
     // },
-  ]
+  // ]
 };
 
 // Talks Sections
@@ -148,7 +156,7 @@ const talkSection = {
   // title: "TALKS",
   // subtitle: "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅",
 
-  talks: [
+  // talks: [
   //   {
   //     title: "Build Actions For Google Assistant",
   //     subtitle: "Codelab at GDG DevFest Karachi 2019",
@@ -157,16 +165,16 @@ const talkSection = {
   //     image:
   //       "https://scontent.fkhi6-1.fna.fbcdn.net/v/t1.0-9/76714032_1730516240415559_1293494289556307968_o.jpg?_nc_cat=103&_nc_ohc=s5f81rdZd6wAQmqUa52YQBA21MjVOy7e-HN9jI7MspRDC-v5ahEouyInQ&_nc_ht=scontent.fkhi6-1.fna&oh=c29141a9a0de7ff2011a8191f5475a78&oe=5E83127C"
   //   }
-  ]
+  // ]
 };
 
 // Podcast Section
 const podcastSection = {
-  title: "Podcast 🎙️",
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  // title: "Podcast 🎙️",
+  // subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [""]
+  // podcast: [""]
 };
 
 const contactInfo = {
