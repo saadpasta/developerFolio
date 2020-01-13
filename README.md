@@ -151,7 +151,7 @@ If you can help us with these. Please don't hesitate to open an [pull request](h
 
 - Connect with LinkedIn to get Summary, Skills, Education and Experience
 
-- Move to Gatasby
+- Move to Gatsby
 
 - Add More Sections and Move to Multi Page
 
