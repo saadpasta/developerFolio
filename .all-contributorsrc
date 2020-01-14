@@ -55,6 +55,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "rajkumaar23",
+      "name": "Rajkumar S",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/37476886?v=4",
+      "profile": "https://rajkumaar.co.in",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
