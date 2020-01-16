@@ -34,3 +34,8 @@
     margin-right: 0px;
   }
 }
+@media (max-width: 320px) {
+  .main-button {
+    font-size: 12px;
+  }
+}
