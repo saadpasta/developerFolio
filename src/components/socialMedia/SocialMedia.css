@@ -54,7 +54,7 @@
 /*Hover Transition*/
 .twitter i:hover, .google i:hover, .gitlab i:hover,
 .github i:hover ,.linkedin i:hover ,.facebook i:hover{
-  background-color: black;
+  background-color: green;
   transition: 0.3s ease-in;
 }
 

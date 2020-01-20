@@ -2,29 +2,25 @@
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  title: "Hi all 👋 I'm Saad",
+  title: "Hi all 👋 I'm Marut",
   subTitle:
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks",
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+    "A passionate Full Stack Software Developer 🚀. Loves to build Web and Mobile applications with JavaScript / Reactjs / Nodejs / Python / Flask and some other cool libraries and frameworks.",
+  resumeLink: "https://drive.google.com/file/d/1FqbgO5fH1w0kAshrPsn5SQK0oce8ynSZ/view?usp=sharing"
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7"
+  github: "https://github.com/pandyamarut",
+  linkedin: "https://www.linkedin.com/in/marut-pandya-a16480131/",
+  gmail: "pandyamarut@gmail.com",
 };
 
 const skillsSection = {
   /* Your Skills Section  */
-  title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANT TO EXPLORE EVERY TECH STACK",
+  title: "What I do",
+  subTitle: "PASSIONATE FULL STACK DEVELOPER WHO WANT TO EXPLORE EVERY TECH STACK",
   skills: [
-    "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
-    "⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks",
-    "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+    "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications."
   ],
 
   /* Make Sure You include correct Font Awesome Classname to view your icon */
@@ -55,10 +51,7 @@ const skillsSection = {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+ 
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -66,14 +59,6 @@ const skillsSection = {
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
     },
     {
       skillName: "python",
@@ -199,8 +184,7 @@ const podcastSection = {
 const contactInfo = {
   title: "Contact Me ☎️",
   subtitle: "Discuss a project or just want to say hi my inbox is open for all",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  email_address: "pandyamarut@gmail.com"
 };
 
 export { greeting, socialMediaLinks, skillsSection, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo };
