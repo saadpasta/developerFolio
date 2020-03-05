@@ -104,7 +104,7 @@ const bigProjects = {
       link: "http://saayahealth.com/"
     },
     {
-      image: "http://nextu.se/wp-content/themes/nextu/images/og_img.jpg",
+      image: "https://drive.google.com/uc?id=1MXoXcQRK-pH8J82wyjCW4SJk5AxJe7tf",
       link: "http://nextu.se/"
     }
   ]
