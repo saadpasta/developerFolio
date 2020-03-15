@@ -1,26 +1,29 @@
 import React from "react";
 import "./Top.css";
 
-export default function Top() {
-    mybutton = document.getElementById("myBtn");
 
+export default function Top() {
+    function TopEvent() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
     // When the user scrolls down 20px from the top of the document, show the button
     window.onscroll = function() {scrollFunction()};
+    window.onload = function() {scrollFunction()}; //To make sure that this button is not visible at starting.
         
     function scrollFunction() {
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
+            document.getElementById("topButton").style.visibility = "visible";
         } else {
-        mybutton.style.display = "none";
+            document.getElementById("topButton").style.visibility = "hidden";
         }
     }
         
     // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-        document.body.scrollTop = 0; // For Safari
-        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-    } 
+    function goTop() {
+        alert('Hello!');
+      }
     return (
-        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-hand-o-up" aria-hidden="true"></i></button>
+        <button onClick={TopEvent} id="topButton" title="Go to top"><i class="fa fa-hand-o-up" aria-hidden="true"></i></button>
         );
     }
