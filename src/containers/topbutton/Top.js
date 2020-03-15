@@ -1,5 +1,5 @@
 import React from "react";
-import "./top.css";
+import "./Top.css";
 
 export default function Top() {
     mybutton = document.getElementById("myBtn");
