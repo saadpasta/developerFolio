@@ -20,9 +20,6 @@ export default function Top() {
     }
         
     // When the user clicks on the button, scroll to the top of the document
-    function goTop() {
-        alert('Hello!');
-      }
     return (
         <button onClick={TopEvent} id="topButton" title="Go to top"><i class="fa fa-hand-o-up" aria-hidden="true"></i></button>
         );
