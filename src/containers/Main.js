@@ -10,7 +10,7 @@ import Contact from "./contact/Contact";
 import Footer from "../components/footer/Footer";
 import Talks from "./talks/Talks";
 import Podcast from "./podcast/Podcast";
-import Top from "./topbutton/Top"
+import Top from "./topbutton/Top";
 
 
 export default class Main extends Component {
