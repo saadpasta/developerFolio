@@ -1,15 +1,18 @@
 /* Change this file to get your personal Porfolio */
 
+// Your Summary And Greeting Section
+
 const greeting = {
-  /* Your Summary And Greeting Section */
   title: "Hi all 👋 I'm Saad",
   subTitle:
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks",
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
 };
 
+// Your Social Media Link
+
 const socialMediaLinks = {
-  /* Your Social Media Link */
+
   github: "https://github.com/saadpasta",
   linkedin: "https://www.linkedin.com/in/saadpasta/",
   gmail: "saadpasta70@gmail.com",
@@ -17,8 +20,9 @@ const socialMediaLinks = {
   facebook: "https://www.facebook.com/saad.pasta7"
 };
 
+// Your Skills Section
+
 const skillsSection = {
-  /* Your Skills Section  */
   title: "What i do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANT TO EXPLORE EVERY TECH STACK",
   skills: [
@@ -27,8 +31,8 @@ const skillsSection = {
     "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
   ],
 
-  /* Make Sure You include correct Font Awesome Classname to view your icon */
-  /* https://fontawesome.com/icons?d=gallery */
+/* Make Sure You include correct Font Awesome Classname to view your icon
+https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
@@ -86,16 +90,20 @@ const skillsSection = {
   ]
 };
 
+/* Your Open Source Section to View Your Github Pinned Projects
+To know how to get github key look at readme.md */
+
+
 const openSource = {
-  /* Your Open Source Section to View Your Github Pinned Projects */
-  /* To know how to get github key look at readme.md */
 
   githubConvertedToken: "Your Github Converted Token",
   githubUserName: "Your Github Username"
 };
 
+
+// Some Big Projects You have worked with your company
+
 const bigProjects = {
-  /* Some Big Projects You have worked with your company */
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELP TO CREATE THEIR TECH",
   projects: [
@@ -110,8 +118,10 @@ const bigProjects = {
   ]
 };
 
+// Your Achievement Section Include Your Certification Talks and More
+
 const achievementSection = {
-  /* Your Achievement Section Include Your Certification Talks and More */
+
 
   title: "Achievements And Certifications 🏆 ",
   subtitle: "Achievements, Certifications Award Letters and Some Cool Stuff that i have done !",
@@ -147,8 +157,9 @@ const achievementSection = {
   ]
 };
 
+// Blogs Section
+
 const blogSection = {
-  /* Blogs Section */
 
   title: "Blogs",
   subtitle: "With Love for Developing cool stuff. i love to write and teach others what i have learned",
@@ -188,6 +199,7 @@ const talkSection = {
 };
 
 // Podcast Section
+
 const podcastSection = {
   title: "Podcast 🎙️",
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
