@@ -1,0 +1,12 @@
+.centerContent{
+    display: block;
+    margin: 0 auto;
+}
+.tw-main-div {
+  display: flex;
+  margin-left: 5px; 
+  margin-right : 5px;
+  margin-bottom: 30px;
+  border: solid 1px #55198b;
+  width: auto;
+}
