@@ -1,7 +1,7 @@
 .meter { 
     height: 20px;
     position: relative;
-    background: lightgray;
+    background: rgb(243, 239, 239);
     -moz-border-radius: 25px;
     -webkit-border-radius: 25px;
     border-radius: 25px;
@@ -13,26 +13,57 @@
     border-bottom-right-radius: 6px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    background-color: #050505;
+    background-color: #aaa5ff;
     position: relative;
     overflow: hidden;
 }
-.skill-section{
-    height: 300px;
+.skill{
+    line-height: 3.5vw;
+}
+.skill-bars{
+    font-size: 28px;
+    width: 40%;
+}
+.skills-container {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    justify-content: center;
-    flex-wrap: wrap;
+    width: 90%;
+    padding: 20px 10px;
+    margin: 0px auto;
+    margin-top: 2rem;
 }
-.skill-container {
-    width: 45%;
-    flex-basis:50%;
-    display: flex;
-    height: 300px;
-    justify-content: space-between;
-    flex-direction: column;
+.skills-container > * {
+    flex: 1;
+    margin-bottom: 30px;
 }
-.skill-img{
-    height: 300px;
+.skills-image > img {
+    margin-left: 80px;
+    max-width: 90%;
+    height: auto;
 }
+
+/* Media Query */
+
+@media (max-width: 1456px) {
+    .skills-bar {
+        line-height: 4rem;
+    }
+    .skills-image {
+        display: none;
+        order: 2;
+    }
+}
+
+@media (max-width: 768px) {
+    .skills-container {
+        flex-direction: column
+    }
+    .skills-bar {
+        line-height: 3rem;
+        margin: 20px;
+    }
+    .skills-image {
+        display: none;
+        order: 2;
+    }
+}
+  

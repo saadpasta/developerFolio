@@ -93,18 +93,18 @@ https://fontawesome.com/icons?d=gallery */
 
 // Your experience progress bar in different tech stacks
 
-const skillProgress = {
+const techStack = {
   experience: [
     {
-      techStack: "html-5",
+      Stack: "html-5",
       progressPercentage: "fab fa-html5"
     },
     {
-      techStack: "css3",
+      Stack: "css3",
       progressPercentage: "fab fa-css3-alt"
     },
     {
-      techStack: "sass",
+      Stack: "sass",
       progressPercentage: "fab fa-sass"
     }
   ]
@@ -232,4 +232,4 @@ const contactInfo = {
   email_address: "saadpasta70@gmail.com"
 };
 
-export { greeting, socialMediaLinks, skillsSection, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo, skillProgress };
+export { greeting, socialMediaLinks, skillsSection, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo, techStack };
