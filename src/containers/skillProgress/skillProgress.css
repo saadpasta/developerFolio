@@ -1,0 +1,38 @@
+.meter { 
+    height: 20px;
+    position: relative;
+    background: lightgray;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+}
+.meter > span {
+    display: block;
+    height: 100%;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #050505;
+    position: relative;
+    overflow: hidden;
+}
+.skill-section{
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.skill-container {
+    width: 45%;
+    flex-basis:50%;
+    display: flex;
+    height: 300px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.skill-img{
+    height: 300px;
+}

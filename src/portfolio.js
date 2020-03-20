@@ -90,12 +90,29 @@ https://fontawesome.com/icons?d=gallery */
   ]
 };
 
+// Your experience progress bar in different tech stacks
+
+const skillProgress = {
+  experience: [
+    {
+      techStack: "html-5",
+      progressPercentage: "fab fa-html5"
+    },
+    {
+      techStack: "css3",
+      progressPercentage: "fab fa-css3-alt"
+    },
+    {
+      techStack: "sass",
+      progressPercentage: "fab fa-sass"
+    }
+  ]
+};
+
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
-
 const openSource = {
-
   githubConvertedToken: "Your Github Converted Token",
   githubUserName: "Your Github Username"
 };
@@ -121,7 +138,6 @@ const bigProjects = {
 // Your Achievement Section Include Your Certification Talks and More
 
 const achievementSection = {
-
 
   title: "Achievements And Certifications 🏆 ",
   subtitle: "Achievements, Certifications Award Letters and Some Cool Stuff that i have done !",
@@ -215,4 +231,4 @@ const contactInfo = {
   email_address: "saadpasta70@gmail.com"
 };
 
-export { greeting, socialMediaLinks, skillsSection, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo };
+export { greeting, socialMediaLinks, skillsSection, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo, skillProgress };
