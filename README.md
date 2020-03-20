@@ -130,7 +130,7 @@ const twitterDetails = { ... }
 
 ```
 
-### Adding Twitter Timeline to your Page.
+### Adding Twitter Timeline to your Page
 Editing the sections in Protofolio.js will make the twitter timeline to appear. In the section change your username to add your timeline.
 
 ```javascript
