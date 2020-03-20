@@ -36,9 +36,6 @@ function Header() {
           <li>
             <a href="#contact">Contact Me</a>
           </li>
-          <li>
-            <a href="#twitter">Twitter Feed</a>
-          </li>
         </ul>
       </header>
     </div>

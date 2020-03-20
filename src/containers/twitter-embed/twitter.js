@@ -13,7 +13,7 @@ export default function Twitter() {
 				sourceType="profile"
 				screenName ={ twitterDetails.userName }
 				options={{height:400,width: {widthScreen}}}
-				placeholder="Loading twitter Component Please Wait."
+				placeholder="Can't load? Check privacy protection settings"
 				autoHeight= {false}
 				borderColor= "#fff"
 				noFooter= {true}

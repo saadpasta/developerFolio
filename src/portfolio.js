@@ -1,4 +1,4 @@
-﻿/* Change this file to get your personal Porfolio */
+﻿/* Change this file to get your personal Portfolio */
 
 const greeting = {
   /* Your Summary And Greeting Section */
