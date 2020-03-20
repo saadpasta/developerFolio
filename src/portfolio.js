@@ -3,7 +3,8 @@
 // Your Summary And Greeting Section
 
 const greeting = {
-  title: "Hi all 👋 I'm Saad",
+  /* Your Summary And Greeting Section */
+  title: "Hi all I'm Saad",
   subTitle:
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks",
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
@@ -129,7 +130,7 @@ const bigProjects = {
       link: "http://saayahealth.com/"
     },
     {
-      image: "http://nextu.se/wp-content/themes/nextu/images/og_img.jpg",
+      image: "https://drive.google.com/uc?id=1MXoXcQRK-pH8J82wyjCW4SJk5AxJe7tf",
       link: "http://nextu.se/"
     }
   ]

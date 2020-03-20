@@ -64,6 +64,25 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "viveksharmaui",
+      "name": "Slim Coder",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/28563357?v=4",
+      "profile": "https://github.com/viveksharmaui",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "naveen521kk",
+      "name": "Naveen M K",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/49693820?v=4",
+      "profile": "https://naveen.syrusdark.website",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

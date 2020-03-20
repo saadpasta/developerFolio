@@ -10,7 +10,12 @@ export default function Greeting() {
       <div className="greeting-main">
         <div className="greeting-text-div">
           <div>
-            <h1 className="greeting-text">{greeting.title}</h1>
+            <h1 className="greeting-text">
+              {" "}
+              {greeting.title}
+              {" "}
+              <span className="wave-emoji">👋🏼</span>
+            </h1>
             <p className="greeting-text-p subTitle">{greeting.subTitle}</p>
             <SocialMedia />
             <div className="button-greeting-div">
