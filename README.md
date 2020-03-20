@@ -126,21 +126,37 @@ const blogSection = { .... }
 
 const contactInfo = { .... }
 
+const twitterDetails = { ... }
+
 ```
 
+### Adding Twitter Timeline to your Page
+Insert your Twitter username in `portfolio.js` to show your recent activity on your page.
+
+```javascript
+const twitterDetails = {
+  userName : "Your Twitter Username"
+};
+```
+Note: Don't use `@` symbol when adding username.
 
 ## Technologies used 🛠️
 
 - [React](https://reactjs.org/)
 - [graphql](https://graphql.org/) 
 - [apollo-boost](https://www.apollographql.com/docs/react/get-started/) 
+- [react-twitter-embed](https://github.com/saurabhnemade/react-twitter-embed)
 
 ## illustrations
 - [UnDraw](https://undraw.co/illustrations)
 
 ## Deployment 📦 
 Once you have done with your setup. You need to put your website online!
-I highly recommend to use [Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) to achieve this on the EASIEST WAY
+I highly recommend to use [Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) to achieve this on the EASIEST WAY. 
+
+You could also deploy it directly with Netlify by linking your own repo.
+
+[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/saadpasta/developerFolio)
 
 
 
@@ -152,15 +168,16 @@ This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE)
 
 
 ## For the Future 
-If you can help us with these. Please don't hesitate to open an [pull request](https://github.com/saadpasta/developerFolio/pulls).
+If you can help us with these. Please don't hesitate to open a [pull request](https://github.com/saadpasta/developerFolio/pulls).
 
 - Connect with LinkedIn to get Summary, Skills, Education and Experience
 
 - Move to Gatsby
 
+- Enable Dark Mode
+
 - Add More Sections and Move to Multi Page
 
-- Add Podcast Section and Video Section
 
 ## Contributors ✨
 
