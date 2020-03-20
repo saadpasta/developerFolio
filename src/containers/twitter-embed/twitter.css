@@ -1,12 +1,16 @@
 .centerContent{
     display: block;
     margin: 0 auto;
+    padding: 1.5rem;
 }
 .tw-main-div {
-  display: flex;
-  margin-left: 5px; 
-  margin-right : 5px;
-  margin-bottom: 30px;
-  border: solid 1px #55198b;
+  margin-left: 15px; 
+  margin-right : 15px;
+  margin-bottom: 15px;
   width: auto;
+  padding: 1.5rem;
+}
+.twitter-component{
+  width:auto;
+  padding: 1.5rem;
 }

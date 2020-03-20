@@ -1,6 +1,4 @@
-# Software Developer Folio ⚡️ [![GitHub](https://img.shields.io/github/license/saadpasta/developer-portfolio?color=blue)](https://github.com/saadpasta/developer-portfolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/saadpasta/developer-portfolio)  [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/86c52691ca3c46e4bf887d704c196824)](https://www.codacy.com/manual/saadpasta/developerFolio?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=saadpasta/developerFolio&amp;utm_campaign=Badge_Grade)
-
- [![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/saadpasta/developerFolio)
+# Software Developer Folio ⚡️ [![GitHub](https://img.shields.io/github/license/saadpasta/developer-portfolio?color=blue)](https://github.com/saadpasta/developer-portfolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/saadpasta/developer-portfolio)  [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/86c52691ca3c46e4bf887d704c196824)](https://www.codacy.com/manual/saadpasta/developerFolio?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=saadpasta/developerFolio&amp;utm_campaign=Badge_Grade)[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/saadpasta/developerFolio)
 
 ## A clean, beautiful and responsive portfolio template for Developers!
 
@@ -128,14 +126,26 @@ const blogSection = { .... }
 
 const contactInfo = { .... }
 
+const twitterDetails = { ... }
+
 ```
 
+### Adding Twitter Timeline to your Page.
+Editing the sections in Protofolio.js will make the twitter timeline to appear. In the section change your username to add your timeline.
+
+```javascript
+const twitterDetails = {
+  userName : "username"//replace username with your Twitter Username.
+};
+```
+Note: `@` symbol should not be used when adding username.
 
 ## Technologies used 🛠️
 
 - [React](https://reactjs.org/)
 - [graphql](https://graphql.org/) 
 - [apollo-boost](https://www.apollographql.com/docs/react/get-started/) 
+- [react-twitter-embed](https://github.com/saurabhnemade/react-twitter-embed)
 
 ## illustrations
 - [UnDraw](https://undraw.co/illustrations)
