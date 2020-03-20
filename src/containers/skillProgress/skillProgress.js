@@ -1,5 +1,5 @@
 import React from "react";
-import "./skillProgress.css";
+import "./Progress.css";
 import { techStack } from "../../portfolio";
 
 export default function StackProgress() {
@@ -13,7 +13,7 @@ export default function StackProgress() {
                     <div class="skill">
                         <p>{exp.Stack}</p>
                         <div class="meter">
-                            <span style={{width: '25%'}}></span>
+                            <span style={exp.progressPercentage}></span>
                         </div>
                     </div>
                     );
