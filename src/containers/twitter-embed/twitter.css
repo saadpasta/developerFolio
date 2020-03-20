@@ -14,3 +14,7 @@
   width:auto;
   padding: 1.5rem;
 }
+.timeline-Header-title{
+    font-size: 56px;
+    font-weight: 100 !important;
+}
