@@ -8,10 +8,10 @@ export default function StackProgress() {
 
             <div className="skills-bar">
                 <h1 className="skills-heading">Proficiency</h1>
-                {techStack.experience.map(exp => {
+                {techStack.experience.map((exp) => {
                     const progressStyle = {
                         width: exp.progressPercentage
-                    }
+                    };
                     return (
                     <div className="skill">
                         <p>{exp.Stack}</p>
