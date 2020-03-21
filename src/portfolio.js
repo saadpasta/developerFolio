@@ -91,7 +91,7 @@ https://fontawesome.com/icons?d=gallery */
   ]
 };
 
-// Your experience progress bar in different tech stacks
+// Your top 3 proficient stacks/tech experience
 
 const techStack = {
   experience: [
