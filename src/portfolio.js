@@ -96,16 +96,16 @@ https://fontawesome.com/icons?d=gallery */
 const techStack = {
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "width:'90%'"  //Insert relative proficiency in skill percentage
+      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
+      progressPercentage: "90%"  //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "width:'70%'"
+      progressPercentage: "70%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "width:'60%'"
+      progressPercentage: "60%"
     }
   ]
 };
