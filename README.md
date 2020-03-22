@@ -116,6 +116,8 @@ const socialMediaLinks = {
 
 const skillsSection = { .... }
 
+const techStack = { .... }
+
 const openSource = { .... } 
 
 const bigProjects = { .... }
