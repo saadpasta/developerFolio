@@ -31,7 +31,5 @@ export default function StackProgress() {
             </div>
         );
     }
-    else{
-        return null;
-    }
+    return null;
 }
