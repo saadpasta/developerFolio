@@ -1,5 +1,7 @@
 ﻿/* Change this file to get your personal Portfolio */
 
+// Your Summary And Greeting Section
+
 const greeting = {
   /* Your Summary And Greeting Section */
   title: "Hi all I'm Saad",
@@ -8,8 +10,10 @@ const greeting = {
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
 };
 
+// Your Social Media Link
+
 const socialMediaLinks = {
-  /* Your Social Media Link */
+
   github: "https://github.com/saadpasta",
   linkedin: "https://www.linkedin.com/in/saadpasta/",
   gmail: "saadpasta70@gmail.com",
@@ -17,8 +21,9 @@ const socialMediaLinks = {
   facebook: "https://www.facebook.com/saad.pasta7"
 };
 
+// Your Skills Section
+
 const skillsSection = {
-  /* Your Skills Section  */
   title: "What i do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANT TO EXPLORE EVERY TECH STACK",
   skills: [
@@ -27,8 +32,8 @@ const skillsSection = {
     "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
   ],
 
-  /* Make Sure You include correct Font Awesome Classname to view your icon */
-  /* https://fontawesome.com/icons?d=gallery */
+/* Make Sure You include correct Font Awesome Classname to view your icon
+https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
@@ -86,16 +91,38 @@ const skillsSection = {
   ]
 };
 
-const openSource = {
-  /* Your Open Source Section to View Your Github Pinned Projects */
-  /* To know how to get github key look at readme.md */
+// Your top 3 proficient stacks/tech experience
 
+const techStack = {
+  viewSkillBars: true, //Set it to true to show Proficiency Section
+  experience: [
+    {
+      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
+      progressPercentage: "90%"  //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Backend",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Programming",
+      progressPercentage: "60%"
+    }
+  ]
+};
+
+/* Your Open Source Section to View Your Github Pinned Projects
+To know how to get github key look at readme.md */
+
+const openSource = {
   githubConvertedToken: "Your Github Converted Token",
   githubUserName: "Your Github Username"
 };
 
+
+// Some Big Projects You have worked with your company
+
 const bigProjects = {
-  /* Some Big Projects You have worked with your company */
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELP TO CREATE THEIR TECH",
   projects: [
@@ -110,8 +137,9 @@ const bigProjects = {
   ]
 };
 
+// Your Achievement Section Include Your Certification Talks and More
+
 const achievementSection = {
-  /* Your Achievement Section Include Your Certification Talks and More */
 
   title: "Achievements And Certifications 🏆 ",
   subtitle: "Achievements, Certifications Award Letters and Some Cool Stuff that i have done !",
@@ -147,8 +175,9 @@ const achievementSection = {
   ]
 };
 
+// Blogs Section
+
 const blogSection = {
-  /* Blogs Section */
 
   title: "Blogs",
   subtitle: "With Love for Developing cool stuff. i love to write and teach others what i have learned",
@@ -188,6 +217,7 @@ const talkSection = {
 };
 
 // Podcast Section
+
 const podcastSection = {
   title: "Podcast 🎙️",
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
@@ -203,11 +233,11 @@ const contactInfo = {
   email_address: "saadpasta70@gmail.com"
 };
 
-//Twitter sections
+//Twitter Section
 
 const twitterDetails = {
 
   userName : "twitter"//Replace "twitter" with your twitter username without @
   
 };
-export { greeting, socialMediaLinks, skillsSection, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+export { greeting, socialMediaLinks, skillsSection, techStack, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
