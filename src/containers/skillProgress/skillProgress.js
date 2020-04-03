@@ -11,7 +11,7 @@ export default function StackProgress() {
 							<Fade bottom duration={1000} distance="20px">
 								<h1 className="skills-heading">Proficiency</h1>
 							</Fade>
-							{techStack.experience.map(exp => {
+							{techStack.experience.map((exp) => {
 								const progressStyle = {
 									width: exp.progressPercentage
 								};
