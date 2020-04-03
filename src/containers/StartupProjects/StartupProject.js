@@ -25,7 +25,7 @@ export default function StartupProject() {
 								<Fade bottom duration={2000} distance="20px">
 									<div
 										className="saaya-health-div"
-										onClick={(...args) => openProjectInNewWindow(project.link)}
+										onClick={() => openProjectInNewWindow(project.link)}
 									>
 										<img alt="Saad Working" src={project.image}></img>
 									</div>
