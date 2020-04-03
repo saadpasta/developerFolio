@@ -68,7 +68,7 @@ $ npm install
 ```
 ## Github Setup For Open Source Projects
 
-### Genrate a Github personal access token using these [Instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) `Make sure you don't select any scope just generate a simple token`
+### Generate a Github personal access token using these [Instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) `Make sure you don't select any scope just generate a simple token`
 
 Copy the token and open Chrome Developer Console to convert your token to base64 so github do not revert your token when you push your token to git
 
@@ -200,6 +200,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://naveen.syrusdark.website"><img src="https://avatars1.githubusercontent.com/u/49693820?v=4" width="100px;" alt=""/><br /><sub><b>Naveen M K</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=naveen521kk" title="Code">💻</a></td>
+    <td align="center"><a href="http://msayyaf.com"><img src="https://avatars3.githubusercontent.com/u/22149734?v=4" width="100px;" alt=""/><br /><sub><b>Mohamed Sayyaf</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=msayyaf1" title="Documentation">📖</a></td>
   </tr>
   <tr>
     <td align="center"><a href="https://ashutosh1919.github.io"><img src="https://avatars2.githubusercontent.com/u/20843596?s=460&u=f9348a38571fa0993d58db1c06d471b53210dc74&v=4" width="100px;" alt=""/><br /><sub><b>Ashutosh Hathidara</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=ashutosh1919" title="Code">💻</a></td>
