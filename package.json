@@ -9,6 +9,7 @@
     "graphql": "^14.5.8",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
+    "react-reveal": "^1.2.2",
     "react-scripts": "3.2.0",
     "react-twitter-embed": "3.0.3"
   },

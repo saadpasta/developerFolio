@@ -2,6 +2,7 @@ import React from "react";
 import "./Achievement.css";
 import AchivementCard from "../../components/achievementCard/AchivementCard";
 import { achievementSection } from "../../portfolio";
+import { Fade } from "react-reveal";
 
 export default function Achievement() {
   function openUrlInNewTab(url) {
@@ -9,6 +10,7 @@ export default function Achievement() {
     win.focus();
   }
   return (
+    <Fade bottom duration={1000} distance="20px">
     <div className="main" id="achievements">
       <div className="achievement-main-div">
         <div className="achievement-header">
@@ -31,5 +33,6 @@ export default function Achievement() {
         </div>
       </div>
     </div>
+    </Fade>
   );
 }
