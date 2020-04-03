@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import {Fade} from 'react-reveal';
+import {Fade} from "react-reveal";
 
 function Header() {
   return (

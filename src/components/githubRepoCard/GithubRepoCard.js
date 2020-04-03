@@ -1,6 +1,6 @@
 import React from "react";
 import "./GithubRepoCard.css";
-import { Fade } from 'react-reveal';
+import { Fade } from "react-reveal";
 
 export default function GithubRepoCard({ repo }) {
   function openRepoinNewTab(url) {

@@ -2,7 +2,7 @@ import React from "react";
 import "./Contact.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import {contactInfo} from "../../portfolio";
-import { Fade } from 'react-reveal';
+import { Fade } from "react-reveal";
 
 export default function Contact() {
     return (
