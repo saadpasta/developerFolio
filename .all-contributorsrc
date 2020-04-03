@@ -92,6 +92,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "ashutosh1919",
+      "name": "Ashutosh Hathidara",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/20843596?v=4",
+      "profile": "https://ashutosh1919.github.io",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
