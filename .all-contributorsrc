@@ -83,6 +83,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "msayyaf1",
+      "name": "Mohamed Sayyaf",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/22149734?v=4",
+      "profile": "http://msayyaf.com",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
