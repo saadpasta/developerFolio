@@ -201,6 +201,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://naveen.syrusdark.website"><img src="https://avatars1.githubusercontent.com/u/49693820?v=4" width="100px;" alt=""/><br /><sub><b>Naveen M K</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=naveen521kk" title="Code">💻</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://ashutosh1919.github.io"><img src="https://avatars2.githubusercontent.com/u/20843596?s=460&u=f9348a38571fa0993d58db1c06d471b53210dc74&v=4" width="100px;" alt=""/><br /><sub><b>Ashutosh Hathidara</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=ashutosh1919" title="Code">💻</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->
