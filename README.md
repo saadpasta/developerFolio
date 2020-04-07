@@ -57,7 +57,7 @@ From your command line, clone and run developerFolio:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/username/developerFolio.git
+$ git clone https://github.com/saadpasta/developerFolio.git
 
 # Go into the repository
 $ cd developerFolio
@@ -92,7 +92,7 @@ Copy your converted token and paste it in `/src/portfolio.js`
 
 ## Change and customize every section according to your need.
 
-### To Change website content go to `/src/portfolio.js` and change content according to yours.
+### To Change website content go to `/src/portfolio.js` & modify it as per your need.
 
 ```javascript
 /* Change this file to get your Personal Porfolio */
@@ -149,7 +149,7 @@ Note: Don't use `@` symbol when adding username.
 - [apollo-boost](https://www.apollographql.com/docs/react/get-started/) 
 - [react-twitter-embed](https://github.com/saurabhnemade/react-twitter-embed)
 
-## illustrations
+## Illustrations
 - [UnDraw](https://undraw.co/illustrations)
 
 ## Deployment 📦 
