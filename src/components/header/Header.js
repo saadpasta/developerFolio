@@ -1,8 +1,10 @@
 import React from "react";
 import "./Header.css";
+import {Fade} from "react-reveal";
 
 function Header() {
   return (
+    <Fade top duration={1000} distance="20px">
     <div>
       <header className="header">
         <a href="" className="logo">
@@ -39,6 +41,7 @@ function Header() {
         </ul>
       </header>
     </div>
+    </Fade>
   );
 }
 export default Header;

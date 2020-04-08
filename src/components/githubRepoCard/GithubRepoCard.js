@@ -1,5 +1,6 @@
 import React from "react";
 import "./GithubRepoCard.css";
+import { Fade } from "react-reveal";
 
 export default function GithubRepoCard({ repo }) {
   function openRepoinNewTab(url) {
@@ -8,6 +9,7 @@ export default function GithubRepoCard({ repo }) {
   }
 
   return (
+    <Fade bottom duration={1000} distance="20px">
     <div>
       <div className="repo-card-div" key={repo.node.id} onClick={() => openRepoinNewTab(repo.node.url)}>
         <div className="repo-name-div">
@@ -48,5 +50,6 @@ export default function GithubRepoCard({ repo }) {
         </div>
       </div>
     </div>
+    </Fade>
   );
 }

@@ -2,9 +2,11 @@ import React from "react";
 import "./Talks.css";
 import TalkCard from "../../components/talkCard/TalkCard";
 import { talkSection } from "../../portfolio";
+import { Fade } from "react-reveal";
 
 export default function Talks() {
   return (
+    <Fade bottom duration={1000} distance="20px">
     <div className="main" id="talks">
       <div className="talk-header">
         <h1 className="talk-header-title">{talkSection.title}</h1>
@@ -24,5 +26,6 @@ export default function Talks() {
         })}
       </div>
     </div>
+    </Fade>
   );
 }

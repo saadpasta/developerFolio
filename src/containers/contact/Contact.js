@@ -2,9 +2,11 @@ import React from "react";
 import "./Contact.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import {contactInfo} from "../../portfolio";
+import { Fade } from "react-reveal";
 
 export default function Contact() {
     return (
+        <Fade bottom duration={1000} distance="20px">
         <div className="main contact-margin-top" id="contact">
             <div className="contact-div-main">
                 <div className="contact-header">
@@ -25,5 +27,6 @@ export default function Contact() {
                 </div>
             </div>
         </div>
+        </Fade>
     );
 }
