@@ -10,7 +10,7 @@
 </p>
 
 
-Just change `src/porfolio.js` to get your personal portfolio . Feel free to use it as-is or customize it as much as you want. Please redfer to the note about emoji [here](https://github.com/saadpasta/developerFolio#change-and-customize-every-section-according-to-your-need).
+Just change `src/porfolio.js` to get your personal portfolio . Feel free to use it as-is or customize it as much as you want. Please redfer to the note about emoji [here](#change-and-customize-every-section-according-to-your-need).
 
 But if you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/saadpasta/developerFolio/issues).
 
