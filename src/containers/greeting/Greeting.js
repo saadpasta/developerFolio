@@ -4,7 +4,7 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import {Fade} from "react-reveal";
-import emoji from 'react-easy-emoji';
+import emoji from "react-easy-emoji";
 
 export default function Greeting() {
   return (
@@ -17,7 +17,7 @@ export default function Greeting() {
               {" "}
               {greeting.title}
               {" "}
-              <span className="wave-emoji">{emoji('👋',{baseUrl:'https://twemoji.maxcdn.com/2/svg/',ext:'.svg',size:''})}</span>
+              <span className="wave-emoji">{emoji("👋",{baseUrl:"https://twemoji.maxcdn.com/2/svg/",ext:".svg",size:""})}</span>
             </h1>
             <p className="greeting-text-p subTitle">{greeting.subTitle}</p>
             <SocialMedia />
