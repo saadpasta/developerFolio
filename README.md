@@ -94,6 +94,7 @@ Copy your converted token and paste it in `/src/portfolio.js`
 
 ### To Change website content go to `/src/portfolio.js` and change content according to yours.
 
+For adding emoji😃 into the texts in Protofolio.js, you should use `emoji()` function and pass the text you need to add as an argument. This would help in uniform rendering of Emoji. 
 ```javascript
 /* Change this file to get your Personal Porfolio */
 

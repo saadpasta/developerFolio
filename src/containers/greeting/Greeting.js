@@ -17,7 +17,7 @@ export default function Greeting() {
               {" "}
               {greeting.title}
               {" "}
-              <span className="wave-emoji">{emoji('👋',{baseUrl:'ahttps://twemoji.maxcdn.com/2/svg/',ext:'.svg',size:''})}</span>
+              <span className="wave-emoji">{emoji('👋',{baseUrl:'https://twemoji.maxcdn.com/2/svg/',ext:'.svg',size:''})}</span>
             </h1>
             <p className="greeting-text-p subTitle">{greeting.subTitle}</p>
             <SocialMedia />
