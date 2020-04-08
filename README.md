@@ -57,7 +57,7 @@ From your command line, clone and run developerFolio:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/username/developerFolio.git
+$ git clone https://github.com/saadpasta/developerFolio.git
 
 # Go into the repository
 $ cd developerFolio
@@ -92,7 +92,7 @@ Copy your converted token and paste it in `/src/portfolio.js`
 
 ## Change and customize every section according to your need.
 
-### To Change website content go to `/src/portfolio.js` and change content according to yours.
+### To Change website content go to `/src/portfolio.js` & modify it as per your need.
 
 For adding emoji 😃 into the texts in Protofolio.js, you should use `emoji()` function and pass the text you need to add as an argument. This would help in uniform rendering of Emoji. 
 
@@ -152,7 +152,7 @@ Note: Don't use `@` symbol when adding username.
 - [apollo-boost](https://www.apollographql.com/docs/react/get-started/) 
 - [react-twitter-embed](https://github.com/saurabhnemade/react-twitter-embed)
 
-## illustrations
+## Illustrations
 - [UnDraw](https://undraw.co/illustrations)
 
 ## Deployment 📦 
@@ -205,6 +205,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://naveen.syrusdark.website"><img src="https://avatars1.githubusercontent.com/u/49693820?v=4" width="100px;" alt=""/><br /><sub><b>Naveen M K</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=naveen521kk" title="Code">💻</a></td>
     <td align="center"><a href="http://msayyaf.com"><img src="https://avatars3.githubusercontent.com/u/22149734?v=4" width="100px;" alt=""/><br /><sub><b>Mohamed Sayyaf</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=msayyaf1" title="Documentation">📖</a></td>
     <td align="center"><a href="https://ashutosh1919.github.io"><img src="https://avatars3.githubusercontent.com/u/20843596?v=4" width="100px;" alt=""/><br /><sub><b>Ashutosh Hathidara</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=ashutosh1919" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.upwork.com/freelancers/~01d10c23d4ffe3c658"><img src="https://avatars0.githubusercontent.com/u/8683960?v=4" width="100px;" alt=""/><br /><sub><b>Rizwan Jamal ⚡️</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=Rizwanjamal" title="Documentation">📖</a></td>
   </tr>
 </table>
 
