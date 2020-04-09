@@ -151,6 +151,7 @@ Note: Don't use `@` symbol when adding username.
 - [graphql](https://graphql.org/) 
 - [apollo-boost](https://www.apollographql.com/docs/react/get-started/) 
 - [react-twitter-embed](https://github.com/saurabhnemade/react-twitter-embed)
+- [react-easy-emoji](https://github.com/appfigures/react-easy-emoji)
 
 ## Illustrations
 - [UnDraw](https://undraw.co/illustrations)
