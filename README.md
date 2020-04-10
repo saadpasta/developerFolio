@@ -10,7 +10,7 @@
 </p>
 
 
-Just change `src/porfolio.js` to get your personal portfolio . Feel free to use it as-is or customize it as much as you want. 
+Just change `src/portfolio.js` to get your personal portfolio . Feel free to use it as-is or customize it as much as you want.
 
 But if you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/saadpasta/developerFolio/issues).
 
@@ -94,13 +94,17 @@ Copy your converted token and paste it in `/src/portfolio.js`
 
 ### To Change website content go to `/src/portfolio.js` & modify it as per your need.
 
+#### Using Emojis
+
+For adding emoji 😃 into the texts in Portfolio.js, use the `emoji()` function and pass the text you need as an argument. This would help in keeping Emojis compatible across different browsers and platforms.
+
 ```javascript
 /* Change this file to get your Personal Porfolio */
 
-const gretting = {
-  /* Your Summary And Gretting Section */
-  title: "Hi all 👋 I'm Saad",
-  subTitle: "A passionate Full Stack Software Developer 🚀.
+const greeting = {
+  /* Your Summary And Greeting Section */
+  title: "Hi all I'm Saad",
+  subTitle: emoji("A passionate Full Stack Software Developer 🚀"),
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
 };
 
@@ -132,7 +136,7 @@ const twitterDetails = { ... }
 
 ```
 
-### Adding Twitter Timeline to your Page
+#### Adding Twitter Timeline to your Page
 Insert your Twitter username in `portfolio.js` to show your recent activity on your page.
 
 ```javascript
@@ -148,6 +152,7 @@ Note: Don't use `@` symbol when adding username.
 - [graphql](https://graphql.org/) 
 - [apollo-boost](https://www.apollographql.com/docs/react/get-started/) 
 - [react-twitter-embed](https://github.com/saurabhnemade/react-twitter-embed)
+- [react-easy-emoji](https://github.com/appfigures/react-easy-emoji)
 
 ## Illustrations
 - [UnDraw](https://undraw.co/illustrations)
