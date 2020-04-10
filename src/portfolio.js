@@ -1,13 +1,14 @@
-﻿import emoji from "react-easy-emoji";
+﻿
 /* Change this file to get your personal Portfolio */
 
 // Your Summary And Greeting Section
 
+import emoji from "react-easy-emoji";
+
 const greeting = {
   /* Your Summary And Greeting Section */
   title: "Hi all I'm Saad",
-  subTitle:
-    emoji("A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks",{baseUrl:"https://twemoji.maxcdn.com/2/svg/",ext:".svg",size:""}),
+  subTitle: emoji("A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks",{baseUrl:"https://twemoji.maxcdn.com/2/svg/",ext:".svg",size:""}),
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
 };
 

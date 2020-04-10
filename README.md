@@ -10,7 +10,7 @@
 </p>
 
 
-Just change `src/porfolio.js` to get your personal portfolio . Feel free to use it as-is or customize it as much as you want. Please refer to the note about emoji [here](#change-and-customize-every-section-according-to-your-need).
+Just change `src/portfolio.js` to get your personal portfolio . Feel free to use it as-is or customize it as much as you want.
 
 But if you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/saadpasta/developerFolio/issues).
 
@@ -94,7 +94,9 @@ Copy your converted token and paste it in `/src/portfolio.js`
 
 ### To Change website content go to `/src/portfolio.js` & modify it as per your need.
 
-For adding emoji 😃 into the texts in Protofolio.js, you should use `emoji()` function and pass the text you need to add as an argument. This would help in uniform rendering of Emoji. 
+### Using Emojis:
+
+For adding emoji 😃 into the texts in Portfolio.js, use the `emoji()` function and pass the text you need as an argument. This would help in keeping Emojis compatible across different browsers and platforms.
 
 ```javascript
 /* Change this file to get your Personal Porfolio */
@@ -102,8 +104,7 @@ For adding emoji 😃 into the texts in Protofolio.js, you should use `emoji()` 
 const greeting = {
   /* Your Summary And Greeting Section */
   title: "Hi all I'm Saad",
-  subTitle:
-    emoji("A passionate Full Stack Software Developer 🚀"),
+  subTitle: emoji("A passionate Full Stack Software Developer 🚀"),
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
 };
 
