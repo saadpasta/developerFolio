@@ -94,7 +94,7 @@ Copy your converted token and paste it in `/src/portfolio.js`
 
 ### To Change website content go to `/src/portfolio.js` & modify it as per your need.
 
-#### Using Emojis:
+#### Using Emojis
 
 For adding emoji 😃 into the texts in Portfolio.js, use the `emoji()` function and pass the text you need as an argument. This would help in keeping Emojis compatible across different browsers and platforms.
 
@@ -136,7 +136,7 @@ const twitterDetails = { ... }
 
 ```
 
-### Adding Twitter Timeline to your Page
+#### Adding Twitter Timeline to your Page
 Insert your Twitter username in `portfolio.js` to show your recent activity on your page.
 
 ```javascript
