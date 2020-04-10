@@ -121,6 +121,16 @@ const achievementSection = {
         { name: "Udemy Course", url: "https://www.udemy.com/course/the-web-developer-bootcamp/" }
       ]
     },
+    {
+      title: "Flutter Developer",
+      description: "Completed Flutter Developer Course on Udemy",
+      image: "https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg",
+      footerLink: [
+        {name: "Certification", url: "https://udemy-certificate.s3.amazonaws.com/image/UC-b140cee4-0dda-4a76-b226-35764b953964.jpg?v=1586560149000"},
+        {name: "Award Letter", url: "https://www.udemy.com/certificate/UC-b140cee4-0dda-4a76-b226-35764b953964/"},
+        {name: "Udemy Course", url: "https://www.udemy.com/course/flutter-bootcamp-with-dart/"}
+      ]
+    }
     // {
     //   title: "Cloud Fundamentals",
     //   description: ""
