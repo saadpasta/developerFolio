@@ -5,6 +5,7 @@ const greeting = {
   title: "Hi all 👋 I'm Simba",
   subTitle:
     "A passionate Full Stack Software Developer 🚀 having experience of building Web and Mobile applications with JavaScript / Dart / Nodejs / Flutter and some other cool libraries and frameworks",
+    // CV
   resumeLink: "https://drive.google.com/file/d/1fqQy-SQkK6qa60SWd52Id960eVQlDL0B/view?usp=sharing"
 };
 
@@ -22,7 +23,7 @@ const skillsSection = {
   subTitle: "FULL STACK AND FLUTTER DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     "⚡ FullStack Web Developer",
-    "⚡ FLutter Developer"
+    "⚡ Flutter Developer"
   ],
 
   /* Make Sure You include correct Font Awesome Classname to view your icon */
