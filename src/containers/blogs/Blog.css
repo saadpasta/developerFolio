@@ -60,9 +60,6 @@
 
 @media screen and (max-width: 480px) and (min-width:300px){
   .blog-text-div{
-    
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      
-      
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
 }
