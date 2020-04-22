@@ -14,9 +14,10 @@ import Talks from "./talks/Talks";
 import Podcast from "./podcast/Podcast";
 import Top from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
-import Profile from "./profile/Profile";
 import { StyleProvider } from "../contexts/StyleContext";
 import "./Main.css";
+import Profile from "./profile/Profile";
+
 export default class Main extends Component {
   constructor(props) {
     super(props);
@@ -26,7 +27,7 @@ export default class Main extends Component {
   }
 
   componentDidMount() {
-    const darkPref = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
     this.setState({ isDark: darkPref.matches });
   }
   changeTheme = () => {
@@ -43,6 +44,7 @@ export default class Main extends Component {
           <Greeting />
           <Skills />
           <StackProgress />
+          <WorkExperience />
           <Projects />
           <StartupProject />
           <Achievement />
@@ -50,25 +52,10 @@ export default class Main extends Component {
           <Talks />
           <Twitter />
           <Podcast />
-          <Contact />
+          <Profile />
           <Footer />
           <Top />
         </StyleProvider>
-        <Greeting />
-        <Skills />
-        <StackProgress />
-        <Education />
-        <WorkExperience />
-        <Projects />
-        <StartupProject />
-        <Achievement />
-        <Blogs />
-        <Talks />
-        <Twitter />
-        <Podcast />
-        <Profile />
-        <Footer />
-        <Top />
       </div>
     );
   }

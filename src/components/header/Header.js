@@ -1,17 +1,18 @@
 import React, { useContext } from "react";
 import Headroom from "react-headroom";
 import "./Header.css";
-import { greeting, workExperiences } from "../../portfolio";
-import { Fade } from "react-reveal";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
-import StyleContext  from "../../contexts/StyleContext";
+import StyleContext from "../../contexts/StyleContext";
+import { Fade } from "react-reveal";
+import { greeting, workExperiences } from "../../portfolio";
+
 
 function Header() {
   const { isDark } = useContext(StyleContext);
   const exp = workExperiences.viewExperiences;
   return (
     <Headroom>
-      <header className="header">
+      <header className={isDark ? "dark-menu header": "header"}>
         <a href="" className="logo">
           <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>
@@ -25,12 +26,7 @@ function Header() {
           <li>
             <a href="#skills">Skills</a>
           </li>
-          {educationInfo.viewEducation && (
-            <li>
-              <a href="#education">Education</a>
-            </li>
-          )}
-          {workExperiences.viewExperiences && (
+          {exp === true &&
             <li>
               <a href="#experience">Work Experiences</a>
             </li>
@@ -39,10 +35,7 @@ function Header() {
             <a href="#opensource">Open Source</a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
-          </li>
-          <li>
-            <a href="#opensource">Open Source</a>
+            <a href="#achievements">Achievements</a>
           </li>
           <li>
             <a href="#blogs">Blogs</a>
@@ -57,10 +50,10 @@ function Header() {
             <a href="#contact">Contact Me</a>
           </li>
           <li>
-             <a><ToggleSwitch /></a>
+            <a><ToggleSwitch /></a>
           </li>
         </ul>
-       
+
       </header>
     </Headroom>
   );
