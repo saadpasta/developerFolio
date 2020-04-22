@@ -83,7 +83,7 @@ Set an environment variable named `REACT_APP_GITHUB_TOKEN=<Your encoded token he
   
 Optionally set the environment variable `REACT_APP_GITHUB_NAME=<YOUR GITHUB USERNAME>` or edit in `src/portfolio.js`
 
-For more information on how to set environment variables click [here](https://www.twilio.com/blog/2017/01/how-to-set-environment-variables.html)
+For more information on how to set environment variables click [here](https://www.twilio.com/blog/2017/01/how-to-set-environment-variables.html) and in react [here](https://create-react-app.dev/docs/adding-custom-environment-variables/)
 
 ```javascript
   const openSource = {
