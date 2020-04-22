@@ -23,11 +23,11 @@ export default class Main extends Component {
     this.state = {
       isDark: false,
       style: { backgroundColor: "none", color: "black" }
-    }
+    };
   }
 
   changeTheme = () => {
-    this.setState({ style: { backgroundColor: "black", color: "white", transition: "0.1s" }, isDark: !this.state.isDark })
+    this.setState({ style: { backgroundColor: "black", color: "white", transition: "0.1s" }, isDark: !this.state.isDark });
   }
 
   render() {
