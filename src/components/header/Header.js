@@ -35,9 +35,6 @@ function Header() {
             <a href="#opensource">Open Source</a>
           </li>
           <li>
-            <a href="#achievements">Achievements</a>
-          </li>
-          <li>
             <a href="#blogs">Blogs</a>
           </li>
           <li>
