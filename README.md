@@ -47,7 +47,7 @@ git@2.17.1 or higher
 
 ```
 1) BUILD IMAGE : docker build -t developerfolio:latest .
-2) RUN IMAGE: docker run -p 3000:3000 developerfolio:latest
+2) RUN IMAGE: docker run -p 3000:3000 -e REACT_APP_GITHUB_TOKEN=<YOUR TOKEN HERE> developerfolio:latest
 ```
 
 
@@ -77,7 +77,13 @@ Copy the token and open Chrome Developer Console to convert your token to base64
 $ btoa("YOUR GITHUB TOKEN")
 ```
 
-Copy your converted token and paste it in `/src/portfolio.js`
+~~(DEPRECATED) Copy your converted token and paste it in `/src/portfolio.js`~~
+
+Set an environment variable named `REACT_APP_GITHUB_TOKEN=<Your encoded token here>`
+  
+Optionally set the environment variable `REACT_APP_GITHUB_NAME=<YOUR GITHUB USERNAME>` or edit in `src/portfolio.js`
+
+For more information on how to set environment variables click [here](https://www.twilio.com/blog/2017/01/how-to-set-environment-variables.html)
 
 ```javascript
   const openSource = {
