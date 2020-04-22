@@ -53,11 +53,6 @@ function Header({ style }) {
               Contact Me
             </a>
           </li>
-          <li>
-            <a>
-              <ToggleSwitch />
-            </a>
-          </li>
         </ul>
         <ToggleSwitch />
       </header>
