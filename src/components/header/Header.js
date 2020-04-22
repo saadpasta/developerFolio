@@ -1,18 +1,13 @@
 import React, { useContext } from "react";
 import Headroom from "react-headroom";
 import "./Header.css";
-import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
-import StyleContext from "../../contexts/StyleContext";
 import { Fade } from "react-reveal";
-import { greeting, workExperiences } from "../../portfolio";
+import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 
-
-function Header() {
-  const { isDark } = useContext(StyleContext);
-  const exp = workExperiences.viewExperiences;
+function Header({ style }) {
   return (
     <Headroom>
-      <header className={isDark ? "dark-menu header": "header"}>
+      <header className={isDark ? "dark-menu header" : "header"}>
         <a href="" className="logo">
           <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>
@@ -22,35 +17,49 @@ function Header() {
         <label className="menu-icon" htmlFor="menu-btn">
           <span className="navicon"></span>
         </label>
-        <ul className={isDark ? "dark-menu menu" : "menu"}>
+        <ul className="menu" style={{ ...style }}>
           <li>
-            <a href="#skills">Skills</a>
-          </li>
-          {exp === true &&
-            <li>
-              <a href="#experience">Work Experiences</a>
-            </li>
-          )}
-          <li>
-            <a href="#opensource">Open Source</a>
+            <a href="#skills" style={{ ...style }}>
+              Skills
+            </a>
           </li>
           <li>
-            <a href="#blogs">Blogs</a>
+            <a href="#projects" style={{ ...style }}>
+              Projects
+            </a>
           </li>
           <li>
-            <a href="#talks">Talks</a>
+            <a href="#opensource" style={{ ...style }}>
+              Open Source
+            </a>
           </li>
           <li>
-            <a href="#achievements">Achievements</a>
+            <a href="#blogs" style={{ ...style }}>
+              Blogs
+            </a>
           </li>
           <li>
-            <a href="#contact">Contact Me</a>
+            <a href="#talks" style={{ ...style }}>
+              Talks
+            </a>
           </li>
           <li>
-            <a><ToggleSwitch /></a>
+            <a href="#achievements" style={{ ...style }}>
+              Achievements
+            </a>
+          </li>
+          <li>
+            <a href="#contact" style={{ ...style }}>
+              Contact Me
+            </a>
+          </li>
+          <li>
+            <a>
+              <ToggleSwitch />
+            </a>
           </li>
         </ul>
-
+        <ToggleSwitch />
       </header>
     </Headroom>
   );

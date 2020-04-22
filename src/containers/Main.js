@@ -15,47 +15,42 @@ import Podcast from "./podcast/Podcast";
 import Top from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
 import { StyleProvider } from "../contexts/StyleContext";
-import "./Main.css";
-import Profile from "./profile/Profile";
 
 export default class Main extends Component {
   constructor(props) {
     super(props);
     this.state = {
       isDark: false,
+      style: { backgroundColor: "none", color: "black" },
     };
   }
 
-  componentDidMount() {
-    const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
-    this.setState({ isDark: darkPref.matches });
-  }
   changeTheme = () => {
-    this.setState({ isDark: !this.state.isDark });
+    this.setState({
+      style: { backgroundColor: "black", color: "white", transition: "0.1s" },
+      isDark: !this.state.isDark,
+    });
   };
 
   render() {
     return (
-      <div className={this.state.isDark ? "dark-mode" : null}>
-        <StyleProvider
-          value={{ isDark: this.state.isDark, changeTheme: this.changeTheme }}
-        >
-          <Header />
-          <Greeting />
-          <Skills />
-          <StackProgress />
-          <WorkExperience />
-          <Projects />
-          <StartupProject />
-          <Achievement />
-          <Blogs />
-          <Talks />
-          <Twitter />
-          <Podcast />
-          <Profile />
-          <Footer />
-          <Top />
+      <div style={this.state.isDark ? this.state.style : null}>
+        <StyleProvider value={{ changeTheme: this.changeTheme }}>
+          <Header style={this.state.isDark ? this.state.style : null} />
         </StyleProvider>
+        <Greeting />
+        <Skills />
+        <StackProgress />
+        <Projects />
+        <StartupProject />
+        <Achievement />
+        <Blogs />
+        <Talks />
+        <Twitter />
+        <Podcast />
+        <Contact />
+        <Footer />
+        <Top />
       </div>
     );
   }
