@@ -29,35 +29,36 @@ export default function Projects() {
     client
       .query({
         query: gql`
-          {
-            repositoryOwner(login: "${openSource.githubUserName}") {
-              ... on User {
-                pinnedRepositories(first: 6) {
-                  edges {
-                    node {
-                      nameWithOwner
-                      description
-                      forkCount
-                      stargazers {
-                        totalCount
-                      }
-                      url
-                      id
-                      diskUsage
-                      primaryLanguage {
-                        name
-                        color
-                      }
-                    }
+        {
+        user(login: "${openSource.githubUserName}") {
+          pinnedItems(first: 6, types: [REPOSITORY]) {
+            totalCount
+            edges {
+              node {
+                ... on Repository {
+                  name
+                  description
+                  forkCount
+                  stargazers {
+                    totalCount
+                  }
+                  url
+                  id
+                  diskUsage
+                  primaryLanguage {
+                    name
+                    color
                   }
                 }
               }
             }
           }
+        }
+      }
         `
       })
       .then(result => {
-        setrepoFunction(result.data.repositoryOwner.pinnedRepositories.edges);
+        setrepoFunction(result.data.user.pinnedItems.edges);
         console.log(result);
       });
   }
