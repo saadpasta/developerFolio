@@ -20,12 +20,12 @@ export default class Main extends Component {
     super(props);
     this.state = {
       isDark: false,
-      style: { backgroundColor: "none", color: "black" }
+      style: { backgroundColor: "none", color: "#171c28" }
     };
   }
 
   changeTheme = () => {
-    this.setState({ style: { backgroundColor: "black", color: "white", transition: "0.1s" }, isDark: !this.state.isDark });
+    this.setState({ style: { backgroundColor: "#171c28", color: "white", transition: "0.1s" }, isDark: !this.state.isDark });
   }
 
   render() {
