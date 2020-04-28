@@ -1,5 +1,6 @@
 {
-  "name": "saadpasta.github.io",
+  "name": "developerFolio",
+  "homepage": "https://saadpasta.github.io/developerFolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,7 +18,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "gh-pages -b master -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
