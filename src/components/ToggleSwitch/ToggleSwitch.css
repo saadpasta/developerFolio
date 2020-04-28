@@ -1,8 +1,8 @@
 .switch {
   position: relative;
   display: inline-block;
-  width: 60px;
-  height: 34px;
+  width: 55px;
+  height: 26px;
 }
 
 .slider {
@@ -21,9 +21,9 @@
   position: absolute;
   content: "";
   height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
+  width: 28px;
+  left: 0px;
+  bottom: 0px;
   background-color: white;
   -webkit-transition: 0.4s;
   transition: 0.4s;
