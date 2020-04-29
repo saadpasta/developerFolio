@@ -6,11 +6,11 @@ import { Fade } from "react-reveal";
 
 
 export default function Twitter() {
-	if (twitterDetails.userName){
-		return (
-			<Fade bottom duration={1000} distance="20px">
+    if (twitterDetails.userName){
+        return (
+            <Fade bottom duration={1000} distance="20px">
             <div className="main" id="twitter">
-			<h1 className="tw-header-text">Tweets </h1>
+            <h1 className="tw-header-text">Tweets </h1>
 			<p className="subTitle tw-subtitle">By @{twitterDetails.userName}</p>
 			
 			<div className="centerContent">
