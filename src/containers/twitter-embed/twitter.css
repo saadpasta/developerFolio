@@ -2,19 +2,35 @@
     display: block;
     margin: 0 auto;
     padding: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
 }
-.tw-main-div {
-  margin-left: 15px; 
-  margin-right : 15px;
-  margin-bottom: 15px;
-  width: auto;
-  padding: 1.5rem;
+.centerContent:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
 }
-.twitter-component{
-  width:auto;
-  padding: 1.5rem;
+
+.tw-header-text {
+  font-size: 56px;
+  font-weight: 400;
 }
-.timeline-Header-title{
-    font-size: 56px;
-    font-weight: 100 !important;
+
+.tw-subtitle{
+  float: right;
+  font-size: 20px;
+}
+@media (max-width: 1380px) {
+  .tw-header-text {
+    font-size: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .tw-header-text {
+    font-size: 30px;
+    text-align: center;
+  }
+  .tw-subtitle {
+    font-size: 20px;
+    line-height: normal;
+    float: right;
+    text-align: center;
+  }
 }
