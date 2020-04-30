@@ -1,3 +1,4 @@
+import emoji from 'react-easy-emoji';
 import React, {useState, useEffect} from 'react';
 import ApolloClient from 'apollo-boost';
 import {gql} from 'apollo-boost';
@@ -72,7 +73,9 @@ const Projects = () => {
 	return (
 		<Fade bottom duration={1000} distance="20px">
 			<div className="main" id="opensource">
-				<h2 className="project-title">Open Source Projects</h2>
+				<h2 className="project-title">
+					{emoji('🚀')} Open Source Projects
+				</h2>
 				<div className="repo-cards-div-main">
 					{repo.map((v, i) => {
 						return <GithubRepoCard repo={v} key={v.node.id} />;

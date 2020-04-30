@@ -4,11 +4,10 @@
 	padding: 1.5rem;
 }
 .tw-main-div {
-	margin-left: 15px;
-	margin-right: 15px;
-	margin-bottom: 15px;
 	width: auto;
 	padding: 1.5rem;
+	max-width: 55rem;
+	margin: 15px auto;
 }
 .twitter-component {
 	width: auto;

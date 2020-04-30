@@ -13,10 +13,13 @@
 
 .contact-detail,
 .contact-detail-email {
+	display: block;
+	margin-bottom: 1rem;
+	color: #6c63ff;
 	margin-top: 20px;
-	font-size: 40px;
-	font-weight: 400;
-	color: #868e96;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
 	text-decoration: none;
 }
 
@@ -25,10 +28,6 @@
 	color: black;
 	text-shadow: 2px 1px 2px #b5b5b5;
 	transition: all 0.3s;
-}
-
-.contact-subtitle {
-	text-transform: uppercase;
 }
 
 .contact-text-div {

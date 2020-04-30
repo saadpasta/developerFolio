@@ -28,3 +28,8 @@
 .subTitle {
 	color: #868e96;
 }
+
+h2 {
+	text-transform: uppercase !important;
+	font-size: 2rem !important;
+}

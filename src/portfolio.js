@@ -120,7 +120,7 @@ const openSource = {
 
 // Some Big Projects You have worked with your company.
 const bigProjects = {
-	title: 'Big Projects',
+	title: emoji('🗃 Big Projects'),
 	subtitle: 'Startups and Companies that I help to create their tech',
 	projects: [
 		{
@@ -140,7 +140,7 @@ const bigProjects = {
 const achievementSection = {
 	title: emoji('Achievements And Certifications 🏆 '),
 	subtitle:
-		'Achievements, Certifications Award Letters and Some Cool Stuff that I have done !',
+		'Achievements, Certifications Award Letters and Some Cool Stuff that I have done!',
 
 	achivementsCards: [
 		{
@@ -246,7 +246,7 @@ const talkSection = {
 // Podcast Section.
 const podcastSection = {
 	title: emoji('🎙️ Podcast'),
-	subtitle: 'I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY',
+	subtitle: 'I love to talk about myself and technology',
 
 	// Please Provide with Your Podcast embedded Link.
 	podcast: [

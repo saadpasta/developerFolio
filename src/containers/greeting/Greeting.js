@@ -1,10 +1,10 @@
 ﻿import React from 'react';
-import './Greeting.css';
-import SocialMedia from '../../components/socialMedia/SocialMedia';
-import Button from '../../components/button/Button';
-import {greeting} from '../../portfolio';
 import {Fade} from 'react-reveal';
 import emoji from 'react-easy-emoji';
+import {greeting} from '../../portfolio';
+import Button from '../../components/button/Button';
+import SocialMedia from '../../components/socialMedia/SocialMedia';
+import './Greeting.css';
 
 const Greeting = () => (
 	<Fade bottom duration={1000} distance="40px">
