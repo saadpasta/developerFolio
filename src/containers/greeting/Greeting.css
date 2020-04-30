@@ -3,6 +3,7 @@
 	padding: 20px 10px;
 	margin: 0px auto;
 	margin-top: 4rem;
+	max-width: 70rem;
 }
 .greet-main {
 	width: 90%;
