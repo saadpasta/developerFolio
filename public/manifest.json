@@ -3,19 +3,19 @@
   "name": "Saad Pasta Portfolio",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "/favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "/android-chrome-192x192.png?v8=qAJ44G5Bm7",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "/android-chrome-384x384.png?v8=qAJ44G5Bm7",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "384x384"
     }
   ],
   "start_url": ".",
