@@ -1,7 +1,7 @@
 import React from 'react';
 import './Top.css';
 
-export default function Top() {
+const Top = () => {
 	function TopEvent() {
 		document.body.scrollTop = 0; // For Safari
 		document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
@@ -29,4 +29,6 @@ export default function Top() {
 			<i className="fa fa-hand-o-up" aria-hidden="true"></i>
 		</button>
 	);
-}
+};
+
+export default Top;

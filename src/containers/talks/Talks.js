@@ -8,7 +8,7 @@ const Talks = () => (
 	<Fade bottom duration={1000} distance="20px">
 		<div className="main" id="talks">
 			<div className="talk-header">
-				<h1 className="talk-header-title">{talkSection.title}</h1>
+				<h2 className="talk-header-title">{talkSection.title}</h2>
 				<p className="subTitle talk-header-subtitle">
 					{talkSection.subtitle}
 				</p>

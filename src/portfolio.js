@@ -1,11 +1,10 @@
-﻿/* Change this file to get your personal Portfolio */
-
-// Your Summary And Greeting Section
-
+﻿/**
+ * TODO: Change this file to create your personal Portfolio
+ */
 import emoji from 'react-easy-emoji';
 
+// Your Summary And Greeting Section.
 const greeting = {
-	/* Your Summary And Greeting Section */
 	title: "Hello, I'm Saad",
 	subTitle: emoji(
 		'A passionate Full Stack Software Developer. I build Web and Mobile applications with JavaScript, React.js, Node.js, react-native and several other libraries & frameworks. Nice to meet you.'
@@ -14,8 +13,7 @@ const greeting = {
 		'https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing'
 };
 
-// Your Social Media Link
-
+// Your Social Media Link.
 const socialMediaLinks = {
 	github: 'https://github.com/saadpasta',
 	linkedin: 'https://www.linkedin.com/in/saadpasta/',
@@ -24,8 +22,7 @@ const socialMediaLinks = {
 	facebook: 'https://www.facebook.com/saad.pasta7'
 };
 
-// Your Skills Section
-
+// Your Skills Section.
 const skillsSection = {
 	title: `Full Stack Developer`,
 	subTitle: 'Working across the stack for web & mobile apps.',
@@ -94,8 +91,7 @@ https://fontawesome.com/icons?d=gallery */
 	]
 };
 
-// Your top 3 proficient stacks/tech experience
-
+// Your top 3 proficient stacks/tech experience.
 const techStack = {
 	viewSkillBars: true, //Set it to true to show Proficiency Section
 	experience: [
@@ -122,11 +118,10 @@ const openSource = {
 	githubUserName: 'Your Github Username'
 };
 
-// Some Big Projects You have worked with your company
-
+// Some Big Projects You have worked with your company.
 const bigProjects = {
 	title: 'Big Projects',
-	subtitle: 'SOME STARTUPS AND COMPANIES THAT I HELP TO CREATE THEIR TECH',
+	subtitle: 'Startups and Companies that I help to create their tech',
 	projects: [
 		{
 			image:
@@ -141,18 +136,17 @@ const bigProjects = {
 	]
 };
 
-// Your Achievement Section Include Your Certification Talks and More
-
+// Your Achievement Section Include Your Certification Talks and More.
 const achievementSection = {
 	title: emoji('Achievements And Certifications 🏆 '),
 	subtitle:
-		'Achievements, Certifications Award Letters and Some Cool Stuff that i have done !',
+		'Achievements, Certifications Award Letters and Some Cool Stuff that I have done !',
 
 	achivementsCards: [
 		{
 			title: 'Google Code-In Finalist',
 			subtitle:
-				'First Pakistani to be selected as Google Google-in Finalist from 4000 students from 77 diffrent countries',
+				'First Pakistani to be selected as Google Google-in Finalist from 4000 students from 77 different countries',
 			image:
 				'https://1.bp.blogspot.com/-Ig-v1tDXZt4/XDODmZvWp1I/AAAAAAAAB0A/KtbFdBPFVQw2O15FekkIR0Yg8MUp--rngCLcBGAs/s1600/GCI%2B-%2BVertical%2B-%2BGray%2BText%2B-%2BWhite%2BBG.png',
 			footerLink: [
@@ -191,7 +185,7 @@ const achievementSection = {
 		{
 			title: 'PWA Web App Developer',
 			subtitle:
-				'Completed Certifcation from SMIT for PWA Web App Development',
+				'Completed Certification from SMIT for PWA Web App Development',
 			image:
 				'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu93Bd6LDbxPEOXr-hfLqLYzmHny8c0MJoI3exQP-lwpFLRT7g&s',
 			footerLink: [
@@ -205,21 +199,20 @@ const achievementSection = {
 	]
 };
 
-// Blogs Section
-
+// Blogs Section.
 const blogSection = {
-	title: 'Blogs',
+	title: emoji('✍️ Blogs'),
 	subtitle:
-		'With Love for Developing cool stuff. i love to write and teach others what i have learned',
+		'With Love for Developing cool stuff. I love to write and teach others what I have learned',
 
 	blogs: [
 		{
 			url:
 				'https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae',
 			title:
-				'Win a Google Assistant Tshirt and $200 in Google Cloud Credits',
+				'Win a Google Assistant T-Shirt and $200 in Google Cloud Credits',
 			description:
-				'Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min.'
+				'Do you want to win $200 and Google Assistant T-Shirt by creating a Google Assistant Action in less then 30 min.'
 		},
 		{
 			url:
@@ -231,10 +224,9 @@ const blogSection = {
 	]
 };
 
-// Talks Sections
-
+// Talks Sections.
 const talkSection = {
-	title: 'TALKS',
+	title: emoji('🗣️ TALKS'),
 	subtitle: emoji(
 		'I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅'
 	),
@@ -251,31 +243,30 @@ const talkSection = {
 	]
 };
 
-// Podcast Section
-
+// Podcast Section.
 const podcastSection = {
-	title: emoji('Podcast 🎙️'),
+	title: emoji('🎙️ Podcast'),
 	subtitle: 'I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY',
 
-	// Please Provide with Your Podcast embeded Link
+	// Please Provide with Your Podcast embedded Link.
 	podcast: [
 		'https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo'
 	]
 };
 
 const contactInfo = {
-	title: emoji('Contact Me ☎️'),
+	title: emoji('☎️ Contact Me'),
 	subtitle:
 		'Discuss a project or just want to say hi my inbox is open for all',
 	number: '+92-3243454077',
 	email_address: 'saadpasta70@gmail.com'
 };
 
-//Twitter Section
-
+// Twitter Section.
 const twitterDetails = {
-	userName: 'twitter' //Replace "twitter" with your twitter username without @
+	userName: 'twitter' // Replace "twitter" with your twitter username without @.
 };
+
 export {
 	greeting,
 	socialMediaLinks,
