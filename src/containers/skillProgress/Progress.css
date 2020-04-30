@@ -27,9 +27,10 @@
 .skills-container {
 	display: flex;
 	width: 90%;
-	padding: 20px 10px;
+	padding: 0 10px;
 	margin: 0px auto;
 	margin-top: 2rem;
+	max-width: 55rem;
 }
 .skills-container > * {
 	flex: 1;

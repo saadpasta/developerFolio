@@ -1,15 +1,16 @@
 import React from 'react';
-import './twitter.css';
 import {TwitterTimelineEmbed} from 'react-twitter-embed';
 import {twitterDetails} from '../../portfolio';
 import {Fade} from 'react-reveal';
+import './twitter.css';
 
-var widthScreen = window.screen.width;
-export default function Twitter() {
+const widthScreen = window && window.screen.width;
+
+const Twitter = () => {
 	if (twitterDetails.userName) {
 		return (
 			<Fade bottom duration={1000} distance="20px">
-				<div class="tw-main-div" id="twitter">
+				<div className="tw-main-div" id="twitter">
 					<div className="centerContent">
 						<TwitterTimelineEmbed
 							sourceType="profile"
@@ -27,4 +28,6 @@ export default function Twitter() {
 	} else {
 		return null;
 	}
-}
+};
+
+export default Twitter;

@@ -7,7 +7,7 @@ import Button from '../../components/button/Button';
 import {openSource} from '../../portfolio';
 import {Fade} from 'react-reveal';
 
-export default function Projects() {
+const Projects = () => {
 	const [repo, setrepo] = useState([]);
 
 	useEffect(() => {
@@ -72,7 +72,7 @@ export default function Projects() {
 	return (
 		<Fade bottom duration={1000} distance="20px">
 			<div className="main" id="opensource">
-				<h1 className="project-title">Open Source Projects</h1>
+				<h2 className="project-title">Open Source Projects</h2>
 				<div className="repo-cards-div-main">
 					{repo.map((v, i) => {
 						return <GithubRepoCard repo={v} key={v.node.id} />;
@@ -87,4 +87,6 @@ export default function Projects() {
 			</div>
 		</Fade>
 	);
-}
+};
+
+export default Projects;
