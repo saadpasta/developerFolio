@@ -27,18 +27,12 @@ const socialMediaLinks = {
 // Your Skills Section
 
 const skillsSection = {
-	title: 'What i do',
-	subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANT TO EXPLORE EVERY TECH STACK',
+	title: `Full Stack Developer`,
+	subTitle: 'Working across the stack for web & mobile apps.',
 	skills: [
-		emoji(
-			'⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications'
-		),
-		emoji(
-			'⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks'
-		),
-		emoji(
-			'⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean'
-		)
+		emoji('⚡ Develop interactive User Interfaces for web & mobile'),
+		emoji('⚡ Progressive Web Applications (PWA) Enthusiast'),
+		emoji('⚡ Integration with Firebase/ AWS / Digital Ocean')
 	],
 
 	/* Make Sure You include correct Font Awesome Classname to view your icon

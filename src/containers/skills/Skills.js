@@ -12,19 +12,19 @@ export default function Skills() {
 					<div className="skills-image-div">
 						<img
 							alt="Saad Working"
-							src={require('../../assests/images/developerActivity.svg')}
+							src={require('../../assets/images/developerActivity.svg')}
 						></img>
 					</div>
 				</Fade>
 				<Fade right duration={1000}>
 					<div className="skills-text-div">
-						<h1 className="skills-heading">
-							{skillsSection.title}{' '}
-						</h1>
+						<h2 className="skills-heading">
+							{skillsSection.title}
+						</h2>
+						<SoftwareSkill />
 						<p className="subTitle skills-text-subtitle">
 							{skillsSection.subTitle}
 						</p>
-						<SoftwareSkill />
 						<div>
 							{skillsSection.skills.map(skills => {
 								return (

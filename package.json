@@ -35,6 +35,6 @@
 		"deploy": "gh-pages -b master -d build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"format": "prettier --write \"./**/*.{js,css,json}\"  \"!./src/assests/font-awesome\""
+		"format": "prettier --write \"./**/*.{js,css,json}\"  \"!./src/assets/font-awesome\""
 	}
 }

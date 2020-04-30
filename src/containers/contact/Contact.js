@@ -40,7 +40,7 @@ export default function Contact() {
 					<div className="contact-image-div">
 						<img
 							alt="Saad Working"
-							src={require('../../assests/images/contactMail.png')}
+							src={require('../../assets/images/contactMail.png')}
 						></img>
 					</div>
 				</div>
