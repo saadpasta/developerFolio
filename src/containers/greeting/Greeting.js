@@ -17,7 +17,6 @@ const Greeting = () => (
 						<p className="greeting-text-p subTitle">
 							{greeting.subTitle}
 						</p>
-						<SocialMedia />
 						<div className="button-greeting-div">
 							<Button text="Contact me" href="#contact" />
 							<Button
@@ -26,6 +25,7 @@ const Greeting = () => (
 								href={greeting.resumeLink}
 							/>
 						</div>
+						<SocialMedia />
 					</div>
 				</div>
 				<div className="greeting-image-div">
