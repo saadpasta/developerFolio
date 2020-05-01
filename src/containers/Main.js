@@ -13,6 +13,7 @@ import Talks from "./talks/Talks";
 import Podcast from "./podcast/Podcast";
 import Top from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
+import Profile from "./profile/Profile";
 
 export default class Main extends Component {
   render() {
@@ -32,6 +33,7 @@ export default class Main extends Component {
         <Contact />
         <Footer />
         <Top />
+        <Profile />
       </div>
     );
   }

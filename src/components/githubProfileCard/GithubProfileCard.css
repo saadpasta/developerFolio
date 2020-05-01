@@ -1,0 +1,52 @@
+.profile-card-div {
+  color: rgb(88, 96, 105);
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+  padding: 2rem;
+  cursor: pointer;
+  align-items: center;
+  margin-left: auto ;
+  margin-right : auto;
+  margin-bottom: auto;
+  text-align: center;
+  width: 75%;
+}
+.profile-card-div:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+}
+.profile-image{
+  width: 75%;
+  padding: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+}
+.profile-image:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+}
+.profile-list{
+  width:auto;
+  padding: 2rem;
+}
+.card-title{
+  padding: 1.5rem;
+}
+.card-subtitle{
+  padding-bottom: 0.5rem;
+}
+.card-body{
+  width:auto;
+}
+.profile-card-main{
+  width:100%;
+}
+.location-info{
+  text-align:center;
+}
+.fa-map-marker{
+  font-size:25px;
+}
+.location-div{
+  text-shadow: blanchedalmond;
+}
+.profile-image {
+  border-radius: 50%;
+}
