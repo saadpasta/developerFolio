@@ -3,7 +3,7 @@ import "./Blog.css";
 import BlogCard from "../../components/blogCard/BlogCard";
 import { blogSection } from "../../portfolio";
 import { Fade } from "react-reveal";
-import StyleContext from '../../contexts/StyleContext';
+import StyleContext from "../../contexts/StyleContext";
 export default function Blogs() {
   const {isDark} = useContext(StyleContext);
   return (
