@@ -3,7 +3,7 @@ import "./twitter.css";
 import { TwitterTimelineEmbed } from "react-twitter-embed";
 import { twitterDetails } from "../../portfolio";
 import { Fade } from "react-reveal";
-import StyleContext from '../../contexts/StyleContext';
+import StyleContext from "../../contexts/StyleContext";
 var widthScreen = window.screen.width;
 
 export default function Twitter() {
