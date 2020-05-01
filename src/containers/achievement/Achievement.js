@@ -1,10 +1,11 @@
-import React from "react";
+import React,{ useContext } from "react";
 import "./Achievement.css";
 import AchivementCard from "../../components/achievementCard/AchivementCard";
 import { achievementSection } from "../../portfolio";
 import { Fade } from "react-reveal";
-
+import StyleContext from '../../contexts/StyleContext';
 export default function Achievement() {
+  const {isDark} = useContext(StyleContext);
   function openUrlInNewTab(url) {
     var win = window.open(url, "_blank");
     win.focus();
@@ -21,6 +22,7 @@ export default function Achievement() {
           {achievementSection.achivementsCards.map(card => {
             return (
               <AchivementCard
+                isDark={isDark}
                 cardInfo={{
                   title: card.title,
                   description: card.subtitle,
