@@ -1,12 +1,15 @@
 .contact-div-main {
     display: flex;
 }
+
 .dark-mode a {
     color: white;
 }
+
 .dark-mode a:hover {
     color: white !important;
 }
+
 .contact-div-main > * {
     flex: 1;
 }
