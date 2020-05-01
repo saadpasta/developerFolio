@@ -53,12 +53,17 @@ input:checked + .slider:before {
 }
 .slider:after {
   content:"☀️";
-  display: block;
- position: absolute;
-  left:50%;
+  display: inline;
+  position: absolute;
+  right: 9.3%;
+  bottom: 17.5%;
 }
 input:checked + .slider:after {
   content:"🌙";
   display: inline;
-  position: static;
+  position: absolute;
+  right: 56.3%;
+  bottom: 20.5%;
 }
+
+
