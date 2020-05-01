@@ -22,6 +22,8 @@ export default function Twitter() {
 				key={isDark ? "1" : "2"}
 				theme={isDark ? "dark" : "light"}
 				borderColor="#fff"
+				transparent={true}
+				noScrollbar={true}
 				noFooter={true}
 			/>
 			</div>
