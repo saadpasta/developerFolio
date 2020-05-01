@@ -64,4 +64,9 @@ text-align: center;
 }
 span.certificate-tag:hover {
     background: #8c43ce;
+.dark-mode {
+  background-color: #171c28;
+}
+.dark-mode h5,p {
+  color: white !important;
 }
