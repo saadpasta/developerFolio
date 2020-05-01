@@ -1,14 +1,10 @@
 .dark-mode {
-  color:white !important;
+  background-color: #171c28;
 }
-
-.small-dark {
-  color: white !important;
+.dark-mode h3,
+p {
+  color: white;
 }
-
-/* .dark-mode h3,
- p { color: white; }
-  */
 .blog-container {
   border-radius: 10px;
   color: #586069;
@@ -108,13 +104,17 @@
   color: #ffffff;
 }
 
-@media screen and (max-width: 480px) and (min-width: 300px), (min-width: 925px) and (max-width: 1024px), (min-width: 1405px) and (max-width: 1550px) {
+@media screen and (max-width: 480px) and (min-width: 300px),
+  (min-width: 925px) and (max-width: 1024px),
+  (min-width: 1405px) and (max-width: 1550px) {
   .blog-card:hover::before {
     transform: scale(30);
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 675px), (min-width: 1025px) and (max-width: 1404px), (min-width: 1551px) {
+@media screen and (min-width: 481px) and (max-width: 675px),
+  (min-width: 1025px) and (max-width: 1404px),
+  (min-width: 1551px) {
   .blog-card:hover::before {
     transform: scale(40);
   }
