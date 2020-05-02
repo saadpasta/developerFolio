@@ -3,8 +3,8 @@ import GithubProfileCard from "../../components/githubProfileCard/GithubProfileC
 import axios from "axios";
 import { openSource } from "../../portfolio";
 import { Fade } from "react-reveal";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
-import {contactInfo} from "../../portfolio";
+
+
 
 export default function Profile() {
   const [prof, setrepo] = useState([]);
@@ -28,10 +28,7 @@ export default function Profile() {
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="github-profile">
-                <div className="blog-header">
-                   <h1 className="blog-header-text">Reach Out to me!</h1>
-                   <p className="subTitle blog-subtitle">{contactInfo.subtitle}</p>
-                </div>
+          <h1 className="blog-header-text">Reach Out to me!</h1>
                 <div className="repo-cards-div-main">
                    <GithubProfileCard prof={prof} key={prof.id} />
                 </div>
