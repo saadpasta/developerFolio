@@ -27,7 +27,7 @@ export default function Profile() {
 	if (openSource.showProfile === "true"){
   return (
     <Fade bottom duration={1000} distance="20px">
-      <div className="main" id="github-profile">
+      <div className="main" id="contact">
                 <div className="repo-cards-div-main">
                    <GithubProfileCard prof={prof} key={prof.id} />
                 </div>

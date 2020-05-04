@@ -1,30 +1,33 @@
 .profile-image{
-	
   border-radius: 50%;
-   border: 0.5rem solid #6c63ff;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+  border: 0.5rem solid #6c63ff;
   margin-left: auto;
+  width: 100%;
+  max-width: 350px;
+  height: auto;
 }
 .profile-image:hover {
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
-  transition: 0.3s all;
+  transform: scale(1.1); 
+  transform-origin: 100% 100%;  
+  box-shadow: rgba(0, 0, 0, 1) 0px 50px 50px -50px;
+  transition: 0.3s ease-out;
 }
-.location-info{
-  text-align:center;
-}
+
 .prof-title{
-	font-size: 50px;
+	margin:0;
+	font-size: 40px;
     font-weight: 400;
 }
 .location-div{
   text-shadow: blanchedalmond;
 }
-
+.opp-div{
+	padding-bottom:1rem;
+}
 .row{
   display: flex;
 }
 .main-content-profile {
-  text-align:center;
   flex: 80%;
 }
 .image-content-profile{
@@ -36,11 +39,12 @@
 .bio-text {
 	line-height:30px;
     font-size: 22px;
-  }
+}
 .desc-prof{
-	line-height:30px;
+	line-height:45px;
 	font-size: 19px;
 }
+
 @media (max-width: 768px) {
   .row{
 	display: flex;
@@ -59,7 +63,25 @@
     order: 1;
   }
   .desc-prof{
-	line-height:20px;
+	line-height:30px;
 	font-size: 16px;
- }
+  }
+  .profile-image{
+	margin-left: auto;
+	margin-right: auto;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+  }
+  .profile-image:hover {
+    transform: scale(1.08); 
+    transform-origin: 80% 50%;
+    box-shadow: rgba(0, 0, 0, 1) 0px 50px 50px -50px;
+    transition: 0.3s ease-out;
+  }
+  .prof-title {
+	padding-bottom:0.5rem;
+    font-size: 30px;
+    text-align: center;
+   }
 }
