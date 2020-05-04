@@ -3,7 +3,7 @@ import GithubProfileCard from "../../components/githubProfileCard/GithubProfileC
 import axios from "axios";
 import { openSource } from "../../portfolio";
 import { Fade } from "react-reveal";
-
+import Contact from "../contact/Contact";
 
 
 export default function Profile() {
@@ -24,15 +24,16 @@ export default function Profile() {
   function setProfileFunction(array) {
     setrepo(array);
   }
-
+	if (openSource.showProfile === "true"){
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="github-profile">
-          <h1 className="blog-header-text">Reach Out to me!</h1>
                 <div className="repo-cards-div-main">
                    <GithubProfileCard prof={prof} key={prof.id} />
                 </div>
       </div>
       </Fade>
-  );
+);} else {
+	return(<Contact />);
+}
 }

@@ -1,33 +1,45 @@
 .profile-image{
-
-  padding: 0.5rem;
+	
+  border-radius: 50%;
+   border: 0.5rem solid #6c63ff;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+  margin-left: auto;
 }
 .profile-image:hover {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+  transition: 0.3s all;
 }
 .location-info{
   text-align:center;
 }
-.fa-map-marker{
-  font-size:25px;
+.prof-title{
+	font-size: 50px;
+    font-weight: 400;
 }
 .location-div{
   text-shadow: blanchedalmond;
 }
-.profile-image {
-  border-radius: 50%;
-}
+
 .row{
   display: flex;
 }
 .main-content-profile {
-  flex: 75%;
+  text-align:center;
+  flex: 80%;
 }
 .image-content-profile{
-	flex: 25%;
+	text-align:right;
+	flex: 20%;
 	max-width: 100%;
 	height: auto;
+}
+.bio-text {
+	line-height:30px;
+    font-size: 22px;
+  }
+.desc-prof{
+	line-height:30px;
+	font-size: 19px;
 }
 @media (max-width: 768px) {
   .row{
@@ -35,7 +47,7 @@
 	flex-direction: column;
   }
   .main-content-profile {
-	  text-align:center;
+	text-align:center;
 	order: 2;
   }
   .bio-text {
@@ -46,4 +58,8 @@
 	margin-right: auto;
     order: 1;
   }
+  .desc-prof{
+	line-height:20px;
+	font-size: 16px;
+ }
 }

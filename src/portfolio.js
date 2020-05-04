@@ -118,7 +118,8 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: "Your Github Converted Token",
-  githubUserName: "kartik918"
+  githubUserName: "Your Github Username",
+  showProfile:"true" // true or false default false
 };
 
 
