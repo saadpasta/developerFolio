@@ -9,31 +9,29 @@ import Contact from "../contact/Contact";
 export default function Profile() {
   const [prof, setrepo] = useState([]);
 
-  useEffect(() => {
-    getProfileData();
-  }, []);
-
+  function setProfileFunction(array) {
+    setrepo(array);
+  }
   function getProfileData() {
       const client=axios.get("https://api.github.com/users/"+openSource.githubUserName)
             .then(function(response){
                     setProfileFunction(response.data);
-                    console.log(response.data);
       })
   }
-
-  function setProfileFunction(array) {
-    setrepo(array);
-  }
-	if (openSource.showProfile === "true"){
+  useEffect(() => {
+    getProfileData();
+  }, []);
+  if (openSource.showProfile === "true"){
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="contact">
-                <div className="repo-cards-div-main">
-                   <GithubProfileCard prof={prof} key={prof.id} />
-                </div>
+        <div className="repo-cards-div-main">
+          <GithubProfileCard prof={prof} key={prof.id} />
+        </div>
       </div>
       </Fade>
-);} else {
+);
+} else {
 	return(<Contact />);
 }
 }
