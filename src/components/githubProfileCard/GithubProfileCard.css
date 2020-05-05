@@ -1,4 +1,4 @@
-.profile-image{
+.profile-image {
   border-radius: 50%;
   border: 0.5rem solid #6c63ff;
   margin-left: auto;
@@ -6,82 +6,97 @@
   max-width: 350px;
   height: auto;
 }
+
 .profile-image:hover {
-  transform: scale(1.1); 
-  transform-origin: 100% 100%;  
-  box-shadow: rgba(0, 0, 0, 1) 0px 50px 50px -50px;
+  transform: scale(1.1);
+  transform-origin: 100% 100%;
+  box-shadow: rgba(0, 0, 0, 1) 0 50px 50px -50px;
   transition: 0.3s ease-out;
 }
 
-.prof-title{
-	margin:0;
-	font-size: 40px;
-    font-weight: 400;
+.prof-title {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 400;
 }
-.location-div{
+
+.location-div {
   text-shadow: blanchedalmond;
 }
-.opp-div{
-	padding-bottom:1rem;
+
+.opp-div {
+  padding-bottom: 1rem;
 }
-.row{
+
+.row {
   display: flex;
 }
+
 .main-content-profile {
   flex: 80%;
 }
-.image-content-profile{
-	text-align:right;
-	flex: 20%;
-	max-width: 100%;
-	height: auto;
+
+.image-content-profile {
+  text-align: right;
+  flex: 20%;
+  max-width: 100%;
+  height: auto;
 }
+
 .bio-text {
-	line-height:30px;
-    font-size: 22px;
+  line-height: 30px;
+  font-size: 22px;
 }
-.desc-prof{
-	line-height:45px;
-	font-size: 19px;
+
+.desc-prof {
+  line-height: 45px;
+  font-size: 19px;
 }
 
 @media (max-width: 768px) {
-  .row{
-	display: flex;
-	flex-direction: column;
+  .row {
+    display: flex;
+    flex-direction: column;
   }
+
   .main-content-profile {
-	text-align:center;
-	order: 2;
+    text-align: center;
+    order: 2;
   }
+
   .bio-text {
     font-size: 16px;
   }
+
   .image-content-profile {
-	margin-left: auto;
-	margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
     order: 1;
   }
-  .desc-prof{
-	line-height:30px;
-	font-size: 16px;
+
+  .desc-prof {
+    line-height: 30px;
+    font-size: 16px;
   }
-  .profile-image{
-	margin-left: auto;
-	margin-right: auto;
+
+  .profile-image {
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
     max-width: 250px;
     height: auto;
   }
+
   .profile-image:hover {
-    transform: scale(1.08); 
+    transform: scale(1.08);
     transform-origin: 80% 50%;
-    box-shadow: rgba(0, 0, 0, 1) 0px 50px 50px -50px;
+    box-shadow: rgba(0, 0, 0, 1) 0 50px 50px -50px;
     transition: 0.3s ease-out;
   }
+
   .prof-title {
-	padding-bottom:0.5rem;
+    padding-bottom: 0.5rem;
     font-size: 30px;
     text-align: center;
-   }
+  }
 }
