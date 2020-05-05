@@ -22,6 +22,6 @@ export default function Profile() {
   if (openSource.showGithubProfile === "true"){
     return ( <GithubProfileCard prof={prof} key={prof.id} /> );
   } else {
-	  return(<Contact />);
+    return(<Contact />);
   }
 }
