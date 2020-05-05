@@ -8,8 +8,6 @@
 }
 
 .profile-image:hover {
-  transform: scale(1.1);
-  transform-origin: 100% 100%;
   box-shadow: rgba(0, 0, 0, 1) 0 50px 50px -50px;
   transition: 0.3s ease-out;
 }
@@ -88,15 +86,13 @@
   }
 
   .profile-image:hover {
-    transform: scale(1.08);
-    transform-origin: 80% 50%;
     box-shadow: rgba(0, 0, 0, 1) 0 50px 50px -50px;
     transition: 0.3s ease-out;
   }
 
   .prof-title {
-    padding-bottom: 0.5rem;
-    font-size: 30px;
+    padding-bottom: 1rem;
+    font-size: 32px;
     text-align: center;
   }
 }
