@@ -86,9 +86,10 @@ Copy your converted token and paste it in `/src/portfolio.js`
   
   githubConvertedToken: "Your Github Converted Token",
   githubUserName: "Your Github Username"
+  showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
 };
 ```
-
+For the GitHub profile, set true or false to show Contact profile using Github, defaults to false.
 
 ## Change and customize every section according to your need.
 
@@ -153,6 +154,7 @@ Note: Don't use `@` symbol when adding username.
 - [apollo-boost](https://www.apollographql.com/docs/react/get-started/) 
 - [react-twitter-embed](https://github.com/saurabhnemade/react-twitter-embed)
 - [react-easy-emoji](https://github.com/appfigures/react-easy-emoji)
+- [axios](https://github.com/axios/axios)
 
 ## Illustrations
 - [UnDraw](https://undraw.co/illustrations)
