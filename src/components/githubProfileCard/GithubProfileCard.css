@@ -8,8 +8,8 @@
 }
 
 .profile-image:hover {
-  box-shadow: rgba(0, 0, 0, 1) 0 50px 50px -50px;
-  transition: 0.3s ease-out;
+  box-shadow: rgba(0, 0, 0, 1) 0 30px 30px -30px;
+  transition: all 0.3s ease-out;
 }
 
 .prof-title {
