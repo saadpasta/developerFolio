@@ -16,7 +16,7 @@ export default function Profile() {
       const client=axios.get("https://api.github.com/users/"+openSource.githubUserName)
             .then(function(response){
                     setProfileFunction(response.data);
-      })
+      });
   }
   useEffect(() => {
     getProfileData();
