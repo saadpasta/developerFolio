@@ -29,7 +29,7 @@ If you created something awesome and want to contribute then feel free to open P
 ✔️ Podcast\
 ✔️ Contact me
 
-To view a live example, **[click here](https://saadpasta.github.io/)**
+To view a live example, **[click here](https://developerfolio.js.org/)**
 
 
 ## Getting Started 🚀

@@ -7,7 +7,7 @@ function Header() {
     <Fade top duration={1000} distance="20px">
     <div>
       <header className="header">
-        <a href="" className="logo">
+        <a href="/" className="logo">
           <span className="grey-color"> &lt;</span>
           <span className="logo-name">Saad Pasta</span>
           <span className="grey-color">/&gt;</span>
@@ -21,19 +21,19 @@ function Header() {
             <a href="#skills">Skills</a>
           </li>
           <li>
+            <a href="#opensource">Open Source</a>
+          </li>
+          <li>
             <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="#opensource">Open Source</a>
+            <a href="#achievements">Achievements</a>
           </li>
           <li>
             <a href="#blogs">Blogs</a>
           </li>
           <li>
             <a href="#talks">Talks</a>
-          </li>
-          <li>
-            <a href="#achievements">Achievements</a>
           </li>
           <li>
             <a href="#contact">Contact Me</a>
