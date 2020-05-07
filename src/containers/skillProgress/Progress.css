@@ -54,6 +54,7 @@
   }
 
   .skills-image {
+    display: none;
     order: 2;
   }
 }
