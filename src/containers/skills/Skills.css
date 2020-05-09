@@ -1,6 +1,11 @@
 .skills-main-div {
   display: flex;
 }
+
+.dark-mode {
+  color: white !important;
+}
+
 .skills-text-div {
   margin-left: 50px;
 }
