@@ -11,10 +11,18 @@
   margin-top: 2rem;
 }
 
+.dark-mode {
+  color: white;
+}
+
 .gretting-main {
   width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
+}
+
+.subTitle {
+  color:black !important;
 }
 
 .greeting-main {
@@ -33,6 +41,7 @@
 .greeting-text {
   font-size: 70px;
   line-height: 1.1;
+  color: black !important;
 }
 
 .greeting-text-p {

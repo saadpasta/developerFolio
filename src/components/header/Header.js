@@ -19,7 +19,7 @@ function Header() {
         <label className="menu-icon" htmlFor="menu-btn">
           <span className="navicon"></span>
         </label>
-        <ul className={isDark ? "dark-menu" : null}>
+        <ul className={isDark ? "dark-menu menu" : "menu"}>
           <li>
             <a href="#skills">Skills</a>
           </li>
