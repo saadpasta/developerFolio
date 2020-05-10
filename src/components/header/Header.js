@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import {Fade} from "react-reveal";
-import {userName} from "../../portfolio";
+import {greeting} from "../../portfolio";
 
 function Header() {
   return (
@@ -10,7 +10,7 @@ function Header() {
       <header className="header">
         <a href="" className="logo">
           <span className="grey-color"> &lt;</span>
-          <span className="logo-name">{userName.text}</span>
+          <span className="logo-name">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
