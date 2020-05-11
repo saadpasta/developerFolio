@@ -21,7 +21,8 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/saadpasta/",
   gmail: "saadpasta70@gmail.com",
   gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
+  facebook: "https://www.facebook.com/saad.pasta7"
+  // Instagram and Twitter are also supported in the links!
 };
 
 // Your Skills Section
