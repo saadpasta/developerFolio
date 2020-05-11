@@ -155,6 +155,15 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "garimasingh128",
+      "name": "Garima Singh",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/44302373?v=4",
+      "profile": "http://bit.ly/garimasingh",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
