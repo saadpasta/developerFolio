@@ -46,6 +46,22 @@ export default function socialMedia() {
       :
       null}
 
+       {socialMediaLinks.instagram ?
+      <a href={socialMediaLinks.instagram} className="icon-button instagram" target="_blank">
+        <i className="fab fa-instagram"></i>
+        <span></span>
+      </a>
+      :
+      null}
+
+      {socialMediaLinks.twitter ?
+      <a href={socialMediaLinks.twitter} className="icon-button twitter" target="_blank">
+        <i className="fab fa-twitter"></i>
+        <span></span>
+      </a>
+      :
+      null}
+
     </div>
   );
 }

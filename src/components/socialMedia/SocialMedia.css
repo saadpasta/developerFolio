@@ -51,9 +51,14 @@
   background-color: #1da1f2;
 }
 
+.instagram i {
+  background-color: #C13584 ;
+}
+
+
 /*Hover Transition*/
 .twitter i:hover, .google i:hover, .gitlab i:hover,
-.github i:hover ,.linkedin i:hover ,.facebook i:hover{
+.github i:hover ,.linkedin i:hover ,.facebook i:hover, .instagram i:hover {
   background-color: black;
   transition: 0.3s ease-in;
 }
