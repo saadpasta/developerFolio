@@ -1,5 +1,5 @@
 {
-  "homepage": "https://expiravit.github.io/developerFolio/",
+  "homepage": "https://expiravit.github.io/",
   "name": "saadpasta.github.io",
   "version": "0.1.0",
   "private": true,
@@ -20,7 +20,7 @@
     "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "gh-pages -b develop -d build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
