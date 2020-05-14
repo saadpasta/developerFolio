@@ -5,7 +5,7 @@
 
 <p align="center"> 
   <kbd>
-<img src="https://user-images.githubusercontent.com/48270786/78817321-9e1c7b00-79f0-11ea-9070-d87563f3d151.gif"></img>
+<img src="https://user-images.githubusercontent.com/49693820/81296489-999abf00-908f-11ea-9442-75e8f0ecf65d.gif"></img>
   </kbd>
 </p>
 
@@ -29,7 +29,7 @@ If you created something awesome and want to contribute then feel free to open P
 ✔️ Podcast\
 ✔️ Contact me
 
-To view a live example, **[click here](https://saadpasta.github.io/)**
+To view a live example, **[click here](https://developerfolio.js.org/)**
 
 
 ## Getting Started 🚀
@@ -217,6 +217,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://viniciusbds.github.io/"><img src="https://avatars3.githubusercontent.com/u/34755896?v=4" width="100px;" alt=""/><br /><sub><b>Vinicius Barbosa</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=viniciusbds" title="Code">💻</a></td>
     <td align="center"><a href="https://bharatkammakatla.github.io"><img src="https://avatars1.githubusercontent.com/u/28840761?v=4" width="100px;" alt=""/><br /><sub><b>Bharat Kammakatla</b></sub></a><br /><a href="#design-BharatKammakatla" title="Design">🎨</a></td>
+    <td align="center"><a href="http://bit.ly/garimasingh"><img src="https://avatars2.githubusercontent.com/u/44302373?v=4" width="100px;" alt=""/><br /><sub><b>Garima Singh</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=garimasingh128" title="Code">💻</a></td>
   </tr>
 </table>
 

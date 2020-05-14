@@ -2,14 +2,12 @@
   font-size: 2em;
 }
 
-.icon-button i {
-  color: white;
-}
 .icon-button {
   margin-bottom: 10px;
 }
 
 .icon-button i {
+  color: white;
   border-radius: 2.6rem;
   cursor: pointer;
   display: inline-block;
@@ -51,9 +49,18 @@
   background-color: #1da1f2;
 }
 
-/*Hover Transition*/
-.twitter i:hover, .google i:hover, .gitlab i:hover,
-.github i:hover ,.linkedin i:hover ,.facebook i:hover{
+.instagram i {
+  background-color: #c13584;
+}
+
+/* Hover Transition */
+.twitter i:hover,
+.google i:hover,
+.gitlab i:hover,
+.github i:hover,
+.linkedin i:hover,
+.facebook i:hover,
+.instagram i:hover {
   background-color: black;
   transition: 0.3s ease-in;
 }

@@ -1,4 +1,5 @@
 {
+  "homepage": "https://developerfolio.js.org/",
   "name": "saadpasta.github.io",
   "version": "0.1.0",
   "private": true,
@@ -16,6 +17,7 @@
     "react-twitter-embed": "3.0.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "deploy": "gh-pages -b master -d build",
