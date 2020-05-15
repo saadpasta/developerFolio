@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 <!--
-  Please fill out each section below, otherwise, your issue will be closed. This info allows maintainers to diagnose (and fix!) your issue as quickly as possible.
+  Please fill out each section below. This info allows maintainers to diagnose (and fix!) your issue as quickly as possible.
 
   Before opening a new issue, please search existing issues: https://github.com/saadpasta/developerFolio/issues
 -->
