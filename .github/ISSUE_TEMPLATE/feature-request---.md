@@ -10,7 +10,7 @@ assignees: ''
 ## Summary
 A brief explanation of the feature.
 
-### Basic example
+### What's new?
 If the proposal involves a new component or a redesign of a previous component. 
 
 ### Motivation
