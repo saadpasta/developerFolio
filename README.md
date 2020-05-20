@@ -29,7 +29,7 @@ If you created something awesome and want to contribute then feel free to open P
 ✔️ Podcast\
 ✔️ Contact me\
 ✔️ Twitter Timeline\
-✔️ Github Profile\
+✔️ Github Profile
 
 To view a live example, **[click here](https://developerfolio.js.org/)**
 
