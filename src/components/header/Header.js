@@ -40,8 +40,11 @@ function Header() {
           <li>
             <a href="#contact">Contact Me</a>
           </li>
+          <li>
+             <a href=""><ToggleSwitch /></a>
+          </li>
         </ul>
-        <ToggleSwitch />
+       
       </header>
     </Headroom>
   );
