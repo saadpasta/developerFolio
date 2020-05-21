@@ -142,14 +142,14 @@ const twitterDetails = { ... }
 ```
 
 #### Adding Twitter Time line to your Page
-Insert your Twitter user-name in `portfolio.js` to show your recent activity on your page.
+Insert your Twitter username in `portfolio.js` to show your recent activity on your page.
 
 ```javascript
 const twitterDetails = {
   userName : "Your Twitter Username"
 };
 ```
-Note: Don't use `@` symbol when adding user-name.
+Note: Don't use `@` symbol when adding username.
 
 ## Technologies used 🛠️
 
@@ -173,32 +173,17 @@ This section guides you to deploying this Repository to Github pages.
 
 - First, follow the steps [here](#getting-started-) to clone the Repository to your Computer and Install the dependencies. You should clone you fork and not the original Repository.
 
-- Next, Edit  `src/portfolio.js` to make the site as your *own*.
+- Next, Edit  `src/portfolio.js` to *personalize* your portfolio accordingly.
 
-- Then, navigate to `package.json` and enter your domain name instead of `https://developerfolio.js.org/` in `homepage` variable. For example, if you want your site to be `https://<your-username>.github.io/developerFolio`, add the same to the homepage section of `package.json`. In short you can also add `/devloperFolio` to `package.json` as both are exactly same. Upon doing so, you say `create-react-app` to add the path assets accordingly. If you going to host in the root of domain you can very well remove the `homepage` variable as by default it assumes the you host the site in the root of the domain.  `https://<your-username>.github.io` is considered as root of the domain while `https://<your-username>.github.io/developerFolio` is not.
+- Then, navigate to `package.json` and enter your domain name instead of `https://developerfolio.js.org/` in `homepage` variable. For example, if you want your site to be `https://<your-username>.github.io/developerFolio`, add the same to the homepage section of `package.json`. 
 
-- Next clone your Repository where you which is linked to Github Pages by :
+- In short you can also add `/devloperFolio` to `package.json` as both are exactly same. Upon doing so, you tell `create-react-app` to add the path assets accordingly. 
 
-  ```bash
-    git clone <your-repo-clone-url>
-  ```
-
-
-- After that copy your files you edited previously to your cloned folder. Then, open `terminal` with that path of your cloned folder. Finally run the command below.
-	
-	```bash
-	npm run deploy
-	```
-
-- This would automatically deploy your website to GitHub Pages. You would see a new branch called `gh-pages` in your Repository.
-
-- Finally, make sure **GitHub Pages** option in your GitHub project settings is set to use the `gh-pages` branch.
-
-  ![gh-pages image](https://i.imgur.com/HUjEr9l.png)
+- Follow how to setup GitHub pages through official CRA docs [here](https://create-react-app.dev/docs/deployment/#github-pages).
 
 - Optionally, configure the domain. You can configure a custom domain with GitHub Pages by adding a `CNAME` file to the `public/` folder.
 
-  For more information on this refer https://create-react-app.dev/docs/deployment/#github-pages
+  For more information on this refer [https://create-react-app.dev/docs/deployment/#github-pages](https://create-react-app.dev/docs/deployment/#github-pages).
 
 You could also deploy it directly with Netlify by linking your own Repository.
 
