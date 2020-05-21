@@ -62,6 +62,7 @@ export default function Projects() {
         console.log(result);
       })
       .catch((e) => {
+        // eslint-disable-next-line no-console
         console.warn(e);
       });
   }
