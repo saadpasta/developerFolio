@@ -2,12 +2,11 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1rem 1rem;
-  }
+}
 
-.experience-heading { 
-    margin-bottom: 5rem;
-    font-size: 50px;
-    font-weight: 500;
+.experience-heading {
+    font-size: 56px;
+    font-weight: 400;
 }
 
 .experience-container {
@@ -18,20 +17,21 @@
     margin-top: 2rem;
 }
 
-.experience-container > * {
+.experience-container>* {
     flex: 1;
 }
 
 /* Media Query */
+
 @media (max-width: 1380px) {
     .experience-heading {
-      font-size: 40px;
+        font-size: 40px;
     }
 }
+
 @media (max-width: 768px) {
     .experience-heading {
-      font-size: 30px;
-      text-align: center;
+        font-size: 30px;
+        text-align: center;
     }
 }
-  
