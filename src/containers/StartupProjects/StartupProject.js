@@ -21,6 +21,7 @@ export default function StartupProject() {
           <div className="startup-project-text">
             {bigProjects.projects.map((project,i) => {
               return (
+                // eslint-disable-next-line security/detect-non-literal-fs-filename
                 <div key={i} className="saaya-health-div" onClick={() => openProjectInNewWindow(project.link)}>
                   <img alt="Saad Working" src={project.image}></img>
                 </div>
