@@ -189,7 +189,7 @@ You could also deploy it directly with Netlify by linking your own Repository.
 
 [![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/saadpasta/developerFolio)
 
-For more information, for hosting on etlify refer https://create-react-app.dev/docs/deployment/#netlify.
+For more information, for hosting on Netlify refer https://create-react-app.dev/docs/deployment/#netlify.
 
 ## License 📄
 
