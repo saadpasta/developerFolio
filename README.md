@@ -21,6 +21,7 @@ If you created something awesome and want to contribute then feel free to open P
 ## Sections 
 ✔️ Summary and About me\
 ✔️ Skills \
+✔️ Experiences \
 ✔️ Open Source Projects Connected with Github\
 ✔️ Big Projects\
 ✔️ Achievements And Certifications 🏆\
@@ -123,6 +124,8 @@ const skillsSection = { .... }
 
 const techStack = { .... }
 
+const workExperiences = { .... } 
+
 const openSource = { .... } 
 
 const bigProjects = { .... }
@@ -155,6 +158,7 @@ Note: Don't use `@` symbol when adding username.
 - [react-twitter-embed](https://github.com/saurabhnemade/react-twitter-embed)
 - [react-easy-emoji](https://github.com/appfigures/react-easy-emoji)
 - [axios](https://github.com/axios/axios)
+- [color-thief](https://github.com/lokesh/color-thief)
 
 ## Illustrations
 - [UnDraw](https://undraw.co/illustrations)
