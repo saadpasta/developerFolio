@@ -117,7 +117,7 @@ const techStack = {
       progressPercentage: "60%"
     }
   ],
-  display: true // Set true to display this section, defaults to false
+  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -126,7 +126,8 @@ To know how to get github key look at readme.md */
 const openSource = {
   githubConvertedToken: "Your Github Converted Token",
   githubUserName: "Your Github Username",
-  showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
+  showGithubProfile : false, // Set true or false to show Contact profile using Github, defaults to false 
+  display: true // Set true to display this section, defaults to false
 };
 
 
@@ -144,7 +145,8 @@ const bigProjects = {
       image: "https://drive.google.com/uc?id=1MXoXcQRK-pH8J82wyjCW4SJk5AxJe7tf",
       link: "http://nextu.se/"
     }
-  ]
+  ],
+  display: true // Set true to display this section, defaults to false
 };
 
 // Your Achievement Section Include Your Certification Talks and More
@@ -182,7 +184,8 @@ const achievementSection = {
         { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
       ]
     }
-  ]
+  ],
+  display: true // Set true to display this section, defaults to false
 };
 
 // Blogs Section
@@ -203,7 +206,8 @@ const blogSection = {
       title: "Why REACT is The Best?",
       description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
-  ]
+  ],
+  display: true // Set true to display this section, defaults to false
 };
 
 // Talks Sections
@@ -221,7 +225,8 @@ const talkSection = {
       image:
         "https://scontent.fkhi6-1.fna.fbcdn.net/v/t1.0-9/76714032_1730516240415559_1293494289556307968_o.jpg?_nc_cat=103&_nc_ohc=s5f81rdZd6wAQmqUa52YQBA21MjVOy7e-HN9jI7MspRDC-v5ahEouyInQ&_nc_ht=scontent.fkhi6-1.fna&oh=c29141a9a0de7ff2011a8191f5475a78&oe=5E83127C"
     }
-  ]
+  ],
+  display: true // Set true to display this section, defaults to false
 };
 
 // Podcast Section
@@ -231,21 +236,23 @@ const podcastSection = {
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"]
+  podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"],
+  display: true // Set true to display this section, defaults to false
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  email_address: "saadpasta70@gmail.com",
+  display: true // Set true to display this section, defaults to false
 };
 
 //Twitter Section
 
 const twitterDetails = {
 
-  userName : "twitter"//Replace "twitter" with your twitter username without @
-  
+  userName : "twitter", //Replace "twitter" with your twitter username without @
+  display: true // Set true to display this section, defaults to false
 };
 export { greeting, socialMediaLinks, skillsSection, techStack, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};

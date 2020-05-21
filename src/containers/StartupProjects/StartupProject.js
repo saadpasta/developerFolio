@@ -8,7 +8,7 @@ export default function StartupProject() {
     var win = window.open(url, "_blank");
     win.focus();
   }
-
+  if (!bigProjects.display) return null
   return (
     <Fade bottom duration={1000} distance="20px">
     <div className="main" id="projects">
@@ -17,9 +17,9 @@ export default function StartupProject() {
         <p className="subTitle project-subtitle">{bigProjects.subtitle}</p>
         <div className="startup-projects-main">
           <div className="startup-project-text">
-            {bigProjects.projects.map(project => {
+            {bigProjects.projects.map((project,i) => {
               return (
-                <div className="saaya-health-div" onClick={() => openProjectInNewWindow(project.link)}>
+                <div key={i} className="saaya-health-div" onClick={() => openProjectInNewWindow(project.link)}>
                   <img alt="Saad Working" src={project.image}></img>
                 </div>
               );

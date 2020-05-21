@@ -60,6 +60,9 @@ export default function Projects() {
       .then(result => {
         setrepoFunction(result.data.user.pinnedItems.edges);
         console.log(result);
+      })
+      .catch((e)=>{
+        console.warn(new Error(`error with github connection.`),e)
       });
   }
 
@@ -67,6 +70,7 @@ export default function Projects() {
     setrepo(array);
   }
 
+  if (!openSource.display) return null
   return (
     <Fade bottom duration={1000} distance="20px">
     <div className="main" id="opensource">

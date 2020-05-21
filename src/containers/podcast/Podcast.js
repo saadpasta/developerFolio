@@ -4,6 +4,7 @@ import { podcastSection } from "../../portfolio";
 import { Fade } from "react-reveal";
 
 export default function Podcast() {
+  if (!podcastSection.display) return null
   return (
     <Fade bottom duration={1000} distance="20px">
     <div className="main">
@@ -12,10 +13,10 @@ export default function Podcast() {
         <p className="subTitle podcast-header-subtitle">{podcastSection.subtitle}</p>
       </div>
       <div className="podcast-main-div">
-        {podcastSection.podcast.map(podcastLink => {
+        {podcastSection.podcast.map((podcastLink,i) => {
           return (
-            <div>
-              <iframe className= "podcast" src={podcastLink} frameborder="0" scrolling="no"></iframe>
+            <div key={i}>
+              <iframe className= "podcast" src={podcastLink} frameBorder="0" scrolling="no"></iframe>
             </div>
           );
         })}
