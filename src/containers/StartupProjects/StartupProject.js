@@ -8,7 +8,9 @@ export default function StartupProject() {
     var win = window.open(url, "_blank");
     win.focus();
   }
-  if (!bigProjects.display) return null
+  if (!bigProjects.display) {
+    return null;
+  }
   return (
     <Fade bottom duration={1000} distance="20px">
     <div className="main" id="projects">

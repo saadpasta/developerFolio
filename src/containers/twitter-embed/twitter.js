@@ -6,7 +6,9 @@ import { Fade } from "react-reveal";
 
 var widthScreen=window.screen.width;
 export default function Twitter() {
-	if (!twitterDetails.display) return null
+	if (!twitterDetails.display) {
+		return null;
+	}
 
 	return (
 		<Fade bottom duration={1000} distance="20px">

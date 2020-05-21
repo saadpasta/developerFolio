@@ -7,7 +7,9 @@ import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
 
 export default function Greeting() {
-  if (!greeting.displayGreeting) return null
+  if (!greeting.displayGreeting) {
+    return null;
+  }
   return (
     <Fade bottom duration={1000} distance="40px">
     <div className="greet-main" id="greeting">

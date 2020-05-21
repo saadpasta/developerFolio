@@ -11,11 +11,11 @@ export default function StackProgress() {
 
                 <div className="skills-bar">
                     <h1 className="skills-heading">Proficiency</h1>
-                    {(() =>{
+                    {(() => {
                         if (techStack.displayCodersrank) {
                             return (
                                 <codersrank-widget username="USER_NAME"></codersrank-widget>
-                                )
+                                );
                         }})()
                     }
                     {techStack.experience.map((exp,i) => {

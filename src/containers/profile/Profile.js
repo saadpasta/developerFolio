@@ -19,13 +19,12 @@ export default function Profile() {
   useEffect(() => {
     getProfileData();
   }, []);
-  if (openSource.display) {
-    if (openSource.showGithubProfile){
-      return ( <GithubProfileCard prof={prof} key={prof.id} /> );
-    } else {
-      return(<Contact />);
-    }
+  if (!openSource.display) {
+    return null;
+  }
+  if (openSource.showGithubProfile){
+    return ( <GithubProfileCard prof={prof} key={prof.id} /> );
   } else {
-    return null
+    return(<Contact />);
   }
 }

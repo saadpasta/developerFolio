@@ -9,7 +9,9 @@ export default function Achievement() {
     var win = window.open(url, "_blank");
     win.focus();
   }
-  if (!achievementSection.display) return null
+  if (!achievementSection.display) {
+    return null;
+  }
   return (
     <Fade bottom duration={1000} distance="20px">
     <div className="main" id="achievements">

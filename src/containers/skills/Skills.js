@@ -5,7 +5,9 @@ import { skillsSection } from "../../portfolio";
 import {Fade} from "react-reveal";
 
 export default function Skills() {
-  if (!skillsSection.display) return null
+  if (!skillsSection.display) {
+    return null;
+  }
   return (
     <div className="main" id="skills">
       <div className="skills-main-div">
