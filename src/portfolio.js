@@ -126,21 +126,21 @@ const workExperiences = {
       company: "Facebook",
       companylogo:  require("./assests/images/facebookLogo.png"),
       date: "June 2018 – Present",
-      descrip: "Contribute to and build new features for the API Management Platform that include test automation frameworks to deliver high quality, maintainable code."
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
       role: "Front-End Developer",   
       company: "Quora",
       companylogo: "https://www.referralcandy.com/wp-content/uploads/2017/06/quora-featured-image-2-740x740.png",
       date: "May 2017 – May 2018",
-      descrip: "Write clean, maintainable code using best industry standards in Web languages, and integrate with existing APIs."
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
       role: "Software Engineer Intern",  
       company: "Airbnb",
       companylogo: require("./assests/images/airbnbLogo.jpg"),
       date: "Jan 2015 – Sep 2015",
-      descrip: "Develop and maintain new/current software applications, meeting user requirements and complying with technical specifications."
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
   ]
 };

@@ -124,7 +124,7 @@ const skillsSection = { .... }
 
 const techStack = { .... }
 
-const workExperiences = { .... } 
+const workExperience = { .... } 
 
 const openSource = { .... } 
 
