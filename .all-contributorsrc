@@ -6,18 +6,6 @@
   "commit": false,
   "contributors": [
     {
-      "login": "saadpasta",
-      "name": "Saad Pasta",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/23307811?v=4",
-      "profile": "http://saadpasta.github.io",
-      "contributions": [
-        "code",
-        "doc",
-        "design",
-        "maintenance"
-      ]
-    },
-    {
       "login": "9inpachi",
       "name": "Fawad Ali",
       "avatar_url": "https://avatars2.githubusercontent.com/u/36920441?v=4",
@@ -34,17 +22,6 @@
       "profile": "https://dasunnavoda.wordpress.com/",
       "contributions": [
         "doc"
-      ]
-    },
-    {
-      "login": "kartik918",
-      "name": "Kartik Choudhary",
-      "avatar_url": "https://avatars1.githubusercontent.com/u/48270786?v=4",
-      "profile": "https://github.com/kartik918",
-      "contributions": [
-        "code",
-        "design",
-        "ideas"
       ]
     },
     {
@@ -73,15 +50,6 @@
       "contributions": [
         "code",
         "doc"
-      ]
-    },
-    {
-      "login": "naveen521kk",
-      "name": "Naveen M K",
-      "avatar_url": "https://avatars1.githubusercontent.com/u/49693820?v=4",
-      "profile": "https://naveen.syrusdark.website",
-      "contributions": [
-        "code"
       ]
     },
     {
