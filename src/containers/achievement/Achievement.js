@@ -5,10 +5,6 @@ import { achievementSection } from "../../portfolio";
 import { Fade } from "react-reveal";
 
 export default function Achievement() {
-  // function openUrlInNewTab(url) {
-  //   var win = window.open(url, "_blank");
-  //   win.focus();
-  // }
   if (!achievementSection.display) {
     return null;
   }
