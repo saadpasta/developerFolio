@@ -12,7 +12,7 @@ export default function Twitter() {
 
 	return (
 		<Fade bottom duration={1000} distance="20px">
-		<div class="tw-main-div" id="twitter">       
+		<div className="tw-main-div" id="twitter">       
 		<div className="centerContent">
 		<TwitterTimelineEmbed
 			sourceType="profile"
