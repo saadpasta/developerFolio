@@ -5,7 +5,7 @@
   
   /* Rectangle Card Layout */
   .rectangle {
-    background: url(..\..\assests\images\talksCardBack.svg);
+    background: url(../../assests/images/talksCardBack.svg);
     width: 380px;
     height: 300px;
     border-radius: 4px;

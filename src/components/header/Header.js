@@ -22,10 +22,13 @@ function Header() {
             <a href="#skills">Skills</a>
           </li>
           <li>
+            <a href="#experience">Work Experiences</a>
+          </li>
+          <li>
             <a href="#opensource">Open Source</a>
           </li>
           <li>
-          <a href="#projects">Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li>
             <a href="#achievements">Achievements</a>
