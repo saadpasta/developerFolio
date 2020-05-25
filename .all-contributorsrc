@@ -142,6 +142,15 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "PulkitBanta",
+      "name": "Pulkit Banta",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/43134750?v=4",
+      "profile": "https://github.com/PulkitBanta",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
