@@ -124,7 +124,7 @@ const workExperiences = {
     {
       role: "Software Engineer",  
       company: "Facebook",
-      companylogo:  require("./assests/images/facebookLogo.png"),
+      companylogo:  require("./assets/images/facebookLogo.png"),
       date: "June 2018 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
@@ -138,7 +138,7 @@ const workExperiences = {
     {
       role: "Software Engineer Intern",  
       company: "Airbnb",
-      companylogo: require("./assests/images/airbnbLogo.jpg"),
+      companylogo: require("./assets/images/airbnbLogo.jpg"),
       date: "Jan 2015 – Sep 2015",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
