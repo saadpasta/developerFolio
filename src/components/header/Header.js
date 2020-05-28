@@ -1,8 +1,9 @@
 import React, {useContext} from "react";
 import "./Header.css";
-import { Fade } from "react-reveal";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import { StyleConsumer } from "../../contexts/StyleContext";
+import {Fade} from "react-reveal";
+import {greeting} from "../../portfolio";
 
 function Header() {
   const { isDark } = useContext(StyleConsumer);
@@ -12,7 +13,7 @@ function Header() {
       <header className="header">
         <a href="" className="logo">
           <span className="grey-color"> &lt;</span>
-          <span className="logo-name">Saad Pasta</span>
+          <span className="logo-name">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />

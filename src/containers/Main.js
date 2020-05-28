@@ -15,6 +15,8 @@ import Top from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
 import { StyleProvider } from "../contexts/StyleContext";
 import "./Main.css";
+
+
 export default class Main extends Component {
   constructor(props) {
     super(props);
