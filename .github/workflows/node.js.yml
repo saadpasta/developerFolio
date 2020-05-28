@@ -1,4 +1,6 @@
 name: Build and Deploy
+env:
+  CI: false
 on:
   push:
     branches:
