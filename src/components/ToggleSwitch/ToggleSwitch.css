@@ -68,4 +68,21 @@ input:checked + .slider::after {
   bottom: 20.5%;
 }
 
+@media all and (max-width: 786px) and (min-width: 425px) {
+  input:checked + .slider::after {
+    right: 60.3%;
+    bottom: 25.5%;
+  }
+  .slider::after {
+    right: 15.3%;
+    bottom: 22.5%;
+  }
+}
+
+@media all and (max-width: 2560px) and (min-width: 1179px) {
+  .slider::after {
+    bottom: 12.5% !important;
+  }
+}
+
 
