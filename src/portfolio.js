@@ -150,7 +150,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: "Your Github Converted Token",
-  githubUserName: "Your Github Username",
+  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
 };
 
