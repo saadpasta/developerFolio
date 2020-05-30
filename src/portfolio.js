@@ -102,7 +102,7 @@ const bigProjects = {
     //   link: "http://saayahealth.com/"
     // },
     {
-      image: "https://github.com/DittoGod/Enigma/blob/master/images/Enigma_Machine.png",
+      image: "https://raw.githubusercontent.com/DittoGod/Enigma/master/images/Enigma_Machine.png",
       link: "https://github.com/DittoGod/Enigma/releases"
     }
   ]
