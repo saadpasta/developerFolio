@@ -101,6 +101,10 @@ const bigProjects = {
     //   image: "https://drive.google.com/uc?id=1exWn9T6j8TsfDDHJnS3VR66eP6RiGAfY",
     //   link: "http://saayahealth.com/"
     // },
+    {
+      image: "https://github.com/DittoGod/Enigma/blob/master/images/Enigma_Machine.png",
+      link: "https://github.com/DittoGod/Enigma/releases"
+    }
   ]
 };
 
