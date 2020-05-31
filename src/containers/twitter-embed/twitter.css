@@ -1,19 +1,19 @@
 .centerContent {
-	display: block;
-	margin: 0 auto;
-	padding: 1.5rem;
+  display: block;
+  margin: 0 auto;
+  padding: 1.5rem;
 }
 .tw-main-div {
-	width: auto;
-	padding: 1.5rem;
-	max-width: 55rem;
-	margin: 15px auto;
+  width: auto;
+  padding: 1.5rem;
+  max-width: 55rem;
+  margin: 15px auto;
 }
 .twitter-component {
-	width: auto;
-	padding: 1.5rem;
+  width: auto;
+  padding: 1.5rem;
 }
 .timeline-Header-title {
-	font-size: 56px;
-	font-weight: 100 !important;
+  font-size: 56px;
+  font-weight: 100 !important;
 }

@@ -1,21 +1,21 @@
 .dev-icons {
-	padding-left: 0;
-	list-style: none;
-	font-size: 1.3rem;
-	margin-bottom: 0px;
-	margin-top: 0px;
+  padding-left: 0;
+  list-style: none;
+  font-size: 1.3rem;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .software-skill-inline {
-	display: inline-block;
-	margin-right: 20px;
-	margin-bottom: 20px;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .software-skill-inline > i {
-	color: #868e96;
+  color: #868e96;
 }
 
 .software-skill-inline > i:hover {
-	color: #645beb;
+  color: #645beb;
 }

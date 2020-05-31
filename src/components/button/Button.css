@@ -1,40 +1,40 @@
 .main-button {
-	background-color: #6c63ff;
-	border: solid 1px #6c63ff;
-	color: white;
-	font-weight: 700;
-	width: max-content;
-	padding: 13px 22px;
-	margin-right: 2rem;
-	text-transform: uppercase;
-	border-radius: 6px;
-	text-align: center;
-	text-decoration: none;
-	display: block;
-	margin-top: 20px;
-	font-size: 16px;
-	cursor: pointer;
+  background-color: #6c63ff;
+  border: solid 1px #6c63ff;
+  color: white;
+  font-weight: 700;
+  width: max-content;
+  padding: 13px 22px;
+  margin-right: 2rem;
+  text-transform: uppercase;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-top: 20px;
+  font-size: 16px;
+  cursor: pointer;
 }
 .main-button:hover {
-	background-color: #ffffff;
-	color: black;
-	transition: ease-in 0.3s;
+  background-color: #ffffff;
+  color: black;
+  transition: ease-in 0.3s;
 }
 .project-button {
-	display: flex;
-	justify-content: center;
-	margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 /* Media Query */
 @media (max-width: 768px) {
-	.main-button {
-		font-size: 15px;
-		padding: 12px 18px;
-		margin-right: 0px;
-	}
+  .main-button {
+    font-size: 15px;
+    padding: 12px 18px;
+    margin-right: 0px;
+  }
 }
 @media (max-width: 320px) {
-	.main-button {
-		font-size: 12px;
-	}
+  .main-button {
+    font-size: 12px;
+  }
 }
