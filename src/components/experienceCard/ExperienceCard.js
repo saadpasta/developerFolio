@@ -15,8 +15,8 @@ export default function ExperienceCard({ cardInfo }) {
     return typeof values === "undefined" ? null : "rgb(" + values.join(', ') + ")";
   }
 
-  const GetSubPoints = ({ subPoints }) => {
-    return subPoints ? subPoints.map((item) => <li className="subTitle">{item}</li>) : null
+  const GetDescBullets = ({ descBullets }) => {
+    return descBullets ? descBullets.map((item) => <li className="subTitle">{item}</li>) : null
   };
 
   return (
@@ -34,7 +34,7 @@ export default function ExperienceCard({ cardInfo }) {
         <h5 className="experience-text-date">{cardInfo.date}</h5>
         <p className="subTitle experience-text-desc">{cardInfo.desc}</p>
         <ul>
-          <GetSubPoints subPoints={cardInfo.subPoints} />
+          <GetDescBullets descBullets={cardInfo.descBullets} />
         </ul>
       </div>
     </div>
