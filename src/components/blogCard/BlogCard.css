@@ -5,7 +5,7 @@
   box-shadow: 0 0 36px rgba(0, 0, 0, 0.1);
   /* padding: 2rem; */
   cursor: pointer;
-  height: 200px;
+  height: 220px;
 }
 
 .blog-title {
@@ -16,9 +16,6 @@
   margin-bottom: 4px;
   padding: 10px 20px;
   overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
 }
 
 .small {
