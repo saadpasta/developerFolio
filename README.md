@@ -75,7 +75,7 @@ $ npm start
 
 Generate a Github personal access token using these [Instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) `Make sure you don't select any scope just generate a simple token`
 
-1. Create a file called .env in the root of your project's directory.
+1. Create a file called .env in the root directory of your project.
 
 ```bash
 - DeveloperFolio
