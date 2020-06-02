@@ -98,7 +98,7 @@ Generate a Github personal access token using these [Instructions](https://help.
 };
 ```
 
-For the GitHub profile, set true or false to show Contact profile using Github, defaults to false.
+Set `showGithubProfile` to true or false to show Contact Profile using Github, defaults to false.
 
 ## Change and customize every section according to your need.
 
