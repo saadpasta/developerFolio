@@ -75,26 +75,30 @@ $ npm start
 
 Generate a Github personal access token using these [Instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) `Make sure you don't select any scope just generate a simple token`
 
-Copy the token and open Chrome Developer Console to convert your token to base64 so github do not revert your token when you push your token to git
+1. Create a file called .env in the root directory of your project.
 
 ```bash
-# Open your Chrome Developer Console console paste the token inside btoa
-$ btoa("YOUR GITHUB TOKEN")
+- DeveloperFolio
+  - node_modules
+  - public
+  - src
+  - .env         <-- create it here
+  - .gitignore
+  - package-lock.json
+  - package.json
 ```
 
-Copy your converted token and paste it in `/src/portfolio.js`
+2. Inside the .env file, add key `REACT_APP_GITHUB_TOKEN` and assign your github token like this.
 
 ```javascript
-  const openSource = {
-  /* Your Open Source Section to View Your Github Pinned Projects */
-  /* To know how to get github key look at readme.md */
-  
-  githubConvertedToken: "Your Github Converted Token",
-  githubUserName: "Your Github Username"
-  showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
+ // .env
+
+  REACT_APP_GITHUB_TOKEN = "YOUR GITHUB TOKEN HERE"
+
 };
 ```
-For the GitHub profile, set true or false to show Contact profile using Github, defaults to false.
+
+Set `showGithubProfile` to true or false to show Contact Profile using Github, defaults to false.
 
 ## Change and customize every section according to your need.
 
