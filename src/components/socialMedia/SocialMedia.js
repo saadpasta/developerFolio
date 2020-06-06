@@ -38,6 +38,14 @@ export default function socialMedia() {
       :
       null }
 
+      {socialMediaLinks.discord ?
+          (<a href={socialMediaLinks.discord} className="icon-button discord" target="_blank">
+            <i className="fab fa-discord"></i>
+            <span></span>
+          </a>)
+          :
+          null}
+
       {socialMediaLinks.facebook ?
       <a href={socialMediaLinks.facebook} className="icon-button facebook" target="_blank">
         <i className="fab fa-facebook-f"></i>

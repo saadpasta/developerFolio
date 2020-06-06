@@ -22,7 +22,7 @@ const socialMediaLinks = {
   gmail: "saadpasta70@gmail.com",
   gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/saad.pasta7"
-  // Instagram and Twitter are also supported in the links!
+  // Instagram, Discord and Twitter are also supported in the links!
 };
 
 // Your Skills Section
