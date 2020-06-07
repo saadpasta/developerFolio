@@ -4,6 +4,7 @@
 
 .App-logo {
   height: 40vmin;
+  animation: App-logo-spin infinite 20s linear
 }
 
 .App-header {
@@ -27,4 +28,8 @@
 
 .subTitle {
   color: #868e96;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
