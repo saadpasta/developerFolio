@@ -13,8 +13,10 @@
   font-size: 22px;
   line-height: 24px;
   font-weight: 700;
-  margin-bottom: 4px;
-  padding: 10px 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 14px;
+  margin-top: 32px;
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 2;
