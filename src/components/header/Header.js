@@ -4,11 +4,11 @@ import "./Header.css";
 import { greeting, workExperiences } from "../../portfolio";
 import { Fade } from "react-reveal";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
-import { StyleConsumer } from "../../contexts/StyleContext";
+import StyleContext  from "../../contexts/StyleContext";
 
-function Header({ style }) {
+function Header() {
+  const { isDark } = useContext(StyleContext);
   const exp = workExperiences.viewExperiences;
-  const { isDark } = useContext(StyleConsumer);
   return (
     <Headroom>
       <header className="header">
