@@ -6,11 +6,11 @@ import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
 import Button from "../../components/button/Button";
 import { openSource, socialMediaLinks } from "../../portfolio";
 import { Fade } from "react-reveal";
-import { StyleConsumer } from "../../contexts/StyleContext";
+import StyleContext from "../../contexts/StyleContext";
 
 export default function Projects() {
   const [repo, setrepo] = useState([]);
-  const {isDark} = useContext(StyleConsumer);
+  const {isDark} = useContext(StyleContext);
   useEffect(() => {
     getRepoData();
   }, []);
