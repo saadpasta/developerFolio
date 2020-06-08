@@ -3,10 +3,10 @@ import "./Skills.css";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skillsSection } from "../../portfolio";
 import {Fade} from "react-reveal";
-import { StyleConsumer } from "../../contexts/StyleContext";
+import StyleContext from "../../contexts/StyleContext";
 
 export default function Skills() {
-  const { isDark } = useContext(StyleConsumer);
+  const { isDark } = useContext(StyleContext);
   return (
     <div className={ isDark ? "dark-mode main" : "main" } id="skills">
       <div className="skills-main-div">

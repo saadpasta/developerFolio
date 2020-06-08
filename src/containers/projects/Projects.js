@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 import React, { useState, useEffect, lazy, Suspense } from "react";
-=======
-import React, { useState, useEffect, useContext } from "react";
->>>>>>> added open source projects
 import ApolloClient from "apollo-boost";
 import { gql } from "apollo-boost";
 import "./Project.css";
@@ -12,7 +8,7 @@ import { openSource, socialMediaLinks } from "../../portfolio";
 
 import { openSource } from "../../portfolio";
 import { Fade } from "react-reveal";
-import { StyleConsumer } from "../../contexts/StyleContext";
+import StyleContext from "../../contexts/StyleContext";
 
 export default function Projects() {
   const GithubRepoCard = lazy(() => import('../../components/githubRepoCard/GithubRepoCard'));
