@@ -53,7 +53,7 @@ input:checked + .slider::before {
 }
 
 .slider::after {
-  content: "☀️";
+  content: "🌙";
   display: inline;
   position: absolute;
   right: 9.3%;
@@ -61,17 +61,17 @@ input:checked + .slider::before {
 }
 
 input:checked + .slider::after {
-  content: "🌙";
+  content: "☀️";
   display: inline;
   position: absolute;
   right: 56.3%;
-  bottom: 20.5%;
+  bottom: 14.5%;
 }
 
 @media all and (max-width: 786px) and (min-width: 425px) {
   input:checked + .slider::after {
     right: 60.3%;
-    bottom: 25.5%;
+    bottom: 20.5%;
   }
   .slider::after {
     right: 15.3%;
@@ -79,10 +79,15 @@ input:checked + .slider::after {
   }
 }
 
-@media all and (max-width: 2560px) and (min-width: 1179px) {
+@media all and (max-width: 2560px) and (min-width: 1552px) {
   .slider::after {
     bottom: 12.5% !important;
   }
 }
 
+@media all and (max-width: 1552px) and (min-width: 1440px) {
+  .slider::after {
+    bottom: 7.5% !important;
+  }
+}
 
