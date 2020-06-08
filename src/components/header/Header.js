@@ -2,10 +2,13 @@ import React, { useContext } from "react";
 import "./Header.css";
 import { Fade } from "react-reveal";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
-import { StyleConsumer } from "../../contexts/StyleContext";
+import StyleContext from "../../contexts/StyleContext";
+import { Fade } from "react-reveal";
+import { greeting, workExperiences } from "../../portfolio";
 
 function Header() {
-  const { isDark } = useContext(StyleConsumer);
+  const { isDark } = useContext(StyleContext);
+  const exp = workExperiences.viewExperiences;
   return (
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
@@ -41,10 +44,11 @@ function Header() {
             <a href="#contact">Contact Me</a>
           </li>
           <li>
-             <a><ToggleSwitch /></a>
+            <a>
+              <ToggleSwitch />
+            </a>
           </li>
         </ul>
-       
       </header>
     </Headroom>
   );

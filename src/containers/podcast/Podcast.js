@@ -2,10 +2,10 @@ import React, { useContext } from "react";
 import "./Podcast.css";
 import { podcastSection } from "../../portfolio";
 import { Fade } from "react-reveal";
-import { StyleConsumer } from "../../contexts/StyleContext";
+import StyleContext from "../../contexts/StyleContext";
 
 export default function Podcast() {
-  const { isDark } = useContext(StyleConsumer);
+  const { isDark } = useContext(StyleContext);
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main">

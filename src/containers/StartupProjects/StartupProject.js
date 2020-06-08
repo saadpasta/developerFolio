@@ -2,14 +2,14 @@ import React, { useContext } from "react";
 import "./StartupProjects.css";
 import { bigProjects } from "../../portfolio";
 import { Fade } from "react-reveal";
-import { StyleConsumer } from "../../contexts/StyleContext";
+import StyleContext from "../../contexts/StyleContext";
 
 export default function StartupProject() {
   function openProjectInNewWindow(url) {
     var win = window.open(url, "_blank");
     win.focus();
   }
-  const { isDark } = useContext(StyleConsumer);
+  const { isDark } = useContext(StyleContext);
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="projects">

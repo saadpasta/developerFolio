@@ -5,7 +5,8 @@ import "./Project.css";
 import Button from "../../components/button/Button";
 import { openSource, socialMediaLinks } from "../../portfolio";
 import { Fade } from "react-reveal";
-import { StyleConsumer } from "../../contexts/StyleContext";
+import StyleContext from "../../contexts/StyleContext";
+
 export default function Projects() {
   const GithubRepoCard = lazy(() =>
     import("../../components/githubRepoCard/GithubRepoCard")
@@ -13,7 +14,7 @@ export default function Projects() {
   const FailedLoading = () => null;
   const renderLoader = () => <Loading />;
   const [repo, setrepo] = useState([]);
-  const { isDark } = useContext(StyleConsumer);
+  const { isDark } = useContext(StyleContext);
   useEffect(() => {
     getRepoData();
   }, []);
