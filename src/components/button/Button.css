@@ -18,31 +18,8 @@
 .main-button:hover {
   background-color: #ffffff;
   color: black;
-  transition: ease-in 0.5s;
-}
-.main-button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.main-button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.main-button:hover span {
-  padding-right: 25px;
-}
-
-.main-button:hover span:after {
-  opacity: 1;
-  right: 0;
+  transition: ease-in 0.3s;
+  transform: translateY(-3px);
 }
 .project-button{
   display: flex;
