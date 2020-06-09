@@ -1,5 +1,4 @@
 import React, { useState, useEffect ,lazy, Suspense } from "react";
-//import GithubProfileCard from "../../components/githubProfileCard/GithubProfileCard";
 import axios from "axios";
 import { openSource } from "../../portfolio";
 import Contact from "../contact/Contact";
@@ -27,7 +26,7 @@ export default function Profile() {
   useEffect(() => {
     getProfileData();
   }, []);
-  if (openSource.showGithubProfile === "true" && !(typeof prof === 'string' || prof instanceof String)){
+if (openSource.showGithubProfile === "true" && !(typeof prof === 'string' || prof instanceof String)){  
     return (
       <Suspense fallback={renderLoader()}>
         <GithubProfileCard prof={prof} key={prof.id} /> 

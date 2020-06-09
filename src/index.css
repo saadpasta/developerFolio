@@ -24,7 +24,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 /* Media Query */
 @media (max-width: 1380px) {
   html,
@@ -33,4 +32,3 @@ body {
     line-height: normal;
   }
 }
-
