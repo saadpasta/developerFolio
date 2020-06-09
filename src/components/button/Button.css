@@ -14,12 +14,14 @@
   margin-top: 20px;
   font-size: 16px;
   cursor: pointer;
+  transition: all .3s ease-in-out 0s;
 }
 .main-button:hover {
   background-color: #ffffff;
   color: black;
   transition: ease-in 0.3s;
   transform: translateY(-3px);
+  transition: all .3s ease 0s;
 }
 .project-button{
   display: flex;
