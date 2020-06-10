@@ -1,5 +1,5 @@
 .project-title {
-  font-size: 56px;
+  font-size: 52x;
   font-weight: 400;
   line-height: normal;
 }
@@ -8,7 +8,12 @@
   max-width: 100%;
   height: auto;
 }
-
+.main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 2rem;
+}
 .repo-cards-div-main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
