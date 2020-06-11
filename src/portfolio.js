@@ -7,21 +7,21 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Minhajul Islam",
+  title: "Hi all, I'm minhaj",
   subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/1iE7V9DLl3y3gSF6CK1hJghyTSWFQndWL/view?usp=sharing"
 };
 
-// Your Social Media Link
+// Your Social Media Link by minhajul
 
 const socialMediaLinks = {
 
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7"
+  github: "https://github.com/minhajul-islam",
+  linkedin: "https://www.linkedin.com/in/md-minhajul-islam-479890131/",
+  gmail: "minhajul.sust@gmail.com",
+  gitlab: "https://github.com/minhajul-islam",
+  facebook: "https://www.facebook.com/minhaj.ul.37"
   // Instagram and Twitter are also supported in the links!
 };
 
@@ -151,10 +151,10 @@ const workExperiences = {
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
-
+//TODO
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "minhajul-islam", // Change to your github username to view your profile in Contact Section.
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
 };
 
@@ -263,11 +263,12 @@ const podcastSection = {
   podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"]
 };
 
+//Completed by minhajul
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+8801515272948",
+  email_address: "minhajul.sust@gmail.com"
 };
 
 //Twitter Section

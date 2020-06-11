@@ -26,6 +26,7 @@ export default function Projects() {
       },
     });
 
+
     client
       .query({
         query: gql`
@@ -59,7 +60,6 @@ export default function Projects() {
       })
       .then((result) => {
         setrepoFunction(result.data.user.pinnedItems.edges);
-        console.log(result);
       });
   }
 
