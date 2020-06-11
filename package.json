@@ -1,6 +1,6 @@
 {
-  "homepage": "https://developerfolio.js.org/",
-  "name": "saadpasta.github.io",
+  "homepage": "https://minhajul-islam.github.io",
+  "name": "minhajul-islam.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,7 +8,7 @@
     "apollo-boost": "^0.4.4",
     "axios": "^0.19.2",
     "colorthief": "^2.3.0",
-    "gh-pages": "^2.1.1",
+    "gh-pages": "^2.2.0",
     "graphql": "^14.5.8",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
