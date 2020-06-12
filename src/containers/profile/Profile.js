@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import GithubProfileCard from "../../components/githubProfileCard/GithubProfileCard";
-import ApolloClient from "apollo-boost";
-import { gql } from "apollo-boost";
+import ApolloClient, { gql } from "apollo-boost";
 import { openSource } from "../../portfolio";
 import Contact from "../contact/Contact";
 
@@ -41,11 +40,9 @@ export default function Profile() {
       });
   }
   useEffect(() => {
-
     if (openSource.showGithubProfile === "true") {
       getProfileData();
     }
-    
   }, []);
   if (openSource.showGithubProfile === "true") {
     return <GithubProfileCard prof={prof} key={prof.id} />;
