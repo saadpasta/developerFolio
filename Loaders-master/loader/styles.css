@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #21bf73;
+    height: 100vh;
+    display: flex;
+}
+
+.container {
+    width: 280px;
+    height: 280px;
+    position: relative;
+    margin: auto;
+}
+
+.element1, .element2, .element3 {
+    width: 280px;
+    height: 100px;
+    border: 10px solid #fefffe;
+    border-radius: 50px;
+    position: absolute;
+    animation: loading1 2s infinite;
+    box-shadow: inset 0px 0px 7px 0px rgba(65, 65, 65, 0.5), 0px 0px 7px 0px rgba(0,0,0,0.5);
+}
+
+.element2, .element3 {
+    animation: loading2 2s infinite;
+}
+
+.element3 {
+    animation: loading3 2s infinite;
+}
+
+@keyframes loading1 {
+    0% {
+        height: 100px;
+        width: 280px;
+        top: 0;
+        left: 0;
+    }
+    25% {
+        height: 100px;
+        width: 100px;
+        top: 0;
+        left: 180px;
+    }
+    50% {
+        height: 100px;
+        width: 100px;
+        top: 0;
+        left: 180px;
+    }
+    75% {
+        height: 280px;
+        width: 100px;
+        top: 0;
+        left: 180px;
+    }
+    100% {
+        height: 100px;
+        width: 100px;
+        top: 180px;
+        left: 180px;
+    }
+}
+
+@keyframes loading2 {
+    0% {
+        height: 100px;
+        width: 100px;
+        top: 180px;
+        left: 0;
+    }
+    25% {
+        height: 280px;
+        width: 100px;
+        top: 0;
+        left: 0;
+    }
+    50% {
+        height: 100px;
+        width: 100px;
+        top: 0;
+        left: 0;
+    }
+    75% {
+        height: 100px;
+        width: 100px;
+        top: 0;
+        left: 0;
+    }
+    100% {
+        height: 100px;
+        width: 280px;
+        top: 0;
+        left: 0;
+    }
+}
+
+@keyframes loading3 {
+    0% {
+        height: 100px;
+        width: 100px;
+        top: 180px;
+        left: 180px;
+    }
+    25% {
+        height: 100px;
+        width: 100px;
+        top: 180px;
+        left: 180px;
+    }
+    50% {
+        height: 100px;
+        width: 280px;
+        top: 180px;
+        left: 0px;
+    }
+    75% {
+        height: 100px;
+        width: 100px;
+        top: 180px;
+        left: 0;
+    }
+    100% {
+        height: 100px;
+        width: 100px;
+        top: 180px;
+        left: 0;
+    }
+}

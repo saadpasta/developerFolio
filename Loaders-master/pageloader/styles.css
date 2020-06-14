@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #084177;
+    display: flex;
+}
+
+.container {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+    animation: loadingTitle 2s infinite;
+}
+
+.book {
+    width: 150px;
+    height: 110px;
+    position: relative;
+    perspective: 350px;
+    margin: auto;
+}
+
+.pages {
+    display: block;
+    width: 75px;
+    height: 110px;
+    border: 5px solid white;
+    border-left: 5px solid white;
+    position: absolute;
+    overflow: hidden;
+    background: #084177;
+    transform-style: preserve-3d;
+    transform-origin: left center;
+    animation: loading 3s cubic-bezier(0, .39, 1, .68) 2s infinite;
+}
+
+.pages:nth-child(2) {
+    animation-delay: 1.9s;
+}
+
+.pages:nth-child(3) {
+    animation-delay: 1.8s;
+}
+
+.pages:nth-child(4) {
+    animation-delay: 1.7s;
+}
+
+.pages:nth-child(5) {
+    animation-delay: 1.6s;
+}
+
+.pages:nth-child(6) {
+    animation-delay: 1.5s;
+}
+
+.pages:nth-child(7) {
+    animation-delay: 1.4s;
+}
+
+.pages:nth-child(8) {
+    animation-delay: 1.3s;
+}
+
+@keyframes loading {
+    0% {
+        transform: rotateY(0deg);
+    }
+    5% {
+        background: #083763;
+    }
+    10% {
+        background-color: #084177;
+        transform: rotateY(-180deg);
+    }
+    20% {
+        background-color: #084177;
+        transform: rotateY(-180deg);
+    }
+    50% {
+        background-color: #084177;
+        transform: rotateY(-180deg);
+    }
+    55% {
+        background: #083763;
+    }
+    60% {
+        transform: rotateY(0deg);
+    }
+    70% {
+        transform: rotateY(0deg);
+        background-color: #084177;
+    }
+    100% {
+        transform: rotateY(0deg);
+    }
+}
+
+@keyframes loadingTitle {
+    0% {
+      content: "";
+    }
+    33% {
+      content: ".";
+    }
+    66% {
+      content: "..";
+    }
+    100% {
+      content: "...";
+    }
+  }
