@@ -34,7 +34,6 @@ export default function GithubProfileCard({prof}) {
           </div>
           <div className="image-content-profile">
             <img src={prof.avatar_url} alt={prof.name} className="profile-image"/>
-          </div>
         </div>
       </div>
     </Fade>
