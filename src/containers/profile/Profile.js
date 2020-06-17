@@ -1,5 +1,4 @@
 import React, { useState, useEffect ,lazy, Suspense } from "react";
-import GithubProfileCard from "../../components/githubProfileCard/GithubProfileCard";
 import ApolloClient, { gql } from "apollo-boost";
 import { openSource } from "../../portfolio";
 import Contact from "../contact/Contact";
