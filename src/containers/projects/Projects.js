@@ -9,7 +9,7 @@ import { openSource, socialMediaLinks } from "../../portfolio";
 
 export default function Projects() {
   const GithubRepoCard = lazy(() => import('../../components/githubRepoCard/GithubRepoCard'));
-  const FailedLoading = () => <div className="centerContent"><h3>Looks like you have not configured for Github Repo.</h3></div>;
+  const FailedLoading = () => null ;
   const renderLoader = () => <Loading />;
   const [repo, setrepo] = useState([]);
 
@@ -67,7 +67,7 @@ export default function Projects() {
       .catch(function (error) {
         console.log(error);
         setrepoFunction("Error");
-        console.log("Because of this Error, error message is shown in place of Projects section.");
+        console.log("Because of this Error, nothing is shown in place of Projects section. Projects section not configured");
       });
   }
 
