@@ -75,26 +75,30 @@ $ npm start
 
 Generate a Github personal access token using these [Instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) `Make sure you don't select any scope just generate a simple token`
 
-Copy the token and open Chrome Developer Console to convert your token to base64 so github do not revert your token when you push your token to git
+1. Create a file called .env in the root directory of your project.
 
 ```bash
-# Open your Chrome Developer Console console paste the token inside btoa
-$ btoa("YOUR GITHUB TOKEN")
+- DeveloperFolio
+  - node_modules
+  - public
+  - src
+  - .env         <-- create it here
+  - .gitignore
+  - package-lock.json
+  - package.json
 ```
 
-Copy your converted token and paste it in `/src/portfolio.js`
+2. Inside the .env file, add key `REACT_APP_GITHUB_TOKEN` and assign your github token like this.
 
 ```javascript
-  const openSource = {
-  /* Your Open Source Section to View Your Github Pinned Projects */
-  /* To know how to get github key look at readme.md */
-  
-  githubConvertedToken: "Your Github Converted Token",
-  githubUserName: "Your Github Username"
-  showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
+ // .env
+
+  REACT_APP_GITHUB_TOKEN = "YOUR GITHUB TOKEN HERE"
+
 };
 ```
-For the GitHub profile, set true or false to show Contact profile using Github, defaults to false.
+
+Set `showGithubProfile` to true or false to show Contact Profile using Github, defaults to false.
 
 ## Change and customize every section according to your need.
 
@@ -186,7 +190,6 @@ For more information, read [hosting on Netlify](https://create-react-app.dev/doc
 - [apollo-boost](https://www.apollographql.com/docs/react/get-started/) 
 - [react-twitter-embed](https://github.com/saurabhnemade/react-twitter-embed)
 - [react-easy-emoji](https://github.com/appfigures/react-easy-emoji)
-- [axios](https://github.com/axios/axios)
 - [color-thief](https://github.com/lokesh/color-thief)
 
 ## Illustrations
@@ -248,7 +251,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/HenryHengZJ"><img src="https://avatars2.githubusercontent.com/u/26460777?v=4" width="100px;" alt=""/><br /><sub><b>Henry Heng</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=HenryHengZJ" title="Code">💻</a> <a href="#design-HenryHengZJ" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/PulkitBanta"><img src="https://avatars2.githubusercontent.com/u/43134750?v=4" width="100px;" alt=""/><br /><sub><b>Pulkit Banta</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=PulkitBanta" title="Code">💻</a> <a href="https://github.com/saadpasta/developerFolio/issues?q=author%3APulkitBanta" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://github.com/AkshayCHD"><img src="https://avatars1.githubusercontent.com/u/25455546?v=4" width="100px;" alt=""/><br /><sub><b>Akshay Kumar</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=AkshayCHD" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/AkshayCHD"><img src="https://avatars1.githubusercontent.com/u/25455546?v=4" width="100px;" alt=""/><br /><sub><b>Akshay Kumar</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=AkshayCHD" title="Code">💻</a> <a href="https://github.com/saadpasta/developerFolio/issues?q=author%3AAkshayCHD" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/AmnaEjaz"><img src="https://avatars3.githubusercontent.com/u/14257959?v=4" width="100px;" alt=""/><br /><sub><b>Amna Ejaz</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=AmnaEjaz" title="Code">💻</a> <a href="#ideas-AmnaEjaz" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/parasnagpal"><img src="https://avatars0.githubusercontent.com/u/39419139?v=4" width="100px;" alt=""/><br /><sub><b>Paras Nagpal</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=parasnagpal" title="Code">💻</a></td>
+    <td align="center"><a href="https://sourcerer.io/sparsh-99"><img src="https://avatars0.githubusercontent.com/u/56729873?v=4" width="100px;" alt=""/><br /><sub><b>Sparsh Garg</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=sparsh-99" title="Code">💻</a></td>
   </tr>
 </table>
 
