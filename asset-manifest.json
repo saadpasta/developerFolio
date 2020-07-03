@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.d02d9493.chunk.css",
+    "main.css": "/static/css/main.d8c2ddbf.chunk.css",
     "main.js": "/static/js/main.b22de266.chunk.js",
     "main.js.map": "/static/js/main.b22de266.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d9da4c6a.js",
@@ -14,11 +14,11 @@
     "static/js/4.fdc40ed1.chunk.js": "/static/js/4.fdc40ed1.chunk.js",
     "static/js/4.fdc40ed1.chunk.js.map": "/static/js/4.fdc40ed1.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d65a94d02c6c5a03af30e3167baa4626.js": "/precache-manifest.d65a94d02c6c5a03af30e3167baa4626.js",
+    "precache-manifest.3b676d11cc27b462509113801b8d42ac.js": "/precache-manifest.3b676d11cc27b462509113801b8d42ac.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.cffc9e54.chunk.css.map": "/static/css/3.cffc9e54.chunk.css.map",
     "static/css/4.54df59d4.chunk.css.map": "/static/css/4.54df59d4.chunk.css.map",
-    "static/css/main.d02d9493.chunk.css.map": "/static/css/main.d02d9493.chunk.css.map",
+    "static/css/main.d8c2ddbf.chunk.css.map": "/static/css/main.d8c2ddbf.chunk.css.map",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/airbnbLogo.png": "/static/media/airbnbLogo.c59720d6.png",
     "static/media/codeInLogo.webp": "/static/media/codeInLogo.47a7a717.webp",
@@ -38,7 +38,7 @@
   "entrypoints": [
     "static/js/runtime-main.d9da4c6a.js",
     "static/js/2.5f801398.chunk.js",
-    "static/css/main.d02d9493.chunk.css",
+    "static/css/main.d8c2ddbf.chunk.css",
     "static/js/main.b22de266.chunk.js"
   ]
 }
