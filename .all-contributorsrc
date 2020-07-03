@@ -199,6 +199,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "abhishekashyap",
+      "name": "Abhishek Kashyap",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/29458374?v=4",
+      "profile": "https://abhishekashyap.studio/",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
