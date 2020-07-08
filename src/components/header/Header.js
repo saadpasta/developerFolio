@@ -2,12 +2,15 @@ import React from "react";
 import "./Header.css";
 import {Fade} from "react-reveal";
 import {greeting, workExperiences} from "../../portfolio";
+import { headroom } from "headroom";
 
 function Header() {
   const exp = workExperiences.viewExperiences;
   return (
-    <Fade top duration={1000} distance="20px">
-    <div>
+  <Fade top duration={1000} distance="20px">
+    <script src="https://unpkg.com/headroom.js"></script>
+  <div>
+    
       <header className="header">
         <a href="" className="logo">
           <span className="grey-color"> &lt;</span>
@@ -48,6 +51,9 @@ function Header() {
         </ul>
       </header>
     </div>
+    <script>
+   
+    </script>
     </Fade>
   );
 }

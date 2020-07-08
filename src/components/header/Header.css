@@ -6,6 +6,21 @@
   margin: 0px auto;
 }
 
+.headroom {
+  will-change: transform;
+  transition: transform 200ms linear;
+}
+
+.headroom--pinned {
+  transform: translateY(0%);
+  display: block;
+}
+
+.headroom--unpinned {
+  transform: translateY(-100%);
+  display: none;
+}
+
 .header ul {
   margin: 0;
   padding: 0;
@@ -36,6 +51,7 @@
   text-decoration: none;
   margin-top: 10px;
   line-height: normal;
+
 }
 .header .logo-name {
   font-family: "Agustina Regular";
@@ -43,6 +59,7 @@
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   padding: 0 10px;
+
 }
 
 /* menu */
@@ -124,11 +141,13 @@
 @media (min-width: 48em) {
   .header li {
     float: left;
+  
   }
   .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+  
   }
   .header .menu {
     max-height: none;
@@ -140,5 +159,6 @@
 @media (max-width: 960px) and (min-width: 768px) {
   .header {
     font-size: 12px;
+  
   }
 }
