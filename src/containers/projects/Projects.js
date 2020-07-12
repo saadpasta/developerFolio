@@ -101,5 +101,3 @@ export default function Projects() {
     return <FailedLoading />;
   }
 }
-
-export default Projects;
