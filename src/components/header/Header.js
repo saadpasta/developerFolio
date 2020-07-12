@@ -1,4 +1,5 @@
 import React from "react";
+import Headroom from "react-headroom";
 import "./Header.css";
 import {Fade} from "react-reveal";
 import {greeting, workExperiences} from "../../portfolio";
@@ -6,8 +7,7 @@ import {greeting, workExperiences} from "../../portfolio";
 function Header() {
   const exp = workExperiences.viewExperiences;
   return (
-    <Fade top duration={1000} distance="20px">
-    <div>
+    <Headroom>
       <header className="header">
         <a href="" className="logo">
           <span className="grey-color"> &lt;</span>
@@ -47,8 +47,7 @@ function Header() {
           </li>
         </ul>
       </header>
-    </div>
-    </Fade>
+    </Headroom>
   );
 }
 export default Header;
