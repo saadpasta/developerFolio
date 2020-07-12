@@ -2,8 +2,10 @@ import React from "react";
 import {Fade} from "react-reveal";
 import A from "../Basic/A";
 import "./Header.css";
+import {greeting, workExperiences} from "../../portfolio";
 
 function Header() {
+  const exp = workExperiences.viewExperiences;
   return (
     <Fade top duration={1000} distance="20px">
       <div>
@@ -21,23 +23,28 @@ function Header() {
             <li>
               <A href="#skills">Skills</A>
             </li>
+            {exp === true && (
+              <li>
+                <a href="#experience">Work Experiences</a>
+              </li>
+            )}
+            <li>
+              <a href="#opensource">Open Source</a>
+            </li>
             <li>
               <A href="#projects">Projects</A>
             </li>
             <li>
-              <A href="#opensource">Open Source</A>
+              <a href="#achievements">Achievements</a>
             </li>
             <li>
-              <A href="#blogs">Blogs</A>
+              <a href="#blogs">Blogs</a>
             </li>
             <li>
-              <A href="#talks">Talks</A>
+              <a href="#talks">Talks</a>
             </li>
             <li>
-              <A href="#achievements">Achievements</A>
-            </li>
-            <li>
-              <A href="#contact">Contact</A>
+              <a href="#contact">Contact Me</a>
             </li>
           </ul>
         </header>

@@ -23,7 +23,6 @@ const StackProgress = () => {
               );
             })}
           </div>
-
           <div className="skills-image">
             <img alt="Skills" src={require("../../assets/images/skill.svg")} />
           </div>

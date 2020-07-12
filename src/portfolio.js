@@ -5,9 +5,11 @@ import emoji from "react-easy-emoji";
 
 // Your Summary And Greeting Section.
 const greeting = {
-  title: "Hello, I'm Saad",
+  /* Your Summary And Greeting Section */
+  username: "Saad Pasta",
+  title: "Hi all, I'm Saad",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer. I build Web and Mobile applications with JavaScript, React.js, Node.js, react-native and several other libraries & frameworks. Nice to meet you."
+    "A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
@@ -20,11 +22,12 @@ const socialMediaLinks = {
   gmail: "saadpasta70@gmail.com",
   gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/saad.pasta7"
+  // Instagram and Twitter are also supported in the links!
 };
 
 // Your Skills Section.
 const skillsSection = {
-  title: `Full Stack Developer`,
+  title: "Full Stack Developer",
   subTitle: "Working across the stack for web & mobile apps.",
   skills: [
     emoji("⚡ Develop interactive User Interfaces for web & mobile"),
@@ -110,12 +113,49 @@ const techStack = {
   ]
 };
 
+// Your top 3 work experiences
+
+const workExperiences = {
+  viewExperiences: true, //Set it to true to show workExperiences Section
+  experience: [
+    {
+      role: "Software Engineer",
+      company: "Facebook",
+      companylogo: require("./assets/images/facebookLogo.png"),
+      date: "June 2018 – Present",
+      desc:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]
+    },
+    {
+      role: "Front-End Developer",
+      company: "Quora",
+      companylogo: require("./assets/images/quoraLogo.png"),
+      date: "May 2017 – May 2018",
+      desc:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      role: "Software Engineer Intern",
+      company: "Airbnb",
+      companylogo: require("./assets/images/airbnbLogo.png"),
+      date: "Jan 2015 – Sep 2015",
+      desc:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  ]
+};
+
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
 const openSource = {
-  githubConvertedToken: "Your Github Converted Token",
-  githubUserName: "Your Github Username"
+  githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
+  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
+  showGithubProfile: "true" // Set true or false to show Contact profile using Github, defaults to false
 };
 
 // Some Big Projects You have worked with your company.
@@ -124,11 +164,11 @@ const bigProjects = {
   subtitle: "Startups and Companies that I help to create their tech",
   projects: [
     {
-      image: "https://drive.google.com/uc?id=1exWn9T6j8TsfDDHJnS3VR66eP6RiGAfY",
+      image: require("./assets/images/saayaHealthLogo.webp"),
       link: "http://saayahealth.com/"
     },
     {
-      image: "https://drive.google.com/uc?id=1MXoXcQRK-pH8J82wyjCW4SJk5AxJe7tf",
+      image: require("./assets/images/nextuLogo.webp"),
       link: "http://nextu.se/"
     }
   ]
@@ -139,14 +179,12 @@ const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
     "Achievements, Certifications Award Letters and Some Cool Stuff that I have done!",
-
   achivementsCards: [
     {
       title: "Google Code-In Finalist",
       subtitle:
         "First Pakistani to be selected as Google Google-in Finalist from 4000 students from 77 different countries",
-      image:
-        "https://1.bp.blogspot.com/-Ig-v1tDXZt4/XDODmZvWp1I/AAAAAAAAB0A/KtbFdBPFVQw2O15FekkIR0Yg8MUp--rngCLcBGAs/s1600/GCI%2B-%2BVertical%2B-%2BGray%2BText%2B-%2BWhite%2BBG.png",
+      image: require("./assets/images/codeInLogo.webp"),
       footerLink: [
         {
           name: "Certification",
@@ -169,8 +207,7 @@ const achievementSection = {
       title: "Google Assistant Action",
       subtitle:
         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Google_Assistant_logo.svg/1200px-Google_Assistant_logo.svg.png",
+      image: require("./assets/images/googleAssistantLogo.webp"),
       footerLink: [
         {
           name: "View Google Assistant Action",
@@ -183,8 +220,9 @@ const achievementSection = {
     {
       title: "PWA Web App Developer",
       subtitle: "Completed Certification from SMIT for PWA Web App Development",
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu93Bd6LDbxPEOXr-hfLqLYzmHny8c0MJoI3exQP-lwpFLRT7g&s",
+      image: require("./assets/images/pwaLogo.webp"),
+      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
         {name: "Certification", url: ""},
         {
@@ -200,21 +238,21 @@ const achievementSection = {
 const blogSection = {
   title: emoji("✍️ Blogs"),
   subtitle:
-    "With Love for Developing cool stuff. I love to write and teach others what I have learned",
+    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
 
   blogs: [
     {
       url:
         "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant T-Shirt and $200 in Google Cloud Credits",
+      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
       description:
-        "Do you want to win $200 and Google Assistant T-Shirt by creating a Google Assistant Action in less then 30 min."
+        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
     },
     {
       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT Is The Best?",
+      title: "Why REACT is The Best?",
       description:
-        "React is a JavaScript library for building the user interface. It is maintained by Facebook and a community of individual developers and companies."
+        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ]
 };
@@ -231,9 +269,7 @@ const talkSection = {
       title: "Build Actions For Google Assistant",
       subtitle: "Codelab at GDG DevFest Karachi 2019",
       slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/",
-      image:
-        "https://scontent.fkhi6-1.fna.fbcdn.net/v/t1.0-9/76714032_1730516240415559_1293494289556307968_o.jpg?_nc_cat=103&_nc_ohc=s5f81rdZd6wAQmqUa52YQBA21MjVOy7e-HN9jI7MspRDC-v5ahEouyInQ&_nc_ht=scontent.fkhi6-1.fna&oh=c29141a9a0de7ff2011a8191f5475a78&oe=5E83127C"
+      event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ]
 };
@@ -251,7 +287,8 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("☎️ Contact Me"),
-  subtitle: "Discuss a project or just want to say hi my inbox is open for all",
+  subtitle:
+    "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+92-3243454077",
   email_address: "saadpasta70@gmail.com"
 };
@@ -266,6 +303,7 @@ export {
   socialMediaLinks,
   skillsSection,
   techStack,
+  workExperiences,
   openSource,
   bigProjects,
   achievementSection,

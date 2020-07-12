@@ -1,10 +1,12 @@
 {
+  "homepage": "https://developerfolio.js.org/",
   "name": "developer-folio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@apollo/react-hooks": "^3.1.4",
     "apollo-boost": "^0.4.4",
+    "colorthief": "^2.3.0",
     "gh-pages": "^2.1.1",
     "graphql": "^14.5.8",
     "react": "^16.10.2",
@@ -30,6 +32,7 @@
     ]
   },
   "scripts": {
+    "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "deploy": "gh-pages -b master -d build",

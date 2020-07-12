@@ -30,7 +30,7 @@ const Greeting = () => (
           <img
             alt="saad sitting on table"
             src={require("../../assets/images/manOnTable.svg")}
-          ></img>
+          />
         </div>
       </div>
     </div>

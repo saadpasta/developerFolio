@@ -12,18 +12,18 @@ const Contact = () => (
         <div className="contact-header">
           <h2 className="heading contact-title">{contactInfo.title}</h2>
           <p className="subTitle contact-subtitle">{contactInfo.subtitle}</p>
-
           <div className="contact-text-div">
+            <A className="contact-detail" href={"tel:" + contactInfo.number}>
+              {contactInfo.number}
+            </A>
+            <br />
+            <br />
             <A
               className="contact-detail-email"
               href={"mailto:" + contactInfo.email_address}
             >
               {contactInfo.email_address}
             </A>
-            <A className="contact-detail" href={"tel:" + contactInfo.number}>
-              {contactInfo.number}
-            </A>
-
             <br />
             <br />
             <SocialMedia />
@@ -32,8 +32,8 @@ const Contact = () => (
         <div className="contact-image-div">
           <img
             alt="Saad Working"
-            src={require("../../assets/images/contactMail.png")}
-          ></img>
+            src={require("../../assets/images/contactMail.webp")}
+          />
         </div>
       </div>
     </div>
