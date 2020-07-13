@@ -1,7 +1,6 @@
 import React from "react";
 import Headroom from "react-headroom";
 import "./Header.css";
-import {Fade} from "react-reveal";
 import {greeting, workExperiences} from "../../portfolio";
 
 function Header() {
