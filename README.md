@@ -88,7 +88,7 @@ Generate a Github personal access token using these [Instructions](https://help.
   - package.json
 ```
 
-2. Inside the .env file, add key `REACT_APP_GITHUB_TOKEN` and assign your github token like this.
+2. Inside the .env file, add key `REACT_APP_GITHUB_TOKEN` and assign your github token like this. Check the env.example file.
 
 ```javascript
  // .env
