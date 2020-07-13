@@ -75,7 +75,7 @@ $ npm start
 
 Generate a Github personal access token using these [Instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) `Make sure you don't select any scope just generate a simple token`
 
-1. Create a file called .env in the root directory of your project.
+1. Create a file called .env in the root directory of your project
 
 ```bash
 - DeveloperFolio
@@ -83,12 +83,13 @@ Generate a Github personal access token using these [Instructions](https://help.
   - public
   - src
   - .env         <-- create it here
+  - env.example
   - .gitignore
   - package-lock.json
   - package.json
 ```
 
-2. Inside the .env file, add key `REACT_APP_GITHUB_TOKEN` and assign your github token like this. Check the env.example file.
+2. Inside the .env file, add key `REACT_APP_GITHUB_TOKEN` and assign your github token like this.
 
 ```javascript
  // .env
@@ -98,6 +99,9 @@ Generate a Github personal access token using these [Instructions](https://help.
 ```
 
 Set `showGithubProfile` to true or false to show Contact Profile using Github, defaults to false.
+
+Note: Open Source Projects section only show pinned itens of your Github. If you are seeing [this](https://i.imgur.com/Hj6mu1K.png), please follow this
+[Instructions](https://docs.github.com/en/enterprise/2.13/user/articles/pinning-items-to-your-profile).
 
 ## Change and customize every section according to your need.
 
