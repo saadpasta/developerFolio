@@ -190,6 +190,7 @@ For more information, read [hosting on Netlify](https://create-react-app.dev/doc
 - [apollo-boost](https://www.apollographql.com/docs/react/get-started/) 
 - [react-twitter-embed](https://github.com/saurabhnemade/react-twitter-embed)
 - [react-easy-emoji](https://github.com/appfigures/react-easy-emoji)
+- [react-headroom](https://github.com/KyleAMathews/react-headroom)
 - [color-thief](https://github.com/lokesh/color-thief)
 
 ## Illustrations
