@@ -95,7 +95,6 @@ Generate a Github personal access token using these [Instructions](https://help.
 
   REACT_APP_GITHUB_TOKEN = "YOUR GITHUB TOKEN HERE"
 
-};
 ```
 
 Set `showGithubProfile` to true or false to show Contact Profile using Github, defaults to false.
