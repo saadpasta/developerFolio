@@ -9,8 +9,7 @@ function Header() {
   const { isDark } = useContext(StyleContext);
   const exp = workExperiences.viewExperiences;
   return (
-    <Fade top duration={1000} distance="20px">
-    <div>
+    <Headroom>
       <header className="header">
         <a href="" className="logo">
           <span className="grey-color"> &lt;</span>
@@ -51,8 +50,7 @@ function Header() {
         </ul>
        
       </header>
-    </div>
-    </Fade>
+    </Headroom>
   );
 }
 export default Header;

@@ -14,8 +14,9 @@
 }
 
 .header {
-  max-width: 90%;
-  padding: 20px 10px;
+  background-color: #fff;
+  max-width: 100%;
+  padding: 15px 20px;
   margin: 0px auto;
 }
 
@@ -24,7 +25,6 @@
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: #fff;
 }
 .grey-color {
   color: #868e96;
@@ -51,8 +51,10 @@
   line-height: normal;
 }
 .header .logo-name {
-  font-family: 'Agustina Regular';
+  font-family: "Agustina Regular";
   font-weight: bold;
+  font-variant-ligatures: no-common-ligatures;
+  -webkit-font-variant-ligatures: no-common-ligatures;
   padding: 0 10px;
 }
 

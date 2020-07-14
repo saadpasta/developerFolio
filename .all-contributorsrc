@@ -152,6 +152,71 @@
         "code",
         "bug"
       ]
+    },
+    {
+      "login": "AkshayCHD",
+      "name": "Akshay Kumar",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/25455546?v=4",
+      "profile": "https://github.com/AkshayCHD",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "AmnaEjaz",
+      "name": "Amna Ejaz",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/14257959?v=4",
+      "profile": "https://github.com/AmnaEjaz",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
+    },
+    {
+      "login": "parasnagpal",
+      "name": "Paras Nagpal",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/39419139?v=4",
+      "profile": "https://github.com/parasnagpal",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "sparsh-99",
+      "name": "Sparsh Garg",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/56729873?v=4",
+      "profile": "https://sourcerer.io/sparsh-99",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "aashutoshrathi",
+      "name": "Aashutosh Rathi",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/21199234?v=4",
+      "profile": "http://aashutosh.dev",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "abhishekashyap",
+      "name": "Abhishek Kashyap",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/29458374?v=4",
+      "profile": "https://abhishekashyap.studio/",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "lcsvcn",
+      "name": "Lucas V C Nicolau",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6011385?v=4",
+      "profile": "https://github.com/lcsvcn",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,

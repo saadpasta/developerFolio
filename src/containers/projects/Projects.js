@@ -1,16 +1,18 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, { useState, useEffect, useContext, Suspense, lazy } from "react";
 import ApolloClient from "apollo-boost";
 import { gql } from "apollo-boost";
 import "./Project.css";
-import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
 import Button from "../../components/button/Button";
-import { openSource, socialMediaLinks } from "../../portfolio";
+import { openSource } from "../../portfolio";
 import { Fade } from "react-reveal";
-import StyleContext from "../../contexts/StyleContext";
-
+import { StyleConsumer } from "../../contexts/StyleContext"
+import Loading from '../../containers/loading/Loading'
 export default function Projects() {
+  const GithubRepoCard = lazy(() => import('../../components/githubRepoCard/GithubRepoCard'));
+  const FailedLoading = () => null;
+  const renderLoader = () => <Loading />;
   const [repo, setrepo] = useState([]);
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleConsumer);
   useEffect(() => {
     getRepoData();
   }, []);
@@ -18,13 +20,13 @@ export default function Projects() {
   function getRepoData() {
     const client = new ApolloClient({
       uri: "https://api.github.com/graphql",
-      request: operation => {
+      request: (operation) => {
         operation.setContext({
           headers: {
-            authorization: `Bearer ${atob(openSource.githubConvertedToken)}`
-          }
+            authorization: `Bearer ${openSource.githubConvertedToken}`,
+          },
         });
-      }
+      },
     });
 
     client
@@ -56,28 +58,32 @@ export default function Projects() {
           }
         }
       }
-        `
+        `,
       })
       .then(result => {
-        setrepoFunction(result.data.user.pinnedItems.edges);
+        setrepoFunction(result.data.repositoryOwner.pinnedRepositories.edges);
       });
   }
 
   function setrepoFunction(array) {
     setrepo(array);
   }
-
-  return (
-    <Fade bottom duration={1000} distance="20px">
-    <div className="main" id="opensource">
-      <h1 className="project-title">Open Source Projects</h1>
-      <div className="repo-cards-div-main">
-        {repo.map((v, i) => {
-          return <GithubRepoCard isDark={isDark} repo={v} key={v.node.id} />;
-        })}
-      </div>
-      <Button text={"More Projects"} className="project-button" href={socialMediaLinks.github} newTab={true} />
-    </div>
-    </Fade>
-  );
+  if (!(typeof repo === 'string' || repo instanceof String)) {
+    return (
+      <Suspense>
+        <Fade bottom duration={1000} distance="20px">
+          <div className="main" id="opensource">
+            <h1 className="project-title">Open Source Projects</h1>
+            <div className="repo-cards-div-main">
+              {repo.map((v, i) => {
+                return <GithubRepoCard isDark={isDark} repo={v} key={v.node.id} />
+              })}
+            </div>
+          </div>
+        </Fade>
+      </Suspense>
+    );
+  } else {
+    return (<FailedLoading />);
+  }
 }
