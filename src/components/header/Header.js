@@ -1,10 +1,11 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import Headroom from "react-headroom";
 import "./Header.css";
-import {greeting, workExperiences} from "../../portfolio";
-import { Fade } from "react-reveal";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
-import StyleContext  from "../../contexts/StyleContext";
+import StyleContext from "../../contexts/StyleContext";
+import { Fade } from "react-reveal";
+import { greeting, workExperiences } from "../../portfolio";
+
 
 function Header() {
   const { isDark } = useContext(StyleContext);
@@ -25,7 +26,7 @@ function Header() {
           <li>
             <a href="#skills">Skills</a>
           </li>
-          { exp === true &&
+          {exp === true &&
             <li>
               <a href="#experience">Work Experiences</a>
             </li>
@@ -34,10 +35,10 @@ function Header() {
             <a href="#opensource">Open Source</a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#opensource">Open Source</a>
           </li>
           <li>
-            <a href="#opensource">Open Source</a>
+            <a href="#achievements">Achievements</a>
           </li>
           <li>
             <a href="#blogs">Blogs</a>
@@ -52,10 +53,10 @@ function Header() {
             <a href="#contact">Contact Me</a>
           </li>
           <li>
-             <a><ToggleSwitch /></a>
+            <a><ToggleSwitch /></a>
           </li>
         </ul>
-       
+
       </header>
     </Headroom>
   );

@@ -1,15 +1,12 @@
-import React, { useState, useEffect, lazy, Suspense } from "react";
+import React, { useState, useEffect, useContext, Suspense, lazy } from "react";
 import ApolloClient from "apollo-boost";
 import { gql } from "apollo-boost";
 import "./Project.css";
 import Button from "../../components/button/Button";
-import Loading from "../loading/Loading";
-import { openSource, socialMediaLinks } from "../../portfolio";
-
 import { openSource } from "../../portfolio";
 import { Fade } from "react-reveal";
-import StyleContext from "../../contexts/StyleContext";
-
+import { StyleConsumer } from "../../contexts/StyleContext"
+import Loading from '../../containers/loading/Loading'
 export default function Projects() {
   const GithubRepoCard = lazy(() => import('../../components/githubRepoCard/GithubRepoCard'));
   const FailedLoading = () => null;
@@ -63,14 +60,8 @@ export default function Projects() {
       }
         `,
       })
-      .then((result) => {
-        setrepoFunction(result.data.user.pinnedItems.edges);
-        console.log(result);
-      })
-      .catch(function (error) {
-        console.log(error);
-        setrepoFunction("Error");
-        console.log("Because of this Error, nothing is shown in place of Projects section. Projects section not configured");
+      .then(result => {
+        setrepoFunction(result.data.repositoryOwner.pinnedRepositories.edges);
       });
   }
 
@@ -85,7 +76,7 @@ export default function Projects() {
             <h1 className="project-title">Open Source Projects</h1>
             <div className="repo-cards-div-main">
               {repo.map((v, i) => {
-                return <GithubRepoCard isDark={isDark} repo={v} key={v.node.id} />;
+                return <GithubRepoCard isDark={isDark} repo={v} key={v.node.id} />
               })}
             </div>
           </div>
