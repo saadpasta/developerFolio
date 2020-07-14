@@ -25,7 +25,7 @@ export default function Contact() {
                     </div>
                 </div>
                 <div className="contact-image-div">
-                    <img alt="Saad Working" src={require(`../../assets/images/${isDark ? 'contactMailDark.png' : 'contactMail.png'}`)}></img>
+                    <img alt="Saad Working" src={require(`../../assets/images/${isDark ? 'contactMailDark.svg' : 'contactMail.png'}`)}></img>
                 </div>
             </div>
         </div>
