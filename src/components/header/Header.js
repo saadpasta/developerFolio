@@ -12,7 +12,7 @@ function Header() {
   const exp = workExperiences.viewExperiences;
   return (
     <Headroom>
-      <header className="header">
+      <header className={isDark ? "dark-menu header": "header"}>
         <a href="" className="logo">
           <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>
@@ -31,9 +31,6 @@ function Header() {
               <a href="#experience">Work Experiences</a>
             </li>
           }
-          <li>
-            <a href="#opensource">Open Source</a>
-          </li>
           <li>
             <a href="#opensource">Open Source</a>
           </li>
