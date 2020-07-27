@@ -63,30 +63,43 @@ export default function Projects() {
         `,
       })
       .then((result) => {
-        setrepoFunction(result.data.repositoryOwner.pinnedRepositories.edges);
+        setrepoFunction(result.data.user.pinnedItems.edges);
+        console.log(result);
+      })
+      .catch(function (error) {
+        console.log(error);
+        setrepoFunction("Error");
+        console.log(
+          "Because of this Error, nothing is shown in place of Projects section. Projects section not configured"
+        );
       });
   }
 
   function setrepoFunction(array) {
     setrepo(array);
   }
-
-  return (
-    <Fade bottom duration={1000} distance="20px">
-      <div className="main" id="opensource">
-        <h1 className="project-title">Open Source Projects</h1>
-        <div className="repo-cards-div-main">
-          {repo.map((v, i) => {
-            return <GithubRepoCard isDark={isDark} repo={v} key={v.node.id} />;
-          })}
+  if (!(typeof repo === "string" || repo instanceof String)) {
+    return (
+      <Suspense fallback={renderLoader()}>
+        <div className="main" id="opensource">
+          <h1 className="project-title">Open Source Projects</h1>
+          <div className="repo-cards-div-main">
+            {repo.map((v, i) => {
+              return (
+                <GithubRepoCard repo={v} key={v.node.id} isDark={isDark} />
+              );
+            })}
+          </div>
+          <Button
+            text={"More Projects"}
+            className="project-button"
+            href={socialMediaLinks.github}
+            newTab={true}
+          />
         </div>
-        <Button
-          text={"More Projects"}
-          className="project-button"
-          href="https://github.com/saadpasta"
-          newTab={true}
-        />
-      </div>
-    </Fade>
-  );
+      </Suspense>
+    );
+  } else {
+    return <FailedLoading />;
+  }
 }
