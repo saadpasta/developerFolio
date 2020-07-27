@@ -12,7 +12,7 @@ export default function GithubRepoCard({ repo, isDark }) {
     <Fade bottom duration={1000} distance="20px">
     <div>
       <div className={isDark ? "dark-card-mode repo-card-div":"repo-card-div"} key={repo.node.id} onClick={() => openRepoinNewTab(repo.node.url)}>
-        <div >
+        <div style={{display:"flex",alignItems:"baseline"}}>
           <svg aria-hidden="true" className="octicon" height="16" role="img" viewBox="0 0 12 16" width="12" className="repo-svg">
             <path
               fill-rule="evenodd"
