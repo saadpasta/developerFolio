@@ -3,7 +3,6 @@ import "./Header.css";
 import { Fade } from "react-reveal";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
-import { Fade } from "react-reveal";
 import { greeting, workExperiences } from "../../portfolio";
 
 function Header() {
