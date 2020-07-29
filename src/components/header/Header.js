@@ -3,7 +3,6 @@ import Headroom from "react-headroom";
 import "./Header.css";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
-import { Fade } from "react-reveal";
 import { greeting, workExperiences } from "../../portfolio";
 
 
