@@ -19,37 +19,14 @@ export default function Skills() {
           </div>
         </Fade>
         <Fade right duration={1000}>
-          <div className={"skills-text-div"}>
-            <h1
-              className={isDark ? "dark-mode skills-heading" : "skills-heading"}
-            >
-              {skillsSection.title}{" "}
-            </h1>
-            <p
-              className={
-                isDark
-                  ? "dark-mode subTitle skills-text-subtitle"
-                  : "subTitle skills-text-subtitle"
-              }
-            >
-              {skillsSection.subTitle}
-            </p>
-            <SoftwareSkill />
-            <div>
-              {skillsSection.skills.map((skills) => {
-                return (
-                  <p
-                    className={
-                      isDark
-                        ? "dark-mode subTitle skills-text"
-                        : "subTitle skills-text"
-                    }
-                  >
-                    {skills}
-                  </p>
-                );
-              })}
-            </div>
+        <div className="skills-text-div">
+          <h1 className={isDark ? "dark-mode skills-heading":"skills-heading"}>{skillsSection.title} </h1>
+          <p className={isDark ? "dark-mode subTitle skills-text-subtitle":"subTitle skills-text-subtitle"}>{skillsSection.subTitle}</p>
+          <SoftwareSkill />
+          <div>
+            {skillsSection.skills.map(skills => {
+              return <p className={isDark ? "dark-mode subTitle skills-text":"subTitle skills-text"}>{skills}</p>;
+            })}
           </div>
         </Fade>
       </div>
