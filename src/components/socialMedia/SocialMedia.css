@@ -49,6 +49,14 @@
   background-color: #1da1f2;
 }
 
+.medium i {
+  background-color: #000;
+}
+
+.stack-overflow i {
+  background-color: #f48024;
+}
+
 .instagram i {
   background-color: #c13584;
 }
