@@ -46,7 +46,7 @@
   overflow: hidden;
   top: 0;
   right: 0;
-  background-color: #6c63ff;
+  background-color: #55198b;
   border-radius: 0 4px 0 32px;
 }
 
@@ -74,7 +74,7 @@
   z-index: -1;
   top: -16px;
   right: -16px;
-  background: #6c63ff;
+  background: #55198b;
   height: 32px;
   width: 32px;
   border-radius: 32px;
