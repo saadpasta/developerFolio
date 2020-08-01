@@ -6,7 +6,7 @@ import {twitterDetails} from "../../portfolio";
 
 const renderLoader = () => <Loading />;
 const cantDisplayError =
-  "<div class='centerContent'><h2>Can't load? Check privacy protection settings</h2></div>";
+  "<div class='centerContent'><h2 class='error-message'>Can't load? Check privacy protection settings</h2></div>";
 
 function timeOut() {
   setTimeout(function () {

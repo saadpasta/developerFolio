@@ -43,7 +43,8 @@
 
 .bio-text {
   line-height: 30px;
-  font-size: 22px;
+  font-size: 22px!important;
+  text-transform: none !important;
 }
 
 .desc-prof {

@@ -19,3 +19,8 @@
   font-size: 56px;
   font-weight: 100 !important;
 }
+.error-message{
+    line-height: 30px;
+    font-size: 22px!important;
+    text-transform: none !important;
+}
