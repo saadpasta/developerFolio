@@ -1,7 +1,7 @@
 name: Build and Deploy
 env:
   CI: false
-  REACT_APP_GITHUB_TOKEN: ${{ secrets.OPEN_SOURCE_TOKEN }}
+  REACT_APP_GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 on:
   push:
     branches:
@@ -22,7 +22,7 @@ jobs:
           npm run build
 
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@releases/v3.5.8
+        uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages # The branch the action should deploy to.
