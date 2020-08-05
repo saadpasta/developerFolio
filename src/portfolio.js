@@ -32,7 +32,8 @@ const skillsSection = {
   skills: [
     emoji("⚡ Develop highly available Continuous Integration/Deployment pipelines"),
     emoji("⚡ Develop software integrations that meet ISO 27k/FEDRAMP requirements"),
-    emoji("⚡ Infrastructure as code all day everyday")
+    emoji("⚡ Infrastructure as code all day everyday"),
+    emoji("⚡ Python")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -103,23 +104,23 @@ https://fontawesome.com/icons?d=gallery */
 
 // Your top 3 proficient stacks/tech experience
 
-const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
-  experience: [
-    {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
-  ]
-};
+//const techStack = {
+//  viewSkillBars: true, //Set it to true to show Proficiency Section
+//  experience: [
+//    {
+//      Stack: "DevOps",  //Insert stack or technology you have experience in
+//      progressPercentage: "90%"  //Insert relative proficiency in percentage
+//    },
+//    {
+//      Stack: "Backend",
+//      progressPercentage: "70%"
+//    },
+//    {
+//      Stack: "Programming",
+//      progressPercentage: "60%"
+//    }
+//  ]
+//};
 
 
 // Your top 3 work experiences
@@ -150,56 +151,79 @@ const openSource = {
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
 };
 
-
-// Some Big Projects You have worked with your company
-
-const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-  projects: [
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
-    }
-  ]
-};
-
 // Your Achievement Section Include Your Certification Talks and More
 
 const achievementSection = {
 
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  title: emoji("Awards and Achievements 🏆 "),
+  subtitle: "Awards and Achievements from the hard work over the years!",
 
   achivementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "Jenkins Engineer Certification",
+      subtitle: "This certificate confirms that the recipient has successfully passed the Jenkins Engineer exam.",
+      image: require("./assets/images/jenkins.jpg"),
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+        { name: "Certification", url: "https://certificates.cloudbees.com/31225cb4-d3b7-4f2e-ae41-f376aeb0fe91#gs.c78138" },
+        { name: "Information", url: "www.cloudbees.com/jenkins-certification"}
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "NC State Computer Science Outstanding Young Alumni Award",
+      subtitle: "Professional Achievement (e.g. senior leadership, strategic impact, technical innovation, etc.), Entrepreneurship (e.g. business founder, industry disruption, economic stimulation, etc.), Community and/or Public Service (e.g. United Way, Red Cross, Habitat for Humanity, etc.), Service to the Computer Science Discipline (e.g. research, patents, technical publications, books, special recognition by professional organizations such as ACM or IEEE, etc.)",
+      image: require("./assets/images/nc-state.png"),
       footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
+        { name: "2019 Award", url: "https://www.csc.ncsu.edu/news/2275" }
+      ]
+    },
+    {
+      title: "IBM Master Inventor Award",
+      subtitle: "The Master inventor badge is given to employees who have mastered the patent process, mentored broadly, added value to IBM's portfolio and demonstrated sustained innovation leadership and service.",
+      image: require("./assets/images/master-inventor.png"),
+      footerLink: [
+        { name: "2018 Award", url: "https://www.youracclaim.com/badges/f71bd0b7-3f92-4377-81ad-66e0c125667c/embedded" },
+        { name: "Information", url: "https://en.wikipedia.org/wiki/IBM_Master_Inventor"}
+      ]
+    },
+    {
+      title: "IBM Eminence and Excellence Award",
+      subtitle: "Senior Management award for relentless reinvention across the business",
+      image: require("./assets/images/ibmLogo.png"),
+      footerLink: [
+        { name: "2017 Award", url: "https://www.ibm.com" }
+      ]
+    },
+    {
+      title: "IBM Manager's Choice Award",
+      subtitle: "Senior Management Choice for Outstanding Employee Contributions.  Awarded to individuals who go above and beyond for bringing value to the business.",
+      image: require("./assets/images/ibmLogo.png"),
+      footerLink: [
+        { name: "2017 Award", url: "https://www.ibm.com" }
+      ]
+    },
+    {
+      title: "The President's Volunteer Service Award",
+      subtitle: "The President’s Volunteer Service Award recognizes individuals, families, and groups that have achieved a certain standard – measured by the number of hours of service during a 12-month period or cumulative hours earned over the course of a lifetime.  Awards are given to youth ages 14 and under who have completed 50 or more hours of volunteer service; to individuals 15 and older who have completed 100 or more hours; and to families or groups who have completed 200 or more hours. Lifetime achievement is recognized with a special President's Call to Service Award, which honors those who have provided more than 4,000 hours of service during the course of their lifetime.",
+      image: require("./assets/images/cncs_white1.jpg"),
+      footerLink: [
+        { name: "2014 Award", url: "https://www.nationalservice.gov/special-initiatives/presidents-volunteer-service-award" },
+        { name: "Information", url: "https://www.nationalservice.gov/special-initiatives/presidents-volunteer-service-award" }
+      ]
+    },
+    {
+      title: "IBM Manager's Choice Award",
+      subtitle: "Senior Management Choice for Outstanding Employee Contributions.  Awarded to individuals who go above and beyond for bringing value to the business.",
+      image: require("./assets/images/ibmLogo.png"),
+      footerLink: [
+        { name: "2014 Award", url: "https://www.ibm.com" }
+      ]
+    },
+    {
+      title: "IBM Top Contributor Award",
+      subtitle: "Senior Management recognition as a Top Contributor ranking in the Top 5% of the Global Workforce.",
+      image: require("./assets/images/ibmLogo.png"),
+      footerLink: [
+        { name: "2013 Award", url: "https://www.ibm.com" }
       ]
     }
   ]
@@ -210,41 +234,76 @@ const achievementSection = {
 const blogSection = {
 
   title: "Blogs",
-  subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  subtitle: "Spending time behind the firewall in the infrastructure it is fun to talk about lessons learned.",
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+      url: "",
+      title: "First Blog",
+      description: "Coming Soon!"
     }
   ]
 };
 
-// Talks Sections
 
-const talkSection = {
-  title: "TALKS",
-  subtitle: emoji("I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"),
+// Patents Sections
 
-  talks: [
+const patentsSection = {
+  title: "Patents",
+  subtitle: emoji("To invent, you need a good imagination and a pile of junk. — Thomas A. Edison 💡"),
+
+  patents: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      url: "http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=0&f=S&l=50&TERM1=Herrin-Bradley-C&FIELD1=&co1=AND&TERM2=&FIELD2=&d=PG01",
+      title: "PreGrant Patent Applications",
+      description: "Waiting on a number..."
+    },
+    {
+      url: "http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10671647.PN.&OS=PN/10223075=PN/10671647",
+      title: "System and method to identify, gather, and detect reusable digital assets",
+      description: "Patent No. 10,671,647"
+    },
+    {
+      url: "http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10628461.PN.&OS=PN/10223075=PN/10628461",
+      title: "System and method to identify, gather, and detect reusable digital assets",
+      description: "Patent No. 10,628,461"
+    },
+    {
+      url: "http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10565093.PN.&OS=PN/10565093=PN/10565093",
+      title: "Providing cognitive intelligence across continuous delivery pipeline data",
+      description: "Patent No. 10,565,093"
+    },
+    {
+      url: "http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10334110.PN.&OS=PN/10334110=PN/10334110",
+      title: "Managing, monitoring and transcribing concurrent meetings and/or conference calls",
+      description: "Patent No. 10,334,110"
+    },
+    {
+      url: "http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10223075.PN.&OS=PN/10223075=PN/10223075",
+      title: "Development community assessment via real-time workspace monitoring",
+      description: "Patent No. 10,223,075"
+    },
+    {
+      url: "http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10042744.PN.&OS=PN/10042744=PN/10042744",
+      title: "Adopting an existing automation script to a new framework",
+      description: "Patent No. 10,042,744"
+    },
+    {
+      url: "http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=9652225.PN.&OS=PN/9652225=PN/9652225",
+      title: "Development community assessment via real-time workspace monitoring",
+      description: "Patent No. 9,652,225"
+    },
+    {
+      url: "http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=9411711.PN.&OS=PN/9411711=PN/9411711",
+      title: "Adopting an existing automation script to a new framework",
+      description: "Patent No. 9,411,711"
+    },
+    {
+      url: "http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=9378122.PN.&OS=PN/9378122=PN/9378122",
+      title: "Adopting an existing automation script to a new framework",
+      description: "Patent No. 9,378,122"
     }
   ]
-};
-
-// Podcast Section
-
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"]
 };
 
 const contactInfo = {
@@ -259,4 +318,4 @@ const twitterDetails = {
   userName : "bradleycherrin"//Replace "twitter" with your twitter username without @
   
 };
-export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+export { greeting, socialMediaLinks, skillsSection, workExperiences, openSource, achievementSection, blogSection, patentsSection, contactInfo , twitterDetails};

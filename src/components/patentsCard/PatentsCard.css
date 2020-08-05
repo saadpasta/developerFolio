@@ -1,4 +1,4 @@
-.blog-container {
+.patents-container {
   border-radius: 10px;
   color: #586069;
   background-color: #fff;
@@ -8,7 +8,7 @@
   height: 200px;
 }
 
-.blog-title {
+.patents-title {
   color: #262626;
   font-size: 22px;
   line-height: 24px;
@@ -57,7 +57,7 @@
   font-family: courier, sans;
 }
 
-.blog-card {
+.patents-card {
   display: block;
   position: relative;
   background-color: transparent;
@@ -68,7 +68,7 @@
   height: 100%;
 }
 
-.blog-card::before {
+.patents-card::before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -83,55 +83,55 @@
   transition: transform 0.4s ease-out;
 }
 
-.blog-card:hover::before {
+.patents-card:hover::before {
   transform: scale(30);
 }
 
-.blog-card:hover > .small {
+.patents-card:hover > .small {
   transition: all 0.3s ease-out;
   color: rgba(255, 255, 255, 0.8);
 }
 
-.blog-card:hover > h3 {
+.patents-card:hover > h3 {
   transition: all 0.3s ease-out;
   color: #ffffff;
 }
 
 @media screen and (max-width: 480px) and (min-width: 300px), (min-width: 925px) and (max-width: 1024px), (min-width: 1405px) and (max-width: 1550px) {
-  .blog-card:hover::before {
+  .patents-card:hover::before {
     transform: scale(30);
   }
 }
 
 @media screen and (min-width: 481px) and (max-width: 675px), (min-width: 1025px) and (max-width: 1404px), (min-width: 1551px) {
-  .blog-card:hover::before {
+  .patents-card:hover::before {
     transform: scale(40);
   }
-  .blog-card::before {
+  .patents-card::before {
     transition: transform 0.45s ease-out;
   }
 }
 
 @media screen and (min-width: 675px) and (max-width: 860px) {
-  .blog-card:hover::before {
+  .patents-card:hover::before {
     transform: scale(50);
   }
-  .blog-card::before {
+  .patents-card::before {
     transition: transform 0.5s ease-out;
   }
 }
 
 @media screen and (min-width: 860px) and (max-width: 924px) {
-  .blog-card:hover::before {
+  .patents-card:hover::before {
     transform: scale(60);
   }
-  .blog-card::before {
+  .patents-card::before {
     transition: transform 0.5s ease-out;
   }
 }
 
 @media screen and (max-width: 480px) and (min-width: 300px) {
-  .blog-title {
+  .patents-title {
     font-size: 18px;
   }
 }

@@ -30,13 +30,13 @@ function Header() {
             <a href="#opensource">Open Source</a>
           </li>
           <li>
-            <a href="#awards">Awards</a>
+            <a href="#achievements">Achievements</a>
           </li>
           <li>
             <a href="#patents">Patents</a>
           </li>
           <li>
-            <a href="#talks">Talks</a>
+            <a href="#blogs">Blogs</a>
           </li>
         </ul>
       </header>
