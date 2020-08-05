@@ -31,6 +31,7 @@ const skillsSection = {
   subTitle: "Languages, Tools, Systems",
   skills: [
     emoji("⚡ Develop highly available Continuous Integration/Deployment pipelines"),
+    emoji("⚡ SRE Building for 99.9999 availability"),
     emoji("⚡ Develop software integrations that meet ISO 27k/FEDRAMP requirements"),
     emoji("⚡ Infrastructure as code all day everyday"),
     emoji("⚡ Python")
@@ -129,14 +130,105 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Senior Software Engineer",  
+      role: "IBM Cloud - Senior Software Engineer",  
       company: "IBM",
-      companylogo: require("./assets/images/ibmLogo.png"),
+      companylogo: require("./assets/images/ibmLogoNew.png"),
       date: "November 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Architecture, Software Engineering, DevOps, Site Reliability Engineering, Security for IBM Internal Software Tools and CI/CD Systems worldwide. We build systems at scale with 24x7x365 reliability. Working with rockstar Software & Site Reliability Engineers.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Building, Hosting, Running the IBM CI/CD Delivery Pipeline around the Globe",
+        "Focused on four 9s of availabilty with 100s in sight",
+        "Working with IBM Cloud CTO Office"
+      ]
+    },
+    {
+      role: "IBM Watson Financial Services - Senior Software Engineer",  
+      company: "IBM",
+      companylogo: require("./assets/images/ibmLogoNew.png"),
+      date: "June 2017 – November 2018",
+      desc: "I lead the portfolio development efforts with focus on product development, architectures, technical implementation of security & compliance strategy, Agile leadership & culture, and DevOps engineering.",
+      descBullets: [
+        "Working with IBM Watson CSO Office",
+        "Heavy focus on Industry Security/Compliance influence in Software design for Financial regulated products worldwide"
+      ]
+    },
+    {
+      role: "Visiting Lecturer",  
+      company: "NCSU",
+      companylogo: require("./assets/images/nc-state.png"),
+      date: "August 2017 – August 2018",
+      desc: "Guest Speaker at North Carolina State University Computer Science Graduate School",
+      descBullets: [
+        "DevOps Talks at the CSC Graduate DevOps Course",
+        "AI Challenges and AI Ops in Financial Services at CSC and Statisitics Graduate Courses"
+      ]
+    },
+    {
+      role: "IBM Watson & Cloud Platform - Senior Software Engineer",  
+      company: "IBM",
+      companylogo: require("./assets/images/ibmLogoNew.png"),
+      date: "July 2015 – June 2017",
+      desc: "Architecture, Software Engineering, DevOps, Site Reliability Engineering, Security for IBM Internal Software Tools and CI/CD Systems worldwide. We build systems at scale with 24x7x365 reliability. Working with rockstar Software & Site Reliability Engineers.",
+      descBullets: [
+        "Building, Hosting, Running the IBM CI/CD Delivery Pipeline around the Globe",
+        "Focused on four 9s of availabilty with 100s in sight",
+        "Working with IBM Cloud CTO Office"
+      ]
+    },
+    {
+      role: "IBM Systems - Advisory Software Engineer",  
+      company: "IBM",
+      companylogo: require("./assets/images/ibmLogoNew.png"),
+      date: "November 2013 – July 2015",
+      desc: "Architecture, Software Engineering, DevOps for IBM Systems organization worldwide",
+      descBullets: [
+        "Lead Software Engineering DevOps Pipeline efforts for IBM Systems",
+        "Lead development/design with Aerospace and Defense companies for DevOps architectures and solutions in air gap lab scenarios",
+      ]
+    },
+    {
+      role: "IBM Systems - Staff Software Engineer",  
+      company: "IBM",
+      companylogo: require("./assets/images/ibmLogoNew.png"),
+      date: "November 2012 – October 2013",
+      desc: "Python Automation framework development, Architecture, Software Engineering, DevOps for IBM Systems organization worldwide",
+      descBullets: [
+        "Embedding enterprise software into pre-baked patterns for rapid deployments in private network racks",
+        "Python Automation framework development",
+        "Regulated industry customer development and design consulting for CI/CD frameworks"
+      ]
+    },
+    {
+      role: "IBM Systems - Software Engineer",  
+      company: "IBM",
+      companylogo: require("./assets/images/ibmLogoNew.png"),
+      date: "May 2011 – November 2012",
+      desc: "Python Automation framework development, Software Engineering, DevOps for IBM Systems organization worldwide",
+      descBullets: [
+        "Python Automation framework development",
+        "CI/CD Automation development"
+      ]
+    },
+    {
+      role: "Open Source Research Assistant",  
+      company: "NCSU",
+      companylogo: require("./assets/images/nc-state.png"),
+      date: "January 2010 – May 2011",
+      desc: "Undergraduate Computer Science Research Assistant at North Carolina State University",
+      descBullets: [
+        "Served as an Undergraduate Research Assistant contributor to java generics analysis tools.",
+        "Provided theoretical analysis and plugin development for statistical collection of java generics in large open source software projects."
+      ]
+    },
+    {
+      role: "IBM Systems - Student Intern Software Engineer",  
+      company: "IBM",
+      companylogo: require("./assets/images/ibmLogoNew.png"),
+      date: "January 2009 – May 2011",
+      desc: "Lead developer on deployment framework for IBM Systems teams and introduced DevOps concepts to organization through CI tools and workflows",
+      descBullets: [
+        "Python Automation framework development",
+        "CI/CD Automation development"
       ]
     }
   ]
@@ -233,14 +325,19 @@ const achievementSection = {
 
 const blogSection = {
 
-  title: "Blogs",
-  subtitle: "Spending time behind the firewall in the infrastructure it is fun to talk about lessons learned.",
+  title: "Blogs/Publishings",
+  subtitle: "My Publishings from throughout my Software Engineering experiences",
 
   blogs: [
     {
-      url: "",
-      title: "First Blog",
-      description: "Coming Soon!"
+      url: "https://www.ibm.com/devops/method/experience/code/bradley_herrin_jenkins_for_building_bluemix_services",
+      title: "Building Bluemix and Cloud Foundation Services by using Jenkins published by IBM",
+      description: "Deploying to IBM Cloud with Jenkins"
+    },
+    {
+      url: "http://research.microsoft.com/pubs/146635/parnin2011jga.pdf",
+      title: "Java Generics Adoption: How New Features are Introduced, Championed, or Ignored published by ACM & Microsoft",
+      description: "Proceedings of the International Working Conference on Mining Software Repositories.  Report on the first empirical investigation into how Java generics have been integrated into open source software by automatically mining the history of 20 popular open source Java programs, traversing more than 500 million lines of code in the process"
     }
   ]
 };
