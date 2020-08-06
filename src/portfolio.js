@@ -254,7 +254,7 @@ const achievementSection = {
     {
       title: "Jenkins Engineer Certification",
       subtitle: "This certificate confirms that the recipient has successfully passed the Jenkins Engineer exam.",
-      image: require("./assets/images/jenkins.jpg"),
+      image: require("./assets/images/jenkins.png"),
       footerLink: [
         { name: "Certification", url: "https://certificates.cloudbees.com/31225cb4-d3b7-4f2e-ae41-f376aeb0fe91#gs.c78138" },
         { name: "Information", url: "www.cloudbees.com/jenkins-certification"}
@@ -296,7 +296,7 @@ const achievementSection = {
     {
       title: "The President's Volunteer Service Award",
       subtitle: "The President’s Volunteer Service Award recognizes individuals, families, and groups that have achieved a certain standard – measured by the number of hours of service during a 12-month period or cumulative hours earned over the course of a lifetime.  Awards are given to youth ages 14 and under who have completed 50 or more hours of volunteer service; to individuals 15 and older who have completed 100 or more hours; and to families or groups who have completed 200 or more hours. Lifetime achievement is recognized with a special President's Call to Service Award, which honors those who have provided more than 4,000 hours of service during the course of their lifetime.",
-      image: require("./assets/images/cncs_white1.jpg"),
+      image: require("./assets/images/cncs_white1.png"),
       footerLink: [
         { name: "2014 Award", url: "https://www.nationalservice.gov/special-initiatives/presidents-volunteer-service-award" },
         { name: "Information", url: "https://www.nationalservice.gov/special-initiatives/presidents-volunteer-service-award" }

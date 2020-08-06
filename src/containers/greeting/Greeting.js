@@ -27,7 +27,7 @@ export default function Greeting() {
           </div>
         </div>
         <div className="greeting-image-div">
-          <img alt="saad sitting on table" src={require("../../assets/images/manOnTable.png")}></img>
+          <img alt="Bradley C. Herrin sitting on table" src={require("../../assets/images/manOnTable.png")}></img>
         </div>
       </div>
     </div>
