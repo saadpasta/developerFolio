@@ -73,37 +73,7 @@ $ npm start
 ```
 ## Github Setup For Open Source Projects
 
-Generate a Github personal access token using these [Instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) `Make sure you don't select any scope just generate a simple token`
-
-1. Create a file called .env in the root directory of your project, check the base file
-
-Note: Instead of creating a .env file, you can just run this command "cp env.example .env" inside the root directory 
-
-```bash
-- DeveloperFolio
-  - node_modules
-  - public
-  - src
-  - .env         <-- create it here
-  - env.example  <-- this is the base file
-  - .gitignore
-  - package-lock.json
-  - package.json
-```
-
-2. Inside the .env file, add key `REACT_APP_GITHUB_TOKEN` and assign your github token like this.
-
-```javascript
- // .env
-
-  REACT_APP_GITHUB_TOKEN = "YOUR GITHUB TOKEN HERE"
-
-```
-
-Set `showGithubProfile` to true or false to show Contact Profile using Github, defaults to false.
-
-Note: Open Source Projects section only show pinned itens of your Github. If you are seeing [this](https://i.imgur.com/Hj6mu1K.png), please follow this
-[Instructions](https://docs.github.com/en/enterprise/2.13/user/articles/pinning-items-to-your-profile).
+This section is moved to this [wiki page](https://github.com/saadpasta/developerFolio/wiki/Github-Setup-For-Open-Source-Projects).
 
 ## Change and customize every section according to your need.
 
