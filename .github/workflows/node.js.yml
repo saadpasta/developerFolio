@@ -6,7 +6,6 @@ on:
   push:
     branches:
       - master
-      - new-personal-site
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
