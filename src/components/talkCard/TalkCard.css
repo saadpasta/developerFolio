@@ -18,7 +18,9 @@
   .rectangle:hover {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
   }
-
+  .dark-rectangle {
+    box-shadow: none;
+  }
   .mask {
     clip: rect(0px, 460px, 220px, 0px);
     border-radius: 4px;
