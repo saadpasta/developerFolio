@@ -71,6 +71,7 @@ $ npm install
 #Start's development server
 $ npm start
 ```
+
 ## Github Setup For Open Source Projects
 
 Generate a Github personal access token using these [Instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) `Make sure you don't select any scope just generate a simple token`
@@ -95,15 +96,15 @@ Note: Instead of creating a .env file, you can just run this command "cp env.exa
 
 ```javascript
  // .env
-
   REACT_APP_GITHUB_TOKEN = "YOUR GITHUB TOKEN HERE"
-
 ```
 
 Set `showGithubProfile` to true or false to show Contact Profile using Github, defaults to false.
 
 Note: Open Source Projects section only show pinned itens of your Github. If you are seeing [this](https://i.imgur.com/Hj6mu1K.png), please follow this
 [Instructions](https://docs.github.com/en/enterprise/2.13/user/articles/pinning-items-to-your-profile).
+
+If the above method by any chance fails, visit the [wiki page](https://github.com/saadpasta/developerFolio/wiki/Github-Setup-For-Open-Source-Projects).
 
 ## Change and customize every section according to your need.
 
