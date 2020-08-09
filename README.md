@@ -104,7 +104,7 @@ Set `showGithubProfile` to true or false to show Contact Profile using Github, d
 Note: Open Source Projects section only show pinned itens of your Github. If you are seeing [this](https://i.imgur.com/Hj6mu1K.png), please follow this
 [Instructions](https://docs.github.com/en/enterprise/2.13/user/articles/pinning-items-to-your-profile).
 
-If the above method by any chance fail, you can visit the [wiki page](https://github.com/saadpasta/developerFolio/wiki/Github-Setup-For-Open-Source-Projects).
+If the above method by any chance fails, visit the [wiki page](https://github.com/saadpasta/developerFolio/wiki/Github-Setup-For-Open-Source-Projects).
 
 ## Change and customize every section according to your need.
 
