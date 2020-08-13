@@ -1,5 +1,7 @@
 import React from "react";
 import "./Achievement.css";
+import Button from "../../components/button/Button";
+import { socialMediaLinks } from "../../portfolio";
 import AchivementCard from "../../components/achievementCard/AchivementCard";
 import { achievementSection } from "../../portfolio";
 import { Fade } from "react-reveal";
@@ -32,6 +34,7 @@ export default function Achievement() {
           })}
         </div>
       </div>
+      <Button text={"More Achievements"} className="project-button" href={socialMediaLinks.linkedin} newTab={true} />
     </div>
     </Fade>
   );

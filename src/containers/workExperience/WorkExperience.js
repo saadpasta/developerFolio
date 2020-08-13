@@ -1,5 +1,7 @@
 import React from "react";
 import "./WorkExperience.css";
+import { socialMediaLinks } from "../../portfolio";
+import Button from "../../components/button/Button";
 import ExperienceCard from "../../components/experienceCard/ExperienceCard";
 import { workExperiences } from "../../portfolio";
 import { Fade } from "react-reveal";
@@ -31,6 +33,7 @@ export default function WorkExperience() {
                         </div>
                     </div>
                 </div>
+                <Button text={"More Work Experiences"} className="project-button" href={socialMediaLinks.linkedin} newTab={true} />
                 </Fade>
             </div>
         );
