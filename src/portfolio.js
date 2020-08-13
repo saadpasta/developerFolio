@@ -197,39 +197,6 @@ const workExperiences = {
         "Python Automation framework development",
         "Regulated industry customer development and design consulting for CI/CD frameworks"
       ]
-    },
-    {
-      role: "IBM Systems - Software Engineer",  
-      company: "IBM",
-      companylogo: require("./assets/images/ibmLogoNew.png"),
-      date: "May 2011 – November 2012",
-      desc: "Python Automation framework development, Software Engineering, DevOps for IBM Systems organization worldwide",
-      descBullets: [
-        "Python Automation framework development",
-        "CI/CD Automation development"
-      ]
-    },
-    {
-      role: "Open Source Research Assistant",  
-      company: "NCSU",
-      companylogo: require("./assets/images/nc-state.png"),
-      date: "January 2010 – May 2011",
-      desc: "Undergraduate Computer Science Research Assistant at North Carolina State University",
-      descBullets: [
-        "Served as an Undergraduate Research Assistant contributor to java generics analysis tools.",
-        "Provided theoretical analysis and plugin development for statistical collection of java generics in large open source software projects."
-      ]
-    },
-    {
-      role: "IBM Systems - Student Intern Software Engineer",  
-      company: "IBM",
-      companylogo: require("./assets/images/ibmLogoNew.png"),
-      date: "January 2009 – May 2011",
-      desc: "Lead developer on deployment framework for IBM Systems teams and introduced DevOps concepts to organization through CI tools and workflows",
-      descBullets: [
-        "Python Automation framework development",
-        "CI/CD Automation development"
-      ]
     }
   ]
 };
@@ -286,36 +253,12 @@ const achievementSection = {
       ]
     },
     {
-      title: "IBM Manager's Choice Award",
-      subtitle: "Senior Management Choice for Outstanding Employee Contributions.  Awarded to individuals who go above and beyond for bringing value to the business.",
-      image: require("./assets/images/ibmLogo.png"),
-      footerLink: [
-        { name: "2017 Award", url: "https://www.ibm.com" }
-      ]
-    },
-    {
       title: "The President's Volunteer Service Award",
       subtitle: "The President’s Volunteer Service Award recognizes individuals, families, and groups that have achieved a certain standard – measured by the number of hours of service during a 12-month period or cumulative hours earned over the course of a lifetime.  Awards are given to youth ages 14 and under who have completed 50 or more hours of volunteer service; to individuals 15 and older who have completed 100 or more hours; and to families or groups who have completed 200 or more hours. Lifetime achievement is recognized with a special President's Call to Service Award, which honors those who have provided more than 4,000 hours of service during the course of their lifetime.",
       image: require("./assets/images/cncs_white1.png"),
       footerLink: [
         { name: "2014 Award", url: "https://www.nationalservice.gov/special-initiatives/presidents-volunteer-service-award" },
         { name: "Information", url: "https://www.nationalservice.gov/special-initiatives/presidents-volunteer-service-award" }
-      ]
-    },
-    {
-      title: "IBM Manager's Choice Award",
-      subtitle: "Senior Management Choice for Outstanding Employee Contributions.  Awarded to individuals who go above and beyond for bringing value to the business.",
-      image: require("./assets/images/ibmLogo.png"),
-      footerLink: [
-        { name: "2014 Award", url: "https://www.ibm.com" }
-      ]
-    },
-    {
-      title: "IBM Top Contributor Award",
-      subtitle: "Senior Management recognition as a Top Contributor ranking in the Top 5% of the Global Workforce.",
-      image: require("./assets/images/ibmLogo.png"),
-      footerLink: [
-        { name: "2013 Award", url: "https://www.ibm.com" }
       ]
     }
   ]
