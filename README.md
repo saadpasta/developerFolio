@@ -168,6 +168,12 @@ Note: Don't use `@` symbol when adding username.
 When you are done with the setup, you should host your website online.
 We highly recommend to read through the [Deploying on Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) docs for React.
 
+#### Configuring GitHub Actions
+
+- [Create a second GitHub Personal Access Token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) for use by the [JamesIves GitHub Pages Deploy GitHub Actions](https://github.com/JamesIves/github-pages-deploy-action) with `public_repo, read:org, workflow` checked
+  - On your repository fork, create a Secret called `ACCESS_TOKEN` under the <b>Settings/Secrets</b> tab
+  - Using the Personal Access Token you placed in the `.env` file earlier create a second Secret called `OPEN_SOURCE_TOKEN` where the value matches the token value from the `.env` file in your local workspace.
+
 #### Deploying to Github Pages
 
 This section guides you to deploy your portfolio on Github pages.
