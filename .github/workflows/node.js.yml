@@ -1,7 +1,7 @@
 name: Build and Deploy
 env:
   CI: false
-  REACT_APP_GITHUB_TOKEN: ${{ secrets.OPEN_SOURCE_TOKEN }} # Use the personal access token you generated and placed in .env by adding it to the Settings/Secrets part of this repository with anme OPEN_SOURCE_TOKEN
+  REACT_APP_GITHUB_TOKEN: ${{ secrets.OPEN_SOURCE_TOKEN }} # Use the generated personal access token and add it to repository secrets with the name OPEN_SOURCE_TOKEN
 on:
   push:
     branches:
