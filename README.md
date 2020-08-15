@@ -170,9 +170,9 @@ We highly recommend to read through the [Deploying on Github Pages](https://crea
 
 #### Configuring GitHub Actions
 
-- [Create a second GitHub Personal Access Token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) for use by the [JamesIves GitHub Pages Deploy GitHub Actions](https://github.com/JamesIves/github-pages-deploy-action) with `public_repo, read:org, workflow` checked
-  - On your repository fork, create a [repository secret](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets#creating-encrypted-secrets-for-a-repository) with the name `ACCESS_TOKEN` under the <b>Settings/Secrets</b> tab
-  - Using the Personal Access Token you placed in the `.env` file earlier create a [repository secret](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets#creating-encrypted-secrets-for-a-repository) called `OPEN_SOURCE_TOKEN` where the value matches the token value from the `.env` file in your local workspace.
+- Create a [GitHub CLI Personal Access Token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) with access to public_repo, read:org, workflow, to setup a [GitHub action](https://github.com/JamesIves/github-pages-deploy-action) to deploy to GitHub pages.
+- On your repository fork, create a [repository secret](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets#creating-encrypted-secrets-for-a-repository) with the name `ACCESS_TOKEN` under the <b>Settings/Secrets</b> tab
+- Using the Personal Access Token you placed in the `.env` file earlier create a [repository secret](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets#creating-encrypted-secrets-for-a-repository) called `OPEN_SOURCE_TOKEN` where the value matches the token value from the `.env` file in your local workspace.
 
 #### Deploying to Github Pages
 
