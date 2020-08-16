@@ -1,7 +1,7 @@
 name: Build and Deploy
 env:
   CI: false
-  REACT_APP_GITHUB_TOKEN: ${{ secrets.OPEN_SOURCE_TOKEN }}
+  REACT_APP_GITHUB_TOKEN: ${{ secrets.OPEN_SOURCE_TOKEN }} # Use the generated personal access token and add it to repository secrets with the name OPEN_SOURCE_TOKEN
 on:
   push:
     branches:
@@ -23,6 +23,6 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This is provided by GitHub.
           BRANCH: gh-pages # The branch the action should deploy to.
           FOLDER: build # The folder the action should deploy.
