@@ -23,6 +23,7 @@
   user-select: none;
   width: 2.6rem;
   margin-bottom: 10px;
+  transition: 0.2s ease-in;
 }
 
 .facebook i {
@@ -62,7 +63,6 @@
 .facebook i:hover,
 .instagram i:hover {
   background-color: black;
-  transition: 0.3s ease-in;
 }
 
 /* Media Query */

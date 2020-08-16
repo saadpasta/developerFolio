@@ -26,7 +26,10 @@
   display: flex;
   justify-content: center;
   margin-top: 20px;
-
+}
+.project-button > .main-button{
+  margin-right: 0 !important;
+  margin-top: 0 !important;
 }
 /* Media Query */
 @media (max-width: 768px) {
