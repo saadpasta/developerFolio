@@ -68,7 +68,9 @@
 .github i:hover,
 .linkedin i:hover,
 .facebook i:hover,
-.instagram i:hover {
+.instagram i:hover,
+.stack-overflow i:hover,
+.medium i:hover{
   background-color: black;
   transition: 0.3s ease-in;
 }
