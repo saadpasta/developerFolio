@@ -60,4 +60,8 @@ text-align: center;
     margin: 0 .5rem .5rem 0;
     padding: 0 .75em;
     cursor: pointer;
+    transition: 0.20s ease-in;
+}
+span.certificate-tag:hover {
+    background: #8c43ce;
 }
