@@ -1,4 +1,5 @@
 import React from "react";
+import "./AchievementCard.css";
 
 export default function AchivementCard({ cardInfo }) {
   function openUrlInNewTab(url) {
@@ -18,7 +19,7 @@ export default function AchivementCard({ cardInfo }) {
         </div>
         <div className="certificate-card-footer">
           {cardInfo.footer.map((v, i) => {
-            return <p onClick={() => openUrlInNewTab(v.url)}>{v.name}</p>;
+            return <span class="certificate-tag" onClick={() => openUrlInNewTab(v.url)}>{v.name}</span>;
           })}
         </div>
       </div>

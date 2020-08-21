@@ -18,7 +18,7 @@
 }
 .main-button:hover {
   background-color: #ffffff;
-  color: black;
+  color: #55198b;
   transition: all .3s ease 0s;
   transform: translateY(-3px);
 }

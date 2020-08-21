@@ -53,7 +53,7 @@
     -webkit-box-orient: vertical;
   }
   .talk-button {
-    background-color: #a066fb;
+    background-color: #55198b;
     color: white;
     width: 90px;
     padding: 10px 18px;
@@ -64,6 +64,10 @@
     margin-top: 20px;
     font-size: 14px;
     cursor: pointer;
+    transition: 0.20s ease-in;
+  }
+  .talk-button:hover {
+    background: #8c43ce;
   }
   .card-footer-button-div{
     display: flex;
