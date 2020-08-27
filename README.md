@@ -99,9 +99,9 @@ Note: Instead of creating a .env file, you can just run this command "cp env.exa
   REACT_APP_GITHUB_TOKEN = "YOUR GITHUB TOKEN HERE"
 ```
 
-Set `showGithubProfile` to true or false to show Contact Profile using Github, defaults to false.
+Set `showGithubProfile` to true or false to show Contact Profile using Github,Default is set as false.
 
-Note: Open Source Projects section only show pinned itens of your Github. If you are seeing [this](https://i.imgur.com/Hj6mu1K.png), please follow this
+Note: Open Source Projects section only show pinned items of your Github. If you are seeing [this](https://i.imgur.com/Hj6mu1K.png), please follow this
 [Instructions](https://docs.github.com/en/enterprise/2.13/user/articles/pinning-items-to-your-profile).
 
 If the above method by any chance fails, visit the [wiki page](https://github.com/saadpasta/developerFolio/wiki/Github-Setup-For-Open-Source-Projects).
