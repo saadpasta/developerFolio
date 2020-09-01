@@ -44,6 +44,7 @@
 
 .header .logo {
   display: block;
+  flex: none;
   float: left;
   font-size: 1.5em;
   text-decoration: none;

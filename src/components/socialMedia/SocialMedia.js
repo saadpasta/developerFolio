@@ -62,6 +62,22 @@ export default function socialMedia() {
       :
       null}
 
+      {socialMediaLinks.medium ? 
+      (<a href={socialMediaLinks.medium} className="icon-button medium" target="_blank">
+        <i className="fab fa-medium"></i>
+        <span></span>
+      </a>)
+      :
+      null}
+
+      {socialMediaLinks.stackoverflow ? 
+      (<a href={socialMediaLinks.stackoverflow} className="icon-button stack-overflow" target="_blank">
+        <i className="fab fa-stack-overflow"></i>
+        <span></span>
+      </a>)
+      :
+      null}
+
     </div>
   );
 }
