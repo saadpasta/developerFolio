@@ -146,3 +146,6 @@
     font-size: 18px;
   }
 }
+.blog-card-shadow {
+  box-shadow: 1px 0px 20px #ffffff;
+}
