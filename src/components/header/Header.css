@@ -6,7 +6,7 @@
 }
 
 .dark-menu li a {
-  color: white !important; 
+  color: white !important;
 }
 
 .dark-menu li a:hover {
@@ -89,6 +89,17 @@
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
   background: #333;
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon-dark:before,
+.header .menu-icon .navicon-dark:after {
+  background: white !important;
   content: "";
   display: block;
   height: 100%;
