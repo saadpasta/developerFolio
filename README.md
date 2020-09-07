@@ -99,7 +99,7 @@ Note: Instead of creating a .env file, you can just run this command "cp env.exa
   REACT_APP_GITHUB_TOKEN = "YOUR GITHUB TOKEN HERE"
 ```
 
-Set `showGithubProfile` to true or false to show Contact Profile using Github,Default is set as false.
+Set `showGithubProfile` to true or false to show Contact Profile using Github, defaults to false.
 
 Note: Open Source Projects section only show pinned items of your Github. If you are seeing it as show below 
 
