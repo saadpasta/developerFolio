@@ -104,7 +104,7 @@ Set `showGithubProfile` to true or false to show Contact Profile using Github, d
 Note: Open Source Projects section only show pinned items of your Github. If you are seeing it as show below 
 
 
-<img src = "https://i.imgur.com/Hj6mu1K.png" alt = " Error" > 
+![ERROR](https://i.imgur.com/Hj6mu1K.png)
 
 Please follow these 
 [Instructions](https://docs.github.com/en/enterprise/2.13/user/articles/pinning-items-to-your-profile).
