@@ -138,64 +138,7 @@ const workExperiences = {
       descBullets: [
         "Building, Hosting, Running the IBM CI/CD Delivery Pipeline around the Globe",
         "Focused on four 9s of availabilty with 100s in sight",
-        "Working with IBM Cloud CTO Office"
-      ]
-    },
-    {
-      role: "IBM Watson Financial Services - Senior Software Engineer",  
-      company: "IBM",
-      companylogo: require("./assets/images/ibmLogoNew.png"),
-      date: "June 2017 – November 2018",
-      desc: "I lead the portfolio development efforts with focus on product development, architectures, technical implementation of security & compliance strategy, Agile leadership & culture, and DevOps engineering.",
-      descBullets: [
-        "Working with IBM Watson CSO Office",
-        "Heavy focus on Industry Security/Compliance influence in Software design for Financial regulated products worldwide"
-      ]
-    },
-    {
-      role: "Visiting Lecturer",  
-      company: "NCSU",
-      companylogo: require("./assets/images/nc-state.png"),
-      date: "August 2017 – August 2018",
-      desc: "Guest Speaker at North Carolina State University Computer Science Graduate School",
-      descBullets: [
-        "DevOps Talks at the CSC Graduate DevOps Course",
-        "AI Challenges and AI Ops in Financial Services at CSC and Statisitics Graduate Courses"
-      ]
-    },
-    {
-      role: "IBM Watson & Cloud Platform - Senior Software Engineer",  
-      company: "IBM",
-      companylogo: require("./assets/images/ibmLogoNew.png"),
-      date: "July 2015 – June 2017",
-      desc: "Architecture, Software Engineering, DevOps, Site Reliability Engineering, Security for IBM Internal Software Tools and CI/CD Systems worldwide. We build systems at scale with 24x7x365 reliability. Working with rockstar Software & Site Reliability Engineers.",
-      descBullets: [
-        "Building, Hosting, Running the IBM CI/CD Delivery Pipeline around the Globe",
-        "Focused on four 9s of availabilty with 100s in sight",
-        "Working with IBM Cloud CTO Office"
-      ]
-    },
-    {
-      role: "IBM Systems - Advisory Software Engineer",  
-      company: "IBM",
-      companylogo: require("./assets/images/ibmLogoNew.png"),
-      date: "November 2013 – July 2015",
-      desc: "Architecture, Software Engineering, DevOps for IBM Systems organization worldwide",
-      descBullets: [
-        "Lead Software Engineering DevOps Pipeline efforts for IBM Systems",
-        "Lead development/design with Aerospace and Defense companies for DevOps architectures and solutions in air gap lab scenarios",
-      ]
-    },
-    {
-      role: "IBM Systems - Staff Software Engineer",  
-      company: "IBM",
-      companylogo: require("./assets/images/ibmLogoNew.png"),
-      date: "November 2012 – October 2013",
-      desc: "Python Automation framework development, Architecture, Software Engineering, DevOps for IBM Systems organization worldwide",
-      descBullets: [
-        "Embedding enterprise software into pre-baked patterns for rapid deployments in private network racks",
-        "Python Automation framework development",
-        "Regulated industry customer development and design consulting for CI/CD frameworks"
+        "Working with IBM Cloud SRE Platform and DevOps Services teams"
       ]
     }
   ]
@@ -299,49 +242,9 @@ const patentsSection = {
       description: "Waiting on a number..."
     },
     {
-      url: "http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10671647.PN.&OS=PN/10223075=PN/10671647",
-      title: "System and method to identify, gather, and detect reusable digital assets",
-      description: "Patent No. 10,671,647"
-    },
-    {
-      url: "http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10628461.PN.&OS=PN/10223075=PN/10628461",
-      title: "System and method to identify, gather, and detect reusable digital assets",
-      description: "Patent No. 10,628,461"
-    },
-    {
-      url: "http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10565093.PN.&OS=PN/10565093=PN/10565093",
-      title: "Providing cognitive intelligence across continuous delivery pipeline data",
-      description: "Patent No. 10,565,093"
-    },
-    {
-      url: "http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10334110.PN.&OS=PN/10334110=PN/10334110",
-      title: "Managing, monitoring and transcribing concurrent meetings and/or conference calls",
-      description: "Patent No. 10,334,110"
-    },
-    {
-      url: "http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10223075.PN.&OS=PN/10223075=PN/10223075",
-      title: "Development community assessment via real-time workspace monitoring",
-      description: "Patent No. 10,223,075"
-    },
-    {
-      url: "http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10042744.PN.&OS=PN/10042744=PN/10042744",
-      title: "Adopting an existing automation script to a new framework",
-      description: "Patent No. 10,042,744"
-    },
-    {
-      url: "http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=9652225.PN.&OS=PN/9652225=PN/9652225",
-      title: "Development community assessment via real-time workspace monitoring",
-      description: "Patent No. 9,652,225"
-    },
-    {
-      url: "http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=9411711.PN.&OS=PN/9411711=PN/9411711",
-      title: "Adopting an existing automation script to a new framework",
-      description: "Patent No. 9,411,711"
-    },
-    {
-      url: "http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=9378122.PN.&OS=PN/9378122=PN/9378122",
-      title: "Adopting an existing automation script to a new framework",
-      description: "Patent No. 9,378,122"
+      url: "http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=0&f=S&l=50&TERM1=Herrin-Bradley-C&FIELD1=INNM&co1=AND&TERM2=&FIELD2=&d=PTXT",
+      title: "Granted Patent Applications",
+      description: "Issued Patents"
     }
   ]
 };
