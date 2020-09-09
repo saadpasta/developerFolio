@@ -162,15 +162,6 @@ const achievementSection = {
 
   achivementsCards: [
     {
-      title: "Jenkins Engineer Certification",
-      subtitle: "This certificate confirms that the recipient has successfully passed the Jenkins Engineer exam.",
-      image: require("./assets/images/jenkins.png"),
-      footerLink: [
-        { name: "Certification", url: "https://certificates.cloudbees.com/31225cb4-d3b7-4f2e-ae41-f376aeb0fe91#gs.c78138" },
-        { name: "Information", url: "www.cloudbees.com/jenkins-certification"}
-      ]
-    },
-    {
       title: "NC State Computer Science Outstanding Young Alumni Award",
       subtitle: "Professional Achievement (e.g. senior leadership, strategic impact, technical innovation, etc.), Entrepreneurship (e.g. business founder, industry disruption, economic stimulation, etc.), Community and/or Public Service (e.g. United Way, Red Cross, Habitat for Humanity, etc.), Service to the Computer Science Discipline (e.g. research, patents, technical publications, books, special recognition by professional organizations such as ACM or IEEE, etc.)",
       image: require("./assets/images/nc-state.png"),
@@ -185,14 +176,6 @@ const achievementSection = {
       footerLink: [
         { name: "2018 Award", url: "https://www.youracclaim.com/badges/f71bd0b7-3f92-4377-81ad-66e0c125667c/embedded" },
         { name: "Information", url: "https://en.wikipedia.org/wiki/IBM_Master_Inventor"}
-      ]
-    },
-    {
-      title: "IBM Eminence and Excellence Award",
-      subtitle: "Senior Management award for relentless reinvention across the business",
-      image: require("./assets/images/ibmLogo.png"),
-      footerLink: [
-        { name: "2017 Award", url: "https://www.ibm.com" }
       ]
     },
     {
