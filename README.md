@@ -101,10 +101,12 @@ Note: Instead of creating a .env file, you can just run this command "cp env.exa
 
 Set `showGithubProfile` to true or false to show Contact Profile using Github, defaults to false.
 
-Note: Open Source Projects section only show pinned itens of your Github. If you are seeing [this](https://i.imgur.com/Hj6mu1K.png), please follow this
-[Instructions](https://docs.github.com/en/enterprise/2.13/user/articles/pinning-items-to-your-profile).
+Note: Open Source Projects section only show pinned items of your Github. 
+If you are seeing something as shown below, follow these [instructions](https://docs.github.com/en/enterprise/2.13/user/articles/pinning-items-to-your-profile).
 
-If the above method by any chance fails, visit the [wiki page](https://github.com/saadpasta/developerFolio/wiki/Github-Setup-For-Open-Source-Projects).
+![ERROR](https://i.imgur.com/Hj6mu1K.png)
+
+If the above solution still doesn't work, visit the [wiki page](https://github.com/saadpasta/developerFolio/wiki/Github-Setup-For-Open-Source-Projects).
 
 ## Change and customize every section according to your need.
 
