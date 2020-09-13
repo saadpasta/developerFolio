@@ -11,9 +11,9 @@
   margin-top: 2rem;
 }
 
-.dark-mode {
+/* .dark-mode {
   color: white;
-}
+} */
 
 .gretting-main {
   width: 90%;
@@ -22,7 +22,7 @@
 }
 
 .subTitle {
-  color:black !important;
+  color: black !important;
 }
 
 .greeting-main {

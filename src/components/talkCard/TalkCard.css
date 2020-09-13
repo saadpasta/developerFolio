@@ -19,7 +19,7 @@
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
 }
 .dark-rectangle {
-  box-shadow: 4px 1px 20px 0px #ffffff;
+  box-shadow: 4px 1px 20px 0px;
 }
 .mask {
   clip: rect(0px, 460px, 220px, 0px);
@@ -90,7 +90,7 @@
   .talk-card-image {
     width: 100%;
   }
-  
+
   .talk-button {
     background-color: #55198b;
     color: white;
@@ -103,12 +103,12 @@
     margin-top: 20px;
     font-size: 14px;
     cursor: pointer;
-    transition: 0.20s ease-in;
+    transition: 0.2s ease-in;
   }
   .talk-button:hover {
     background: #8c43ce;
   }
-  .card-footer-button-div{
+  .card-footer-button-div {
     display: flex;
     justify-content: space-around;
   }
