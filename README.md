@@ -1,24 +1,24 @@
-# Software Developer Folio ⚡️ [![GitHub](https://img.shields.io/github/license/saadpasta/developer-portfolio?color=blue)](https://github.com/saadpasta/developerFolio/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/saadpasta/developerFolio)](https://github.com/saadpasta/developerFolio/stargazers)  [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors) 
+# Software Developer Folio ⚡️ [![GitHub](https://img.shields.io/github/license/saadpasta/developer-portfolio?color=blue)](https://github.com/saadpasta/developerFolio/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/saadpasta/developerFolio)](https://github.com/saadpasta/developerFolio/stargazers)  [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 
 ## A clean, beautiful and responsive portfolio template for Developers!
 
 
-<p align="center"> 
+<p align="center">
   <kbd>
 <img src="https://user-images.githubusercontent.com/49693820/81296489-999abf00-908f-11ea-9442-75e8f0ecf65d.gif"></img>
   </kbd>
 </p>
 
 
-Just change `src/portfolio.js` to get your personal portfolio . Feel free to use it as-is or customize it as much as you want.
+Just change `src/portfolio.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
 
 But if you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/saadpasta/developerFolio/issues).
 
 
-If you created something awesome and want to contribute then feel free to open Please don't hesitate to open an [pull request](https://github.com/saadpasta/developerFolio/pulls).
+If you created something awesome and want to contribute then feel free to open an [pull request](https://github.com/saadpasta/developerFolio/pulls).
 
 
-## Sections 
+## Sections
 ✔️ Summary and About me\
 ✔️ Skills\
 ✔️ Work Experience\
@@ -32,7 +32,7 @@ If you created something awesome and want to contribute then feel free to open P
 ✔️ Twitter Timeline\
 ✔️ Github Profile
 
-To view a live example, **[click here](https://developerfolio.js.org/)**
+To view a live example, **[click here](https://developerfolio.js.org/)**.
 
 
 ## Getting Started 🚀
@@ -46,7 +46,7 @@ node@v10.16.0 or higher
 npm@6.9.0 or higher
 git@2.17.1 or higher
 ```
-### Docker Commands 
+### Docker Commands
 
 ```
 1) BUILD IMAGE : docker build -t developerfolio:latest .
@@ -74,11 +74,11 @@ $ npm start
 
 ## Github Setup For Open Source Projects
 
-Generate a Github personal access token using these [Instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) `Make sure you don't select any scope just generate a simple token`
+Generate a Github personal access token following these [instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) (make sure you don't select any scope just generate a simple token).
 
 1. Create a file called .env in the root directory of your project, check the base file
 
-Note: Instead of creating a .env file, you can just run this command "cp env.example .env" inside the root directory 
+Note: Instead of creating a .env file, you can just run this command "cp env.example .env" inside the root directory
 
 ```bash
 - DeveloperFolio
@@ -101,7 +101,7 @@ Note: Instead of creating a .env file, you can just run this command "cp env.exa
 
 Set `showGithubProfile` to true or false to show Contact Profile using Github, defaults to false.
 
-Note: Open Source Projects section only show pinned items of your Github. 
+Note: Open Source Projects section only show pinned items of your Github.
 If you are seeing something as shown below, follow these [instructions](https://docs.github.com/en/enterprise/2.13/user/articles/pinning-items-to-your-profile).
 
 ![ERROR](https://i.imgur.com/Hj6mu1K.png)
@@ -136,9 +136,9 @@ const skillsSection = { .... }
 
 const techStack = { .... }
 
-const workExperience = { .... } 
+const workExperience = { .... }
 
-const openSource = { .... } 
+const openSource = { .... }
 
 const bigProjects = { .... }
 
@@ -166,7 +166,7 @@ const twitterDetails = {
 ```
 Note: Don't use `@` symbol when adding username.
 
-## Deployment 📦 
+## Deployment 📦
 When you are done with the setup, you should host your website online.
 We highly recommend to read through the [Deploying on Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) docs for React.
 
@@ -178,9 +178,9 @@ We highly recommend to read through the [Deploying on Github Pages](https://crea
 
 This section guides you to deploy your portfolio on Github pages.
 
-- Navigate to `package.json` and enter your domain name instead of `https://developerfolio.js.org/` in `homepage` variable. For example, if you want your site to be `https://<your-username>.github.io/developerFolio`, add the same to the homepage section of `package.json`. 
+- Navigate to `package.json` and enter your domain name instead of `https://developerfolio.js.org/` in `homepage` variable. For example, if you want your site to be `https://<your-username>.github.io/developerFolio`, add the same to the homepage section of `package.json`.
 
-- In short you can also add `/devloperFolio` to `package.json` as both are exactly same. Upon doing so, you tell `create-react-app` to add the path assets accordingly. 
+- In short you can also add `/devloperFolio` to `package.json` as both are exactly same. Upon doing so, you tell `create-react-app` to add the path assets accordingly.
 
 - Optionally, configure the domain. You can configure a custom domain with GitHub Pages by adding a `CNAME` file to the `public/` folder.
 
@@ -198,8 +198,8 @@ For more information, read [hosting on Netlify](https://create-react-app.dev/doc
 ## Technologies used 🛠️
 
 - [React](https://reactjs.org/)
-- [graphql](https://graphql.org/) 
-- [apollo-boost](https://www.apollographql.com/docs/react/get-started/) 
+- [graphql](https://graphql.org/)
+- [apollo-boost](https://www.apollographql.com/docs/react/get-started/)
 - [react-twitter-embed](https://github.com/saurabhnemade/react-twitter-embed)
 - [react-easy-emoji](https://github.com/appfigures/react-easy-emoji)
 - [react-headroom](https://github.com/KyleAMathews/react-headroom)
@@ -211,7 +211,7 @@ For more information, read [hosting on Netlify](https://create-react-app.dev/doc
 
 
 
-## For the Future 
+## For the Future
 If you can help us with these. Please don't hesitate to open a [pull request](https://github.com/saadpasta/developerFolio/pulls).
 
 - Connect with LinkedIn to get Summary, Skills, Education and Experience
