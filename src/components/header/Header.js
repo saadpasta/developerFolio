@@ -1,13 +1,16 @@
 import React from "react";
+import Headroom from "react-headroom";
 import "./Header.css";
+import {greeting, workExperiences} from "../../portfolio";
 
 function Header() {
+  const exp = workExperiences.viewExperiences;
   return (
-    <div>
+    <Headroom>
       <header className="header">
         <a href="" className="logo">
           <span className="grey-color"> &lt;</span>
-          <span className="logo-name">Simba Ndoro</span>
+          <span className="logo-name">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
@@ -18,27 +21,32 @@ function Header() {
           <li>
             <a href="#skills">Skills</a>
           </li>
+          { exp === true &&
+            <li>
+              <a href="#experience">Work Experiences</a>
+            </li>
+          }
+          <li>
+            <a href="#opensource">Open Source</a>
+          </li>
           <li>
             <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="#opensource">Open Source</a>
-          </li>
-          {/* <li>
-            <a href="#blogs">Blogs</a>
-          </li> */}
-          {/* <li>
-            <a href="#talks">Talks</a>
-          </li> */}
-          <li>
             <a href="#achievements">Achievements</a>
+          </li>
+          <li>
+            <a href="#blogs">Blogs</a>
+          </li>
+          <li>
+            <a href="#talks">Talks</a>
           </li>
           <li>
             <a href="#contact">Contact Me</a>
           </li>
         </ul>
       </header>
-    </div>
+    </Headroom>
   );
 }
 export default Header;
