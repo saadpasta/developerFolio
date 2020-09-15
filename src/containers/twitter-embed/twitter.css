@@ -1,0 +1,22 @@
+.centerContent{
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+.tw-main-div {
+  margin-left: 15px; 
+  margin-right : 15px;
+  margin-bottom: 15px;
+  width: auto;
+  padding: 1.5rem;
+}
+.twitter-component{
+  width:auto;
+  padding: 1.5rem;
+}
+.timeline-Header-title{
+    font-size: 56px;
+    font-weight: 100 !important;
+}
