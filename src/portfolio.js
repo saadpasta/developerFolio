@@ -9,7 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Simba Ndoro",
   title: "Hi all, I'm Simba",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Flutter / Nodejs / Vue and some other cool libraries and frameworks."),
+  subTitle: emoji("A passionate Software Developer 🚀 with experience building Web and Mobile applications using JavaScript / Flutter / Nodejs / Vue and some other cool libraries and frameworks."),
   resumeLink: "https://drive.google.com/file/d/1fqQy-SQkK6qa60SWd52Id960eVQlDL0B/view?usp=sharing"
 };
 
@@ -167,14 +167,14 @@ const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
-    }
+    // {
+    //   image: "https://www.wallpaperup.com/uploads/wallpapers/2014/09/25/455955/45cc249825d1d76d509d0aa81a67adb5-700.jpg",
+    //   link: "TBA"
+    // },
+    // {
+    //   image: require("./assets/images/nextuLogo.webp"),
+    //   link: "http://nextu.se/"
+    // }
   ]
 };
 
