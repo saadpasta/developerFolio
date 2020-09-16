@@ -20,6 +20,9 @@
   font-size: 56px;
   font-weight: 400;
 }
+.subTitle {
+  color: #868e96;
+}
 
 /* Media Query */
 @media (max-width: 1380px) {

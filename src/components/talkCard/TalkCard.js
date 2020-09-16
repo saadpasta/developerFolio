@@ -1,12 +1,13 @@
 import React from "react";
 import "./TalkCard.css";
 
-export default function TalkCard({talkDetails}) {
-  {console.log(talkDetails.isDark)}
+export default function TalkCard({ talkDetails }) {
   return (
     <div>
       <div class="container">
-        <div class={talkDetails.isDark ? "dark-rectangle rectangle" : "rectangle"}>
+        <div
+          class={talkDetails.isDark ? "dark-rectangle rectangle" : "rectangle"}
+        >
           <div class="diagonal-fill"></div>
           <div class="talk-card-title">{talkDetails.title}</div>
           <p className="talk-card-subtitle">{talkDetails.subtitle}</p>
