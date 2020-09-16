@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0c7749e3.chunk.css",
+    "main.js": "/static/js/main.ab918fce.chunk.js",
+    "main.js.map": "/static/js/main.ab918fce.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.25f524c0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.25f524c0.js.map",
+    "static/js/2.47c35e97.chunk.js": "/static/js/2.47c35e97.chunk.js",
+    "static/js/2.47c35e97.chunk.js.map": "/static/js/2.47c35e97.chunk.js.map",
+    "static/css/3.70d62d19.chunk.css": "/static/css/3.70d62d19.chunk.css",
+    "static/js/3.1e35650d.chunk.js": "/static/js/3.1e35650d.chunk.js",
+    "static/js/3.1e35650d.chunk.js.map": "/static/js/3.1e35650d.chunk.js.map",
+    "static/css/4.01c87591.chunk.css": "/static/css/4.01c87591.chunk.css",
+    "static/js/4.d4cf7b6d.chunk.js": "/static/js/4.d4cf7b6d.chunk.js",
+    "static/js/4.d4cf7b6d.chunk.js.map": "/static/js/4.d4cf7b6d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.fcc06ee30ef0ba91795c8e4da329a96f.js": "/precache-manifest.fcc06ee30ef0ba91795c8e4da329a96f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/3.70d62d19.chunk.css.map": "/static/css/3.70d62d19.chunk.css.map",
+    "static/css/4.01c87591.chunk.css.map": "/static/css/4.01c87591.chunk.css.map",
+    "static/css/main.0c7749e3.chunk.css.map": "/static/css/main.0c7749e3.chunk.css.map",
+    "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/airbnbLogo.png": "/static/media/airbnbLogo.c59720d6.png",
+    "static/media/contactMail.webp": "/static/media/contactMail.68e84138.webp",
+    "static/media/developerActivity.svg": "/static/media/developerActivity.59389695.svg",
+    "static/media/facebookLogo.png": "/static/media/facebookLogo.8ddf76a1.png",
+    "static/media/logo.svg": "/static/media/logo.25bf045c.svg",
+    "static/media/manOnTable.svg": "/static/media/manOnTable.52be3144.svg",
+    "static/media/quoraLogo.png": "/static/media/quoraLogo.4b2938b9.png",
+    "static/media/skill.svg": "/static/media/skill.34409398.svg",
+    "static/media/TalkCard.css": "/static/media/talksCardBack.39eff4a9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.25f524c0.js",
+    "static/js/2.47c35e97.chunk.js",
+    "static/css/main.0c7749e3.chunk.css",
+    "static/js/main.ab918fce.chunk.js"
+  ]
+}
