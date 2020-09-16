@@ -5,7 +5,7 @@ import { blogSection } from "../../portfolio";
 import { Fade } from "react-reveal";
 
 export default function Blogs() {
-  return (
+  return (blogSection.viewBlogs &&
     <Fade bottom duration={1000} distance="20px">
     <div className="main" id="blogs">
       <div className="blog-header">

@@ -5,7 +5,7 @@ import { talkSection } from "../../portfolio";
 import { Fade } from "react-reveal";
 
 export default function Talks() {
-  return (
+  return (talkSection.viewTalks &&
     <Fade bottom duration={1000} distance="20px">
     <div className="main" id="talks">
       <div className="talk-header">

@@ -20,7 +20,7 @@ export default function Twitter() {
 	if (twitterDetails.userName){
 		return (
         <Suspense fallback={renderLoader()}>
-          <div class="tw-main-div" id="twitter">       
+          <div class="tw-main-div" id="twitter">
                   <div className="centerContent">
                   <TwitterTimelineEmbed
                     sourceType="profile"
@@ -35,8 +35,8 @@ export default function Twitter() {
                   </div>
           </div>
         </Suspense>
-  );  
-	} else {  
+    );
+	} else {
 		return null;
 	}
 }

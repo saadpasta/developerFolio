@@ -16,7 +16,6 @@ const greeting = {
 // Your Social Media Link
 
 const socialMediaLinks = {
-
   github: "https://github.com/saadpasta",
   linkedin: "https://www.linkedin.com/in/saadpasta/",
   gmail: "saadpasta70@gmail.com",
@@ -100,11 +99,11 @@ https://fontawesome.com/icons?d=gallery */
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true, // Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
+      Stack: "Frontend/Design",  // Insert stack or technology you have experience in
+      progressPercentage: "90%"  // Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
@@ -121,10 +120,10 @@ const techStack = {
 // Your top 3 work experiences
 
 const workExperiences = {
-  viewExperiences: true, //Set it to true to show workExperiences Section
+  viewExperiences: true, // Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",  
+      role: "Software Engineer",
       company: "Facebook",
       companylogo: require("./assets/images/facebookLogo.png"),
       date: "June 2018 – Present",
@@ -135,14 +134,14 @@ const workExperiences = {
       ]
     },
     {
-      role: "Front-End Developer",   
+      role: "Front-End Developer",
       company: "Quora",
       companylogo: require("./assets/images/quoraLogo.png"),
       date: "May 2017 – May 2018",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      role: "Software Engineer Intern",  
+      role: "Software Engineer Intern",
       company: "Airbnb",
       companylogo: require("./assets/images/airbnbLogo.png"),
       date: "Jan 2015 – Sep 2015",
@@ -155,15 +154,17 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
+  viewOpenSource: true, // Set it to true to show openSource section
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
+  showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false
 };
 
 
 // Some Big Projects You have worked with your company
 
 const bigProjects = {
+  viewBigProjects: true, // Set it to true to show Big Projects
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
@@ -181,6 +182,7 @@ const bigProjects = {
 // Your Achievement Section Include Your Certification Talks and More
 
 const achievementSection = {
+  viewAchievement: true, // Set it to true to show Achievements
 
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
@@ -202,7 +204,6 @@ const achievementSection = {
       image: require("./assets/images/googleAssistantLogo.webp"),
       footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
     },
-
     {
       title: "PWA Web App Developer",
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
@@ -218,6 +219,7 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
+  viewBlogs: true, // Set it to true to view Blogs section
 
   title: "Blogs",
   subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
@@ -236,10 +238,12 @@ const blogSection = {
   ]
 };
 
-// Talks Sections
+// Talks Section
 
 const talkSection = {
-  title: "TALKS",
+  viewTalks: true, // Set it to true to see Talks section
+
+  title: "Talks",
   subtitle: emoji("I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"),
 
   talks: [
@@ -255,6 +259,8 @@ const talkSection = {
 // Podcast Section
 
 const podcastSection = {
+  viewPodcast: true, // Set it to true to see Podcast section
+
   title: emoji("Podcast 🎙️"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
@@ -269,11 +275,12 @@ const contactInfo = {
   email_address: "saadpasta70@gmail.com"
 };
 
-//Twitter Section
+// Twitter Section
 
 const twitterDetails = {
-
-  userName : "twitter"//Replace "twitter" with your twitter username without @
-  
+  /* Replace "twitter" with your twitter username without @.
+    This section will not be shown if no username is given. */
+  userName : "twitter"
 };
-export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+
+export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo, twitterDetails};

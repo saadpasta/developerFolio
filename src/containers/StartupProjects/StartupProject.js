@@ -9,7 +9,7 @@ export default function StartupProject() {
     win.focus();
   }
 
-  return (
+  return (bigProjects.viewBigProjects &&
     <Fade bottom duration={1000} distance="20px">
     <div className="main" id="projects">
       <div>

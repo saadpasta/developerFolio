@@ -4,7 +4,7 @@ import { podcastSection } from "../../portfolio";
 import { Fade } from "react-reveal";
 
 export default function Podcast() {
-  return (
+  return (podcastSection.viewPodcast &&
     <Fade bottom duration={1000} distance="20px">
     <div className="main">
       <div className="podcast-header">
