@@ -25,8 +25,8 @@ export default function GithubRepoCard({ repo }) {
         <div className="repo-stats">
           <div className="repo-left-stat">
             <span>
-              <div className="language-color" style={{ backgroundColor: repo.node.primaryLanguage.color }}></div>
-              <p>{repo.node.primaryLanguage.name}</p>
+              <div className="language-color" style={{ backgroundColor: repo.node.primaryLanguage === null ? "black" : repo.node.primaryLanguage.color}}></div>
+              <p>{repo.node.primaryLanguage === null ? "Undefined" : repo.node.primaryLanguage.name}</p>
             </span>
             <span>
               <svg aria-hidden="true" className="octicon" height="20" role="img" viewBox="0 0 10 16" width="12" fill="rgb(106, 115, 125)" className="repo-star-svg">
