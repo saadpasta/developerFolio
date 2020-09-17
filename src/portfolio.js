@@ -222,7 +222,8 @@ const achievementSection = {
       subtitle: "Earners of the MTA: Mobility and Device Fundamentals certification have demonstrated fundamental Windows devices and mobility knowledge and skills.",
       image: "https://images.youracclaim.com/size/340x340/images/97285c88-0d8f-469d-8ca9-de8731abc942/MTA-Mobility-and-Device-Fundamentals-2018.png",
       footerLink: [
-        {name: "Badge", url: "https://www.youracclaim.com/badges/ad3ae1da-396a-427d-a58b-c39e1652ce92/public_url"}
+        {name: "Badge", url: "https://www.youracclaim.com/badges/ad3ae1da-396a-427d-a58b-c39e1652ce92/public_url"},
+        {name: "Certificate", url: "https://drive.google.com/file/d/1joc5B9c-7evfXEv7s5TKfMm8bG8hlf1k/view?usp=sharing"}
       ]
     },
     {
@@ -230,7 +231,8 @@ const achievementSection = {
       subtitle: "Earners of the MTA: Networking Fundamentals certification have demonstrated knowledge of fundamental networking concepts.",
       image: "https://images.youracclaim.com/size/340x340/images/158181d6-8b69-407e-b143-d9a86f0f5b82/MTA_Networking_Fundamentals_2017-01.png",
       footerLink: [
-        {name: "Badge", url: "https://www.youracclaim.com/badges/b6830478-52da-4460-82b9-5a0b7ac76a1f/public_url"}
+        {name: "Badge", url: "https://www.youracclaim.com/badges/b6830478-52da-4460-82b9-5a0b7ac76a1f/public_url"},
+        {name: "Certificate", url: "https://drive.google.com/file/d/12jsUGrNIMiKg6VjEIEC0g1WD6OKlsMtF/view?usp=sharing"}
       ]
     }
   ]
