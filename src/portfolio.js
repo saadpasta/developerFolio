@@ -255,6 +255,14 @@ const achievementSection = {
       footerLink: [
         {name: "Certificate", url: "https://drive.google.com/file/d/1L6s0v_Nx92VIAkz9xba-cIa2k8w15rwz/view?usp=sharing"}
       ]
+    },
+    {
+      title: "Computer Science",
+      subtitle: "Completed Higher Education in Computer Science",
+      image: "https://intranet.royalholloway.ac.uk/staff/assets/img/brand-toolkit/logo-small-london-black.jpg",
+      footerLink: [
+        {name: "Certificate", url: "https://drive.google.com/file/d/1ROFU2lIRpuS4a_oJTYFeo-B7KSwBheHo/view?usp=sharing"}
+      ]
     }
   ]
 };
