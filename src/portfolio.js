@@ -40,7 +40,10 @@ const skillsSection = {
     emoji("⚡ Flutter Mobile development"),
     emoji("⚡ Integration of third party services such as Firebase / Heroku / Jenkins"),
     emoji("⚡ Proficient with Linux, macOS, Windows, Windows Server."),
-    emoji("⚡ PC & Phone Repair")
+    emoji("⚡ PC Repair / Phone Repair / Console Repair"),
+    emoji("⚡ Network Administrator"),
+    emoji("⚡ Network Migration Administrator"),
+    emoji("⚡ GSuite Administrator"),
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
