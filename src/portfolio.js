@@ -8,10 +8,13 @@ import emoji from "react-easy-emoji";
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Simba Ndoro",
-  title: "Hi all, I'm Simba",
-  subTitle: emoji("An experienced 1st and 2nd Line Support / FullsStack Web Developer / Mobile Developer with further interest in Progressive Web Apps."),
+  title: "Hi, I'm Simba",
+  subTitle: emoji("Experienced 1st and 2nd Line Support and FullsStack Web Developer proficient in Linux, macOS, Windows, Windows Server, PC & Phone Repair, NodeJs, MongoDB, SQL, Express.js, HTML5, CSS3, Flutter, Javascript. Presently enrolled in a DevOps course with further interest in Progressive Web Apps."),
   resumeLink: "https://docs.google.com/document/d/1NS5JvWW7RRRBphcZIAvglNJaph4ehq9DHkTNomLt2g0/edit?usp=sharing"
 };
+
+// "An experienced 1st and 2nd Line Support / FullsStack Web Developer / Mobile Developer with further interest in Progressive Web Apps."
+// Experienced 1st and 2nd Line Support and FullsStack Web Developer proficient in Linux, macOS, Windows, Windows Server, PC & Phone Repair, NodeJs, MongoDB, SQL, Express.js, HTML5, CSS3, Flutter, Javascript. Presently enrolled in a DevOps course with further interest in Progressive Web Apps.
 
 // Your Social Media Link
 
