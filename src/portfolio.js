@@ -79,10 +79,6 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
-    // {
-    //   skillName: "aws",
-    //   fontAwesomeClassname: "fab fa-aws"
-    // },
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
@@ -157,26 +153,26 @@ To know how to get github key look at readme.md */
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "DittoGod", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
+  showGithubProfile :"false" // Set true or false to show Contact profile using Github, defaults to false 
 };
 
 
 // Some Big Projects You have worked with your company
 
-const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-  projects: [
-    // {
-    //   image: "https://www.wallpaperup.com/uploads/wallpapers/2014/09/25/455955/45cc249825d1d76d509d0aa81a67adb5-700.jpg",
-    //   link: "TBA"
-    // },
-    // {
-    //   image: require("./assets/images/nextuLogo.webp"),
-    //   link: "http://nextu.se/"
-    // }
-  ]
-};
+// const bigProjects = {
+//   title: "Big Projects",
+//   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+//   projects: [
+//     // {
+//     //   image: "https://www.wallpaperup.com/uploads/wallpapers/2014/09/25/455955/45cc249825d1d76d509d0aa81a67adb5-700.jpg",
+//     //   link: "TBA"
+//     // },
+//     // {
+//     //   image: require("./assets/images/nextuLogo.webp"),
+//     //   link: "http://nextu.se/"
+//     // }
+//   ]
+// };
 
 // Your Achievement Section Include Your Certification Talks and More
 
@@ -206,16 +202,6 @@ const achievementSection = {
         { name: "Udemy Course", url: "https://www.udemy.com/course/flutter-bootcamp-with-dart/"}
       ]
     },
-
-    // {
-    //   title: "PWA Web App Developer",
-    //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-    //   image: require("./assets/images/pwaLogo.webp"),
-    //   footerLink: [
-    //     { name: "Certification", url: "" },
-    //     { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
-    //   ]
-    // }
   ]
 };
 
@@ -269,7 +255,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "_",
+  // number: "+92-3243454077",
   email_address: "dittogod1@gmail.com"
 };
 
@@ -280,4 +266,4 @@ const twitterDetails = {
   userName : "8BitLion"//Replace "twitter" with your twitter username without @
   
 };
-export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
