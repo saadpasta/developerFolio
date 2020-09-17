@@ -9,8 +9,8 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Simba Ndoro",
   title: "Hi all, I'm Simba",
-  subTitle: emoji("A passionate Software Developer 🚀 with experience building Web and Mobile applications using JavaScript / Flutter / Nodejs / Vue and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1fqQy-SQkK6qa60SWd52Id960eVQlDL0B/view?usp=sharing"
+  subTitle: emoji("An experienced 1st and 2nd Line Support / FullsStack Web Developer / Mobile Developer. I am presently enrolled in a DevOps course with further interest in Progressive Web Apps."),
+  resumeLink: "https://docs.google.com/document/d/1NS5JvWW7RRRBphcZIAvglNJaph4ehq9DHkTNomLt2g0/edit?usp=sharing"
 };
 
 // Your Social Media Link
@@ -32,15 +32,18 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE MANY TECH STACKS",
   skills: [
     emoji("⚡ Develop interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Flutter mobile development"),
-    emoji("⚡ Integration of third party services such as Firebase / Heroku / ")
+    emoji("⚡ Flutter Mobile development"),
+    emoji("⚡ Integration of third party services such as Firebase / Heroku / Jenkins"),
+    emoji("⚡ Proficient with Linux, macOS, Windows, Windows Server."),
+    emoji("⚡ PC & Phone Repair")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
+// NodeJs, MongoDB, SQL, Express.js, HTML5, CSS3, Flutter, Javascript
 
   softwareSkills: [
     {
@@ -90,6 +93,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Express.js",
+      fontAwesomeClassname: ""
     }
   ]
 };
@@ -202,6 +209,30 @@ const achievementSection = {
         { name: "Udemy Course", url: "https://www.udemy.com/course/flutter-bootcamp-with-dart/"}
       ]
     },
+    {
+      title: "MTA: Cloud Fundamentals",
+      subtitle: "Earners of the MTA: Cloud Fundamentals certification have demonstrated fundamental knowledge of and basic skills using Microsoft cloud services.",
+      image: "https://images.youracclaim.com/size/340x340/images/032707aa-1479-4d45-8848-860c174c65eb/MTA-Cloud-Fundamentals-2018.png",
+      footerLink: [
+        {name: "Badge", url: "https://www.youracclaim.com/badges/665f34ac-fb91-490c-9096-5bbda9aff088/public_url"}
+      ]
+    },
+    {
+      title: "MTA: Mobility and Device Fundamentals",
+      subtitle: "Earners of the MTA: Mobility and Device Fundamentals certification have demonstrated fundamental Windows devices and mobility knowledge and skills.",
+      image: "https://images.youracclaim.com/size/340x340/images/97285c88-0d8f-469d-8ca9-de8731abc942/MTA-Mobility-and-Device-Fundamentals-2018.png",
+      footerLink: [
+        {name: "Badge", url: "https://www.youracclaim.com/badges/ad3ae1da-396a-427d-a58b-c39e1652ce92/public_url"}
+      ]
+    },
+    {
+      title: "MTA: Networking Fundamentals",
+      subtitle: "Earners of the MTA: Networking Fundamentals certification have demonstrated knowledge of fundamental networking concepts.",
+      image: "https://images.youracclaim.com/size/340x340/images/158181d6-8b69-407e-b143-d9a86f0f5b82/MTA_Networking_Fundamentals_2017-01.png",
+      footerLink: [
+        {name: "Badge", url: "https://www.youracclaim.com/badges/b6830478-52da-4460-82b9-5a0b7ac76a1f/public_url"}
+      ]
+    }
   ]
 };
 
