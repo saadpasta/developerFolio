@@ -1,7 +1,7 @@
 import React from "react";
 import Headroom from "react-headroom";
 import "./Header.css";
-import {greeting, workExperiences} from "../../portfolio";
+import {greeting, educationInfo, workExperiences} from "../../portfolio";
 
 function Header() {
   const exp = workExperiences.viewExperiences;
@@ -21,6 +21,11 @@ function Header() {
           <li>
             <a href="#skills">Skills</a>
           </li>
+          {educationInfo.viewEducation &&
+            <li>
+              <a href="#education">Education</a>
+            </li>
+          }
           { exp === true &&
             <li>
               <a href="#experience">Work Experiences</a>

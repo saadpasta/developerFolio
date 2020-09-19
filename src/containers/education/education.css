@@ -1,0 +1,50 @@
+.education-heading {
+  font-size: 56px;
+  font-weight: 400;
+}
+
+.education-main-div {
+  display: flex;
+}
+
+.education-main-div > * {
+  flex: 1;
+  margin-bottom: 30px;
+}
+
+.education-card-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.education-image-div > img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .education-heading {
+    font-size: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .education-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+  .education-main-div {
+    flex-direction: column;
+  }
+  .education-text-subtitle {
+    font-size: 16px;
+    text-align: center;
+  }
+  .education-image-div {
+    /* display: none; */
+    order: 1;
+  }
+  .education-card-div {
+    order: 2;
+  }
+}
