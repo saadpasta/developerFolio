@@ -5,6 +5,10 @@
 
 .education-main-div {
   display: flex;
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 2rem;
 }
 
 .education-main-div > * {
@@ -15,7 +19,6 @@
 .education-card-div {
   display: flex;
   flex-direction: column;
-  min-width: 800px;;
 }
 
 .education-image-div {
@@ -23,16 +26,14 @@
 }
 
 .education-image-div > img {
-  width: auto;
-  
+  width: 90%;
   margin-top: 80px;
   margin-left: 100px;
 }
 
 @media (max-width: 1380px) {
   .education-heading {
-    font-size: 35px;
-    text-align: center;
+    font-size: 40px;
   }
   .education-main-div {
     flex-direction: column;
@@ -43,5 +44,15 @@
   }
   .education-image-div {
     display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .education-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+  .education-text-subtitle {
+    font-size: 16px;
   }
 }

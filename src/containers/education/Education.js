@@ -6,28 +6,26 @@ import { Fade } from 'react-reveal';
 
 export default function Education() {
   return (
-    <div className="main" id="education">
-      <div className="education-main-div">
-        <Fade left duration={1000}>
-          <div className="education-text-div">
-            <h1 className="education-heading">{educationInfo.title}</h1>
-            <div className="education-card-div">
-              {educationInfo.schools.map((school) => (
-                <EducationCard school={school} />
-              ))}
-            </div>
+    <div className="education-main-div" id="education">
+      <Fade left duration={1000}>
+        <div className="education-text-div">
+          <h1 className="education-heading">{educationInfo.title}</h1>
+          <div className="education-card-div">
+            {educationInfo.schools.map((school) => (
+              <EducationCard school={school} />
+            ))}
           </div>
-        </Fade>
+        </div>
+      </Fade>
 
-        <Fade right duration={1000}>
-          <div className="education-image-div">
-            <img
-              alt="Education"
-              src={require('../../assets/images/education.svg')}
-            ></img>
-          </div>
-        </Fade>
-      </div>
+      <Fade right duration={1000}>
+        <div className="education-image-div">
+          <img
+            alt="Education"
+            src={require('../../assets/images/education.svg')}
+          ></img>
+        </div>
+      </Fade>
     </div>
   );
 }
