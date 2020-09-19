@@ -5,6 +5,7 @@
     border-radius: 10px;
     border: 1px solid rgba(211, 211, 211, 0.397);
     margin: 15px;
+    width: 100%;
 }
 
 .education-card:hover {

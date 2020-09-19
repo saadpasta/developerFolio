@@ -15,36 +15,33 @@
 .education-card-div {
   display: flex;
   flex-direction: column;
+  min-width: 800px;;
+}
+
+.education-image-div {
+  max-width: 200%;
 }
 
 .education-image-div > img {
-  max-width: 100%;
-  height: auto;
+  width: auto;
+  
+  margin-top: 80px;
+  margin-left: 100px;
 }
 
-/* Media Query */
 @media (max-width: 1380px) {
   .education-heading {
-    font-size: 40px;
-  }
-}
-@media (max-width: 768px) {
-  .education-heading {
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
   }
   .education-main-div {
     flex-direction: column;
   }
   .education-text-subtitle {
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
   }
   .education-image-div {
-    /* display: none; */
-    order: 1;
-  }
-  .education-card-div {
-    order: 2;
+    display: none;
   }
 }

@@ -9,11 +9,13 @@ export default function Education() {
     <div className="main" id="education">
       <div className="education-main-div">
         <Fade left duration={1000}>
-          <h1 className="education-heading">{educationInfo.title}</h1>
-          <div className="education-card-div">
-            {educationInfo.schools.map((school) => (
-              <EducationCard school={school} />
-            ))}
+          <div className="education-text-div">
+            <h1 className="education-heading">{educationInfo.title}</h1>
+            <div className="education-card-div">
+              {educationInfo.schools.map((school) => (
+                <EducationCard school={school} />
+              ))}
+            </div>
           </div>
         </Fade>
 
