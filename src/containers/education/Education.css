@@ -26,33 +26,39 @@
 }
 
 .education-image-div > img {
-  width: 70%;
+  max-width: 90%;
   margin-top: 20px;
-  margin-left: 200px;
+  margin-left: 100px;
 }
 
 @media (max-width: 1380px) {
   .education-heading {
     font-size: 40px;
   }
-  .education-main-div {
-    flex-direction: column;
-  }
   .education-text-subtitle {
     font-size: 18px;
     text-align: center;
   }
-  .education-image-div {
-    display: none;
+
+  .education-image-div > img {
+    max-width: 90%;
+    margin-top: 0px;
+    margin-left: 10px;
   }
 }
 
 @media (max-width: 768px) {
+  .education-main-div {
+    flex-direction: column;
+  }
   .education-heading {
     font-size: 30px;
     text-align: center;
   }
   .education-text-subtitle {
     font-size: 16px;
+  }
+  .education-image-div {
+    display: none;
   }
 }

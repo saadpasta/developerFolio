@@ -12,7 +12,7 @@ export default function EducationCard({ school }) {
 
   return (
     <div className="education-card">
-      <div className="eduecation-card-left">
+      <div className="education-card-left">
         <img
           crossOrigin={'anonymous'}
           ref={imgRef}
@@ -21,12 +21,12 @@ export default function EducationCard({ school }) {
           alt={school.schoolName}
         />
       </div>
-      <div className="eduecation-card-right">
+      <div className="education-card-right">
         <h5 className="education-text-school">{school.schoolName}</h5>
 
         <div className="education-text-details">
           <h5 className="education-text-degree">{school.degree}</h5>
-          <h5 className="education-text-duration">{school.duration}</h5>
+          <p className="education-text-duration">{school.duration}</p>
           <p className="education-text-desc">{school.desc}</p>
           <div className="education-text-bullets">
             <ul>
