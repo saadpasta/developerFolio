@@ -26,9 +26,9 @@
 }
 
 .education-image-div > img {
-  width: 90%;
-  margin-top: 80px;
-  margin-left: 100px;
+  width: 70%;
+  margin-top: 20px;
+  margin-left: 200px;
 }
 
 @media (max-width: 1380px) {

@@ -1,146 +1,98 @@
 .education-card {
-    position: relative;
-    background-color: rgb(255, 255, 255);
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
-    border-radius: 10px;
-    border: 1px solid rgba(211, 211, 211, 0.397);
-    margin-bottom: 15px;
-    width: 100%;
+  display: flex;
+  border-bottom: 2px solid rgba(211, 211, 211, 0.397);
+  flex-direction: row;
+  margin-bottom: 20px;
+  padding: 20px;
 }
 
 .education-card:hover {
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 30px -10px;
 }
 
-.education-banner {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 150%;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
-    border-radius: 10px 10px 0px 0px;
-    -webkit-filter: blur(0px);
-    -moz-filter: blur(0px);
-    -o-filter: blur(0px);
-    -ms-filter: blur(0px);
-    filter: blur(0px);
-    height: 11rem;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-}
-
-.education-blurred_div {
-    position: absolute;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2));
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(5px);
-    height: 11rem;
-    top: 0;
-    left: 0;
-    width: 100%;
-    border-radius: 10px 10px 0px 0px;
-}
-
-.education-text-details {
-    padding: 1.5rem;
-    margin-top: 2rem;
+.education-head {
+  display: flex;
+  flex-direction: row;
 }
 
 .education-div-school {
-    position: absolute;
-    background: transparent;
-    height: 9rem;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  position: absolute;
+  background: transparent;
+  height: 9rem;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
 }
 
 .education-text-school {
-    text-align: center;
-    padding: 1rem;
-    margin: 0;
-    color: #fff;
-    font-size: 25px;
-    text-align: center;
-    font-weight: 700;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .education-roundedimg {
-    position: absolute;
-    object-fit: cover;
-    left: 0;
-    right: 0;
-    top: 7rem;
-    margin-left: auto;
-    margin-right: auto;
-    width: 8rem;
-    height: 8rem;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
-    border-radius: 50%;
+  object-fit: cover;
+  margin-right: 2rem;
+  width: 6rem;
+  height: 6rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
 }
 
 .education-text-degree {
-    text-align: center;
-    color: black;
-    font-weight: 700;
-    font-size: 1.2rem;
-    margin: 0px;
-    padding-top: 1.5rem;
-    line-height: normal;
+  color: black;
+  font-weight: 700;
+  font-size: 19px;
+  margin: 0px;
+  padding-top: 0.8rem;
+  line-height: normal;
 }
 
-.education-text-duration{
-    text-align: center;
-    color: black;
-    font-size: 1rem;
-    margin: 0px;
-    padding-top: 1rem;
-    font-weight: 600;
+.education-text-duration {
+  color: black;
+  font-size: 19px;
+  margin: 0px;
+  padding-top: 0.6rem;
+  font-weight: 600;
+  font-style: italic;
 }
 
 .education-text-desc {
-    text-align: center;
+  margin-top: 0.8rem;
+  margin-bottom: 0;
+}
+
+.education-text-bullets > ul {
+  margin-top: 0.5rem;
 }
 
 /* Media Query */
 
 @media (max-width: 1380px) {
-    .education-text-degree {
-        padding-top: 0.5rem;
-        font-size: 22px;
-    }
-    .education-text-school {
-        font-size: 22px;
-    }
-    .education-text-duration {
-        font-size: 16px;
-    }
-    .education-roundedimg {
-        width: 6.5rem;
-        height: 6.5rem;
-    }
+  .education-text-degree {
+    padding-top: 0.5rem;
+    font-size: 16px;
+  }
+  .education-text-school {
+    font-size: 20px;
+  }
+  .education-text-duration {
+    font-size: 16px;
+  }
+  .education-roundedimg {
+    width: 5rem;
+    height: 5rem;
+  }
 }
 
 @media (max-width: 768px) {
-    .education-text-degree {
-        font-size: 22px;
-    }
-    .education-text-school {
-        font-size: 22px;
-    }
-    .education-text-duration {
-        font-size: 16px;
-    }
-    .education-text-desc {
-        font-size: 16px;
-    }
+  .education-roundedimg {
+    margin-top: 10px;
+    width: 4rem;
+    height: 4rem;
+  }
 }
