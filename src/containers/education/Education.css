@@ -21,16 +21,6 @@
   flex-direction: column;
 }
 
-.education-image-div {
-  max-width: 200%;
-}
-
-.education-image-div > img {
-  max-width: 90%;
-  margin-top: 20px;
-  margin-left: 100px;
-}
-
 @media (max-width: 1380px) {
   .education-heading {
     font-size: 40px;
@@ -38,12 +28,6 @@
   .education-text-subtitle {
     font-size: 18px;
     text-align: center;
-  }
-
-  .education-image-div > img {
-    max-width: 90%;
-    margin-top: 0px;
-    margin-left: 10px;
   }
 }
 
@@ -57,8 +41,5 @@
   }
   .education-text-subtitle {
     font-size: 16px;
-  }
-  .education-image-div {
-    display: none;
   }
 }

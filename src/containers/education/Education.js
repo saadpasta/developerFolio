@@ -17,15 +17,6 @@ export default function Education() {
           </div>
         </div>
       </Fade>
-
-      <Fade right duration={1000}>
-        <div className="education-image-div">
-          <img
-            alt="Education"
-            src={require('../../assets/images/education.svg')}
-          ></img>
-        </div>
-      </Fade>
     </div>
   );
 }
