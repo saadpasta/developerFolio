@@ -1,9 +1,12 @@
 .education-card {
   display: flex;
-  border-bottom: 2px solid rgba(211, 211, 211, 0.397);
   flex-direction: row;
+}
+
+.education-card-border {
+  height: 30px;
+  border-top: 2px solid #a9a7f9;
   margin-bottom: 20px;
-  padding: 20px;
 }
 
 .education-head {
