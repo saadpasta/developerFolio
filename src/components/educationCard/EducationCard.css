@@ -92,6 +92,12 @@
     flex-direction: column;
     padding-bottom: 10px;
   }
+  .education-card-right {
+    max-width: 90%;
+  }
+  .education-card-border {
+    width: 90%;
+  }
   .education-text-degree {
     padding-top: 0.5rem;
     font-size: 16px;
@@ -113,6 +119,12 @@
 @media (max-width: 768px) {
   .education-card {
     text-align: center;
+  }
+  .education-card-right {
+    max-width: 100%;
+  }
+  .education-card-border {
+    width: 100%;
   }
   .education-roundedimg {
     margin-top: 10px;
