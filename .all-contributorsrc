@@ -263,6 +263,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "Seungyeon-Lee",
+      "name": "Seungyeon-Lee",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/26589915?v=4",
+      "profile": "https://seungyeon-lee.github.io/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
