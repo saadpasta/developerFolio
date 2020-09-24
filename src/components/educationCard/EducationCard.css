@@ -3,9 +3,16 @@
   flex-direction: row;
 }
 
+.education-card:hover + .education-card-border{
+  border-color: #a9a7f9;
+  width: 100%;
+  transition: width 2s;
+}
+
 .education-card-border {
   height: 30px;
-  border-top: 2px solid #a9a7f9;
+  width: 80%;
+  border-top: 2px solid rgba(211, 211, 211, 0.397);
   margin-bottom: 20px;
 }
 
@@ -40,6 +47,10 @@
   height: 6rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
   border-radius: 50%;
+}
+
+.education-card-right {
+  max-width: 70%;
 }
 
 .education-text-degree {
