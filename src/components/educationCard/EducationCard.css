@@ -3,10 +3,13 @@
   flex-direction: row;
 }
 
-.education-card:hover + .education-card-border{
+.education-card:hover + .education-card-border {
   border-color: #a9a7f9;
   width: 100%;
-  transition: width 2s;
+  -webkit-transition: width 1s ease-in-out;
+  -moz-transition: width 1s ease-in-out;
+  -o-transition: width 1s ease-in-out;
+  transition: width 1s ease-in-out;
 }
 
 .education-card-border {
@@ -14,6 +17,10 @@
   width: 80%;
   border-top: 2px solid rgba(211, 211, 211, 0.397);
   margin-bottom: 20px;
+  -webkit-transition: width 1s ease-in-out;
+  -moz-transition: width 1s ease-in-out;
+  -o-transition: width 1s ease-in-out;
+  transition: width 1s ease-in-out;
 }
 
 .education-head {
