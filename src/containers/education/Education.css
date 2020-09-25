@@ -3,7 +3,7 @@
   font-weight: 400;
 }
 
-.education-main-div {
+.education-section {
   display: flex;
   width: 90%;
   padding: 20px 10px;
@@ -11,12 +11,12 @@
   margin-top: 2rem;
 }
 
-.education-main-div > * {
+.education-section > * {
   flex: 1;
   margin-bottom: 30px;
 }
 
-.education-card-div {
+.education-cards {
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -33,7 +33,7 @@
 }
 
 @media (max-width: 768px) {
-  .education-main-div {
+  .education-section {
     flex-direction: column;
   }
   .education-heading {

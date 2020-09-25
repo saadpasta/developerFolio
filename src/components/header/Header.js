@@ -4,7 +4,6 @@ import "./Header.css";
 import {greeting, educationInfo, workExperiences} from "../../portfolio";
 
 function Header() {
-  const exp = workExperiences.viewExperiences;
   return (
     <Headroom>
       <header className="header">
@@ -26,7 +25,7 @@ function Header() {
               <a href="#education">Education</a>
             </li>
           }
-          { exp === true &&
+          {workExperiences.viewExperiences &&
             <li>
               <a href="#experience">Work Experiences</a>
             </li>

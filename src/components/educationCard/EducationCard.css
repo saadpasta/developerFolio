@@ -6,10 +6,10 @@
 .education-card:hover + .education-card-border {
   border-color: #a9a7f9;
   width: 100%;
-  -webkit-transition: width 1s ease-in-out;
-  -moz-transition: width 1s ease-in-out;
-  -o-transition: width 1s ease-in-out;
-  transition: width 1s ease-in-out;
+  -webkit-transition: width 0.6s ease-in-out;
+  -moz-transition: width 0.6s ease-in-out;
+  -o-transition: width 0.6s ease-in-out;
+  transition: width 0.6s ease-in-out;
 }
 
 .education-card-border {
@@ -17,10 +17,10 @@
   width: 80%;
   border-top: 2px solid rgba(211, 211, 211, 0.397);
   margin-bottom: 20px;
-  -webkit-transition: width 1s ease-in-out;
-  -moz-transition: width 1s ease-in-out;
-  -o-transition: width 1s ease-in-out;
-  transition: width 1s ease-in-out;
+  -webkit-transition: width 0.6s ease-in-out;
+  -moz-transition: width 0.6s ease-in-out;
+  -o-transition: width 0.6s ease-in-out;
+  transition: width 0.6s ease-in-out;
 }
 
 .education-head {
@@ -60,7 +60,7 @@
   max-width: 70%;
 }
 
-.education-text-degree {
+.education-text-subHeader {
   color: black;
   font-weight: 700;
   font-size: 19px;
@@ -98,7 +98,7 @@
   .education-card-border {
     width: 90%;
   }
-  .education-text-degree {
+  .education-text-subHeader {
     padding-top: 0.5rem;
     font-size: 16px;
   }
