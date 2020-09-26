@@ -28,16 +28,6 @@
   flex-direction: row;
 }
 
-.education-div-school {
-  position: absolute;
-  background: transparent;
-  height: 9rem;
-  top: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-}
-
 .education-text-school {
   margin: 0;
   font-size: 28px;
