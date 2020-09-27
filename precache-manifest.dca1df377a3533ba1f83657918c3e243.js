@@ -1,39 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4d22430baa1d663d10ca4637c3ea81e2",
+    "revision": "c0f399d786fd8e76bcaf91a7ccb92324",
     "url": "/index.html"
   },
   {
-    "revision": "d5614802c38d7dc70a25",
+    "revision": "5b5669cd8cf10312a319",
     "url": "/static/css/3.c7b31c95.chunk.css"
   },
   {
-    "revision": "2260f13be584e258df8e",
+    "revision": "9e1bc6ed0c38308b6eeb",
     "url": "/static/css/4.54df59d4.chunk.css"
   },
   {
-    "revision": "4135b9c09728334ff8ae",
-    "url": "/static/css/main.91308f57.chunk.css"
+    "revision": "8296176ca00fcffe177b",
+    "url": "/static/css/main.5c70d33a.chunk.css"
   },
   {
-    "revision": "5acc232fdd03a98d3011",
-    "url": "/static/js/2.fcdc6190.chunk.js"
+    "revision": "3ff6bafd261b7a8e8ca4",
+    "url": "/static/js/2.53eec073.chunk.js"
   },
   {
-    "revision": "d5614802c38d7dc70a25",
-    "url": "/static/js/3.e87cb3bc.chunk.js"
+    "revision": "5b5669cd8cf10312a319",
+    "url": "/static/js/3.03c4d221.chunk.js"
   },
   {
-    "revision": "2260f13be584e258df8e",
-    "url": "/static/js/4.5a4de08b.chunk.js"
+    "revision": "9e1bc6ed0c38308b6eeb",
+    "url": "/static/js/4.0b084013.chunk.js"
   },
   {
-    "revision": "4135b9c09728334ff8ae",
-    "url": "/static/js/main.c2cae727.chunk.js"
+    "revision": "8296176ca00fcffe177b",
+    "url": "/static/js/main.20664203.chunk.js"
   },
   {
-    "revision": "e9d7167bf76fcab1074b",
-    "url": "/static/js/runtime-main.0de8271e.js"
+    "revision": "cc891c7101cda08d4faa",
+    "url": "/static/js/runtime-main.2082fd20.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -68,6 +68,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/googleAssistantLogo.e79c6392.webp"
   },
   {
+    "revision": "83a05b10639d238bd8c5bbab279ab911",
+    "url": "/static/media/harvardLogo.83a05b10.png"
+  },
+  {
     "revision": "25bf045ca257e971124f3997d89f321c",
     "url": "/static/media/logo.25bf045c.svg"
   },
@@ -94,6 +98,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3440939881da8339d1597e8d77cdf850",
     "url": "/static/media/skill.34409398.svg"
+  },
+  {
+    "revision": "3b758ef56d398145542e137daa28e392",
+    "url": "/static/media/stanfordLogo.3b758ef5.png"
   },
   {
     "revision": "13780cdd0144cacdef25486e2c2503f8",
