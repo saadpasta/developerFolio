@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
+import Headroom from "react-headroom";
 import "./Header.css";
-import { Fade } from "react-reveal";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 import { greeting, workExperiences } from "../../portfolio";
@@ -37,9 +37,6 @@ function Header() {
             <a href="#opensource">Open Source</a>
           </li>
           <li>
-            <a href="#achievements">Achievements</a>
-          </li>
-          <li>
             <a href="#blogs">Blogs</a>
           </li>
           <li>
@@ -50,6 +47,11 @@ function Header() {
           </li>
           <li>
             <a href="#contact">Contact Me</a>
+          </li>
+          <li>
+            <a>
+              <ToggleSwitch />
+            </a>
           </li>
           <li>
             <a>

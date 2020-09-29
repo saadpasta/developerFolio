@@ -1,12 +1,12 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, { useState, useEffect, useContext, Suspense, lazy } from "react";
 import ApolloClient from "apollo-boost";
 import { gql } from "apollo-boost";
 import "./Project.css";
 import Button from "../../components/button/Button";
 import { openSource, socialMediaLinks } from "../../portfolio";
 import { Fade } from "react-reveal";
-import StyleContext from "../../contexts/StyleContext";
-
+import { StyleConsumer } from "../../contexts/StyleContext";
+import Loading from "../../containers/loading/Loading";
 export default function Projects() {
   const GithubRepoCard = lazy(() =>
     import("../../components/githubRepoCard/GithubRepoCard")
@@ -14,7 +14,7 @@ export default function Projects() {
   const FailedLoading = () => null;
   const renderLoader = () => <Loading />;
   const [repo, setrepo] = useState([]);
-  const { isDark } = useContext(StyleContext);
+  const { isDark } = useContext(StyleConsumer);
   useEffect(() => {
     getRepoData();
   }, []);
