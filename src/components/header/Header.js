@@ -53,11 +53,6 @@ function Header() {
               <ToggleSwitch />
             </a>
           </li>
-          <li>
-            <a>
-              <ToggleSwitch />
-            </a>
-          </li>
         </ul>
       </header>
     </Headroom>

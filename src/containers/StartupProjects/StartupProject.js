@@ -37,6 +37,7 @@ export default function StartupProject() {
                 );
               })}
             </div>
+            <div className="startup-project-image"></div>
           </div>
         </div>
       </div>
