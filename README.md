@@ -67,7 +67,7 @@ git@2.17.1 or higher
 ```
 
 
-## <a name="how-to-use">How To Use 🔧</a>
+## How To Use 🔧
 
 From your command line, clone and run developerFolio:
 
