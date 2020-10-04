@@ -84,7 +84,7 @@ $ npm install
 $ npm start
 ```
 
-## Linking portfolio to Github
+## Linking Portfolio to Github
 
 Generate a Github personal access token following these [instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) (make sure you don't select any scope just generate a simple token).
 
@@ -207,7 +207,7 @@ You could also host directly with Netlify by linking your own repository.
 For more information, read [hosting on Netlify](https://create-react-app.dev/docs/deployment/#netlify).
 
 
-## Technologies used 
+## Technologies Used 
 
 - [React](https://reactjs.org/)
 - [graphql](https://graphql.org/)
