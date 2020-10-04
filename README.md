@@ -51,7 +51,7 @@ git@2.17.1 or higher
 
 ```
 1) BUILD IMAGE : docker build -t developerfolio:latest .
-2) RUN IMAGE: docker run -p 3000:3000 developerfolio:latest
+2) RUN IMAGE: docker run -t -p 3000:3000 developerfolio:latest
 ```
 
 
