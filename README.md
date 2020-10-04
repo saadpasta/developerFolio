@@ -18,17 +18,17 @@ But if you want to **contribute** and make this much better for other developer 
 If you created something awesome and want to contribute then feel free to open an [pull request](https://github.com/saadpasta/developerFolio/pulls).
 
 ## Table of Contents
--[Sections](#sections)\
--[Getting Started](#getting-started)\
--[How to Use](#how-to-use)\
--[Github Setup](#github-setup-for-open-source-projects)\
--[Change and Customize](#change-and-customize-every-section-according-to-your-need)\
--[Deployment](#deployment)\
--[Technologies Used](#technologies-used)\
--[Illustrations](#illustrations)\
--[For the Future](for-the-future)\
--[Project Maintainers](#project-maintainers)\
--[Contributors](#contributors)
+- [Sections](#sections)\
+- [Getting Started](#getting-started)\
+- [How to Use](#how-to-use)\
+- [Github Setup](#github-setup-for-open-source-projects)\
+- [Change and Customize](#change-and-customize-every-section-according-to-your-need)\
+- [Deployment](#deployment)\
+- [Technologies Used](#technologies-used)\
+- [Illustrations](#illustrations)\
+- [For the Future](for-the-future)\
+- [Project Maintainers](#project-maintainers)\
+- [Contributors](#contributors)
 
 ## Sections
 ✔️ Summary and About me\
@@ -299,4 +299,3 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ---
-
