@@ -48,7 +48,7 @@ If you created something awesome and want to contribute then feel free to open a
 To view a live example, **[click here](https://developerfolio.js.org/)**.
 
 
-## <a name="getting-started">Getting Started 🚀</a>
+## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
@@ -179,7 +179,7 @@ const twitterDetails = {
 ```
 Note: Don't use `@` symbol when adding username.
 
-## <a name="deployment">Deployment 📦</a>
+## Deployment
 When you are done with the setup, you should host your website online.
 We highly recommend to read through the [Deploying on Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) docs for React.
 
@@ -208,7 +208,7 @@ You could also host directly with Netlify by linking your own repository.
 For more information, read [hosting on Netlify](https://create-react-app.dev/docs/deployment/#netlify).
 
 
-## <a name="technologies-used">Technologies used 🛠️</a>
+## Technologies used 🛠️
 
 - [React](https://reactjs.org/)
 - [graphql](https://graphql.org/)
@@ -235,7 +235,7 @@ If you can help us with these. Please don't hesitate to open a [pull request](ht
 
 - Add More Sections
 
-## <a name="project-maintainers">Project Maintainers 🚧</a>
+## Project Maintainers 🚧
 
 <table>
   <tr>
@@ -245,7 +245,7 @@ If you can help us with these. Please don't hesitate to open a [pull request](ht
   </tr>
 </table>
 
-## <a name="contributors">Contributors ✨</a>
+## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
