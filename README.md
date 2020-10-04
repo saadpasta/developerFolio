@@ -26,7 +26,7 @@ If you created something awesome and want to contribute then feel free to open a
 - [Deployment](#deployment)\
 - [Technologies Used](#technologies-used)\
 - [Illustrations](#illustrations)\
-- [For the Future](for-the-future)\
+- [For the Future](#for-the-future)\
 - [Project Maintainers](#project-maintainers)\
 - [Contributors](#contributors)
 
