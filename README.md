@@ -17,6 +17,17 @@ But if you want to **contribute** and make this much better for other developer 
 
 If you created something awesome and want to contribute then feel free to open an [pull request](https://github.com/saadpasta/developerFolio/pulls).
 
+## Table of Contents
+- [Sections](#sections)
+- [Getting Started](#getting-started)
+- [How to Use](#how-to-use)
+- [Linking portfolio to Github](#linking-portfolio-to-github)
+- [Change and Customize](#change-and-customize-every-section-according-to-your-need)
+- [Deployment](#deployment)
+- [Technologies Used](#technologies-used)
+- [Illustrations](#illustrations)
+- [For the Future](#for-the-future)
+- [Contributors](#project-maintainers)
 
 ## Sections
 ✔️ Summary and About me\
@@ -36,7 +47,7 @@ If you created something awesome and want to contribute then feel free to open a
 To view a live example, **[click here](https://developerfolio.js.org/)**.
 
 
-## Getting Started 🚀
+## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
@@ -55,7 +66,7 @@ git@2.17.1 or higher
 ```
 
 
-## How To Use 🔧
+## How To Use 
 
 From your command line, clone and run developerFolio:
 
@@ -73,7 +84,7 @@ $ npm install
 $ npm start
 ```
 
-## Github Setup For Open Source Projects
+## Linking Portfolio to Github
 
 Generate a Github personal access token following these [instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) (make sure you don't select any scope just generate a simple token).
 
@@ -167,7 +178,7 @@ const twitterDetails = {
 ```
 Note: Don't use `@` symbol when adding username.
 
-## Deployment 📦
+## Deployment
 When you are done with the setup, you should host your website online.
 We highly recommend to read through the [Deploying on Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) docs for React.
 
@@ -196,7 +207,7 @@ You could also host directly with Netlify by linking your own repository.
 For more information, read [hosting on Netlify](https://create-react-app.dev/docs/deployment/#netlify).
 
 
-## Technologies used 🛠️
+## Technologies Used 
 
 - [React](https://reactjs.org/)
 - [graphql](https://graphql.org/)
@@ -223,7 +234,7 @@ If you can help us with these. Please don't hesitate to open a [pull request](ht
 
 - Add More Sections
 
-## Project Maintainers 🚧
+## Project Maintainers 
 
 <table>
   <tr>
@@ -233,7 +244,7 @@ If you can help us with these. Please don't hesitate to open a [pull request](ht
   </tr>
 </table>
 
-## Contributors ✨
+## Contributors 
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
@@ -287,4 +298,3 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ---
-
