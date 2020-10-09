@@ -1,19 +1,18 @@
 ﻿
 /* Change this file to get your personal Portfolio */
 
-// Your Summary And Greeting Section
+// Summary And Greeting Section
 
 import emoji from "react-easy-emoji";
 
 const greeting = {
-  /* Your Summary And Greeting Section */
   username: "Saad Pasta",
   title: "Hi all, I'm Saad",
   subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
 };
 
-// Your Social Media Link
+// Social Media Links
 
 const socialMediaLinks = {
 
@@ -24,10 +23,10 @@ const socialMediaLinks = {
   facebook: "https://www.facebook.com/saad.pasta7",
   medium: "https://medium.com/@saadpasta",
   stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
-  // Instagram and Twitter are also supported in the links!
+  // Instagram and Twitter links are also supported!
 };
 
-// Your Skills Section
+// Skills Section
 
 const skillsSection = {
   title: "What i do",
@@ -38,7 +37,7 @@ const skillsSection = {
     emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
   ],
 
-/* Make Sure You include correct Font Awesome Classname to view your icon
+/* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
@@ -97,7 +96,7 @@ https://fontawesome.com/icons?d=gallery */
   ]
 };
 
-// Your education background
+// Education Section
 
 const educationInfo = {
   viewEducation: true, // Set it to true to see education section
@@ -147,7 +146,7 @@ const techStack = {
 };
 
 
-// Your top 3 work experiences
+// Work experience section
 
 const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
@@ -190,7 +189,7 @@ const openSource = {
 };
 
 
-// Some Big Projects You have worked with your company
+// Some big projects you have worked on
 
 const bigProjects = {
   title: "Big Projects",
@@ -207,7 +206,8 @@ const bigProjects = {
   ]
 };
 
-// Your Achievement Section Include Your Certification Talks and More
+// Achievement Section 
+// Include certificates, talks etc
 
 const achievementSection = {
 
@@ -298,11 +298,9 @@ const contactInfo = {
   email_address: "saadpasta70@gmail.com"
 };
 
-//Twitter Section
+// Twitter Section
 
 const twitterDetails = {
-
-  userName : "twitter"//Replace "twitter" with your twitter username without @
-
+  userName : "twitter" // Replace "twitter" with your twitter username without @
 };
 export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};

@@ -10,9 +10,8 @@
   margin-bottom: 30px;
 }
 
-.skills-image-div > img {
-  max-width: 100%;
-  height: auto;
+.skills-image-div {
+  height: 512px;
 }
 
 .skills-heading {
