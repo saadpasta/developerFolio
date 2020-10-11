@@ -6,6 +6,14 @@
     border: 1px solid rgba(211, 211, 211, 0.397);
 }
 
+.experience-card-dark {
+    position: relative;
+    background-color: #171c28;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+    border-radius: 10px;
+    border: 1px solid rgba(211, 211, 211, 0.397);
+}
+
 .experience-card:hover {
     box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
 }
@@ -90,7 +98,9 @@
     padding-top: 1.5rem;
     line-height: normal;
 }
-
+.dark-mode-text {
+    color:white !important;
+}
 .experience-text-date {
     text-align: center;
     color: black;
