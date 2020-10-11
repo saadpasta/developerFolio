@@ -15,6 +15,10 @@
   display: flex;
 }
 
+.greeting-main {
+  display: flex;
+}
+
 .greeting-main > * {
   flex: 1;
   margin-bottom: 30px;
@@ -29,18 +33,16 @@
   line-height: 1.1;
 }
 
-.greeting-text-div{
-  padding: 0 5px;
-}
-
 .greeting-text-p {
   font-size: 30px;
   line-height: 40px;
 }
 
-.greeting-image-div{
-  height: 512px;
+.greeting-image-div > img {
+  max-width: 100%;
+  height: auto;
 }
+
 .wave-emoji {
   animation-duration: 1.8s;
   animation-iteration-count: infinite;

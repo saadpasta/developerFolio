@@ -5,6 +5,10 @@
 
 import emoji from "react-easy-emoji";
 
+const illustration = {
+  animated: true // set to false to use static SVG
+}
+
 const greeting = {
   username: "Saad Pasta",
   title: "Hi all, I'm Saad",
@@ -29,7 +33,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What i do",
+  title: "What I do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
@@ -303,4 +307,5 @@ const contactInfo = {
 const twitterDetails = {
   userName : "twitter" // Replace "twitter" with your twitter username without @
 };
-export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+
+export { illustration, greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails };

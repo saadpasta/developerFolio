@@ -1,12 +1,12 @@
 ﻿import React from "react";
-import {Fade} from "react-reveal";
+import { Fade } from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.css";
 import landingPerson from '../../assets/lottie/landingPerson'
 import DisplayLottie from '../../components/displayLottie/DisplayLottie';
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-import { greeting } from "../../portfolio";
+import { illustration, greeting } from "../../portfolio";
 
 export default function Greeting() {
   return (
@@ -28,8 +28,7 @@ export default function Greeting() {
           </div>
         </div>
         <div className="greeting-image-div">
-          <DisplayLottie animationData={landingPerson} />
-          {/* <img alt="saad sitting on table" src={require("../../assets/images/manOnTable.svg")}></img> */}
+          { illustration.animated ? <DisplayLottie animationData={landingPerson} /> : <img alt="saad sitting on table" src={require("../../assets/images/manOnTable.svg")}></img> }
         </div>
       </div>
     </div>
