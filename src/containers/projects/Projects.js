@@ -4,7 +4,6 @@ import { gql } from "apollo-boost";
 import "./Project.css";
 import Button from "../../components/button/Button";
 import { openSource, socialMediaLinks } from "../../portfolio";
-import { Fade } from "react-reveal";
 import { StyleConsumer } from "../../contexts/StyleContext";
 import Loading from "../../containers/loading/Loading";
 export default function Projects() {
@@ -17,7 +16,7 @@ export default function Projects() {
   const { isDark } = useContext(StyleConsumer);
   useEffect(() => {
     getRepoData();
-  }, []);
+  }, [getRepoData]);
 
   function getRepoData() {
     const client = new ApolloClient({
