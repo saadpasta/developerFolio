@@ -16,7 +16,7 @@ export default function Projects() {
   const { isDark } = useContext(StyleConsumer);
   useEffect(() => {
     getRepoData();
-  }, [getRepoData]);
+  }, []);
 
   function getRepoData() {
     const client = new ApolloClient({
