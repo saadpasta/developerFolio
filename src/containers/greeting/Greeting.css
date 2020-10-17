@@ -17,6 +17,10 @@
   margin: 0px auto;
 }
 
+.subTitle {
+  color: #868e96 !important;
+}
+
 .greeting-main {
   display: flex;
 }
@@ -33,6 +37,7 @@
 .greeting-text {
   font-size: 70px;
   line-height: 1.1;
+  color: black !important;
 }
 
 .greeting-text-p {

@@ -1,6 +1,7 @@
 .skills-main-div {
   display: flex;
 }
+
 .skills-text-div {
   margin-left: 50px;
 }
@@ -19,6 +20,9 @@
   font-size: 56px;
   font-weight: 400;
 }
+.subTitle {
+  color: #868e96;
+}
 
 /* Media Query */
 @media (max-width: 1380px) {
@@ -36,7 +40,7 @@
     line-height: normal;
   }
   .skills-main-div {
-    flex-direction: column
+    flex-direction: column;
   }
   .skills-text-div {
     margin-left: 0px;
