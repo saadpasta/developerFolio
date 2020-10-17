@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./Achievement.css";
-import AchivementCard from "../../components/achievementCard/AchivementCard";
+import AchievementCard from "../../components/achievementCard/AchievementCard";
 import { achievementSection } from "../../portfolio";
 import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
@@ -35,9 +35,9 @@ export default function Achievement() {
             </p>
           </div>
           <div className="achievement-cards-div">
-            {achievementSection.achivementsCards.map((card) => {
+            {achievementSection.achievementCards.map((card) => {
               return (
-                <AchivementCard
+                <AchievementCard
                   isDark={isDark}
                   cardInfo={{
                     title: card.title,
