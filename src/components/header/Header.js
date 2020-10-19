@@ -30,60 +30,36 @@ function Header() {
               );
             }
           })()}
-          {(() => {
-            if (openSource.display) {
-              return (
-              <li>
-                <a href="#opensource">Open Source</a>
-              </li>
-              );
-            }
-          })()}
-          {(() => {
-            if (bigProjects) {
-              return (
-              <li>
-                <a href="#projects">Projects</a>
-              </li>
-              );
-            }
-          })()}
-           {(() => {
-            if (achievementSection.display) {
-              return (
-              <li>
-                <a href="#achievements">Achievements</a>
-              </li>
-              );
-            }
-          })()}
-          {(() => {
-            if (blogSection.display) {
-              return (
+          {openSource.display &&
+            <li>
+              <a href="#opensource">Open Source</a>
+            </li>
+          }
+          {bigProjects &&
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+          }
+          {achievementSection.display && 
+            <li>
+              <a href="#achievements">Achievements</a>
+            </li> 
+          }
+          {blogSection.display &&
               <li>
                 <a href="#blogs">Blogs</a>
               </li>
-              );
-            }
-          })()}
-          {(() => {
-            if (talkSection.display) {
-              return (
+          }
+          {talkSection.display &&
               <li>
                 <a href="#talks">Talks</a>
-              </li>
-              );
-            }
-          })()}
-          {(() => {
-            if (contactInfo.display) {
-              return (
+              </li>    
+          }
+          {contactInfo.display  &&
               <li>
                 <a href="#contact">Contact Me</a>
-              </li>
-              );
-            }
-          })()}
+              </li>   
+          }
         </ul>
       </header>
     </div>
