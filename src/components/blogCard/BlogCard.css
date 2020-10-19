@@ -1,9 +1,12 @@
+.small-dark {
+  color: white !important;
+}
+
 .blog-container {
   border-radius: 10px;
   color: #586069;
   background-color: #fff;
   box-shadow: 0 0 36px rgba(0, 0, 0, 0.1);
-  /* padding: 2rem; */
   cursor: pointer;
   height: 200px;
 }
@@ -13,8 +16,10 @@
   font-size: 22px;
   line-height: 24px;
   font-weight: 700;
-  margin-bottom: 4px;
-  padding: 10px 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 14px;
+  margin-top: 32px;
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -24,7 +29,7 @@
 .small {
   font-size: 17px;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 1.5rem;
   color: #666666;
   padding: 0px 20px;
   overflow: hidden;
@@ -95,13 +100,17 @@
   color: #ffffff;
 }
 
-@media screen and (max-width: 480px) and (min-width: 300px), (min-width: 925px) and (max-width: 1024px), (min-width: 1405px) and (max-width: 1550px) {
+@media screen and (max-width: 480px) and (min-width: 300px),
+  (min-width: 925px) and (max-width: 1024px),
+  (min-width: 1405px) and (max-width: 1550px) {
   .blog-card:hover::before {
     transform: scale(30);
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 675px), (min-width: 1025px) and (max-width: 1404px), (min-width: 1551px) {
+@media screen and (min-width: 481px) and (max-width: 675px),
+  (min-width: 1025px) and (max-width: 1404px),
+  (min-width: 1551px) {
   .blog-card:hover::before {
     transform: scale(40);
   }
@@ -132,4 +141,7 @@
   .blog-title {
     font-size: 18px;
   }
+}
+.blog-card-shadow {
+  box-shadow: 1px 0px 20px #ffffff;
 }
