@@ -38,7 +38,7 @@ export default function Twitter() {
 			</Suspense>
 		)
 	} else {
-		console.log('Twitter Username is empty !')
+	  console.log('Twitter Username is empty !')
 		return null
 	}
 }

@@ -6,28 +6,26 @@ import Loading from '../loading/Loading'
 
 const renderLoader = () => <Loading />
 const GithubProfileCard = lazy(() =>
-	import('../../components/githubProfileCard/GithubProfileCard')
+  import('../../components/githubProfileCard/GithubProfileCard')
 )
 export default function Profile() {
-	const [prof, setrepo] = useState([])
-	function setProfileFunction(array) {
-		setrepo(array)
-	}
-	function getProfileData() {
-		const client = new ApolloClient({
-			uri: 'https://api.github.com/graphql',
-			request: (operation) => {
-				operation.setContext({
-					headers: {
-						authorization: `Bearer ${openSource.githubConvertedToken}`,
-					},
-				})
-			},
-		})
-
-		client
-			.query({
-				query: gql`
+  const [prof, setrepo] = useState([])
+  function setProfileFunction(array) {
+    setrepo(array)
+  }
+  function getProfileData() {
+    const client = new ApolloClient({
+      uri: 'https://api.github.com/graphql',
+      request: (operation) => {
+        operation.setContext({
+          headers: {
+            authorization: `Bearer ${openSource.githubConvertedToken}`,
+          },
+        })
+      },
+    })
+    client.query({
+      query: gql`
       {
         user(login:"${openSource.githubUserName}") { 
           name
@@ -36,37 +34,32 @@ export default function Profile() {
           avatarUrl
           location
         }
+      }`,
+    }).then((result) => {
+        setProfileFunction(result.data.user)
+      })
+      .catch(function (error) {
+        console.log(error)
+        setProfileFunction('Error')
+        console.log('Error in calling the github api using username. Set your github token and username properly.')
+        openSource.showGithubProfile = 'false'
+      })
+  }
+
+  useEffect(() => {
+    if (openSource.showGithubProfile === 'true') {
+      getProfileData()
     }
-      `,
-			})
-			.then((result) => {
-				setProfileFunction(result.data.user)
-			})
-			.catch(function (error) {
-				console.log(error)
-				setProfileFunction('Error')
-				console.log(
-					'Error in calling the github api using username. Set your github token and username properly.'
-				)
-				openSource.showGithubProfile = 'false'
-			})
-	}
-	useEffect(() => {
-		if (openSource.showGithubProfile === 'true') {
-			getProfileData()
-		}
-	}, [])
-	if (
-		openSource.showGithubProfile === 'true' &&
-		!(typeof prof === 'string' || prof instanceof String)
-	) {
-		return (
-			<Suspense fallback={renderLoader()}>
-				<GithubProfileCard prof={prof} key={prof.id} />
-			</Suspense>
-		)
-	} else {
-		console.log('Contact section is Showed instead of Profile section')
-		return <Contact />
-	}
+  }, [])
+
+  if (openSource.showGithubProfile === 'true' && !(typeof prof === 'string' || prof instanceof String)) {
+    return (
+      <Suspense fallback={renderLoader()}>
+        <GithubProfileCard prof={prof} key={prof.id} />
+      </Suspense>
+    )
+  } else {
+    console.log('Contact section is Showed instead of Profile section')
+    return <Contact />
+  }
 }
