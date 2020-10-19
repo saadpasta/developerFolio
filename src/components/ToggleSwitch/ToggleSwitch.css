@@ -5,6 +5,11 @@
   height: 26px;
 }
 
+/* Fix visible slider checkbox */
+input{
+  transform: scale(0.5);
+}
+
 .slider {
   position: absolute;
   cursor: pointer;
