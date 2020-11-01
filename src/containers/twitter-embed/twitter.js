@@ -4,10 +4,12 @@ import Loading from "../loading/Loading";
 import { TwitterTimelineEmbed } from "react-twitter-embed";
 import { twitterDetails } from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
+import FailedLoading from "../failedLoading/FailedLoading";
 
+const CUSTOM_ERR_MSG = "Can't load? Check privacy protection settings"
 const renderLoader = () => <Loading />;
 const cantDisplayError =
-  "<div class='centerContent'><h2>Can't load? Check privacy protection settings</h2></div>";
+  `<div class='centerContent'><h2>${CUSTOM_ERR_MSG}</h2></div>`;
 
 function timeOut() {
   setTimeout(function () {
@@ -43,6 +45,6 @@ export default function Twitter() {
       </Suspense>
     );
   } else {
-    return null;
+    return <FailedLoading err={CUSTOM_ERR_MSG} />;
   }
 }

@@ -6,11 +6,11 @@ import Button from "../../components/button/Button";
 import { openSource, socialMediaLinks } from "../../portfolio";
 import { StyleConsumer } from "../../contexts/StyleContext";
 import Loading from "../../containers/loading/Loading";
+import FailedLoading from "../failedLoading/FailedLoading"
 export default function Projects() {
   const GithubRepoCard = lazy(() =>
     import("../../components/githubRepoCard/GithubRepoCard")
   );
-  const FailedLoading = () => null;
   const renderLoader = () => <Loading />;
   const [repo, setrepo] = useState([]);
   const { isDark } = useContext(StyleConsumer);
@@ -19,6 +19,7 @@ export default function Projects() {
   }, []);
 
   function getRepoData() {
+    const CUSTOM_ERR_MSG = 'Because of this Error, nothing is shown in place of Projects section. Projects section not configured'
     const client = new ApolloClient({
       uri: "https://api.github.com/graphql",
       request: (operation) => {
@@ -67,9 +68,9 @@ export default function Projects() {
       })
       .catch(function (error) {
         console.log(error);
-        setrepoFunction("Error");
+        setrepoFunction(CUSTOM_ERR_MSG);
         console.log(
-          "Because of this Error, nothing is shown in place of Projects section. Projects section not configured"
+          CUSTOM_ERR_MSG
         );
       });
   }
@@ -99,6 +100,6 @@ export default function Projects() {
       </Suspense>
     );
   } else {
-    return <FailedLoading />;
+    return <FailedLoading err={repo} />;
   }
 }

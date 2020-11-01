@@ -3,9 +3,12 @@ import "./Podcast.css";
 import { podcastSection } from "../../portfolio";
 import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import FailedLoading from "../failedLoading/FailedLoading";
 
 export default function Podcast() {
   const { isDark } = useContext(StyleContext);
+  const CUSTOM_ERR_MSG = "Podcast Section is not configured properly."
+
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main">
@@ -22,7 +25,7 @@ export default function Podcast() {
           </p>
         </div>
         <div className="podcast-main-div">
-          {podcastSection.podcast.map((podcastLink) => {
+          {podcastSection.podcast ? podcastSection.podcast.map((podcastLink) => {
             return (
               <div>
                 <iframe
@@ -33,7 +36,7 @@ export default function Podcast() {
                 ></iframe>
               </div>
             );
-          })}
+          }) : <FailedLoading err={CUSTOM_ERR_MSG} />}
         </div>
       </div>
     </Fade>
