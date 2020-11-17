@@ -49,7 +49,7 @@ function Header() {
             <a href="#contact">Contact Me</a>
           </li>
           <li>
-            <a>
+            <a className="mode-switch">
               <ToggleSwitch />
             </a>
           </li>

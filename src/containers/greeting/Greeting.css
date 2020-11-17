@@ -35,14 +35,16 @@
 }
 
 .greeting-text {
-  font-size: 70px;
+  font-size: 50px;
   line-height: 1.1;
   color: black !important;
 }
 
 .greeting-text-p {
-  font-size: 30px;
+  font-size: 20px;
+  padding: 4px;
   line-height: 40px;
+
 }
 
 .greeting-image-div > img {
