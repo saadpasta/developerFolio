@@ -62,6 +62,42 @@
   background-color: #c13584;
 }
 
+.youtube i {
+  background-color: #FF0000;
+}
+
+.discord i {
+  background-color: #7087E4;
+}
+
+.whatsapp i {
+  background-color: #25D366;
+}
+
+.soundcloud i {
+  background-color: #E04005;
+}
+
+.tumblr i {
+  background-color: #001935;
+}
+
+.snapchat i {
+  background-color: #FFFC00;
+}
+
+.twitch i {
+  background-color: #9147FF;
+}
+
+.slack i {
+  background-color: #4A154B;
+}
+
+.vimeo i {
+  background-color: #41B1DB;
+}
+
 /* Hover Transition */
 .twitter i:hover,
 .google i:hover,
@@ -71,7 +107,16 @@
 .facebook i:hover,
 .instagram i:hover,
 .stack-overflow i:hover,
-.medium i:hover{
+.medium i:hover,
+.youtube i:hover,
+.discord i:hover,
+.whatsapp i:hover,
+.soundcloud i:hover,
+.tumblr i:hover,
+.snapchat i:hover,
+.twitch i:hover,
+.slack i:hover,
+.vimeo i:hover{
   background-color: black;
 }
 

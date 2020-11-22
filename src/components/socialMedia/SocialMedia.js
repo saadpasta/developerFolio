@@ -77,6 +77,86 @@ export default function socialMedia() {
       </a>)
       :
       null}
+      
+      {socialMediaLinks.youtube ?
+      <a href={socialMediaLinks.youtube} className="icon-button youtube" target="_blank">
+        <i className="fab fa-youtube"></i>
+        <span></span>
+      </a>
+      :
+      null}
+      
+      {socialMediaLinks.discord ?
+      <a href={socialMediaLinks.discord} className="icon-button discord" target="_blank">
+        <i className="fab fa-discord"></i>
+        <span></span>
+      </a>
+      :
+      null}
+            
+      {socialMediaLinks.whatsapp ?
+      <a href={socialMediaLinks.whatsapp} className="icon-button whatsapp" target="_blank">
+        <i className="fab fa-whatsapp"></i>
+        <span></span>
+      </a>
+      :
+      null}
+                  
+      {socialMediaLinks.soundcloud ?
+      <a href={socialMediaLinks.soundcloud} className="icon-button soundcloud" target="_blank">
+        <i className="fab fa-soundcloud"></i>
+        <span></span>
+      </a>
+      :
+      null}
+
+      {socialMediaLinks.tumblr ?
+      <a href={socialMediaLinks.tumblr} className="icon-button tumblr" target="_blank">
+        <i className="fab fa-tumblr"></i>
+        <span></span>
+      </a>
+      :
+      null}
+      
+      {socialMediaLinks.snapchat ?
+      <a href={socialMediaLinks.snapchat} className="icon-button snapchat" target="_blank">
+        <i className="fab fa-snapchat"></i>
+        <span></span>
+      </a>
+      :
+      null}
+      
+      {socialMediaLinks.twitch ?
+      <a href={socialMediaLinks.twitch} className="icon-button twitch" target="_blank">
+        <i className="fab fa-twitch"></i>
+        <span></span>
+      </a>
+      :
+      null}
+      
+      {socialMediaLinks.slack ?
+      <a href={socialMediaLinks.slack} className="icon-button slack" target="_blank">
+        <i className="fab fa-slack"></i>
+        <span></span>
+      </a>
+      :
+      null}
+      
+      {socialMediaLinks.vimeo ?
+      <a href={socialMediaLinks.vimeo} className="icon-button vimeo" target="_blank">
+        <i className="fab fa-vimeo"></i>
+        <span></span>
+      </a>
+      :
+      null}
+
+      {socialMediaLinks.twitter ?
+      <a href={socialMediaLinks.twitter} className="icon-button twitter" target="_blank">
+        <i className="fab fa-twitter"></i>
+        <span></span>
+      </a>
+      :
+      null}
 
     </div>
   );
