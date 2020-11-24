@@ -15,6 +15,7 @@
     "react-headroom": "^3.0.0",
     "react-reveal": "^1.2.2",
     "react-scripts": "3.2.0",
+    "react-toggle": "^4.1.1",
     "react-twitter-embed": "3.0.3"
   },
   "scripts": {
