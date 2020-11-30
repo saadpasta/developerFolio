@@ -7,7 +7,7 @@
     "@apollo/react-hooks": "^3.1.4",
     "apollo-boost": "^0.4.4",
     "colorthief": "^2.3.0",
-    "gh-pages": "^2.1.1",
+    "gh-pages": "^2.2.0",
     "graphql": "^14.5.8",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
@@ -21,7 +21,7 @@
     "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
