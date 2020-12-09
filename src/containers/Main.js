@@ -38,7 +38,7 @@ export default class Main extends Component {
 
   render() {
     return (
-      <div className={this.state.isDark ? "dark-mode" : null}>
+      <div className={this.state.isDark ? "dark-mode containerContent" : "containerContent"}>
         <StyleProvider
           value={{ isDark: this.state.isDark, changeTheme: this.changeTheme }}
         >
