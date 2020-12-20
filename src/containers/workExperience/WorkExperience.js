@@ -7,7 +7,7 @@ import StyleContext from "../../contexts/StyleContext";
 
 export default function WorkExperience() {
     const {isDark} = useContext(StyleContext)
-    if(workExperiences.viewExperiences){
+    if(workExperiences.display){
         return (
             <div id="experience">
                 <Fade bottom duration={1000} distance="20px">
