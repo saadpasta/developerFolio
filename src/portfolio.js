@@ -11,8 +11,7 @@ const greeting = {
   title: "Hi all, I'm Saad",
   subTitle: emoji("A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
-  displayHeader: true, // Set true to display header section, defaults to false
-  displayGreeting: true, // Set true to display greeting section, defaults to false
+  displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
 // Your Social Media Link
@@ -97,13 +96,13 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-docker"
     }
   ],
-  display: true // Set true to display this section, defaults to false
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Your education background
 
 const educationInfo = {
-  viewEducation: true, // Set it to true to see education section
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
       schoolName: "Harvard University",
@@ -154,7 +153,7 @@ const techStack = {
 // Your top 3 work experiences
 
 const workExperiences = {
-  viewExperiences: true, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
@@ -190,8 +189,8 @@ To know how to get github key look at readme.md */
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile : "true",  // Set true or false to show Contact profile using Github, defaults to false
-  display: true // Set true to display this section, defaults to false
+  showGithubProfile : "true",  // Set true or false to show Contact profile using Github, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 
@@ -210,7 +209,7 @@ const bigProjects = {
       link: "http://nextu.se/"
     }
   ],
-  display: true // Set true to display this section, defaults to false
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Your Achievement Section Include Your Certification Talks and More
@@ -248,7 +247,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set true to display this section, defaults to false
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -270,7 +269,7 @@ const blogSection = {
       description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set true to display this section, defaults to false
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -287,7 +286,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set true to display this section, defaults to false
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -298,7 +297,7 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"],
-  display: true // Set true to display this section, defaults to false
+  display: true // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -306,7 +305,6 @@ const contactInfo = {
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+92-3243454077",
   emailAddress: "saadpasta70@gmail.com",
-  display: true // Set true to display this section, defaults to false
 };
 
 //Twitter Section
