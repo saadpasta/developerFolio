@@ -6,6 +6,9 @@ import StyleContext from "../../contexts/StyleContext";
 
 export default function Podcast() {
   const { isDark } = useContext(StyleContext);
+  if (!podcastSection.display) {
+    return null;
+  }
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main">
@@ -22,13 +25,15 @@ export default function Podcast() {
           </p>
         </div>
         <div className="podcast-main-div">
-          {podcastSection.podcast.map((podcastLink) => {
+          {podcastSection.podcast.map((podcastLink,i) => {
             return (
-              <div>
+              <div
+                key={i}
+              >
                 <iframe
                   className="podcast"
                   src={podcastLink}
-                  frameborder="0"
+                  frameBorder="0"
                   scrolling="no"
                 ></iframe>
               </div>

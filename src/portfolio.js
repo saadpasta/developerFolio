@@ -9,22 +9,23 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Saad Pasta",
   title: "Hi all, I'm Saad",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  subTitle: emoji("A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
+  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+  displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
-
   github: "https://github.com/saadpasta",
   linkedin: "https://www.linkedin.com/in/saadpasta/",
   gmail: "saadpasta70@gmail.com",
   gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/saad.pasta7",
   medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
+  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram and Twitter are also supported in the links!
+  display: true // Set true to display this section, defaults to false
 };
 
 // Your Skills Section
@@ -94,13 +95,14 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
     }
-  ]
+  ],
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Your education background
 
 const educationInfo = {
-  viewEducation: true, // Set it to true to see education section
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
       schoolName: "Harvard University",
@@ -143,14 +145,15 @@ const techStack = {
       Stack: "Programming",
       progressPercentage: "60%"
     }
-  ]
+  ],
+  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 
 // Your top 3 work experiences
 
 const workExperiences = {
-  viewExperiences: true, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
@@ -186,7 +189,8 @@ To know how to get github key look at readme.md */
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false
+  showGithubProfile : "true",  // Set true or false to show Contact profile using Github, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 
@@ -204,7 +208,8 @@ const bigProjects = {
       image: require("./assets/images/nextuLogo.webp"),
       link: "http://nextu.se/"
     }
-  ]
+  ],
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Your Achievement Section Include Your Certification Talks and More
@@ -241,7 +246,8 @@ const achievementSection = {
         { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
       ]
     }
-  ]
+  ],
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -262,7 +268,8 @@ const blogSection = {
       title: "Why REACT is The Best?",
       description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
-  ]
+  ],
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -278,7 +285,8 @@ const talkSection = {
       slides_url: "https://bit.ly/saadpasta-slides",
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
-  ]
+  ],
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -288,21 +296,21 @@ const podcastSection = {
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"]
+  podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"],
+  display: true // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  emailAddress: "saadpasta70@gmail.com",
 };
 
 //Twitter Section
 
 const twitterDetails = {
-
-  userName : "twitter"//Replace "twitter" with your twitter username without @
-
+  userName : "twitter", //Replace "twitter" with your twitter username without @
+  display: true // Set true to display this section, defaults to false
 };
 export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};

@@ -7,6 +7,9 @@ import StyleContext from "../../contexts/StyleContext";
 
 export default function Skills() {
   const { isDark } = useContext(StyleContext);
+  if (!skillsSection.display) {
+    return null;
+  }
   return (
     <div className={isDark ? "dark-mode main" : "main"} id="skills">
       <div className="skills-main-div">
@@ -36,9 +39,10 @@ export default function Skills() {
             </p>
             <SoftwareSkill />
             <div>
-              {skillsSection.skills.map((skills) => {
+              {skillsSection.skills.map((skills, i) => {
                 return (
                   <p
+                    key={i}
                     className={
                       isDark
                         ? "dark-mode subTitle skills-text"
