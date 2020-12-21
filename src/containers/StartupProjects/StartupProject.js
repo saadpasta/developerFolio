@@ -28,7 +28,6 @@ export default function StartupProject() {
             <div className="startup-project-text">
               {bigProjects.projects.map((project,i) => {
                 return (
-                  // eslint-disable-next-line
                   <div
                     key={i}
                     className="saaya-health-div"
