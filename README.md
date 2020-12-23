@@ -113,6 +113,8 @@ Note: Instead of creating a .env file, you can just run this command "cp env.exa
 
 Set `showGithubProfile` to true or false to show Contact Profile using Github, defaults to false.
 
+**Warning:** Treat your tokens like passwords and keep them secret. When working with the API, use tokens as environment variables instead of hardcoding them into your programs.
+
 Note: Open Source Projects section only show pinned items of your Github.
 If you are seeing something as shown below, follow these [instructions](https://docs.github.com/en/enterprise/2.13/user/articles/pinning-items-to-your-profile).
 
