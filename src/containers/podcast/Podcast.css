@@ -13,6 +13,10 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem 1rem;
 }
+.subTitle {
+  color: #868e96;
+}
+
 @media (max-width: 768px) {
   .podcast-header-title {
     font-size: 30px;
@@ -27,8 +31,7 @@
   .podcast {
     width: 300px;
   }
-  .podcast-main-div{
-      text-align: center;
+  .podcast-main-div {
+    text-align: center;
   }
 }
-
