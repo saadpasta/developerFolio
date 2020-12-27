@@ -17,7 +17,6 @@ export default class DisplayLottie extends Component {
           <div onClick='null'>
             <Lottie 
               options={defaultOptions}
-              isStopped= 'false'
             />
           </div>
         </Suspense>
