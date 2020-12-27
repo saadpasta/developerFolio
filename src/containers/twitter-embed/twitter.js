@@ -1,9 +1,9 @@
-import React, { Suspense, setState, useContext } from "react";
-import "./twitter.css";
-import Loading from "../loading/Loading";
-import { TwitterTimelineEmbed } from "react-twitter-embed";
-import { twitterDetails } from "../../portfolio";
-import StyleContext from "../../contexts/StyleContext";
+import React, { Suspense, useContext } from 'react';
+import './twitter.css';
+import Loading from '../loading/Loading';
+import { TwitterTimelineEmbed } from 'react-twitter-embed';
+import { twitterDetails } from '../../portfolio';
+import StyleContext from '../../contexts/StyleContext';
 
 const renderLoader = () => <Loading />;
 const cantDisplayError =
@@ -11,8 +11,8 @@ const cantDisplayError =
 
 function timeOut() {
   setTimeout(function () {
-    if (!document.getElementById("twitter").innerHTML.includes("iframe")) {
-      document.getElementById("twitter").innerHTML = cantDisplayError;
+    if (!document.getElementById('twitter').innerHTML.includes('iframe')) {
+      document.getElementById('twitter').innerHTML = cantDisplayError;
     }
   }, 10000);
 }
@@ -33,8 +33,8 @@ export default function Twitter() {
               placeholder={renderLoader()}
               autoHeight={false}
               borderColor="#fff"
-              key={isDark ? "1" : "2"}
-              theme={isDark ? "dark" : "light"}
+              key={isDark ? '1' : '2'}
+              theme={isDark ? 'dark' : 'light'}
               noFooter={true}
               onload={timeOut()}
             />

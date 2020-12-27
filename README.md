@@ -221,8 +221,7 @@ For more information, read [hosting on Netlify](https://create-react-app.dev/doc
 
 ## Illustrations
 - [UnDraw](https://undraw.co/illustrations)
-
-
+- [Lottie by Oblikweare](https://lottiefiles.com/oblikweare)
 
 
 ## For the Future
