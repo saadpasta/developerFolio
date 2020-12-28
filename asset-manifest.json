@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.713bdd93.chunk.css",
+    "main.css": "/static/css/main.af23b6d0.chunk.css",
     "main.js": "/static/js/main.bb6acb18.chunk.js",
     "main.js.map": "/static/js/main.bb6acb18.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.291d1cfb.js",
     "runtime-main.js.map": "/static/js/runtime-main.291d1cfb.js.map",
-    "static/js/2.b9a4ec59.chunk.js": "/static/js/2.b9a4ec59.chunk.js",
-    "static/js/2.b9a4ec59.chunk.js.map": "/static/js/2.b9a4ec59.chunk.js.map",
+    "static/js/2.35731d87.chunk.js": "/static/js/2.35731d87.chunk.js",
+    "static/js/2.35731d87.chunk.js.map": "/static/js/2.35731d87.chunk.js.map",
     "static/css/3.00373544.chunk.css": "/static/css/3.00373544.chunk.css",
     "static/js/3.e77293e8.chunk.js": "/static/js/3.e77293e8.chunk.js",
     "static/js/3.e77293e8.chunk.js.map": "/static/js/3.e77293e8.chunk.js.map",
@@ -14,12 +14,12 @@
     "static/js/4.a39a2c0a.chunk.js": "/static/js/4.a39a2c0a.chunk.js",
     "static/js/4.a39a2c0a.chunk.js.map": "/static/js/4.a39a2c0a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b14ce045b717a43330c99d6e83720a53.js": "/precache-manifest.b14ce045b717a43330c99d6e83720a53.js",
+    "precache-manifest.54d687ccaab0f0273ccbbe9cffce4abc.js": "/precache-manifest.54d687ccaab0f0273ccbbe9cffce4abc.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.00373544.chunk.css.map": "/static/css/3.00373544.chunk.css.map",
     "static/css/4.a922a401.chunk.css.map": "/static/css/4.a922a401.chunk.css.map",
-    "static/css/main.713bdd93.chunk.css.map": "/static/css/main.713bdd93.chunk.css.map",
-    "static/js/2.b9a4ec59.chunk.js.LICENSE.txt": "/static/js/2.b9a4ec59.chunk.js.LICENSE.txt",
+    "static/css/main.af23b6d0.chunk.css.map": "/static/css/main.af23b6d0.chunk.css.map",
+    "static/js/2.35731d87.chunk.js.LICENSE.txt": "/static/js/2.35731d87.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/airbnbLogo.png": "/static/media/airbnbLogo.c59720d6.png",
     "static/media/codeInLogo.webp": "/static/media/codeInLogo.47a7a717.webp",
@@ -39,8 +39,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.291d1cfb.js",
-    "static/js/2.b9a4ec59.chunk.js",
-    "static/css/main.713bdd93.chunk.css",
+    "static/js/2.35731d87.chunk.js",
+    "static/css/main.af23b6d0.chunk.css",
     "static/js/main.bb6acb18.chunk.js"
   ]
 }
