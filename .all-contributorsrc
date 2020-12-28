@@ -301,6 +301,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "WarenGonzaga",
+      "name": "Waren Gonzaga",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/15052701?v=4",
+      "profile": "https://warengonzaga.com",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
