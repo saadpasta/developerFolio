@@ -26,9 +26,10 @@ export default function StartupProject() {
           </p>
           <div className="startup-projects-main">
             <div className="startup-project-text">
-              {bigProjects.projects.map((project) => {
+              {bigProjects.projects.map((project,i) => {
                 return (
                   <div
+                    key={i}
                     className="saaya-health-div"
                     onClick={() => openProjectInNewWindow(project.link)}
                   >

@@ -11,10 +11,8 @@
   margin-top: 2rem;
 }
 
-.gretting-main {
-  width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
+.greeting-main {
+  display: flex;
 }
 
 .subTitle {
@@ -49,6 +47,7 @@
   max-width: 100%;
   height: auto;
 }
+
 .wave-emoji {
   animation-duration: 1.8s;
   animation-iteration-count: infinite;
@@ -105,5 +104,8 @@
   }
   .greeting-main {
     display: block;
+  }
+  .greeting-image-div{
+    height: 256px;
   }
 }

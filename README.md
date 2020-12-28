@@ -113,6 +113,8 @@ Note: Instead of creating a .env file, you can just run this command "cp env.exa
 
 Set `showGithubProfile` to true or false to show Contact Profile using Github, defaults to false.
 
+**Warning:** Treat your tokens like passwords and keep them secret. When working with the API, use tokens as environment variables instead of hardcoding them into your programs.
+
 Note: Open Source Projects section only show pinned items of your Github.
 If you are seeing something as shown below, follow these [instructions](https://docs.github.com/en/enterprise/2.13/user/articles/pinning-items-to-your-profile).
 
@@ -219,8 +221,7 @@ For more information, read [hosting on Netlify](https://create-react-app.dev/doc
 
 ## Illustrations
 - [UnDraw](https://undraw.co/illustrations)
-
-
+- [Lottie by Oblikweare](https://lottiefiles.com/oblikweare)
 
 
 ## For the Future
@@ -291,6 +292,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://seungyeon-lee.github.io/"><img src="https://avatars1.githubusercontent.com/u/26589915?v=4" width="100px;" alt=""/><br /><sub><b>Seungyeon-Lee</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=Seungyeon-Lee" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/NajamShehzad"><img src="https://avatars2.githubusercontent.com/u/37629243?v=4" width="100px;" alt=""/><br /><sub><b>Najam Shehzad </b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=NajamShehzad" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.exspiravit.ga/"><img src="https://avatars1.githubusercontent.com/u/22334680?v=4" width="100px;" alt=""/><br /><sub><b>Randy Jesus Real Srsen</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=Exspiravit" title="Code">💻</a></td>
+    <td align="center"><a href="https://tamojitdas.netlify.app"><img src="https://avatars0.githubusercontent.com/u/40804626?v=4" width="100px;" alt=""/><br /><sub><b>Tamojit Das</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=tamojit-123" title="Documentation">📖</a></td>
   </tr>
 </table>
 

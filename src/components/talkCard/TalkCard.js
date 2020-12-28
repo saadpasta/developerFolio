@@ -4,19 +4,19 @@ import "./TalkCard.css";
 export default function TalkCard({ talkDetails }) {
   return (
     <div>
-      <div class="container">
+      <div className="container">
         <div
-          class={talkDetails.isDark ? "dark-rectangle rectangle" : "rectangle"}
+          className={talkDetails.isDark ? "dark-rectangle rectangle" : "rectangle"}
         >
-          <div class="diagonal-fill"></div>
-          <div class="talk-card-title">{talkDetails.title}</div>
+          <div className="diagonal-fill"></div>
+          <div className="talk-card-title">{talkDetails.title}</div>
           <p className="talk-card-subtitle">{talkDetails.subtitle}</p>
 
           <div className="card-footer-button-div">
-            <a href={talkDetails.slides_url} target="_" class="talk-button">
+            <a href={talkDetails.slides_url} target="_" className="talk-button">
               Slides
             </a>
-            <a href={talkDetails.event_url} target="_" class="talk-button">
+            <a href={talkDetails.event_url} target="_" className="talk-button">
               Event
             </a>
           </div>
