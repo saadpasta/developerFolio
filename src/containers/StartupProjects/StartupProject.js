@@ -10,6 +10,9 @@ export default function StartupProject() {
     win.focus();
   }
   const { isDark } = useContext(StyleContext);
+  if (!bigProjects.display) {
+    return null;
+  }
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="projects">
