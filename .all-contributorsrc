@@ -310,6 +310,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "BourgeoisBenjamin",
+      "name": "Benjamin Bourgeois",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/20949060?v=4",
+      "profile": "https://www.benjaminbourgeois.com",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
