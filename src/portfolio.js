@@ -49,60 +49,76 @@ const skillsSection = {
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+https://iconify.design/icon-sets/ */
 
   softwareSkills: [
     {
       skillName: 'html-5',
-      fontAwesomeClassname: 'fab fa-html5',
+      fontAwesomeClassname: 'vscode-icons:file-type-html',
     },
     {
       skillName: 'css3',
-      fontAwesomeClassname: 'fab fa-css3-alt',
+      fontAwesomeClassname: 'vscode-icons:file-type-css',
     },
     {
       skillName: 'sass',
-      fontAwesomeClassname: 'fab fa-sass',
+      fontAwesomeClassname: 'logos:sass',
     },
     {
       skillName: 'JavaScript',
-      fontAwesomeClassname: 'fab fa-js',
+      fontAwesomeClassname: 'logos:javascript',
+    },
+    {
+      skillName: 'TypeScript',
+      fontAwesomeClassname: 'logos:typescript-icon',
     },
     {
       skillName: 'reactjs',
-      fontAwesomeClassname: 'fab fa-react',
+      fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
     },
     {
       skillName: 'nodejs',
-      fontAwesomeClassname: 'fab fa-node',
+      fontAwesomeClassname: 'logos:nodejs-icon',
+    },
+    {
+      skillName: 'flutter',
+      fontAwesomeClassname: 'logos:flutter',
     },
     {
       skillName: 'swift',
-      fontAwesomeClassname: 'fab fa-swift',
+      fontAwesomeClassname: 'vscode-icons:file-type-swift',
     },
     {
       skillName: 'npm',
-      fontAwesomeClassname: 'fab fa-npm',
+      fontAwesomeClassname: 'vscode-icons:file-type-npm',
     },
     {
       skillName: 'sql-database',
-      fontAwesomeClassname: 'fas fa-database',
+      fontAwesomeClassname: 'vscode-icons:file-type-sql',
+    },
+    {
+      skillName: 'mongoDB',
+      fontAwesomeClassname: 'vscode-icons:file-type-mongo',
     },
     {
       skillName: 'aws',
-      fontAwesomeClassname: 'fab fa-aws',
+      fontAwesomeClassname: 'logos:aws',
     },
     {
       skillName: 'firebase',
-      fontAwesomeClassname: 'fas fa-fire',
+      fontAwesomeClassname: 'logos:firebase',
     },
     {
       skillName: 'python',
-      fontAwesomeClassname: 'fab fa-python',
+      fontAwesomeClassname: 'logos:python',
+    },
+    {
+      skillName: 'git',
+      fontAwesomeClassname: 'logos:git-icon',
     },
     {
       skillName: 'docker',
-      fontAwesomeClassname: 'fab fa-docker',
+      fontAwesomeClassname: 'logos:docker-icon',
     },
   ],
   display: true, // Set false to hide this section, defaults to true
