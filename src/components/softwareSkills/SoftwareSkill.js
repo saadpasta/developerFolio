@@ -14,6 +14,7 @@ export default function SoftwareSkill() {
                       className="iconify"
                       data-icon={skills.fontAwesomeClassname}
                       data-inline="false"
+                      id="skill-icon"
                     ></span>
                 <p>{skills.skillName}</p>
               </li>
