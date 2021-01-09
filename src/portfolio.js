@@ -54,71 +54,71 @@ https://iconify.design/icon-sets/ */
   softwareSkills: [
     {
       skillName: 'html-5',
-      fontAwesomeClassname: 'vscode-icons:file-type-html',
+      iconfiyClassname: 'vscode-icons:file-type-html',
     },
     {
       skillName: 'css3',
-      fontAwesomeClassname: 'vscode-icons:file-type-css',
+      iconfiyClassname: 'vscode-icons:file-type-css',
     },
     {
       skillName: 'sass',
-      fontAwesomeClassname: 'logos:sass',
+      iconfiyClassname: 'logos:sass',
     },
     {
       skillName: 'JavaScript',
-      fontAwesomeClassname: 'logos:javascript',
+      iconfiyClassname: 'logos:javascript',
     },
     {
       skillName: 'TypeScript',
-      fontAwesomeClassname: 'logos:typescript-icon',
+      iconfiyClassname: 'logos:typescript-icon',
     },
     {
       skillName: 'reactjs',
-      fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
+      iconfiyClassname: 'vscode-icons:file-type-reactjs',
     },
     {
       skillName: 'nodejs',
-      fontAwesomeClassname: 'logos:nodejs-icon',
+      iconfiyClassname: 'logos:nodejs-icon',
     },
     {
       skillName: 'flutter',
-      fontAwesomeClassname: 'logos:flutter',
+      iconfiyClassname: 'logos:flutter',
     },
     {
       skillName: 'swift',
-      fontAwesomeClassname: 'vscode-icons:file-type-swift',
+      iconfiyClassname: 'vscode-icons:file-type-swift',
     },
     {
       skillName: 'npm',
-      fontAwesomeClassname: 'vscode-icons:file-type-npm',
+      iconfiyClassname: 'vscode-icons:file-type-npm',
     },
     {
       skillName: 'sql-database',
-      fontAwesomeClassname: 'vscode-icons:file-type-sql',
+      iconfiyClassname: 'vscode-icons:file-type-sql',
     },
     {
       skillName: 'mongoDB',
-      fontAwesomeClassname: 'vscode-icons:file-type-mongo',
+      iconfiyClassname: 'vscode-icons:file-type-mongo',
     },
     {
       skillName: 'aws',
-      fontAwesomeClassname: 'logos:aws',
+      iconfiyClassname: 'logos:aws',
     },
     {
       skillName: 'firebase',
-      fontAwesomeClassname: 'logos:firebase',
+      iconfiyClassname: 'logos:firebase',
     },
     {
       skillName: 'python',
-      fontAwesomeClassname: 'logos:python',
+      iconfiyClassname: 'logos:python',
     },
     {
       skillName: 'git',
-      fontAwesomeClassname: 'logos:git-icon',
+      iconfiyClassname: 'logos:git-icon',
     },
     {
       skillName: 'docker',
-      fontAwesomeClassname: 'logos:docker-icon',
+      iconfiyClassname: 'logos:docker-icon',
     },
   ],
   display: true, // Set false to hide this section, defaults to true
