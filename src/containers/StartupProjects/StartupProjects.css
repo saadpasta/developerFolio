@@ -1,46 +1,49 @@
-.startup-projects-main {
-  display: flex;
-}
-
-.startup-projects-main > * {
-  flex: 1;
-  margin-bottom: 30px;
-}
-
-.starup-project-image > img {
+.card-image {
   max-width: 100%;
   height: auto;
+  width: 250px;
 }
-
-.project-card-head {
-  color: rgb(36, 41, 46);
-  font-size: 25px;
+.card-title {
+  color: #000000;
+  font-size: 22px;
+  line-height: 24px;
   font-weight: 700;
-  letter-spacing: -0.5px;
-  margin: 0px;
+  margin: 15px 0 0 0;
+}
+.card-subtitle {
+  color: #666666;
+  font-size: 17px;
+  line-height: 1.5rem;
+}
+.project-card {
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid rgba(211, 211, 211, 0.397);
+}
+.project-detail-div {
+  text-align: center;
+}
+.project-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
 }
 
-.startup-project-text {
-  display: flex;
-  justify-content: space-between;
+.project-image-div {
+  position: relative;
+  height: 250px;
+  overflow: hidden;
+  text-align: center;
 }
 
-.project-card-description {
-  color: rgb(88, 96, 105);
-}
-.subTitle {
-  color: #868e96;
-}
-
-.saaya-health-div,
-.nextu-div {
-  cursor: pointer;
+.project-cards-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem 1rem;
 }
 
 @media (max-width: 768px) {
-  .starup-project-image {
-    display: none;
-  }
+
   .project-subtitle {
     font-size: 16px;
     text-align: center;

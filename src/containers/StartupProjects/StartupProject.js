@@ -27,21 +27,25 @@ export default function StartupProject() {
           >
             {bigProjects.subtitle}
           </p>
-          <div className="startup-projects-main">
-            <div className="startup-project-text">
+
+          <div className="project-cards-div">
               {bigProjects.projects.map((project,i) => {
                 return (
-                  <div
-                    key={i}
-                    className="saaya-health-div"
-                    onClick={() => openProjectInNewWindow(project.link)}
-                  >
-                    <img alt="Saad Working" src={project.image}></img>
+                  <div className={isDark ? "dark-mode project-card" : "project-card"}>
+                  <div className="project-image-div">
+                    <img src={project.image} alt="PWA" className="card-image"></img>
                   </div>
+                  <div className="project-detail-div">
+                    <h5 className={isDark ? "dark-mode card-title" : "card-title"}>
+                      {project.projectName}
+                    </h5>
+                    <p className={isDark ? "dark-mode card-subtitle" : "card-subtitle"}>
+                      {project.projectDesc}
+                    </p>
+                  </div>
+                </div>
                 );
               })}
-            </div>
-            <div className="startup-project-image"></div>
           </div>
         </div>
       </div>
