@@ -212,10 +212,14 @@ const bigProjects = {
     {
       image: require('./assets/images/saayaHealthLogo.webp'),
       link: 'http://saayahealth.com/',
+      projectName: "Saayahealth",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
     },
     {
       image: require('./assets/images/nextuLogo.webp'),
       link: 'http://nextu.se/',
+      projectName: "Nextu",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
     },
   ],
   display: true, // Set false to hide this section, defaults to true

@@ -31,7 +31,8 @@ export default function StartupProject() {
           <div className="project-cards-div">
               {bigProjects.projects.map((project,i) => {
                 return (
-                  <div className={isDark ? "dark-mode project-card" : "project-card"}>
+                  <div className={isDark ? "dark-mode project-card" : "project-card"} 
+                  onClick={() => openProjectInNewWindow(project.link)}>
                   <div className="project-image-div">
                     <img src={project.image} alt="PWA" className="card-image"></img>
                   </div>
