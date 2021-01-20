@@ -23,21 +23,21 @@
   border: 1px solid rgba(211, 211, 211, 0.397);
   cursor: pointer;
 }
-.project-detail-div {
+.project-detail {
   text-align: center;
 }
 .project-card:hover {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
 }
 
-.project-image-div {
+.project-image {
   position: relative;
   height: 250px;
   overflow: hidden;
   text-align: center;
 }
 
-.project-cards-div {
+.projects-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem 1rem;

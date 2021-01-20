@@ -28,15 +28,15 @@ export default function StartupProject() {
             {bigProjects.subtitle}
           </p>
 
-          <div className="project-cards-div">
+          <div className="projects-container">
               {bigProjects.projects.map((project,i) => {
                 return (
-                  <div className={isDark ? "dark-mode project-card" : "project-card"} 
+                  <div key={i} className={isDark ? "dark-mode project-card" : "project-card"} 
                   onClick={() => openProjectInNewWindow(project.link)}>
-                  <div className="project-image-div">
-                    <img src={project.image} alt="PWA" className="card-image"></img>
+                  <div className="project-image">
+                    <img src={project.image} alt={project.projectName} className="card-image"></img>
                   </div>
-                  <div className="project-detail-div">
+                  <div className="project-detail">
                     <h5 className={isDark ? "dark-mode card-title" : "card-title"}>
                       {project.projectName}
                     </h5>
