@@ -109,3 +109,9 @@
     height: 256px;
   }
 }
+
+@media (max-width: 320px){
+  .main{
+    width: auto;
+  }
+} 
