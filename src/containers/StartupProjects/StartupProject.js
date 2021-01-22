@@ -31,7 +31,7 @@ export default function StartupProject() {
           <div className="projects-container">
               {bigProjects.projects.map((project,i) => {
                 return (
-                  <div key={i} className={isDark ? "dark-mode project-card" : "project-card"}>
+                  <div key={i} className={isDark ? "dark-mode project-card project-card-dark" : "project-card project-card-light"}>
                   {
                     project.image ?
                     <div className="project-image">

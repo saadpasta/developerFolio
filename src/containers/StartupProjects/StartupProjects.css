@@ -19,19 +19,34 @@
   display: flex;
   flex-direction: column;
   background-color: rgb(255, 255, 255);
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
   padding: 1.5rem;
   border-radius: 10px;
   border: 1px solid rgba(211, 211, 211, 0.397);
   justify-content: center;
 }
+.project-card-light{
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.project-card-dark{
+  box-shadow: 0px 10px 30px -15px #d9dbdf;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.25s ease;
+}
+
 .project-detail {
   text-align: center;
 }
-.project-card:hover {
+.project-card-light:hover {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
 }
-
+.project-card-dark:hover {
+  box-shadow: #d9dbdf 0px 20px 30px -10px;
+}
 .project-image {
   position: relative;
   height: 250px;
