@@ -219,11 +219,7 @@ const bigProjects = {
           url:
             'http://saayahealth.com/',
         },
-        {
-          name: 'Example',
-          url:
-            'http://example.com/',
-        },
+        //  you can add extra buttons here.
       ],
     },
     {

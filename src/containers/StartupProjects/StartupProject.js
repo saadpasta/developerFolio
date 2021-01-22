@@ -32,9 +32,12 @@ export default function StartupProject() {
               {bigProjects.projects.map((project,i) => {
                 return (
                   <div key={i} className={isDark ? "dark-mode project-card" : "project-card"}>
-                  <div className="project-image">
-                    <img src={project.image} alt={project.projectName} className="card-image"></img>
-                  </div>
+                  {
+                    project.image ?
+                    <div className="project-image">
+                      <img src={project.image} alt={project.projectName} className="card-image"></img>
+                    </div> : null
+                  }
                   <div className="project-detail">
                     <h5 className={isDark ? "dark-mode card-title" : "card-title"}>
                       {project.projectName}

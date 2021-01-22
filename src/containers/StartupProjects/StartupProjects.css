@@ -16,11 +16,14 @@
   line-height: 1.5rem;
 }
 .project-card {
+  display: flex;
+  flex-direction: column;
   background-color: rgb(255, 255, 255);
   box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
   padding: 1.5rem;
   border-radius: 10px;
   border: 1px solid rgba(211, 211, 211, 0.397);
+  justify-content: center;
 }
 .project-detail {
   text-align: center;
