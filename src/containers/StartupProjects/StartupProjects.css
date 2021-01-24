@@ -1,46 +1,85 @@
-.startup-projects-main {
-  display: flex;
-}
-
-.startup-projects-main > * {
-  flex: 1;
-  margin-bottom: 30px;
-}
-
-.starup-project-image > img {
+.card-image {
   max-width: 100%;
   height: auto;
+  width: 250px;
 }
-
-.project-card-head {
-  color: rgb(36, 41, 46);
-  font-size: 25px;
+.card-title {
+  color: #000000;
+  font-size: 22px;
+  line-height: 24px;
   font-weight: 700;
-  letter-spacing: -0.5px;
-  margin: 0px;
+  margin: 15px 0 0 0;
 }
-
-.startup-project-text {
+.card-subtitle {
+  color: #666666;
+  font-size: 17px;
+  line-height: 1.5rem;
+}
+.project-card {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid rgba(211, 211, 211, 0.397);
+  justify-content: center;
+}
+.project-card-light{
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
-.project-card-description {
-  color: rgb(88, 96, 105);
-}
-.subTitle {
-  color: #868e96;
+.project-card-dark{
+  box-shadow: 0px 10px 30px -15px #d9dbdf;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.25s ease;
 }
 
-.saaya-health-div,
-.nextu-div {
+.project-detail {
+  text-align: center;
+}
+.project-card-light:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+}
+.project-card-dark:hover {
+  box-shadow: #d9dbdf 0px 20px 30px -10px;
+}
+.project-image {
+  position: relative;
+  height: 250px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem 1rem;
+}
+
+.project-card-footer span.project-tag{
+  background: #55198b;
+  color: #f5f2f4;
+  vertical-align: middle;
+  align-items: center;
+  border-radius: 4px;
+  display: inline-flex;
+  font-size: 0.75rem;
+  height: 2em;
+  justify-content: center;
+  white-space: nowrap;
+  line-height: 1.5;
+  margin: 0 0.5rem 0.5rem 0;
+  padding: 0 0.75em;
   cursor: pointer;
+  transition: 0.2s ease-in;
 }
 
 @media (max-width: 768px) {
-  .starup-project-image {
-    display: none;
-  }
+
   .project-subtitle {
     font-size: 16px;
     text-align: center;

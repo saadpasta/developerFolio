@@ -211,11 +211,28 @@ const bigProjects = {
   projects: [
     {
       image: require('./assets/images/saayaHealthLogo.webp'),
-      link: 'http://saayahealth.com/',
+      projectName: "Saayahealth",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: 'Visit Website',
+          url:
+            'http://saayahealth.com/',
+        },
+        //  you can add extra buttons here.
+      ],
     },
     {
       image: require('./assets/images/nextuLogo.webp'),
-      link: 'http://nextu.se/',
+      projectName: "Nextu",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: 'Visit Website',
+          url:
+            'http://nextu.se/',
+        },
+      ],
     },
   ],
   display: true, // Set false to hide this section, defaults to true
