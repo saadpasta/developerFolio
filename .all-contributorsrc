@@ -328,6 +328,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "1hanzla100",
+      "name": "Hanzla",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59178380?v=4",
+      "profile": "https://hanzla.ga",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
