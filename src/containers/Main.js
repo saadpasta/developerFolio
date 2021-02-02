@@ -27,7 +27,7 @@ export default class Main extends Component {
   }
 
   componentDidMount() {
-    if (localStorage.getItem('isDark')==null) {
+    if (localStorage.getItem('isDark')===null) {
       const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
       localStorage.setItem('isDark',darkPref.matches)
     }  
