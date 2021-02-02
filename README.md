@@ -231,8 +231,6 @@ If you can help us with these. Please don't hesitate to open a [pull request](ht
 
 - Move to Gatsby
 
-- Enable Dark Mode
-
 - Add More Sections
 
 ## Project Maintainers 
