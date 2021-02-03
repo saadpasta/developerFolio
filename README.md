@@ -3,9 +3,10 @@
 ## A clean, beautiful and responsive portfolio template for Developers!
 
 
-<p align="center">
+<p align="left">
   <kbd>
-<img src="https://user-images.githubusercontent.com/49693820/81296489-999abf00-908f-11ea-9442-75e8f0ecf65d.gif"></img>
+<img src="https://user-images.githubusercontent.com/53429438/106779355-e9cd9e80-666c-11eb-9417-8a4b54441bc6.gif" width=465 height=350></img>
+<img src="https://user-images.githubusercontent.com/53429438/106776598-3b285e80-666a-11eb-8c3d-256e376926be.gif" width=465 height=350></img>
   </kbd>
 </p>
 
