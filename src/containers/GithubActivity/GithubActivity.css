@@ -1,9 +1,9 @@
-.codersrank-heading {
+.githubactivity-heading {
   font-size: 56px;
   font-weight: 400;
 }
 
-.codersrank-section {
+.githubactivity-section {
   display: flex;
   flex-direction: column;
   width: 90%;
@@ -12,39 +12,32 @@
   margin-top: 2rem;
 }
 
-.codersrank-section > * {
+.githubactivity-section > * {
   flex: 1;
   margin-bottom: 30px;
 }
 
-.codersrank-card-container {
+.githubactivity-card-container {
   display: flex;
   flex-direction: column;
   padding-top: 20px;
 }
 
 @media (max-width: 1380px) {
-  .codersrank-card-container {
+  .githubactivity-card-container {
     padding-top: 0px;
   }
-  .codersrank-heading {
+  .githubactivity-heading {
     font-size: 40px;
   }
-  .codersrank-text-subtitle {
+  .githubactivity-text-subtitle {
     font-size: 18px;
     text-align: center;
   }
 }
 
 @media (max-width: 768px) {
-  .codersrank-card-container {
-    padding-top: 0px;
-  }
-  .codersrank-heading {
-    font-size: 30px;
-    text-align: center;
-  }
-  .codersrank-text-subtitle {
-    font-size: 16px;
+  .githubactivity-section {
+    display: none;
   }
 }

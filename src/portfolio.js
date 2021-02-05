@@ -238,9 +238,8 @@ const bigProjects = {
   display: true, // Set false to hide this section, defaults to true
 };
 
-const codersRank = {
+const githubActivity = {
   userName: 'YOUR_USERNAME', // Change to your codersRank username to display widgets from codersRank
-  githubActivity: true, // Set true or false to show Github Activity Chart
   display: true, // Set false to hide this section, defaults to true
 };
 
@@ -387,6 +386,7 @@ export {
   techStack,
   workExperiences,
   openSource,
+  githubActivity,
   bigProjects,
   achievementSection,
   blogSection,

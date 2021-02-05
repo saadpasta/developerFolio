@@ -12,7 +12,7 @@ import Footer from "../components/footer/Footer";
 import Talks from "./talks/Talks";
 import Podcast from "./podcast/Podcast";
 import Education from "./education/Education";
-import Codersrank from "./codersrank/Codersrank";
+import GithubActivity from "./GithubActivity/GithubActivity";
 import Top from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
 import { StyleProvider } from "../contexts/StyleContext";
@@ -49,8 +49,8 @@ export default class Main extends Component {
           <Education />
           <WorkExperience />
           <Projects />
+          <GithubActivity />
           <StartupProject />
-          <Codersrank />
           <Achievement />
           <Blogs />
           <Talks />

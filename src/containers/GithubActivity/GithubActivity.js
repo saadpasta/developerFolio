@@ -1,18 +1,17 @@
 import React from 'react';
-import './Codersrank.css';
-import { codersRank } from '../../portfolio';
+import './GithubActivity.css';
+import { githubActivity } from '../../portfolio';
 import CodersRankActivity from '@codersrank/activity';
 
-window.customElements.define('codersrank-activity', CodersRankActivity);
+window.customElements.define('github-activity', CodersRankActivity);
 
-export default function Codersrank() {
-  console.log("Codersrank called...");
-   if(codersRank.display & codersRank.githubActivity){
+export default function GithubActivity() {
+   if(githubActivity.display){
     return (
-      <div className="codersrank-section" id="codersrank">
-          <h1 className="codersrank-heading">Github Activity</h1>
-          <div className="codersrank-card-container">
-            <codersrank-activity username={codersRank.userName} labels legend tooltip branding="false"></codersrank-activity>
+      <div className="githubactivity-section" id="githubActivity">
+          <h1 className="githubactivity-heading">Github Activity</h1>
+          <div className="githubactivity-card-container">
+            <github-activity username={githubActivity.userName} labels legend tooltip branding="false"></github-activity>
           </div>
       </div>
     );
