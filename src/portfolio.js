@@ -239,7 +239,7 @@ const bigProjects = {
 };
 
 const githubActivity = {
-  userName: 'YOUR_USERNAME', // Change to your codersRank username to display widgets from codersRank
+  userName: 'saadpasta', // Change to your codersRank username to display widgets from codersRank
   display: true, // Set false to hide this section, defaults to true
 };
 
