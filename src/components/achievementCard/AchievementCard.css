@@ -21,6 +21,9 @@
   padding: 1.5rem;
   border-radius: 10px;
   border: 1px solid rgba(211, 211, 211, 0.397);
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 .certificate-detail-div {
   text-align: center;
