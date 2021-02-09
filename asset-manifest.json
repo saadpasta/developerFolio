@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.8e681214.chunk.css",
+    "main.css": "/static/css/main.420d4ea0.chunk.css",
     "main.js": "/static/js/main.807228b8.chunk.js",
     "main.js.map": "/static/js/main.807228b8.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.11a0b3a5.js",
-    "runtime-main.js.map": "/static/js/runtime-main.11a0b3a5.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9ae8488f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9ae8488f.js.map",
     "static/js/2.35731d87.chunk.js": "/static/js/2.35731d87.chunk.js",
     "static/js/2.35731d87.chunk.js.map": "/static/js/2.35731d87.chunk.js.map",
     "static/css/3.00373544.chunk.css": "/static/css/3.00373544.chunk.css",
     "static/js/3.e77293e8.chunk.js": "/static/js/3.e77293e8.chunk.js",
     "static/js/3.e77293e8.chunk.js.map": "/static/js/3.e77293e8.chunk.js.map",
-    "static/css/4.19dfc3d0.chunk.css": "/static/css/4.19dfc3d0.chunk.css",
+    "static/css/4.8fc021a0.chunk.css": "/static/css/4.8fc021a0.chunk.css",
     "static/js/4.a39a2c0a.chunk.js": "/static/js/4.a39a2c0a.chunk.js",
     "static/js/4.a39a2c0a.chunk.js.map": "/static/js/4.a39a2c0a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a4fb5e57146cf42f5a97cdb245c879cf.js": "/precache-manifest.a4fb5e57146cf42f5a97cdb245c879cf.js",
+    "precache-manifest.626b177b304cc46f25280550792bfeac.js": "/precache-manifest.626b177b304cc46f25280550792bfeac.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.00373544.chunk.css.map": "/static/css/3.00373544.chunk.css.map",
-    "static/css/4.19dfc3d0.chunk.css.map": "/static/css/4.19dfc3d0.chunk.css.map",
-    "static/css/main.8e681214.chunk.css.map": "/static/css/main.8e681214.chunk.css.map",
+    "static/css/4.8fc021a0.chunk.css.map": "/static/css/4.8fc021a0.chunk.css.map",
+    "static/css/main.420d4ea0.chunk.css.map": "/static/css/main.420d4ea0.chunk.css.map",
     "static/js/2.35731d87.chunk.js.LICENSE.txt": "/static/js/2.35731d87.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/airbnbLogo.png": "/static/media/airbnbLogo.c59720d6.png",
@@ -38,9 +38,9 @@
     "static/media/TalkCard.css": "/static/media/talksCardBack.13780cdd.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.11a0b3a5.js",
+    "static/js/runtime-main.9ae8488f.js",
     "static/js/2.35731d87.chunk.js",
-    "static/css/main.8e681214.chunk.css",
+    "static/css/main.420d4ea0.chunk.css",
     "static/js/main.807228b8.chunk.js"
   ]
 }
