@@ -1,9 +1,9 @@
-import React, { useState, useEffect, useContext, Suspense, lazy } from "react";
+import React, {useState, useEffect, useContext, Suspense, lazy} from "react";
 import ApolloClient from "apollo-boost";
-import { gql } from "apollo-boost";
+import {gql} from "apollo-boost";
 import "./Project.css";
 import Button from "../../components/button/Button";
-import { openSource, socialMediaLinks } from "../../portfolio";
+import {openSource, socialMediaLinks} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 import Loading from "../../containers/loading/Loading";
 export default function Projects() {
@@ -14,7 +14,7 @@ export default function Projects() {
   const renderLoader = () => <Loading />;
   const [repo, setrepo] = useState([]);
   // todo: remove useContex because is not supported
-  const { isDark } = useContext(StyleContext);
+  const {isDark} = useContext(StyleContext);
   useEffect(() => {
     getRepoData();
   }, []);
@@ -22,13 +22,13 @@ export default function Projects() {
   function getRepoData() {
     const client = new ApolloClient({
       uri: "https://api.github.com/graphql",
-      request: (operation) => {
+      request: operation => {
         operation.setContext({
           headers: {
-            authorization: `Bearer ${openSource.githubConvertedToken}`,
-          },
+            authorization: `Bearer ${openSource.githubConvertedToken}`
+          }
         });
-      },
+      }
     });
 
     client
@@ -60,9 +60,9 @@ export default function Projects() {
           }
         }
       }
-        `,
+        `
       })
-      .then((result) => {
+      .then(result => {
         setrepoFunction(result.data.user.pinnedItems.edges);
         console.log(result);
       })
@@ -78,7 +78,10 @@ export default function Projects() {
   function setrepoFunction(array) {
     setrepo(array);
   }
-  if (!(typeof repo === "string" || repo instanceof String) && openSource.display) {
+  if (
+    !(typeof repo === "string" || repo instanceof String) &&
+    openSource.display
+  ) {
     return (
       <Suspense fallback={renderLoader()}>
         <div className="main" id="opensource">

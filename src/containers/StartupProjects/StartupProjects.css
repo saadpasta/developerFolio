@@ -24,14 +24,14 @@
   border: 1px solid rgba(211, 211, 211, 0.397);
   justify-content: center;
 }
-.project-card-light{
+.project-card-light {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
-.project-card-dark{
+.project-card-dark {
   box-shadow: 0px 10px 30px -15px #d9dbdf;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -60,7 +60,7 @@
   gap: 1rem 1rem;
 }
 
-.project-card-footer span.project-tag{
+.project-card-footer span.project-tag {
   background: #55198b;
   color: #f5f2f4;
   vertical-align: middle;
@@ -79,7 +79,6 @@
 }
 
 @media (max-width: 768px) {
-
   .project-subtitle {
     font-size: 16px;
     text-align: center;
