@@ -14,20 +14,20 @@
   margin-top: 20px;
   font-size: 16px;
   cursor: pointer;
-  transition: all .3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
 }
 .main-button:hover {
   background-color: #ffffff;
   color: #55198b;
-  transition: all .3s ease 0s;
+  transition: all 0.3s ease 0s;
   transform: translateY(-3px);
 }
-.project-button{
+.project-button {
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
-.project-button > .main-button{
+.project-button > .main-button {
   margin-right: 0 !important;
 }
 /* Media Query */

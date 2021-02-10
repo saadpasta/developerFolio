@@ -105,13 +105,13 @@
   .greeting-main {
     display: block;
   }
-  .greeting-image-div{
+  .greeting-image-div {
     height: 256px;
   }
 }
 
-@media (max-width: 320px){
-  .main{
+@media (max-width: 320px) {
+  .main {
     width: auto;
   }
-} 
+}
