@@ -1,4 +1,4 @@
-import React, {useState, useEffect, createRef} from "react";
+import React, {useState, createRef} from "react";
 import "./ExperienceCard.css";
 import ColorThief from "colorthief";
 
