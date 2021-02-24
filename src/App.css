@@ -7,7 +7,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #232323;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,5 +22,5 @@
 }
 
 .subTitle {
-  color: #868e96;
+  color: #048c56;
 }

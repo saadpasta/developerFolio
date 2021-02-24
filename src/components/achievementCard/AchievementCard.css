@@ -17,7 +17,7 @@
 }
 .certificate-card {
   background-color: rgb(255, 255, 255);
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -10px;
   padding: 1.5rem;
   border-radius: 10px;
   border: 1px solid rgba(211, 211, 211, 0.397);
@@ -29,10 +29,13 @@
   text-align: center;
 }
 .certificate-card:hover {
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+  background-color: #F5F5F5 !important;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px 0px;
 }
+
 .dark-mode.certificate-card:hover {
-  box-shadow: rgba(255, 255, 255, 0.2) 0px 20px 30px -10px;
+  background-color: #23232300 !important;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 12px 12px -8px;
 }
 .certificate-image-div {
   position: relative;
@@ -52,7 +55,7 @@
   justify-content: center;
 }
 .certificate-card-footer span.certificate-tag {
-  background: #55198b;
+  background: #048c56;
   color: #f5f2f4;
   vertical-align: middle;
   align-items: center;
@@ -69,5 +72,5 @@
   transition: 0.2s ease-in;
 }
 span.certificate-tag:hover {
-  background: #8c43ce;
+  background: #027342;
 }

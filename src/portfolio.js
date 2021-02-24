@@ -9,23 +9,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Ashan Subawickrama",
+  title: "Hi all, I'm Ashan",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "https://drive.google.com/file/d/1uRNtnqPNsXCVGJibKUiTStIfwcEvSyTi/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
+  github: "https://github.com/Ashaxn",
   linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
+  gmail: "ashan.subawickrama12@gmail.com",
+  gitlab: "https://github.com/Ashaxn",
   facebook: "https://www.facebook.com/saad.pasta7",
   medium: "https://medium.com/@saadpasta",
   stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
@@ -198,7 +198,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "Ashaxn", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
@@ -298,6 +298,79 @@ const achievementSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
+
+
+
+//////////////////////////////////////test line/////////////////////////////////////
+
+// Your certifications
+
+const certifications = {
+	certifications: [
+		{
+			title: "Selenium",
+			subtitle: "- Vskills",
+			logo_path: "vskills-logo.png",
+			certificate_link:
+				"https://www.vskills.in/certification/40215-certified-selenium-professional-bharat-babu-kammakatla",
+			alt_name: "Vskills",
+			color_code: "#F6EAEA"
+    },
+    {
+			title: "Cloud Admin & Automation",
+			subtitle: "- Experitest",
+			logo_path: "seetest-logo.png",
+			certificate_link:
+				"https://drive.google.com/file/d/1qhh1ZUBB2VPrOaT6bNgiJ5Y2sHmCjvMg/view?usp=drivesdk",
+			alt_name: "Experitest",
+			color_code: "#F0FFDD"
+		},
+		{
+			title: "Python",
+			subtitle: "- Jose Portilla",
+			logo_path: "pierian-data-logo.png",
+			certificate_link:
+				"https://www.udemy.com/certificate/UC-a80d6e7c-e753-421d-bcee-5a7bc1769f28/",
+			alt_name: "Pierian-Data",
+			color_code: "#FEF6E6"
+    },
+    {
+			title: "Selenium Python",
+			subtitle: "- Rahul Shetty",
+			logo_path: "rahulshettyacademy-logo.png",
+			certificate_link:
+				"https://www.udemy.com/certificate/UC-e4b66abd-18c6-4bfa-9132-ab22d2bf7ef7/",
+			alt_name: "RahulShettyAcademy",
+			color_code: "#FDE9EA"
+    },
+    {
+			title: "Data Science",
+			subtitle: "- IBM",
+			logo_path: "ibm_logo.png",
+			certificate_link:
+				"https://coursera.org/share/893f2210f39f5a60d0463b19b469b808",
+			alt_name: "IBM",
+			color_code: "#E3F1FA"
+    },
+    {
+			title: "ML and DS",
+			subtitle: "- Andrei Neagoie",
+			logo_path: "zero-to-mastery.png",
+			certificate_link:
+				"https://www.udemy.com/certificate/UC-fd118b7d-7436-442c-a7f8-5077c432d596/",
+			alt_name: "Zero To Mastery",
+			color_code: "#FFFDDD"
+    }
+	]
+};
+
+
+
+//////////////////////////////////////test line/////////////////////////////////////
+
+
+
+
 // Blogs Section
 
 const blogSection = {
@@ -335,11 +408,11 @@ const talkSection = {
     {
       title: "Build Actions For Google Assistant",
       subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      slides_url: "#",
+      event_url: "#"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -350,24 +423,24 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "#"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+94 768352236",
+  email_address: "ashan.sql@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
@@ -385,5 +458,6 @@ export {
   talkSection,
   podcastSection,
   contactInfo,
-  twitterDetails
+  twitterDetails,
+  certifications
 };

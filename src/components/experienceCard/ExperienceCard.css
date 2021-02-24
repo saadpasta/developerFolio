@@ -1,21 +1,26 @@
 .experience-card {
   position: relative;
   background-color: rgb(255, 255, 255);
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -10px;
   border-radius: 10px;
   border: 1px solid rgba(211, 211, 211, 0.397);
 }
 
 .experience-card-dark {
   position: relative;
-  background-color: #171c28;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+  background-color: #232323;
+  box-shadow: 1px 0px 20px #141414;
   border-radius: 10px;
   border: 1px solid rgba(211, 211, 211, 0.397);
 }
 
+.experience-card-dark:hover{
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 12px 12px -8px;
+}
+
 .experience-card:hover {
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+  background-color: #F5F5F5 !important;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px 0px;
 }
 
 .experience-banner {

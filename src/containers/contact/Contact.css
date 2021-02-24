@@ -26,8 +26,8 @@
 
 .contact-detail:hover,
 .contact-detail-email:hover {
-  color: black;
-  text-shadow: 2px 1px 2px #b5b5b5;
+  color: #048c56;
+  text-shadow: 0.5px 1px 1px #00CF6D;
   transition: all 0.3s;
 }
 

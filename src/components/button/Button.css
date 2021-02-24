@@ -1,6 +1,6 @@
 .main-button {
-  background-color: #55198b;
-  border: solid 1px #55198b;
+  background-color: #048c56;
+  border: solid 1px #048c56;
   color: white;
   font-weight: 700;
   width: max-content;
@@ -17,8 +17,9 @@
   transition: all 0.3s ease-in-out 0s;
 }
 .main-button:hover {
-  background-color: #ffffff;
-  color: #55198b;
+  background-color: #696969;
+  border: solid 1px #696969;
+  color: #ffffff;
   transition: all 0.3s ease 0s;
   transform: translateY(-3px);
 }

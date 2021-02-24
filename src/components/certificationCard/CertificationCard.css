@@ -1,0 +1,105 @@
+.cert-card {
+    display: inline-block;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid rgba(211, 211, 211, 0.397);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -10px;
+    flex: 0 0 30%;
+}
+
+.cert-header {
+    margin: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.logo_img {
+    margin: 3px;
+    width: auto;
+    height: 100px;
+}
+
+.cert-body {
+    margin: 0px;
+}
+
+.cert-body-title {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.cert-body-subtitle {
+    font-size: 17px;
+    color: #808080;
+    margin: 10px;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.content .content-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay{
+  opacity: 1;
+}
+
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h3{
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.fadeIn-top{
+  top: 20%;
+}
+
+@media screen and (max-width: 480px) and (min-width: 300px) {
+  .cert-body-title {
+    font-size: 18px;
+  }
+}
