@@ -29,7 +29,7 @@ export default function Profile() {
           .catch(function (error) {
             setProfileFunction("Error");
             console.log(
-              "Because of this Error Contact Section is Showed instead of Profile"
+              "Because of this error, contact section has reverted to default"
             );
             console.error(error);
             openSource.showGithubProfile = "false";
