@@ -15,7 +15,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Angular / Nodejs / Ionic and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "https://drive.google.com/file/d/1t0nNXOwKsyofBoAbpsJzDLrX0G1JWLhe/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -24,9 +24,10 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/itsvick",
   linkedin: "https://www.linkedin.com/in/vivek-kasture",
-  gmail: "saadpasta70@gmail.com",
-  medium: "https://medium.com/@saadpasta",
+  // gmail: "saadpasta70@gmail.com",
+  // medium: "https://medium.com/@vivekkasture",
   stackoverflow: "https://stackoverflow.com/users/4725898/vivek-kasture",
+  instagram: "https://www.instagram.com/kasturevivek",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
@@ -41,9 +42,7 @@ const skillsSection = {
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Backend work with Node.js ")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -51,7 +50,7 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "html5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
@@ -67,7 +66,11 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "Angular",
+      fontAwesomeClassname: "fab fa-angular"
+    },
+    {
+      skillName: "Reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
     {
@@ -75,15 +78,11 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "pouchDB",
       fontAwesomeClassname: "fas fa-database"
     },
     {
@@ -95,8 +94,20 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-fire"
     },
     {
+      skillName: "electron",
+      fontAwesomeClassname: "fas fa-atom"
+    },
+    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git-square"
+    },
+    {
+      skillName: "jira",
+      fontAwesomeClassname: "fab fa-jira"
     },
     {
       skillName: "docker",
@@ -112,24 +123,15 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Chhatrapati Shivaji Maharaj University",
+      logo: require("./assets/images/suk-logo.png"),
+      subHeader: "Bachelor of Engg. in Computer Science",
+      duration: "July 2011 - May 2015"
+      // desc: "Participated in the research of XXX and published 3 papers.",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     }
   ]
 };
@@ -149,7 +151,7 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -161,32 +163,12 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      role: "Sr.Software Engineer",
+      company: "Tekdi Technologies Pvt Ltd",
+      companylogo: require("./assets/images/tekdi.png"),
+      date: "Jan 2016 – present",
       desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "Worked on various exciting projects with this organization while performing various roles"
     }
   ]
 };
@@ -204,29 +186,101 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  // subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/diksha-logo.svg"),
+      projectName: "DIKSHA",
+      projectDesc:
+        "The DIKSHA platform offers teachers, students and parents engaging learning material relevant to the prescribed school curriculum. Teachers have access to aids like lesson plans, worksheets and activities, to create enjoyable classroom experiences. Students understand concepts, revise lessons and do practice exercises",
+      technologies: [
+        "Angular",
+        "Node",
+        "Electron",
+        "Ionic",
+        "Jasmine",
+        "Jest",
+        "PouchDB",
+        "sqLite"
+      ],
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visit Portal",
+          url: "https://diksha.gov.in/explore"
+        },
+        {
+          name: "Visit Android Mobile App",
+          url: "https://play.google.com/store/apps/details?id=in.gov.diksha.app"
+        },
+        {
+          name: "Visit Desktop Application",
+          url: "https://diksha.gov.in/download/desktopapp"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/easysocial.png"),
+      projectName: "EasySocial",
+      projectDesc:
+        "Easysocial is a social media mobile application built using Ionic, Angular, where user can post, comment, create page, group, events, polls and much more",
+      technologies: ["Ionic", "Angular"],
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Visit Playstore",
+          url:
+            "https://play.google.com/store/apps/details?id=com.techjoomla.easysocial"
+        },
+        {
+          name: "Visit AppStore",
+          url:
+            "https://itunes.apple.com/in/app/easysocial-for-joomla/id922884839?mt=8"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/blogApp-logo.webp"),
+      projectName: "JTicketing",
+      projectDesc:
+        "It is a Joomla based mobile App for the Event organizer to manage seats and tickets. Admin can scan the ticket and check status or get report via graphical representation",
+      technologies: ["Ionic", "Angular", "D3.js"],
+      footerLink: [
+        {
+          name: "Visit Playstore",
+          url:
+            "https://play.google.com/store/apps/details?id=com.techjoomla.JTicketingPro"
+        },
+        {
+          name: "Visit AppStore",
+          url: "https://itunes.apple.com/in/app/jticketing-pro/id875256578?mt=8"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/joomla.png"),
+      projectName: "Joomla Article App",
+      projectDesc:
+        "A Joomla based application where users can create their articles and choose when to publish or unpublish. It is a Joomla based application where users can create their articles and choose when to publish or unpublish.",
+      technologies: ["Ionic", "Angular"],
+      footerLink: []
+    },
+    {
+      image: require("./assets/images/bni-logo.webp"),
+      projectName: "BNI Biz. Directory",
+      projectDesc:
+        "A Joomla based mobile application where users can use Google Doc spreadsheets to display the user’s contact details in the mobile, To fetch data easily and quickly, QR Scanner has been provided",
+      technologies: ["Ionic", "Angular"],
+      footerLink: [
+        {
+          name: "Visit Playstore",
+          url:
+            "https://play.google.com/store/apps/details?id=com.appcarvers.bni"
+        },
+        {
+          name: "Visit AppStore",
+          url:
+            "https://itunes.apple.com/in/app/bni-biz-directory/id1107981649?mt=8"
         }
       ]
     }
@@ -293,7 +347,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -318,7 +372,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -337,7 +391,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -350,22 +404,22 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91-8698645680",
+  email_address: "vivekkasture555@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
