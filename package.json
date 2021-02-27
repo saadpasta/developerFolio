@@ -4,11 +4,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@apollo/react-hooks": "^3.1.4",
-    "apollo-boost": "^0.4.4",
     "colorthief": "^2.3.0",
     "gh-pages": "^2.1.1",
-    "graphql": "^14.5.8",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-easy-emoji": "^1.3.0",
@@ -20,8 +17,8 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "node fetch.js && react-scripts start",
+    "build": "node fetch.js && react-scripts build",
     "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
