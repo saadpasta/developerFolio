@@ -1,6 +1,7 @@
 name: Build and Deploy
 env:
   CI: false
+  GITHUB_USERNAME: ${{ github.repository_owner }}
   REACT_APP_GITHUB_TOKEN: ${{ secrets.OPEN_SOURCE_TOKEN }} # Use the generated personal access token and add it to repository secrets with the name OPEN_SOURCE_TOKEN
 on:
   push:
