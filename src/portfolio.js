@@ -12,7 +12,7 @@ const greeting = {
   username: "Sebastian Auner",
   title: "Hi all, I'm Sebastian",
   subTitle: emoji(
-    "A passionate Developer who enjoys experimenting with different technologies 🚀 I have experience in building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and also play around with Virtual Reality using the Unity Engine."
+    "A passionate Developer who enjoys experimenting with different technologies 🚀 I have experience in building Web and Mobile applications with JavaScript / Reactjs / Nodejs and also play around with Virtual Reality using the Unity Engine."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
@@ -162,10 +162,10 @@ const workExperiences = {
       date: "Mai 2019 – Present",
       // desc:
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      // descBullets: [
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      // ]
+      descBullets: [
+        "Frontend Web Development",
+        "UX Design"
+      ]
     },
     {
       role: "Scientific Researcher",
@@ -174,6 +174,10 @@ const workExperiences = {
       date: "November 2016 – December 2018",
       // desc:
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      descBullets: [
+        "Experimenting with Virtual Reality",
+        "Presenting on conventions"
+      ]
     },
     {
       role: "Android Developer",
@@ -182,6 +186,10 @@ const workExperiences = {
       date: "October 2014 –  February 2015",
       // desc:
         // "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      descBullets: [
+        "Internship",
+        "Developing native Android apps"
+      ]
     }
   ]
 };
@@ -198,33 +206,33 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Some startups and companies that I helped to create their tech",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/logo_fkk_covid_300x300.png"),
+      projectName: "Support Your Local Heroes",
+      projectDesc: "Non profit t-shirt online shop during COVID. All profits went directly to local retailers in Mönchengladbach.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://www.supportlocalheroes.de/"
         }
         //  you can add extra buttons here.
       ]
     },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
+    // {
+    //   image: require("./assets/images/nextuLogo.webp"),
+    //   projectName: "Nextu",
+    //   projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "http://nextu.se/"
+    //     }
+    //   ]
+    // }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -347,10 +355,10 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Reach out to me! 📨"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+49 170 994 0 985",
+  // number: "+49 170 994 0 985",
   email_address: "sebastian.auner@mailbox.org"
 };
 
