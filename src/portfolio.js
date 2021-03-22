@@ -12,7 +12,7 @@ const greeting = {
   username: "Sebastian Auner",
   title: "Hi all, I'm Sebastian",
   subTitle: emoji(
-    "A passionate Developer who enjoys experimenting with different technologies 🚀 I have experience in building Web and Mobile applications with JavaScript / Reactjs / Nodejs and also play around with Virtual Reality using the Unity Engine."
+    "A passionate developer who enjoys experimenting with different technologies 🚀 I have experience in building Web and Mobile applications with JavaScript / Reactjs / Nodejs and also enjoy playing around with Virtual Reality using the Unity Engine."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
@@ -198,7 +198,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: false // Set false to hide this section, defaults to true
 };
 
