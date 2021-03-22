@@ -32,6 +32,18 @@ export default function socialMedia() {
         </a>
       ) : null}
 
+      {socialMediaLinks.xing ? (
+        <a
+          href={socialMediaLinks.xing}
+          className="icon-button xing"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-xing"></i>
+          <span></span>
+        </a>
+      ) : null}
+
       {socialMediaLinks.gmail ? (
         <a
           href={`mailto:${socialMediaLinks.gmail}`}
@@ -39,7 +51,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-google"></i>
+          <i className="fa fa-envelope"></i>
           <span></span>
         </a>
       ) : null}

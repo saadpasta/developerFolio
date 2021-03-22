@@ -62,6 +62,10 @@
   background-color: #c13584;
 }
 
+.xing i {
+  background-color: rgb(0, 101, 103);
+}
+
 /* Hover Transition */
 .twitter i:hover,
 .google i:hover,
@@ -71,6 +75,7 @@
 .facebook i:hover,
 .instagram i:hover,
 .stack-overflow i:hover,
+.xing i:hover,
 .medium i:hover {
   background-color: black;
 }
