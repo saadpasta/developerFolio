@@ -86,7 +86,7 @@ $ npm start
 
 ## Linking Portfolio to Github
 
-Generate a Github personal access token following these [instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) (make sure you don't select any scope just generate a simple token). If you are using [Github Actions](#Configuring GitHub Actions) to deploy your portfolio you can skip this section.
+Generate a Github personal access token following these [instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) (make sure you don't select any scope just generate a simple token). If you are using [Github Actions](#configuring-github-actions-recommended) to deploy your portfolio you can skip this section.
 
 1. Create a file called .env in the root directory of your project, check the base file
 
