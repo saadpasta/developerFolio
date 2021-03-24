@@ -1,6 +1,22 @@
-import React from "react";
+import React, {useState, createRef} from "react";
+import ColorThief from "colorthief";
 
 export default function AchivementCard({cardInfo}) {
+  const [colorArrays, setColorArrays] = useState([]);
+  const imgRef = createRef();
+
+  function getColorArrays() {
+    const colorThief = new ColorThief();
+    setColorArrays(colorThief.getColor(imgRef.current));
+    console.log(colorArrays)
+  }
+
+  function rgb(values) {
+    return typeof values === "undefined"
+      ? null
+      : "rgb(" + values.join(", ") + ")";
+  }
+
   function openUrlInNewTab(url) {
     var win = window.open(url, "_blank");
     win.focus();
@@ -8,8 +24,14 @@ export default function AchivementCard({cardInfo}) {
 
   return (
     <div className="certificate-card">
-      <div className="certificate-image-div">
-        <img src={cardInfo.image} alt="PWA" className="card-image"></img>
+      <div style={{background: rgb(colorArrays), color:'magenta'}} className="certificate-image-div">
+        <img
+          src={cardInfo.image}
+          alt="PWA"
+          className="card-image"
+          ref={imgRef}
+          onLoad={() => getColorArrays()}
+        />
       </div>
       <div className="certificate-detail-div">
         <h5 className="card-title">{cardInfo.title}</h5>
