@@ -188,7 +188,7 @@ We highly recommend to read through the [Deploying on Github Pages](https://crea
 #### Configuring GitHub Actions (Recommended)
 First you should enable, Github Actions for the repository you use.
 
-Their is a [CRON setup](https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events) up so that it deploys your site every week, so that once you update your profile on Github it is shown on your portfolio. You can also trigger it manually using `workflow_dispatch` event, see https://github.blog/changelog/2020-07-06-github-actions-manual-triggers-with-workflow_dispatch on how to do that.
+A configurable [CRON Job](https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events) is setup which deploys your site every week, so that once you update your profile on Github it is shown on your portfolio. You can also trigger it manually using `workflow_dispatch` event, see [this guide](https://github.blog/changelog/2020-07-06-github-actions-manual-triggers-with-workflow_dispatch) on how to do that.
 
 - When you are done with the configuration, we highly recommend to read through the [Github Actions Configuring a workflow](https://docs.github.com/en/actions/configuring-and-managing-workflows/configuring-a-workflow) docs.
 
