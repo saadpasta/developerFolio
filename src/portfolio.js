@@ -38,7 +38,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Never stop learning new technologies.",
+  // subTitle: "Never stop learning new technologies.",
   skills: [
     emoji(
       "⚡ Developing frontend web components with ReactJS and Riot.js"
@@ -198,7 +198,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: false // Set false to hide this section, defaults to true
 };
 
@@ -206,7 +206,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "Some startups and companies that I helped to create their tech",
+  subtitle: "",
   projects: [
     {
       image: require("./assets/images/logo_fkk_covid_300x300.png"),
@@ -239,62 +239,39 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements And Certifications"),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Award Winner \"Rheinland Genial\"",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Our project \"Support Your Local Heroes\" has won the award \"Rheinland Genial\" for the innovative idea during the COVID pandemic.",
+      image: require("./assets/images/rheinlandGenial.jpg"),
       footerLink: [
         {
-          name: "Certification",
+          name: "Press Release",
           url:
-            "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url:
-            "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url:
-            "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+            "https://metropolregion-rheinland.de/preistraeger-rheinland-genial/wissenscampus-moenchengladbach-ev-initiative-support-your-local-heroes-rechenzentrum-hartmann-gmbh-und-co-kg/"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Cambridge Certificate FCE B2",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "International certification form the Cambridge Institut",
+      image: require("./assets/images/cambridge.png"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
+          name: "Certificate",
           url:
-            "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+            ""
         }
       ]
     },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
