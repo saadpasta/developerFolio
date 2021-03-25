@@ -10,9 +10,10 @@ const illustration = {
 
 const greeting = {
   username: "Sebastian Auner",
-  title: "Hi all, I'm Sebastian",
+  title: "Hi, I'm Sebastian",
   subTitle: emoji(
-    "I'm a passionate developer who enjoys experimenting with different technologies. I have experience in building Web and Mobile applications with JavaScript / Reactjs / Nodejs and also enjoy playing around with Virtual Reality using the Unity Engine."
+    // "I'm a passionate developer who enjoys experimenting with different technologies. I have experience in building Web and Mobile applications with JavaScript / Reactjs / Nodejs and also enjoy playing around with Virtual Reality using the Unity Engine."
+    "I'm a passionate developer who is always up for a new challenge and enjoys learning different and new technologies. I have experience in building Web and Mobile applications with JavaScript / Reactjs / Nodejs, and some other awesome libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
@@ -40,13 +41,9 @@ const skillsSection = {
   title: "What I do",
   // subTitle: "Never stop learning new technologies.",
   skills: [
-    emoji(
-      "⚡ Developing frontend web components with ReactJS and Riot.js"
-    ),
-    emoji("⚡ Experimenting with self hosting and learning DevOps techniques"),
-    emoji(
-      "⚡ Playing around with Virtual Reality, Data Visualisation and Game Development in Unity"
-    )
+    emoji( "⚡ Developing web components with ReactJS and Riot.js"),
+    emoji("⚡ Investigating Data Visualisation and Game Development in Virtual Reality using Unity"),
+    emoji("⚡ Experimenting with self hosting and studying DevOps techniques"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -109,22 +106,24 @@ const educationInfo = {
     {
       schoolName: "Hochschule Düsseldorf",
       logo: require("./assets/images/hsd.jpg"),
-      subHeader: "Master of Science in Computer Science",
+      subHeader: "Master of Science in Media Informatics",
       duration: "September 2016 - April 2019",
-      // desc: "Participated in the research of XXX and published 3 papers.",
-      // descBullets: [
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      // ]
+      desc: "Final score: 1.2",
+      descBullets: [
+        "focussed on scientific work and virtual reality",
+        "masters thesis about graph visualisation"
+      ]
     },
     {
       schoolName: "Hochschule Düsseldorf",
       logo: require("./assets/images/hsd.jpg"),
-      subHeader: "Bachelor of Science in Computer Science",
+      subHeader: "Bachelor of Science in Media Informatics",
       duration: "September 2012 - August 2016",
-      // desc:
-        // "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Final score: 1.3",
+      descBullets: [
+        "focussed on web and mobile development",
+        "bachelors thesis about eyetracking"
+      ]
     }
   ]
 };
@@ -205,7 +204,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Projects",
   subtitle: "",
   projects: [
     {
@@ -345,9 +344,9 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Reach out to me! 📨"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+  title: emoji("Reach out to me 📨"),
+  // subtitle:
+    // "Discuss a project or just want to say hi? My Inbox is open for all.",
   // number: "+49 170 994 0 985",
   email_address: "sebastian.auner@mailbox.org"
 };
