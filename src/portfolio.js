@@ -274,7 +274,7 @@ const achievementSection = {
       title: "CCNA Exploration: Network Fundamentals",
       subtitle:
         "Certificate for fundamental networking concepts and technologies from Cisco Systems",
-      image: require("./assets/images/ccna.gif"),
+      image: require("./assets/images/ccna.png"),
       footerLink: [
         {
           name: "Certificate",

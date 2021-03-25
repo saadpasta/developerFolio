@@ -1,7 +1,10 @@
 .card-image {
-  max-width: 100%;
+  /* max-width: 100%;
   height: auto;
-  width: 250px;
+  width: 250px; */
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 .card-title {
   color: #000000;
