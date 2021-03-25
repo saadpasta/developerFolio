@@ -260,7 +260,7 @@ const achievementSection = {
     {
       title: "Cambridge Certificate FCE B2",
       subtitle:
-        "International certification form the Cambridge Institut",
+        "International certification from the Cambridge Institute",
       image: require("./assets/images/cambridge.png"),
       footerLink: [
         {
