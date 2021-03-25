@@ -5,6 +5,8 @@
   height: 100%;
   width: 100%;
   object-fit: contain;
+  max-width: 250px;
+  max-height: 250px;
 }
 .card-title {
   color: #000000;
