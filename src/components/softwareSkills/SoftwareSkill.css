@@ -28,7 +28,7 @@
   color: #868e96;
   font-size: 12px;
   font-weight: 700;
-  }
+}
 .software-skill-inline > i:hover ~ p {
   color: #645beb;
 }

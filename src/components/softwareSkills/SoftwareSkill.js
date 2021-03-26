@@ -4,7 +4,7 @@ import {skillsSection} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function SoftwareSkill() {
-  const { isDark } = useContext(StyleContext);
+  const {isDark} = useContext(StyleContext);
   return (
     <div>
       <div className="software-skills-main-div">
@@ -13,7 +13,11 @@ export default function SoftwareSkill() {
             return (
               <li
                 key={i}
-                className={isDark ? "software-skill-inline dark-mode-skill" : "software-skill-inline"}
+                className={
+                  isDark
+                    ? "software-skill-inline dark-mode-skill"
+                    : "software-skill-inline"
+                }
                 name={skills.skillName}
               >
                 <i className={skills.fontAwesomeClassname}></i>

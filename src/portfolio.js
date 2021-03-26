@@ -41,9 +41,11 @@ const skillsSection = {
   title: "What I do",
   // subTitle: "Never stop learning new technologies.",
   skills: [
-    emoji( "⚡ Developing web components with ReactJS and Riot.js"),
-    emoji("⚡ Investigating Data Visualisation and Game Development in Virtual Reality using Unity"),
-    emoji("⚡ Experimenting with self hosting and studying DevOps techniques"),
+    emoji("⚡ Developing web components with ReactJS and Riot.js"),
+    emoji(
+      "⚡ Investigating Data Visualisation and Game Development in Virtual Reality using Unity"
+    ),
+    emoji("⚡ Experimenting with self hosting and studying DevOps techniques")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -93,7 +95,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "git",
       fontAwesomeClassname: "fab fa-git-alt"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -161,10 +163,7 @@ const workExperiences = {
       date: "Mai 2019 – Present",
       // desc:
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Frontend Web Development",
-        "UX Design"
-      ]
+      descBullets: ["Frontend Web Development", "UX Design"]
     },
     {
       role: "Scientific Researcher",
@@ -184,11 +183,8 @@ const workExperiences = {
       companylogo: require("./assets/images/nanogiants.png"),
       date: "October 2014 –  February 2015",
       // desc:
-        // "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      descBullets: [
-        "Internship",
-        "Developing native Android apps"
-      ]
+      // "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      descBullets: ["Internship", "Developing native Android apps"]
     }
   ]
 };
@@ -210,7 +206,8 @@ const bigProjects = {
     {
       image: require("./assets/images/logo_fkk_covid_300x300.png"),
       projectName: "Support Your Local Heroes",
-      projectDesc: "Non profit t-shirt online shop during COVID. All profits went directly to local retailers in Mönchengladbach.",
+      projectDesc:
+        "Non profit t-shirt online shop during COVID. All profits went directly to local retailers in Mönchengladbach.",
       footerLink: [
         {
           name: "Visit Website",
@@ -218,7 +215,7 @@ const bigProjects = {
         }
         //  you can add extra buttons here.
       ]
-    },
+    }
     // {
     //   image: require("./assets/images/nextuLogo.webp"),
     //   projectName: "Nextu",
@@ -239,14 +236,13 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements And Certifications"),
-  subtitle:
-    "",
+  subtitle: "",
 
   achievementsCards: [
     {
-      title: "Award Winner \"Rheinland Genial\"",
+      title: 'Award Winner "Rheinland Genial"',
       subtitle:
-        "Our project \"Support Your Local Heroes\" has won the award \"Rheinland Genial\" for the innovative idea during the COVID pandemic.",
+        'Our project "Support Your Local Heroes" has won the award "Rheinland Genial" for the innovative idea during the COVID pandemic.',
       image: require("./assets/images/rheinlandGenial.jpg"),
       footerLink: [
         {
@@ -258,14 +254,12 @@ const achievementSection = {
     },
     {
       title: "Cambridge Certificate FCE B2",
-      subtitle:
-        "International certification from the Cambridge Institute",
+      subtitle: "International certification from the Cambridge Institute",
       image: require("./assets/images/cambridge.png"),
       footerLink: [
         {
           name: "Certificate",
-          url:
-            ""
+          url: ""
         }
       ]
     },
@@ -277,11 +271,10 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certificate",
-          url:
-            ""
+          url: ""
         }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -346,7 +339,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Reach out to me 📨"),
   // subtitle:
-    // "Discuss a project or just want to say hi? My Inbox is open for all.",
+  // "Discuss a project or just want to say hi? My Inbox is open for all.",
   // number: "+49 170 994 0 985",
   email_address: "sebastian.auner@mailbox.org"
 };

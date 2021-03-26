@@ -10,7 +10,10 @@ export default function EducationCard({school}) {
   const GetDescBullets = ({descBullets}) => {
     return descBullets
       ? descBullets.map((item, i) => (
-          <li key={i} className={isDark? "subTitle dark-mode-text" : "subTitle"}>
+          <li
+            key={i}
+            className={isDark ? "subTitle dark-mode-text" : "subTitle"}
+          >
             {item}
           </li>
         ))

@@ -51,7 +51,9 @@ export default function Greeting() {
           </div>
           <div className="greeting-image-div">
             {illustration.animated ? (
-              <DisplayLottie animationData={isDark ? landingPersonDark : landingPerson} />
+              <DisplayLottie
+                animationData={isDark ? landingPersonDark : landingPerson}
+              />
             ) : (
               <img
                 alt="man sitting on table"
