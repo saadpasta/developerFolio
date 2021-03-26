@@ -86,7 +86,7 @@ $ npm start
 
 ## Linking Portfolio to Github
 
-Generate a Github personal access token following these [instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) (make sure you don't select any scope just generate a simple token).
+Generate a Github personal access token following these [instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) (make sure you don't select any scope just generate a simple token). If you are using [Github Actions](#configuring-github-actions-recommended) to deploy your portfolio you can skip this section.
 
 1. Create a file called .env in the root directory of your project, check the base file
 
@@ -104,11 +104,12 @@ Note: Instead of creating a .env file, you can just run this command "cp env.exa
   - package.json
 ```
 
-2. Inside the .env file, add key `REACT_APP_GITHUB_TOKEN` and assign your github token like this.
+2. Inside the .env file, add key `REACT_APP_GITHUB_TOKEN` and assign your github token like this, also add your username as `GITHUB_USERNAME`
 
-```javascript
- // .env
-  REACT_APP_GITHUB_TOKEN = "YOUR GITHUB TOKEN HERE"
+```env
+// .env
+REACT_APP_GITHUB_TOKEN = "YOUR GITHUB TOKEN HERE"
+GITHUB_USERNAME = "YOUR GITHUB USERNAME"
 ```
 
 Set `showGithubProfile` to true or false to show Contact Profile using Github, defaults to false.
@@ -184,8 +185,11 @@ Note: Don't use `@` symbol when adding username.
 When you are done with the setup, you should host your website online.
 We highly recommend to read through the [Deploying on Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) docs for React.
 
-#### Configuring GitHub Actions
-- Using the Personal Access Token you placed in the `.env` file earlier create a [repository secret](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets#creating-encrypted-secrets-for-a-repository) called `OPEN_SOURCE_TOKEN` where the value matches the token value from the `.env` file in your local workspace.
+#### Configuring GitHub Actions (Recommended)
+First you should enable, Github Actions for the repository you use.
+
+The Profile and the Repository information from Github is only created at the time of deploy and the site needs to be redeployed if those information needs to be updated. So, a configurable [CRON Job](https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events) is setup which deploys your site every week, so that once you update your profile on Github it is shown on your portfolio. You can also trigger it manually using `workflow_dispatch` event, see [this guide](https://github.blog/changelog/2020-07-06-github-actions-manual-triggers-with-workflow_dispatch) on how to do that.
+
 - When you are done with the configuration, we highly recommend to read through the [Github Actions Configuring a workflow](https://docs.github.com/en/actions/configuring-and-managing-workflows/configuring-a-workflow) docs.
 
 #### Deploying to Github Pages
