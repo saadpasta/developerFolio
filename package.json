@@ -12,6 +12,7 @@
     "react-headroom": "^3.0.0",
     "react-lottie": "^1.2.3",
     "react-reveal": "^1.2.2",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.3",
     "react-twitter-embed": "3.0.3"
   },
