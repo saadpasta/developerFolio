@@ -2,130 +2,50 @@ import React from "react";
 import "./LegalNotice.css";
 
 export default function legalNotice() {
-  if (!socialMediaLinks.display) {
-    return null;
-  }
   return (
-    <div className="social-media-div">
-      {socialMediaLinks.github ? (
-        <a
-          href={socialMediaLinks.github}
-          className="icon-button github"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-github"></i>
-          <span></span>
-        </a>
-      ) : null}
+    <>
+      <h1>Legal Disclosure</h1>
 
-      {socialMediaLinks.linkedin ? (
-        <a
-          href={socialMediaLinks.linkedin}
-          className="icon-button linkedin"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-linkedin-in"></i>
-          <span></span>
-        </a>
-      ) : null}
+      Information in accordance with Section 5 TMG<br />
+      Sebastian Auner<br />
+      Naphausen 22<br />
+      41366 Schwalmtal<br />
 
-      {socialMediaLinks.xing ? (
-        <a
-          href={socialMediaLinks.xing}
-          className="icon-button xing"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-xing"></i>
-          <span></span>
-        </a>
-      ) : null}
+      <h2>Contact Information</h2>
 
-      {socialMediaLinks.gmail ? (
-        <a
-          href={`mailto:${socialMediaLinks.gmail}`}
-          className="icon-button google"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fa fa-envelope"></i>
-          <span></span>
-        </a>
-      ) : null}
+      Telephone: 02163 978 9368<br />
+      E-Mail: <a href="mailto:sebastian@auner.me">sebastian@auner.me</a><br />
+      Internet address: <a href="sebastian.auner.me" target="_blank">sebastian.auner.me</a><br /><br />
 
-      {socialMediaLinks.gitlab ? (
-        <a
-          href={socialMediaLinks.gitlab}
-          className="icon-button gitlab"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-gitlab"></i>
-          <span></span>
-        </a>
-      ) : null}
 
-      {socialMediaLinks.facebook ? (
-        <a
-          href={socialMediaLinks.facebook}
-          className="icon-button facebook"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-facebook-f"></i>
-          <span></span>
-        </a>
-      ) : null}
+      <h2>Disclaimer</h2>
 
-      {socialMediaLinks.instagram ? (
-        <a
-          href={socialMediaLinks.instagram}
-          className="icon-button instagram"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-instagram"></i>
-          <span></span>
-        </a>
-      ) : null}
+      Accountability for content<br />
+      The contents of our pages have been created with the utmost care. However, we cannot guarantee the contents'
+      accuracy, completeness or topicality. According to statutory provisions, we are furthermore responsible for
+      our own content on these web pages. In this matter, please note that we are not obliged to monitor
+      the transmitted or saved information of third parties, or investigate circumstances pointing to illegal activity.
+      Our obligations to remove or block the use of information under generally applicable laws remain unaffected by this as
+      per
+      §§ 8 to 10 of the Telemedia Act (TMG).
 
-      {socialMediaLinks.twitter ? (
-        <a
-          href={socialMediaLinks.twitter}
-          className="icon-button twitter"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-twitter"></i>
-          <span></span>
-        </a>
-      ) : null}
+      <br /><br />Accountability for links<br />
 
-      {socialMediaLinks.medium ? (
-        <a
-          href={socialMediaLinks.medium}
-          className="icon-button medium"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-medium"></i>
-          <span></span>
-        </a>
-      ) : null}
+      Responsibility for the content of
+      external links (to web pages of third parties) lies solely with the operators of the linked pages. No violations were
+      evident to us at the time of linking. Should any legal infringement become known to us, we will remove the respective
+      link immediately.<br /><br />
 
-      {socialMediaLinks.stackoverflow ? (
-        <a
-          href={socialMediaLinks.stackoverflow}
-          className="icon-button stack-overflow"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-stack-overflow"></i>
-          <span></span>
-        </a>
-      ) : null}
-    </div>
+      Copyright<br />
+      Our web pages and their contents are subject to German copyright law. Unless
+      expressly permitted by law, every form of utilizing, reproducing or processing
+      works subject to copyright protection on our web pages requires the prior consent of the respective owner of the rights.
+      Individual reproductions of a work are only allowed for private use.
+      The materials from these pages are copyrighted and any unauthorized use may violate copyright laws.
+
+      <br /><br />
+      <i>Thanks to: </i><a href="http://www.translate-24h.de" target="_blank">translate-24h.de English Translations</a>
+      <br /><br /><br />  
+    </> 
   );
 }

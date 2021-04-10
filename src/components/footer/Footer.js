@@ -13,7 +13,7 @@ export default function Footer() {
           {emoji("Made with ❤️ by Saad Pasta")}
         </p> */}
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          <a href="/legalNotice">
+          <a href="/legalNotice.html">
             Legal Notice
           </a>
         </p>
