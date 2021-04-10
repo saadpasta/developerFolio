@@ -6,6 +6,7 @@ export default function LegalNoticeText() {
       <h1>Legal Disclosure</h1>
       Information in accordance with Section 5 TMG
       <br />
+      <br />
       Sebastian Auner
       <br />
       Naphausen 22
