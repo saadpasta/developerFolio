@@ -3,7 +3,7 @@
 }
 
 .dark-mode a {
-  color: white;
+  color: white !important;
 }
 
 .contact-div-main > * {
