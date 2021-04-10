@@ -24,7 +24,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/Ctrl-A-Del",
-  linkedin: "https://www.linkedin.com/in/sebastian-ott-a625a8160/",
+  linkedin: "https://www.linkedin.com/in/sebastian-auner-a625a8160/",
   xing: "https://www.xing.com/profile/Sebastian_Auner3",
   gmail: "sebastian@auner.me",
   gitlab: "https://gitlab.com/Ctrl-A-Del",
