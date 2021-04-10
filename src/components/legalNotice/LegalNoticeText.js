@@ -2,7 +2,7 @@ import React from "react";
 
 export default function LegalNoticeText() {
   return (
-    <>
+    <div className="wrapper">
       <h1>Legal Disclosure</h1>
       Information in accordance with Section 5 TMG
       <br />
@@ -54,6 +54,6 @@ export default function LegalNoticeText() {
       reproductions of a work are only allowed for private use. The materials
       from these pages are copyrighted and any unauthorized use may violate
       copyright laws.
-    </>
+    </div>
   );
 }
