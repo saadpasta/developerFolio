@@ -53,15 +53,15 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "HTML5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
+      skillName: "Sass",
       fontAwesomeClassname: "fab fa-sass"
     },
     {
@@ -69,11 +69,11 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "ReactJS",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
+      skillName: "Node.js",
       fontAwesomeClassname: "fab fa-node"
     },
     {
@@ -85,7 +85,7 @@ https://fontawesome.com/icons?d=gallery */
     //   fontAwesomeClassname: "fas fa-database"
     // },
     {
-      skillName: "docker",
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
     },
     {
@@ -93,7 +93,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-unity"
     },
     {
-      skillName: "git",
+      skillName: "Git",
       fontAwesomeClassname: "fab fa-git-alt"
     }
   ],
