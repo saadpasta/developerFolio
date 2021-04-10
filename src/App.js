@@ -1,13 +1,12 @@
+import "./App.css";
+import LegalNotice from "./components/legalNotice/LegalNotice";
+import Main from "./containers/Main";
 import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
-import "./App.css";
-import Main from "./containers/Main";
-import LegalNotice from "./components/legalNotice/LegalNotice";
 
 function Portfolio() {
   return (
@@ -19,12 +18,11 @@ function Portfolio() {
 
 function App() {
   return (
-  <Router>
-    {/* <{RouteToComponents} /> */}
-    <Switch>
-      <Route exact path="/" component={Portfolio} />
-      <Route path="/legalNotice.html" component={LegalNotice} />
-    </Switch>
+    <Router>
+      <Switch>
+        <Route exact path="/" component={Portfolio} />
+        <Route path="/legalNotice.html" component={LegalNotice} />
+      </Switch>
     </Router>
   );
 }
