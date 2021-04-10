@@ -26,7 +26,7 @@ const socialMediaLinks = {
   github: "https://github.com/Ctrl-A-Del",
   linkedin: "https://www.linkedin.com/in/sebastian-ott-a625a8160/",
   xing: "https://www.xing.com/profile/Sebastian_Auner3",
-  gmail: "sebastian.auner@mailbox.org",
+  gmail: "sebastian@auner.me",
   gitlab: "https://gitlab.com/Ctrl-A-Del",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",
@@ -341,7 +341,7 @@ const contactInfo = {
   // subtitle:
   // "Discuss a project or just want to say hi? My Inbox is open for all.",
   // number: "+49 170 994 0 985",
-  email_address: "sebastian.auner@mailbox.org"
+  email_address: "sebastian@auner.me"
 };
 
 // Twitter Section
