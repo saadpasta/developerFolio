@@ -54,15 +54,6 @@ export default function LegalNoticeText() {
       reproductions of a work are only allowed for private use. The materials
       from these pages are copyrighted and any unauthorized use may violate
       copyright laws.
-      <br />
-      <br />
-      <i>Thanks to: </i>
-      <a href="http://www.translate-24h.de" target="_blank">
-        translate-24h.de English Translations
-      </a>
-      <br />
-      <br />
-      <br />
     </>
   );
 }
