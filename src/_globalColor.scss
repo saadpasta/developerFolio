@@ -1,0 +1,57 @@
+
+
+
+// light theme colors
+$achievementCardTitleColor: #000000;
+$achievementCardSubtitleColor: #666666;
+$achievementCertificateCardBG: rgb(255, 255, 255);
+$achievementCertificateCardBS: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+$achievementCertificateCardBorder: 1px solid rgba(211, 211, 211, 0.397);
+$achievementCertificateCardHover: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+$achievementCertificateCardTagBG: #55198b;
+$achievementCertificateCardTagColor: #f5f2f4;
+$achievementCertificateCardTagBGHover: #8c43ce;
+$blogCardContainerColor: #586069;
+$blogCardContainerBG: #fff;
+$blogCardContainerBS:  0 0 36px rgba(0, 0, 0, 0.1);
+$blogCardTitleColor: #262626;
+$blogCardSmallColor: #666666;
+$blogCardGoCornerBG:  #55198b;
+$blogCardGoArrowColor: white;
+$blogCardBeforeBG: #55198b;
+$blogCardHoverSmallColor: rgba(255, 255, 255, 0.8);
+$blogCardHoverH3: #ffffff;
+$blogCardBSMobile: 1px 0px 20px #ffffff;
+
+
+$squareBackGround: white;
+$blogSquareBS: 0px 20px 50px #d9dbdf;
+$blogSquareHover: 0 20px 40px rgba(0, 0, 0, 0.08);
+$blogBG: white; 
+$contactDetail: #868e96;
+$contactDetailHover: black;
+$contactDetailHoverTS: 2px 1px 2px #b5b5b5;
+$greetingColor: black;
+$meterSpanBG: #aaa5ff;
+$loadingCircleBG: #333;
+$startProjectColor: #000000;
+$cardSubtitle: #666666;
+$projectCardBackgroundColor: rgb(255, 255, 255);
+$projectCardBorder: rgba(211, 211, 211, 0.397);
+$projectCardBoxShadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+$projectCardHover: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+$projectCardFooterBG:  #55198b;
+$projectCardFooterColor: #f5f2f4;
+$meterBackground: rgb(243, 239, 239);
+$subTitle: #868e96;
+$topButton: #55198b;
+$topButtonHover: #000;
+
+
+// dark theme colors
+$blogCardSmallDark: white !important;
+$contactDarkA: white;
+$darkBackground: #171c28;
+$projectCardBoxShadowDark: 0px 10px 30px -15px #d9dbdf;
+$projectCardHoverDark:  #d9dbdf 0px 20px 30px -10px;
+$achievementCertificateCardHoverDark: rgba(255, 255, 255, 0.2) 0px 20px 30px -10px;

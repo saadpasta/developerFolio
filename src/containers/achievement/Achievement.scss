@@ -1,3 +1,5 @@
+@use '../../globalColor' as v;
+
 .achievement-heading {
   font-size: 56px;
   font-weight: 400;
@@ -10,7 +12,7 @@
   margin-bottom: 50px;
 }
 .subTitle {
-  color: #868e96;
+  color: v.$subTitle;
 }
 
 /* Media Query */

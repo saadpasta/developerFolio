@@ -1,5 +1,7 @@
+@use '../globalColor' as v;
+
 .dark-mode {
-  background-color: #171c28;
+  background-color: v.$darkBackground;
   color: white;
   transition: "0.1s";
 }
