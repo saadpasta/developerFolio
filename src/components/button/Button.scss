@@ -1,9 +1,9 @@
 @use '../../globalColor' as v;
 
 .main-button {
-  background-color: #55198b;
-  border: solid 1px #55198b;
-  color: white;
+  background-color: v.$mainButtonBG;
+  border: v.$mainButtonBorder;
+  color: v.$mainButtonColor;
   font-weight: 700;
   width: max-content;
   padding: 13px 22px;
@@ -19,8 +19,8 @@
   transition: all 0.3s ease-in-out 0s;
 }
 .main-button:hover {
-  background-color: #ffffff;
-  color: #55198b;
+  background-color: v.$mainButtonHoverBG;
+  color: v.$mainButtonHoverColor;
   transition: all 0.3s ease 0s;
   transform: translateY(-3px);
 }

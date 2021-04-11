@@ -1,3 +1,5 @@
+@use './globalColor' as v;
+
 .App {
   text-align: center;
 }
@@ -7,20 +9,20 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: v.$appHeaderBG;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: v.$appHeaderColor;
 }
 
 .App-link {
-  color: #09d3ac;
+  color: v.$appLink;
 }
 
 .subTitle {
-  color: #868e96;
+  color: v.$subTitle;
 }

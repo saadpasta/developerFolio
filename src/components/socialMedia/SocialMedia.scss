@@ -1,3 +1,5 @@
+@use '../../globalColor' as v;
+
 .social-media-div {
   font-size: 2em;
 }
@@ -7,7 +9,7 @@
 }
 
 .icon-button i {
-  color: white;
+  color: v.$socialMediaIconButtonColor;
   border-radius: 2.6rem;
   cursor: pointer;
   display: inline-block;
@@ -27,39 +29,39 @@
 }
 
 .facebook i {
-  background-color: #3b5998;
+  background-color: v.$faceBook;
 }
 
 .linkedin i {
-  background-color: #0e76a8;
+  background-color: v.$linkedin;
 }
 
 .github i {
-  background-color: #333;
+  background-color: v.$github;
 }
 
 .gitlab i {
-  background-color: #fca326;
+  background-color: v.$gitlab;
 }
 
 .google i {
-  background-color: #ea4335;
+  background-color: v.$google;
 }
 
 .twitter i {
-  background-color: #1da1f2;
+  background-color: v.$twitter;
 }
 
 .medium i {
-  background-color: #000;
+  background-color: v.$medium;
 }
 
 .stack-overflow i {
-  background-color: #f48024;
+  background-color: v.$stackoverflow;
 }
 
 .instagram i {
-  background-color: #c13584;
+  background-color: v.$instagram;
 }
 
 /* Hover Transition */
@@ -72,7 +74,7 @@
 .instagram i:hover,
 .stack-overflow i:hover,
 .medium i:hover {
-  background-color: black;
+  background-color: v.$socialMediaIconHover;
 }
 
 /* Media Query */

@@ -2,6 +2,9 @@
 
 
 // light theme colors
+$appHeaderBG:#282c34;
+$appHeaderColor: white; 
+$appLink: #09d3ac;
 $achievementCardTitleColor: #000000;
 $achievementCardSubtitleColor: #666666;
 $achievementCertificateCardBG: rgb(255, 255, 255);
@@ -22,6 +25,75 @@ $blogCardBeforeBG: #55198b;
 $blogCardHoverSmallColor: rgba(255, 255, 255, 0.8);
 $blogCardHoverH3: #ffffff;
 $blogCardBSMobile: 1px 0px 20px #ffffff;
+$mainButtonBG: #55198b;
+$mainButtonBorder:  solid 1px #55198b;
+$mainButtonColor: white;
+$mainButtonHoverBG: #ffffff;
+$mainButtonHoverColor: #55198b;
+$educationCardBorder: #a9a7f9;
+$educationCardBorderTop: 2px solid rgba(211, 211, 211, 0.397);
+$educationRoundImgBS: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+$educationSubHeaderColor: black;
+$educationTextDurationColor: #000000;
+$experienceCardBG: rgb(255, 255, 255);
+$experienceCardBS: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+$experienceCardBorder: 1px solid rgba(211, 211, 211, 0.397);
+$experienceCardHoverBS: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+$experienceCardBannerLG: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
+$experienceCardBlurredDivLG: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2));
+$experienceCardTextCompanyColor: #fff;
+$experienceCardRoundedImgBS: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+$experienceCardTextRoleColor: black;
+$experienceCardTextDateColor: black;
+$footerTextColor: #868e96 !important;
+$githubProfileCardBorder: 0.5rem solid #6c63ff;
+$githubProfileCardBS: rgba(0, 0, 0, 1) 0 30px 30px -30px;
+$githubProfileCardLocationTS: blanchedalmond;
+$githubProfileCardProfileImageBS:rgba(0, 0, 0, 1) 0 50px 50px -50px;
+$githubRepoCardColor: rgb(88, 96, 105);
+$githubRepoCardBG: rgb(255, 255, 255);
+$githubRepoCardBS: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+$githubRepoCardRepoCardHoverBS: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+$githubRepoCardRepoCardStatsColor: rgb(106, 115, 125);
+$githubRepoCardLanguageColorBG: blue;
+$githubRepoCardRepoNameColor: rgb(36, 41, 46);
+$headerBG: #fff;
+$headerGreyColor: #868e96;
+$headerLiColor: black;
+$headerHoverBG: #f4f4f4;
+$headerIconBG: #333;
+$headerIconBeforeBG: #333;
+$socialMediaIconButtonColor: white;
+
+$faceBook: #3b5998;
+$linkedin: #0e76a8;
+$github: #333;
+$gitlab: #fca326;
+$google: #ea4335;
+$twitter: #1da1f2;
+$medium: #000;
+$stackoverflow: #f48024;
+$instagram: #c13584;
+$socialMediaIconHover: black;
+
+$softwareSkillsInlineColor: #868e96;
+$softwareSkillsInlineColorHover: #645beb;
+$softwareSkillsInlineColorP: #868e96;
+$softwareSkillsInlineColorHoverP: #645beb;
+$talkCardRectangleBS: 0px 20px 50px #d9dbdf;
+$talkCardRectangleBSHover: 0 20px 40px rgba(0, 0, 0, 0.08);
+$talkCardTitle: white;
+$talkCardSubTitle: #7f8287;
+$talkCardButtonBG: #55198b;
+$talkCardButtonColor: white;
+$talkCardButtonBGHover: #8c43ce;
+$talkButtonMobileBG: #55198b;
+$talkButtonMobileColor: white;
+$talkButtonMobileHover: #8c43ce;
+$toggleSwitchSliderBG: #ccc;
+$toggleSwitchSliderBeforeBG: white;
+$toggleSwitchCheckedBG: #2196f3;
+$toggleSwitchFocusBS: 0 0 1px #2196f3;
 
 
 $squareBackGround: white;
@@ -48,6 +120,7 @@ $topButton: #55198b;
 $topButtonHover: #000;
 
 
+
 // dark theme colors
 $blogCardSmallDark: white !important;
 $contactDarkA: white;
@@ -55,3 +128,18 @@ $darkBackground: #171c28;
 $projectCardBoxShadowDark: 0px 10px 30px -15px #d9dbdf;
 $projectCardHoverDark:  #d9dbdf 0px 20px 30px -10px;
 $achievementCertificateCardHoverDark: rgba(255, 255, 255, 0.2) 0px 20px 30px -10px;
+$experienceCardDarkBG: #171c28;
+$experienceCardDarkBS: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+$experienceCardDarkBorder: 1px solid rgba(211, 211, 211, 0.397);
+$experienceCardTextRoleDarkColor: white !important;
+$footerTextColorDark: white !important;
+$githubRepoCardDarkBG: #171c28 !important;
+$githubRepoCardDarkColor: white;
+$githubRepoCardPDarkColor: white;
+$githubRepoCardHoverDarkBG: #55198b !important;
+$githubRepoCardHoverDarkBS: 0px 0px 16px #d9dbdf;
+$headerDarkMenuBG:  #171c28 !important;
+$headerDarkMenuColor: white;
+$headerDarkMenuLiColor: white !important;
+$headerDarkMenuHoverBG: #55198b !important;
+$headerDarkIconBeforeBG: white !important;

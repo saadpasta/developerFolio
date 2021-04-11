@@ -1,20 +1,22 @@
+@use '../../globalColor' as v;
+
 /* header */
 
 .dark-menu {
-  background-color: #171c28 !important;
-  color: white;
+  background-color: v.$headerDarkMenuBG;
+  color: v.$headerDarkMenuColor;
 }
 
 .dark-menu li a {
-  color: white !important;
+  color: v.$headerDarkMenuLiColor;
 }
 
 .dark-menu li a:hover {
-  background-color: #55198b !important;
+  background-color: v.$headerDarkMenuHoverBG;
 }
 
 .header {
-  background-color: #fff;
+  background-color: v.$headerBG;
   max-width: 100%;
   padding: 15px 20px;
   margin: 0px auto;
@@ -27,19 +29,19 @@
   overflow: hidden;
 }
 .grey-color {
-  color: #868e96;
+  color: v.$headerGreyColor;
 }
 
 .header li a {
   display: block;
   padding: 15px 20px;
-  color: black;
+  color: v.$headerLiColor;
   text-decoration: none;
 }
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #f4f4f4;
+  background-color: v.$headerHoverBG;
 }
 
 .header .logo {
@@ -79,7 +81,7 @@
 }
 
 .header .menu-icon .navicon {
-  background: #333;
+  background: v.$headerIconBG;
   display: block;
   height: 2px;
   position: relative;
@@ -89,7 +91,7 @@
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #333;
+  background: v.$headerIconBeforeBG;
   content: "";
   display: block;
   height: 100%;
@@ -100,7 +102,7 @@
 
 .header .menu-icon .navicon-dark:before,
 .header .menu-icon .navicon-dark:after {
-  background: white !important;
+  background: v.$headerDarkIconBeforeBG;
   content: "";
   display: block;
   height: 100%;

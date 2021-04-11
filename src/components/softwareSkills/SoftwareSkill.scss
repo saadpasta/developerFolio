@@ -1,3 +1,5 @@
+@use '../../globalColor' as v;
+
 .dev-icons {
   padding-left: 0;
   list-style: none;
@@ -14,16 +16,16 @@
 }
 
 .software-skill-inline > i {
-  color: #868e96;
+  color: v.$softwareSkillsInlineColor;
 }
 
 .software-skill-inline > i:hover {
-  color: #645beb;
+  color: v.$softwareSkillsInlineColorHover;
 }
 .software-skill-inline > p {
-  color: #868e96;
+  color: v.$softwareSkillsInlineColorP;
   font-size: 10px;
 }
 .software-skill-inline > i:hover ~ p {
-  color: #645beb;
+  color: v.$softwareSkillsInlineColorHoverP;
 }
