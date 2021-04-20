@@ -19,7 +19,7 @@
   transition: all 0.3s ease-in-out 0s;
 }
 .main-button:hover {
-  background-color: v.$mainButtonHoverBG;
+  background-color: v.$lightBackground3;
   color: v.$buttonColor;
   transition: all 0.3s ease 0s;
   transform: translateY(-3px);

@@ -6,23 +6,23 @@
   width: 250px;
 }
 .card-title {
-  color: v.$achievementCardTitleColor;
+  color: v.$titleColor;
   font-size: 22px;
   line-height: 24px;
   font-weight: 700;
   margin: 15px 0 0 0;
 }
 .card-subtitle {
-  color: v.$achievementCardSubtitleColor;
+  color: v.$cardSubtitle;
   font-size: 17px;
   line-height: 1.5rem;
 }
 .certificate-card {
-  background-color: v.$achievementCertificateCardBG;
-  box-shadow: v.$achievementCertificateCardBS;
+  background-color: v.$lightBackground2;
+  box-shadow: v.$lightBoxShadow1 0px 10px 30px -15px;
   padding: 1.5rem;
   border-radius: 10px;
-  border: v.$achievementCertificateCardBorder;
+  border: 1px solid v.$lightBorder1;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -31,7 +31,7 @@
   text-align: center;
 }
 .certificate-card:hover {
-  box-shadow: v.$achievementCertificateCardHover;
+  box-shadow: v.$lightBoxShadow1 0px 20px 30px -10px;
 }
 .dark-mode.certificate-card:hover {
   box-shadow: v.$achievementCertificateCardHoverDark;

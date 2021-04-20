@@ -4,11 +4,26 @@
 $buttonColor: #55198b;
 $buttonHover: #8c43ce;
 $skillsColor:  #645beb;
+$titleColor:  #000000;
 $subTitle: #868e96;
+$cardSubtitle: #666666;
 $appHeaderBG:#282c34;
 $appLink: #09d3ac;
 $toggleCheck: #2196f3;
 $lightBackground1: white;
+$lightBackground2: rgb(255, 255, 255);
+$lightBackground3: #ffffff;
+
+$lightBoxShadow1: rgba(0, 0, 0, 0.2);
+
+$lightBorder1: rgba(211, 211, 211, 0.397);
+
+
+
+
+$blogCardHoverSmallColor: rgba(255, 255, 255, 0.8);
+$educationCardBorder: #a9a7f9;
+$meterSpanBG: #aaa5ff;
 
 $faceBook: #3b5998;
 $linkedin: #0e76a8;
@@ -35,33 +50,20 @@ $instagram: #c13584;
 
 
 
-$achievementCardTitleColor: #000000;
-$achievementCardSubtitleColor: #666666;
-$achievementCertificateCardBG: rgb(255, 255, 255);
-$achievementCertificateCardBS: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
-$achievementCertificateCardBorder: 1px solid rgba(211, 211, 211, 0.397);
-$achievementCertificateCardHover: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+
+
+
+
+
 $achievementCertificateCardTagColor: #f5f2f4;
 $blogCardContainerColor: #586069;
 $blogCardContainerBG: #fff;
 $blogCardContainerBS:  0 0 36px rgba(0, 0, 0, 0.1);
 $blogCardTitleColor: #262626;
-$blogCardSmallColor: #666666;
-$blogCardHoverSmallColor: rgba(255, 255, 255, 0.8);
-$blogCardHoverH3: #ffffff;
-$blogCardBSMobile: 1px 0px 20px #ffffff;
-$mainButtonHoverBG: #ffffff;
-$educationCardBorder: #a9a7f9;
-$educationCardBorderTop: 2px solid rgba(211, 211, 211, 0.397);
 $educationRoundImgBS: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
 $educationSubHeaderColor: black;
-$educationTextDurationColor: #000000;
-$experienceCardBG: rgb(255, 255, 255);
-$experienceCardBS: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
-$experienceCardBorder: 1px solid rgba(211, 211, 211, 0.397);
-$experienceCardHoverBS: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
 $experienceCardBannerLG: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
-$experienceCardBlurredDivLG: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2));
+$experienceCardBlurredDivLG: linear-gradient(rgba(0, 0, 0, 0.4), $lightBoxShadow1);
 $experienceCardTextCompanyColor: #fff;
 $experienceCardRoundedImgBS: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
 $experienceCardTextRoleColor: black;
@@ -71,9 +73,6 @@ $githubProfileCardBS: rgba(0, 0, 0, 1) 0 30px 30px -30px;
 $githubProfileCardLocationTS: blanchedalmond;
 $githubProfileCardProfileImageBS:rgba(0, 0, 0, 1) 0 50px 50px -50px;
 $githubRepoCardColor: rgb(88, 96, 105);
-$githubRepoCardBG: rgb(255, 255, 255);
-$githubRepoCardBS: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
-$githubRepoCardRepoCardHoverBS: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
 $githubRepoCardRepoCardStatsColor: rgb(106, 115, 125);
 $githubRepoCardLanguageColorBG: blue;
 $githubRepoCardRepoNameColor: rgb(36, 41, 46);
@@ -92,27 +91,16 @@ $blogSquareHover: 0 20px 40px rgba(0, 0, 0, 0.08);
 $contactDetailHover: black;
 $contactDetailHoverTS: 2px 1px 2px #b5b5b5;
 $greetingColor: black;
-$meterSpanBG: #aaa5ff;
 $loadingCircleBG: #333;
-$startProjectColor: #000000;
-$cardSubtitle: #666666;
-$projectCardBackgroundColor: rgb(255, 255, 255);
-$projectCardBorder: rgba(211, 211, 211, 0.397);
-$projectCardBoxShadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
-$projectCardHover: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
 $projectCardFooterColor: #f5f2f4;
 $meterBackground: rgb(243, 239, 239);
 $topButtonHover: #000;
 // dark theme colors
-
-
 $darkBackground: #171c28;
 $projectCardBoxShadowDark: 0px 10px 30px -15px #d9dbdf;
 $projectCardHoverDark:  #d9dbdf 0px 20px 30px -10px;
 $achievementCertificateCardHoverDark: rgba(255, 255, 255, 0.2) 0px 20px 30px -10px;
 $experienceCardDarkBG: #171c28;
-$experienceCardDarkBS: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
-$experienceCardDarkBorder: 1px solid rgba(211, 211, 211, 0.397);
 $githubRepoCardDarkBG: #171c28 !important;
 $githubRepoCardHoverDarkBS: 0px 0px 16px #d9dbdf;
 $headerDarkMenuBG:  #171c28 !important;

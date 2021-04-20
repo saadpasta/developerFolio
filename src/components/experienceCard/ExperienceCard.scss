@@ -2,22 +2,22 @@
 
 .experience-card {
   position: relative;
-  background-color: v.$experienceCardBG;
-  box-shadow: v.$experienceCardBS;
+  background-color: v.$lightBackground2;
+  box-shadow: v.$lightBoxShadow1  0px 10px 30px -15px;;
   border-radius: 10px;
-  border: v.$experienceCardBorder;
+  border: 1px solid v.$lightBorder1;
 }
 
 .experience-card-dark {
   position: relative;
   background-color: v.$experienceCardDarkBG;
-  box-shadow: v.$experienceCardDarkBS;
+  box-shadow: v.$lightBoxShadow1 0px 10px 30px -15px;;
   border-radius: 10px;
-  border: v.$experienceCardDarkBorder;
+  border: 1px solid v.$lightBorder1;
 }
 
 .experience-card:hover {
-  box-shadow: v.$experienceCardHoverBS;
+  box-shadow: v.$lightBoxShadow1  0px 20px 30px -10px;
 }
 
 .experience-banner {

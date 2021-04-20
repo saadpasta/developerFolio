@@ -2,8 +2,8 @@
 
 .repo-card-div {
   color: v.$githubRepoCardColor;
-  background-color: v.$githubRepoCardBG;
-  box-shadow: v.$githubRepoCardBS;
+  background-color: v.$lightBackground2;
+  box-shadow: v.$lightBoxShadow1 0px 10px 30px -15px;;
   padding: 2rem;
   cursor: pointer;
   -webkit-transition: all 0.3s ease;
@@ -11,7 +11,7 @@
   transition: all 0.3s ease;
 }
 .repo-card-div:hover {
-  box-shadow: v.$githubRepoCardRepoCardHoverBS;
+  box-shadow: v.$lightBoxShadow1 0px 20px 30px -10px;;
 }
 
 .repo-stats {

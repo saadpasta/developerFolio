@@ -6,7 +6,7 @@
   width: 250px;
 }
 .card-title {
-  color: v.$startProjectColor;
+  color: v.$titleColor;
   font-size: 22px;
   line-height: 24px;
   font-weight: 700;
@@ -20,14 +20,14 @@
 .project-card {
   display: flex;
   flex-direction: column;
-  background-color: v.$projectCardBackgroundColor;
+  background-color: v.$lightBackground2;
   padding: 1.5rem;
   border-radius: 10px;
-  border: 1px solid v.$projectCardBorder;
+  border: 1px solid v.$lightBorder1;
   justify-content: center;
 }
 .project-card-light {
-  box-shadow: v.$projectCardBoxShadow;
+  box-shadow: v.$lightBoxShadow1 0px 10px 30px -15px;;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -44,7 +44,7 @@
   text-align: center;
 }
 .project-card-light:hover {
-  box-shadow: v.$projectCardHover
+  box-shadow: v.$lightBoxShadow1 0px 20px 30px -10px;; 
 }
 .project-card-dark:hover {
   box-shadow: v.$projectCardHoverDark;

@@ -17,7 +17,7 @@
 .education-card-border {
   height: 30px;
   width: 80%;
-  border-top: v.$educationCardBorderTop;
+  border-top: 2px solid v.$lightBorder1;
   margin-bottom: 20px;
   -webkit-transition: width 0.6s ease-in-out;
   -moz-transition: width 0.6s ease-in-out;
@@ -63,7 +63,7 @@
 }
 
 .education-text-duration {
-  color: v.$educationTextDurationColor;
+  color: v.$titleColor;
   font-size: 19px;
   margin: 0px;
   padding-top: 0.5rem;

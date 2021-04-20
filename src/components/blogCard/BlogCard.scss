@@ -32,7 +32,7 @@
   font-size: 17px;
   font-weight: 400;
   line-height: 1.5rem;
-  color: v.$blogCardSmallColor;
+  color: v.$cardSubtitle;
   padding: 0px 20px;
   overflow: hidden;
   display: -webkit-box;
@@ -99,7 +99,7 @@
 
 .blog-card:hover > h3 {
   transition: all 0.3s ease-out;
-  color: v.$blogCardHoverH3;
+  color: v.$lightBackground3;
 }
 
 @media screen and (max-width: 480px) and (min-width: 300px),
@@ -145,5 +145,5 @@
   }
 }
 .blog-card-shadow {
-  box-shadow: v.$blogCardBSMobile;
+  box-shadow:  1px 0px 20px v.$lightBackground3;
 }
