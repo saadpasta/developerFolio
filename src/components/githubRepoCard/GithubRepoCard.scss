@@ -85,6 +85,6 @@
   color: v.$githubRepoCardPDarkColor;
 }
 .dark-card-mode:hover {
-  background-color: v.$githubRepoCardHoverDarkBG;
+  background-color: v.$buttonColor !important;
   box-shadow: v.$githubRepoCardHoverDarkBS;
 }

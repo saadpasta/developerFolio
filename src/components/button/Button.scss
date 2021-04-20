@@ -1,8 +1,8 @@
 @use '../../globalColor' as v;
 
 .main-button {
-  background-color: v.$mainButtonBG;
-  border: v.$mainButtonBorder;
+  background-color: v.$buttonColor;
+  border: solid 1px v.$buttonColor;
   color: v.$mainButtonColor;
   font-weight: 700;
   width: max-content;
@@ -20,7 +20,7 @@
 }
 .main-button:hover {
   background-color: v.$mainButtonHoverBG;
-  color: v.$mainButtonHoverColor;
+  color: v.$buttonColor;
   transition: all 0.3s ease 0s;
   transform: translateY(-3px);
 }

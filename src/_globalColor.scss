@@ -1,6 +1,13 @@
 
 
 
+$buttonColor: #55198b;
+
+
+
+
+
+
 // light theme colors
 $appHeaderBG:#282c34;
 $appHeaderColor: white; 
@@ -11,7 +18,6 @@ $achievementCertificateCardBG: rgb(255, 255, 255);
 $achievementCertificateCardBS: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
 $achievementCertificateCardBorder: 1px solid rgba(211, 211, 211, 0.397);
 $achievementCertificateCardHover: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
-$achievementCertificateCardTagBG: #55198b;
 $achievementCertificateCardTagColor: #f5f2f4;
 $achievementCertificateCardTagBGHover: #8c43ce;
 $blogCardContainerColor: #586069;
@@ -19,17 +25,12 @@ $blogCardContainerBG: #fff;
 $blogCardContainerBS:  0 0 36px rgba(0, 0, 0, 0.1);
 $blogCardTitleColor: #262626;
 $blogCardSmallColor: #666666;
-$blogCardGoCornerBG:  #55198b;
 $blogCardGoArrowColor: white;
-$blogCardBeforeBG: #55198b;
 $blogCardHoverSmallColor: rgba(255, 255, 255, 0.8);
 $blogCardHoverH3: #ffffff;
 $blogCardBSMobile: 1px 0px 20px #ffffff;
-$mainButtonBG: #55198b;
-$mainButtonBorder:  solid 1px #55198b;
 $mainButtonColor: white;
 $mainButtonHoverBG: #ffffff;
-$mainButtonHoverColor: #55198b;
 $educationCardBorder: #a9a7f9;
 $educationCardBorderTop: 2px solid rgba(211, 211, 211, 0.397);
 $educationRoundImgBS: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
@@ -84,18 +85,14 @@ $talkCardRectangleBS: 0px 20px 50px #d9dbdf;
 $talkCardRectangleBSHover: 0 20px 40px rgba(0, 0, 0, 0.08);
 $talkCardTitle: white;
 $talkCardSubTitle: #7f8287;
-$talkCardButtonBG: #55198b;
 $talkCardButtonColor: white;
 $talkCardButtonBGHover: #8c43ce;
-$talkButtonMobileBG: #55198b;
 $talkButtonMobileColor: white;
 $talkButtonMobileHover: #8c43ce;
 $toggleSwitchSliderBG: #ccc;
 $toggleSwitchSliderBeforeBG: white;
 $toggleSwitchCheckedBG: #2196f3;
 $toggleSwitchFocusBS: 0 0 1px #2196f3;
-
-
 $squareBackGround: white;
 $blogSquareBS: 0px 20px 50px #d9dbdf;
 $blogSquareHover: 0 20px 40px rgba(0, 0, 0, 0.08);
@@ -112,11 +109,9 @@ $projectCardBackgroundColor: rgb(255, 255, 255);
 $projectCardBorder: rgba(211, 211, 211, 0.397);
 $projectCardBoxShadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
 $projectCardHover: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
-$projectCardFooterBG:  #55198b;
 $projectCardFooterColor: #f5f2f4;
 $meterBackground: rgb(243, 239, 239);
 $subTitle: #868e96;
-$topButton: #55198b;
 $topButtonHover: #000;
 
 
@@ -136,10 +131,8 @@ $footerTextColorDark: white !important;
 $githubRepoCardDarkBG: #171c28 !important;
 $githubRepoCardDarkColor: white;
 $githubRepoCardPDarkColor: white;
-$githubRepoCardHoverDarkBG: #55198b !important;
 $githubRepoCardHoverDarkBS: 0px 0px 16px #d9dbdf;
 $headerDarkMenuBG:  #171c28 !important;
 $headerDarkMenuColor: white;
 $headerDarkMenuLiColor: white !important;
-$headerDarkMenuHoverBG: #55198b !important;
 $headerDarkIconBeforeBG: white !important;

@@ -51,7 +51,7 @@
   overflow: hidden;
   top: 0;
   right: 0;
-  background-color: v.$blogCardGoCornerBG;
+  background-color: v.$buttonColor;
   border-radius: 0 4px 0 32px;
 }
 
@@ -79,7 +79,7 @@
   z-index: -1;
   top: -16px;
   right: -16px;
-  background: v.$blogCardBeforeBG;
+  background: v.$buttonColor;
   height: 32px;
   width: 32px;
   border-radius: 32px;
