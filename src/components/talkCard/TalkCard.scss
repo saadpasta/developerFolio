@@ -31,7 +31,7 @@
 
 /* Card  Styling */
 .talk-card-title {
-  color: v.$talkCardTitle;
+  color: v.$lightBackground1;
   margin: auto;
   text-align: left;
   margin-top: 25px;
@@ -58,7 +58,7 @@
 }
 .talk-button {
   background-color: v.$buttonColor;
-  color: v.$talkCardButtonColor;
+  color: v.$lightBackground1;
   width: 90px;
   padding: 10px 18px;
   border-radius: 3px;
@@ -97,7 +97,7 @@
 
   .talk-button {
     background-color: v.$buttonColor;
-    color: v.$talkButtonMobileColor;
+    color: v.$lightBackground1;
     width: 90px;
     padding: 10px 18px;
     border-radius: 3px;

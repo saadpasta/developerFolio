@@ -16,14 +16,14 @@
 }
 
 .software-skill-inline > i {
-  color: v.$softwareSkillsInlineColor;
+  color: v.$subTitle;
 }
 
 .software-skill-inline > i:hover {
   color: v.$skillsColor;
 }
 .software-skill-inline > p {
-  color: v.$softwareSkillsInlineColorP;
+  color: v.$subTitle;
   font-size: 10px;
 }
 .software-skill-inline > i:hover ~ p {

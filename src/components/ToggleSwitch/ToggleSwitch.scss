@@ -31,17 +31,17 @@ input {
   width: 28px;
   left: 0;
   bottom: 0;
-  background-color: v.$toggleSwitchSliderBeforeBG;
+  background-color: v.$lightBackground1;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
 input:checked + .slider {
-  background-color: v.$toggleSwitchCheckedBG;
+  background-color: v.$toggleCheck;
 }
 
 input:focus + .slider {
-  box-shadow: v.$toggleSwitchFocusBS;
+  box-shadow: v.$toggleCheck;
 }
 
 input:checked + .slider::before {

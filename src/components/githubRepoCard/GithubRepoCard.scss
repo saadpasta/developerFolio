@@ -79,10 +79,10 @@
 
 .dark-card-mode {
   background-color: v.$githubRepoCardDarkBG;
-  color: v.$githubRepoCardDarkColor;
+  color: v.$lightBackground1;
 }
 .dark-card-mode p {
-  color: v.$githubRepoCardPDarkColor;
+  color: v.$lightBackground1;
 }
 .dark-card-mode:hover {
   background-color: v.$buttonColor !important;

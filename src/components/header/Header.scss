@@ -4,11 +4,11 @@
 
 .dark-menu {
   background-color: v.$headerDarkMenuBG;
-  color: v.$headerDarkMenuColor;
+  color: v.$lightBackground1;
 }
 
 .dark-menu li a {
-  color: v.$headerDarkMenuLiColor;
+  color: v.$lightBackground1 !important;
 }
 
 .dark-menu li a:hover {
@@ -29,7 +29,7 @@
   overflow: hidden;
 }
 .grey-color {
-  color: v.$headerGreyColor;
+  color: v.$subTitle;
 }
 
 .header li a {
@@ -102,7 +102,7 @@
 
 .header .menu-icon .navicon-dark:before,
 .header .menu-icon .navicon-dark:after {
-  background: v.$headerDarkIconBeforeBG;
+  background: v.$lightBackground1 !important;
   content: "";
   display: block;
   height: 100%;

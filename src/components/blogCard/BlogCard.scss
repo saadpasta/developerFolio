@@ -1,7 +1,7 @@
 @use '../../globalColor' as v;
 
 .small-dark {
-  color: v.$blogCardSmallDark;
+  color: v.$lightBackground1 !important;
 }
 
 .blog-container {
@@ -58,7 +58,7 @@
 .go-arrow {
   margin-top: -4px;
   margin-right: -4px;
-  color: v.$blogCardGoArrowColor;
+  color: v.$lightBackground1;
   font-family: courier, sans;
 }
 

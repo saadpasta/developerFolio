@@ -4,9 +4,11 @@
 $buttonColor: #55198b;
 $buttonHover: #8c43ce;
 $skillsColor:  #645beb;
-
+$subTitle: #868e96;
+$appHeaderBG:#282c34;
 $appLink: #09d3ac;
-
+$toggleCheck: #2196f3;
+$lightBackground1: white;
 
 $faceBook: #3b5998;
 $linkedin: #0e76a8;
@@ -30,8 +32,8 @@ $instagram: #c13584;
 
 
 // light theme colors
-$appHeaderBG:#282c34;
-$appHeaderColor: white; 
+
+
 
 $achievementCardTitleColor: #000000;
 $achievementCardSubtitleColor: #666666;
@@ -45,11 +47,9 @@ $blogCardContainerBG: #fff;
 $blogCardContainerBS:  0 0 36px rgba(0, 0, 0, 0.1);
 $blogCardTitleColor: #262626;
 $blogCardSmallColor: #666666;
-$blogCardGoArrowColor: white;
 $blogCardHoverSmallColor: rgba(255, 255, 255, 0.8);
 $blogCardHoverH3: #ffffff;
 $blogCardBSMobile: 1px 0px 20px #ffffff;
-$mainButtonColor: white;
 $mainButtonHoverBG: #ffffff;
 $educationCardBorder: #a9a7f9;
 $educationCardBorderTop: 2px solid rgba(211, 211, 211, 0.397);
@@ -66,7 +66,6 @@ $experienceCardTextCompanyColor: #fff;
 $experienceCardRoundedImgBS: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
 $experienceCardTextRoleColor: black;
 $experienceCardTextDateColor: black;
-$footerTextColor: #868e96 !important;
 $githubProfileCardBorder: 0.5rem solid #6c63ff;
 $githubProfileCardBS: rgba(0, 0, 0, 1) 0 30px 30px -30px;
 $githubProfileCardLocationTS: blanchedalmond;
@@ -79,37 +78,17 @@ $githubRepoCardRepoCardStatsColor: rgb(106, 115, 125);
 $githubRepoCardLanguageColorBG: blue;
 $githubRepoCardRepoNameColor: rgb(36, 41, 46);
 $headerBG: #fff;
-$headerGreyColor: #868e96;
 $headerLiColor: black;
 $headerHoverBG: #f4f4f4;
 $headerIconBG: #333;
 $headerIconBeforeBG: #333;
-$socialMediaIconButtonColor: white;
-
-
 $socialMediaIconHover: black;
-
-$softwareSkillsInlineColor: #868e96;
-
-$softwareSkillsInlineColorP: #868e96;
-
 $talkCardRectangleBS: 0px 20px 50px #d9dbdf;
 $talkCardRectangleBSHover: 0 20px 40px rgba(0, 0, 0, 0.08);
-$talkCardTitle: white;
 $talkCardSubTitle: #7f8287;
-$talkCardButtonColor: white;
-
-$talkButtonMobileColor: white;
-
 $toggleSwitchSliderBG: #ccc;
-$toggleSwitchSliderBeforeBG: white;
-$toggleSwitchCheckedBG: #2196f3;
-$toggleSwitchFocusBS: 0 0 1px #2196f3;
-$squareBackGround: white;
 $blogSquareBS: 0px 20px 50px #d9dbdf;
 $blogSquareHover: 0 20px 40px rgba(0, 0, 0, 0.08);
-$blogBG: white; 
-$contactDetail: #868e96;
 $contactDetailHover: black;
 $contactDetailHoverTS: 2px 1px 2px #b5b5b5;
 $greetingColor: black;
@@ -123,14 +102,10 @@ $projectCardBoxShadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
 $projectCardHover: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
 $projectCardFooterColor: #f5f2f4;
 $meterBackground: rgb(243, 239, 239);
-$subTitle: #868e96;
 $topButtonHover: #000;
-
-
-
 // dark theme colors
-$blogCardSmallDark: white !important;
-$contactDarkA: white;
+
+
 $darkBackground: #171c28;
 $projectCardBoxShadowDark: 0px 10px 30px -15px #d9dbdf;
 $projectCardHoverDark:  #d9dbdf 0px 20px 30px -10px;
@@ -138,13 +113,6 @@ $achievementCertificateCardHoverDark: rgba(255, 255, 255, 0.2) 0px 20px 30px -10
 $experienceCardDarkBG: #171c28;
 $experienceCardDarkBS: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
 $experienceCardDarkBorder: 1px solid rgba(211, 211, 211, 0.397);
-$experienceCardTextRoleDarkColor: white !important;
-$footerTextColorDark: white !important;
 $githubRepoCardDarkBG: #171c28 !important;
-$githubRepoCardDarkColor: white;
-$githubRepoCardPDarkColor: white;
 $githubRepoCardHoverDarkBS: 0px 0px 16px #d9dbdf;
 $headerDarkMenuBG:  #171c28 !important;
-$headerDarkMenuColor: white;
-$headerDarkMenuLiColor: white !important;
-$headerDarkIconBeforeBG: white !important;

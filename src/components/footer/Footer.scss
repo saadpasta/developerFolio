@@ -2,11 +2,11 @@
 
 .footer-text {
   text-align: center;
-  color: v.$footerTextColor;
+  color: v.$subTitle !important;
 }
 
 .dark-mode {
-  color: v.$footerTextColorDark;
+  color: v.$lightBackground1 !important;
 }
 
 .footer-div {
