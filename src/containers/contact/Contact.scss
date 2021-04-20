@@ -29,7 +29,7 @@
 .contact-detail:hover,
 .contact-detail-email:hover {
   color: v.$textColor;
-  text-shadow: v.$contactDetailHoverTS;
+  text-shadow: 2px 1px 2px v.$contactDetailHoverTS;
   transition: all 0.3s;
 }
 

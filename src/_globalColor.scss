@@ -1,5 +1,4 @@
 
-// simplifed start 
 
 $buttonColor: #55198b;
 $buttonHover: #8c43ce;
@@ -17,32 +16,33 @@ $githubRepoCardColor: rgb(88, 96, 105);
 $githubRepoCardRepoCardStatsColor: rgb(106, 115, 125);
 $githubRepoCardRepoNameColor: rgb(36, 41, 46);
 $githubProfileCardLocationTS: blanchedalmond;
+$githubProfileCardBorder: #6c63ff;
 $lightBackground1: white;
 $lightBackground2: rgb(255, 255, 255);
 $lightBackground3: #ffffff;
 $lightBackground4: #fff;
 $lightBackground5: #f5f2f4;
-
 $headerHoverBG: #f4f4f4;
-
 $talkCardSubTitle: #7f8287;
 $iconBackground: #333;
-
+$contactDetailHoverTS: #b5b5b5;
 $blogCardContainerColor: #586069;
 $blogCardTitleColor: #262626;
 $lightBoxShadow1: rgba(0, 0, 0, 0.2);
+$lightBoxShadow2: rgba(0, 0, 0, 0.1);
+$lightBoxShadow3: rgba(0, 0, 0, 0.3);
+$lightBoxShadow4: rgba(0, 0, 0, 0.08);
+$experienceCardBlurredDivLG: linear-gradient(rgba(0, 0, 0, 0.4), $lightBoxShadow1);
+$experienceCardBannerLG: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
 $meterBackground: rgb(243, 239, 239);
 $topButtonHover: #000;
 $lightBorder1: rgba(211, 211, 211, 0.397);
-
 $darkBackground: #171c28;
 $darkBoxShadow: #d9dbdf;
-
-
+$achievementCertificateCardHoverDark: rgba(255, 255, 255, 0.2);
 $blogCardHoverSmallColor: rgba(255, 255, 255, 0.8);
 $educationCardBorder: #a9a7f9;
 $meterSpanBG: #aaa5ff;
-
 $faceBook: #3b5998;
 $linkedin: #0e76a8;
 $github: #333;
@@ -55,23 +55,3 @@ $instagram: #c13584;
 
 
 
-
-
-
-
-
-// simplified end 
-
-
-$blogCardContainerBS:  0 0 36px rgba(0, 0, 0, 0.1);
-$educationRoundImgBS: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
-$experienceCardBannerLG: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
-$experienceCardBlurredDivLG: linear-gradient(rgba(0, 0, 0, 0.4), $lightBoxShadow1);
-$experienceCardRoundedImgBS: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
-$githubProfileCardBorder: 0.5rem solid #6c63ff;
-$githubProfileCardBS: rgba(0, 0, 0, 1) 0 30px 30px -30px;
-$githubProfileCardProfileImageBS:rgba(0, 0, 0, 1) 0 50px 50px -50px;
-$talkCardRectangleBSHover: 0 20px 40px rgba(0, 0, 0, 0.08);
-$blogSquareHover: 0 20px 40px rgba(0, 0, 0, 0.08);
-$contactDetailHoverTS: 2px 1px 2px #b5b5b5;
-$achievementCertificateCardHoverDark: rgba(255, 255, 255, 0.2) 0px 20px 30px -10px;

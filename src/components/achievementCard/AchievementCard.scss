@@ -34,7 +34,7 @@
   box-shadow: v.$lightBoxShadow1 0px 20px 30px -10px;
 }
 .dark-mode.certificate-card:hover {
-  box-shadow: v.$achievementCertificateCardHoverDark;
+  box-shadow: v.$achievementCertificateCardHoverDark 0px 20px 30px -10px;
 }
 .certificate-image-div {
   position: relative;

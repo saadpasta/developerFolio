@@ -8,7 +8,7 @@
   border-radius: 10px;
   color: v.$blogCardContainerColor;
   background-color: v.$lightBackground4;
-  box-shadow: v.$blogCardContainerBS;
+  box-shadow: 0 0 36px v.$lightBoxShadow2;
   cursor: pointer;
   height: 200px;
 }
