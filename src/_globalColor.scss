@@ -2,16 +2,17 @@
 
 
 $buttonColor: #55198b;
+$buttonHover: #8c43ce;
+$skillsColor:  #645beb;
 
-
-
+$appLink: #09d3ac;
 
 
 
 // light theme colors
 $appHeaderBG:#282c34;
 $appHeaderColor: white; 
-$appLink: #09d3ac;
+
 $achievementCardTitleColor: #000000;
 $achievementCardSubtitleColor: #666666;
 $achievementCertificateCardBG: rgb(255, 255, 255);
@@ -19,7 +20,6 @@ $achievementCertificateCardBS: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
 $achievementCertificateCardBorder: 1px solid rgba(211, 211, 211, 0.397);
 $achievementCertificateCardHover: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
 $achievementCertificateCardTagColor: #f5f2f4;
-$achievementCertificateCardTagBGHover: #8c43ce;
 $blogCardContainerColor: #586069;
 $blogCardContainerBG: #fff;
 $blogCardContainerBS:  0 0 36px rgba(0, 0, 0, 0.1);
@@ -78,17 +78,17 @@ $instagram: #c13584;
 $socialMediaIconHover: black;
 
 $softwareSkillsInlineColor: #868e96;
-$softwareSkillsInlineColorHover: #645beb;
+
 $softwareSkillsInlineColorP: #868e96;
-$softwareSkillsInlineColorHoverP: #645beb;
+
 $talkCardRectangleBS: 0px 20px 50px #d9dbdf;
 $talkCardRectangleBSHover: 0 20px 40px rgba(0, 0, 0, 0.08);
 $talkCardTitle: white;
 $talkCardSubTitle: #7f8287;
 $talkCardButtonColor: white;
-$talkCardButtonBGHover: #8c43ce;
+
 $talkButtonMobileColor: white;
-$talkButtonMobileHover: #8c43ce;
+
 $toggleSwitchSliderBG: #ccc;
 $toggleSwitchSliderBeforeBG: white;
 $toggleSwitchCheckedBG: #2196f3;

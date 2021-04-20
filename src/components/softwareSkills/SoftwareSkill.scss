@@ -20,12 +20,12 @@
 }
 
 .software-skill-inline > i:hover {
-  color: v.$softwareSkillsInlineColorHover;
+  color: v.$skillsColor;
 }
 .software-skill-inline > p {
   color: v.$softwareSkillsInlineColorP;
   font-size: 10px;
 }
 .software-skill-inline > i:hover ~ p {
-  color: v.$softwareSkillsInlineColorHoverP;
+  color: v.$skillsColor;
 }

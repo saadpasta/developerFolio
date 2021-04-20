@@ -70,7 +70,7 @@
   cursor: pointer;
 }
 .talk-button:hover {
-  background: v.$talkCardButtonBGHover;
+  background: v.$buttonHover;
 }
 .card-footer-button-div {
   display: flex;
@@ -110,7 +110,7 @@
     transition: 0.2s ease-in;
   }
   .talk-button:hover {
-    background: v.$talkButtonMobileHover;
+    background: v.$buttonHover;
   }
   .card-footer-button-div {
     display: flex;
