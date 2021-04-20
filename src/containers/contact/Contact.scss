@@ -28,7 +28,7 @@
 
 .contact-detail:hover,
 .contact-detail-email:hover {
-  color: v.$contactDetailHover;
+  color: v.$textColor;
   text-shadow: v.$contactDetailHoverTS;
   transition: all 0.3s;
 }

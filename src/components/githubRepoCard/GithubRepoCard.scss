@@ -78,7 +78,7 @@
 }
 
 .dark-card-mode {
-  background-color: v.$githubRepoCardDarkBG;
+  background-color: v.$darkBackground;
   color: v.$lightBackground1;
 }
 .dark-card-mode p {
@@ -86,5 +86,5 @@
 }
 .dark-card-mode:hover {
   background-color: v.$buttonColor !important;
-  box-shadow: v.$githubRepoCardHoverDarkBS;
+  box-shadow:  0px 0px 16px v.$darkBoxShadow;
 }

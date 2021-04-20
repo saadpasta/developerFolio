@@ -3,7 +3,7 @@
 /* header */
 
 .dark-menu {
-  background-color: v.$headerDarkMenuBG;
+  background-color: v.$darkBackground !important;
   color: v.$lightBackground1;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .header {
-  background-color: v.$headerBG;
+  background-color: v.$lightBackground4;
   max-width: 100%;
   padding: 15px 20px;
   margin: 0px auto;
@@ -35,7 +35,7 @@
 .header li a {
   display: block;
   padding: 15px 20px;
-  color: v.$headerLiColor;
+  color: v.$textColor;
   text-decoration: none;
 }
 
@@ -81,7 +81,7 @@
 }
 
 .header .menu-icon .navicon {
-  background: v.$headerIconBG;
+  background: v.$iconBackground;
   display: block;
   height: 2px;
   position: relative;
@@ -91,7 +91,7 @@
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: v.$headerIconBeforeBG;
+  background: v.$iconBackground;
   content: "";
   display: block;
   height: 100%;

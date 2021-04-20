@@ -34,7 +34,7 @@
 }
 
 .project-card-dark {
-  box-shadow: v.$projectCardBoxShadowDark;
+  box-shadow:  0px 10px 30px -15px v.$darkBoxShadow;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.25s ease;
@@ -47,7 +47,7 @@
   box-shadow: v.$lightBoxShadow1 0px 20px 30px -10px;; 
 }
 .project-card-dark:hover {
-  box-shadow: v.$projectCardHoverDark;
+  box-shadow: 0px 20px 30px -10px v.$darkBoxShadow;
 }
 .project-image {
   position: relative;
@@ -64,7 +64,7 @@
 
 .project-card-footer span.project-tag {
   background: v.$buttonColor;
-  color: v.$projectCardFooterColor;
+  color: v.$lightBackground5;
   vertical-align: middle;
   align-items: center;
   border-radius: 4px;
