@@ -1,4 +1,4 @@
-﻿import React from "react";
+import React from "react";
 import "./GithubProfileCard.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import {contactInfo} from "../../portfolio";
@@ -6,7 +6,7 @@ import emoji from "react-easy-emoji";
 import {Fade} from "react-reveal";
 
 export default function GithubProfileCard({prof}) {
-  if (prof.hireable === true) {
+  if (prof.isHireable) {
     prof.hireable = "Yes";
   } else {
     prof.hireable = "No";
