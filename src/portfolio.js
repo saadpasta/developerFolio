@@ -13,7 +13,7 @@ const greeting = {
   title: "Hi, I'm Sebastian",
   subTitle: emoji(
     // "I'm a passionate developer who enjoys experimenting with different technologies. I have experience in building Web and Mobile applications with JavaScript / Reactjs / Nodejs and also enjoy playing around with Virtual Reality using the Unity Engine."
-    "I'm a passionate developer who is always up for a new challenge and enjoys learning different and new technologies. I have experience in building Web and Mobile applications with JavaScript / Reactjs / Nodejs, and some other awesome libraries and frameworks."
+    "I'm a passionate developer who is always up for a new challenge and enjoys learning different and new technologies. I have experience in building Web and Mobile applications with JavaScript / ReactJS / Node.js, and some other awesome libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
@@ -249,6 +249,17 @@ const achievementSection = {
           name: "Press Release",
           url:
             "https://metropolregion-rheinland.de/preistraeger-rheinland-genial/wissenscampus-moenchengladbach-ev-initiative-support-your-local-heroes-rechenzentrum-hartmann-gmbh-und-co-kg/"
+        }
+      ]
+    },
+    {
+      title: "GitLab Certified Associate",
+      subtitle: "Certification to use GitLab and work with its' DevOps tools",
+      image: require("./assets/images/gitlab.png"),
+      footerLink: [
+        {
+          name: "Certificate",
+          url: "https://api.badgr.io/public/assertions/_yq2ooe3RJqzyJoM9OqjIw?identity__email=gitlab%40mailwarden.de"
         }
       ]
     },
