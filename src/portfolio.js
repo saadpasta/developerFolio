@@ -23,11 +23,11 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
+  gmail: "sebastian@auner.me",
+  gitlab: "https://gitlab.com/Ctrl-A-Del",
   github: "https://github.com/Ctrl-A-Del",
   linkedin: "https://www.linkedin.com/in/sebastian-auner-a625a8160/",
   xing: "https://www.xing.com/profile/Sebastian_Auner3",
-  gmail: "sebastian@auner.me",
-  gitlab: "https://gitlab.com/Ctrl-A-Del",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
@@ -136,16 +136,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
+      Stack: "Programming",
+      progressPercentage: "80%"
+    },
+    {
       Stack: "Frontend", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
       progressPercentage: "30%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
