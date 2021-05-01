@@ -9,7 +9,7 @@ const USE_GITHUB_DATA = process.env.USE_GITHUB_DATA;
 
 const ERR = {
   noUserName:
-    "Github Username was found to be undefined. Please set an Environment variable.",
+    "Github Username was found to be undefined. Please set all relevant environment variables.",
   requestFailed:
     "The request to GitHub didn't succeed. Check if GitHub token is correct."
 };
