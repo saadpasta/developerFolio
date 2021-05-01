@@ -270,22 +270,23 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certificate",
-          url: ""
-        }
-      ]
-    },
-    {
-      title: "CCNA Exploration: Network Fundamentals",
-      subtitle:
-        "Certificate for fundamental networking concepts and technologies from Cisco Systems",
-      image: require("./assets/images/ccna.png"),
-      footerLink: [
-        {
-          name: "Certificate",
-          url: ""
-        }
-      ]
-    }
+        url: require("./assets/docs/cambridge.pdf")
+      }
+    ]
+  },
+  // comment this out until I know where the certificate is
+  // {
+  //   title: "CCNA Exploration: Network Fundamentals",
+  //   subtitle:
+  //       "Certificate for fundamental networking concepts and technologies from Cisco Systems",
+  //     image: require("./assets/images/ccna.png"),
+  //     footerLink: [
+  //       {
+  //         name: "Certificate",
+  //         url: ""
+  //       }
+  //     ]
+  //   }
   ],
   display: true // Set false to hide this section, defaults to true
 };
