@@ -77,10 +77,17 @@ $ git clone https://github.com/saadpasta/developerFolio.git
 # Go into the repository
 $ cd developerFolio
 
+# Setup environment variables
+
+# For Linux
+$ cp env.example .env
+# For Windows
+$ copy env.example .env
+
 # Install dependencies
 $ npm install
 
-#Start's development server
+# Start a local dev server
 $ npm start
 ```
 
@@ -88,9 +95,9 @@ $ npm start
 
 Generate a Github personal access token following these [instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) (make sure you don't select any scope just generate a simple token). If you are using [Github Actions](#configuring-github-actions-recommended) to deploy your portfolio you can skip this section.
 
-1. Create a file called .env in the root directory of your project, check the base file
+1. Create a file called .env in the root directory of your project (if not done already in section: [How To Use](#how-to-use))
 
-Note: Instead of creating a .env file, you can just run this command "cp env.example .env" inside the root directory
+Note: Configuring environment variables before deploying your portfolio is highly recommended as some components depend on API data. 
 
 ```bash
 - DeveloperFolio
