@@ -19,7 +19,7 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
-      
+
       {socialMediaLinks.xing ? (
         <a
           href={socialMediaLinks.xing}

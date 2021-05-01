@@ -259,7 +259,8 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certificate",
-          url: "https://api.badgr.io/public/assertions/_yq2ooe3RJqzyJoM9OqjIw?identity__email=gitlab%40mailwarden.de"
+          url:
+            "https://api.badgr.io/public/assertions/_yq2ooe3RJqzyJoM9OqjIw?identity__email=gitlab%40mailwarden.de"
         }
       ]
     },
@@ -270,23 +271,23 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certificate",
-        url: require("./assets/docs/cambridge.pdf")
-      }
-    ]
-  },
-  // comment this out until I know where the certificate is
-  // {
-  //   title: "CCNA Exploration: Network Fundamentals",
-  //   subtitle:
-  //       "Certificate for fundamental networking concepts and technologies from Cisco Systems",
-  //     image: require("./assets/images/ccna.png"),
-  //     footerLink: [
-  //       {
-  //         name: "Certificate",
-  //         url: ""
-  //       }
-  //     ]
-  //   }
+          url: require("./assets/docs/cambridge.pdf")
+        }
+      ]
+    }
+    // comment this out until I know where the certificate is
+    // {
+    //   title: "CCNA Exploration: Network Fundamentals",
+    //   subtitle:
+    //       "Certificate for fundamental networking concepts and technologies from Cisco Systems",
+    //     image: require("./assets/images/ccna.png"),
+    //     footerLink: [
+    //       {
+    //         name: "Certificate",
+    //         url: ""
+    //       }
+    //     ]
+    //   }
   ],
   display: true // Set false to hide this section, defaults to true
 };
