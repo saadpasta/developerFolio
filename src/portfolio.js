@@ -121,7 +121,7 @@ const educationInfo = {
       logo: require("./assets/images/hsd.jpg"),
       subHeader: "Bachelor of Science in Media Informatics",
       duration: "September 2012 - August 2016",
-      desc: "Final score: 1.3",
+      desc: "Final score: 1.6",
       descBullets: [
         "focussed on web and mobile development",
         "bachelors thesis about eyetracking"
