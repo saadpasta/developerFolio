@@ -8,14 +8,26 @@ export default function socialMedia() {
   }
   return (
     <div className="social-media-div">
-      {socialMediaLinks.github ? (
+      {socialMediaLinks.gmail ? (
         <a
-          href={socialMediaLinks.github}
-          className="icon-button github"
+          href={`mailto:${socialMediaLinks.gmail}`}
+          className="icon-button google"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-github"></i>
+          <i className="fa fa-envelope"></i>
+          <span></span>
+        </a>
+      ) : null}
+      
+      {socialMediaLinks.xing ? (
+        <a
+          href={socialMediaLinks.xing}
+          className="icon-button xing"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-xing"></i>
           <span></span>
         </a>
       ) : null}
@@ -32,26 +44,14 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.xing ? (
+      {socialMediaLinks.github ? (
         <a
-          href={socialMediaLinks.xing}
-          className="icon-button xing"
+          href={socialMediaLinks.github}
+          className="icon-button github"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-xing"></i>
-          <span></span>
-        </a>
-      ) : null}
-
-      {socialMediaLinks.gmail ? (
-        <a
-          href={`mailto:${socialMediaLinks.gmail}`}
-          className="icon-button google"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fa fa-envelope"></i>
+          <i className="fab fa-github"></i>
           <span></span>
         </a>
       ) : null}
