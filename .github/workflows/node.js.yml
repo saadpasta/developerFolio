@@ -3,7 +3,7 @@ env:
   CI: false
   GITHUB_USERNAME: ${{ github.repository_owner }}
   REACT_APP_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Use the generated personal access token and add it to repository secrets with the name OPEN_SOURCE_TOKEN
-  USE_GITHUB_DATA: ${{ secrets.USE_GITHUB_DATA }}
+  USE_GITHUB_DATA: "true"
 on:
   push:
     branches:
