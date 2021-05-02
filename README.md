@@ -72,23 +72,23 @@ From your command line, clone and run developerFolio:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/saadpasta/developerFolio.git
+git clone https://github.com/saadpasta/developerFolio.git
 
 # Go into the repository
-$ cd developerFolio
+cd developerFolio
 
-# Setup environment variables
+# Setup default environment variables
 
 # For Linux
-$ cp env.example .env
+cp env.example .env
 # For Windows
-$ copy env.example .env
+copy env.example .env
 
 # Install dependencies
-$ npm install
+npm install
 
 # Start a local dev server
-$ npm start
+npm start
 ```
 
 ## Linking Portfolio to Github
