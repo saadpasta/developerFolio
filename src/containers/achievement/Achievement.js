@@ -1,4 +1,5 @@
 import React, {useContext} from "react";
+import Carousel from "react-elastic-carousel";
 import "./Achievement.css";
 import AchievementCard from "../../components/achievementCard/AchievementCard";
 import {achievementSection} from "../../portfolio";
@@ -9,6 +10,12 @@ export default function Achievement() {
   if (!achievementSection.display) {
     return null;
   }
+  const breakPoints = [
+    {width:1, itemsToShow:1},
+    {width:550, itemsToShow:2},
+    {width:768, itemsToShow:3},
+    {width:1200, itemsToShow:3}
+  ];
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="achievements">
@@ -34,6 +41,7 @@ export default function Achievement() {
             </p>
           </div>
           <div className="achievement-cards-div">
+            <Carousel breakPoints={breakPoints}>
             {achievementSection.achievementsCards.map((card, i) => {
               return (
                 <AchievementCard
@@ -48,6 +56,7 @@ export default function Achievement() {
                 />
               );
             })}
+            </Carousel>
           </div>
         </div>
       </div>

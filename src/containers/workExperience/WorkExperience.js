@@ -1,5 +1,6 @@
 import React, {useContext} from "react";
 import "./WorkExperience.css";
+import Carousel from "react-elastic-carousel";
 import ExperienceCard from "../../components/experienceCard/ExperienceCard";
 import {workExperiences} from "../../portfolio";
 import {Fade} from "react-reveal";
@@ -7,6 +8,12 @@ import StyleContext from "../../contexts/StyleContext";
 
 export default function WorkExperience() {
   const {isDark} = useContext(StyleContext);
+  const breakPoints = [
+    {width:1, itemsToShow:1},
+    {width:550, itemsToShow:2},
+    {width:768, itemsToShow:3},
+    {width:1200, itemsToShow:3}
+  ];
   if (workExperiences.display) {
     return (
       <div id="experience">
@@ -15,6 +22,7 @@ export default function WorkExperience() {
             <div>
               <h1 className="experience-heading">Experiences</h1>
               <div className="experience-cards-div">
+                <Carousel breakPoints={breakPoints}>
                 {workExperiences.experience.map((card, i) => {
                   return (
                     <ExperienceCard
@@ -31,6 +39,7 @@ export default function WorkExperience() {
                     />
                   );
                 })}
+                </Carousel>
               </div>
             </div>
           </div>
