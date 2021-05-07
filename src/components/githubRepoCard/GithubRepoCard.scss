@@ -79,10 +79,10 @@
 
 .dark-card-mode {
   background-color: v.$darkBackground;
-  color: v.$lightBackground1;
+  color: v.$textColorDark;
 }
 .dark-card-mode p {
-  color: v.$lightBackground1;
+  color: v.$textColorDark;
 }
 .dark-card-mode:hover {
   background-color: v.$buttonColor !important;

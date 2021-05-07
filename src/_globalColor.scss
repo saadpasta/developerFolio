@@ -1,48 +1,78 @@
+/* Change colors in this file to style to your needs on a global level. 
+Certain colors are used for different and multiply types of elements. 
+For greater control over colors visit each components .scss file. */
 
-
+// button colors 
 $buttonColor: #55198b;
 $buttonHover: #8c43ce;
-$skillsColor:  #645beb;
+$topButtonHover: #000;
+
+// text colors light theme 
 $titleColor:  #000000;
 $textColor: black;
 $subTitle: #868e96;
 $cardSubtitle: #666666;
-$appHeaderBG:#282c34;
-$appLink: #09d3ac;
+$talkCardSubTitle: #7f8287;
+$blogCardTitleColor: #262626;
+
+// text color dark theme 
+$textColorDark: white;
+
+// toggle switch colors
 $toggleCheck: #2196f3;
 $toggleSwitchSliderBG: #ccc;
+
+// githubRepo specific colors
 $githubRepoCardLanguageColorBG: blue;
 $githubRepoCardColor: rgb(88, 96, 105);
 $githubRepoCardRepoCardStatsColor: rgb(106, 115, 125);
 $githubRepoCardRepoNameColor: rgb(36, 41, 46);
 $githubProfileCardLocationTS: blanchedalmond;
 $githubProfileCardBorder: #6c63ff;
-$lightBackground1: white;
+
+// light background colors 
+$lightBackground1: #fff;
 $lightBackground2: rgb(255, 255, 255);
-$lightBackground3: #ffffff;
-$lightBackground4: #fff;
-$lightBackground5: #f5f2f4;
-$headerHoverBG: #f4f4f4;
-$talkCardSubTitle: #7f8287;
-$iconBackground: #333;
-$contactDetailHoverTS: #b5b5b5;
+$lightBackground3: #f5f2f4;
 $blogCardContainerColor: #586069;
-$blogCardTitleColor: #262626;
+// dark background colors 
+$darkBackground: #171c28;
+
+// light theme box shadows
 $lightBoxShadow1: rgba(0, 0, 0, 0.2);
 $lightBoxShadow2: rgba(0, 0, 0, 0.1);
 $lightBoxShadow3: rgba(0, 0, 0, 0.3);
 $lightBoxShadow4: rgba(0, 0, 0, 0.08);
+
+// dark theme box shadows
+$darkBoxShadow: #d9dbdf;
+$darkBoxShadow2: #ffffff;
+
+// linear gradients
 $experienceCardBlurredDivLG: linear-gradient(rgba(0, 0, 0, 0.4), $lightBoxShadow1);
 $experienceCardBannerLG: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
+
+// borders 
 $meterBackground: rgb(243, 239, 239);
-$topButtonHover: #000;
 $lightBorder1: rgba(211, 211, 211, 0.397);
-$darkBackground: #171c28;
-$darkBoxShadow: #d9dbdf;
+$educationCardBorder: #a9a7f9;
+
+// hovers
 $achievementCertificateCardHoverDark: rgba(255, 255, 255, 0.2);
 $blogCardHoverSmallColor: rgba(255, 255, 255, 0.8);
-$educationCardBorder: #a9a7f9;
+$headerHoverBG: #f4f4f4;
+$contactDetailHoverTS: #b5b5b5;
+
+// misc backgrounds
 $meterSpanBG: #aaa5ff;
+$iconBackground: #333;
+$appHeaderBG:#282c34;
+
+// misc colors 
+$skillsColor:  #645beb;
+$appLink: #09d3ac;
+
+// social media icons 
 $faceBook: #3b5998;
 $linkedin: #0e76a8;
 $github: #333;

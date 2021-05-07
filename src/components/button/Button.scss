@@ -3,7 +3,7 @@
 .main-button {
   background-color: v.$buttonColor;
   border: solid 1px v.$buttonColor;
-  color: v.$lightBackground1;
+  color: v.$textColorDark;
   font-weight: 700;
   width: max-content;
   padding: 13px 22px;
@@ -19,7 +19,7 @@
   transition: all 0.3s ease-in-out 0s;
 }
 .main-button:hover {
-  background-color: v.$lightBackground3;
+  background-color: v.$darkBoxShadow2;
   color: v.$buttonColor;
   transition: all 0.3s ease 0s;
   transform: translateY(-3px);

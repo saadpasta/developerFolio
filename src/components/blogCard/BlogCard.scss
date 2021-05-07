@@ -1,13 +1,13 @@
 @use '../../globalColor' as v;
 
 .small-dark {
-  color: v.$lightBackground1 !important;
+  color: v.$textColorDark !important;
 }
 
 .blog-container {
   border-radius: 10px;
   color: v.$blogCardContainerColor;
-  background-color: v.$lightBackground4;
+  background-color: v.$lightBackground1;
   box-shadow: 0 0 36px v.$lightBoxShadow2;
   cursor: pointer;
   height: 200px;
@@ -58,7 +58,7 @@
 .go-arrow {
   margin-top: -4px;
   margin-right: -4px;
-  color: v.$lightBackground1;
+  color: v.$textColorDark;
   font-family: courier, sans;
 }
 
@@ -99,7 +99,7 @@
 
 .blog-card:hover > h3 {
   transition: all 0.3s ease-out;
-  color: v.$lightBackground3;
+  color: v.$darkBoxShadow2;
 }
 
 @media screen and (max-width: 480px) and (min-width: 300px),
@@ -145,5 +145,5 @@
   }
 }
 .blog-card-shadow {
-  box-shadow:  1px 0px 20px v.$lightBackground3;
+  box-shadow:  1px 0px 20px v.$darkBoxShadow2;
 }
