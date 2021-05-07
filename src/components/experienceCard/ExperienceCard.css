@@ -1,5 +1,7 @@
 .experience-card {
   position: relative;
+  display: flex;
+  flex-direction: column;
   margin: 10px;
   height: 600px;
   background-color: rgb(255, 255, 255);
@@ -12,6 +14,8 @@
   margin: 10px;
   height: 600px;
   position: relative;
+  display: flex;
+  flex-direction: column;
   background-color: #171c28;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
   border-radius: 10px;
