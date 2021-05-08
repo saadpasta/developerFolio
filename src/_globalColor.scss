@@ -49,7 +49,7 @@ $darkBoxShadow: #d9dbdf;
 $darkBoxShadow2: #ffffff;
 
 // linear gradients
-$experienceCardBlurredDivLG: linear-gradient(rgba(0, 0, 0, 0.4), $lightBoxShadow1);
+$experienceCardBlurredDivLG: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2));
 $experienceCardBannerLG: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
 
 // borders 
@@ -82,6 +82,3 @@ $twitter: #1da1f2;
 $medium: #000;
 $stackoverflow: #f48024;
 $instagram: #c13584;
-
-
-
