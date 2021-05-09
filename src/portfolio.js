@@ -3,6 +3,13 @@
 // Summary And Greeting Section
 
 import emoji from "react-easy-emoji";
+import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+
+const splashScreen = {
+  enabled: true, // set false to disable splash screen
+  animation: splashAnimation,
+  duration: 2000, // Set animation duration as per your animation
+}
 
 const illustration = {
   animated: true // set to false to use static SVG
@@ -369,6 +376,7 @@ const twitterDetails = {
 };
 
 export {
+  splashScreen,
   illustration,
   greeting,
   socialMediaLinks,

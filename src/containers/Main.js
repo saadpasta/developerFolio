@@ -1,4 +1,5 @@
-import React, {Component} from "react";
+import React, {useEffect, useState} from "react";
+import {Fade} from "react-reveal";
 import Header from "../components/header/Header";
 import Greeting from "./greeting/Greeting";
 import Skills from "./skills/Skills";
@@ -17,52 +18,63 @@ import Twitter from "./twitter-embed/twitter";
 import {StyleProvider} from "../contexts/StyleContext";
 import "./Main.css";
 import Profile from "./profile/Profile";
+import SplashScreen from "./splashScreen/SplashScreen";
+import {splashScreen} from "../portfolio";
 
-export default class Main extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      isDark: false
-    };
-  }
+const Main = () => {
+  const [isDark, setIsDark] = useState(false);
+  const [isShowingSplashAnimation, setIsShowingSplashAnimation] = useState(true);
 
-  componentDidMount() {
+  useEffect(() => {
     if (localStorage.getItem("isDark") === null) {
       const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
       localStorage.setItem("isDark", darkPref.matches);
     }
-    this.setState({isDark: JSON.parse(localStorage.getItem("isDark"))});
-  }
-  changeTheme = () => {
-    this.setState({isDark: !this.state.isDark}, () => {
-      localStorage.setItem("isDark", this.state.isDark);
-    });
-  };
+    setIsDark(JSON.parse(localStorage.getItem("isDark")));
+    const splashTimer = setTimeout(() => setIsShowingSplashAnimation(false), splashScreen.duration)
+    return () => {
+      clearTimeout(splashTimer);
+    };
+  }, []);
 
-  render() {
-    return (
-      <div className={this.state.isDark ? "dark-mode" : null}>
-        <StyleProvider
-          value={{isDark: this.state.isDark, changeTheme: this.changeTheme}}
-        >
-          <Header />
-          <Greeting />
-          <Skills />
-          <StackProgress />
-          <Education />
-          <WorkExperience />
-          <Projects />
-          <StartupProject />
-          <Achievement />
-          <Blogs />
-          <Talks />
-          <Twitter />
-          <Podcast />
-          <Profile />
-          <Footer />
-          <Top />
-        </StyleProvider>
-      </div>
-    );
-  }
-}
+
+  const changeTheme = () => {
+    setIsDark(!isDark);
+  };
+  useEffect(() => {
+    // Update local storage as soon as isDark changes
+    localStorage.setItem("isDark", isDark);
+  }, [isDark]);
+
+  return (
+    <div className={isDark ? "dark-mode" : null}>
+      <StyleProvider
+        value={{isDark: isDark, changeTheme: changeTheme}}
+      >
+        {isShowingSplashAnimation && splashScreen.enabled ?
+          <SplashScreen /> :
+          <Fade bottom duration={500} distance="40px">
+            <Header />
+            <Greeting />
+            <Skills />
+            <StackProgress />
+            <Education />
+            <WorkExperience />
+            <Projects />
+            <StartupProject />
+            <Achievement />
+            <Blogs />
+            <Talks />
+            <Twitter />
+            <Podcast />
+            <Profile />
+            <Footer />
+            <Top />
+          </Fade>
+        }
+      </StyleProvider>
+    </div>
+  );
+};
+
+export default Main;
