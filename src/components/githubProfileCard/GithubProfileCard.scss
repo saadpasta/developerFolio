@@ -7,7 +7,7 @@
   width: 100%;
   max-width: 350px;
   height: auto;
-  box-shadow: $lightBoxShadow2 0 30px 30px -30px;
+  box-shadow: $lightBoxShadow 0 30px 30px -30px;
   transition: all 0.3s ease-out;
 }
 
@@ -93,7 +93,7 @@
   }
 
   .profile-image:hover {
-    box-shadow: $lightBoxShadow2  0 50px 50px -50px;
+    box-shadow: $lightBoxShadow  0 50px 50px -50px;
     transition: 0.3s ease-out;
   }
 
