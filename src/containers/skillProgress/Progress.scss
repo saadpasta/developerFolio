@@ -1,9 +1,9 @@
-@use '../../globalColor' as v;
+@import '../../_globalColor';
 
 .meter {
   height: 20px;
   position: relative;
-  background: v.$meterBackground;
+  background: $meterBackground;
   -moz-border-radius: 25px;
   -webkit-border-radius: 25px;
   border-radius: 25px;
@@ -15,7 +15,7 @@
   border-bottom-right-radius: 6px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  background-color: v.$meterSpanBG;
+  background-color: $meterSpanBG;
   position: relative;
   overflow: hidden;
 }

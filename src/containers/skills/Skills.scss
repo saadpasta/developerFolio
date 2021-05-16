@@ -1,4 +1,4 @@
-@use '../../globalColor' as v;
+@import '../../_globalColor';
 
 .skills-main-div {
   display: flex;
@@ -23,7 +23,7 @@
   font-weight: 400;
 }
 .subTitle {
-  color: v.$subTitle;
+  color: $subTitle;
 }
 
 /* Media Query */

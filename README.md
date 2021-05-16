@@ -10,7 +10,8 @@
 </p>
 
 
-Just change `src/portfolio.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
+Just change `src/portfolio.js` to get your personal portfolio. To change portfolio colors globally go to the  `src/_globalColor.scss` file. Feel free to use it as-is or customize it as much as you want.
+
 
 But if you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/saadpasta/developerFolio/issues).
 

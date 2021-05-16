@@ -1,20 +1,20 @@
-@use '../../globalColor' as v;
+@import '../../_globalColor';
 
 .small-dark {
-  color: v.$textColorDark !important;
+  color: $textColorDark !important;
 }
 
 .blog-container {
   border-radius: 10px;
-  color: v.$blogCardContainerColor;
-  background-color: v.$lightBackground1;
-  box-shadow: 0 0 36px v.$lightBoxShadow2;
+  color: $blogCardContainerColor;
+  background-color: $lightBackground1;
+  box-shadow: 0 0 36px $lightBoxShadow2;
   cursor: pointer;
   height: 200px;
 }
 
 .blog-title {
-  color: v.$blogCardTitleColor;
+  color: $blogCardTitleColor;
   font-size: 22px;
   line-height: 24px;
   font-weight: 700;
@@ -32,7 +32,7 @@
   font-size: 17px;
   font-weight: 400;
   line-height: 1.5rem;
-  color: v.$cardSubtitle;
+  color: $cardSubtitle;
   padding: 0px 20px;
   overflow: hidden;
   display: -webkit-box;
@@ -51,14 +51,14 @@
   overflow: hidden;
   top: 0;
   right: 0;
-  background-color: v.$buttonColor;
+  background-color: $buttonColor;
   border-radius: 0 4px 0 32px;
 }
 
 .go-arrow {
   margin-top: -4px;
   margin-right: -4px;
-  color: v.$textColorDark;
+  color: $textColorDark;
   font-family: courier, sans;
 }
 
@@ -79,7 +79,7 @@
   z-index: -1;
   top: -16px;
   right: -16px;
-  background: v.$buttonColor;
+  background: $buttonColor;
   height: 32px;
   width: 32px;
   border-radius: 32px;
@@ -94,12 +94,12 @@
 
 .blog-card:hover > .small {
   transition: all 0.3s ease-out;
-  color: v.$blogCardHoverSmallColor;
+  color: $blogCardHoverSmallColor;
 }
 
 .blog-card:hover > h3 {
   transition: all 0.3s ease-out;
-  color: v.$darkBoxShadow2;
+  color: $darkBoxShadow2;
 }
 
 @media screen and (max-width: 480px) and (min-width: 300px),
@@ -145,5 +145,5 @@
   }
 }
 .blog-card-shadow {
-  box-shadow:  1px 0px 20px v.$darkBoxShadow2;
+  box-shadow:  1px 0px 20px $darkBoxShadow2;
 }

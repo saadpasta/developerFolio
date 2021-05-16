@@ -1,12 +1,12 @@
 /*Blog Cards Layout*/
-@use '../../globalColor' as v;
+@import '../../_globalColor';
 
 .square {
   width: 440px;
   height: 430px;
-  background: v.$textColorDark;
+  background: $textColorDark;
   border-radius: 4px;
-  box-shadow: 0px 20px 50px v.$darkBoxShadow;
+  box-shadow: 0px 20px 50px $darkBoxShadow;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -14,7 +14,7 @@
 }
 
 .square:hover {
-  box-shadow: 0 20px 40px v.$lightBoxShadow4;
+  box-shadow: 0 20px 40px $lightBoxShadow4;
 }
 
 .blog-header-text {
@@ -42,7 +42,7 @@
   gap: 32px;
 }
 .subTitle {
-  color: v.$subTitle;
+  color: $subTitle;
   
 }
 

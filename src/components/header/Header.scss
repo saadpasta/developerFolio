@@ -1,22 +1,22 @@
-@use '../../globalColor' as v;
+@import '../../_globalColor';
 
 /* header */
 
 .dark-menu {
-  background-color: v.$darkBackground !important;
-  color: v.$textColorDark;
+  background-color: $darkBackground !important;
+  color: $textColorDark;
 }
 
 .dark-menu li a {
-  color: v.$textColorDark !important;
+  color: $textColorDark !important;
 }
 
 .dark-menu li a:hover {
-  background-color: v.$buttonColor !important;
+  background-color: $buttonColor !important;
 }
 
 .header {
-  background-color: v.$lightBackground1;
+  background-color: $lightBackground1;
   max-width: 100%;
   padding: 15px 20px;
   margin: 0px auto;
@@ -29,19 +29,19 @@
   overflow: hidden;
 }
 .grey-color {
-  color: v.$subTitle;
+  color: $subTitle;
 }
 
 .header li a {
   display: block;
   padding: 15px 20px;
-  color: v.$textColor;
+  color: $textColor;
   text-decoration: none;
 }
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: v.$headerHoverBG;
+  background-color: $headerHoverBG;
 }
 
 .header .logo {
@@ -81,7 +81,7 @@
 }
 
 .header .menu-icon .navicon {
-  background: v.$iconBackground;
+  background: $iconBackground;
   display: block;
   height: 2px;
   position: relative;
@@ -91,7 +91,7 @@
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: v.$iconBackground;
+  background: $iconBackground;
   content: "";
   display: block;
   height: 100%;
@@ -102,7 +102,7 @@
 
 .header .menu-icon .navicon-dark:before,
 .header .menu-icon .navicon-dark:after {
-  background: v.$textColorDark !important;
+  background: $textColorDark !important;
   content: "";
   display: block;
   height: 100%;

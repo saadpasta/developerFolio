@@ -1,7 +1,7 @@
-@use '../globalColor' as v;
+@import '../_globalColor';
 
 .dark-mode {
-  background-color: v.$darkBackground;
+  background-color: $darkBackground;
   color: white;
   transition: "0.1s";
 }

@@ -1,4 +1,4 @@
-@use '../../globalColor' as v;
+@import '../../_globalColor';
 
 #topButton {
   visibility: hidden;
@@ -8,7 +8,7 @@
   z-index: 99;
   border: none;
   outline: none;
-  background-color: v.$buttonColor;
+  background-color: $buttonColor;
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -17,6 +17,6 @@
 }
 
 #topButton:hover {
-  background-color: v.$topButtonHover;
+  background-color: $topButtonHover;
   transition: all ease-in-out 0.2s;
 }

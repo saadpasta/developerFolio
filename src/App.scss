@@ -1,4 +1,4 @@
-@use './globalColor' as v;
+@import './globalColor';
 
 .App {
   text-align: center;
@@ -9,20 +9,20 @@
 }
 
 .App-header {
-  background-color: v.$appHeaderBG;
+  background-color: $appHeaderBG;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: v.$textColorDark;
+  color: $textColorDark;
 }
 
 .App-link {
-  color: v.$appLink;
+  color: $appLink;
 }
 
 .subTitle {
-  color: v.$subTitle;
+  color: $subTitle;
 }

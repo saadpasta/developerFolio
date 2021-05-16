@@ -1,4 +1,4 @@
-@use '../../globalColor' as v;
+@import '../../_globalColor';
 
 .main {
   width: 90%;
@@ -18,7 +18,7 @@
 }
 
 .subTitle {
-  color: v.$subTitle !important;
+  color: $subTitle !important;
 }
 
 .greeting-main {
@@ -37,7 +37,7 @@
 .greeting-text {
   font-size: 70px;
   line-height: 1.1;
-  color: v.$textColor !important;
+  color: $textColor !important;
 }
 
 .greeting-text-p {

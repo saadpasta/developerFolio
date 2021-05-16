@@ -1,4 +1,4 @@
-@use '../../globalColor' as v;
+@import '../../_globalColor';
 
 .social-media-div {
   font-size: 2em;
@@ -9,7 +9,7 @@
 }
 
 .icon-button i {
-  color: v.$textColorDark;
+  color: $textColorDark;
   border-radius: 2.6rem;
   cursor: pointer;
   display: inline-block;
@@ -29,39 +29,39 @@
 }
 
 .facebook i {
-  background-color: v.$faceBook;
+  background-color: $faceBook;
 }
 
 .linkedin i {
-  background-color: v.$linkedin;
+  background-color: $linkedin;
 }
 
 .github i {
-  background-color: v.$github;
+  background-color: $github;
 }
 
 .gitlab i {
-  background-color: v.$gitlab;
+  background-color: $gitlab;
 }
 
 .google i {
-  background-color: v.$google;
+  background-color: $google;
 }
 
 .twitter i {
-  background-color: v.$twitter;
+  background-color: $twitter;
 }
 
 .medium i {
-  background-color: v.$medium;
+  background-color: $medium;
 }
 
 .stack-overflow i {
-  background-color: v.$stackoverflow;
+  background-color: $stackoverflow;
 }
 
 .instagram i {
-  background-color: v.$instagram;
+  background-color: $instagram;
 }
 
 /* Hover Transition */
@@ -74,7 +74,7 @@
 .instagram i:hover,
 .stack-overflow i:hover,
 .medium i:hover {
-  background-color: v.$textColor;
+  background-color: $textColor;
 }
 
 /* Media Query */
