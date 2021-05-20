@@ -4,19 +4,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-<<<<<<< HEAD
-    "@apollo/react-hooks": "^3.1.5",
-    "apollo-boost": "^0.4.9",
-    "colorthief": "^2.3.2",
-    "gh-pages": "^2.1.1",
-    "graphql": "^14.7.0",
-=======
     "colorthief": "^2.3.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.6",
     "gh-pages": "^2.1.1",
     "jest-canvas-mock": "^2.3.1",
->>>>>>> 8a12f466fccf67928c4a5fc2bfe5998232d7dcbb
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-easy-emoji": "^1.4.0",
