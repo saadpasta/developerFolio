@@ -4,6 +4,10 @@
 
 import emoji from "react-easy-emoji";
 
+const illustration = {
+  animated: true // set to false to use static SVG
+};
+
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Simba Ndoro",
@@ -473,5 +477,7 @@ export {
   podcastSection,
   contactInfo,
   twitterDetails,
-  educationInfo
+  educationInfo,
+  bigProjects,
+  illustration
 };

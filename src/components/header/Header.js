@@ -48,24 +48,6 @@ function Header() {
             <li>
               <a href="#experience">Work Experiences</a>
             </li>
-<<<<<<< HEAD
-          }
-          <li>
-            <a href="#opensource">Open Source</a>
-          </li>
-          {/* <li>
-            <a href="#projects">Projects</a>
-          </li> */}
-          <li>
-            <a href="#achievements">Achievements</a>
-          </li>
-          {/* <li>
-            <a href="#blogs">Blogs</a>
-          </li>
-          <li>
-            <a href="#talks">Talks</a>
-          </li> */}
-=======
           )}
           {viewOpenSource && (
             <li>
@@ -90,7 +72,6 @@ function Header() {
           <li>
             <a href="#contact">Contact Me</a>
           </li>
->>>>>>> 8a12f466fccf67928c4a5fc2bfe5998232d7dcbb
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a>
