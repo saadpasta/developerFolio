@@ -23,10 +23,10 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/simbarashe-ndoro/",
   gmail: "dittogod1@gmail.com",
   gitlab: "https://gitlab.com/DittoGod",
-  facebook: "https://www.facebook.com/D1ttoGod/",
+  // facebook: "https://www.facebook.com/D1ttoGod/",
   medium: "https://medium.com/@Dittogod",
   stackoverflow: "https://stackoverflow.com/users/12103604/dittogod",
-  instagram: "https://www.instagram.com/dittogod/"
+  // instagram: "https://www.instagram.com/dittogod/"
   // Instagram and Twitter are also supported in the links!
 };
 
@@ -152,7 +152,7 @@ const workExperiences = {
     {
       role: "Software Engineer Intern",  
       company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./ass<<<<<<<ets/images/airbnbLogo.png"),
       date: "Jan 2015 – Sep 2015",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
@@ -325,7 +325,7 @@ const contactInfo = {
 
 const twitterDetails = {
 
-  userName : "8BitLion"//Replace "twitter" with your twitter username without @
+  // userName : "8BitLion"//Replace "twitter" with your twitter username without @
   
 };
 export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
