@@ -4,26 +4,29 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@apollo/react-hooks": "^3.1.5",
-    "apollo-boost": "^0.4.9",
-    "colorthief": "^2.3.2",
+    "colorthief": "^2.3.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
     "gh-pages": "^2.1.1",
-    "graphql": "^14.7.0",
+    "jest-canvas-mock": "^2.3.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-easy-emoji": "^1.4.0",
     "react-headroom": "^3.0.0",
+    "react-lottie": "^1.2.3",
     "react-reveal": "^1.2.2",
-    "react-scripts": "3.2.0",
+    "react-scripts": "^3.4.3",
+    "react-test-renderer": "^17.0.2",
     "react-twitter-embed": "3.0.3"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "node fetch.js && react-scripts start",
+    "build": "node fetch.js && react-scripts build",
     "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "format": "prettier --write \"./**/*.{js,css,json}\""
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -39,5 +42,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "prettier": "^2.2.1"
   }
 }

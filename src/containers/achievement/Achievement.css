@@ -9,6 +9,10 @@
   margin: 0px;
   margin-bottom: 50px;
 }
+.subTitle {
+  color: #868e96;
+}
+
 /* Media Query */
 @media (max-width: 1380px) {
   .achievement-heading {
