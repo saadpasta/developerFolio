@@ -382,6 +382,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "SJellen",
+      "name": "Scott Jellen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51421669?v=4",
+      "profile": "http://ScottJellen.com",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
