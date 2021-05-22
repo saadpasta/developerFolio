@@ -27,7 +27,8 @@
     "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format": "prettier --write \"./**/*.{js,css,json}\""
+    "format": "prettier --write \"./**/*.{js,css,json}\"",
+    "check-format": "prettier -c \"./**/*.{js,css,json}\""
   },
   "eslintConfig": {
     "extends": "react-app"
