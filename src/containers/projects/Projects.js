@@ -1,5 +1,5 @@
 import React, {useState, useEffect, useContext, Suspense, lazy} from "react";
-import "./Project.css";
+import "./Project.scss";
 import Button from "../../components/button/Button";
 import {openSource, socialMediaLinks} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";

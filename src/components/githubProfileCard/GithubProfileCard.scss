@@ -1,11 +1,13 @@
+@import '../../_globalColor';
+
 .profile-image {
   border-radius: 50%;
-  border: 0.5rem solid #6c63ff;
+  border: 0.5rem solid $githubProfileCardBorder;
   margin-left: auto;
   width: 100%;
   max-width: 350px;
   height: auto;
-  box-shadow: rgba(0, 0, 0, 1) 0 30px 30px -30px;
+  box-shadow: $lightBoxShadow 0 30px 30px -30px;
   transition: all 0.3s ease-out;
 }
 
@@ -20,7 +22,7 @@
 }
 
 .location-div {
-  text-shadow: blanchedalmond;
+  text-shadow: $githubProfileCardLocationTS;
 }
 
 .opp-div {
@@ -53,7 +55,7 @@
 }
 
 .subTitle {
-  color: #868e96;
+  color: $subTitle;
 }
 
 @media (max-width: 768px) {
@@ -91,7 +93,7 @@
   }
 
   .profile-image:hover {
-    box-shadow: rgba(0, 0, 0, 1) 0 50px 50px -50px;
+    box-shadow: $lightBoxShadow  0 50px 50px -50px;
     transition: 0.3s ease-out;
   }
 

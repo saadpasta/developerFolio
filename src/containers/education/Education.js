@@ -1,5 +1,5 @@
 import React from "react";
-import "./Education.css";
+import "./Education.scss";
 import EducationCard from "../../components/educationCard/EducationCard";
 import {educationInfo} from "../../portfolio";
 

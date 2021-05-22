@@ -1,3 +1,5 @@
+@import '../../_globalColor';
+
 .container {
   display: flex;
   justify-content: center;
@@ -9,14 +11,14 @@
   width: 380px;
   height: 300px;
   border-radius: 4px;
-  box-shadow: 0px 20px 50px #d9dbdf;
+  box-shadow: 0px 20px 50px $darkBoxShadow;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
   margin-top: 50px;
 }
 .rectangle:hover {
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 20px 40px $textColorDark;
 }
 .dark-rectangle {
   box-shadow: 0px 0px 20px 0px;
@@ -29,7 +31,7 @@
 
 /* Card  Styling */
 .talk-card-title {
-  color: white;
+  color: $textColorDark;
   margin: auto;
   text-align: left;
   margin-top: 25px;
@@ -47,7 +49,7 @@
   padding-left: 30px;
   padding-right: 30px;
   font-size: 16px;
-  color: #7f8287;
+  color: $talkCardSubTitle;
   line-height: 18px;
   overflow: hidden;
   display: -webkit-box;
@@ -55,8 +57,8 @@
   -webkit-box-orient: vertical;
 }
 .talk-button {
-  background-color: #55198b;
-  color: white;
+  background-color: $buttonColor;
+  color: $textColorDark;
   width: 90px;
   padding: 10px 18px;
   border-radius: 3px;
@@ -68,7 +70,7 @@
   cursor: pointer;
 }
 .talk-button:hover {
-  background: #8c43ce;
+  background: $buttonHover;
 }
 .card-footer-button-div {
   display: flex;
@@ -94,8 +96,8 @@
   }
 
   .talk-button {
-    background-color: #55198b;
-    color: white;
+    background-color: $buttonColor;
+    color: $textColorDark;
     width: 90px;
     padding: 10px 18px;
     border-radius: 3px;
@@ -108,7 +110,7 @@
     transition: 0.2s ease-in;
   }
   .talk-button:hover {
-    background: #8c43ce;
+    background: $buttonHover;
   }
   .card-footer-button-div {
     display: flex;

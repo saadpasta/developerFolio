@@ -1,10 +1,12 @@
 /*Blog Cards Layout*/
+@import '../../_globalColor';
+
 .square {
   width: 440px;
   height: 430px;
-  background: white;
+  background: $textColorDark;
   border-radius: 4px;
-  box-shadow: 0px 20px 50px #d9dbdf;
+  box-shadow: 0px 20px 50px $darkBoxShadow;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -12,7 +14,7 @@
 }
 
 .square:hover {
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 20px 40px $lightBoxShadow;
 }
 
 .blog-header-text {
@@ -40,7 +42,8 @@
   gap: 32px;
 }
 .subTitle {
-  color: #868e96;
+  color: $subTitle;
+  
 }
 
 /* Media Query */

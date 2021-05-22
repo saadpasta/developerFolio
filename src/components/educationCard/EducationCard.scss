@@ -1,10 +1,12 @@
+@import '../../_globalColor';
+
 .education-card {
   display: flex;
   flex-direction: row;
 }
 
 .education-card:hover + .education-card-border {
-  border-color: #a9a7f9;
+  border-color: $educationCardBorder;
   width: 100%;
   -webkit-transition: width 0.6s ease-in-out;
   -moz-transition: width 0.6s ease-in-out;
@@ -15,7 +17,7 @@
 .education-card-border {
   height: 30px;
   width: 80%;
-  border-top: 2px solid rgba(211, 211, 211, 0.397);
+  border-top: 2px solid $lightBorder1;
   margin-bottom: 20px;
   -webkit-transition: width 0.6s ease-in-out;
   -moz-transition: width 0.6s ease-in-out;
@@ -43,7 +45,7 @@
   margin-right: 2rem;
   width: 6rem;
   height: 6rem;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
   border-radius: 50%;
 }
 
@@ -52,7 +54,7 @@
 }
 
 .education-text-subHeader {
-  color: black;
+  color: $textColor;
   font-weight: 700;
   font-size: 19px;
   margin: 0px;
@@ -61,7 +63,7 @@
 }
 
 .education-text-duration {
-  color: #000000;
+  color: $titleColor;
   font-size: 19px;
   margin: 0px;
   padding-top: 0.5rem;
