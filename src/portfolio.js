@@ -206,7 +206,7 @@ const openSource = {
   // githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   // githubUserName: "DittoGod", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
