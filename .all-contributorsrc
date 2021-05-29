@@ -392,6 +392,15 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "karthikmohan",
+      "name": "Karthik Mohan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25052382?v=4",
+      "profile": "https://www.linkedin.com/in/karthik-mohan-/",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
