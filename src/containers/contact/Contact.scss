@@ -1,9 +1,11 @@
+@import '../../_globalColor';
+
 .contact-div-main {
   display: flex;
 }
 
 .dark-mode a {
-  color: white;
+  color: $textColorDark;
 }
 
 .contact-div-main > * {
@@ -20,14 +22,14 @@
   margin-top: 20px;
   font-size: 40px;
   font-weight: 400;
-  color: #868e96;
+  color: $subTitle;
   text-decoration: none;
 }
 
 .contact-detail:hover,
 .contact-detail-email:hover {
-  color: black;
-  text-shadow: 2px 1px 2px #b5b5b5;
+  color: $textColor;
+  text-shadow: 2px 1px 2px $contactDetailHoverTS;
   transition: all 0.3s;
 }
 

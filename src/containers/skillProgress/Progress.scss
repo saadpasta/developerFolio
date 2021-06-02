@@ -1,7 +1,9 @@
+@import '../../_globalColor';
+
 .meter {
   height: 20px;
   position: relative;
-  background: rgb(243, 239, 239);
+  background: $progressBarBackground;
   -moz-border-radius: 25px;
   -webkit-border-radius: 25px;
   border-radius: 25px;
@@ -13,7 +15,7 @@
   border-bottom-right-radius: 6px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  background-color: #aaa5ff;
+  background-color: $progressBarSpanBG;
   position: relative;
   overflow: hidden;
 }

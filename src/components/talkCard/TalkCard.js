@@ -1,5 +1,5 @@
 import React from "react";
-import "./TalkCard.css";
+import "./TalkCard.scss";
 
 export default function TalkCard({talkDetails}) {
   return (

@@ -1,3 +1,5 @@
+@import './globalColor';
+
 .App {
   text-align: center;
 }
@@ -7,20 +9,20 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: $appHeaderBG;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: $textColorDark;
 }
 
 .App-link {
-  color: #09d3ac;
+  color: $appLink;
 }
 
 .subTitle {
-  color: #868e96;
+  color: $subTitle;
 }

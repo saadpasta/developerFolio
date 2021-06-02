@@ -17,7 +17,7 @@ import Twitter from "./twitter-embed/twitter";
 import Profile from "./profile/Profile";
 import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
-import "./Main.css";
+import "./Main.scss";
 
 const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");

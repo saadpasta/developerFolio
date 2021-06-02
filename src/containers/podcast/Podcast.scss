@@ -1,3 +1,5 @@
+@import '../../_globalColor';
+
 .podcast-header-title {
   font-size: 56px;
   font-weight: 400;
@@ -14,7 +16,7 @@
   gap: 1rem 1rem;
 }
 .subTitle {
-  color: #868e96;
+  color: $subTitle;
 }
 
 @media (max-width: 768px) {
