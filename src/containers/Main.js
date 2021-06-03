@@ -29,9 +29,7 @@ const Main = () => {
 
   return (
     <div className={isDark ? "dark-mode" : null}>
-      <StyleProvider
-        value={{isDark: isDark, changeTheme: changeTheme}}
-      >
+      <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
         <Header />
         <Greeting />
         <Skills />
@@ -51,6 +49,6 @@ const Main = () => {
       </StyleProvider>
     </div>
   );
-}
+};
 
 export default Main;
