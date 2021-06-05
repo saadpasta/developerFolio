@@ -1,4 +1,4 @@
-@import '../../_globalColor';
+@import "../../_globalColor";
 
 .profile-image {
   border-radius: 50%;
@@ -93,7 +93,7 @@
   }
 
   .profile-image:hover {
-    box-shadow: $lightBoxShadow  0 50px 50px -50px;
+    box-shadow: $lightBoxShadow 0 50px 50px -50px;
     transition: 0.3s ease-out;
   }
 
