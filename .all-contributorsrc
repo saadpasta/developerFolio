@@ -401,6 +401,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "mhowell11",
+      "name": "mhowell11",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62813469?v=4",
+      "profile": "https://github.com/mhowell11",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
