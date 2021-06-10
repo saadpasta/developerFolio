@@ -401,9 +401,7 @@ const podcastSection = {
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "url"
-  ],
+  podcast: ["url"],
   display: false // Set false to hide this section, defaults to true
 };
 
