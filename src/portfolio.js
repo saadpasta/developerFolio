@@ -167,8 +167,7 @@ const workExperiences = {
       company: "Tekdi Technologies Pvt Ltd",
       companylogo: require("./assets/images/tekdi.png"),
       date: "Jan 2016 – present",
-      desc:
-        "Worked on various exciting projects with this organization while performing various roles"
+      desc: "Worked on various exciting projects with this organization while performing various roles"
     }
   ]
 };
@@ -229,13 +228,11 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Playstore",
-          url:
-            "https://play.google.com/store/apps/details?id=com.techjoomla.easysocial"
+          url: "https://play.google.com/store/apps/details?id=com.techjoomla.easysocial"
         },
         {
           name: "Visit AppStore",
-          url:
-            "https://itunes.apple.com/in/app/easysocial-for-joomla/id922884839?mt=8"
+          url: "https://itunes.apple.com/in/app/easysocial-for-joomla/id922884839?mt=8"
         }
       ]
     },
@@ -248,8 +245,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Playstore",
-          url:
-            "https://play.google.com/store/apps/details?id=com.techjoomla.JTicketingPro"
+          url: "https://play.google.com/store/apps/details?id=com.techjoomla.JTicketingPro"
         },
         {
           name: "Visit AppStore",
@@ -274,13 +270,11 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Playstore",
-          url:
-            "https://play.google.com/store/apps/details?id=com.appcarvers.bni"
+          url: "https://play.google.com/store/apps/details?id=com.appcarvers.bni"
         },
         {
           name: "Visit AppStore",
-          url:
-            "https://itunes.apple.com/in/app/bni-biz-directory/id1107981649?mt=8"
+          url: "https://itunes.apple.com/in/app/bni-biz-directory/id1107981649?mt=8"
         }
       ]
     }
@@ -305,18 +299,15 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url:
-            "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
         },
         {
           name: "Award Letter",
-          url:
-            "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
         },
         {
           name: "Google Code-in Blog",
-          url:
-            "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
         }
       ]
     },
@@ -328,8 +319,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Google Assistant Action",
-          url:
-            "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
         }
       ]
     },
@@ -359,8 +349,7 @@ const blogSection = {
 
   blogs: [
     {
-      url:
-        "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
       description:
         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
