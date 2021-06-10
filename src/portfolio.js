@@ -24,7 +24,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/itsvick",
   linkedin: "https://www.linkedin.com/in/vivek-kasture",
-  // gmail: "saadpasta70@gmail.com",
+  // gmail: "itsvick@gmail.com",
   // medium: "https://medium.com/@vivekkasture",
   stackoverflow: "https://stackoverflow.com/users/4725898/vivek-kasture",
   instagram: "https://www.instagram.com/kasturevivek",
@@ -324,7 +324,7 @@ const achievementSection = {
       title: "Google Assistant Action",
       subtitle:
         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      // image: require("./assets/images/googleAssistantLogo.webp"),
       footerLink: [
         {
           name: "View Google Assistant Action",
@@ -337,7 +337,7 @@ const achievementSection = {
     {
       title: "PWA Web App Developer",
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      // image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
         {name: "Certification", url: ""},
         {
@@ -366,7 +366,7 @@ const blogSection = {
         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+      url: "https://medium.com/itsvick/why-react-is-the-best-5a97563f423e",
       title: "Why REACT is The Best?",
       description:
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
@@ -387,7 +387,7 @@ const talkSection = {
     {
       title: "Build Actions For Google Assistant",
       subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
+      slides_url: "https://bit.ly/itsvick-slides",
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
@@ -402,7 +402,7 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "url"
   ],
   display: false // Set false to hide this section, defaults to true
 };
