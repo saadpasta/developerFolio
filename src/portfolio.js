@@ -16,8 +16,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate Software Developer 🚀 having an experience of building Web with JavaScript and some other cool libraries and frameworks."
   ),
-  resumeLink:
-    "https://www.linkedin.com/in/juhyun-an-a13866205/",
+  resumeLink: "https://www.linkedin.com/in/juhyun-an-a13866205/",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
