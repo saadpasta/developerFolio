@@ -18,7 +18,7 @@ const socialMediaLinks = {
 
   github: "https://github.com/bradleycherrin",
   linkedin: "https://www.linkedin.com/in/bradleycherrin1/",
-  twitter: "https://twitter.com/bradleycherrin",
+  //twitter: "https://twitter.com/bradleycherrin",
   medium: "https://www.medium.com/@bradleycherrin",
   stackoverflow: "https://stackoverflow.com/users/9061047/bradley-c-herrin"
   // Instagram and Twitter are also supported in the links!
@@ -130,7 +130,7 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "IBM Cloud - Senior Software Engineer",  
+      role: "IBM Cloud - Senior Software Engineer",
       company: "IBM",
       companylogo: require("./assets/images/ibmLogoNew.png"),
       date: "November 2018 – Present",
@@ -150,7 +150,7 @@ To know how to get github key look at readme.md */
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "bradleycherrin", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
+  showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false
 };
 
 // Your Achievement Section Include Your Certification Talks and More
@@ -242,6 +242,6 @@ const contactInfo = {
 const twitterDetails = {
 
   userName : "bradleycherrin"//Replace "twitter" with your twitter username without @
-  
+
 };
-export { greeting, socialMediaLinks, skillsSection, workExperiences, openSource, achievementSection, blogSection, patentsSection, contactInfo , twitterDetails};
+export { greeting, socialMediaLinks, skillsSection, workExperiences, openSource, achievementSection, blogSection, patentsSection, contactInfo};
