@@ -239,9 +239,9 @@ const contactInfo = {
 
 //Twitter Section
 
-//const twitterDetails = {
+const twitterDetails = {
 
-  //userName : "bradleycherrin"//Replace "twitter" with your twitter username without @
+  userName : "bradleycherrin"//Replace "twitter" with your twitter username without @
 
-//};
-export { greeting, socialMediaLinks, skillsSection, workExperiences, openSource, achievementSection, blogSection, patentsSection, contactInfo};
+};
+export { greeting, socialMediaLinks, skillsSection, workExperiences, openSource, achievementSection, blogSection, patentsSection, contactInfo, twitterDetails};
