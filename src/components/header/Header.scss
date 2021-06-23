@@ -1,5 +1,8 @@
 @import "../../_globalColor";
-
+/*React-headroom*/
+.headroom-wrapper{
+  max-height:100px;
+}
 /* header */
 
 .dark-menu {
@@ -99,6 +102,9 @@
   transition: all 0.2s ease-out;
   width: 100%;
 }
+.header .menu-icon .navicon-dark{
+  background:$textColorDark;
+}
 
 .header .menu-icon .navicon-dark:before,
 .header .menu-icon .navicon-dark:after {
@@ -130,7 +136,7 @@
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
-  background: transparent;
+  background: transparent !important;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon:before {
