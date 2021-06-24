@@ -33,6 +33,7 @@
   list-style: none;
   overflow: hidden;
 }
+
 .grey-color {
   color: $subTitle;
 }
@@ -58,6 +59,7 @@
   margin-top: 10px;
   line-height: normal;
 }
+
 .header .logo-name {
   font-family: "Agustina Regular";
   font-weight: bold;
@@ -108,8 +110,6 @@
   transition: all 0.2s ease-out;
   width: 100%;
 }
-
-
 
 .header .menu-icon .navicon-dark:before,
 .header .menu-icon .navicon-dark:after {
