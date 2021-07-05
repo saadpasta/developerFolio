@@ -9,7 +9,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: "0 12 * * 1"
+    - cron: "0 12 * * 1" # see https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
