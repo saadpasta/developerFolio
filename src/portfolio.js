@@ -17,7 +17,7 @@ const greeting = {
     "A passionate Android app Developer 🚀 having experience with Java, Kotlin, and Flutter.\n Now-a-days I'm playing with Python"
   ),
   resumeLink:
-        "https://docs.google.com/document/d/e/2PACX-1vRK5xSWiITQGOeRrDwzsET1mP8tjRqrxzQyX_SMeSuYQguPJ8zaAbsq-OmbmeJEPYNaF0bpQAEobmwt/pub",
+    "https://docs.google.com/document/d/e/2PACX-1vRK5xSWiITQGOeRrDwzsET1mP8tjRqrxzQyX_SMeSuYQguPJ8zaAbsq-OmbmeJEPYNaF0bpQAEobmwt/pub",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -73,14 +73,14 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "ubuntu",
       fontAwesomeClassname: "fab fa-ubuntu"
     },
-//    {
-//      skillName: "i3",
-//      fontAwesomeClassname: "fab fa-node"
-//    },
-//    {
-//      skillName: "uefi",s
-//      fontAwesomeClassname: "fab fa-swift"
-//    },
+    //    {
+    //      skillName: "i3",
+    //      fontAwesomeClassname: "fab fa-node"
+    //    },
+    //    {
+    //      skillName: "uefi",s
+    //      fontAwesomeClassname: "fab fa-swift"
+    //    },
     {
       skillName: "android-studio",
       fontAwesomeClassname: "fab fa-android"
@@ -97,18 +97,18 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
-//    {
-//      skillName: "anaconda",
-//      fontAwesomeClassname: "fab fa-snake"
-//    },
+    //    {
+    //      skillName: "anaconda",
+    //      fontAwesomeClassname: "fab fa-snake"
+    //    },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
-    },
-//    {
-//      skillName: "docker",
-//      fontAwesomeClassname: "fab fa-docker"
-//    }
+    }
+    //    {
+    //      skillName: "docker",
+    //      fontAwesomeClassname: "fab fa-docker"
+    //    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -121,18 +121,18 @@ const educationInfo = {
       logo: require("./assets/images/bhu.jpeg"),
       subHeader: "Bachelor of Science, Hon's in Life Sciences",
       duration: "August 2019 - April 2022",
-      desc: "Currently studying bio-chemistry, Genetics, Cell Biology, and Physiological Functions, etc.",
-//      descBullets: [
-//        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-//        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-//      ]
+      desc: "Currently studying bio-chemistry, Genetics, Cell Biology, and Physiological Functions, etc."
+      //      descBullets: [
+      //        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      //      ]
     },
     {
       schoolName: "Indian Institute of Technology, Madras",
       logo: require("./assets/images/iitm.png"),
       subHeader: "B.Sc. in Computer Programming and Data Science",
       duration: "September 2020 - April 2024",
-      desc: "Learning Programming, Algorithms, Operating Systems, Data Structures, Data Analytics, etc.",
+      desc: "Learning Programming, Algorithms, Operating Systems, Data Structures, Data Analytics, etc."
       //descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
@@ -212,7 +212,8 @@ const bigProjects = {
     {
       image: require("./assets/images/dextrose.jpeg"),
       projectName: "September",
-      projectDesc: "Integrated bots running cross-platform; a backend to enhance user-intraction and accessibilities",
+      projectDesc:
+        "Integrated bots running cross-platform; a backend to enhance user-intraction and accessibilities",
       footerLink: [
         {
           name: "Go to Repositorys",
@@ -334,7 +335,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+91-7897914523",
-  email_address: "monees007@outlook.com",
+  email_address: "monees007@outlook.com"
 };
 
 const twitterDetails = {
