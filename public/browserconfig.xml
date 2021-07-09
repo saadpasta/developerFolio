@@ -2,7 +2,7 @@
 <browserconfig>
     <msapplication>
         <tile>
-            <square150x150logo src="/mstile-150x150.png?v8=qAJ44G5Bm7"/>
+            <square150x150logo src="/zombie-panic-source.svg"/>
             <TileColor>#603cba</TileColor>
         </tile>
     </msapplication>
