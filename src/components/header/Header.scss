@@ -63,6 +63,7 @@
 .header .logo-name {
   font-family: "Agustina Regular";
   font-weight: bold;
+  font-feature-settings: "liga","clig off";
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   padding: 0 10px;
@@ -81,7 +82,7 @@
 .header .menu-icon {
   cursor: pointer;
   display: inline-block;
-  float: right;
+  // float: right;
   padding: 28px 20px;
   position: relative;
   user-select: none;
