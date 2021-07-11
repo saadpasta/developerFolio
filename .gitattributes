@@ -1,2 +1,6 @@
-# Declare files that always have LF line endings on checkout
 * text eol=lf
+
+# Denote all files that are truly binary and should not be modified
+*.ttf binary
+*.png binary
+*.webp
