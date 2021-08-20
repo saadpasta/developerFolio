@@ -4,6 +4,15 @@
   text-align: center;
 }
 
+.loader{
+  text-align: center;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .App-logo {
   height: 40vmin;
 }

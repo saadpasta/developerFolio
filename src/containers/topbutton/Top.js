@@ -13,15 +13,16 @@ export default function Top() {
       document.documentElement.scrollTop > 20
     ) {
       document.getElementById("topButton").style.visibility = "visible";
-    } else {
-      document.getElementById("topButton").style.visibility = "hidden";
-    }
+  }
+    // } else {
+    //   document.getElementById("topButton").style.visibility = "hidden";
+    // }
   }
   window.onscroll = function () {
     scrollFunction();
   };
   window.onload = function () {
-    scrollFunction();
+    // scrollFunction();
   }; //To make sure that this button is not visible at starting.
   // When the user clicks on the button, scroll to the top of the document
   return (
