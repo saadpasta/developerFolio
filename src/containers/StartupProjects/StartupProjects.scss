@@ -1,4 +1,4 @@
-@import '../../_globalColor';
+@import "../../_globalColor";
 
 .card-image {
   max-width: 100%;
@@ -27,14 +27,14 @@
   justify-content: center;
 }
 .project-card-light {
-  box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;;
+  box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
 .project-card-dark {
-  box-shadow:  0px 10px 30px -15px $darkBoxShadow;
+  box-shadow: 0px 10px 30px -15px $darkBoxShadow;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.25s ease;
@@ -44,7 +44,7 @@
   text-align: center;
 }
 .project-card-light:hover {
-  box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;; 
+  box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
 }
 .project-card-dark:hover {
   box-shadow: 0px 20px 30px -10px $darkBoxShadow;

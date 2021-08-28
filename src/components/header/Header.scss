@@ -1,4 +1,9 @@
-@import '../../_globalColor';
+@import "../../_globalColor";
+
+/*React-headroom*/
+.headroom-wrapper {
+  max-height: 100px;
+}
 
 /* header */
 
@@ -28,6 +33,7 @@
   list-style: none;
   overflow: hidden;
 }
+
 .grey-color {
   color: $subTitle;
 }
@@ -53,6 +59,7 @@
   margin-top: 10px;
   line-height: normal;
 }
+
 .header .logo-name {
   font-family: "Agustina Regular";
   font-weight: bold;
@@ -87,6 +94,10 @@
   position: relative;
   transition: background 0.2s ease-out;
   width: 18px;
+}
+
+.header .menu-icon .navicon-dark {
+  background: $textColorDark;
 }
 
 .header .menu-icon .navicon:before,
@@ -130,7 +141,7 @@
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
-  background: transparent;
+  background: transparent !important;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon:before {
