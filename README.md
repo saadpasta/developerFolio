@@ -10,12 +10,11 @@
 </p>
 
 
-Just change `src/portfolio.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
+Just change `src/portfolio.js` to get your personal portfolio. Customize portfolio theme by using your own color scheme globally in the  `src/_globalColor.scss` file. Feel free to use it as-is or personalize it as much as you want.
 
-But if you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/saadpasta/developerFolio/issues).
+If you'd like to **contribute** and make this much better for other users, have a look at [Issues](https://github.com/saadpasta/developerFolio/issues).
 
-
-If you created something awesome and want to contribute then feel free to open an [pull request](https://github.com/saadpasta/developerFolio/pulls).
+Created something awesome for your fork of the portfolio and want to share it? Feel free to open a [pull request](https://github.com/saadpasta/developerFolio/pulls).
 
 ## Table of Contents
 - [Sections](#sections)
@@ -29,7 +28,7 @@ If you created something awesome and want to contribute then feel free to open a
 - [For the Future](#for-the-future)
 - [Contributors](#project-maintainers)
 
-## Sections
+## Portfolio Sections
 ✔️ Summary and About me\
 ✔️ Skills\
 ✔️ Education\
@@ -132,7 +131,7 @@ If the above solution still doesn't work, visit the [wiki page](https://github.c
 
 ## Change and customize every section according to your need.
 
-#### Personalize page content in `/src/portfolio.js` & modify it as per your need.
+#### Personalize page content in `/src/portfolio.js` & modify it as per your need. You will also need to modify index.html to change the metadata to reflect the title you want for your personal portfolio.
 
 ```javascript
 /* Change this file to get your Personal Porfolio */
@@ -315,6 +314,12 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/jayhawk24"><img src="https://avatars.githubusercontent.com/u/38766415?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anubhav Gupta</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=jayhawk24" title="Code">💻</a></td>
     <td align="center"><a href="https://vatsaldavevdwpblog.wordpress.com/"><img src="https://avatars.githubusercontent.com/u/42956495?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Vatsal Dave</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=vatsaldaveVD" title="Code">💻</a></td>
     <td align="center"><a href="http://www.elvisciuffetelli.com"><img src="https://avatars.githubusercontent.com/u/35818757?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Elvis Ciuffetelli</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=elvisciuffetelli" title="Code">💻</a></td>
+    <td align="center"><a href="http://ScottJellen.com"><img src="https://avatars.githubusercontent.com/u/51421669?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Scott Jellen</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=SJellen" title="Code">💻</a> <a href="#design-SJellen" title="Design">🎨</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/karthik-mohan-/"><img src="https://avatars.githubusercontent.com/u/25052382?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Karthik Mohan</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/issues?q=author%3Akarthikmohan" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/mhowell11"><img src="https://avatars.githubusercontent.com/u/62813469?v=4?s=100" width="100px;" alt=""/><br /><sub><b>mhowell11</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/commits?author=mhowell11" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/gajanandh"><img src="https://avatars.githubusercontent.com/u/80502737?v=4?s=100" width="100px;" alt=""/><br /><sub><b>gajanandh</b></sub></a><br /><a href="https://github.com/saadpasta/developerFolio/issues?q=author%3Agajanandh" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 

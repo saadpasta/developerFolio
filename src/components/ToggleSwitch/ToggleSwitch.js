@@ -1,6 +1,6 @@
 import React, {useState, useContext} from "react";
 import StyleContext from "../../contexts/StyleContext";
-import "./ToggleSwitch.css";
+import "./ToggleSwitch.scss";
 
 const ToggleSwitch = () => {
   const {isDark} = useContext(StyleContext);
