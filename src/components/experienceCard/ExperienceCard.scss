@@ -77,6 +77,19 @@
   white-space: nowrap;
 }
 
+.experience-squareimg {
+  position: absolute;
+  object-fit: cover;
+  left: 0;
+  right: 0;
+  top: 7rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8rem;
+  height: 8rem;
+  box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
+}
+
 .experience-roundedimg {
   position: absolute;
   object-fit: cover;
@@ -134,7 +147,7 @@
   .experience-text-date {
     font-size: 18px;
   }
-  .experience-roundedimg {
+  .experience-roundedimg .experience-squareimg {
     width: 6.5rem;
     height: 6.5rem;
   }

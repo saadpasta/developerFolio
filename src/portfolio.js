@@ -7,7 +7,7 @@
 import emoji from "react-easy-emoji";
 
 const illustration = {
-  animated: true // set to false to use static SVG
+  animated: false // set to false to use static SVG
 };
 
 const greeting = {
@@ -16,7 +16,7 @@ const greeting = {
   subTitle: "Work under progress!",
   // subTitle: "A passionate technology and finance enthusiast, working as a full stack developer in the role of a Technology Analyst for 2 years in Goldman Sachs, one of the leading global investment banks.\nEnthusiastic, curious guy interested in the fields of Data Science, Systems, Cyber-Security, and the finance world.",
   resumeLink:
-    "https://www.dropbox.com/s/67hldeh0803hndp/cv-professional.pdf",
+    "https://www.dropbox.com/s/67hldeh0803hndp/cv-professional.pdf?dl=0",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -107,7 +107,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-docker"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -132,7 +132,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -158,7 +158,8 @@ const workExperiences = {
     {
       role: "Technology Analyst",
       company: "Goldman Sachs",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/GS.png"),
+      companylogoShape: "square",
       date: "June 2019 - Present",
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
@@ -170,7 +171,8 @@ const workExperiences = {
     {
       role: "Summer Intern",
       company: "Goldman Sachs",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/GS.png"),
+      companylogoShape: "square",
       date: "May 2018 - July 2018",
       desc: "Developed and deployed a search engine using ElasticSearch.",
       // descBullets: [
@@ -182,7 +184,8 @@ const workExperiences = {
     {
       role: "Intern",
       company: "Clean Bill of Health Pvt. Ltd. - Virtual Clinic",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/virtualclinic.jpg"),
+      companylogoShape: "round",
       date: "May 2017 – July 2017",
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       descBullets: [
@@ -193,7 +196,7 @@ const workExperiences = {
     {
       role: "Intern",
       company: "5C Network",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/5c.png"),
       date: "Dec 2016",
       desc: "Designed user-friendly dashboards to visualize and generate insights on real-time health care data, and integrated the dashboards into the company’s website."
     }
@@ -238,7 +241,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -356,11 +359,11 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+    "Say Hi",
+  // number: "+92-3243454077",
+  email_address: "akshayupadhya@gmail.com"
 };
 
 // Twitter Section
