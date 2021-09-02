@@ -116,10 +116,11 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "National Institute of Technology Karnataka, Surathkal (NITK)",
+      schoolName:
+        "National Institute of Technology Karnataka, Surathkal (NITK)",
       logo: require("./assets/images/nitkLogo.png"),
       subHeader: "Bachelor of Technology in Information Technology",
-      duration: "July 2015 - May 2019",
+      duration: "July 2015 - May 2019"
       // desc: "Participated in the research of XXX and published 3 papers.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -165,7 +166,7 @@ const workExperiences = {
       descBullets: [
         "Involved in design and micro-service based architecture of a product.",
         "Multiple Performance Upgrades in application APIs, processes and MongoDB queries.",
-        "Coordinated Projects of Bangalore and London interns.",
+        "Coordinated Projects of Bangalore and London interns."
       ]
     },
     {
@@ -174,7 +175,7 @@ const workExperiences = {
       companylogo: require("./assets/images/GS.png"),
       companylogoShape: "square",
       date: "May 2018 - July 2018",
-      desc: "Developed and deployed a search engine using ElasticSearch.",
+      desc: "Developed and deployed a search engine using ElasticSearch."
       // descBullets: [
       //   "Involved in design and micro-service based architecture of a product",
       //   "Multiple Performance Upgrades in application APIs, processes and MongoDB queries",
@@ -360,8 +361,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact ☎️"),
-  subtitle:
-    "Say Hi",
+  subtitle: "Say Hi",
   // number: "+92-3243454077",
   email_address: "akshayupadhya@gmail.com"
 };
