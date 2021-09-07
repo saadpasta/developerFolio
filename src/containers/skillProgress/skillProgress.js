@@ -1,17 +1,21 @@
-import React from "react";
+import React, {useContext} from "react";
 import "./Progress.scss";
 import {illustration, techStack} from "../../portfolio";
 import {Fade} from "react-reveal";
 import Build from "../../assets/lottie/build";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
+import LanguageContext from "../../contexts/LanguageContext";
+
 
 export default function StackProgress() {
+  const {lang} = useContext(LanguageContext);
+
   if (techStack.viewSkillBars) {
     return (
       <Fade bottom duration={1000} distance="20px">
         <div className="skills-container">
           <div className="skills-bar">
-            <h1 className="skills-heading">Proficiency</h1>
+            <h1 className="skills-heading">{lang === "en" ? "Proficiency" : "Competenze"}</h1>
             {techStack.experience.map((exp, i) => {
               const progressStyle = {
                 width: exp.progressPercentage

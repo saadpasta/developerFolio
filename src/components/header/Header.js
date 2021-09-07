@@ -2,6 +2,7 @@ import React, {useContext} from "react";
 import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
+import LanguageToggleSwitch from "../languageToggleSwitch/LanguageToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 import {
   greeting,
@@ -12,9 +13,13 @@ import {
   talkSection,
   achievementSection
 } from "../../portfolio";
+import LanguageContext from "../../contexts/LanguageContext";
+
 
 function Header() {
   const {isDark} = useContext(StyleContext);
+  const {lang} = useContext(LanguageContext);
+
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
@@ -41,41 +46,47 @@ function Header() {
         <ul className={isDark ? "dark-menu menu" : "menu"}>
           {viewSkills && (
             <li>
-              <a href="#skills">Skills</a>
+              <a href="#skills">{lang === "en" ? "Skills" : "Skills"}</a>
             </li>
           )}
           {viewExperience && (
             <li>
-              <a href="#experience">Work Experiences</a>
+              <a href="#experience">{lang === "en" ? "Work Experiences" : "Esperienze"}</a>
             </li>
           )}
           {viewOpenSource && (
             <li>
-              <a href="#opensource">Open Source</a>
+              <a href="#opensource">{lang === "en" ? "Open Source" : "Open Source"}</a>
             </li>
           )}
           {viewAchievement && (
             <li>
-              <a href="#achievements">Achievements</a>
+              <a href="#achievements">{lang === "en" ? "Achievements" : "Achievements"}</a>
             </li>
           )}
           {viewBlog && (
             <li>
-              <a href="#blogs">Blogs</a>
+              <a href="#blogs">{lang === "en" ? "Blogs" : "Blogs"}</a>
             </li>
           )}
           {viewTalks && (
             <li>
-              <a href="#talks">Talks</a>
+              <a href="#talks">{lang === "en" ? "Talks" : "Talks"}</a>
             </li>
           )}
           <li>
-            <a href="#contact">Contact Me</a>
+            <a href="#contact">{lang === "en" ? "Contact Me" : "Contattami"}</a>
           </li>
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a>
               <ToggleSwitch />
+            </a>
+          </li>
+          <li>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+            <a>
+              <LanguageToggleSwitch />
             </a>
           </li>
         </ul>
