@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AchivementCard({cardInfo}) {
   function openUrlInNewTab(url) {
-    if (!url){
+    if (!url) {
       return;
     }
     var win = window.open(url, "_blank");

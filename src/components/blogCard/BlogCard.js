@@ -3,7 +3,7 @@ import "./BlogCard.scss";
 
 export default function BlogCard({blog, isDark}) {
   function openUrlInNewTab(url) {
-    if (!url){
+    if (!url) {
       return;
     }
     var win = window.open(url, "_blank");
