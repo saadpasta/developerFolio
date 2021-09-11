@@ -6,7 +6,6 @@ export default function AchievementCard({cardInfo, isDark}) {
     if (!url){
       return;
     }
-    
     var win = window.open(url, "_blank");
     win.focus();
   }
