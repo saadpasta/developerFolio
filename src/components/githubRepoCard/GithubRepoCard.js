@@ -3,7 +3,10 @@ import "./GithubRepoCard.scss";
 import {Fade} from "react-reveal";
 
 export default function GithubRepoCard({repo, isDark}) {
-  function openRepoinNewTab(url) {
+  function openUrlInNewTab(url) {
+    if (!url) {
+      return;
+    }
     var win = window.open(url, "_blank");
     win.focus();
   }
@@ -14,7 +17,7 @@ export default function GithubRepoCard({repo, isDark}) {
         <div
           className={isDark ? "dark-card-mode repo-card-div" : "repo-card-div"}
           key={repo.node.id}
-          onClick={() => openRepoinNewTab(repo.node.url)}
+          onClick={() => openUrlInNewTab(repo.node.url)}
         >
           <div className="repo-name-div">
             <svg
