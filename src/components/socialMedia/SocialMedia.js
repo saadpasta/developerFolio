@@ -115,6 +115,18 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+
+      {socialMediaLinks.kaggle ? (
+        <a
+          href={socialMediaLinks.kaggle}
+          className="icon-button kaggle"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-kaggle"></i>
+          <span></span>
+        </a>
+      ) : null}
     </div>
   );
 }
