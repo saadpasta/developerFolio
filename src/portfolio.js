@@ -2,9 +2,24 @@
 
 // To change portfolio colors globally go to the  _globalColor.scss file
 
-// Summary And Greeting Section
-
 import emoji from "react-easy-emoji";
+
+// SEO Metadata (Affects how easily your site shows up in search engines)
+
+const seoMetadata = {
+  pageTitle: "DeveloperFolio | Developer Portfolio Template",
+  pageDescription:
+    "Software Developer Portfolio Template that helps you showcase your work and skills as a software developer",
+  ogTitle: "DeveloperFolio | Developer Portfolio Template",
+  ogDescription:
+    "Software Developer Portfolio Template that helps you showcase your work and skills as a software developer",
+  ogUrl: "https://developerfolio.js.org/",
+  ogType: "website",
+  ogImage: "" // Set og:image url, defaults to none
+  // To customize favicon and other metadata, tweak index.html
+};
+
+// Summary And Greeting Section
 
 const illustration = {
   animated: true // Set to false to use static SVG
@@ -363,6 +378,7 @@ const twitterDetails = {
 };
 
 export {
+  seoMetadata,
   illustration,
   greeting,
   socialMediaLinks,
