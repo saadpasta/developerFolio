@@ -131,7 +131,7 @@ If the above solution still doesn't work, visit the [wiki page](https://github.c
 
 ## Change and customize every section according to your need.
 
-#### Personalize page content in `/src/portfolio.js` & modify it as per your need. You will also need to modify index.html to change the metadata to reflect the title you want for your personal portfolio.
+#### Personalize page content in `/src/portfolio.js` & modify it as per your need. You will also need to modify `index.html` to change the title and metadata to provide accurate SEO for your personal portfolio.
 
 ```javascript
 /* Change this file to get your Personal Porfolio */

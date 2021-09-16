@@ -2,9 +2,9 @@
 
 // To change portfolio colors globally go to the  _globalColor.scss file
 
-// Summary And Greeting Section
-
 import emoji from "react-easy-emoji";
+
+// Summary And Greeting Section
 
 const illustration = {
   animated: true // Set to false to use static SVG
