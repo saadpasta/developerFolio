@@ -45,7 +45,7 @@ export default function Greeting() {
                 <Button
                   text={lang === "en" ? "See my resume" : "Scarica il mio CV"}
                   newTab={true}
-                  href={greeting.resumeLink}
+                  href={lang === "en" ? greeting.resumeLink : greetingIta.resumeLink}
                 />
               </div>
             </div>
