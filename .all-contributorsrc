@@ -437,6 +437,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "SunitRoy2703",
+      "name": "Sunit Roy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67560900?v=4",
+      "profile": "https://sunitroy2703.github.io",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
