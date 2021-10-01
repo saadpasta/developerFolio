@@ -455,6 +455,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "thatdevsherry",
+      "name": "Shehriyar Qureshi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40890226?v=4",
+      "profile": "http://thatdevsherry.pk",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
