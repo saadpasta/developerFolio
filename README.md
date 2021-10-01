@@ -177,6 +177,10 @@ const twitterDetails = { ... }
 
 For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` function and pass the text you need as an argument. This would help in keeping emojis compatible across different browsers and platforms.
 
+#### Customize Lottie Animations
+
+You can choose a lottie and download it in json format from [this page](https://lottiefiles.com/). In `src/assets/lottie`, replace the lottie json file you want to alter with the same file name. If you want to change the lottie options, go to `src/components/displayLottie/DisplayLottie.js` and change the `defaultOptions` object.
+
 #### Adding Twitter Time line to your Page
 Insert your Twitter username in `portfolio.js` to show your recent activity on your page.
 
