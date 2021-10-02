@@ -1,7 +1,9 @@
 import React from "react";
 import "./TalkCard.scss";
+import {checkMissingValuesObj} from "../errorfunc";
 
 export default function TalkCard({talkDetails}) {
+  checkMissingValuesObj(talkDetails, talkDetails.title, "TalkCard");
   return (
     <div>
       <div className="container">

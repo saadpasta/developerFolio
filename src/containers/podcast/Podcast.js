@@ -3,6 +3,7 @@ import "./Podcast.scss";
 import {podcastSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import {isValidHttpUrl} from "../../components/errorfunc";
 
 export default function Podcast() {
   const {isDark} = useContext(StyleContext);
@@ -26,6 +27,14 @@ export default function Podcast() {
         </div>
         <div className="podcast-main-div">
           {podcastSection.podcast.map((podcastLink, i) => {
+            if (!podcastLink) {
+              console.log(
+                `podcast link for ${podcastSection.title} is missing`
+              );
+            } else if (!isValidHttpUrl(podcastLink)) {
+              console.log(`URl for ${podcastLink} is wrong `);
+            }
+
             return (
               <div key={i}>
                 <iframe

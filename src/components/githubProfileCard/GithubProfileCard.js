@@ -4,6 +4,7 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import {contactInfo} from "../../portfolio";
 import emoji from "react-easy-emoji";
 import {Fade} from "react-reveal";
+import {checkMissingValuesObj} from "../errorfunc";
 
 export default function GithubProfileCard({prof}) {
   if (prof.isHireable) {
@@ -11,6 +12,8 @@ export default function GithubProfileCard({prof}) {
   } else {
     prof.hireable = "No";
   }
+
+  checkMissingValuesObj(prof, prof.name, "GithubProfile");
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="contact">

@@ -2,11 +2,15 @@ import React, {createRef, useContext} from "react";
 import {Fade, Slide} from "react-reveal";
 import "./EducationCard.scss";
 import StyleContext from "../../contexts/StyleContext";
+import {checkMissingValuesObj} from "../errorfunc";
 
 export default function EducationCard({school}) {
   const imgRef = createRef();
 
+  checkMissingValuesObj(school, school.name, "Education");
+
   const GetDescBullets = ({descBullets}) => {
+    if (!descBullets) return null;
     return descBullets
       ? descBullets.map((item, i) => (
           <li key={i} className="subTitle">
@@ -16,6 +20,9 @@ export default function EducationCard({school}) {
       : null;
   };
   const {isDark} = useContext(StyleContext);
+
+  if (!school.logo)
+    console.log(`Image of schoolName ${school.name} is not available`);
   return (
     <div>
       <Fade left duration={1000}>
