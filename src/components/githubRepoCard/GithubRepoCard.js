@@ -1,22 +1,17 @@
 import React from "react";
 import "./GithubRepoCard.scss";
 import {Fade} from "react-reveal";
-import {isValidHttpUrl, checkMissingValuesObj} from "../errorfunc";
 
 export default function GithubRepoCard({repo, isDark}) {
   function openUrlInNewTab(url, name) {
     if (!url) {
       console.log(`Url in ${name} is undefined`);
       return;
-    } else if (!isValidHttpUrl(url)) {
-      console.log(`URl for ${name} is wrong `);
-      return;
     }
     var win = window.open(url, "_blank");
     win.focus();
   }
 
-  checkMissingValuesObj(repo.node, repo.node.name, "GithubRepoCard");
   return (
     <Fade bottom duration={1000} distance="20px">
       <div>

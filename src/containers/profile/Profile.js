@@ -22,7 +22,7 @@ export default function Profile() {
             if (result.ok) {
               return result.json();
             }
-            console.error(result);
+            throw new Error("Couldn't fetch profile.json data");
           })
           .then(response => {
             setProfileFunction(response.data.user);
@@ -32,8 +32,10 @@ export default function Profile() {
             console.log(
               "Because of this error, contact section has reverted to default"
             );
-            console.error(error);
             openSource.showGithubProfile = "false";
+            throw new Error(
+              `${error} occured when tried to fetch profile data`
+            );
           });
       };
       getProfileData();

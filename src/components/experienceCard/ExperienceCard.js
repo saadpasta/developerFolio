@@ -1,7 +1,6 @@
 import React, {useState, createRef} from "react";
 import "./ExperienceCard.scss";
 import ColorThief from "colorthief";
-import {checkMissingValuesObj} from "../errorfunc";
 
 export default function ExperienceCard({cardInfo, isDark}) {
   const [colorArrays, setColorArrays] = useState([]);
@@ -17,12 +16,6 @@ export default function ExperienceCard({cardInfo, isDark}) {
       ? null
       : "rgb(" + values.join(", ") + ")";
   }
-
-  // for (let item in cardInfo) {
-  //   if (!cardInfo[item]) console.log(`the value of ${item} in missing`);
-  // }
-
-  checkMissingValuesObj(cardInfo, cardInfo.role, "Experiences");
 
   const GetDescBullets = ({descBullets, isDark}) => {
     if (!descBullets) return null;

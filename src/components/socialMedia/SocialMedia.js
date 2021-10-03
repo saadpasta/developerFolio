@@ -1,14 +1,12 @@
 import React from "react";
 import "./SocialMedia.scss";
 import {socialMediaLinks} from "../../portfolio";
-import {checkMissingValuesObj} from "../errorfunc";
 
 export default function socialMedia() {
   if (!socialMediaLinks.display) {
     return null;
   }
 
-  checkMissingValuesObj(socialMediaLinks, null, "socialMedia");
   return (
     <div className="social-media-div">
       {socialMediaLinks.github ? (

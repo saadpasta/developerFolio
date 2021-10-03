@@ -3,10 +3,13 @@ import "./Podcast.scss";
 import {podcastSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
-import {isValidHttpUrl} from "../../components/errorfunc";
 
 export default function Podcast() {
   const {isDark} = useContext(StyleContext);
+
+  if (!podcastSection)
+    throw new Error("Podcast objects for Podcast section is missing");
+
   if (!podcastSection.display) {
     return null;
   }
@@ -31,10 +34,7 @@ export default function Podcast() {
               console.log(
                 `podcast link for ${podcastSection.title} is missing`
               );
-            } else if (!isValidHttpUrl(podcastLink)) {
-              console.log(`URl for ${podcastLink} is wrong `);
             }
-
             return (
               <div key={i}>
                 <iframe

@@ -1,6 +1,5 @@
 import React from "react";
 import "./BlogCard.scss";
-import {isValidHttpUrl, checkMissingValuesObj} from "../errorfunc";
 
 export default function BlogCard({blog, isDark}) {
   function openUrlInNewTab(url, name) {
@@ -8,16 +7,10 @@ export default function BlogCard({blog, isDark}) {
       console.log(`URl for ${name} not found `);
       return;
     }
-    if (!isValidHttpUrl(url)) {
-      console.log(`URl for ${name} is wrong `);
-      return;
-    }
 
     var win = window.open(url, "_blank");
     win.focus();
   }
-
-  checkMissingValuesObj(blog, blog.title, "Blog");
 
   return (
     <div onClick={() => openUrlInNewTab(blog.url, blog.img, blog.title)}>
