@@ -16,8 +16,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
-  resumeLink:
-    "", // Set to empty to hide the button
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -354,8 +353,6 @@ const contactInfo = {
   email_address: "saadpasta70@gmail.com"
 };
 
-
-
 export {
   illustration,
   greeting,
@@ -370,5 +367,5 @@ export {
   blogSection,
   talkSection,
   podcastSection,
-  contactInfo,
+  contactInfo
 };
