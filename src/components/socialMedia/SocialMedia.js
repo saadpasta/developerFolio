@@ -6,7 +6,6 @@ export default function socialMedia() {
   if (!socialMediaLinks.display) {
     return null;
   }
-
   return (
     <div className="social-media-div">
       {socialMediaLinks.github ? (

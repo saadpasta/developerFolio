@@ -8,7 +8,7 @@ export default function Podcast() {
   const {isDark} = useContext(StyleContext);
 
   if (!podcastSection)
-    throw new Error("Podcast objects for Podcast section is missing");
+    console.error("Podcast objects for Podcast section is missing");
 
   if (!podcastSection.display) {
     return null;
