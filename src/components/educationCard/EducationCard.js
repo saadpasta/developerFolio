@@ -7,7 +7,6 @@ export default function EducationCard({school}) {
   const imgRef = createRef();
 
   const GetDescBullets = ({descBullets}) => {
-    if (!descBullets) return null;
     return descBullets
       ? descBullets.map((item, i) => (
           <li key={i} className="subTitle">

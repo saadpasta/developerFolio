@@ -51,9 +51,7 @@ export default function Projects() {
           <div className="repo-cards-div-main">
             {repo.map((v, i) => {
               if (!v) {
-                console.error(
-                  `Github Object for repository number : ${i + 1} is undefined`
-                );
+                console.error(`Github Object for ${v.node.name} is undefined`);
               }
               return (
                 <GithubRepoCard repo={v} key={v.node.id} isDark={isDark} />

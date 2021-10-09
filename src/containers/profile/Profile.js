@@ -7,7 +7,6 @@ const renderLoader = () => <Loading />;
 const GithubProfileCard = lazy(() =>
   import("../../components/githubProfileCard/GithubProfileCard")
 );
-
 export default function Profile() {
   const [prof, setrepo] = useState([]);
   function setProfileFunction(array) {
@@ -32,7 +31,7 @@ export default function Profile() {
               "Because of this error, contact section has reverted to default"
             );
             openSource.showGithubProfile = "false";
-            console.error(`${error} occured when trying to fetch profile`);
+            console.error(error);
           });
       };
       getProfileData();

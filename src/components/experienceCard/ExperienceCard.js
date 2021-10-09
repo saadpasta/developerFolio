@@ -18,7 +18,6 @@ export default function ExperienceCard({cardInfo, isDark}) {
   }
 
   const GetDescBullets = ({descBullets, isDark}) => {
-    if (!descBullets) return null;
     return descBullets
       ? descBullets.map((item, i) => (
           <li

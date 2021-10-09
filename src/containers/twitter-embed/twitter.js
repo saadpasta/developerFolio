@@ -25,7 +25,7 @@ export default function Twitter() {
     return null;
   }
   if (!twitterDetails.userName) {
-    console.error("Twitter username for twitter section are missing");
+    console.error("Twitter username for twitter section is missing");
   }
   if (twitterDetails.userName) {
     return (
