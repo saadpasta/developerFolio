@@ -4,7 +4,7 @@ import AchievementCard from "../../components/achievementCard/AchievementCard";
 import {achievementSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
-import {Carousel} from '3d-react-carousal';
+import {Carousel} from "3d-react-carousal";
 export default function Achievement() {
   const {isDark} = useContext(StyleContext);
   if (!achievementSection.display) {
@@ -23,7 +23,7 @@ export default function Achievement() {
         }}
       />
     );
-  })
+  });
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="achievements">
@@ -49,8 +49,7 @@ export default function Achievement() {
             </p>
           </div>
           <div className="achievement-cards-div">
-          <Carousel slides={slides} autoplay={true} interval={1000}/>
-
+            <Carousel slides={slides} autoplay={true} interval={1000} />
           </div>
         </div>
       </div>

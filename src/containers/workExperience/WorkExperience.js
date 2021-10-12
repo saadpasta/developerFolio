@@ -4,7 +4,7 @@ import ExperienceCard from "../../components/experienceCard/ExperienceCard";
 import {workExperiences} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
-import {Carousel} from '3d-react-carousal';
+import {Carousel} from "3d-react-carousal";
 
 export default function WorkExperience() {
   const {isDark} = useContext(StyleContext);
@@ -23,7 +23,7 @@ export default function WorkExperience() {
         }}
       />
     );
-  })
+  });
   if (workExperiences.display) {
     return (
       <div id="experience">
@@ -32,7 +32,7 @@ export default function WorkExperience() {
             <div>
               <h1 className="experience-heading">Experiences</h1>
               <div className="experience-cards-div">
-              <Carousel slides={slides} autoplay={true} interval={1000}/>
+                <Carousel slides={slides} autoplay={true} interval={1000} />
               </div>
             </div>
           </div>
