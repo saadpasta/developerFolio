@@ -8,7 +8,7 @@ export default function Podcast() {
   const {isDark} = useContext(StyleContext);
 
   if (!podcastSection)
-    console.error("Podcast objects for Podcast section is missing");
+    console.error(`${podcastSection} object for Podcast section is missing`);
 
   if (!podcastSection.display) {
     return null;
@@ -32,7 +32,7 @@ export default function Podcast() {
           {podcastSection.podcast.map((podcastLink, i) => {
             if (!podcastLink) {
               console.log(
-                `podcast link for ${podcastSection.title} is missing`
+                `Podcast link for ${podcastSection.title} is missing`
               );
             }
             return (
