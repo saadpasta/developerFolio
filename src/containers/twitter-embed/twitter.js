@@ -24,6 +24,9 @@ export default function Twitter() {
   if (!twitterDetails.display) {
     return null;
   }
+  if (!twitterDetails.userName) {
+    console.error("Twitter username for twitter section is missing");
+  }
   if (twitterDetails.userName) {
     return (
       <Suspense fallback={renderLoader()}>

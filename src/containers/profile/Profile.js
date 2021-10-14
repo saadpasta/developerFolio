@@ -21,7 +21,6 @@ export default function Profile() {
             if (result.ok) {
               return result.json();
             }
-            console.error(result);
           })
           .then(response => {
             setProfileFunction(response.data.user);
@@ -31,8 +30,8 @@ export default function Profile() {
             console.log(
               "Because of this error, contact section has reverted to default"
             );
-            console.error(error);
             openSource.showGithubProfile = "false";
+            console.error(error);
           });
       };
       getProfileData();
