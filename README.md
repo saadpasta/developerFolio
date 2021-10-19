@@ -20,7 +20,7 @@ Created something awesome for your fork of the portfolio and want to share it? F
 - [Sections](#sections)
 - [Getting Started](#getting-started)
 - [How to Use](#how-to-use)
-- [Linking portfolio to Github](#linking-portfolio-to-github)
+- [Linking portfolio to GitHub](#linking-portfolio-to-github)
 - [Change and Customize](#change-and-customize-every-section-according-to-your-need)
 - [Deployment](#deployment)
 - [Technologies Used](#technologies-used)
@@ -33,7 +33,7 @@ Created something awesome for your fork of the portfolio and want to share it? F
 ✔️ Skills\
 ✔️ Education\
 ✔️ Work Experience\
-✔️ Open Source Projects Connected with Github\
+✔️ Open Source Projects Connected with GitHub\
 ✔️ Big Projects\
 ✔️ Achievements And Certifications 🏆\
 ✔️ Blogs\
@@ -41,7 +41,7 @@ Created something awesome for your fork of the portfolio and want to share it? F
 ✔️ Podcast\
 ✔️ Contact me\
 ✔️ Twitter Timeline\
-✔️ Github Profile
+✔️ GitHub Profile
 
 To view a live example, **[click here](https://developerfolio.js.org/)**.
 
@@ -90,9 +90,9 @@ npm install
 npm start
 ```
 
-## Linking Portfolio to Github
+## Linking Portfolio to GitHub
 
-Generate a Github personal access token following these [instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) (make sure you don't select any scope just generate a simple token). If you are using [Github Actions](#configuring-github-actions-recommended) to deploy your portfolio you can skip this section.
+Generate a GitHub personal access token following these [instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) (make sure you don't select any scope just generate a simple token). If you are using [GitHub Actions](#configuring-github-actions-recommended) to deploy your portfolio you can skip this section.
 
 1. Create a file called .env in the root directory of your project (if not done already in section: [How To Use](#how-to-use))
 
@@ -110,7 +110,7 @@ Note: Configuring environment variables before deploying your portfolio is highl
   - package.json
 ```
 
-2. Inside the .env file, add key `REACT_APP_GITHUB_TOKEN` and assign your github token like this, also add your username as `GITHUB_USERNAME`
+2. Inside the .env file, add key `REACT_APP_GITHUB_TOKEN` and assign your GitHub token like this, also add your username as `GITHUB_USERNAME`
 
 ```env
 // .env
@@ -118,11 +118,11 @@ REACT_APP_GITHUB_TOKEN = "YOUR GITHUB TOKEN HERE"
 GITHUB_USERNAME = "YOUR GITHUB USERNAME"
 ```
 
-Set `showGithubProfile` to true or false to show Contact Profile using Github, defaults to false.
+Set `showGithubProfile` to true or false to show Contact Profile using GitHub, defaults to false.
 
 **Warning:** Treat your tokens like passwords and keep them secret. When working with the API, use tokens as environment variables instead of hardcoding them into your programs.
 
-Note: Open Source Projects section only show pinned items of your Github.
+Note: Open Source Projects section only show pinned items of your GitHub.
 If you are seeing something as shown below, follow these [instructions](https://docs.github.com/en/enterprise/2.13/user/articles/pinning-items-to-your-profile).
 
 ![ERROR](https://i.imgur.com/Hj6mu1K.png)
@@ -193,18 +193,18 @@ Note: Don't use `@` symbol when adding username.
 
 ## Deployment
 When you are done with the setup, you should host your website online.
-We highly recommend to read through the [Deploying on Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) docs for React.
+We highly recommend to read through the [Deploying on GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages) docs for React.
 
 #### Configuring GitHub Actions (Recommended)
-First you should enable, Github Actions for the repository you use.
+First you should enable, GitHub Actions for the repository you use.
 
-The Profile and the Repository information from Github is only created at the time of deploy and the site needs to be redeployed if those information needs to be updated. So, a configurable [CRON Job](https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events) is setup which deploys your site every week, so that once you update your profile on Github it is shown on your portfolio. You can also trigger it manually using `workflow_dispatch` event, see [this guide](https://github.blog/changelog/2020-07-06-github-actions-manual-triggers-with-workflow_dispatch) on how to do that.
+The Profile and the Repository information from GitHub is only created at the time of deploy and the site needs to be redeployed if those information needs to be updated. So, a configurable [CRON Job](https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events) is setup which deploys your site every week, so that once you update your profile on GitHub it is shown on your portfolio. You can also trigger it manually using `workflow_dispatch` event, see [this guide](https://github.blog/changelog/2020-07-06-github-actions-manual-triggers-with-workflow_dispatch) on how to do that.
 
-- When you are done with the configuration, we highly recommend to read through the [Github Actions Configuring a workflow](https://docs.github.com/en/actions/configuring-and-managing-workflows/configuring-a-workflow) docs.
+- When you are done with the configuration, we highly recommend to read through the [GitHub Actions Configuring a workflow](https://docs.github.com/en/actions/configuring-and-managing-workflows/configuring-a-workflow) docs.
 
-#### Deploying to Github Pages
+#### Deploying to GitHub Pages
 
-This section guides you to deploy your portfolio on Github pages.
+This section guides you to deploy your portfolio on GitHub pages.
 
 - Navigate to `package.json` and enter your domain name instead of `https://developerfolio.js.org/` in `homepage` variable. For example, if you want your site to be `https://<your-username>.github.io/developerFolio`, add the same to the homepage section of `package.json`.
 
