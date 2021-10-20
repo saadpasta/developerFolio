@@ -27,11 +27,10 @@ export default function Projects() {
           setrepoFunction(response.data.user.pinnedItems.edges);
         })
         .catch(function (error) {
-          console.log(error);
-          setrepoFunction("Error");
-          console.log(
-            "Because of this Error, nothing is shown in place of Projects section. Projects section not configured"
+          console.error(
+            `${error} (because of this error, nothing is shown in place of Projects section. Also check if Projects section has been configured)`
           );
+          setrepoFunction("Error");
         });
     };
     getRepoData();
