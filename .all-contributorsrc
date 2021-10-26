@@ -473,6 +473,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "BraydenTW",
+      "name": "Brayden",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47185402?v=4",
+      "profile": "http://braydentw.com",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
