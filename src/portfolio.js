@@ -13,9 +13,7 @@ const illustration = {
 const greeting = {
   username: "VinuXD",
   title: "Hi there..!, I'm VINU",
-  subTitle: emoji(
-    ""
-  ),
+  subTitle: emoji(""),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: false // Set false to hide this section, defaults to true
@@ -147,7 +145,7 @@ const techStack = {
     {
       Stack: "Studies",
       progressPercentage: "74%"
-    },
+    }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -342,8 +340,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Connect with me..!.",
+  subtitle: "Connect with me..!.",
   number: "+92-3243454077",
   email_address: "saadpasta70@gmail.com"
 };
