@@ -1,4 +1,4 @@
-import React, {useContext} from "react";
+import React, {useState,useEffect,useContext} from "react";
 import "./Blog.scss";
 import BlogCard from "../../components/blogCard/BlogCard";
 import {blogSection} from "../../portfolio";
@@ -6,6 +6,42 @@ import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 export default function Blogs() {
   const {isDark} = useContext(StyleContext);
+  const [mediumBlogs, setMediumBlogs] = useState([]);
+  function setMediumBlogsFunction(array) {
+    setMediumBlogs(array);
+  }
+  function extractContent(html) {
+    return typeof html === 'string'
+      ? html
+          .split("p>")
+          .filter(el => !el.includes(">"))
+          .map(el => el.replace("</", ".").replace("<", ""))
+          .join(" ")
+      : NaN;
+  }
+  useEffect(() => {
+    if (blogSection.displayMediumBlogs === "true") {
+      const getProfileData = () => {
+        fetch("/blogs.json")
+          .then(result => {
+            if (result.ok) {
+              return result.json();
+            }
+          })
+          .then(response => {
+            setMediumBlogsFunction(response.items);
+          })
+          .catch(function (error) {
+            console.error(
+              `${error} (because of this error Blogs section could not be displayed. Blogs section has reverted to default)`
+            );
+            setMediumBlogsFunction("Error");
+            blogSection.display = "false";
+          });
+      };
+      getProfileData();
+    }
+  }, []);
   if (!blogSection.display) {
     return null;
   }
@@ -24,7 +60,8 @@ export default function Blogs() {
         </div>
         <div className="blog-main-div">
           <div className="blog-text-div">
-            {blogSection.blogs.map((blog, i) => {
+            {blogSection.displayMediumBlogs !== "true" ?
+            blogSection.blogs.map((blog, i) => {
               return (
                 <BlogCard
                   key={i}
@@ -37,7 +74,21 @@ export default function Blogs() {
                   }}
                 />
               );
-            })}
+            }) : 
+            mediumBlogs.map((blog, i) => {
+              return (
+                <BlogCard
+                  key={i}
+                  isDark={isDark}
+                  blog={{
+                    url: blog.url,
+                    title: blog.title,
+                    description: extractContent(blog.content)
+                  }}
+                />
+              );
+            })
+            }
           </div>
         </div>
       </div>
