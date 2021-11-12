@@ -10,7 +10,8 @@ export default function Blogs() {
   function setMediumBlogsFunction(array) {
     setMediumBlogs(array);
   }
-  function extractContent(html) {
+  //Medium API returns blogs' content in HTML format. Below function extracts blogs' text content within paragraph tags
+  function extractTextContent(html) {
     return typeof html === 'string'
       ? html
           .split("p>")
@@ -83,7 +84,7 @@ export default function Blogs() {
                   blog={{
                     url: blog.url,
                     title: blog.title,
-                    description: extractContent(blog.content)
+                    description: extractTextContent(blog.content)
                   }}
                 />
               );
