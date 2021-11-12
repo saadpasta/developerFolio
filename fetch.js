@@ -18,8 +18,7 @@ const ERR = {
     "The request to GitHub didn't succeed. Check if GitHub token in your .env file is correct.",
   requestFailedMedium:
     "The request to Medium didn't succeed. Check if Medium username in your .env file is correct."
-
-  };
+};
 if (USE_GITHUB_DATA === "true") {
   if (GITHUB_USERNAME === undefined) {
     throw new Error(ERR.noUserName);
