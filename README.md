@@ -141,6 +141,8 @@ Optionally, you can link the blogs section to your medium user account:
 MEDIUM_USERNAME = "YOUR MEDIUM USERNAME"
 ```
 
+* For Github Action, change the environment variable `MEDIUM_USERNAME` in `.github/workflows/deploy.yml`
+
 Set `displayMediumBlogs` to true or false in portofolio.js to display fetched Medium blogs, defaults to true.
 
 ## Change and customize every section according to your need.
