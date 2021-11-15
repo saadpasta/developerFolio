@@ -6,14 +6,11 @@ require("dotenv").config();
 const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
 const GITHUB_USERNAME = process.env.GITHUB_USERNAME;
 const USE_GITHUB_DATA = process.env.USE_GITHUB_DATA;
-const USE_MEDIUM_DATA = process.env.USE_MEDIUM_DATA;
 const MEDIUM_USERNAME = process.env.MEDIUM_USERNAME;
 
 const ERR = {
   noUserName:
     "Github Username was found to be undefined. Please set all relevant environment variables.",
-  noMediumUserName:
-    "Medium Username was found to be undefined. Please set all relevant environment variables.",
   requestFailed:
     "The request to GitHub didn't succeed. Check if GitHub token in your .env file is correct.",
   requestFailedMedium:
@@ -98,10 +95,7 @@ if (USE_GITHUB_DATA === "true") {
   req.end();
 }
 
-if (USE_MEDIUM_DATA === "true") {
-  if (MEDIUM_USERNAME === undefined) {
-    throw new Error(ERR.noMediumUserName);
-  }
+if (MEDIUM_USERNAME !== undefined) {
 
   console.log(`Fetching Medium blogs data for ${MEDIUM_USERNAME}`);
   const options = {
