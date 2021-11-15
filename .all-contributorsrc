@@ -482,6 +482,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "CanciuCostin",
+      "name": "Canciu Costin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27332434?v=4",
+      "profile": "https://github.com/CanciuCostin",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
