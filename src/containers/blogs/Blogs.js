@@ -37,7 +37,7 @@ export default function Blogs() {
               `${error} (because of this error Blogs section could not be displayed. Blogs section has reverted to default)`
             );
             setMediumBlogsFunction("Error");
-            blogSection.display = "false";
+            blogSection.displayMediumBlogs = "false";
           });
       };
       getProfileData();
@@ -61,7 +61,8 @@ export default function Blogs() {
         </div>
         <div className="blog-main-div">
           <div className="blog-text-div">
-            {blogSection.displayMediumBlogs !== "true"
+            {blogSection.displayMediumBlogs !== "true" ||
+            mediumBlogs === "Error"
               ? blogSection.blogs.map((blog, i) => {
                   return (
                     <BlogCard
