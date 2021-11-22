@@ -27,9 +27,8 @@ const socialMediaLinks = {
   github: "https://github.com/IhsanElev",
   linkedin: "https://www.linkedin.com/in/miftahul-ihsan-175a80175/",
   gmail: "miftahulihsan7881@gmail.com",
- 
+
   facebook: "https://web.facebook.com/profile.php?id=100005487879161",
-  
 
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -40,15 +39,12 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "FULL STACK MOBILE DEVELOPER AND HAVE A WILLING TO LEARN NEW TECHNOLOGY",
+  subTitle:
+    "FULL STACK MOBILE DEVELOPER AND HAVE A WILLING TO LEARN NEW TECHNOLOGY",
   skills: [
-    emoji(
-      "⚡ Develop Stunning Beatiful Mobile Application with Flutter"
-    ),
+    emoji("⚡ Develop Stunning Beatiful Mobile Application with Flutter"),
     emoji("⚡ Web Developing using Laravel"),
-    emoji(
-      "⚡ Build a fast backend using go"
-    )
+    emoji("⚡ Build a fast backend using go")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -80,7 +76,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
-   
+
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
@@ -88,8 +84,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
-    },
-  
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -144,9 +139,7 @@ const workExperiences = {
       companylogo: require("./assets/images/rcs.png"),
       date: "Januari 2020 – Maret 2020",
       desc: "Integrating liqu.id with WHMCS to make reseller domain manager",
-      descBullets: [
-        "Experimenting with the feature"
-      ]
+      descBullets: ["Experimenting with the feature"]
     },
     {
       role: "Software Engineer Intern",
@@ -154,8 +147,7 @@ const workExperiences = {
       companylogo: require("./assets/images/dputr.png"),
       date: "September 2020-November 2020",
       desc: "Build Geographic Information System for construction"
-    },
-    
+    }
   ]
 };
 
@@ -176,14 +168,12 @@ const bigProjects = {
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "Sistem Informasi Pembayaran Zakat",
-      projectDesc: "Build Payment Of Zakat Swadaya Ummah",
-      
+      projectDesc: "Build Payment Of Zakat Swadaya Ummah"
     },
     {
       image: require("./assets/images/logo.png"),
       projectName: "Food Market",
-      projectDesc: "Food Market Using Flutter And Bloc with laravel backend",
-     
+      projectDesc: "Food Market Using Flutter And Bloc with laravel backend"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -194,14 +184,12 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Certifications 🏆 "),
-  subtitle:
-    "Certification",
+  subtitle: "Certification",
 
   achievementsCards: [
     {
       title: "Web Junior Pratama",
-      subtitle:
-        "Pass Competence Test Web Junior Developer BNSP",
+      subtitle: "Pass Competence Test Web Junior Developer BNSP",
       image: require("./assets/images/bnsp.png"),
       footerLink: [
         {
@@ -221,9 +209,7 @@ const achievementSection = {
           url: "https://drive.google.com/file/d/1-8vXEKy2wwlOusKwxrFRwAANqzSCQnvR/view?usp=sharing"
         }
       ]
-    },
-
-    
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
