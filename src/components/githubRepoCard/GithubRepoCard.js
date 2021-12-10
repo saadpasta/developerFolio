@@ -27,6 +27,7 @@ export default function GithubRepoCard({repo, isDark}) {
               height="20"
               role="img"
               viewBox="0 0 12 16"
+              fill="rgb(106, 115, 125)"
               width="14"
             >
               <path

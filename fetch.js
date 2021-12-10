@@ -70,9 +70,9 @@ if (USE_GITHUB_DATA === "true") {
 
   const req = https.request(default_options, res => {
     let data = "";
-
-    console.log(`statusCode: ${res.statusCode}`);
+    
     if (res.statusCode !== 200) {
+      console.log(`statusCode: ${res.statusCode}`);	
       throw new Error(ERR.requestFailed);
     }
 
@@ -82,7 +82,7 @@ if (USE_GITHUB_DATA === "true") {
     res.on("end", () => {
       fs.writeFile("./public/profile.json", data, function (err) {
         if (err) return console.log(err);
-        console.log("saved file to public/profile.json");
+        console.log("Data saved in public/profile.json");
       });
     });
   });
@@ -106,9 +106,9 @@ if (MEDIUM_USERNAME !== undefined) {
 
   const req = https.request(options, res => {
     let mediumData = "";
-
-    console.log(`statusCode: ${res.statusCode}`);
+    
     if (res.statusCode !== 200) {
+      console.log(`statusCode: ${res.statusCode}`);	
       throw new Error(ERR.requestMediumFailed);
     }
 
@@ -118,7 +118,7 @@ if (MEDIUM_USERNAME !== undefined) {
     res.on("end", () => {
       fs.writeFile("./public/blogs.json", mediumData, function (err) {
         if (err) return console.log(err);
-        console.log("saved file to public/blogs.json");
+        console.log("Data saved in public/blogs.json");
       });
     });
   });
