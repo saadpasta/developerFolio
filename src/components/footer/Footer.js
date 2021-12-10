@@ -3,9 +3,9 @@ import "./Footer.scss";
 import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
 import StyleContext from "../../contexts/StyleContext";
-import {greeting} from "../../portfolio.js"
+import {greeting} from "../../portfolio.js";
 
-const userName = greeting.displayGreeting ? greeting.username : "Deveoperfolio"  
+const userName = greeting.displayGreeting ? greeting.username : "DeveloperFolio Team";
 
 export default function Footer() {
   const {isDark} = useContext(StyleContext);
