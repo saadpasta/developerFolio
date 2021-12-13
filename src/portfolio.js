@@ -125,9 +125,9 @@ const techStack = {
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
-// Work experience section
+Work experience section
 
-// const workExperiences = {
+const workExperiences = {
 //   display: true, //Set it to true to show workExperiences Section
 //   experience: [
 //     {
@@ -156,7 +156,7 @@ const techStack = {
 //       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 //     }
 //   ]
-// };
+};
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -249,9 +249,9 @@ const achievementSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Blogs Section
+Blogs Section
 
-// const blogSection = {
+const blogSection = {
 //   title: "Blogs",
 //   subtitle:
 //     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
@@ -271,11 +271,11 @@ const achievementSection = {
 //     }
 //   ],
 //   display: true // Set false to hide this section, defaults to true
-// };
+};
 
-// Talks Sections
+Talks Sections
 
-// const talkSection = {
+const talkSection = {
 //   title: "TALKS",
 //   subtitle: emoji(
 //     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
@@ -290,11 +290,11 @@ const achievementSection = {
 //     }
 //   ],
 //   display: true // Set false to hide this section, defaults to true
-// };
+};
 
-// Podcast Section
+Podcast Section
 
-// const podcastSection = {
+const podcastSection = {
 //   title: emoji("Podcast 🎙️"),
 //   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
@@ -303,7 +303,7 @@ const achievementSection = {
 //     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
 //   ],
 //   display: true // Set false to hide this section, defaults to true
-// };
+};
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
@@ -312,12 +312,12 @@ const contactInfo = {
   email_address: "mahsa.eskandari77@ut.ac.ir"
 };
 
-// Twitter Section
+Twitter Section
 
-// const twitterDetails = {
+const twitterDetails = {
 //   userName: "twitter", //Replace "twitter" with your twitter username without @
 //   display: true // Set true to display this section, defaults to false
-// };
+};
 
 export {
   illustration,
@@ -326,13 +326,13 @@ export {
   skillsSection,
   educationInfo,
   techStack,
-//   workExperiences,
+  workExperiences,
   openSource,
   bigProjects,
   achievementSection,
-//   blogSection,
-//   talkSection,
-//   podcastSection,
-  contactInfo
-//   twitterDetails
+  blogSection,
+  talkSection,
+  podcastSection,
+  contactInfo,
+  twitterDetails
 };
