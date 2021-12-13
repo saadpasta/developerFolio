@@ -125,7 +125,7 @@ const techStack = {
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
-Work experience section
+// Work experience section
 
 const workExperiences = {
 //   display: true, //Set it to true to show workExperiences Section
@@ -249,7 +249,7 @@ const achievementSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-Blogs Section
+// Blogs Section
 
 const blogSection = {
 //   title: "Blogs",
@@ -273,7 +273,7 @@ const blogSection = {
 //   display: true // Set false to hide this section, defaults to true
 };
 
-Talks Sections
+// Talks Sections
 
 const talkSection = {
 //   title: "TALKS",
@@ -292,7 +292,7 @@ const talkSection = {
 //   display: true // Set false to hide this section, defaults to true
 };
 
-Podcast Section
+// Podcast Section
 
 const podcastSection = {
 //   title: emoji("Podcast 🎙️"),
@@ -312,7 +312,7 @@ const contactInfo = {
   email_address: "mahsa.eskandari77@ut.ac.ir"
 };
 
-Twitter Section
+// Twitter Section
 
 const twitterDetails = {
 //   userName: "twitter", //Replace "twitter" with your twitter username without @
