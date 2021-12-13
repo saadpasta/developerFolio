@@ -36,7 +36,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "GAME DEVELOPMENT ENTHUSIAST WHO WANTS TO EXPLORE EVERY GAME",
+  subTitle: "GAME DEVELOPMENT ENTHUSIAST WHO WANTS TO EXPLORE EVERYTHING IN GAMES",
   skills: [
     emoji(
       "⚡ Programming Languages: Python, C/C++, C#, SQL (MySQL), Java, HTML/CSS, R, Verilog"
