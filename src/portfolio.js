@@ -212,7 +212,7 @@ const achievementSection = {
       title: "3rd Prize in AYPT",
       subtitle:
         "The Austrian Young Physicists Tournament is a team-oriented physics competition among teams of secondary school students. During the tournament the students present their solutions to scientific problems which they have prepared over several months. Their solution is criticized during the course of the tournament by other students and their performance is graded by a jury consisting of experts in the field of physics.",
-//       image: require("./assets/images/codeInLogo.webp"),
+      image: require("./assets/images/cert1.png"),
       footerLink: [
         {
           name: "Certification",
@@ -228,7 +228,7 @@ const achievementSection = {
       title: "Teacher Training Course (TTC)",
       subtitle:
         "TTC is the Certificate in Teaching English to Speakers of Other Language.",
-//       image: require("./assets/images/googleAssistantLogo.webp"),
+      image: require("./assets/images/cert3.png"),
       footerLink: [
         {
           name: "Certification",
@@ -240,7 +240,7 @@ const achievementSection = {
     {
       title: "Udemy: A Beginner's Guide to Machine Learing with Unity",
       subtitle: "Completed Certifcation from Udemy",
-//       image: require("./assets/images/pwaLogo.webp"),
+      image: require("./assets/images/cert2.png),
       footerLink: [
         {name: "Certification", url: "https://drive.google.com/file/d/1h3rAGWKi1nSQ0knGO_xQjSXVx_ZhTQ5w/view?usp=sharing"}
       ]
