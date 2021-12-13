@@ -333,6 +333,6 @@ export {
 //   blogSection,
 //   talkSection,
 //   podcastSection,
-  contactInfo,
-  twitterDetails
+  contactInfo
+//   twitterDetails
 };
