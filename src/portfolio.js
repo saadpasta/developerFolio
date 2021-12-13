@@ -240,7 +240,7 @@ const achievementSection = {
     {
       title: "Udemy: A Beginner's Guide to Machine Learing with Unity",
       subtitle: "Completed Certifcation from Udemy",
-      image: require("./assets/images/cert2.png),
+      image: require("./assets/images/cert2.png"),
       footerLink: [
         {name: "Certification", url: "https://drive.google.com/file/d/1h3rAGWKi1nSQ0knGO_xQjSXVx_ZhTQ5w/view?usp=sharing"}
       ]
