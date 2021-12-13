@@ -49,7 +49,6 @@ const skillsSection = {
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
-  //CHANGE HERE
   softwareSkills: [
     {
       skillName: "html-5",
@@ -60,40 +59,20 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Unity",
+      fontAwesomeClassname: "fab fa-unity"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "C/C++",
+      fontAwesomeClassname: "fad fa-empty-set"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "C#",
+      fontAwesomeClassname: "fad fa-empty-set"
     },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
     },
     {
       skillName: "python",
@@ -112,16 +91,16 @@ https://fontawesome.com/icons?d=gallery */
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
-    { //Get School Logo
+    {
       schoolName: "University of Tehran",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/1200px-University_of_Tehran_logo.svg.png"),
       subHeader: "Computer Engineering Undergraduate Student",
       duration: "September 2017 - now",
       desc: "Working on My Thesis Project",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+//       descBullets: [
+//         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+//         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+//       ]
     }]
 };
 
