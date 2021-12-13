@@ -330,9 +330,9 @@ export {
   openSource,
   bigProjects,
   achievementSection,
-  blogSection,
-  talkSection,
-  podcastSection,
+//   blogSection,
+//   talkSection,
+//   podcastSection,
   contactInfo,
   twitterDetails
 };
