@@ -110,12 +110,12 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Unity Programmer", //Insert stack or technology you have experience in
-      progressPercentage: "70%" //Insert relative proficiency in percentage
+      Stack: "Unity Programming", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Python Programmer",
-      progressPercentage: "70%"
+      Stack: "Python Programming",
+      progressPercentage: "90%"
     },
     {
       Stack: "Teaching",
@@ -308,7 +308,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "I almost always reply",
+    "",
   email_address: "mahsa.eskandari77@ut.ac.ir"
 };
 
