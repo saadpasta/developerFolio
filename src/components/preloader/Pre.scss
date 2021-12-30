@@ -1,0 +1,46 @@
+@import "../../_globalColor";
+
+#preloader-dark {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+  background-color: $darkBackground;
+  // background-image: url(../../assets/pre.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#preloader-light {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+  background-color: $lightBackground1;
+  // background-image: url(../../assets/pre.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.svg-loader {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%); /* Safari and Chrome */
+  -moz-transform: translate(-50%, -50%); /* Firefox */
+  -ms-transform: translate(-50%, -50%); /* IE 9 */
+  -o-transform: translate(-50%, -50%); /* Opera */
+  // I suppose you may like those too:
+  // max-width: 80%;
+  // max-height: 80%;
+}
+
+#preloader-none {
+  opacity: 0;
+}

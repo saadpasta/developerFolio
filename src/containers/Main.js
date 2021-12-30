@@ -15,21 +15,33 @@ import Education from "./education/Education";
 import Top from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
 import Profile from "./profile/Profile";
-import {StyleProvider} from "../contexts/StyleContext";
-import {useLocalStorage} from "../hooks/useLocalStorage";
+import { StyleProvider } from "../contexts/StyleContext";
+import { useLocalStorage } from "../hooks/useLocalStorage";
+import Preloader from "../components/preloader/Pre";
+import { useState, useEffect } from "react";
 import "./Main.scss";
 
 const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
   const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
+  const [load, upadateLoad] = useState(true);
 
   const changeTheme = () => {
     setIsDark(!isDark);
   };
 
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      upadateLoad(false);
+    }, 2000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <div className={isDark ? "dark-mode" : null}>
-      <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
+      <StyleProvider value={{ isDark: isDark, changeTheme: changeTheme }}>
+        <Preloader load={load} />
         <Header />
         <Greeting />
         <Skills />
