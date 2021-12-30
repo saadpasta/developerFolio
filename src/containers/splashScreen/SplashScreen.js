@@ -11,9 +11,9 @@ export default function SplashScreen() {
       <div className="splash-animation-container">
         <DisplayLottie animationData={splashScreen.animation} />
       </div>
-      <a href="/" className="splash-logo">
+      <a href="/" className="splash-title-container">
         <span className="grey-color"> &lt;</span>
-        <span className="splash-logo-name">{greeting.username}</span>
+        <span className="splash-title">{greeting.username}</span>
         <span className="grey-color">/&gt;</span>
       </a>
     </div>
