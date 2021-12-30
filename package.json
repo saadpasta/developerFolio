@@ -1,6 +1,6 @@
 {
   "homepage": "https://developerfolio.js.org/",
-  "name": "saadpasta.github.io",
+  "name": "developerfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,7 +17,8 @@
     "react-reveal": "^1.2.2",
     "react-scripts": "^3.4.3",
     "react-test-renderer": "^17.0.2",
-    "react-twitter-embed": "3.0.3"
+    "react-twitter-embed": "3.0.3",
+    "sass": "^1.32.8"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -26,18 +27,24 @@
     "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format": "prettier --write \"./**/*.{js,css,json}\""
+    "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
+    "check-format": "prettier -c \"./**/*.{js,css,json,scss}\""
   },
   "eslintConfig": {
     "extends": "react-app"
   },
   "browserslist": {
     "production": [
-      ">0.2%",
+      ">0.3%",
+      "not ie 11",
       "not dead",
       "not op_mini all"
     ],
     "development": [
+      ">0.3%",
+      "not ie 11",
+      "not dead",
+      "not op_mini all",
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
@@ -45,6 +52,6 @@
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
-    "prettier": "^2.2.1"
+    "prettier": "^2.3.1"
   }
 }

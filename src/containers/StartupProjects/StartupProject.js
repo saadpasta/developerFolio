@@ -1,14 +1,18 @@
 import React, {useContext} from "react";
-import "./StartupProjects.css";
+import "./StartupProjects.scss";
 import {bigProjects} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function StartupProject() {
-  function openProjectInNewWindow(url) {
+  function openUrlInNewTab(url) {
+    if (!url) {
+      return;
+    }
     var win = window.open(url, "_blank");
     win.focus();
   }
+
   const {isDark} = useContext(StyleContext);
   if (!bigProjects.display) {
     return null;
@@ -70,7 +74,7 @@ export default function StartupProject() {
                               className={
                                 isDark ? "dark-mode project-tag" : "project-tag"
                               }
-                              onClick={() => openProjectInNewWindow(link.url)}
+                              onClick={() => openUrlInNewTab(link.url)}
                             >
                               {link.name}
                             </span>
