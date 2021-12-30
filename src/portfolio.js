@@ -5,6 +5,8 @@
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
+// Splash Screen
+
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
@@ -370,10 +372,10 @@ const twitterDetails = {
 };
 
 export {
-  splashScreen,
   illustration,
   greeting,
   socialMediaLinks,
+  splashScreen,
   skillsSection,
   educationInfo,
   techStack,
