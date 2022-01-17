@@ -28,8 +28,8 @@ const Main = () => {
     useState(true);
 
   useEffect(() => {
-    if(splashScreen.enabled){
-      const splashTimer =  setTimeout(
+    if (splashScreen.enabled) {
+      const splashTimer = setTimeout(
         () => setIsShowingSplashAnimation(false),
         splashScreen.duration
       );
