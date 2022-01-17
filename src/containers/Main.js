@@ -12,7 +12,7 @@ import Footer from "../components/footer/Footer";
 import Talks from "./talks/Talks";
 import Podcast from "./podcast/Podcast";
 import Education from "./education/Education";
-import Top from "./topbutton/Top";
+import ScrollToTopButton from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
 import Profile from "./profile/Profile";
 import SplashScreen from "./splashScreen/SplashScreen";
@@ -28,13 +28,15 @@ const Main = () => {
     useState(true);
 
   useEffect(() => {
-    const splashTimer = setTimeout(
-      () => setIsShowingSplashAnimation(false),
-      splashScreen.duration
-    );
-    return () => {
-      clearTimeout(splashTimer);
-    };
+    if(splashScreen.enabled){
+      const splashTimer =  setTimeout(
+        () => setIsShowingSplashAnimation(false),
+        splashScreen.duration
+      );
+      return () => {
+        clearTimeout(splashTimer);
+      };
+    }
   }, []);
 
   const changeTheme = () => {
@@ -63,7 +65,7 @@ const Main = () => {
             <Podcast />
             <Profile />
             <Footer />
-            <Top />
+            <ScrollToTopButton />
           </>
         )}
       </StyleProvider>
