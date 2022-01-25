@@ -397,9 +397,9 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+91-8698645680",
-  email_address: "vivekkasture555@gmail.com"
+    "Discuss a project or just want to say hi? My Inbox is open for all. Ping me on Linkedin, Twitter, Instagram or Github",
+  // number: "",
+  // email_address: ""
 };
 
 // Twitter Section
