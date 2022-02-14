@@ -1,69 +1,108 @@
 @import "../../_globalColor";
 
-.card-image {
-  max-width: 100%;
+.video {
+  width: 780px;
   height: auto;
-  width: 250px;
+  position: absolute;
+  align-self: center;
+  border-radius: 10px;
+  filter: saturate(0.6);
 }
+
+.video:hover {
+  filter: saturate(1);
+  transition: filter .1s linear;
+}
+
+/* Hide Play button + controls on iOS */
+video::-webkit-media-controls {
+  display: none !important;
+}
+
+.card-image {
+  max-width: 90%;
+  height: auto;
+  max-height: 100%;
+  border-radius: 10px;
+  align-self: center;
+}
+
+.card-image.visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity .2s linear;
+}
+
+.card-image.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s .1s, opacity .5s linear;
+}
+
 .card-title {
   color: $titleColor;
   font-size: 22px;
   line-height: 24px;
   font-weight: 700;
   margin: 15px 0 0 0;
+  background-color: transparent !important;
 }
+
 .card-subtitle {
   color: $cardSubtitle;
   font-size: 17px;
   line-height: 1.5rem;
+  background-color: transparent !important;
 }
+
 .project-card {
   display: flex;
   flex-direction: column;
-  background-color: $lightBackground2;
   padding: 1.5rem;
   border-radius: 10px;
-  border: 1px solid $lightBorder1;
   justify-content: center;
 }
+
 .project-card-light {
-  box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
 .project-card-dark {
-  box-shadow: 0px 10px 30px -15px $darkBoxShadow;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.25s ease;
 }
 
 .project-detail {
+  text-shadow:
+          1px 1px 0 #000;
   text-align: center;
+  pointer-events: none;
+  z-index: 1;
 }
-.project-card-light:hover {
-  box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
-}
-.project-card-dark:hover {
-  box-shadow: 0px 20px 30px -10px $darkBoxShadow;
-}
+
 .project-image {
   position: relative;
   height: 250px;
   overflow: hidden;
   text-align: center;
+  pointer-events: none;
+  visibility: visible;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
 }
 
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(600px, 800px));
   gap: 1rem 1rem;
 }
 
 .project-card-footer span.project-tag {
-  background: $buttonColor;
+  background: $buttonColorVideo;
   color: $lightBackground3;
   vertical-align: middle;
   align-items: center;
@@ -78,6 +117,7 @@
   padding: 0 0.75em;
   cursor: pointer;
   transition: 0.2s ease-in;
+  pointer-events: auto;
 }
 
 @media (max-width: 768px) {

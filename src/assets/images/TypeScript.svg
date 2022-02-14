@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="512"
+   height="512"
+   fill="none"
+   version="1.1"
+   viewBox="0 0 512 512"
+   id="svg8"
+   sodipodi:docname="TypeScript.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     id="namedview10"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.1476675"
+     inkscape:cx="217.39747"
+     inkscape:cy="277.95508"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
+  <title
+     id="title2">TypeScript logo</title>
+  <rect
+     width="486.39999"
+     height="486.39999"
+     rx="47.5"
+     fill="#3178c6"
+     id="rect4"
+     x="12.8"
+     y="12.8"
+     style="stroke-width:0.95" />
+  <path
+     d="m 313.95,399.45 v 47.5 c 7.695,3.99 17.1,6.935 27.55,8.93 10.45,1.995 21.85,2.945 33.25,2.945 11.4,0 21.85,-1.045 32.3,-3.23 10.45,-2.185 19,-5.795 26.6,-10.45 7.695,-5.035 14.25,-11.4 18.05,-19.95 3.8,-8.55 6.745,-18.05 6.745,-30.4 0,-8.645 -1.33,-16.15 -3.895,-22.8 -2.565,-6.65 -6.27,-12.35 -11.4,-17.1 -4.845,-5.035 -10.45,-9.5 -17.1,-13.3 -6.65,-3.8 -14.25,-7.79 -22.8,-11.4 -6.27,-2.565 -11.4,-5.035 -17.1,-7.505 -4.94,-2.47 -9.215,-4.94 -12.35,-7.41 -3.515,-2.565 -6.175,-5.225 -8.075,-7.98 -1.9,-2.85 -2.85,-5.985 -2.85,-9.5 0,-3.23 0.8455,-6.175 2.565,-8.835 1.7195,-2.66 4.085,-4.845 7.125,-6.745 3.04,-1.9 6.84,-3.325 11.4,-4.37 4.465,-1.045 9.405,-1.52 15.2,-1.52 3.99,0 8.17,0.2945 12.35,0.893 4.37,0.5985 8.835,1.52 13.3,2.755 4.465,1.235 8.835,2.755 13.3,4.655 4.18,1.9 8.075,4.085 11.4,6.555 v -44.65 c -7.22,-2.755 -15.2,-4.845 -23.75,-6.175 -8.55,-1.33 -18.05,-1.995 -29.45,-1.995 -11.4,0 -21.85,1.235 -32.3,3.61 -10.45,2.375 -19,6.175 -26.6,11.4 -7.695,5.13 -13.3,11.4 -18.05,19.95 -4.465,7.98 -6.65,17.1 -6.65,28.5 0,14.25 4.085,26.6 12.35,36.1 8.17,10.45 20.9,18.05 37.05,25.65 6.555,2.66 12.35,5.32 18.05,7.885 5.7,2.565 10.45,5.225 14.25,7.98 4.085,2.755 7.315,5.795 9.5,9.025 2.375,3.23 3.61,7.03 3.61,11.4 0,3.04 -0.741,5.89 -2.185,8.55 -1.444,2.66 -3.705,4.94 -6.745,6.84 -3.04,1.9 -6.745,3.42 -11.4,4.56 -4.465,1.045 -9.5,1.615 -16.15,1.615 -10.45,0 -20.9,-1.805 -30.4,-5.415 -10.45,-3.61 -19.95,-9.025 -28.5,-16.15 z M 234.15,282.6 h 60.8 V 243.65 H 124.9 v 38.95 h 60.8 v 173.85 h 48.45 z"
+     clip-rule="evenodd"
+     fill="#fff"
+     fill-rule="evenodd"
+     style="fill:#ffffff;stroke-width:0.95"
+     id="path6" />
+  <metadata
+     id="metadata14">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>TypeScript logo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

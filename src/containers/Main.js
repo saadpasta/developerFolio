@@ -18,31 +18,34 @@ import Profile from "./profile/Profile";
 import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
 import "./Main.scss";
+import GameJams from "./gameJam/GameJam";
+import References from "./references/References";
 
 const Main = () => {
-  const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
-  const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
+  const [isDark, setIsDark] = useLocalStorage("isDark", "true");
 
   const changeTheme = () => {
     setIsDark(!isDark);
   };
 
   return (
-    <div className={isDark ? "dark-mode" : null}>
+    <div className={isDark ? "dark-mode" : "lite-mode"}>
       <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
         <Header />
         <Greeting />
         <Skills />
         <StackProgress />
-        <Education />
-        <WorkExperience />
-        <Projects />
         <StartupProject />
+        <WorkExperience />
+        <Education />
+        <Projects />
+        <GameJams />
         <Achievement />
         <Blogs />
         <Talks />
         <Twitter />
         <Podcast />
+        <References />
         <Profile />
         <Footer />
         <Top />

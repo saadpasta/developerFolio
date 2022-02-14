@@ -52,6 +52,7 @@
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
+    "jquery": "^3.6.0",
     "prettier": "^2.3.1"
   }
 }

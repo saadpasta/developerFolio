@@ -43,12 +43,27 @@ export default function StartupProject() {
                       : "project-card project-card-light"
                   }
                 >
+                  <video className="video"
+                         preload
+                         onMouseOver={event => {
+                           event.target.play();
+                           event.target.parentElement.querySelector('img').setAttribute("class","card-image hidden");
+                         }}
+                         onMouseOut={event => {
+                           event.target.pause();
+                           event.target.parentElement.querySelector('img').setAttribute("class","card-image visible");
+                         }}
+                         loop
+                         muted>
+                    <source src="https://www.youtube.com/watch?v=dQw4w9WgXcQ" />
+                    <source src={project.video} type="video/webm" />
+                  </video>
                   {project.image ? (
                     <div className="project-image">
                       <img
                         src={project.image}
                         alt={project.projectName}
-                        className="card-image"
+                        className="card-image visible"
                       ></img>
                     </div>
                   ) : null}
@@ -90,5 +105,6 @@ export default function StartupProject() {
         </div>
       </div>
     </Fade>
-  );
+  )
+    ;
 }

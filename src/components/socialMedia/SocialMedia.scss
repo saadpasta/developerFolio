@@ -64,8 +64,20 @@
   background-color: $kaggle;
 }
 
+.itch i {
+  background-color: $itch;
+}
+
 .instagram i {
   background-color: $instagram;
+}
+
+.steam i {
+  background-color: $steam;
+}
+
+.web i {
+  background-color: $website;
 }
 
 /* Hover Transition */
@@ -78,6 +90,9 @@
 .instagram i:hover,
 .stack-overflow i:hover,
 .kaggle i:hover,
+.itch i:hover,
+.steam i:hover,
+.web i:hover,
 .medium i:hover {
   background-color: $textColor;
 }

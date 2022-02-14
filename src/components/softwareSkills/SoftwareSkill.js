@@ -1,20 +1,25 @@
-import React from "react";
+import React, {useContext} from "react";
 import "./SoftwareSkill.scss";
-import {skillsSection} from "../../portfolio";
+import GetSkillIcon from "./GetSkillIcon";
+import StyleContext from "../../contexts/StyleContext";
 
-export default function SoftwareSkill() {
+export default function SoftwareSkill(skillList) {
+  const {isDark} = useContext(StyleContext);
   return (
     <div>
       <div className="software-skills-main-div">
         <ul className="dev-icons">
-          {skillsSection.softwareSkills.map((skills, i) => {
+          {skillList
+            .map((skills, i) => {
             return (
               <li
                 key={i}
-                className="software-skill-inline"
+                className={isDark
+                  ? "software-skill-inline software-skill-white"
+                  : "software-skill-inline"}
                 name={skills.skillName}
               >
-                <i className={skills.fontAwesomeClassname}></i>
+                 {GetSkillIcon(skills.iconData)}
                 <p>{skills.skillName}</p>
               </li>
             );

@@ -1,0 +1,131 @@
+@import "../../_globalColor";
+
+.gameJam-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 400px);
+  gap: 1rem 1rem;
+}
+
+.gameJam-video {
+  width: 400px;
+  height: auto;
+  display: block;
+  position: absolute;
+  align-self: center;
+  border-radius: 10px;
+  filter: saturate(0.6);
+}
+
+.gameJam-video:hover {
+  filter: saturate(1);
+  transition: filter .1s linear;
+}
+
+/* Hide Play button + controls on iOS */
+gameJam-video::-webkit-media-controls {
+  display: none !important;
+}
+
+.g-card-image {
+  max-width: 80%;
+  height: auto;
+  max-height: 100%;
+  border-radius: 10px;
+  align-self: center;
+}
+
+.g-card-image.visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity .2s linear;
+}
+
+.g-card-image.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s .1s, opacity .5s linear;
+}
+
+.g-card-title {
+  color: $titleColor;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 700;
+  margin: 10px 0 0 0;
+  background-color: transparent !important;
+}
+
+.g-card-subtitle {
+  color: $cardSubtitle;
+  font-size: 15px;
+  line-height: 1.5rem;
+  padding-top: .5rem;
+  padding-bottom: .8rem;
+  background-color: transparent !important;
+}
+
+.gameJam-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.gameJam-card-light {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.gameJam-card-dark {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.25s ease;
+}
+
+.gameJam-detail {
+  text-shadow:
+          1px 1px 0 #000;
+  text-align: center;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.gameJam-image {
+  position: relative;
+  height: 90px;
+  overflow: hidden;
+  text-align: center;
+  pointer-events: none;
+  visibility: visible;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+.gameJam-card-footer span.gameJam-tag {
+  background: $buttonColorVideo;
+  color: $lightBackground3;
+  vertical-align: middle;
+  align-items: center;
+  border-radius: 4px;
+  display: inline-flex;
+  font-size: 0.75rem;
+  height: 2em;
+  justify-content: center;
+  white-space: nowrap;
+  line-height: 1.5;
+  margin: 0 0.5rem 0.5rem 0;
+  padding: 0 0.75em;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+  pointer-events: auto;
+}
+
+@media (max-width: 768px) {
+  .gameJam-subtitle {
+    font-size: 16px;
+    text-align: center;
+  }
+}

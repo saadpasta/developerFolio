@@ -3,14 +3,15 @@ Certain colors are used for different and multiply types of elements.
 For greater control over colors visit each components .scss file. */
 
 // button colors
-$buttonColor: #55198b;
+$buttonColor: #1a4231;
 $buttonHover: #8c43ce;
 $topButtonHover: #000;
+$buttonColorVideo: #727272;
 
 // text colors light theme
 $titleColor: #000000;
 $textColor: #000000;
-$subTitle: #868e96;
+$subTitle: #000000;
 $cardSubtitle: #666666;
 $talkCardSubTitle: #7f8287;
 $blogCardTitleColor: #262626;
@@ -24,17 +25,19 @@ $toggleSwitchSliderBG: #ccc;
 
 // githubRepo specific colors
 $githubRepoCardLanguageColorBG: #0000ff;
-$githubRepoCardColor: rgb(88, 96, 105);
-$githubRepoCardRepoCardStatsColor: rgb(106, 115, 125);
+$githubRepoCardColor: rgb(68, 68, 68);
+$githubRepoCardRepoCardStatsColor: rgb(42, 42, 42);
 $githubRepoCardRepoNameColor: rgb(36, 41, 46);
 $githubProfileCardLocationTS: #ffebcd;
 $githubProfileCardBorder: #6c63ff;
 
 // light background colors
+$lightBackground: #a3adb0;
 $lightBackground1: #fff;
-$lightBackground2: rgb(255, 255, 255);
+$lightBackground2: #60918c;
 $lightBackground3: #f5f2f4;
 $blogCardContainerColor: #586069;
+
 // dark background colors
 $darkBackground: #171c28;
 
@@ -49,13 +52,15 @@ $darkBoxShadow2: #ffffff;
 
 // linear gradients
 $experienceCardBlurredDivLG: linear-gradient(
-  rgba(0, 0, 0, 0.4),
-  rgba(0, 0, 0, 0.2)
+                rgba(0, 0, 0, 0.4),
+                rgba(0, 0, 0, 0.2)
 );
 $experienceCardBannerLG: linear-gradient(
-  rgba(0, 0, 0, 0.7),
-  rgba(0, 0, 0, 0.5)
+                rgba(0, 0, 0, 0.7),
+                rgba(0, 0, 0, 0.5)
 );
+
+$signatureColor: #000000;
 
 // borders
 $progressBarBackground: rgb(243, 239, 239);
@@ -82,9 +87,12 @@ $faceBook: #3b5998;
 $linkedin: #0e76a8;
 $github: #333;
 $gitlab: #fca326;
-$google: #ea4335;
+$google: #03429a;
 $twitter: #1da1f2;
 $medium: #000;
 $stackoverflow: #f48024;
 $instagram: #c13584;
 $kaggle: #20beff;
+$itch: #00946b;
+$steam: #313167;
+$website: #646464;

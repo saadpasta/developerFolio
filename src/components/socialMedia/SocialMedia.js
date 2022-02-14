@@ -44,18 +44,6 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.gitlab ? (
-        <a
-          href={socialMediaLinks.gitlab}
-          className="icon-button gitlab"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-gitlab"></i>
-          <span></span>
-        </a>
-      ) : null}
-
       {socialMediaLinks.facebook ? (
         <a
           href={socialMediaLinks.facebook}
@@ -92,18 +80,6 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.medium ? (
-        <a
-          href={socialMediaLinks.medium}
-          className="icon-button medium"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-medium"></i>
-          <span></span>
-        </a>
-      ) : null}
-
       {socialMediaLinks.stackoverflow ? (
         <a
           href={socialMediaLinks.stackoverflow}
@@ -124,6 +100,41 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-kaggle"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.itch ? (
+        <a
+          href={socialMediaLinks.itch}
+          className="icon-button itch"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-itch-io"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.gitlab ? (
+        <a
+          href={socialMediaLinks.gitlab}
+          className="icon-button gitlab"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-gitlab"></i>
+          <span></span>
+        </a>
+      ) : null}
+      {socialMediaLinks.steam ? (
+        <a
+          href={socialMediaLinks.steam}
+          className="icon-button steam"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-steam"></i>
           <span></span>
         </a>
       ) : null}

@@ -4,28 +4,109 @@
   padding-left: 0;
   list-style: none;
   font-size: 3rem;
-  margin-bottom: 0px;
-  margin-top: 0px;
+  margin: 2rem 5rem 0rem 2rem;
   text-align: center;
+}
+
+.dev-icons-picture {
+  width: 3rem;
+  height: 3rem;
+  filter: saturate(0);
+}
+
+.dev-icons-picture.hideOnHover {
+  visibility: visible;
+}
+
+.dev-icons-picture-saturated {
+  width: 3rem;
+  height: 3rem;
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  margin-top: 0.4rem;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  width: 10rem;
+  line-height: 1.5rem;
+  display: block;
+  /* Position the tooltip */
+  transform: translate(-1rem);
+  position: absolute;
+  z-index: 1;
+}
+
+.toolTipHead1{
+  font-size: 1.5rem;
+}
+.toolTipSubTitle{
+  font-size: 0.6rem;
+  margin-bottom: 0.3rem;
+}
+.toolTipHead2{
+  text-align: left;
+  margin-left: 0.3rem;
+  font-size: 1rem;
+  line-height: 1rem;
+}
+.tooltipList{
+  padding-left: 1.1rem;
+  padding-top: 0.2rem;
+}
+.toolTipBulletPoint{
+  flex-direction: row;
+  font-size: 0.6rem;
+  margin-bottom: 0.3rem;
+  line-height: 0.5rem;
+  text-align: left;
+  overflow-wrap: break-word;
+  width: 8.5rem;
+}
+
+.noUnderline{
+  text-decoration: none;
+}
+.toolTipStars{
+  margin-top: 0.3rem;
+  font-size: 1rem;
+  letter-spacing: 0.5rem;
 }
 
 .software-skill-inline {
   display: inline-block;
   margin-right: 20px;
   margin-bottom: 20px;
+  text-align: Center;
 }
 
-.software-skill-inline > i {
-  color: $subTitle;
+.software-skill-white > p{
+  color: white !important;
 }
 
-.software-skill-inline > i:hover {
-  color: $skillsColor;
+.software-skill-inline:hover .dev-icons-picture{
+  filter: saturate(1) ;
 }
+
+.software-skill-inline:hover .dev-icons-picture-saturated{
+  visibility: visible;
+}
+
+.software-skill-inline:hover .dev-icons-picture.hideOnHover{
+  visibility: hidden;
+}
+
+.software-skill-inline:hover .tooltip{
+  visibility: visible;
+}
+
 .software-skill-inline > p {
   color: $subTitle;
   font-size: 10px;
-}
-.software-skill-inline > i:hover ~ p {
-  color: $skillsColor;
 }

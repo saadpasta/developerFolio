@@ -3,6 +3,8 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
+import React from "react";
+import GetSkillIcon from "./components/softwareSkills/GetSkillIcon";
 
 // Summary And Greeting Section
 
@@ -11,26 +13,24 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Pirmin Pfeifer",
+  title: "Hello There",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Im Pirmin Pfeifer an aspiring game (engine) programmer. Currently i am studying Games Engineering Bachelor in Würzburg, Germany. My passions are game engines, computer graphics and graph theory."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://prmn.eu/resume", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Darkblizzard21",
+  gmail: "pirmin.pfeifer@stud-mail.uni-wuerzburg.de",
+  twitter: "https://twitter.com/GE_pirmin",
+  itch: "https://darkblizzard.itch.io/",
+  steam: "https://steamcommunity.com/id/darkblizzard21",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -40,72 +40,396 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "MAINLY GRAPHICS ENGINEERING AND OTHER ENGINE TECH BUT ALSO A BIT OF ALL DISCIPLINES OF GAME DEVELOPMENT ",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop new Engine Features, Extensions and Development Tools"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡ Design and Implementation of Gameplay Systems"
+    ),
+    emoji("✨ Scripting of Shaders and Post-Processing-Effects")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
+  projects: [
+    {
+      description: "GameLab III: Fractal Engine",
+      link: "https://www.youtube.com/watch?v=Gxc_A7myOg4",
+      skills: [
+        "C++",
+        "Visual Studio",
+        "ReSharper",
+        "Nintendo Switch SDK",
+        "OpenGl"
+      ]
+    },
+    {
+      description: "GameLab II: Balancing Hub",
+      link: "https://www.youtube.com/watch?v=7q_E0Ke6AJ4",
+      skills: [
+        "C++",
+        "Unreal Engine 4",
+        "Visual Studio",
+        "Rider"
+      ]
+    },
+    {
+      description: "GameLab I: Empty Spaces",
+      link: "https://darkblizzard.itch.io/emptyspaces",
+      skills: [
+        "C++",
+        "Unreal Engine 4",
+        "Visual Studio"
+      ]
+    },
+    {
+      description: "BrightnessBased TextureLayering",
+      link: "https://darkblizzard.itch.io/texturelayering",
+      skills: [
+        "Unreal Engine 4"
+      ]
+    },
+    {
+      description: "dProB @ BII Gmbh",
+      link: "https://www.bii-gmbh.com/",
+      skills: [
+        "C#",
+        "Unity",
+        "Rider"
+      ]
+    },
+    {
+      description: "Dada Longlegs",
+      link: "https://qu0d0.itch.io/dada-longlegs",
+      skills: [
+        "C#",
+        "Unity",
+        "Rider"
+      ]
+    },
+    {
+      description: "TD Cratos",
+      link: "https://darkblizzard.itch.io/td-project",
+      skills: [
+        "C#",
+        "Unity",
+        "Visual Studio"
+      ]
+    },
+    {
+      description: "PacMan AI @ Interactive AI Lecture",
+      skills: [
+        "C#",
+        "Unity",
+        "Rider"
+      ]
+    },
+    {
+      description: "Advent of Code 2021",
+      link: "https://github.com/Darkblizzard21/AoC2021",
+      skills: [
+        "Java",
+        "IntelliJ IDEA"
+      ]
+    },
+    {
+      description: "Enigma Example Project",
+      link: "https://github.com/ShaikaJar/Enigma",
+      skills: [
+        "Java",
+        "IntelliJ IDEA"
+      ]
+    },
+    {
+      description: "This Website",
+      skills: [
+        "JavaScript",
+        "WebStorm"
+      ]
+    },
+    {
+      description: "WebGL ProtoType @ Interactive Computer Graphics Lecture",
+      skills: [
+        "TypeScript",
+        "WebStorm",
+        "WebGL"
+      ]
+    },
+    {
+      description: "SquaredCode Formatter",
+      link: "https://github.com/Darkblizzard21/SquaredCode",
+      skills: [
+        "JavaScript",
+        "WebStorm"
+      ]
+    },
+    {
+      description: "DynamicChannels Discord Bot Module",
+      link: "https://github.com/Darkblizzard21/DynamicChannelsModule",
+      skills: [
+        "C#",
+        "Rider",
+        "Discord API"
+      ]
+    },
+    {
+      description: "Discord Management Bot",
+      skills: [
+        "JavaScript",
+        "WebStorm",
+        "Discord API"
+      ]
+    },
+    {
+      description: "BlenderRenderCollection",
+      link: "https://github.com/Darkblizzard21/BlenderRenderCollection",
+      skills: [
+        "Blender"
+      ]
+    },
+    {
+      description: "3D Models and Promotional Art for my Projects",
+      skills: [
+        "Blender"
+      ]
+    },
+    {
+      description: "Almost all of my projects",
+      skills: [
+        "Git"
+      ]
+    }
+  ],
+
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "C++",
+      iconData: {
+        link: "https://isocpp.org/",
+        icon: require("./assets/images/ISO_C++_Logo.svg"),
+        tooltip: {
+          name: "C++",
+          type: "PROGRAMMING LANGUAGE",
+          proficiency: 4
+        }
+      }
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "C#",
+      iconData: {
+        link: "https://docs.microsoft.com/en-us/dotnet/csharp/",
+        icon: require("./assets/images/csharp.svg"),
+        tooltip: {
+          name: "C#",
+          type: "PROGRAMMING LANGUAGE",
+          proficiency: 4
+        }
+      }
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Java",
+      iconData: {
+        link: "https://www.java.com/en/",
+        icon: require("./assets/images/java.png"),
+        tooltip: {
+          name: "Java",
+          type: "PROGRAMMING LANGUAGE",
+          proficiency: 4
+        }
+      }
+    },
+    {
+      skillName: "TypeScript",
+      iconData: {
+        link: "https://www.typescriptlang.org/",
+        icon: require("./assets/images/TypeScript.svg"),
+        tooltip: {
+          name: "TypeScript",
+          type: "PROGRAMMING LANGUAGE",
+          proficiency: 3
+        }
+      }
     },
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      iconData: {
+        link: "https://www.javascript.com/",
+        icon: require("./assets/images/js.png"),
+        tooltip: {
+          name: "JavaScript",
+          type: "PROGRAMMING LANGUAGE",
+          proficiency: 3
+        }
+      }
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Unreal 4",
+      iconData: {
+        link: "https://www.unrealengine.com/en-US/",
+        icon: require("./assets/images/ue4Desat.svg"),
+        saturatedIcon: require("./assets/images/ue4.svg"),
+        tooltip: {
+          name: "Unreal Engine 4",
+          type: "GAME ENGINE",
+          proficiency: 5
+        }
+      }
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Unity",
+      iconData: {
+        link: "https://git-scm.com",
+        icon: require("./assets/images/unityDesat.svg"),
+        saturatedIcon: require("./assets/images/unitySat.svg"),
+        tooltip: {
+          name: "Unity",
+          type: "GAME ENGINE",
+          proficiency: 4
+        }
+      }
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Blender",
+      iconData: {
+        link: "https://www.blender.org/",
+        icon: require("./assets/images/blender_icon_64x64.png"),
+        tooltip: {
+          name: "Blender",
+          type: "3D MODELING TOOL",
+          proficiency: 5
+        }
+      }
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "Git",
+      iconData: {
+        link: "https://git-scm.com",
+        icon: require("./assets/images/Git.png"),
+        tooltip: {
+          name: "Git",
+          type: "VERSION CONTROL",
+          proficiency: 4
+        }
+      }
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "Visual Studio",
+      iconData: {
+        name: "Visual Studio",
+        link: "https://visualstudio.microsoft.com/",
+        icon: require("./assets/images/vs19.svg"),
+        tooltip: {
+          name: "Visual Studio",
+          type: "IDE",
+          proficiency: 4
+        }
+      }
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "Rider",
+      iconData: {
+        link: "https://www.jetbrains.com/rider/",
+        icon: require("./assets/images/rider.png"),
+        tooltip: {
+          name: "Rider",
+          type: "IDE",
+          proficiency: 5
+        }
+      }
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "ReSharper",
+      iconData: {
+        link: "https://www.jetbrains.com/resharper-cpp/",
+        icon: require("./assets/images/resharper.png"),
+        tooltip: {
+          name: "ReSharper",
+          type: "VS EXTENSION",
+          proficiency: 2
+        }
+      }
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "IntelliJ IDEA",
+      iconData: {
+        link: "https://www.jetbrains.com/idea/",
+        icon: require("./assets/images/intellij.png"),
+        tooltip: {
+          name: "IntelliJ IDEA",
+          type: "IDE",
+          relatedProjects: [
+            {
+              description: "Enigma Example Project",
+              link: "https://github.com/ShaikaJar/Enigma"
+            }],
+          proficiency: 4
+        }
+      }
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "WebStorm",
+      iconData: {
+        link: "https://www.jetbrains.com/webstorm/",
+        icon: require("./assets/images/webstorm.png"),
+        tooltip: {
+          name: "WebStorm",
+          type: "IDE",
+          proficiency: 3
+        }
+      }
+    },
+    {
+      skillName: "Switch SDK",
+      iconData: {
+        icon: require("./assets/images/ndiDesat.png"),
+        saturatedIcon: require("./assets/images/ndi.png"),
+        tooltip: {
+          name: "Nintendo Switch SDK",
+          type: "API/SDK",
+          proficiency: 3
+        }
+      }
+    },
+    {
+      skillName: "OpenGL",
+      iconData: {
+        link: "https://www.opengl.org//",
+        icon: require("./assets/images/openglDesat.svg"),
+        saturatedIcon: require("./assets/images/opengl.svg"),
+        tooltip: {
+          name: "OpenGL",
+          type: "GRAPHICS API",
+          proficiency: 4
+        }
+      }
+    },
+    {
+      skillName: "WebGL",
+      iconData: {
+        link: "https://www.khronos.org/webgl/",
+        icon: require("./assets/images/WebGL_LogoDeSat.svg"),
+        saturatedIcon: require("./assets/images/WebGL_Logo.svg"),
+        tooltip: {
+          name: "WebGL",
+          type: "GRAPHICS API",
+          proficiency: 4
+        }
+      }
+    },
+    {
+      skillName: "Discord API",
+      iconData: {
+        link: "https://discord.com/developers/docs/intro",
+        icon: require("./assets/images/Discord-Logo-Color.svg"),
+        tooltip: {
+          name: "Discord API",
+          type: "API (JS, PYTHON, C#)",
+          proficiency: 5
+        }
+      }
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -117,23 +441,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Julius-Maximilians University",
+      logo: require("./assets/images/uniwue.png"),
+      subHeader: "Games Engineering BSc",
+      duration: "September 2019 - Current",
+      desc: "Received highest grade for multiple multiple Games Engineering projects:",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "GameLab I: EmptySpaces",
+        "GameLab II: Balancing Hub",
+        "MovieMakingWithGameEngines: BrightnessBasedTextureLayering",
+        "Seminar Current Trends in Games Engineering: Automated Animation of Creatures"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Friedrich-List-Gymnasium Gemünden",
+      logo: require("./assets/images/N-Projekt-Logo-297x300.jpg"),
+      subHeader: "A Levels",
+      duration: "September 2011 - July 2019"
     }
   ]
 };
@@ -141,7 +465,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -166,28 +490,26 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      company: "Building Information Innovator GmbH",
+      companylogo: require("./assets/images/bii2.png"),
+      date: "March 2021 – September 2021",
+      desc: "Developed professional digital tool for modeling, simulation and visualization of construction processes with Unityn and a functional C# library.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Build graph data structures for the management of cargo flows",
+        "Build development & debug tools"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Tutor for Game Lab I",
+      company: "Julius-Maximilians University",
+      companylogo: require("./assets/images/uniwue.png"),
+      date: "October 2020 – Present",
+      desc: "Supported students by overcoming problems they face during the game development process",
+      descBullets: [
+        "Explained basic and intermediate topics that the students brought up",
+        "Created introductory tutorials on for unreal engine 4",
+        "Tested and reviewed the students games"
+      ]
     }
   ]
 };
@@ -196,42 +518,145 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "University Projects",
+  subtitle: "GAMES AND TOOLS I DEVELOPED FOR THE BIG COURSES IN MY GAMES ENGINEERING BACHELOR",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      video: require("./assets/videos/GameLabIIITrailer.webm"),
+      image: require("./assets/images/fractalEngineLogo.png"),
+      projectName: "",
+      projectDesc: "A low level game development framework for the Nintendo Switch ™ hardware. Featuring various compile-time-safety features. Currently a Minesweeper is implemented as proof of concept",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Watch WS21 Teaser",
+          url: "https://www.youtube.com/watch?v=Gxc_A7myOg4"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      video: require("./assets/videos/HauntedForest.webm"),
+      image: require("./assets/images/mmwge.png"),
+      projectName: "BrightnessBasedTextureLayering",
+      projectDesc: "\"BrightnessBasedTextureLayering\" PostProcess effect. It uses the Unreal Engine 4 exposure system to create an artistic image from textures.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Download on Itch.io",
+          url: "https://darkblizzard.itch.io/texturelayering"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      video: require("./assets/videos/EmptySpacesRaw.webm"),
+      image: require("./assets/images/emptySpaces.png"),
+      projectName: "Empty Spaces",
+      projectDesc: "A game prototype that explores the combination of Bullet-Hell-Twin-Stick-Shooters and Metroidvania style games. The game contains four areas and three bosses. ",
+      footerLink: [
+        {
+          name: "Watch Trailer",
+          url: "https://www.youtube.com/watch?v=7nlux89EjxY"
+        },
+        {
+          name: "Download on Itch.io",
+          url: "https://darkblizzard.itch.io/emptyspaces"
+        }
+      ]
+    },
+    {
+      video: require("./assets/videos/balancingHub.webm"),
+      image: require("./assets/images/balancingHub.png"),
+      projectName: "Balancing Hub",
+      projectDesc: "A game prototype that explores the combination of Bullet-Hell-Twin-Stick-Shooters and Metroidvania style games. The game contains four areas and three bosses. ",
+      footerLink: [
+        {
+          name: "Watch Trailer",
+          url: "https://www.youtube.com/watch?v=7q_E0Ke6AJ4"
+        },
+        {
+          name: "Download on Itch.io",
+          url: "https://qu0d0.itch.io/balancing-hub"
+        },
+        {
+          name: "View Backend on GitHub",
+          url: "https://github.com/Darkblizzard21/BalancingHubBackend"
         }
       ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
 };
+
+// GameJams Section
+
+const gameJams = {
+  title: "Game Jams",
+  subtitle: "GAMES AND PROJECTS THAT I MADE DURING GAME JAMS",
+  projects: [
+    {
+      video: require("./assets/videos/dada.webm"),
+      image: require("./assets/images/longLegs.png"),
+      projectName: "Dada LongLegs",
+      projectDesc: "This game is was submission the Franken Game Jam 2021. The theme was Growth.",
+      footerLink: [
+        {
+          name: "Download on Itch.io",
+          url: "https://qu0d0.itch.io/dada-longlegs"
+        },
+        {
+          name: "GameJam Page",
+          url: "https://frankengamejam.de/de/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      video: require("./assets/videos/TDCratos.webm"),
+      image: require("./assets/images/TDCratos.png"),
+      projectName: "TD Cratos",
+      projectDesc: "This game started as self proposed 72H game challenge and introduced me to unity.",
+      footerLink: [
+        {
+          name: "Download on Itch.io",
+          url: "https://darkblizzard.itch.io/td-project"
+        }
+      ]
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
+// References Section
+
+const referencesSection = {
+  references: [
+    {
+      name: "Prof. Dr. Sebastian von Mammen",
+      jobTitle: "Professor of Games Engineering",
+      organization: "Julius-Maximilians University",
+      location: "Würzburg, Germany",
+      website: "http://hci.uni-wuerzburg.de/people/sebastian-von-mammen/",
+      email: "sebastian.von.mammen@uni-wuerzburg.de",
+      image:  require("./assets/images/GE-logo.svg")
+    },
+    {
+      name: "Daniel Götz",
+      jobTitle: "Chief Operating Officer ",
+      organization: "Building Information Innovator GmbH",
+      location: "Würzburg, Germany",
+      website: "https://www.bii-gmbh.com/",
+      email: "goetz@bii-gmbh.com",
+      image:  require("./assets/images/bii2.png")
+    }
+  ]
+}
 
 // Achievement Section
 // Include certificates, talks etc
@@ -288,7 +713,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -312,7 +737,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -331,7 +756,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -344,22 +769,24 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  title: emoji("Contact Me "),
+  subtitle1:
+    "Discuss a project, offer an opportunity or just want to say hi?",
+  subtitle2:
+    "My Inbox is open for all.",
+  number: "",
+  email_address: "pirmin.pfeifer@stud-mail.uni-wuerzburg.de"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
@@ -372,6 +799,8 @@ export {
   workExperiences,
   openSource,
   bigProjects,
+  gameJams,
+  referencesSection,
   achievementSection,
   blogSection,
   talkSection,
