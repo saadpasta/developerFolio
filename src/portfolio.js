@@ -4,7 +4,6 @@
 
 import emoji from "react-easy-emoji";
 import React from "react";
-import GetSkillIcon from "./components/softwareSkills/GetSkillIcon";
 
 // Summary And Greeting Section
 
@@ -19,7 +18,7 @@ const greeting = {
     "Im Pirmin Pfeifer an aspiring game (engine) programmer. Currently i am studying Games Engineering Bachelor in Würzburg, Germany. My passions are game engines, computer graphics and graph theory."
   ),
   resumeLink:
-    "https://prmn.eu/resume", // Set to empty to hide the button
+    "https://pirminpfeifer.eu/resume", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -30,7 +29,7 @@ const socialMediaLinks = {
   gmail: "pirmin.pfeifer@stud-mail.uni-wuerzburg.de",
   twitter: "https://twitter.com/GE_pirmin",
   itch: "https://darkblizzard.itch.io/",
-  steam: "https://steamcommunity.com/id/darkblizzard21",
+  // steam: "https://steamcommunity.com/id/darkblizzard21",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -493,7 +492,7 @@ const workExperiences = {
       company: "Building Information Innovator GmbH",
       companylogo: require("./assets/images/bii2.png"),
       date: "March 2021 – September 2021",
-      desc: "Developed professional digital tool for modeling, simulation and visualization of construction processes with Unityn and a functional C# library.",
+      desc: "Developed professional digital tool for modeling, simulation and visualization of construction processes with Unity and a functional C# library.",
       descBullets: [
         "Build graph data structures for the management of cargo flows",
         "Build development & debug tools"
@@ -504,7 +503,7 @@ const workExperiences = {
       company: "Julius-Maximilians University",
       companylogo: require("./assets/images/uniwue.png"),
       date: "October 2020 – Present",
-      desc: "Supported students by overcoming problems they face during the game development process",
+      desc: "Supported students at overcoming problems they face during the game development process.",
       descBullets: [
         "Explained basic and intermediate topics that the students brought up",
         "Created introductory tutorials on for unreal engine 4",
@@ -532,7 +531,7 @@ const bigProjects = {
       video: require("./assets/videos/GameLabIIITrailer.webm"),
       image: require("./assets/images/fractalEngineLogo.png"),
       projectName: "",
-      projectDesc: "A low level game development framework for the Nintendo Switch ™ hardware. Featuring various compile-time-safety features. Currently a Minesweeper is implemented as proof of concept",
+      projectDesc: "Hardware-oriented, specialised engine for the Nintendo Switch ™ console with a focus on compile-time-safe loading, use of hardware features and various graphics options. Currently a Minesweeper game is implemented as proof of concept",
       footerLink: [
         {
           name: "Watch WS21 Teaser",
@@ -545,7 +544,7 @@ const bigProjects = {
       video: require("./assets/videos/HauntedForest.webm"),
       image: require("./assets/images/mmwge.png"),
       projectName: "BrightnessBasedTextureLayering",
-      projectDesc: "\"BrightnessBasedTextureLayering\" PostProcess effect. It uses the Unreal Engine 4 exposure system to create an artistic image from textures.",
+      projectDesc: "This PostProcess effect uses the Unreal Engine 4 exposure system to create an artistic image from textures. Created in collaboration with four design students.",
       footerLink: [
         {
           name: "Download on Itch.io",
@@ -574,7 +573,7 @@ const bigProjects = {
       video: require("./assets/videos/balancingHub.webm"),
       image: require("./assets/images/balancingHub.png"),
       projectName: "Balancing Hub",
-      projectDesc: "A game prototype that explores the combination of Bullet-Hell-Twin-Stick-Shooters and Metroidvania style games. The game contains four areas and three bosses. ",
+      projectDesc: "Balance your variables while playing with the \"Balancing Hub\" plugin for Unreal 4.24.3. Created in collaboration with Quirin Maier.",
       footerLink: [
         {
           name: "Watch Trailer",
@@ -597,8 +596,8 @@ const bigProjects = {
 // GameJams Section
 
 const gameJams = {
-  title: "Game Jams",
-  subtitle: "GAMES AND PROJECTS THAT I MADE DURING GAME JAMS",
+  title: "Small Projects & Game Jams",
+  subtitle: "GAMES AND PROJECTS THAT I MADE DURING GAME JAMS OR OTHER SMALLER TIME PERIODS",
   projects: [
     {
       video: require("./assets/videos/dada.webm"),
@@ -648,7 +647,7 @@ const referencesSection = {
     },
     {
       name: "Daniel Götz",
-      jobTitle: "Chief Operating Officer ",
+      jobTitle: "COO and Software Engineer",
       organization: "Building Information Innovator GmbH",
       location: "Würzburg, Germany",
       website: "https://www.bii-gmbh.com/",
