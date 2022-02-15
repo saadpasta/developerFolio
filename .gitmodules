@@ -1,0 +1,3 @@
+[submodule "src/submodules/WebGL-Boids"]
+	path = src/submodules/WebGL-Boids
+	url = git@github.com:Darkblizzard21/WebGL-Boids.git
