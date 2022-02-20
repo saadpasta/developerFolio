@@ -15,7 +15,7 @@ const greeting = {
   username: "Pirmin Pfeifer",
   title: "Hello There",
   subTitle: emoji(
-    "Im Pirmin Pfeifer an aspiring game (engine) programmer. Currently i am studying Games Engineering Bachelor in Würzburg, Germany. My passions are game engines, computer graphics and graph theory."
+    "Im Pirmin Pfeifer an aspiring game (engine) programmer. Currently i am studying Games Engineering BSc in Würzburg, Germany. My passions are game engines, computer graphics and graph theory."
   ),
   resumeLink:
     "https://pirminpfeifer.eu/resume", // Set to empty to hide the button
@@ -39,6 +39,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
+  boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/qOutput9.png"),
   subTitle: "MAINLY GRAPHICS ENGINEERING AND OTHER ENGINE TECH BUT ALSO A BIT OF ALL DISCIPLINES OF GAME DEVELOPMENT ",
   skills: [
     emoji(
@@ -444,7 +445,7 @@ const educationInfo = {
       logo: require("./assets/images/uniwue.png"),
       subHeader: "Games Engineering BSc",
       duration: "September 2019 - Current",
-      desc: "Received highest grade for multiple multiple Games Engineering projects:",
+      desc: "Received highest grade for multiple Games Engineering projects:",
       descBullets: [
         "GameLab I: EmptySpaces",
         "GameLab II: Balancing Hub",
@@ -455,7 +456,7 @@ const educationInfo = {
     {
       schoolName: "Friedrich-List-Gymnasium Gemünden",
       logo: require("./assets/images/N-Projekt-Logo-297x300.jpg"),
-      subHeader: "A Levels",
+      subHeader: "Abitur",
       duration: "September 2011 - July 2019"
     }
   ]
@@ -617,7 +618,7 @@ const gameJams = {
       ]
     },
     {
-      video: require("./assets/videos/TDCratos.webm"),
+      video: require("./assets/videos/TDCratos2.webm"),
       image: require("./assets/images/TDCratos.png"),
       projectName: "TD Cratos",
       projectDesc: "This game started as self proposed 72H game challenge and introduced me to unity.",

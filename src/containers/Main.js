@@ -20,7 +20,6 @@ import {useLocalStorage} from "../hooks/useLocalStorage";
 import "./Main.scss";
 import GameJams from "./gameJam/GameJam";
 import References from "./references/References";
-import Triangle from "../submodules/WebGL-Boids/WebGLCanvas";
 
 const Main = () => {
   const [isDark, setIsDark] = useLocalStorage("isDark", "true");
@@ -33,7 +32,6 @@ const Main = () => {
     <div className={isDark ? "dark-mode" : "lite-mode"}>
       <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
         <Header />
-        <Triangle />
         <Greeting />
         <Skills />
         <StackProgress />
