@@ -4,6 +4,8 @@ This software is under GNU GENERAL PUBLIC LICENSE Version 3.
 
 The content (images, viedo, text) of the website may have thier own copyright protection.
 
+When you are using this templated you must change the link at the bottom of the website to link to this as source.
+
 # Software Developer Folio ⚡️ [![GitHub](https://img.shields.io/github/license/saadpasta/developer-portfolio?color=blue)](https://github.com/saadpasta/developerFolio/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/saadpasta/developerFolio)](https://github.com/saadpasta/developerFolio/stargazers)  [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 
 ## A clean, beautiful and responsive portfolio template for Developers!
