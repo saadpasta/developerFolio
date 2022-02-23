@@ -1,9 +1,9 @@
 import React from "react";
 import GetInfoToolTip from "./GetInfoToolTip";
-
 export default function GetSkillIcon(input) {
   return (
     <div className="tooltipBase">
+      <img id={input.tooltip.name + "-forceTexture"} className="dev-hidden-img" src={input.boidForceTexture}></img>
       <a href={input.link} target="_blank">
         {
           input.saturatedIcon ?

@@ -18,7 +18,7 @@ const greeting = {
     "Im Pirmin Pfeifer an aspiring game (engine) programmer. Currently i am studying Games Engineering BSc in Würzburg, Germany. My passions are game engines, computer graphics and graph theory."
   ),
   resumeLink:
-    "https://pirminpfeifer.eu/resume", // Set to empty to hide the button
+    "http://pirminpfeifer.eu/", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -26,7 +26,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/Darkblizzard21",
-  gmail: "pirmin.pfeifer@stud-mail.uni-wuerzburg.de",
+  gmail: "hi@pirminpfeifer.eu",
   twitter: "https://twitter.com/GE_pirmin",
   itch: "https://darkblizzard.itch.io/",
   // steam: "https://steamcommunity.com/id/darkblizzard21",
@@ -39,7 +39,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/qOutput9.png"),
+  boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/pp.png"),
   subTitle: "MAINLY GRAPHICS ENGINEERING AND OTHER ENGINE TECH BUT ALSO A BIT OF ALL DISCIPLINES OF GAME DEVELOPMENT ",
   skills: [
     emoji(
@@ -143,10 +143,11 @@ https://fontawesome.com/icons?d=gallery */
       ]
     },
     {
-      description: "This Website",
+      description: "Boid Simulation on this Website",
       skills: [
         "JavaScript",
-        "WebStorm"
+        "WebStorm",
+        "WebGL"
       ]
     },
     {
@@ -210,6 +211,7 @@ https://fontawesome.com/icons?d=gallery */
       iconData: {
         link: "https://isocpp.org/",
         icon: require("./assets/images/ISO_C++_Logo.svg"),
+        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/cpp.png"),
         tooltip: {
           name: "C++",
           type: "PROGRAMMING LANGUAGE",
@@ -221,6 +223,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "C#",
       iconData: {
         link: "https://docs.microsoft.com/en-us/dotnet/csharp/",
+        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/csharp.png"),
         icon: require("./assets/images/csharp.svg"),
         tooltip: {
           name: "C#",
@@ -234,6 +237,7 @@ https://fontawesome.com/icons?d=gallery */
       iconData: {
         link: "https://www.java.com/en/",
         icon: require("./assets/images/java.png"),
+        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/javaComposit.png"),
         tooltip: {
           name: "Java",
           type: "PROGRAMMING LANGUAGE",
@@ -246,6 +250,7 @@ https://fontawesome.com/icons?d=gallery */
       iconData: {
         link: "https://www.typescriptlang.org/",
         icon: require("./assets/images/TypeScript.svg"),
+        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/ts.png"),
         tooltip: {
           name: "TypeScript",
           type: "PROGRAMMING LANGUAGE",
@@ -258,6 +263,7 @@ https://fontawesome.com/icons?d=gallery */
       iconData: {
         link: "https://www.javascript.com/",
         icon: require("./assets/images/js.png"),
+        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/jsComposit.png"),
         tooltip: {
           name: "JavaScript",
           type: "PROGRAMMING LANGUAGE",
@@ -271,6 +277,7 @@ https://fontawesome.com/icons?d=gallery */
         link: "https://www.unrealengine.com/en-US/",
         icon: require("./assets/images/ue4Desat.svg"),
         saturatedIcon: require("./assets/images/ue4.svg"),
+        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/ue4.png"),
         tooltip: {
           name: "Unreal Engine 4",
           type: "GAME ENGINE",
@@ -284,6 +291,7 @@ https://fontawesome.com/icons?d=gallery */
         link: "https://git-scm.com",
         icon: require("./assets/images/unityDesat.svg"),
         saturatedIcon: require("./assets/images/unitySat.svg"),
+        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/unityComposit.png"),
         tooltip: {
           name: "Unity",
           type: "GAME ENGINE",
@@ -296,6 +304,7 @@ https://fontawesome.com/icons?d=gallery */
       iconData: {
         link: "https://www.blender.org/",
         icon: require("./assets/images/blender_icon_64x64.png"),
+        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/blenderComposit.png"),
         tooltip: {
           name: "Blender",
           type: "3D MODELING TOOL",
@@ -308,6 +317,7 @@ https://fontawesome.com/icons?d=gallery */
       iconData: {
         link: "https://git-scm.com",
         icon: require("./assets/images/Git.png"),
+        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/gitComposit.png"),
         tooltip: {
           name: "Git",
           type: "VERSION CONTROL",
@@ -321,6 +331,7 @@ https://fontawesome.com/icons?d=gallery */
         name: "Visual Studio",
         link: "https://visualstudio.microsoft.com/",
         icon: require("./assets/images/vs19.svg"),
+        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/vsComposit.png"),
         tooltip: {
           name: "Visual Studio",
           type: "IDE",
@@ -333,6 +344,7 @@ https://fontawesome.com/icons?d=gallery */
       iconData: {
         link: "https://www.jetbrains.com/rider/",
         icon: require("./assets/images/rider.png"),
+        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/riderComposit.png"),
         tooltip: {
           name: "Rider",
           type: "IDE",
@@ -345,6 +357,7 @@ https://fontawesome.com/icons?d=gallery */
       iconData: {
         link: "https://www.jetbrains.com/resharper-cpp/",
         icon: require("./assets/images/resharper.png"),
+        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/resharperComposit.png"),
         tooltip: {
           name: "ReSharper",
           type: "VS EXTENSION",
@@ -357,6 +370,7 @@ https://fontawesome.com/icons?d=gallery */
       iconData: {
         link: "https://www.jetbrains.com/idea/",
         icon: require("./assets/images/intellij.png"),
+        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/ideaComposit.png"),
         tooltip: {
           name: "IntelliJ IDEA",
           type: "IDE",
@@ -374,6 +388,7 @@ https://fontawesome.com/icons?d=gallery */
       iconData: {
         link: "https://www.jetbrains.com/webstorm/",
         icon: require("./assets/images/webstorm.png"),
+        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/webstormComposit.png"),
         tooltip: {
           name: "WebStorm",
           type: "IDE",
@@ -386,6 +401,7 @@ https://fontawesome.com/icons?d=gallery */
       iconData: {
         icon: require("./assets/images/ndiDesat.png"),
         saturatedIcon: require("./assets/images/ndi.png"),
+        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/ndiComposit.png"),
         tooltip: {
           name: "Nintendo Switch SDK",
           type: "API/SDK",
@@ -399,6 +415,7 @@ https://fontawesome.com/icons?d=gallery */
         link: "https://www.opengl.org//",
         icon: require("./assets/images/openglDesat.svg"),
         saturatedIcon: require("./assets/images/opengl.svg"),
+        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/glComposit.png"),
         tooltip: {
           name: "OpenGL",
           type: "GRAPHICS API",
@@ -412,6 +429,7 @@ https://fontawesome.com/icons?d=gallery */
         link: "https://www.khronos.org/webgl/",
         icon: require("./assets/images/WebGL_LogoDeSat.svg"),
         saturatedIcon: require("./assets/images/WebGL_Logo.svg"),
+        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/glComposit.png"),
         tooltip: {
           name: "WebGL",
           type: "GRAPHICS API",
@@ -424,6 +442,7 @@ https://fontawesome.com/icons?d=gallery */
       iconData: {
         link: "https://discord.com/developers/docs/intro",
         icon: require("./assets/images/Discord-Logo-Color.svg"),
+        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/discordComposit.png"),
         tooltip: {
           name: "Discord API",
           type: "API (JS, PYTHON, C#)",
@@ -779,7 +798,7 @@ const contactInfo = {
   subtitle2:
     "My Inbox is open for all.",
   number: "",
-  email_address: "pirmin.pfeifer@stud-mail.uni-wuerzburg.de"
+  email_address: "hi@pirminpfeifer.eu"
 };
 
 // Twitter Section

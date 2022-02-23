@@ -1,5 +1,11 @@
 @import "../../_globalColor";
 
+.dev-hidden-img{
+  position: absolute;
+  width: 0px;
+  height: 0px;
+}
+
 .dev-icons {
   padding-left: 0;
   list-style: none;
