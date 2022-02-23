@@ -15,7 +15,7 @@ const greeting = {
   username: "Pirmin Pfeifer",
   title: "Hello There",
   subTitle: emoji(
-    "Im Pirmin Pfeifer an aspiring game (engine) programmer. Currently i am studying Games Engineering BSc in Würzburg, Germany. My passions are game engines, computer graphics and graph theory."
+    "I'm Pirmin Pfeifer an aspiring games engineer. Currently i am studying Games Engineering BSc in Würzburg, Germany. My passions are game engines, computer graphics and graph theory."
   ),
   resumeLink:
     "http://pirminpfeifer.eu/", // Set to empty to hide the button
@@ -619,6 +619,18 @@ const gameJams = {
   title: "Small Projects & Game Jams",
   subtitle: "GAMES AND PROJECTS THAT I MADE DURING GAME JAMS OR OTHER SMALLER TIME PERIODS",
   projects: [
+    {
+      video: require("./assets/videos/boids.webm"),
+      image: require("./assets/images/boidLogo.png"),
+      projectName: "WebGL Boid Simulation",
+      projectDesc: "Boid Simulation on this website. Calculated on the GPU via Transform Feedbacks.",
+      footerLink: [
+        {
+          name: "View Code on GitHub",
+          url: "https://github.com/Darkblizzard21/WebGL-Boids"
+        }
+      ]
+    },
     {
       video: require("./assets/videos/dada.webm"),
       image: require("./assets/images/longLegs.png"),
