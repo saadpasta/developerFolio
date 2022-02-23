@@ -548,7 +548,7 @@ const bigProjects = {
   subtitle: "GAMES AND TOOLS I DEVELOPED FOR THE BIG COURSES IN MY GAMES ENGINEERING BACHELOR",
   projects: [
     {
-      video: require("./assets/videos/GameLabIIITrailer.webm"),
+      video: require("./assets/videos/fractalWebSnippet.webm"),
       image: require("./assets/images/fractalEngineLogo.png"),
       projectName: "",
       projectDesc: "Hardware-oriented, specialised engine for the Nintendo Switch ™ console with a focus on compile-time-safe loading, use of hardware features and various graphics options. Currently a Minesweeper game is implemented as proof of concept",
