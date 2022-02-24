@@ -2,13 +2,6 @@ import React from "react";
 import {skillsSection} from "../../portfolio";
 
 export default function GetInfoToolTip(input) {
-  let description;
-  if (input.description)
-    description = <div
-      className="toolTipBulletPoint"
-    >{input.description}
-    </div>;
-
   let relatedProjects = skillsSection.projects
     .filter((p) => p.skills.some((s) => s.toUpperCase() === input.name.toUpperCase()));
   let projectList;
@@ -28,7 +21,6 @@ export default function GetInfoToolTip(input) {
         })}
       </ul>
     </div>;
-
   return (
     <div className="tooltip">
       <div className="toolTipHead1">{input.name}</div>

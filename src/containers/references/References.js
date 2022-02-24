@@ -1,7 +1,7 @@
 import React, {useContext, createRef} from "react";
 import "./References.scss";
-import "./../../components/socialMedia/SocialMedia.scss"
-import {referencesSection, socialMediaLinks} from "../../portfolio";
+import "./../../components/socialMedia/SocialMedia.scss";
+import {referencesSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 

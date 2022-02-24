@@ -9,7 +9,7 @@ export default function GameJams() {
     if (!url) {
       return;
     }
-    var win = window.open(url, "_blank");
+    const win = window.open(url, "_blank");
     win.focus();
   }
 
@@ -47,11 +47,11 @@ export default function GameJams() {
                          preload
                          onMouseOver={event => {
                            event.target.play();
-                           event.target.parentElement.querySelector('img').setAttribute("class","g-card-image hidden");
+                           event.target.parentElement.querySelector("img").setAttribute("class", "g-card-image hidden");
                          }}
                          onMouseOut={event => {
                            event.target.pause();
-                           event.target.parentElement.querySelector('img').setAttribute("class","g-card-image visible");
+                           event.target.parentElement.querySelector("img").setAttribute("class", "g-card-image visible");
                          }}
                          loop
                          muted>

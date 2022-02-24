@@ -675,7 +675,7 @@ const referencesSection = {
       location: "Würzburg, Germany",
       website: "http://hci.uni-wuerzburg.de/people/sebastian-von-mammen/",
       email: "sebastian.von.mammen@uni-wuerzburg.de",
-      image:  require("./assets/images/GE-logo.svg")
+      image: require("./assets/images/GE-logo.svg")
     },
     {
       name: "Daniel Götz",
@@ -684,10 +684,10 @@ const referencesSection = {
       location: "Würzburg, Germany",
       website: "https://www.bii-gmbh.com/",
       email: "goetz@bii-gmbh.com",
-      image:  require("./assets/images/bii2.png")
+      image: require("./assets/images/bii2.png")
     }
   ]
-}
+};
 
 // Achievement Section
 // Include certificates, talks etc

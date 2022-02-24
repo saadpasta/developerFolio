@@ -9,12 +9,12 @@ export default function EducationCard({school}) {
   const GetDescBullets = ({descBullets}) => {
     return descBullets
       ? descBullets.map((item, i) => (
-          <li key={i} className={`${
-            isDark ? "dark-mode" : ""
-          } subtitle`}>
-            {item}
-          </li>
-        ))
+        <li key={i} className={`${
+          isDark ? "dark-mode" : ""
+        } subtitle`}>
+          {item}
+        </li>
+      ))
       : null;
   };
   const {isDark} = useContext(StyleContext);

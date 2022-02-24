@@ -9,7 +9,7 @@ export default function StartupProject() {
     if (!url) {
       return;
     }
-    var win = window.open(url, "_blank");
+    const win = window.open(url, "_blank");
     win.focus();
   }
 
@@ -47,11 +47,11 @@ export default function StartupProject() {
                          preload
                          onMouseOver={event => {
                            event.target.play();
-                           event.target.parentElement.querySelector('img').setAttribute("class","card-image hidden");
+                           event.target.parentElement.querySelector("img").setAttribute("class", "card-image hidden");
                          }}
                          onMouseOut={event => {
                            event.target.pause();
-                           event.target.parentElement.querySelector('img').setAttribute("class","card-image visible");
+                           event.target.parentElement.querySelector("img").setAttribute("class", "card-image visible");
                          }}
                          loop
                          muted>

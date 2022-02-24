@@ -49,7 +49,7 @@ export default function Greeting() {
             </div>
           </div>
           <div className="greeting-image-div">
-           <Boids/>
+            <Boids />
           </div>
         </div>
       </div>

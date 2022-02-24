@@ -21,7 +21,7 @@ export default function SoftwareSkill(skillList) {
                     : "software-skill-inline"}
                   name={skills.skillName}
                   onMouseOver={event => {
-                      activateTexture(getTexture(skills.iconData.tooltip.name));
+                    activateTexture(getTexture(skills.iconData.tooltip.name));
                   }}
                   onMouseOut={event => {
                     deactivateTexture();
