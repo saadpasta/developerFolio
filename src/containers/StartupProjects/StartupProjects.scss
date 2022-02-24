@@ -117,6 +117,7 @@ video::-webkit-media-controls {
   cursor: pointer;
   transition: 0.2s ease-in;
   pointer-events: auto;
+  text-shadow: none;
 }
 
 @media (max-width: 768px) {

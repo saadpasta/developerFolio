@@ -10,7 +10,7 @@
   padding-left: 0;
   list-style: none;
   font-size: 3rem;
-  margin: 2rem 5rem 0rem 2rem;
+  margin: 2rem 2rem 0rem 2rem;
   text-align: center;
 }
 
@@ -43,8 +43,7 @@
   width: 10rem;
   line-height: 1.5rem;
   display: block;
-  /* Position the tooltip */
-  transform: translate(-1rem);
+  transform: translate(-35%, 0);
   position: absolute;
   z-index: 1;
 }
@@ -115,4 +114,11 @@
 .software-skill-inline > p {
   color: $subTitle;
   font-size: 10px;
+}
+
+.software-skill-canvas {
+  position: relative;
+  width: 100%;
+  height: 82.5%;
+  margin-top: 5%;
 }
