@@ -69,7 +69,7 @@
   flex-direction: row;
   font-size: 0.6rem;
   margin-bottom: 0.3rem;
-  line-height: 0.5rem;
+  line-height: 0.7rem;
   text-align: left;
   overflow-wrap: break-word;
   width: 8.5rem;
@@ -121,4 +121,18 @@
   width: 100%;
   height: 82.5%;
   margin-top: 5%;
+}
+
+.software-skill-canvas {
+  position: relative;
+  width: 100%;
+  height: 82.5%;
+  margin-top: 5%;
+}
+
+@media (max-width: 768px) {
+  .software-skill-canvas {
+    visibility: hidden;
+    position: absolute;
+  }
 }

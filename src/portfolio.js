@@ -533,7 +533,7 @@ const bigProjects = {
       image: require("./assets/images/balancingHub.png"),
       projectName: "Balancing Hub",
       projectDesc:
-        'Balance your variables while playing with the "Balancing Hub" plugin for Unreal 4.24.3. Created in collaboration with Quirin Maier.',
+        'Balance your variables while playing with the "Balancing Hub" plugin for Unreal Engine 4.24.3. Created in collaboration with Quirin Maier.',
       footerLink: [
         {
           name: "Watch Trailer",

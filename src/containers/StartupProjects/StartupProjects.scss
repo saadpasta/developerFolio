@@ -61,6 +61,7 @@ video::-webkit-media-controls {
   padding: 1.5rem;
   border-radius: 10px;
   justify-content: center;
+  width: 780px;
 }
 
 .project-card-light {
@@ -124,5 +125,14 @@ video::-webkit-media-controls {
   .project-subtitle {
     font-size: 16px;
     text-align: center;
+  }
+}
+
+@media (max-width: 1810px) {
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
   }
 }
