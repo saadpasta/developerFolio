@@ -412,7 +412,7 @@ const educationInfo = {
     },
     {
       schoolName: "Friedrich-List-Gymnasium Gemünden",
-      logo: require("./assets/images/N-Projekt-Logo-297x300.jpg"),
+      logo: require("./assets/images/flg.jpg"),
       subHeader: "Abitur",
       duration: "September 2011 - July 2019"
     }
