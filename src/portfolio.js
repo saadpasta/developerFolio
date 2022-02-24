@@ -17,8 +17,7 @@ const greeting = {
   subTitle: emoji(
     "I'm Pirmin Pfeifer an aspiring games engineer. Currently i am studying Games Engineering BSc in Würzburg, Germany. My passions are game engines, computer graphics and graph theory."
   ),
-  resumeLink:
-    "",//require("./assets/CV.pdf"), // Set to empty to hide the button
+  resumeLink: "", //require("./assets/CV.pdf"), // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -40,14 +39,11 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/pp.png"),
-  subTitle: "MAINLY GRAPHICS ENGINEERING AND OTHER ENGINE TECH BUT ALSO A BIT OF ALL DISCIPLINES OF GAME DEVELOPMENT ",
+  subTitle:
+    "MAINLY GRAPHICS ENGINEERING AND OTHER ENGINE TECH BUT ALSO A BIT OF ALL DISCIPLINES OF GAME DEVELOPMENT ",
   skills: [
-    emoji(
-      "⚡ Develop new Engine Features, Extensions and Development Tools"
-    ),
-    emoji(
-      "⚡ Design and Implementation of Gameplay Systems"
-    ),
+    emoji("⚡ Develop new Engine Features, Extensions and Development Tools"),
+    emoji("⚡ Design and Implementation of Gameplay Systems"),
     emoji("✨ Scripting of Shaders and Post-Processing-Effects")
   ],
 
@@ -68,142 +64,83 @@ https://fontawesome.com/icons?d=gallery */
     {
       description: "GameLab II: Balancing Hub",
       link: "https://www.youtube.com/watch?v=7q_E0Ke6AJ4",
-      skills: [
-        "C++",
-        "Unreal Engine 4",
-        "Visual Studio",
-        "Rider"
-      ]
+      skills: ["C++", "Unreal Engine 4", "Visual Studio", "Rider"]
     },
     {
       description: "GameLab I: Empty Spaces",
       link: "https://darkblizzard.itch.io/emptyspaces",
-      skills: [
-        "C++",
-        "Unreal Engine 4",
-        "Visual Studio"
-      ]
+      skills: ["C++", "Unreal Engine 4", "Visual Studio"]
     },
     {
       description: "BrightnessBased TextureLayering",
       link: "https://darkblizzard.itch.io/texturelayering",
-      skills: [
-        "Unreal Engine 4"
-      ]
+      skills: ["Unreal Engine 4"]
     },
     {
       description: "dProB @ BII Gmbh",
       link: "https://www.bii-gmbh.com/",
-      skills: [
-        "C#",
-        "Unity",
-        "Rider"
-      ]
+      skills: ["C#", "Unity", "Rider"]
     },
     {
       description: "Dada Longlegs",
       link: "https://qu0d0.itch.io/dada-longlegs",
-      skills: [
-        "C#",
-        "Unity",
-        "Rider"
-      ]
+      skills: ["C#", "Unity", "Rider"]
     },
     {
       description: "TD Cratos",
       link: "https://darkblizzard.itch.io/td-project",
-      skills: [
-        "C#",
-        "Unity",
-        "Visual Studio"
-      ]
+      skills: ["C#", "Unity", "Visual Studio"]
     },
     {
       description: "PacMan AI @ Interactive AI Lecture",
-      skills: [
-        "C#",
-        "Unity",
-        "Rider"
-      ]
+      skills: ["C#", "Unity", "Rider"]
     },
     {
       description: "Advent of Code 2021",
       link: "https://github.com/Darkblizzard21/AoC2021",
-      skills: [
-        "Java",
-        "IntelliJ IDEA"
-      ]
+      skills: ["Java", "IntelliJ IDEA"]
     },
     {
       description: "Enigma Example Project",
       link: "https://github.com/ShaikaJar/Enigma",
-      skills: [
-        "Java",
-        "IntelliJ IDEA"
-      ]
+      skills: ["Java", "IntelliJ IDEA"]
     },
     {
       description: "Boid Simulation on this Website",
-      skills: [
-        "JavaScript",
-        "WebStorm",
-        "WebGL"
-      ]
+      skills: ["JavaScript", "WebStorm", "WebGL"]
     },
     {
       description: "WebGL ProtoType @ Interactive Computer Graphics Lecture",
-      skills: [
-        "TypeScript",
-        "WebStorm",
-        "WebGL"
-      ]
+      skills: ["TypeScript", "WebStorm", "WebGL"]
     },
     {
       description: "SquaredCode Formatter",
       link: "https://github.com/Darkblizzard21/SquaredCode",
-      skills: [
-        "JavaScript",
-        "WebStorm"
-      ]
+      skills: ["JavaScript", "WebStorm"]
     },
     {
       description: "DynamicChannels Discord Bot Module",
       link: "https://github.com/Darkblizzard21/DynamicChannelsModule",
-      skills: [
-        "C#",
-        "Rider",
-        "Discord API"
-      ]
+      skills: ["C#", "Rider", "Discord API"]
     },
     {
       description: "Discord Management Bot",
-      skills: [
-        "JavaScript",
-        "WebStorm",
-        "Discord API"
-      ]
+      skills: ["JavaScript", "WebStorm", "Discord API"]
     },
     {
       description: "BlenderRenderCollection",
       link: "https://github.com/Darkblizzard21/BlenderRenderCollection",
-      skills: [
-        "Blender"
-      ]
+      skills: ["Blender"]
     },
     {
       description: "3D Models and Promotional Art for my Projects",
-      skills: [
-        "Blender"
-      ]
+      skills: ["Blender"]
     },
     {
       description: "Almost all of my projects",
-      skills: [
-        "Git"
-      ]
+      skills: ["Git"]
     }
   ],
-
 
   softwareSkills: [
     {
@@ -378,7 +315,8 @@ https://fontawesome.com/icons?d=gallery */
             {
               description: "Enigma Example Project",
               link: "https://github.com/ShaikaJar/Enigma"
-            }],
+            }
+          ],
           proficiency: 4
         }
       }
@@ -545,13 +483,15 @@ const openSource = {
 
 const bigProjects = {
   title: "University Projects",
-  subtitle: "GAMES AND TOOLS I DEVELOPED FOR THE BIG COURSES IN MY GAMES ENGINEERING BACHELOR",
+  subtitle:
+    "GAMES AND TOOLS I DEVELOPED FOR THE BIG COURSES IN MY GAMES ENGINEERING BACHELOR",
   projects: [
     {
       video: require("./assets/videos/fractalWebSnippet.webm"),
       image: require("./assets/images/fractalEngineLogo.png"),
       projectName: "",
-      projectDesc: "Hardware-oriented, specialised engine for the Nintendo Switch ™ console with a focus on compile-time-safe loading, use of hardware features and various graphics options. Currently a Minesweeper game is implemented as proof of concept",
+      projectDesc:
+        "Hardware-oriented, specialised engine for the Nintendo Switch ™ console with a focus on compile-time-safe loading, use of hardware features and various graphics options. Currently a Minesweeper game is implemented as proof of concept",
       footerLink: [
         {
           name: "Watch WS21 Teaser",
@@ -564,7 +504,8 @@ const bigProjects = {
       video: require("./assets/videos/HauntedForest.webm"),
       image: require("./assets/images/mmwge.png"),
       projectName: "BrightnessBasedTextureLayering",
-      projectDesc: "This PostProcess effect uses the Unreal Engine 4 exposure system to create an artistic image from textures. Created in collaboration with four design students.",
+      projectDesc:
+        "This PostProcess effect uses the Unreal Engine 4 exposure system to create an artistic image from textures. Created in collaboration with four design students.",
       footerLink: [
         {
           name: "Download on Itch.io",
@@ -577,7 +518,8 @@ const bigProjects = {
       video: require("./assets/videos/EmptySpaces.webm"),
       image: require("./assets/images/emptySpaces.png"),
       projectName: "Empty Spaces",
-      projectDesc: "A game prototype that explores the combination of Bullet-Hell-Twin-Stick-Shooters and Metroidvania style games. The game contains four areas and three bosses. ",
+      projectDesc:
+        "A game prototype that explores the combination of Bullet-Hell-Twin-Stick-Shooters and Metroidvania style games. The game contains four areas and three bosses. ",
       footerLink: [
         {
           name: "Watch Trailer",
@@ -593,7 +535,8 @@ const bigProjects = {
       video: require("./assets/videos/balancingHub.webm"),
       image: require("./assets/images/balancingHub.png"),
       projectName: "Balancing Hub",
-      projectDesc: "Balance your variables while playing with the \"Balancing Hub\" plugin for Unreal 4.24.3. Created in collaboration with Quirin Maier.",
+      projectDesc:
+        'Balance your variables while playing with the "Balancing Hub" plugin for Unreal 4.24.3. Created in collaboration with Quirin Maier.',
       footerLink: [
         {
           name: "Watch Trailer",
@@ -617,13 +560,15 @@ const bigProjects = {
 
 const gameJams = {
   title: "Small Projects & Game Jams",
-  subtitle: "GAMES AND PROJECTS THAT I MADE DURING GAME JAMS OR OTHER SMALLER TIME PERIODS",
+  subtitle:
+    "GAMES AND PROJECTS THAT I MADE DURING GAME JAMS OR OTHER SMALLER TIME PERIODS",
   projects: [
     {
       video: require("./assets/videos/boids.webm"),
       image: require("./assets/images/boidLogo.png"),
       projectName: "WebGL Boid Simulation",
-      projectDesc: "Boid Simulation on this website. Calculated on the GPU via Transform Feedbacks.",
+      projectDesc:
+        "Boid Simulation on this website. Calculated on the GPU via Transform Feedbacks.",
       footerLink: [
         {
           name: "View Code on GitHub",
@@ -635,7 +580,8 @@ const gameJams = {
       video: require("./assets/videos/dada.webm"),
       image: require("./assets/images/longLegs.png"),
       projectName: "Dada LongLegs",
-      projectDesc: "This game is was submission the Franken Game Jam 2021. The theme was Growth.",
+      projectDesc:
+        "This game is was submission the Franken Game Jam 2021. The theme was Growth.",
       footerLink: [
         {
           name: "Download on Itch.io",
@@ -652,7 +598,8 @@ const gameJams = {
       video: require("./assets/videos/TDCratos.webm"),
       image: require("./assets/images/TDCratos.png"),
       projectName: "TD Cratos",
-      projectDesc: "This game started as self proposed 72H game challenge and introduced me to unity.",
+      projectDesc:
+        "This game started as self proposed 72H game challenge and introduced me to unity.",
       footerLink: [
         {
           name: "Download on Itch.io",
@@ -805,10 +752,8 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me "),
-  subtitle1:
-    "Discuss a project, offer an opportunity or just want to say hi?",
-  subtitle2:
-    "My Inbox is open for all.",
+  subtitle1: "Discuss a project, offer an opportunity or just want to say hi?",
+  subtitle2: "My Inbox is open for all.",
   number: "",
   email_address: "hi@pirminpfeifer.eu"
 };

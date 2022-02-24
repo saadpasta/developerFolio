@@ -11,7 +11,7 @@
 
 .video:hover {
   filter: saturate(1);
-  transition: filter .1s linear;
+  transition: filter 0.1s linear;
 }
 
 /* Hide Play button + controls on iOS */
@@ -30,13 +30,13 @@ video::-webkit-media-controls {
 .card-image.visible {
   visibility: visible;
   opacity: 1;
-  transition: opacity .2s linear;
+  transition: opacity 0.2s linear;
 }
 
 .card-image.hidden {
   visibility: hidden;
   opacity: 0;
-  transition: visibility 0s .1s, opacity .5s linear;
+  transition: visibility 0s 0.1s, opacity 0.5s linear;
 }
 
 .card-title {
@@ -76,8 +76,7 @@ video::-webkit-media-controls {
 }
 
 .project-detail {
-  text-shadow:
-          2px 2px 0 #000;
+  text-shadow: 2px 2px 0 #000;
   text-align: center;
   pointer-events: none;
   z-index: 1;

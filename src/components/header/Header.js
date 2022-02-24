@@ -9,7 +9,8 @@ import {
   openSource,
   blogSection,
   talkSection,
-  achievementSection, educationInfo
+  achievementSection,
+  educationInfo
 } from "../../portfolio";
 
 function Header() {

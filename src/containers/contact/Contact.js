@@ -14,7 +14,8 @@ export default function Contact() {
       <div className="main contact-margin-top" id="contact">
         <div className="contact-div-main">
           <div className="contact-header">
-            <h1 className="heading contact-title">{contactInfo.title}
+            <h1 className="heading contact-title">
+              {contactInfo.title}
               <i className="fas fa-address-card"></i>
             </h1>
             <p
@@ -24,7 +25,9 @@ export default function Contact() {
                   : "subTitle contact-subtitle"
               }
             >
-              {contactInfo.subtitle1}<br/>{contactInfo.subtitle2}
+              {contactInfo.subtitle1}
+              <br />
+              {contactInfo.subtitle2}
             </p>
             <div
               className={

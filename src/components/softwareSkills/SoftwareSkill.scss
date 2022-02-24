@@ -1,6 +1,6 @@
 @import "../../_globalColor";
 
-.dev-hidden-img{
+.dev-hidden-img {
   position: absolute;
   width: 0px;
   height: 0px;
@@ -49,24 +49,24 @@
   z-index: 1;
 }
 
-.toolTipHead1{
+.toolTipHead1 {
   font-size: 1.5rem;
 }
-.toolTipSubTitle{
+.toolTipSubTitle {
   font-size: 0.6rem;
   margin-bottom: 0.3rem;
 }
-.toolTipHead2{
+.toolTipHead2 {
   text-align: left;
   margin-left: 0.3rem;
   font-size: 1rem;
   line-height: 1rem;
 }
-.tooltipList{
+.tooltipList {
   padding-left: 1.1rem;
   padding-top: 0.2rem;
 }
-.toolTipBulletPoint{
+.toolTipBulletPoint {
   flex-direction: row;
   font-size: 0.6rem;
   margin-bottom: 0.3rem;
@@ -76,10 +76,10 @@
   width: 8.5rem;
 }
 
-.noUnderline{
+.noUnderline {
   text-decoration: none;
 }
-.toolTipStars{
+.toolTipStars {
   margin-top: 0.3rem;
   font-size: 1rem;
   letter-spacing: 0.5rem;
@@ -92,23 +92,23 @@
   text-align: Center;
 }
 
-.software-skill-white > p{
+.software-skill-white > p {
   color: white !important;
 }
 
-.software-skill-inline:hover .dev-icons-picture{
-  filter: saturate(1) ;
+.software-skill-inline:hover .dev-icons-picture {
+  filter: saturate(1);
 }
 
-.software-skill-inline:hover .dev-icons-picture-saturated{
+.software-skill-inline:hover .dev-icons-picture-saturated {
   visibility: visible;
 }
 
-.software-skill-inline:hover .dev-icons-picture.hideOnHover{
+.software-skill-inline:hover .dev-icons-picture.hideOnHover {
   visibility: hidden;
 }
 
-.software-skill-inline:hover .tooltip{
+.software-skill-inline:hover .tooltip {
   visibility: visible;
 }
 

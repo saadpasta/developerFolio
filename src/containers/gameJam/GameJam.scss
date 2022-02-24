@@ -18,7 +18,7 @@
 
 .gameJam-video:hover {
   filter: saturate(1);
-  transition: filter .1s linear;
+  transition: filter 0.1s linear;
 }
 
 /* Hide Play button + controls on iOS */
@@ -37,13 +37,13 @@ gameJam-video::-webkit-media-controls {
 .g-card-image.visible {
   visibility: visible;
   opacity: 1;
-  transition: opacity .2s linear;
+  transition: opacity 0.2s linear;
 }
 
 .g-card-image.hidden {
   visibility: hidden;
   opacity: 0;
-  transition: visibility 0s .1s, opacity .5s linear;
+  transition: visibility 0s 0.1s, opacity 0.5s linear;
 }
 
 .g-card-title {
@@ -59,8 +59,8 @@ gameJam-video::-webkit-media-controls {
   color: $cardSubtitle;
   font-size: 15px;
   line-height: 1.5rem;
-  padding-top: .5rem;
-  padding-bottom: .8rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.8rem;
   background-color: transparent !important;
 }
 
@@ -85,8 +85,7 @@ gameJam-video::-webkit-media-controls {
 }
 
 .gameJam-detail {
-  text-shadow:
-          1px 1px 0 #000;
+  text-shadow: 1px 1px 0 #000;
   text-align: center;
   pointer-events: none;
   z-index: 1;

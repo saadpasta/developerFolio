@@ -43,18 +43,24 @@ export default function GameJams() {
                       : "gameJam-card gameJam-card-light"
                   }
                 >
-                  <video className="gameJam-video"
-                         preload
-                         onMouseOver={event => {
-                           event.target.play();
-                           event.target.parentElement.querySelector("img").setAttribute("class", "g-card-image hidden");
-                         }}
-                         onMouseOut={event => {
-                           event.target.pause();
-                           event.target.parentElement.querySelector("img").setAttribute("class", "g-card-image visible");
-                         }}
-                         loop
-                         muted>
+                  <video
+                    className="gameJam-video"
+                    preload
+                    onMouseOver={event => {
+                      event.target.play();
+                      event.target.parentElement
+                        .querySelector("img")
+                        .setAttribute("class", "g-card-image hidden");
+                    }}
+                    onMouseOut={event => {
+                      event.target.pause();
+                      event.target.parentElement
+                        .querySelector("img")
+                        .setAttribute("class", "g-card-image visible");
+                    }}
+                    loop
+                    muted
+                  >
                     <source src={project.video} type="video/webm" />
                   </video>
                   {project.image ? (
@@ -68,7 +74,9 @@ export default function GameJams() {
                   ) : null}
                   <div className="gameJam-detail">
                     <h5
-                      className={isDark ? "dark-mode g-card-title" : "g-card-title"}
+                      className={
+                        isDark ? "dark-mode g-card-title" : "g-card-title"
+                      }
                     >
                       {project.projectName}
                     </h5>
@@ -104,6 +112,5 @@ export default function GameJams() {
         </div>
       </div>
     </Fade>
-  )
-    ;
+  );
 }

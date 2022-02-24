@@ -42,13 +42,13 @@
   box-shadow: 0px 0px 16px $darkBoxShadow;
 }
 
-.ref-card-left{
+.ref-card-left {
   width: 20%;
   min-width: 9rem;
   display: flex;
 }
 
-.ref-image{
+.ref-image {
   background-color: white;
   object-fit: cover;
   margin-right: 2rem;
@@ -59,23 +59,23 @@
   align-self: center;
 }
 
-.ref-card-right{
+.ref-card-right {
   width: 80%;
   padding-top: 0.2rem;
   display: flex;
   flex-direction: column;
 }
 
-.ref-name{
+.ref-name {
   font-weight: bold;
 }
 
-.ref-job-title{
+.ref-job-title {
   padding-top: 0.5rem;
   font-size: 80%;
 }
 
-.ref-location{
+.ref-location {
   font-size: 80%;
 }
 

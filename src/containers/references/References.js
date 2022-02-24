@@ -70,8 +70,7 @@ export default function References() {
               </div>
             </Fade>
           );
-        })
-        }
+        })}
       </div>
     </div>
   );
