@@ -18,7 +18,7 @@ const greeting = {
     "I'm Pirmin Pfeifer an aspiring games engineer. Currently i am studying Games Engineering BSc in Würzburg, Germany. My passions are game engines, computer graphics and graph theory."
   ),
   resumeLink:
-    require("./assets/CV.pdf"), // Set to empty to hide the button
+    "",//require("./assets/CV.pdf"), // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
