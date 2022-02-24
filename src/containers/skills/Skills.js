@@ -16,7 +16,7 @@ export default function Skills() {
       <div className="skills-main-div">
         <Fade left duration={1000}>
           <div className="skills-image-div">
-            {Boids(skillsSection.boidForceTexture)}
+            {Boids("software-skill-canvas")}
           </div>
         </Fade>
         <Fade right duration={1000}>

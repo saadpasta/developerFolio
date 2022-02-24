@@ -38,7 +38,6 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/pp.png"),
   subTitle:
     "MAINLY GRAPHICS ENGINEERING AND OTHER ENGINE TECH BUT ALSO A BIT OF ALL DISCIPLINES OF GAME DEVELOPMENT ",
   skills: [
