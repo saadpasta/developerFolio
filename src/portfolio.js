@@ -15,7 +15,7 @@ const greeting = {
   username: "Pirmin Pfeifer",
   title: "Hello There",
   subTitle: emoji(
-    "I'm Pirmin Pfeifer an aspiring games engineer. Currently i am studying Games Engineering BSc in Würzburg, Germany. My passions are game engines, computer graphics and graph theory."
+    "I'm Pirmin Pfeifer, an aspiring games engineer. Currently I am studying Games Engineering BSc in Würzburg, Germany. My passions are game engines, computer graphics and graph theory."
   ),
   resumeLink: "", //require("./assets/CV.pdf"), // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
