@@ -55,7 +55,6 @@ export default function GameJams() {
                          }}
                          loop
                          muted>
-                    <source src="https://www.youtube.com/watch?v=dQw4w9WgXcQ" />
                     <source src={project.video} type="video/webm" />
                   </video>
                   {project.image ? (

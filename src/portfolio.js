@@ -18,7 +18,7 @@ const greeting = {
     "I'm Pirmin Pfeifer an aspiring games engineer. Currently i am studying Games Engineering BSc in Würzburg, Germany. My passions are game engines, computer graphics and graph theory."
   ),
   resumeLink:
-    "http://pirminpfeifer.eu/", // Set to empty to hide the button
+    require("./assets/CV.pdf"), // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -574,7 +574,7 @@ const bigProjects = {
       ]
     },
     {
-      video: require("./assets/videos/EmptySpacesRaw.webm"),
+      video: require("./assets/videos/EmptySpaces.webm"),
       image: require("./assets/images/emptySpaces.png"),
       projectName: "Empty Spaces",
       projectDesc: "A game prototype that explores the combination of Bullet-Hell-Twin-Stick-Shooters and Metroidvania style games. The game contains four areas and three bosses. ",
@@ -649,7 +649,7 @@ const gameJams = {
       ]
     },
     {
-      video: require("./assets/videos/TDCratos2.webm"),
+      video: require("./assets/videos/TDCratos.webm"),
       image: require("./assets/images/TDCratos.png"),
       projectName: "TD Cratos",
       projectDesc: "This game started as self proposed 72H game challenge and introduced me to unity.",
