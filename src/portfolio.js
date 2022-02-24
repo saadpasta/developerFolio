@@ -39,7 +39,7 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "MAINLY GRAPHICS ENGINEERING AND OTHER ENGINE TECH BUT ALSO A BIT OF ALL DISCIPLINES OF GAME DEVELOPMENT ",
+    "FOCUS ON GRAPHICS ENGINEERING AND GAME ENGINE SYSTEMS BUT ALSO A BIT OF ALL OTHER DISCIPLINES OF GAME DEVELOPMENT",
   skills: [
     emoji("⚡ Develop new Engine Features, Extensions and Development Tools"),
     emoji("⚡ Design and Implementation of Gameplay Systems"),
@@ -460,10 +460,10 @@ const workExperiences = {
       company: "Julius-Maximilians University",
       companylogo: require("./assets/images/uniwue.png"),
       date: "October 2020 – Present",
-      desc: "Supported students at overcoming problems they face during the game development process.",
+      desc: "Supported students at overcoming problems they faced during game development process.",
       descBullets: [
-        "Explained basic and intermediate topics that the students brought up",
-        "Created introductory tutorials on for unreal engine 4",
+        "Explained basic and intermediate topics the students brought up",
+        "Created introductory tutorials for unreal engine 4",
         "Tested and reviewed the students games"
       ]
     }
@@ -482,8 +482,6 @@ const openSource = {
 
 const bigProjects = {
   title: "University Projects",
-  subtitle:
-    "GAMES AND TOOLS I DEVELOPED FOR THE BIG COURSES IN MY GAMES ENGINEERING BACHELOR",
   projects: [
     {
       video: require("./assets/videos/fractalWebSnippet.webm"),
@@ -560,7 +558,7 @@ const bigProjects = {
 const gameJams = {
   title: "Small Projects & Game Jams",
   subtitle:
-    "GAMES AND PROJECTS THAT I MADE DURING GAME JAMS OR OTHER SMALLER TIME PERIODS",
+    "MADE DURING GAME JAMS OR OTHER SMALLER TIME PERIODS",
   projects: [
     {
       video: require("./assets/videos/boids.webm"),
@@ -580,7 +578,7 @@ const gameJams = {
       image: require("./assets/images/longLegs.png"),
       projectName: "Dada LongLegs",
       projectDesc:
-        "This game is was submission the Franken Game Jam 2021. The theme was Growth.",
+        "This game was submission the Franken Game Jam 2021. The theme was Growth.",
       footerLink: [
         {
           name: "Download on Itch.io",
@@ -598,7 +596,7 @@ const gameJams = {
       image: require("./assets/images/TDCratos.png"),
       projectName: "TD Cratos",
       projectDesc:
-        "This game started as self proposed 72H game challenge and introduced me to unity.",
+        "This game started as a self proposed 72H game challenge and introduced me to unity.",
       footerLink: [
         {
           name: "Download on Itch.io",
@@ -752,7 +750,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me "),
   subtitle1: "Discuss a project, offer an opportunity or just want to say hi?",
-  subtitle2: "My Inbox is open for all.",
+  subtitle2: "My Inbox is open for for everything.",
   number: "",
   email_address: "hi@pirminpfeifer.eu"
 };
