@@ -1,7 +1,7 @@
 @import "../../_globalColor";
 
 .video {
-  width: 780px;
+  width: 48.75em;
   height: auto;
   position: absolute;
   align-self: center;
@@ -39,7 +39,7 @@ video::-webkit-media-controls {
   transition: visibility 0s 0.1s, opacity 0.5s linear;
 }
 
-.card-title {
+.project-card-title {
   color: $titleColor;
   font-size: 22px;
   line-height: 24px;
@@ -48,10 +48,10 @@ video::-webkit-media-controls {
   background-color: transparent !important;
 }
 
-.card-subtitle {
+.project-card-subtitle {
   color: $cardSubtitle;
-  font-size: 17px;
-  line-height: 1.5rem;
+  font-size: 1.063em;
+  line-height: 1.5em;
   background-color: transparent !important;
 }
 
@@ -61,7 +61,8 @@ video::-webkit-media-controls {
   padding: 1.5rem;
   border-radius: 10px;
   justify-content: center;
-  width: 780px;
+  width: 48.75em;
+  height: 27.42em;
 }
 
 .project-card-light {
@@ -85,7 +86,7 @@ video::-webkit-media-controls {
 
 .project-image {
   position: relative;
-  height: 250px;
+  height: 15.625em;
   overflow: hidden;
   text-align: center;
   pointer-events: none;
@@ -97,8 +98,9 @@ video::-webkit-media-controls {
 
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(600px, 800px));
   gap: 1rem 1rem;
+  font-size: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 800px));
 }
 
 .project-card-footer span.project-tag {
@@ -121,12 +123,6 @@ video::-webkit-media-controls {
   text-shadow: none;
 }
 
-@media (max-width: 768px) {
-  .project-subtitle {
-    font-size: 16px;
-    text-align: center;
-  }
-}
 
 @media (max-width: 1810px) {
   .projects-container {
@@ -134,5 +130,49 @@ video::-webkit-media-controls {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+  }
+}
+
+@media (max-width: 1280px) {
+  .project-subtitle {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .projects-container {
+    font-size: 1.9vw;
+    gap: 0.2vw;
+  }
+
+  .project-card {
+    width: 46.5em;
+    height: 26.15em;
+  }
+
+  .project-image {
+    height: 12em;
+  }
+
+  .project-detail {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+
+  .project-card-title {
+    font-size: 1.5em;
+    line-height: 1.2em;
+    margin: 1em 0 0 0;
+  }
+
+  .project-card-subtitle {
+    font-size: 1.3em;
+    line-height: 1.2em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .project-card-footer span.project-tag {
+    font-size: 1.2em;
+    height: 2em;
+    line-height: 1.5em;
   }
 }

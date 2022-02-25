@@ -15,11 +15,6 @@
   margin-bottom: 30px;
 }
 
-.skills-image-div > img {
-  max-width: 100%;
-  height: auto;
-}
-
 .skills-heading {
   font-size: 56px;
   font-weight: 400;
@@ -58,7 +53,7 @@
     text-align: center;
   }
   .skills-image-div {
-    /* display: none; */
+    display: none;
     order: 2;
   }
 }

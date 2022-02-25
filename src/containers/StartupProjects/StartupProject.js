@@ -13,6 +13,19 @@ export default function StartupProject() {
     win.focus();
   }
 
+  const startVideo = (event) => {
+    event.target.play();
+    event.target.parentElement
+      .querySelector("img")
+      .setAttribute("class", "card-image hidden");
+  }
+  const pauseVideo = (event) => {
+    event.target.pause();
+    event.target.parentElement
+      .querySelector("img")
+      .setAttribute("class", "card-image visible");
+  }
+
   const {isDark} = useContext(StyleContext);
   if (!bigProjects.display) {
     return null;
@@ -47,21 +60,20 @@ export default function StartupProject() {
                     className="video"
                     preload
                     onMouseOver={event => {
-                      event.target.play();
-                      event.target.parentElement
-                        .querySelector("img")
-                        .setAttribute("class", "card-image hidden");
+                      startVideo(event);
                     }}
                     onMouseOut={event => {
-                      event.target.pause();
-                      event.target.parentElement
-                        .querySelector("img")
-                        .setAttribute("class", "card-image visible");
+                      pauseVideo(event);
+                    }}
+                    onTouchStart={event => {
+                      startVideo(event);
+                    }}
+                    onTouchEnd={event => {
+                      startVideo(event);
                     }}
                     loop
                     muted
                   >
-                    <source src="https://www.youtube.com/watch?v=dQw4w9WgXcQ" />
                     <source src={project.video} type="video/webm" />
                   </video>
                   {project.image ? (
@@ -75,13 +87,13 @@ export default function StartupProject() {
                   ) : null}
                   <div className="project-detail">
                     <h5
-                      className={isDark ? "dark-mode card-title" : "card-title"}
+                      className={isDark ? "dark-mode project-card-title" : "project-card-title"}
                     >
                       {project.projectName}
                     </h5>
                     <p
                       className={
-                        isDark ? "dark-mode card-subtitle" : "card-subtitle"
+                        isDark ? "dark-mode project-card-subtitle" : "project-card-subtitle"
                       }
                     >
                       {project.projectDesc}

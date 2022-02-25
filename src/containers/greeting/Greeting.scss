@@ -112,6 +112,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .main {
+    margin-top: 2rem;
+  }
+}
+
 @media (max-width: 320px) {
   .main {
     width: auto;
