@@ -9,7 +9,11 @@ export default function GetSkillIcon(input) {
         className="dev-hidden-img"
         src={input.boidForceTexture}
       ></img>
-      <a href={input.link} target="_blank">
+      <a
+        className="software-skill-pointer"
+        onClick={event => {
+        if(window.screen.width>768)
+          window.open(input.link, '_blank').focus();}} target="_blank">
         {input.saturatedIcon ? (
           <img
             className="dev-icons-picture-saturated"

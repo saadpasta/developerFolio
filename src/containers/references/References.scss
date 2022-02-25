@@ -84,3 +84,22 @@
   transform: scale(0.75);
   transform-origin: top left;
 }
+
+
+@media (max-width: 768px) {
+  .ref-cards-div-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .ref-card-left {
+    min-width: 30vw;
+  }
+
+  .ref-image {
+    width: 25vw;
+    height: 25vw;
+  }
+}

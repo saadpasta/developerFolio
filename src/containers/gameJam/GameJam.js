@@ -13,6 +13,18 @@ export default function GameJams() {
     win.focus();
   }
 
+  const startVideo = (event) => {event.target.play();
+    event.target.parentElement
+      .querySelector("img")
+      .setAttribute("class", "g-card-image hidden");
+  }
+  const stopVideo = (event) => {
+    event.target.pause();
+    event.target.parentElement
+      .querySelector("img")
+      .setAttribute("class", "g-card-image visible");
+  }
+
   const {isDark} = useContext(StyleContext);
   if (!gameJams.display) {
     return null;
@@ -47,16 +59,19 @@ export default function GameJams() {
                     className="gameJam-video"
                     preload
                     onMouseOver={event => {
-                      event.target.play();
-                      event.target.parentElement
-                        .querySelector("img")
-                        .setAttribute("class", "g-card-image hidden");
+                      if(window.screen.width>768) startVideo(event);
                     }}
                     onMouseOut={event => {
-                      event.target.pause();
-                      event.target.parentElement
-                        .querySelector("img")
-                        .setAttribute("class", "g-card-image visible");
+                      if(window.screen.width>768) stopVideo(event);
+                    }}
+                    onTouchStart={event => {
+                      startVideo(event);
+                    }}
+                    onTouchEndCapture={event => {
+                      stopVideo(event);
+                    }}
+                    onTouchCancelCapture={event => {
+                      stopVideo(event);
                     }}
                     loop
                     muted

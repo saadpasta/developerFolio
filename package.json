@@ -23,7 +23,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "start": "node fetch.js && react-scripts start",
+    "start": "set PORT=13000 && node fetch.js && react-scripts start",
     "build": "node fetch.js && react-scripts build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",

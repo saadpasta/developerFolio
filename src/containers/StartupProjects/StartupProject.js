@@ -19,7 +19,7 @@ export default function StartupProject() {
       .querySelector("img")
       .setAttribute("class", "card-image hidden");
   }
-  const pauseVideo = (event) => {
+  const stopVideo = (event) => {
     event.target.pause();
     event.target.parentElement
       .querySelector("img")
@@ -60,17 +60,20 @@ export default function StartupProject() {
                     className="video"
                     preload
                     onMouseOver={event => {
-                      startVideo(event);
+                      if(window.screen.width>768) startVideo(event);
                     }}
                     onMouseOut={event => {
-                      pauseVideo(event);
+                      if(window.screen.width>768) stopVideo(event);
                     }}
                     onTouchStart={event => {
                       startVideo(event);
                     }}
-                    onTouchEnd={event => {
-                      startVideo(event);
+                    onTouchEndCapture={event => {
+                      stopVideo(event);
                     }}
+                    onTouchCancelCapture={event => {
+                    stopVideo(event);
+                  }}
                     loop
                     muted
                   >
