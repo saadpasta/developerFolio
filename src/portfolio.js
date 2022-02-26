@@ -17,7 +17,7 @@ const greeting = {
   subTitle: emoji(
     "I'm Pirmin Pfeifer, an aspiring games engineer. Currently I am studying Games Engineering BSc in Würzburg, Germany. My passions are game engines, computer graphics and graph theory."
   ),
-  resumeLink: "", //require("./assets/CV.pdf"), // Set to empty to hide the button
+  resumeLink: require("./assets/CV.pdf"), // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -26,7 +26,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/Darkblizzard21",
   gmail: "hi@pirminpfeifer.eu",
-  twitter: "https://twitter.com/GE_pirmin",
+  twitter: "https://twitter.com/PirminPfeifer",
   itch: "https://darkblizzard.itch.io/",
   // steam: "https://steamcommunity.com/id/darkblizzard21",
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -405,7 +405,7 @@ const educationInfo = {
       descBullets: [
         "GameLab I: EmptySpaces",
         "GameLab II: Balancing Hub",
-        "MovieMakingWithGameEngines: BrightnessBasedTextureLayering",
+        "Movie Making with Game Engines: BrightnessBasedTextureLayering",
         "Seminar Current Trends in Games Engineering: Automated Animation of Creatures"
       ]
     },
@@ -463,7 +463,7 @@ const workExperiences = {
       desc: "Supported students at overcoming problems they faced during game development process.",
       descBullets: [
         "Explained basic and intermediate topics the students brought up",
-        "Created introductory tutorials for unreal engine 4",
+        "Created introductory tutorials for Unreal Engine 4 & Unity",
         "Tested and reviewed the students games"
       ]
     }
