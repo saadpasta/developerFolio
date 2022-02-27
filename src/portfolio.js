@@ -507,6 +507,10 @@ const bigProjects = {
         {
           name: "Download on Itch.io",
           url: "https://darkblizzard.itch.io/texturelayering"
+        },
+        {
+          name: "Project Page",
+          url: "https://motiondesign101.de/filme/texture-worlds/"
         }
         //  you can add extra buttons here.
       ]
