@@ -505,12 +505,12 @@ const bigProjects = {
         "This PostProcess effect uses the Unreal Engine 4 exposure system to create an artistic image from textures. Created in collaboration with four design students.",
       footerLink: [
         {
-          name: "Download on Itch.io",
-          url: "https://darkblizzard.itch.io/texturelayering"
+          name: "Project Movie",
+          url: "https://motiondesign101.de/filme/texture-worlds/"
         },
         {
-          name: "Project Page",
-          url: "https://motiondesign101.de/filme/texture-worlds/"
+          name: "Download on Itch.io",
+          url: "https://darkblizzard.itch.io/texturelayering"
         }
         //  you can add extra buttons here.
       ]
