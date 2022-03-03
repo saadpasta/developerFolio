@@ -224,7 +224,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Unity",
       iconData: {
-        link: "https://git-scm.com",
+        link: "https://unity.com/",
         icon: require("./assets/images/unityDesat.svg"),
         saturatedIcon: require("./assets/images/unitySat.svg"),
         boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/unityComposit.png"),
@@ -336,6 +336,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Switch SDK",
       iconData: {
+        link: "https://developer.nintendo.com/",
         icon: require("./assets/images/ndiDesat.png"),
         saturatedIcon: require("./assets/images/ndi.png"),
         boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/ndiComposit.png"),
