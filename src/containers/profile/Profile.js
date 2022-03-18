@@ -8,11 +8,11 @@ const GithubProfileCard = lazy(() =>
   import("../../components/githubProfileCard/GithubProfileCard")
 );
 const myProf = {
-  id:"skdarekar",
+  id: "skdarekar",
   isHireable: true,
   location: "Pune, India",
   bio: "25 | Software Engineer @LogiquadSolutions, Pune| Looking for new opportunities"
-}
+};
 export default function Profile() {
   const [prof, setrepo] = useState([]);
   function setProfileFunction(array) {
@@ -40,9 +40,8 @@ export default function Profile() {
           });
       };
       // getProfileData();
-      setProfileFunction(myProf)
+      setProfileFunction(myProf);
     }
-
   }, []);
   if (
     openSource.display &&

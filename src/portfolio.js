@@ -54,12 +54,10 @@ const skillsSection = {
   title: "What I do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji(
-      "⚡ Develop Backend services in Nodejs, AWS"
-    ),
+    emoji("⚡ Develop Backend services in Nodejs, AWS"),
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
-    ),
+    )
     // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks")
   ],
 
@@ -118,7 +116,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Linux",
       fontAwesomeClassname: "fab fa-linux"
-    },
+    }
     // {
     //   skillName: "docker",
     //   fontAwesomeClassname: "fab fa-docker"
@@ -178,7 +176,7 @@ const techStack = {
     {
       Stack: "Cloud",
       progressPercentage: "50%"
-    },
+    }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -202,7 +200,7 @@ const workExperiences = {
         `Gained hands-on expertise in JavaScript, NodeJs, Python, ReactJs, AWS and
         Serverless frameworks.`
       ]
-    },
+    }
     // {
     //   role: "Front-End Developer",
     //   company: "Quora",
@@ -377,8 +375,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Let’s Start a Conversation",
+  subtitle: "Let’s Start a Conversation",
   number: "+91-9096997131",
   email_address: "sagardarekar1997@gmail.com"
 };
