@@ -7,6 +7,12 @@ const renderLoader = () => <Loading />;
 const GithubProfileCard = lazy(() =>
   import("../../components/githubProfileCard/GithubProfileCard")
 );
+const myProf = {
+  id:"skdarekar",
+  isHireable: true,
+  location: "Pune, India",
+  bio: "25 | Software Engineer @LogiquadSolutions, Pune| Looking for new opportunities"
+}
 export default function Profile() {
   const [prof, setrepo] = useState([]);
   function setProfileFunction(array) {
@@ -33,8 +39,10 @@ export default function Profile() {
             openSource.showGithubProfile = "false";
           });
       };
-      getProfileData();
+      // getProfileData();
+      setProfileFunction(myProf)
     }
+
   }, []);
   if (
     openSource.display &&

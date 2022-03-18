@@ -20,10 +20,11 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Sagar",
-  title: "Hi all, I'm Sagar",
+  username: "Sagar Darekar",
+  title: "Hi there, I'm Sagar",
   subTitle: emoji(
-    `A passionate Full Stack Software Developer 🚀 having an experience of building Web and Cloud native applications 
+    `A passionate Full Stack Software Developer 🚀 
+    having an experience of building Web and Cloud native applications 
     with JavaScript / Reactjs / Nodejs / AWS and some other cool libraries and frameworks.`
   ),
   resumeLink:
@@ -36,11 +37,12 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/skdarekar",
   linkedin: "https://www.linkedin.com/in/sagar-darekar/",
+  stackoverflow: "https://stackoverflow.com/users/12541413/sagar-darekar",
+  instagram: "https://www.instagram.com/_sagar_darekar_/",
   gmail: "sagardarekar1997@gmail.com",
   // gitlab: "https://gitlab.com/saadpasta",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/12541413/sagar-darekar",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -53,26 +55,18 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop Backend services in Nodejs, AWS"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS"
-    )
+      "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
+    ),
+    // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
     // {
     //   skillName: "sass",
     //   fontAwesomeClassname: "fab fa-sass"
@@ -82,32 +76,48 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "ReactJS",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
+      skillName: "NodeJS",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "npm",
+      skillName: "NPM",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "Sql Database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "NoSql Database",
+      fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "HTML-5",
+      fontAwesomeClassname: "fab fa-html5"
+    },
+    {
+      skillName: "CSS3",
+      fontAwesomeClassname: "fab fa-css3-alt"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
+    },
+    {
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
     },
     // {
     //   skillName: "docker",
@@ -127,19 +137,23 @@ const educationInfo = {
       logo: require("./assets/images/sppu_logo.jpg"),
       subHeader: "Bachelor of Engineering in Computer Science",
       duration: "September 2016 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      desc: `Successfully completed Bachelor's degree in the field of Computer Engineering.`,
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Took courses about Data Structures, Algorithms, Computer Networking, Operating Systems.",
+        "Worked on a multiple acadamic projects.",
+        "Grade: 8.0 CGPA"
       ]
     },
     {
-      schoolName: "SGP Polytechnic, Shrigonda",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "SG Polytechnic, Shrigonda",
+      logo: require("./assets/images/msbte_logo.jpg"),
       subHeader: "Diploma in Computer Engineering",
       duration: "May 2013 - April 2016",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: `Successfully completed diploma in the field of Computer Engineering.`,
+      descBullets: [
+        "Took courses about Maths, Software Engineering, Web Security, Operating Systems, Programming.",
+        "Grade: 83.94%"
+      ]
     }
   ]
 };
@@ -159,7 +173,7 @@ const techStack = {
     },
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "75%" //Insert relative proficiency in percentage
+      progressPercentage: "60%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Cloud",
@@ -364,9 +378,9 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Let’s Start a Conversation",
+  number: "+91-9096997131",
+  email_address: "sagardarekar1997@gmail.com"
 };
 
 // Twitter Section

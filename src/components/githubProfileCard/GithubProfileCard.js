@@ -20,8 +20,8 @@ export default function GithubProfileCard({prof}) {
             <div className="blog-header">
               <p className="subTitle blog-subtitle">{contactInfo.subtitle}</p>
             </div>
-            <h2 className="bio-text">"{emoji(String(prof.bio))}"</h2>
-            {prof.location !== null && (
+            {prof.bio && <h2 className="bio-text">"{emoji(String(prof.bio))}"</h2>}
+            {prof.location && (
               <div className="location-div">
                 <span className="desc-prof">
                   <svg
@@ -50,7 +50,8 @@ export default function GithubProfileCard({prof}) {
           </div>
           <div className="image-content-profile">
             <img
-              src={prof.avatarUrl}
+              // src={prof.avatarUrl}
+              src={require("../../assets/images/sagar_profile.jpg")}
               alt={prof.name}
               className="profile-image"
             />
