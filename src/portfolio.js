@@ -56,16 +56,12 @@ const skillsSection = {
       "⚡  Create beautiful consumer-facing products that are interacted with by over 22,000 Users per month!"
     ),
     emoji("⚡ Build reusable code and libraries for future use."),
-    emoji("⚡ Ensure the technical feasibility of UI/UX designs."),
     emoji(
       "⚡ Optimize application for maximum speed and scalability."
     ),
     emoji(
       "⚡ Customized design & experience for some the leading names in the real estate-industry."
-    ),
-    emoji(
-      "⚡ Apply and understand SEO principles."
-    ) 
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -160,7 +156,7 @@ const workExperiences = {
       company: "Worcester Registry of Deeds",
       companylogo: require("./assets/images/quoraLogo.png"),
       date: "",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "·Analyze and store land documents with Browntech records management software. Operates Simplifile eRecording network service to connect with settlement agents via its file sharing system. Reporting and analysis with Microsoft Access to examine, scan and store land surveyor maps. Responsible for the official recording, filing and preserving of all land documents received, along with Uniform Commercial Codes (UCC). Executes the final acceptance and filing of new subdivision plats and certified survey maps."
     }
   ]
 };
@@ -206,7 +202,7 @@ const bigProjects = {
     {
       image: require("./assets/images/paymarket.png"),
       projectName: "Marketing Homepage",
-      projectDesc: "Marketing for DL-Pay. All of the details for the workflow and streamlined experience of the newly launched products for Agents and Title Companies.                  ",
+      projectDesc: "Marketing for DL-Pay. All of the details for the workflow and streamlined experience.                  ",
       footerLink: [
         {
           name: "Visit Website",
@@ -222,7 +218,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://demo.depositlink.com/"
+          url: "https://link.inman.com/view/60be3d3bfce50c7330545fd5f0yj5.0/79945f71"
         }
         //  you can add extra buttons here.
       ]
@@ -253,9 +249,9 @@ const achievementSection = {
       ]
     },
     {
-      title: "DepositLink Pay for Agents",
+      title: "DepositLink Appointed to Exclusive eXp Partner Program",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "The program offers trusted-partner affiliated services to eXp Realty's network of thousands of agents. eXp Realty, part of eXp World Holdings, Inc., is one of the fastest-growing real estate tech companies in the world with more than 65,000 agents in 18 countries..",
       image: require("./assets/images/images.png"),
       footerLink: [
         {
@@ -266,11 +262,11 @@ const achievementSection = {
     },
 
     {
-      title: "DepositLink Growth 2022",
-      subtitle: "Dramatic Growth at DepositLink for  2022",
+      title: "DepositLink by the Numbers",
+      subtitle: "Dramatic Growth at DepositLink for 2022",
       image: require("./assets/images/images.png"),
       footerLink: [
-        {name: "View Article", url: ""}
+        {name: "View Article", url: "https://www.yahoo.com/now/depositlink-experiences-dramatic-growth-2021-164100010.html"}
       ]
     }
   ],
