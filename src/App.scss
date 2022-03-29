@@ -18,13 +18,17 @@
   align-items: center;
   justify-content: center;
   font-size: calc(0.625rem + 2vmin);
-  color: $textColorDark;
+  color: #deb887;
 }
 
 .App-link {
-  color: $appLink;
+  color: #deb887;
 }
 
 .subTitle {
-  color: $subTitle;
+  color: #deb887;
+}
+
+html{
+  color:#deb887;
 }

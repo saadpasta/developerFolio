@@ -3,7 +3,7 @@ Certain colors are used for different and multiply types of elements.
 For greater control over colors visit each components .scss file. */
 
 // button colors
-$buttonColor: #55198b;
+$buttonColor:#2196f3;
 $buttonHover: #8c43ce;
 $topButtonHover: #000;
 
@@ -31,9 +31,9 @@ $githubProfileCardLocationTS: #ffebcd;
 $githubProfileCardBorder: #6c63ff;
 
 // light background colors
-$lightBackground1: #fff;
-$lightBackground2: rgb(255, 255, 255);
-$lightBackground3: #f5f2f4;
+$lightBackground1: #deb887;
+$lightBackground2: #deb887;
+$lightBackground3: #deb887;
 $blogCardContainerColor: #586069;
 // dark background colors
 $darkBackground: #171c28;
@@ -44,9 +44,8 @@ $lightBoxShadow: rgba(0, 0, 0, 0.1);
 $lightBoxShadowDarker: rgba(0, 0, 0, 0.3);
 
 // dark theme box shadows
-$darkBoxShadow: #d9dbdf;
-$darkBoxShadow2: #ffffff;
-
+$darkBoxShadow: #deb887;
+$darkBoxShadow2:#deb887;
 // linear gradients
 $experienceCardBlurredDivLG: linear-gradient(
   rgba(0, 0, 0, 0.4),
@@ -78,8 +77,8 @@ $skillsColor: #645beb;
 $appLink: #09d3ac;
 
 // social media icons
-$faceBook: #3b5998;
-$linkedin: #0e76a8;
+$faceBook: #deb887;
+$linkedin: #deb887;
 $github: #333;
 $gitlab: #fca326;
 $google: #ea4335;
