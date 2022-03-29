@@ -20,7 +20,7 @@
   overflow: hidden;
 }
 .skill {
-  line-height: 3.5vw;
+  line-height: 4.5vw;
 }
 .skill-bars {
   font-size: 28px;
@@ -32,6 +32,7 @@
   padding: 20px 10px;
   margin: 0px auto;
   margin-top: 2rem;
+  margin-bottom: 90px;
 }
 .skills-container > * {
   flex: 1;
@@ -50,7 +51,7 @@
     line-height: 4rem;
   }
   .skills-image {
-    display: none;
+    
     order: 2;
   }
 }
@@ -62,9 +63,5 @@
   .skills-bar {
     line-height: 3rem;
     margin: 20px;
-  }
-  .skills-image {
-    display: none;
-    order: 2;
   }
 }

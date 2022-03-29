@@ -15,7 +15,14 @@
 
 .greeting-main {
   display: flex;
-}
+  margin-bottom: 55px;
+ 
+
+  @media (min-width: 768px) {
+    margin-bottom: 130px;
+  }
+
+  }
 
 .subTitle {
   color: $subTitle !important;
@@ -23,6 +30,7 @@
 
 .greeting-main {
   display: flex;
+ 
 }
 
 .greeting-main > * {

@@ -38,12 +38,15 @@ export default function Podcast() {
             return (
               <div key={i}>
                 <iframe
+                  width="560"
+                  height="315"
                   className="podcast"
                   src={podcastLink}
                   frameBorder="0"
                   scrolling="no"
-                  title="Podcast"
-                ></iframe>
+                  title="YouTube video player"
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen>
+                </iframe>
               </div>
             );
           })}
