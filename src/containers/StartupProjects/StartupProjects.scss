@@ -101,6 +101,7 @@ video::-webkit-media-controls {
   gap: 1rem 1rem;
   font-size: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(600px, 800px));
+  justify-content: center;
 }
 
 .project-card-footer span.project-tag {
