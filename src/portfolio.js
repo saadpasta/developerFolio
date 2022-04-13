@@ -28,7 +28,7 @@ const socialMediaLinks = {
   gmail: "hi@pirminpfeifer.eu",
   twitter: "https://twitter.com/PirminPfeifer",
   itch: "https://darkblizzard.itch.io/",
-  // steam: "https://steamcommunity.com/id/darkblizzard21",
+  linkedin: "https://www.linkedin.com/in/pirmin-pfeifer/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
