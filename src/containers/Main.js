@@ -24,7 +24,7 @@ import GameJams from "./gameJam/GameJam";
 import References from "./references/References";
 
 const Main = () => {
-  const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
+  const [isDark, setIsDark] = useLocalStorage("isDark", "true");
   const [isShowingSplashAnimation, setIsShowingSplashAnimation] =
     useState(true);
 

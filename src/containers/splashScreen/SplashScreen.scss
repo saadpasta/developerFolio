@@ -1,3 +1,5 @@
+@import "../../_globalColor";
+
 .splash-container {
   display: flex;
   flex-direction: column;
@@ -15,6 +17,7 @@
   text-decoration: none;
 }
 .splash-title {
+  color: $signatureColor;
   font-family: "Agustina Regular", cursive;
   font-weight: bold;
   font-variant-ligatures: no-common-ligatures;
