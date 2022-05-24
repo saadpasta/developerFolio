@@ -9,7 +9,6 @@
 /coverage
 /build/
 
-
 # misc
 .DS_Store
 .env
@@ -24,4 +23,4 @@ yarn-error.log*
 
 #user generated content
 public/profile.json
-/node_modules/
+public/blogs.json

@@ -39,7 +39,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-google"></i>
+          <i className="fas fa-envelope"></i>
           <span></span>
         </a>
       ) : null}
@@ -112,6 +112,18 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-stack-overflow"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.kaggle ? (
+        <a
+          href={socialMediaLinks.kaggle}
+          className="icon-button kaggle"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-kaggle"></i>
           <span></span>
         </a>
       ) : null}

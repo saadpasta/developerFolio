@@ -27,11 +27,10 @@ export default function Projects() {
           setrepoFunction(response.data.user.pinnedItems.edges);
         })
         .catch(function (error) {
-          console.log(error);
-          setrepoFunction("Error");
-          console.log(
-            "Because of this Error, nothing is shown in place of Projects section. Projects section not configured"
+          console.error(
+            `${error} (because of this error, nothing is shown in place of Projects section. Also check if Projects section has been configured)`
           );
+          setrepoFunction("Error");
         });
     };
     getRepoData();
@@ -50,6 +49,11 @@ export default function Projects() {
           <h1 className="project-title">Open Source Projects</h1>
           <div className="repo-cards-div-main">
             {repo.map((v, i) => {
+              if (!v) {
+                console.error(
+                  `Github Object for repository number : ${i} is undefined`
+                );
+              }
               return (
                 <GithubRepoCard repo={v} key={v.node.id} isDark={isDark} />
               );
