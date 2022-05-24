@@ -33,7 +33,6 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-
   github: "https://github.com/dittogod",
   linkedin: "https://www.linkedin.com/in/simbarashe-ndoro/",
   gmail: "dittogod1@gmail.com",
@@ -267,8 +266,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url:
-            "https://udemy-certificate.s3.amazonaws.com/image/UC-2Y2YGPYB.jpg?l=null"
+          url: "https://udemy-certificate.s3.amazonaws.com/image/UC-2Y2YGPYB.jpg?l=null"
         },
         {
           name: "Award Letter",
@@ -287,13 +285,11 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url:
-            "https://udemy-certificate.s3.amazonaws.com/image/UC-b140cee4-0dda-4a76-b226-35764b953964.jpg?v=1586560149000"
+          url: "https://udemy-certificate.s3.amazonaws.com/image/UC-b140cee4-0dda-4a76-b226-35764b953964.jpg?v=1586560149000"
         },
         {
           name: "Award Letter",
-          url:
-            "https://www.udemy.com/certificate/UC-b140cee4-0dda-4a76-b226-35764b953964/"
+          url: "https://www.udemy.com/certificate/UC-b140cee4-0dda-4a76-b226-35764b953964/"
         },
         {
           name: "Udemy Course",
@@ -309,8 +305,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Badge",
-          url:
-            "https://www.youracclaim.com/badges/665f34ac-fb91-490c-9096-5bbda9aff088/public_url"
+          url: "https://www.youracclaim.com/badges/665f34ac-fb91-490c-9096-5bbda9aff088/public_url"
         }
       ]
     },
@@ -322,13 +317,11 @@ const achievementSection = {
       footerLink: [
         {
           name: "Badge",
-          url:
-            "https://www.youracclaim.com/badges/ad3ae1da-396a-427d-a58b-c39e1652ce92/public_url"
+          url: "https://www.youracclaim.com/badges/ad3ae1da-396a-427d-a58b-c39e1652ce92/public_url"
         },
         {
           name: "Certificate",
-          url:
-            "https://drive.google.com/file/d/1joc5B9c-7evfXEv7s5TKfMm8bG8hlf1k/view?usp=sharing"
+          url: "https://drive.google.com/file/d/1joc5B9c-7evfXEv7s5TKfMm8bG8hlf1k/view?usp=sharing"
         }
       ]
     },
@@ -340,13 +333,11 @@ const achievementSection = {
       footerLink: [
         {
           name: "Badge",
-          url:
-            "https://www.youracclaim.com/badges/b6830478-52da-4460-82b9-5a0b7ac76a1f/public_url"
+          url: "https://www.youracclaim.com/badges/b6830478-52da-4460-82b9-5a0b7ac76a1f/public_url"
         },
         {
           name: "Certificate",
-          url:
-            "https://drive.google.com/file/d/12jsUGrNIMiKg6VjEIEC0g1WD6OKlsMtF/view?usp=sharing"
+          url: "https://drive.google.com/file/d/12jsUGrNIMiKg6VjEIEC0g1WD6OKlsMtF/view?usp=sharing"
         }
       ]
     },
@@ -357,8 +348,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certificate",
-          url:
-            "https://drive.google.com/file/d/1o0V-wAJ4B9Hms0QgY2gWo_uCv-s_HYT6/view?usp=sharing"
+          url: "https://drive.google.com/file/d/1o0V-wAJ4B9Hms0QgY2gWo_uCv-s_HYT6/view?usp=sharing"
         }
       ]
     },
@@ -369,8 +359,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certificate",
-          url:
-            "https://drive.google.com/file/d/1L6s0v_Nx92VIAkz9xba-cIa2k8w15rwz/view?usp=sharing"
+          url: "https://drive.google.com/file/d/1L6s0v_Nx92VIAkz9xba-cIa2k8w15rwz/view?usp=sharing"
         }
       ]
     },
@@ -381,8 +370,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certificate",
-          url:
-            "https://drive.google.com/file/d/1ROFU2lIRpuS4a_oJTYFeo-B7KSwBheHo/view?usp=sharing"
+          url: "https://drive.google.com/file/d/1ROFU2lIRpuS4a_oJTYFeo-B7KSwBheHo/view?usp=sharing"
         }
       ]
     }
