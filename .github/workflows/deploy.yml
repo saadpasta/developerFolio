@@ -23,10 +23,11 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '16.13.x'
+          cache: 'yarn'
       - name: Install and Build 🔧 # Build the Project
         run: |
-          npm ci
-          npm run build
+          yarn install --frozen-lockfile # optional, --immutable
+          yarn build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.3.3
