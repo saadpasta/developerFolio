@@ -36,7 +36,6 @@ Created something awesome for your fork of the portfolio and want to share it? F
 ✔️ Open Source Projects Connected with GitHub\
 ✔️ Big Projects\
 ✔️ Achievements And Certifications 🏆\
-✔️ Talks\
 ✔️ Podcast\
 ✔️ Contact me\
 ✔️ Twitter Timeline\
