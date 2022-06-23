@@ -213,28 +213,28 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Here are my projects",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Mealbot",
+      projectDesc: "Mealbot is a meal planning and grocery list generating app that makes it easy to eat healthy and save money. With Mealbot, you can create custom meal plans and grocery lists, and text them to yourself or a friend. Mealbot also makes it easy to find recipes and grocery items, so you can get started on your healthy eating journey right away.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://github.com/lucasxtan/Mealbot"
         }
         //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Scheduler",
+      projectDesc: "The scheduler app is used to schedule interview appointments between student and interviewer for each day of the week from 12pm to 5pm.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://github.com/lucasxtan/scheduler"
         }
       ]
     }
