@@ -117,6 +117,7 @@ Note: Configuring environment variables before deploying your portfolio is highl
 // .env
 REACT_APP_GITHUB_TOKEN = "YOUR GITHUB TOKEN HERE"
 GITHUB_USERNAME = "YOUR GITHUB USERNAME"
+USE_GITHUB_DATA = "true"
 ```
 
 Set `showGithubProfile` to true or false to show Contact Profile using GitHub, defaults to false.
