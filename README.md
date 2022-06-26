@@ -38,7 +38,6 @@ Created something awesome for your fork of the portfolio and want to share it? F
 ✔️ Achievements And Certifications 🏆\
 ✔️ Podcast\
 ✔️ Contact me\
-✔️ Twitter Timeline\
 ✔️ GitHub Profile
 
 To view a live example, **[click here](https://developerfolio.js.org/)**.
@@ -127,13 +126,6 @@ If you are seeing something as shown below, follow these [instructions](https://
 
 If the above solution still doesn't work, visit the [wiki page](https://github.com/saadpasta/developerFolio/wiki/Github-Setup-For-Open-Source-Projects).
 
-```env
-// .env
-MEDIUM_USERNAME = "YOUR MEDIUM USERNAME"
-```
-
-* For Github Action, change the environment variable `MEDIUM_USERNAME` in `.github/workflows/deploy.yml`
-
 ## Change and customize every section according to your need.
 
 #### Personalize page content in `/src/portfolio.js` & modify it as per your need. You will also need to modify `index.html` to change the title and metadata to provide accurate SEO for your personal portfolio.
@@ -150,11 +142,9 @@ const greeting = {
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7"
+  github: "https://github.com/hesamossanloo",
+  linkedin: "https://www.linkedin.com/in/hesamossanloo/",
+  email: "hesam@ossanloo.com"
 };
 
 
@@ -172,8 +162,6 @@ const achievementSection = { .... }
 
 const contactInfo = { .... }
 
-const twitterDetails = { ... }
-
 ```
 
 #### Using Emojis
@@ -182,16 +170,8 @@ For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` functi
 
 #### Customize Lottie Animations
 
-You can choose a Lottie and download it in json format from from sites like [this](https://lottiefiles.com/). In `src/assets/lottie`, replace the Lottie json file you want to alter with the same file name. If you want to change the Lottie options, go to `src/components/displayLottie/DisplayLottie.js` and change the `defaultOptions` object, you can refer [react-lottie docs](https://www.npmjs.com/package/react-lottie) for more info on the `defaultOptions` object.
+You can choose a Lottie and download it in json format from sites like [this](https://lottiefiles.com/). In `src/assets/lottie`, replace the Lottie json file you want to alter with the same file name. If you want to change the Lottie options, go to `src/components/displayLottie/DisplayLottie.js` and change the `defaultOptions` object, you can refer [react-lottie docs](https://www.npmjs.com/package/react-lottie) for more info on the `defaultOptions` object.
 
-#### Adding Twitter Time line to your Page
-Insert your Twitter username in `portfolio.js` to show your recent activity on your page.
-
-```javascript
-const twitterDetails = {
-  userName : "Your Twitter Username"
-};
-```
 Note: Don't use `@` symbol when adding username.
 
 ## Deployment
@@ -231,7 +211,6 @@ For more information, read [hosting on Netlify](https://create-react-app.dev/doc
 - [React](https://reactjs.org/)
 - [graphql](https://graphql.org/)
 - [apollo-boost](https://www.apollographql.com/docs/react/get-started/)
-- [react-twitter-embed](https://github.com/saurabhnemade/react-twitter-embed)
 - [react-easy-emoji](https://github.com/appfigures/react-easy-emoji)
 - [react-headroom](https://github.com/KyleAMathews/react-headroom)
 - [color-thief](https://github.com/lokesh/color-thief)

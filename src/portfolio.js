@@ -11,28 +11,27 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Hesam Ossanloo",
+  title: "Heya, I'm Hesam",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    `I'm a proactive technology and people leader with 12+ years of experience in leadership and software 
+development across multiple disciplines and tech stacks for startups and established companies. A volunteer PhD 
+candidate (Semantic Search and Ontology) outside my job. I've volunteered with Planetary Transportation Systems 
+on a lunar rover project to send robots to the Moon. I am passionate about 
+working in great teams focusing on quality, personal development within the team, mentoring, solving problems, and 
+exploring new technologies.`
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://www.icloud.com/iclouddrive/0804uH4yuUuiNiAif_YvN7_uA#Hesam-CV-EN", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
+  github: "https://github.com/hesamossanloo",
+  linkedin: "https://www.linkedin.com/in/hesamossanloo/",
+  email: "hesam@ossanloo.com",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -52,7 +51,7 @@ const skillsSection = {
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+    https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
@@ -119,8 +118,8 @@ const educationInfo = {
     {
       schoolName: "Harvard University",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
+      subHeader: "Phd. in Computer Science (in progress)",
+      duration: "September 2017 - September 2025",
       desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -312,13 +311,6 @@ const contactInfo = {
   email_address: "saadpasta70@gmail.com"
 };
 
-// Twitter Section
-
-const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
-};
-
 export {
   illustration,
   greeting,
@@ -331,6 +323,6 @@ export {
   bigProjects,
   achievementSection,
   podcastSection,
-  contactInfo,
-  twitterDetails
+  contactInfo
+  // twitterDetails
 };

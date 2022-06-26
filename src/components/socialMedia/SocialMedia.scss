@@ -16,7 +16,6 @@
   font-size: 1.3rem;
   height: 2.6rem;
   line-height: 2.6rem;
-  margin: 0 5px;
   position: relative;
   text-align: center;
   -webkit-user-select: none;
@@ -24,12 +23,8 @@
   -ms-user-select: none;
   user-select: none;
   width: 2.6rem;
-  margin-bottom: 10px;
+  margin: 0 5px 10px;
   transition: 0.2s ease-in;
-}
-
-.facebook i {
-  background-color: $faceBook;
 }
 
 .linkedin i {
@@ -40,45 +35,14 @@
   background-color: $github;
 }
 
-.gitlab i {
-  background-color: $gitlab;
-}
-
-.google i {
-  background-color: $google;
-}
-
-.twitter i {
-  background-color: $twitter;
-}
-
-.medium i {
-  background-color: $medium;
-}
-
-.stack-overflow i {
-  background-color: $stackoverflow;
-}
-
-.kaggle i {
-  background-color: $kaggle;
-}
-
-.instagram i {
-  background-color: $instagram;
+.email i {
+  background-color: $email;
 }
 
 /* Hover Transition */
-.twitter i:hover,
-.google i:hover,
-.gitlab i:hover,
+.email i:hover,
 .github i:hover,
-.linkedin i:hover,
-.facebook i:hover,
-.instagram i:hover,
-.stack-overflow i:hover,
-.kaggle i:hover,
-.medium i:hover {
+.linkedin i:hover {
   background-color: $textColor;
 }
 
