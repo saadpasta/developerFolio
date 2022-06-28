@@ -4,6 +4,14 @@
 
 import emoji from "react-easy-emoji";
 
+// make our custom icons `./myicons` available in Font Awesome
+import {library, dom} from "@fortawesome/fontawesome-svg-core";
+import {faTS} from "./assets/myicons";
+
+library.add(faTS);
+
+dom.watch();
+
 // Summary And Greeting Section
 
 const illustration = {
@@ -16,10 +24,9 @@ const greeting = {
   subTitle: emoji(
     `I'm a proactive technology and people leader with 12+ years of experience in leadership and software 
 development across multiple disciplines and tech stacks for startups and established companies. A volunteer PhD 
-candidate (Semantic Search and Ontology) outside my job. I've volunteered with Planetary Transportation Systems 
-on a lunar rover project to send robots to the Moon. I am passionate about 
-working in great teams focusing on quality, personal development within the team, mentoring, solving problems, and 
-exploring new technologies.`
+candidate (Semantic Search and Ontology) and research fellow at Planetary Transportation Systems 
+working on sending a lunar rover to the Moon. Passionate about 
+working in great teams focusing on quality, personal development, mentoring and solving problems.`
   ),
   resumeLink:
     "https://www.icloud.com/iclouddrive/0804uH4yuUuiNiAif_YvN7_uA#Hesam-CV-EN", // Set to empty to hide the button
@@ -39,14 +46,17 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "Enthusiast Engineer Leader, taking pride in finding and mentoring talents",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Leading teams to build highly scalable, reliable, secure, cost-efficient and performant cloud solutions."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Building interactive Frontend / Backend for your web, tablet, mobile and smart TV applications."
+    ),
+    emoji(
+      "⚡ Finding solutions for automatic CI/CD pipeline, release process, code quality, monitoring and data analysis."
     )
   ],
 
@@ -54,6 +64,34 @@ const skillsSection = {
     https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    {
+      skillName: "aws",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "typescript",
+      fontAwesomeClassname: "fabi fa-ts"
+    },
+    {
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "reactjs",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "npm",
+      fontAwesomeClassname: "fab fa-npm"
+    },
+    {
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -65,34 +103,6 @@ const skillsSection = {
     {
       skillName: "sass",
       fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
     },
     {
       skillName: "firebase",
