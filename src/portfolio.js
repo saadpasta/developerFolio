@@ -6,9 +6,17 @@ import emoji from "react-easy-emoji";
 
 // make our custom icons `./myicons` available in Font Awesome
 import {library, dom} from "@fortawesome/fontawesome-svg-core";
-import {faTS} from "./assets/myicons";
+import {
+  faTS,
+  faLambda,
+  faServerless,
+  faBlockchain,
+  faAzure,
+  faCypress
+} from "./assets/myicons";
 
-library.add(faTS);
+// noinspection JSCheckFunctionSignatures
+library.add([faTS, faLambda, faServerless, faBlockchain, faAzure, faCypress]);
 
 dom.watch();
 
@@ -65,19 +73,23 @@ const skillsSection = {
 
   softwareSkills: [
     {
-      skillName: "aws",
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "typescript",
+      skillName: "Azure",
+      fontAwesomeClassname: "fabi fa-azure"
+    },
+    {
+      skillName: "TypeScript",
       fontAwesomeClassname: "fabi fa-ts"
     },
     {
-      skillName: "nodejs",
+      skillName: "NodeJS",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "reactjs",
+      skillName: "ReactJS",
       fontAwesomeClassname: "fab fa-react"
     },
     {
@@ -85,36 +97,56 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "npm",
+      skillName: "NPM",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "NoSQL/SQL",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "html-5",
+      skillName: "HTML-5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
+      skillName: "Sass",
       fontAwesomeClassname: "fab fa-sass"
     },
     {
-      skillName: "firebase",
+      skillName: "Firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "Blockchain",
+      fontAwesomeClassname: "fabi fa-blockchain"
     },
     {
-      skillName: "docker",
+      skillName: "Cypress",
+      fontAwesomeClassname: "fabi fa-cypress"
+    },
+    {
+      skillName: "GIT",
+      fontAwesomeClassname: "fab fa-git"
+    },
+    {
+      skillName: "GitHub",
+      fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Atlassian",
+      fontAwesomeClassname: "fab fa-atlassian"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +158,20 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
+      schoolName:
+        "Hochschule Darmstadt - University of Applied Sciences (Germany)",
+      logo: require("./assets/images/hda_logo.png"),
       subHeader: "Phd. in Computer Science (in progress)",
-      duration: "September 2017 - September 2025",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      duration: "September 2015 - September 2025",
+      desc: "Focus: Big Data, Machine learning, AI, ETL, Search result clustering, Semantic Web, Taxonomy, Linked Open Data, Information Retrieval, Semantic Information Visualization."
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName:
+        "Hochschule Darmstadt - University of Applied Sciences (Germany)",
+      logo: require("./assets/images/hda_logo.png"),
+      subHeader: "Master of Science in Computer Science",
+      duration: "October 2010 - October 2012",
+      desc: "Focus: System Architecture, Fullstack development (Java, JS, Ruby), Business Process Optimization."
     }
   ]
 };
@@ -153,16 +182,24 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Enterprise Architect",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Frontend/Design",
+      progressPercentage: "85%"
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "95%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "IaaC/PaaS/SaaS",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Automated Testing",
+      progressPercentage: "90%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +211,44 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Head of Engineering",
+      company: "Spark Sport NZ",
+      companylogo: require("./assets/images/spark-sport.png"),
+      date: "February 2022 – Present",
+      desc:
+        "I take pride in supporting my team, technically and emotionally, while learning from them. I go out of my way to create a safe environment where the better argument wins, and people can openly talk about their expectations and feelings and give constructive feedback." +
+        "I ensure that the team and I understand the business objectives, so we can prioritise our tasks to achieve them. One of my focuses is that the enterprise architecture and services are scalable, reliable, and secure. Also, by hiring the right people for the job, the team can benefit from new ideas and diverse ways of doing things." +
+        "I have regular one-on-one with my team and my manager and constantly ask for their feedback if they expected me to do sth. or if I failed to support them in functioning at their best." +
+        "I believe in hiring smart people, so they tell us how to do things in their preferred way and not the other way around.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Technologies: Leadership · Team Building · Enterprise Architecture · Cloud Applications · Node.js · Test Automation · Serverless Framework · Microsoft Azure · TypeScript · Amazon Web Services (AWS) · Security · PCI DSS · Agile Scrum"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Solution Architect/ Tech Lead",
+      company: "Mercury NZ Ltd.",
+      companylogo: require("./assets/images/mercury-logo.png"),
+      date: "July 2021 – February 2022 (Contractor)",
+      desc:
+        "Most of my time, I am researching how to solve business problems using scalable, reliable, secure, cost-effective, and performance technologies. Daily, I interact with many stakeholders, including product owners, project managers, solution architects and developers." +
+        "The research includes technical scoping, finding logical fallacies in the current processes and architectural designs. I make sure that the future design and the use of third-party services are compatible so that the business is not spending lots of money on sth. that would either not work or worsen the customer experience." +
+        "Parallel to my duties as an architect, I also manage software product implementation from concept to completion, focusing on the quality of our software and the personal development within the team. I participate in code review sessions and make sure the code meets the high quality based on the standard defined by the developer's community. I also take pride in mentoring younger developers and enthusiasts.",
+      descBullets: [
+        "Technologies: Atlassian · AWS · Git · Node.js · Typescript · Serverless · Eslint · Scrum/ Kanban . CI/CD . Intellij . RESTful WS . SQL . Docker . Oauth2 . Jest . Cucumber . Yarn . NPM . Mira . Sharepoint. Draw.io . Layered APIs."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Solution Architect/ Tech Lead",
+      company: "P^werFinance Ltd.",
+      companylogo: require("./assets/images/powerfinance.png"),
+      date: "August 2020 – August 2021",
+      desc:
+        "On the technical side, I've spent most of my time researching the good practices around cloud-based (Azure) micro-services implementations (React, Typescript, NodeJS) that communicate with Blockchain technologies. Managing and mentoring intermediate developers, 50% hands-on (design the architecture, peer's code-review), 50% leadership (working very closely with DevOps and leading the projects into production (including TDD, BDD, CI/CD with agile methodologies))." +
+        "On the business side, I've spent a good chunk of my weekly time interacting with stakeholders, product owners, and designers to make sure that the business needs and the requirements are mapped correctly to the company's technical assets and skill-sets. Also, make sure that the continuous integration and delivery of the product happens efficiently, securely, automatically and meets the highest quality standards." +
+        "The research was done in various fields, including challenges around the blockchain, cryptography, game-theory and graph-theory, cloud-based micro- services (Azure), security, authentication/authorisation, and automation. Using other DevOps infrastructure as a code framework, e.g., Terraform, Azure ARM and Bitbucket templates, we built, tested, and deployed our products with a click of a button from the Dev environment to UAT then Prod.",
+      descBullets: [
+        "Technologies: Atlassian . Azure . Git . React.js . Node.js . Typescript . Eslint . Scrum/ Kanban . CI/CD . Intellij . RESTful WS . SQL . HTML5 . CSS3 . Docker . Oauth2 . Cypress.io . Jest . Mocha . Sinon . Webpack . Yarn . NPM . VITE . Material-UI"
+      ]
     }
   ]
 };

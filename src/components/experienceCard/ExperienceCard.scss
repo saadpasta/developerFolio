@@ -3,7 +3,7 @@
 .experience-card {
   position: relative;
   background-color: $lightBackground2;
-  box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
+  box-shadow: $lightBoxShadowDark 0 10px 30px -15px;
   border-radius: 10px;
   border: 1px solid $lightBorder1;
 }
@@ -11,13 +11,13 @@
 .experience-card-dark {
   position: relative;
   background-color: $darkBackground;
-  box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
+  box-shadow: $lightBoxShadowDark 0 10px 30px -15px;
   border-radius: 10px;
   border: 1px solid $lightBorder1;
 }
 
 .experience-card:hover {
-  box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
+  box-shadow: $lightBoxShadowDark 0 20px 30px -10px;
 }
 
 .experience-banner {
@@ -25,7 +25,7 @@
   background-repeat: no-repeat;
   background-size: 150%;
   background: $experienceCardBannerLG;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 0 0;
   -webkit-filter: blur(0px);
   -moz-filter: blur(0px);
   -o-filter: blur(0px);
@@ -49,7 +49,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 0 0;
 }
 
 .experience-div-company {
@@ -70,7 +70,6 @@
   margin: 0;
   color: $lightBackground1;
   font-size: 25px;
-  text-align: center;
   font-weight: 700;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -96,7 +95,7 @@
   color: $textColor;
   font-weight: 700;
   font-size: 25px;
-  margin: 0px;
+  margin: 0;
   padding-top: 1.5rem;
   line-height: normal;
 }
@@ -107,13 +106,13 @@
   text-align: center;
   color: $textColor;
   font-size: 20px;
-  margin: 0px;
+  margin: 0;
   padding-top: 1rem;
   font-weight: 600;
 }
 
 .experience-text-desc {
-  text-align: center;
+  text-align: left;
 }
 
 .experience-text-details {
