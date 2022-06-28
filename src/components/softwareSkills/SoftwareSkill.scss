@@ -4,8 +4,8 @@
   padding-left: 0;
   list-style: none;
   font-size: 3rem;
-  margin-bottom: 0px;
-  margin-top: 0px;
+  margin-bottom: 0;
+  margin-top: 0;
   text-align: center;
 }
 
@@ -15,10 +15,11 @@
   margin-bottom: 20px;
 }
 
+.software-skill-inline > svg,
 .software-skill-inline > i {
   color: $subTitle;
 }
-
+.software-skill-inline > svg:hover,
 .software-skill-inline > i:hover {
   color: $skillsColor;
 }
@@ -26,6 +27,7 @@
   color: $subTitle;
   font-size: 10px;
 }
+.software-skill-inline > svg:hover ~ p,
 .software-skill-inline > i:hover ~ p {
   color: $skillsColor;
 }
