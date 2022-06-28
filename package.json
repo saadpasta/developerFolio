@@ -3,6 +3,7 @@
   "name": "hesamossanloo",
   "version": "0.1.0",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "colorthief": "^2.3.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.6",
