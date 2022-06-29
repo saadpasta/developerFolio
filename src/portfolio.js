@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native / Ruby / Rails / and some other cool libraries and frameworks."
   ),
-  resumeLink:
-    "https://resume.creddle.io/resume/a79aa0r1pzr", // Set to empty to hide the button
+  resumeLink: "https://resume.creddle.io/resume/a79aa0r1pzr", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -49,7 +48,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Passionate about building and designing useful products for end-users",
+  subTitle:
+    "Passionate about building and designing useful products for end-users",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -238,7 +238,8 @@ const bigProjects = {
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "Mealbot",
-      projectDesc: "Mealbot is a meal planning and grocery list generating app that makes it easy to eat healthy and save money. With Mealbot, you can create custom meal plans and grocery lists, and text them to yourself or a friend. Mealbot also makes it easy to find recipes and grocery items, so you can get started on your healthy eating journey right away.",
+      projectDesc:
+        "Mealbot is a meal planning and grocery list generating app that makes it easy to eat healthy and save money. With Mealbot, you can create custom meal plans and grocery lists, and text them to yourself or a friend. Mealbot also makes it easy to find recipes and grocery items, so you can get started on your healthy eating journey right away.",
       footerLink: [
         {
           name: "Visit Website",
@@ -250,7 +251,8 @@ const bigProjects = {
     {
       image: require("./assets/images/nextuLogo.webp"),
       projectName: "Scheduler",
-      projectDesc: "The scheduler app is used to schedule interview appointments between student and interviewer for each day of the week from 12pm to 5pm.",
+      projectDesc:
+        "The scheduler app is used to schedule interview appointments between student and interviewer for each day of the week from 12pm to 5pm.",
       footerLink: [
         {
           name: "Visit Website",
