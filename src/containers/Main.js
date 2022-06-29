@@ -58,11 +58,11 @@ const Main = () => {
             {/* <WorkExperience /> */}
             <Projects />
             <StartupProject />
-            <Achievement />
+            {/* <Achievement /> */}
             <Blogs />
-            <Talks />
-            <Twitter />
-            <Podcast />
+            {/* <Talks /> */}
+            {/* <Twitter /> */}
+            {/* <Podcast /> */}
             <Profile />
             <Footer />
             <ScrollToTopButton />
