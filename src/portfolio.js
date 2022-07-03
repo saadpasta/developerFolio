@@ -36,8 +36,7 @@ candidate (Semantic Search and Ontology) and research fellow at Planetary Transp
 working on sending a lunar rover to the Moon. Passionate about 
 working in great teams focusing on quality, personal development, mentoring and solving problems.`
   ),
-  resumeLink:
-    "https://www.icloud.com/iclouddrive/0804uH4yuUuiNiAif_YvN7_uA#Hesam-CV-EN", // Set to empty to hide the button
+  resumeLink: "Hesam-CV-EN.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
