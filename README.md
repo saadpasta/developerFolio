@@ -124,7 +124,7 @@ If you are seeing something as shown below, follow these [instructions](https://
 
 ![ERROR](https://i.imgur.com/Hj6mu1K.png)
 
-If the above solution still doesn't work, visit the [wiki page](https://github.com/saadpasta/developerFolio/wiki/Github-Setup-For-Open-Source-Projects).
+If the above solution still doesn't work, visit the [wiki page](https://github.com/saadpasta/developerFolio/wiki/GitHub-Setup-For-Open-Source-Projects).
 
 ## Change and customize every section according to your need.
 

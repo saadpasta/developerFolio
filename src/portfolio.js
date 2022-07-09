@@ -14,6 +14,7 @@ import {
   faAzure,
   faCypress
 } from "./assets/myicons";
+import {workExpArray} from "./data/WorkExpArray";
 
 // noinspection JSCheckFunctionSignatures
 library.add([faTS, faLambda, faServerless, faBlockchain, faAzure, faCypress]);
@@ -159,7 +160,7 @@ const educationInfo = {
     {
       schoolName:
         "Hochschule Darmstadt - University of Applied Sciences (Germany)",
-      logo: require("./assets/images/hda_logo.png"),
+      logo: require("./assets/images/hdaLogo.png"),
       subHeader: "Phd. in Computer Science (in progress)",
       duration: "September 2015 - September 2025",
       desc: "Focus: Big Data, Machine learning, AI, ETL, Search result clustering, Semantic Web, Taxonomy, Linked Open Data, Information Retrieval, Semantic Information Visualization."
@@ -167,7 +168,7 @@ const educationInfo = {
     {
       schoolName:
         "Hochschule Darmstadt - University of Applied Sciences (Germany)",
-      logo: require("./assets/images/hda_logo.png"),
+      logo: require("./assets/images/hdaLogo.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "October 2010 - October 2012",
       desc: "Focus: System Architecture, Fullstack development (Java, JS, Ruby), Business Process Optimization."
@@ -208,55 +209,14 @@ const techStack = {
 
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
-  experience: [
-    {
-      role: "Head of Engineering",
-      company: "Spark Sport NZ",
-      companylogo: require("./assets/images/spark-sport.png"),
-      date: "February 2022 – Present",
-      desc:
-        "I take pride in supporting my team, technically and emotionally, while learning from them. I go out of my way to create a safe environment where the better argument wins, and people can openly talk about their expectations and feelings and give constructive feedback." +
-        "I ensure that the team and I understand the business objectives, so we can prioritise our tasks to achieve them. One of my focuses is that the enterprise architecture and services are scalable, reliable, and secure. Also, by hiring the right people for the job, the team can benefit from new ideas and diverse ways of doing things." +
-        "I have regular one-on-one with my team and my manager and constantly ask for their feedback if they expected me to do sth. or if I failed to support them in functioning at their best." +
-        "I believe in hiring smart people, so they tell us how to do things in their preferred way and not the other way around.",
-      descBullets: [
-        "Technologies: Leadership · Team Building · Enterprise Architecture · Cloud Applications · Node.js · Test Automation · Serverless Framework · Microsoft Azure · TypeScript · Amazon Web Services (AWS) · Security · PCI DSS · Agile Scrum"
-      ]
-    },
-    {
-      role: "Solution Architect/ Tech Lead",
-      company: "Mercury NZ Ltd.",
-      companylogo: require("./assets/images/mercury-logo.png"),
-      date: "July 2021 – February 2022 (Contractor)",
-      desc:
-        "Most of my time, I am researching how to solve business problems using scalable, reliable, secure, cost-effective, and performance technologies. Daily, I interact with many stakeholders, including product owners, project managers, solution architects and developers." +
-        "The research includes technical scoping, finding logical fallacies in the current processes and architectural designs. I make sure that the future design and the use of third-party services are compatible so that the business is not spending lots of money on sth. that would either not work or worsen the customer experience." +
-        "Parallel to my duties as an architect, I also manage software product implementation from concept to completion, focusing on the quality of our software and the personal development within the team. I participate in code review sessions and make sure the code meets the high quality based on the standard defined by the developer's community. I also take pride in mentoring younger developers and enthusiasts.",
-      descBullets: [
-        "Technologies: Atlassian · AWS · Git · Node.js · Typescript · Serverless · Eslint · Scrum/ Kanban . CI/CD . Intellij . RESTful WS . SQL . Docker . Oauth2 . Jest . Cucumber . Yarn . NPM . Mira . Sharepoint. Draw.io . Layered APIs."
-      ]
-    },
-    {
-      role: "Solution Architect/ Tech Lead",
-      company: "P^werFinance Ltd.",
-      companylogo: require("./assets/images/powerfinance.png"),
-      date: "August 2020 – August 2021",
-      desc:
-        "On the technical side, I've spent most of my time researching the good practices around cloud-based (Azure) micro-services implementations (React, Typescript, NodeJS) that communicate with Blockchain technologies. Managing and mentoring intermediate developers, 50% hands-on (design the architecture, peer's code-review), 50% leadership (working very closely with DevOps and leading the projects into production (including TDD, BDD, CI/CD with agile methodologies))." +
-        "On the business side, I've spent a good chunk of my weekly time interacting with stakeholders, product owners, and designers to make sure that the business needs and the requirements are mapped correctly to the company's technical assets and skill-sets. Also, make sure that the continuous integration and delivery of the product happens efficiently, securely, automatically and meets the highest quality standards." +
-        "The research was done in various fields, including challenges around the blockchain, cryptography, game-theory and graph-theory, cloud-based micro- services (Azure), security, authentication/authorisation, and automation. Using other DevOps infrastructure as a code framework, e.g., Terraform, Azure ARM and Bitbucket templates, we built, tested, and deployed our products with a click of a button from the Dev environment to UAT then Prod.",
-      descBullets: [
-        "Technologies: Atlassian . Azure . Git . React.js . Node.js . Typescript . Eslint . Scrum/ Kanban . CI/CD . Intellij . RESTful WS . SQL . HTML5 . CSS3 . Docker . Oauth2 . Cypress.io . Jest . Mocha . Sinon . Webpack . Yarn . NPM . VITE . Material-UI"
-      ]
-    }
-  ]
+  experience: workExpArray
 };
 
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
+/* Your Open Source Section to View Your GitHub Pinned Projects
+To know how to get GitHub key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "true", // Set true or false to show Contact profile using GitHub, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 

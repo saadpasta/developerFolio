@@ -51,7 +51,7 @@ export default function Projects() {
             {repo.map((v, i) => {
               if (!v) {
                 console.error(
-                  `Github Object for repository number : ${i} is undefined`
+                  `GitHub Object for repository number : ${i} is undefined`
                 );
               }
               return (
