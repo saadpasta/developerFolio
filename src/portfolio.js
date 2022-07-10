@@ -317,19 +317,19 @@ const podcastSection = {
   title: emoji("Podcast 🎙️"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
-  // Please Provide with Your Podcast embeded Link
+  // Please Provide with Your Podcast embedded Link
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  subtitle: `Need a complex problem solver, make sure your Tech is scalable and secure 
+    or just want to say hi? Drop me an email 🙂`,
+  number: "+64272091761",
+  email_address: "hesam@ossanloo.com"
 };
 
 export {
@@ -345,5 +345,4 @@ export {
   achievementSection,
   podcastSection,
   contactInfo
-  // twitterDetails
 };
