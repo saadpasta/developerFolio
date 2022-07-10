@@ -45,9 +45,6 @@ export default function GithubProfileCard({prof}) {
               <span className="desc-prof">
                 Actively looking for a job: {prof.hireable}
               </span>
-              <span className="desc-prof">
-                Open for challenging opportunities: Yes
-              </span>
             </div>
             <SocialMedia />
           </div>
