@@ -26,11 +26,17 @@
   .experience-heading {
     font-size: 40px;
   }
+  .experience-cards-div {
+    gap: 1rem 4rem;
+  }
 }
 
 @media (max-width: 768px) {
   .experience-heading {
     font-size: 30px;
     text-align: center;
+  }
+  .experience-cards-div {
+    gap: 1rem 4rem;
   }
 }

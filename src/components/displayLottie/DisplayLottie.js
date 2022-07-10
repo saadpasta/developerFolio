@@ -13,7 +13,7 @@ export default class DisplayLottie extends Component {
 
     return (
       <Suspense fallback={<Loading />}>
-        <Lottie options={defaultOptions} isClickToPauseDisabled={true} />
+        <Lottie options={defaultOptions} isClickToPauseDisabled={false} />
       </Suspense>
     );
   }
