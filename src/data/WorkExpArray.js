@@ -54,7 +54,7 @@ export const workExpArray = [
   },
   {
     role: "Solution Architect / Tech Lead",
-    company: "P^werFinance Ltd.",
+    company: "P^werFinance Ltd./ Centrality Ltd.",
     companylogo: require("../assets/images/powerfinanceLogo.png"),
     date: "Aug 2020 – Aug 2021 (Auckland, New Zealand)",
     desc: `On the technical side, I've spent most of my time researching the 

@@ -27,8 +27,11 @@
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.certificate-detail-div {
+.certificate-detail-div h5{
   text-align: center;
+}
+.certificate-detail-div p{
+  text-align: justify;
 }
 .certificate-card:hover {
   box-shadow: $lightBoxShadowDark 0 20px 30px -10px;

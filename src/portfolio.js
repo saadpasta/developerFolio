@@ -55,7 +55,7 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "Enthusiast Engineer Leader, taking pride in finding and mentoring talents",
+    "Enthusiast Engineer Leader, Solving complex problems, finding and mentoring talents",
   skills: [
     emoji(
       "⚡ Leading teams to build highly scalable, reliable, secure, cost-efficient and performant cloud solutions."
@@ -65,6 +65,9 @@ const skillsSection = {
     ),
     emoji(
       "⚡ Finding solutions for automatic CI/CD pipeline, release process, code quality, monitoring and data analysis."
+    ),
+    emoji(
+      "⚡ Solving complex problems regardless of the industry and teaching teams how to approach such problems."
     )
   ],
 
@@ -227,25 +230,66 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/sparksportLogo.png"),
+      projectName: "Spark Sport App",
+      projectDesc: `Building scalable live streaming and video-on-demand 
+          platforms for over twenty different devices. E.g. IOS, Android, TVOS, 
+          Smart TVs, Tablet, Desktop ...`,
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://www.sparksport.co.nz/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/mercuryLogo.png"),
+      projectName: "Mercury Broadband",
+      projectDesc: `Building scalable cloud-based application for Mercury 
+          customers to be able to signup for broadband service or integrate it 
+          into their billing service.`,
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.mercury.co.nz/broadband/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/powerfinanceLogo.png"),
+      projectName: "PowerChain",
+      projectDesc: `Building a bank from ground up using Blockchain! 
+          Cryptography, Minting, Burning, Authenticating and Authorising ...`,
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.powerfinance.co.nz/our-platform-technology/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/ATLogo.png"),
+      projectName: "AT Journey Planner",
+      projectDesc: `Every 9 seconds, GPS data from all fleets are sent to the 
+          API. Using ML, arrival and departure predictions are made and sent to 
+          all clients.`,
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://at.govt.nz/bus-train-ferry/journey-planner/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/PTSLogo.png"),
+      projectName: "Moon Landing Rover",
+      projectDesc: `Building a fast semantic search engine to communicate with 
+          the two Quattro robots and ALINA spacecraft on the moon.`,
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.pts.space/products/"
         }
       ]
     }
@@ -259,51 +303,43 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Scientific papers, books and certifications which I have published or achieved!",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "A Semantic Search Engine for Software Components",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "A Semantic Search Engine for Software Components. Proceedings (WWW/Internet 2016), pp 127-135, Mannheim, Germany (Bernhard G. Humm), ISBN 978-989-8533-57-9.",
+      image: require("./assets/images/topicPie.png"),
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Scientific Paper",
+          url: "https://www.researchgate.net/publication/309735336_A_SEMANTIC_SEARCH_ENGINE_FOR_SOFTWARE_COMPONENTS"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Cost-Effective Semi-Automatic Ontology Development",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Cost-Effective Semi-Automatic Ontology Development from Large Domain Terminology. Proceedings (CERC 2017), pp 73-82, Karlsruhe, Germany (Bernhard G. Humm). ISSN: 2220-4164.",
+      image: require("./assets/images/ontology.svg"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Scientific Paper",
+          url: "https://www.researchgate.net/publication/322724628_Cost-Effective_Semi-Automatic_Ontology_Development_from_Large_Domain_Terminology"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title:
+        "Domain-Specific Semantic Search Applications: Example SoftwareFinder",
+      subtitle:
+        "Semantic Applications - Methodology, Technology, Corporate Use. pp. 243-258. Springer Verlag (publisher), Berlin, 2018 (Bernhard G. Humm). ISBN 978-3-662-55432-6.",
+      image: require("./assets/images/semanticBook.jpeg"),
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Book Chapter",
+          url: "https://www.researchgate.net/publication/322931131_Domain-Specific_Semantic_Search_Applications_Example_SoftwareFinder"
         }
       ]
     }
@@ -326,7 +362,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: `Need a complex problem solver, make sure your Tech is scalable and secure 
+  subtitle: `Need to solve a complex problem, make sure your Tech is scalable and secure, need a mentor to build your team 
     or just want to say hi? Drop me an email 🙂`,
   number: "+64272091761",
   email_address: "hesam@ossanloo.com"
