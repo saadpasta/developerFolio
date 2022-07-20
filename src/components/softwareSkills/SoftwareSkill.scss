@@ -9,6 +9,10 @@
   text-align: center;
 }
 
+.red {
+  filter: grayscale(20%);
+}
+
 .software-skill-inline {
   display: inline-block;
   margin-right: 20px;
@@ -19,13 +23,26 @@
   color: $subTitle;
 }
 
+.software-skill-inline > img {
+  color: $subTitle;
+}
+
 .software-skill-inline > i:hover {
   color: $skillsColor;
 }
+
+.software-skill-inline > img:hover {
+  color: $skillsColor;
+}
+
 .software-skill-inline > p {
   color: $subTitle;
   font-size: 10px;
 }
 .software-skill-inline > i:hover ~ p {
+  color: $skillsColor;
+}
+
+.software-skill-inline > img:hover ~ p {
   color: $skillsColor;
 }

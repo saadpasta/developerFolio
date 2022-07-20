@@ -71,56 +71,70 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "HTML5",
+      fontAwesomeClassname: "fa-brands fa-html5"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "CSS3",
+      fontAwesomeClassname: "fa-brands fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Sass",
+      fontAwesomeClassname: "fa-brands fa-sass"
     },
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      fontAwesomeClassname: "fa-brands fa-js-square"
     },
     {
-      skillName: "Vue",
-      fontAwesomeClassname: "fab fa-vuejs"
+      skillName: "Vue.js",
+      fontAwesomeClassname: "fa-brands fa-vuejs"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Node.js",
+      fontAwesomeClassname: "fa-brands fa-node-js"
     },
     {
       skillName: "MongoDB",
-      fontAwesomeClassname: "fas fa-database"
+      fontAwesomeClassname: "fa-brands fa-mdb"
     },
     {
       skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      fontAwesomeClassname: "fa-brands fa-npm"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "PostgreSQL",
+      fontAwesomeClassname: "fa-solid fa-database"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "Firebase",
+      fontAwesomeClassname: "fa-solid fa-fire"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "Python",
+      fontAwesomeClassname: "fa-brands fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Docker",
+      fontAwesomeClassname: "fa-brands fa-docker"
     },
     {
       skillName: "Express.js",
-      fontAwesomeClassname: ""
+      fontAwesomeClassname: "fa-brands fa-js-square"
+    },
+    {
+      skillName: "BootStrap",
+      fontAwesomeClassname: "fa-brands fa-bootstrap"
+    },
+    {
+      skillName: "Flutter",
+      svgImage: "https://simpleicons.org/icons/flutter.svg",
+      svgColour: "#02569B",
+      svg: '<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Flutter</title><path d="M14.314 0L2.3 12 6 15.7 21.684.013h-7.357zm.014 11.072L7.857 17.53l6.47 6.47H21.7l-6.46-6.468 6.46-6.46h-7.37z"/></svg>'
+    },
+    {
+      skillName: "Dart",
+      fontAwesomeClassname: "fa-solid fa-bullseye"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -171,7 +185,7 @@ const techStack = {
       progressPercentage: "80%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -213,7 +227,7 @@ To know how to get github key look at readme.md */
 const openSource = {
   // githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   // githubUserName: "DittoGod", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: false // Set false to hide this section, defaults to true
 };
 
