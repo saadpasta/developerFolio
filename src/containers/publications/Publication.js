@@ -1,10 +1,10 @@
 import React, {useContext} from "react";
-import "./StartupProjects.scss";
-import {bigProjects} from "../../portfolio";
+import "./Publications.scss";
+import {publicationSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
-export default function StartupProject() {
+export default function Publications() {
   function openUrlInNewTab(url) {
     if (!url) {
       return;
@@ -14,84 +14,68 @@ export default function StartupProject() {
   }
 
   const {isDark} = useContext(StyleContext);
-  if (!bigProjects.display) {
+  if (!publicationSection.display) {
     return null;
   }
 
-  const GetProjectDescBullets = ({descBullets, isDark}) => {
-    return descBullets
-      ? descBullets.length > 1
-        ? descBullets.map((item, i) => (
-            <li
-              key={i}
-              className={isDark ? "subTitle dark-mode-text" : "subTitle"}
-            >
-              {item}
-            </li>
-          ))
-        : descBullets
-      : null;
-  };
-
   return (
     <Fade bottom duration={1000} distance="20px">
-      <div className="main" id="projects">
+      <div className="main" id="publications">
         <div>
-          <h1 className="skills-heading">{bigProjects.title}</h1>
+          <h1 className="skills-heading">{publicationSection.title}</h1>
           <p
             className={
               isDark
-                ? "dark-mode project-subtitle"
-                : "subTitle project-subtitle"
+                ? "dark-mode publication-subtitle"
+                : "subTitle publication-subtitle"
             }
           >
-            {bigProjects.subtitle}
+            {publicationSection.subtitle}
           </p>
 
-          <div className="projects-container">
-            {bigProjects.projects.map((project, i) => {
+          <div className="publications-container">
+            {publicationSection.publications.map((publication, i) => {
               return (
                 <div
                   key={i}
                   className={
                     isDark
-                      ? "dark-mode project-card project-card-dark"
-                      : "project-card project-card-light"
+                      ? "dark-mode publication-card publication-card-dark"
+                      : "publication-card publication-card-light"
                   }
                 >
-                  {project.image ? (
-                    <div className="project-image">
+                  {publication.image ? (
+                    <div className="publication-image">
                       <img
-                        src={project.image}
-                        alt={project.projectName}
+                        src={publication.image}
+                        alt={publication.publicationName}
                         className="card-image"
                       ></img>
                     </div>
                   ) : null}
-                  <div className="project-detail">
+                  <div className="publication-detail">
                     <h5
                       className={isDark ? "dark-mode card-title" : "card-title"}
                     >
-                      {project.projectName}
+                      {publication.publicationName}
                     </h5>
                     <p
                       className={
                         isDark ? "dark-mode card-subtitle" : "card-subtitle"
                       }
                     >
-                      <GetProjectDescBullets
-                        descBullets={project.projectDescBullets}
-                        isDark={isDark}
-                      />
+                      {publication.publicationDesc}
                     </p>
-                    {project.footerLink ? (
-                      <div className="project-card-footer">
-                        {project.footerLink.map((link, i) => {
+                    {publication.footerLink ? (
+                      <div className="publication-card-footer">
+                        {publication.footerLink.map((link, i) => {
                           return (
                             <span
                               key={i}
                               className={
-                                isDark ? "dark-mode project-tag" : "project-tag"
+                                isDark
+                                  ? "dark-mode publication-tag"
+                                  : "publication-tag"
                               }
                               onClick={() => openUrlInNewTab(link.url)}
                             >

@@ -19,6 +19,7 @@
 
 .subTitle {
   color: $subTitle !important;
+  font-size: 16px;
 }
 
 .greeting-main {
@@ -41,7 +42,7 @@
 }
 
 .greeting-text-p {
-  font-size: 30px;
+  font-size: 16px;
   line-height: 40px;
 }
 
@@ -88,7 +89,7 @@
     font-size: 50px;
   }
   .greeting-text-p {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 @media (max-width: 768px) {

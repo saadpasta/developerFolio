@@ -14,7 +14,7 @@
 }
 .card-subtitle {
   color: $cardSubtitle;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.5rem;
 }
 .project-card {
@@ -38,6 +38,7 @@
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.25s ease;
+  background-color: $darkBackground !important;
 }
 
 .project-detail {

@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Sakshi Subedi",
+  title: "Hi all, I'm Sakshi",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A highly motivated person who is curious about exploring new technologies and a result-driven Software Engineer with a never-give-up attitude. I have 3 years of Full Stack Software Development experience in building web applications using Java / React / Node.js and some other cool libraries and frameworks. I am consistently quick to search for streamlining. I want to be a part of a firm, that stimulates healthy competition, offers opportunities for growth, enriches the experience, creates constant value addition, and learns and be a part of an excellent team."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1UjCuE_SVttVD1K8FaGPYYHPWmCKi9zyf/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/sakshisubedi",
+  linkedin: "https://www.linkedin.com/in/sakshisubedi/",
+  gmail: "sakshisubedi@gmail.com",
+  gitlab: "", //"https://gitlab.com/saadpasta",
+  facebook: "", //"https://www.facebook.com/saad.pasta7",
+  medium: "https://medium.com/@sakshisubedi",
+  stackoverflow: "", //"https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +49,22 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Developing scalable end-to-end web applications using Java, React, Node.js, etc."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Building various developer productivity tools and microservices to reduce the delivery time of projects in our team."
+    ),
+    emoji(
+      "⚡ Debugging critical production issues and significantly reducing latency by optimizing queries, caching data on the website, and performing end-to-testing."
+    ),
+    emoji(
+      "⚡ Integrating third party services such as GCP / AWS / Firebase / Getstream / ML models."
+    ),
+    emoji(
+      "⚡ Building automation scripts in Cloud Functions for event-driven operations in a Serverless manner."
     )
   ],
 
@@ -64,6 +72,23 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    {
+      skillName: "Javascript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    // {
+    //   skillName: "C++",
+    //   fontAwesomeClassname: "fab fa-cplusplus"
+    // },
+    {
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -76,29 +101,37 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "sass",
       fontAwesomeClassname: "fab fa-sass"
     },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
+    // {
+    //   skillName: "Typescript",
+    //   fontAwesomeClassname: "fab fa-ts"
+    // },
     {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "angularjs",
+      fontAwesomeClassname: "fab fa-angular"
     },
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "sql",
       fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "mongodb",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "gcp",
+      fontAwesomeClassname: "fab fa-google"
     },
     {
       skillName: "aws",
@@ -108,14 +141,30 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
+    // {
+    //   skillName: "git",
+    //   fontAwesomeClassname: "fas fa-git-alt"
+    // },
+    // {
+    //   skillName: "kafka",
+    //   fontAwesomeClassname: "fas fa-fire"
+    // },
+    // {
+    //   skillName: "redis",
+    //   fontAwesomeClassname: "fas fa-fire"
+    // },
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
     }
+    // {
+    //   skillName: "swagger",
+    //   fontAwesomeClassname: "fas fa-fire"
+    // },
+    // {
+    //   skillName: "terraform",
+    //   fontAwesomeClassname: "fas fa-fire"
+    // },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,23 +175,25 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
+      schoolName: "University of Calfornia San Diego",
+      logo: require("./assets/images/ucsdLogo.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      duration: "September 2022 - June 2024",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Coursework: Principles of Computer Architecture, Recommender Systems and Web Mining."
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "(V.E.S.I.T) University of Mumbai",
+      logo: require("./assets/images/muLogo.png"),
+      subHeader: "Bachelor of Engineering in Computer Engineering",
+      duration: "August 2015 - May 2019",
+      desc: "Ranked 2nd in the Computer Engineering department.",
+      descBullets: [
+        "CGPA: 9.64/10",
+        "Coursework: Data Structures, Analysis of Algorithms, Object Oriented Programming Methodology, Database Management  Systems, Structured Programming Approach, Soft Computing, Software Engineering, Computer Organization and Architecture, Artificial Intelligence, Soft Computing."
+      ]
     }
   ]
 };
@@ -150,7 +201,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -174,29 +225,40 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Engineer 2",
+      company: "PayPal",
+      companylogo: require("./assets/images/paypalLogo.png"),
+      date: "July 2022 – August 2022",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed tools and platforms intended to aid in fault detection as well as issue communication, tirage, and resolution for PayPal products using React, Java, and Node.js.",
+        "Responsible for minimizing the impact of bad change releases by validating changes prior to and during releases."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Full Stack Software Engineer",
+      company: "Paytm Insider",
+      companylogo: require("./assets/images/paytmInsiderLogo.png"),
+      date: "June 2021 – July 2022",
+      desc: "",
+      descBullets: [
+        "Accountable for an application development including debugging critical production issues and significantly reducing latency by optimizing queries, caching data on the website, and performing end-to-testing.",
+        "Developed a centralized community platform in the Paytm Money app for stock traders and investors to communicate where they publish updates, comment on, and ask questions about financial markets’ performance.",
+        "The application is scalable enough to handle millions ofrequests. It saved traders and investors time to respond to emails and increased operational efficiency by 50%-60% using Java, Node.js, React, etc."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Senior Software Developer",
+      company: "Quantiphi",
+      companylogo: require("./assets/images/quantiphiLogo.png"),
+      date: "July 2019 – June 2021",
+      desc: "",
+      descBullets: [
+        "Spearhead end-to-end web development using React, Angular, Java, and Node.js for numerous client projects and cultivated expertise with GCP.",
+        "Integrated an application with third-party APIs, and ML models, and built automation scripts in Cloud Functions for event-driven operations in a Serverless manner using Python.",
+        "Designed database schemas for relational and non-relational databases.",
+        "Also, collaborated with internal teams, including UI/UX designers and QA testers, and mentored freshers with Node.js."
+      ]
     }
   ]
 };
@@ -206,37 +268,91 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "SOME PERSONAL AND COMPANIES PROJECTS",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: "", //require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Covid Application",
+      projectDescBullets: [
+        "Covid Application to tracker count of COVID cases across globe and find vaccination centres in India using either pin code or by selecting district."
+      ],
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Github Link",
+          url: "https://github.com/sakshisubedi/Covid"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: "",
+      projectName: "Portfolio Tracker",
+      projectDescBullets: [
+        "API service for portfolio tracking that allows adding, removing, and modifying trades as well as performing simple return calculations."
+      ],
       footerLink: [
+        // {
+        //   name: "Visit Website",
+        //   url: "http://nextu.se/"
+        // }
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Github Link",
+          url: "https://github.com/sakshisubedi/portfolio-tracker"
         }
       ]
+    },
+    {
+      image: "",
+      projectName: "Taggit Platform",
+      projectDescBullets: [
+        "Developed a web-based annotation tool on top of the available open-source software to perform de-identification, synthetic insertion, and extracting key/value pairs from the de-identified documents.",
+        "Improved operational efficiency to save up to 5-6 hours of a tagger’s manual effort by automating the pipeline and leveraged GCP services with ~99% accuracy of masking the personally identifiable information."
+      ],
+      footerLink: []
+    },
+    {
+      image: "",
+      projectName: "SBA-PPP Loan Application Portal",
+      projectDescBullets: [
+        "Developed a web application portal with the integration of Cloud Document AI to automate the processing of loan applicants’ documents and reduce the burden of the loan underwriter by only validating it.",
+        "Saved agent’s time and ensured timely delivery of small business assistance and increased throughput from 60%-70% by automation ensuring business continuity, and employee safety during the COVID-19 crisis."
+      ],
+      footerLink: []
+    },
+    {
+      image: "",
+      projectName: "Google Retail Demo",
+      projectDescBullets: [
+        "Built a scalable microservice forthe beauty and retail industry that recommends the product based on the user’s youtube search history, similar purchased, and frequently bought items demonstrating the power of GCP services.",
+        "Reduced memory consumption of the micro-services by 75% through code optimization."
+      ],
+      footerLink: []
+    },
+    {
+      image: "",
+      projectName: "U-Service Tool",
+      projectDescBullets: [
+        "Created a tool that provisions read-only access to the data present in the BigQuery data lake to other projects using shared datasets and authorized views.",
+        "The application holds data of ~200 customers from their older environment and ensures both the platforms are in sync with each other by facilitating various access control and administrative tasks to preserve the integrity of data and for the overall security of the customer applications."
+      ],
+      footerLink: []
+    },
+    {
+      image: "",
+      projectName:
+        "Drought Prediction and River Network Optimization in Maharashtra Region",
+      projectDescBullets: [
+        "Developed a web application that forecasted the onset of drought in the Marathwada region of Maharashtra and provided cost-effective ways to re-route the natural water sources.",
+        "Drought prediction is done using a Deep Belief Network (DBN), and drought mitigation is done with a Multi-Swarm Optimization technique that provides a rerouted path. The DBN model's accuracy is 0.04469 for the root mean square and 0.00207 for the mean absolute error."
+      ],
+      footerLink: []
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -247,53 +363,67 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  subtitle: "Achievements, Certifications, Award Letters !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Google Cloud | Associate Cloud Engineer",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Completed Certification for Associate Cloud Engineer conducted by Google Cloud",
+      image: require("./assets/images/gcpLogo.png"),
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://www.credential.net/84910158-dec8-4a24-a6a8-e8a5fec3bdea"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Big Data Analytics and Machine Learning",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Successfully completed Big Data Analytics and Machine Learning Intensive 30 Day Workshop conducted by MIT FABLAB, notemybook and riidl",
+      image: require("./assets/images/riidlLogo.png"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1x5lBxaAN00hSrIluMhvWgy5apZRdmkdV/view?usp=sharing"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Rising Star - Ace of the Initiative award",
+      subtitle:
+        "Awarded the Rising Star - Ace of the Initiative award at Quantiphi Inc. for solving problem statements within very stringent timelines.",
+      image: require("./assets/images/quantiphiLogo.png"),
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Award Letter",
+          url: "https://drive.google.com/file/d/1g8RaGspI1OeME5qTn0IpkF_0ncpjNY8S/view?usp=sharing/"
         }
+      ]
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
+// Publications Section
+const publicationSection = {
+  title: "Publications",
+  subtitle: "",
+  publications: [
+    {
+      image: "", //require("./assets/images/saayaHealthLogo.webp"),
+      publicationName:
+        "Drought Prediction and River Network Optimization in Maharashtra Region",
+      publicationDesc:
+        "Author: Sakshi S, Krutika P, Girisha N, Saili K, Priya R, “Drought Prediction and River Network Optimization in Maharashtra Region”. SPRINGER, Advances in Computing and Data Sciences Series, 2019.",
+      footerLink: [
+        {
+          name: "View Publication",
+          url: "https://link.springer.com/chapter/10.1007/978-981-13-9942-8_37"
+        }
+        //  you can add extra buttons here.
       ]
     }
   ],
@@ -304,21 +434,13 @@ const achievementSection = {
 
 const blogSection = {
   title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  subtitle: "Curated some technical resolutions for the challenges I faced.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      url: "",
+      title: "",
+      description: ""
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -340,7 +462,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -353,22 +475,22 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Discuss a project or have wonderful job opportunities? My Inbox is open for all.",
+  number: "+91-7045387638",
+  email_address: "sakshisubedi@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
@@ -383,6 +505,7 @@ export {
   openSource,
   bigProjects,
   achievementSection,
+  publicationSection,
   blogSection,
   talkSection,
   podcastSection,
