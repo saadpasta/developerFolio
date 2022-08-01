@@ -489,11 +489,11 @@ const bigProjects = {
       image: require("./assets/images/fractalEngineLogo.png"),
       projectName: "",
       projectDesc:
-        "Hardware-oriented, specialised engine for the Nintendo Switch ™ console with a focus on compile-time-safe loading, use of hardware features and various graphics options. Currently a Minesweeper game is implemented as proof of concept",
+        "Hardware-oriented, specialised Framework for the Nintendo Switch ™ console with a focus on compile-time-safe loading, use of hardware features and various graphics options. Minesweeper was implemented as proof of concept game.",
       footerLink: [
         {
-          name: "Watch WS21 Teaser",
-          url: "https://www.youtube.com/watch?v=Gxc_A7myOg4"
+          name: "Watch Trailer",
+          url: "https://www.youtube.com/watch?v=73KvNSI9d8c"
         }
         //  you can add extra buttons here.
       ]
