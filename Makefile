@@ -3,7 +3,7 @@ deps:
 	npm install
 
 build: deps
-	npm build
+	npm run build
 
 serve-dev: deps
 	npm start
