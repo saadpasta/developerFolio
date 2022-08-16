@@ -2,6 +2,9 @@
 deps:
 	npm install
 
+build: deps
+	npm build
+
 serve-dev: deps
 	npm start
 
