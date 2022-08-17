@@ -1,4 +1,5 @@
-.PHONY: deps serve-dev serve-prod
+.PHONY: deps serve-dev serve-prod resume
+
 deps:
 	npm install
 
@@ -11,3 +12,7 @@ serve-dev: deps
 serve-prod:
 	docker build -t developerfolio:latest . \
 	docker run -t -p 3000:3000 developerfolio:latest
+
+resume:
+	pdflatex resume/resume.tex
+	cp resume/{resume,Sinan_Yumurtaci_Resume}.pdf

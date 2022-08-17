@@ -1,12 +1,20 @@
 # Hi, I'm Sinan
 
-*and this is my portfolio: [sinany.me](sinany.me)*
+*and this is my portfolio: [sinany.me](https://sinany.me)*
 
 I forked this project from [developerFolio](https://github.com/saadpasta/developerFolio) and heavily customized it for my own use.
 
 ## Development Instructions
 
-`make serve-dev` runs a development server
+### Resume
+
+`make resume` compiles my resume to using `pdflatex`
+
+Edit the source at [resume.tex](resume/resume.tex)
+
+### Website
+
+`make serve-dev` runs a development server of my portfolio
 
 `make build` compiles the site to static assets for production.
 
