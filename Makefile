@@ -15,4 +15,3 @@ serve-prod:
 
 resume:
 	pdflatex resume/resume.tex
-	cp resume/{resume,Sinan_Yumurtaci_Resume}.pdf
