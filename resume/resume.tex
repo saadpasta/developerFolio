@@ -65,9 +65,22 @@
     \textbf{#1} #2 $\bullet$ #3\\
     #4 \\
 }
+
+% \expheader
+% 1: Company
+% 2: Location
+% 3: Title
+% 4: Time
+\newcommand{\expheader}[4]{
+    \textbf{#1 \hfill #2}\\
+    #3 \hfill #4\\
+    \vspace{-1mm}
+}
+
 % END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
 
-    \begin{document}
+\begin{document}
+
 \vspace*{-40pt}
 
 
@@ -86,7 +99,6 @@
 \textbf{Colby College}\hfill Waterville, ME\\
 GPA: 4.02, Class Rank: 21, Presidential Scholar \hfill September 2019 - May 2023\\
 Bachelor of Arts; Major in Computer Science with a Minor in Economics \\
-
 \vspace{3mm}
 
 
@@ -99,21 +111,10 @@ Bachelor of Arts; Major in Computer Science with a Minor in Economics \\
 \item \textbf{Familiar:} Go, React, MobX, JavaScript \& Typescript, SQL, PHP\\
 \end{itemize}
 
-
-
 %==== Experience ====%
-% \expheader
-% 1: Company
-% 2: Location
-% 3: Title
-% 4: Time
-\newcommand{\expheader}[4]{
-    \textbf{#1 \hfill #2}\\
-    #3 \hfill #4\\
-    \vspace{-1mm}
-}
 \header{Experience}
 \vspace{1mm}
+
 
 \expheader{Google}{Mountain View, CA}{Software Engineering Intern}{May 2022 - August 2022}
 
@@ -218,7 +219,6 @@ Bachelor of Arts; Major in Computer Science with a Minor in Economics \\
 \begin{itemize} \itemsep -1pt
 \item Implemented real-time online gameplay of the abstract strategy board game Amazons using React and MobX for a composable front-end and Python Flask for back-end\\
 \end{itemize}
-
 
 
 \end{document}
