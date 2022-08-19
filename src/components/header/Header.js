@@ -2,7 +2,6 @@ import React, {useContext} from "react";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
-import Button from "../../components/button/Button";
 import {
   greeting,
   workExperiences,
