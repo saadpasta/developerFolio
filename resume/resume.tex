@@ -7,12 +7,16 @@
     \usepackage[utf8]{inputenc}
     \usepackage[T1]{fontenc}
     \usepackage{enumitem}
+    \usepackage{hyperref}  % This makes \url work
+    \urlstyle{same}
     \textheight=10in
     \pagestyle{empty}
+    %\usepackage{ragged2e}
     \raggedright
-    \usepackage[margin=0.8in]{geometry}
+    %\usepackage[margin=0.7in]{geometry}
+    \usepackage[left=0.7in, right=0.7in, top=0.7in, bottom=0.7in]{geometry}
     \setlist[itemize,1]{leftmargin=\dimexpr 12pt}
-
+    \hypersetup{colorlinks=true,urlcolor=black}
 % DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
 
 \newcommand{\area} [2] {
@@ -41,7 +45,7 @@
     \vspace{2mm}
     \textbf{#1 \hfill #2}\\
     #3 \hfill #4\\
-    \vspace{-3mm}
+    \vspace{-2mm}
 }
 
 
@@ -57,7 +61,10 @@
 \begin{center}
 	{\Large \textbf {Sinan Yumurtacı}}\\
 	 syumur23@colby.edu $\cdot$ (207) 313-6290 $\cdot$
-	 linkedin.com/in/sinanyumurtaci $\cdot$ Open to relocation \\
+  \href{https://linkedin.com/in/sinanyumurtaci}{linkedin.com/in/sinanyumurtaci} $\cdot$ 
+  \href{https://github.com/enjoythecode}{github.com/enjoythecode}
+
+  
 \end{center}
 
 
@@ -68,15 +75,15 @@
 \textbf{Colby College}\hfill Waterville, ME\\
 GPA: 4.02, Class Rank: 21, Presidential Scholar \hfill September 2019 - May 2023\\
 Bachelor of Arts; Major in Computer Science with a Minor in Economics \\
-\vspace{3mm}
+\vspace{2mm}
 
 
 
 %==== Skills ====%
 \header{Technical Skills}
-\vspace{1mm}
-\textbf{Proficient:} Python, Java, JavaScript, React, Jest, Flask, MATLAB, neovim\\
-\textbf{Familiar:} Go, MobX, Typescript, Google Cloud Platform, JUnit, pytest, Docker, SQL, PHP\\
+
+Proficient -- Python, Java, JavaScript, React, Jest, Flask, MATLAB, vim\\
+Familiar\hspace{2.42mm} -- Go, MobX, Typescript, Google Cloud Platform, JUnit, pytest, Docker, SQL, PHP\\
 \vspace{2mm}
 
 %==== Experience ====%
@@ -85,36 +92,44 @@ Bachelor of Arts; Major in Computer Science with a Minor in Economics \\
 
 
 \expheader{Google}{Mountain View, CA}{Software Engineering Intern}{May 2022 - August 2022}
-% HIGHLIGHTS:
-% Took initiative with analyzing the runtime perfomance of the import tool and fixed bottlenecks, improving speed by 30%
-% Designed and implemented automated daily tests of repositories catching 8 issues  across 5 projects within 3 weeks of deployment
-% Enhanced the import tool with additional checks to catch data issues earlier and added support for categorical variables
-% Improved the speed of ranking data sources from exponential to linear time complexity in the number of fields checked.
-% INTRODUCTION TO THE TOOL I WORKED ON:
-% Delivered vital improvements to a business-critical data validation tool responsible for all additions to the Data Commons knowledge graph of over 2 trillion triples.
+\vspace{3mm}
+    Worked on a developer tool that validates billions of time-series statistics in the Data Commons knowledge graph.
+    % previously: Delivered vital improvements to a business-critical data validation tool responsible for all additions to the Data Commons knowledge graph of over 2 trillion triples.
 \begin{itemize} \itemsep 0pt
-	\item Took initiative to analyze runtime performance and fixed
-		bottlenecks, improving data verification speed by 30\%
-	\item Designed and implemented automated daily tests of projects, catching 8 issues  across 5 projects within 3 weeks
-	\item Implemented a local cache option for validating external references,
-		reducing lead time for new datasets by 2-3 days
-    \item Improved the speed of ranking data sources from exponential $O(n^2)$ to linear $O(n)$ time complexity
-	\item Extended existing functionality to support categorical variables and augmented data quality checks
 
+	\item Improved data validation and processing speed 30\% by analyzing flame graphs of runtime performance and engineering optimizations in Java 
+    % previously: Took initiative to analyze runtime performance and fixed bottlenecks, improving data verification speed by 30\%
+    
+    \item Eliminated an inefficiency causing delays of 2-3 days for 5\% of all additions to the knowledge graph by implementing an alternative method of data verification that allows engineers to unblock themselves
+	% revision 1: \item Streamlined delay for importing a portion datasets from 48-72 hours to <1 hour by coding an alternative to slow cross-project coordination for a subset of the knowledge graph with 150 million time series % 150 million == 5% (prashanth estimate) of 3 billion time series in the KG
+    % previously: Implemented a local cache option for validating external references, reducing lead time for new datasets by 2-3 days
+    
+    \item Designed and deployed an automated continuous testing process, catching 8 silent bugs within 3 weeks and introducing an additional layer of safety against future regressions
+    % revision 1: \item Caught 8 silent bugs within 3 weeks and introduced an additional layer of safety against future regressions by designing and deploying an automated continuous testing process  
+    % previously: Designed and implemented an automated daily tests of projects, catching 8 issues  across 5 projects within 3 weeks
+
+    \item Brainstormed and implemented an algorithmic improvement from exponential to linear time complexity, reducing computational cost of scaling business logic for ranking data sources 50-75\%
+    % revision 1: \item Reduced computational cost of scaling business logic for ranking data sources 50-75\% by brainstorming and implementing an algorithmic improvement from exponential to linear time complexity
+    % draft: Resolved issues with scaling business logic of ranking data sources by brainstorming and implementing an algorithmic improvement that drastically reduced cost from exponential $O(n^2)$ to linear $O(n)$
+    % previously: Improved the speed of ranking data sources from exponential $O(n^2)$ to linear $O(n)$ time complexity % what did this do? -- have speed already
+    
+	\item Kick-started an initiative to support categorical variables in the knowledge graph by redesigning data types and business logic to allow future flexibility
+    % previously: Extended existing functionality to support categorical variables and augmented data quality checks % what did that do?
+    
 \end{itemize}
 
 \expheader{98point6}{Seattle, WA}{Software Development Engineer Intern}{June
 2021 - August 2021}
 \begin{itemize} \itemsep 0pt
-    \item Saved 120 physicians-hours (equivalent to 10,000\$) yearly by designing and implementing a recommender ML system, using Python, Scikit-learn to apply transfer learning
+    \item Saved 120 physicians-hours (equivalent to \$10,000) yearly by designing and implementing a recommender ML system, using Python, Scikit-learn to apply transfer learning
 	\item Analyzed the viability of 2 product initiatives and 3 design proposals with data-backed reports
 \end{itemize}
 
 \expheader{Computer Science Department, Colby College}{Waterville, ME}{Research Assistant}{August 2019 - January 2022}
 \begin{itemize} \itemsep 0pt
-	\item Developed an extensive computer simulation of how humans perceive direction during movement from scratch in MATLAB, and lead design decisions extensibility of the code base
-	\item Expanded the automation for running experiments, saving 50+ hours in unproductive \& routine tasks
-	\item Co-authored a paper published in the eNeuro journal (IF: 3.3)
+	\item Expanded the automation for running computational experiments, saving 50+ hours in unproductive \& routine tasks
+     \item Developed an extensive MATLAB simulation of how humans perceive direction during movement
+	\item Co-authored the paper "Modeling Physiological Sources of Heading Bias from Optic Flow" published in the peer-reviewed scientific journal eNeuro
 \end{itemize}
 
 % SCRAPPED FOR SPACE
@@ -181,11 +196,11 @@ Bachelor of Arts; Major in Computer Science with a Minor in Economics \\
 %\item Researching and coding a bitmap-based speed optimization to rapidly simulate many games for MCTS
 %\end{itemize}
 
-\expheader{Real-time Multiplayer Strategy Board Game Website
-Strate.gg}{strate.gg}{Python, React, MobX}{}
+\expheader{Real-time Multiplayer Strategy Board Game Website}{strate.gg}{Python, Javascript, React, MobX, Jest, pytest, Docker}{}
 \begin{itemize} \itemsep 0pt
 \item Implemented real-time online gameplay of the abstract strategy board game Amazons using React and MobX for a composable front-end and Python Flask for back-end\\
 \end{itemize}
 
 
 \end{document}
+

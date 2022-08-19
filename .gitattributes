@@ -6,3 +6,4 @@
 *.webp binary
 *.woff binary
 
+*.pdf binary eol=crlf
