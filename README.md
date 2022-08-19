@@ -14,7 +14,7 @@ Edit the source at [resume.tex](resume/resume.tex)
 
 ### Website
 
-`make serve-dev` runs a development server of my portfolio
+`make dev` runs a development server of my portfolio
 
 `make build` compiles the site to static assets for production.
 

@@ -6,10 +6,10 @@ deps:
 build: deps
 	npm run build
 
-serve-dev: deps
+dev: deps
 	npm start
 
-serve-prod:
+prod:
 	docker build -t developerfolio:latest . \
 	docker run -t -p 3000:3000 developerfolio:latest
 
