@@ -13,10 +13,6 @@ const splashScreen = {
 
 // Summary And Greeting Section
 
-const illustration = {
-  animated: true // Set to false to use static SVG
-};
-
 const greeting = {
   username: "Sinan Yumurtaci",
   title: "Hey, I'm Sinan",
@@ -285,7 +281,6 @@ const contactInfo = {
 };
 
 export {
-  illustration,
   greeting,
   socialMediaLinks,
   splashScreen,
