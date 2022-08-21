@@ -1,5 +1,3 @@
-/* Change this file to get your personal Portfolio */
-
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
@@ -23,7 +21,7 @@ const greeting = {
   username: "Sinan Yumurtaci",
   title: "Hey, I'm Sinan",
   subTitle: emoji(
-    "A curious and passionate software engineer."
+    "A curious and passionate software professional."
   ),
   resumeLink:
     "/Sinan_Yumurtaci_Resume.pdf",
