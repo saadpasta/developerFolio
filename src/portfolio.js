@@ -133,35 +133,34 @@ const educationInfo = {
 };
 
 // Work experience section
-
 const workExperiences = {
-  display: false, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
+      role: "Software Engineering Intern",
+      company: "Google",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      date: "May 2022 – August 2022",
+      desc: "Worked on a developer tool that validates billions of time-series statistics in the Data Commons knowledge graph",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Improved data validation and processing speed 30% by analyzing flame graphs of runtime performance and engineering optimizations in Java",
+        "Eliminated an inefficiency causing delays of 2-3 days for 5% of all additions to the knowledge graph by implementing an alternative method of data verification that allows engineers to unblock themselves",
+		"Designed and deployed an automated continuous testing process, catching 8 silent bugs within 3 weeks and introducing an additional layer of safety against future regressions",
+		"Brainstormed and implemented an algorithmic improvement from exponential to linear time complexity, reducing computational cost of scaling business logic for ranking data sources 50-75%",
+		"Kick-started an initiative to support categorical variables in the knowledge graph by redesigning data types and business logic to allow future flexibility",
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
+      role: "Software Development Engineer Intern",
+      company: "98point6",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "June 2021 - August 2021",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		descBullets: [
+			"Saved 120 physicians-hours (equivalent to $10,000) yearly by designing and implementing a recommender ML system, using Python, Scikit-learn to apply transfer learning",
+			"Analyzed the viability of 2 product initiatives and 3 design proposals with data-backed reports"
+		]
     },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
   ]
 };
 
