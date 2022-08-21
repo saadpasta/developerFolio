@@ -54,7 +54,6 @@ export default function Contact() {
           </div>
           <div className="contact-image-div">
               <DisplayLottie animationData={email} />
-            }
           </div>
         </div>
       </div>
