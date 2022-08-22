@@ -8,7 +8,6 @@ import Projects from "./projects/Projects";
 import StartupProject from "./StartupProjects/StartupProject";
 import Footer from "../components/footer/Footer";
 import Education from "./education/Education";
-import ScrollToTopButton from "./topbutton/Top";
 import Profile from "./profile/Profile";
 import SplashScreen from "./splashScreen/SplashScreen";
 import {splashScreen} from "../portfolio";
@@ -45,7 +44,7 @@ const Main = () => {
           <SplashScreen />
         ) : (
           <>
-            <Header />
+            {/*<Header />*/}
             <Greeting />
             <Skills />
             {/*<StackProgress />*/}
@@ -55,7 +54,6 @@ const Main = () => {
             <StartupProject />
             <Profile />
             <Footer />
-            <ScrollToTopButton />
           </>
         )}
       </StyleProvider>
