@@ -3,7 +3,7 @@ import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 import {
-  greeting,
+  aboutMe,
   workExperiences,
   skillsSection,
 } from "../../portfolio";
@@ -17,7 +17,7 @@ function Header() {
   <header className={isDark ? "dark-menu header" : "header"}>
 	<a href="/" className="logo">
 	  <span className="grey-color"> &lt;</span>
-	  <span className="logo-name">{greeting.username}</span>
+	  <span className="logo-name">{aboutMe.username}</span>
 	  <span className="grey-color">/&gt;</span>
 	</a>
 	<input className="menu-btn" type="checkbox" id="menu-btn" />
@@ -43,8 +43,8 @@ function Header() {
 		<a href="#contact">Contact Me</a>
 	  </li>
 	  <li>
-		{greeting.resumeLink && (
-			<a href={greeting.resumeLink}>Resume</a>
+		{aboutMe.resumeLink && (
+			<a href={aboutMe.resumeLink}>Resume</a>
 		)}
 	  </li>
 	  <li>

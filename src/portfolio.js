@@ -8,21 +8,13 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 1000 // Set animation duration as per your animation
 };
 
-// Summary And Greeting Section
-
-const greeting = {
-  username: "Sinan Yumurtaci",
-  title: "Hey, I'm Sinan",
-  subTitle: emoji(
-    "A curious and passionate software professional."
-  ),
-  resumeLink:
-    "/Sinan_Yumurtaci_Resume.pdf",
-  displayGreeting: true // Set false to hide this section, defaults to true
-};
+const aboutMe = {
+	username: "Sinan",
+	resumeLink: "/Sinan_Yumurtaci_Resume.pdf"
+}
 
 // Social Media Links
 
@@ -130,7 +122,7 @@ const educationInfo = {
 
 // Work experience section
 const workExperiences = {
-  display: true,
+  display: false,
   experience: [
     {
       role: "Software Engineering Intern",
@@ -281,7 +273,7 @@ const contactInfo = {
 };
 
 export {
-  greeting,
+  aboutMe,
   socialMediaLinks,
   splashScreen,
   skillsSection,

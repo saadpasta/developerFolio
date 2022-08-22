@@ -10,11 +10,19 @@
   width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
-  margin-top: 2rem;
+  padding-top: 4rem;
 }
 
 .greeting-main {
   display: flex;
+}
+
+.greeting-text-div {
+	padding-right: 4%;
+}
+
+.greeting-image-div {
+	padding-left: 4%;
 }
 
 .subTitle {
@@ -43,6 +51,12 @@
 .greeting-text-p {
   font-size: 30px;
   line-height: 40px;
+}
+
+.greeting-image-div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .greeting-image-div > img {

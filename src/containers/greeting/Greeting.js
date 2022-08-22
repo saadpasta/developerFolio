@@ -5,11 +5,25 @@ import "./Greeting.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 
-import {greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
+
+const BreakTwice = () => {
+	return (
+		<span>
+			<br/><br/>
+		</span>
+	);
+}
 
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
+	const greeting = {
+	  username: "Sinan Yumurtaci",
+	  title: "Hey, I'm Sinan", // and ...
+	  subTitle: "I'm a curious and passionate software professional.",
+	  displayGreeting: true // Set false to hide this section, defaults to true
+	};
+
   if (!greeting.displayGreeting) {
     return null;
   }
@@ -33,7 +47,10 @@ export default function Greeting() {
                     : "greeting-text-p subTitle"
                 }
               >
-                {greeting.subTitle}
+                {greeting.subTitle} <BreakTwice/>
+			   {/*"Check out some of the cool stuff I built, and the awesome teams I got to work with."*/}
+	  			{/*"Skim my resume for a quick summary, or find more details below at your pace."*/} 
+				{"Fancy a chat? Find me on on LinkedIn, or just shoot me a message!"}
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
