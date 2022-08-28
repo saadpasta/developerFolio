@@ -13,10 +13,12 @@ export default function GithubRepoCard({repo, isDark}) {
   }
 
   return (
+    <div
+      className={isDark ? "dark-card-mode repo-card-div" : "repo-card-div"}
+    >
     <Fade bottom duration={1000} distance="20px">
       <div>
         <div
-          className={isDark ? "dark-card-mode repo-card-div" : "repo-card-div"}
           key={repo.node.id}
           onClick={() => openUrlInNewTab(repo.node.url, repo.node.name)}
         >
@@ -90,5 +92,6 @@ export default function GithubRepoCard({repo, isDark}) {
         </div>
       </div>
     </Fade>
+    </div>
   );
 }

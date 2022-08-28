@@ -9,7 +9,21 @@
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  flex: 1 1 25%;
 }
+
+@media (max-width: 1200px) {
+  .repo-card-div {
+    flex: 1 1 40%;
+  }
+}
+
+@media (max-width: 768px) {
+  .repo-card-div {
+    flex: 1 1 100%;
+  }
+}
+
 .repo-card-div:hover {
   box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
 }
@@ -54,8 +68,6 @@
 }
 
 .repo-name {
-  white-space: nowrap;
-  text-overflow: ellipsis;
   color: $githubRepoCardRepoNameColor;
   margin-bottom: 0.75rem;
   font-size: 25px;
