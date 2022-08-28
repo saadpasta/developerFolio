@@ -500,6 +500,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "Ishan-001",
+      "name": "Ishan Khandelwal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59707330?v=4",
+      "profile": "https://allishaan.co",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
