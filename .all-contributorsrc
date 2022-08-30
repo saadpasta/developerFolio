@@ -509,6 +509,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "slyapustin",
+      "name": "Sergey Lyapustin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/370774?v=4",
+      "profile": "https://slyapustin.com",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
