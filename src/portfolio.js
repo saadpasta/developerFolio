@@ -374,6 +374,8 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
+const isHireable = true // Set false if you are not looking for a job
+
 export {
   illustration,
   greeting,
@@ -390,5 +392,6 @@ export {
   talkSection,
   podcastSection,
   contactInfo,
-  twitterDetails
+  twitterDetails,
+  isHireable
 };
