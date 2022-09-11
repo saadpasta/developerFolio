@@ -527,6 +527,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "saiteja13427",
+      "name": "Sai Teja",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40917760?v=4",
+      "profile": "https://saiteja13427.github.io",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
