@@ -455,6 +455,15 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Engineering Intern",
+      company: "Advanced Micro Devices, Inc.",
+      companylogo: require("./assets/images/AMD_E_Wh_RGB.jpg"),
+      date: "October 2022 – Present",
+      desc: "",
+      descBullets: [
+      ]
+    },
+    {
       role: "Software Engineer",
       company: "Building Information Innovator GmbH",
       companylogo: require("./assets/images/bii2.png"),
@@ -469,7 +478,7 @@ const workExperiences = {
       role: "Tutor for Game Lab I",
       company: "Julius-Maximilians University",
       companylogo: require("./assets/images/uniwue.png"),
-      date: "October 2020 – Present",
+      date: "October 2020 – September 2022",
       desc: "Supported students at overcoming problems they faced during game development process.",
       descBullets: [
         "Explained basic and intermediate topics the students brought up",
