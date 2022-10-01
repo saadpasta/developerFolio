@@ -1,4 +1,4 @@
-export const formatFileSizeDisplay = (value) => {
+export const formatFileSizeDisplay = value => {
   if (value < 1024) {
     return `${value} KB`;
   }
