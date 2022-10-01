@@ -57,6 +57,13 @@ input:checked + .slider::before {
 
 .slider.round::before {
   border-radius: 50%;
+  content: '☀️';
+  display: grid;
+  place-items: center;
+}
+
+input:checked + .slider::before {
+  content: '🌜'
 }
 
 .slider::after {
