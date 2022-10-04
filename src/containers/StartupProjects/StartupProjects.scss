@@ -53,7 +53,9 @@
   position: relative;
   height: 250px;
   overflow: hidden;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .projects-container {
