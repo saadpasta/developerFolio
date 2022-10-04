@@ -1,5 +1,5 @@
 import React, {useState, useContext} from "react";
-import emoji from 'react-easy-emoji'
+import emoji from "react-easy-emoji";
 import StyleContext from "../../contexts/StyleContext";
 import "./ToggleSwitch.scss";
 
@@ -9,15 +9,15 @@ const ToggleSwitch = () => {
   const styleContext = useContext(StyleContext);
 
   const emojis = {
-    light: emoji('☀️'), 
-    dark: emoji('🌜')
-  }
+    light: emoji("☀️"),
+    dark: emoji("🌜")
+  };
   const themeStyle = {
     "--light-mode": emojis.light,
     "--dark-mode": emojis.dark
-  }
+  };
 
-  console.log(isChecked)
+  console.log(isChecked);
   return (
     <label className="switch">
       <input
@@ -29,7 +29,9 @@ const ToggleSwitch = () => {
         }}
       />
       <span className="slider round">
-        <span className="emoji">{isChecked ? themeStyle["--dark-mode"] : themeStyle["--light-mode"]}</span>
+        <span className="emoji">
+          {isChecked ? themeStyle["--dark-mode"] : themeStyle["--light-mode"]}
+        </span>
       </span>
     </label>
   );
