@@ -21,17 +21,15 @@ export default function Profile() {
             if (result.ok) {
               return result.json();
             }
-            console.error(result);
           })
           .then(response => {
             setProfileFunction(response.data.user);
           })
           .catch(function (error) {
-            setProfileFunction("Error");
-            console.log(
-              "Because of this error, contact section has reverted to default"
+            console.error(
+              `${error} (because of this error GitHub contact section could not be displayed. Contact section has reverted to default)`
             );
-            console.error(error);
+            setProfileFunction("Error");
             openSource.showGithubProfile = "false";
           });
       };

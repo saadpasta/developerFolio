@@ -30,7 +30,7 @@ body {
 @media (max-width: 1380px) {
   html,
   body {
-    font-size: 16px;
+    font-size: rem;
     line-height: normal;
   }
 }

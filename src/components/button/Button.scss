@@ -14,7 +14,7 @@
   text-decoration: none;
   display: block;
   margin-top: 20px;
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -35,13 +35,13 @@
 /* Media Query */
 @media (max-width: 768px) {
   .main-button {
-    font-size: 15px;
+    font-size: 0.938rem;
     padding: 12px 18px;
     margin-right: 0px;
   }
 }
 @media (max-width: 320px) {
   .main-button {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 }

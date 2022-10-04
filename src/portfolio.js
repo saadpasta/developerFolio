@@ -3,6 +3,15 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
+import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+
+// Splash Screen
+
+const splashScreen = {
+  enabled: true, // set false to disable splash screen
+  animation: splashAnimation,
+  duration: 2000 // Set animation duration as per your animation
+};
 
 // Summary And Greeting Section
 
@@ -247,6 +256,7 @@ const achievementSection = {
       subtitle:
         "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
       image: require("./assets/images/codeInLogo.webp"),
+      imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "Certification",
@@ -267,6 +277,7 @@ const achievementSection = {
       subtitle:
         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
       image: require("./assets/images/googleAssistantLogo.webp"),
+      imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
           name: "View Google Assistant Action",
@@ -279,6 +290,7 @@ const achievementSection = {
       title: "PWA Web App Developer",
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
+      imageAlt: "PWA Logo",
       footerLink: [
         {name: "Certification", url: ""},
         {
@@ -297,7 +309,7 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-
+  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
@@ -351,7 +363,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
+  number: "+92-0000000000",
   email_address: "saadpasta70@gmail.com"
 };
 
@@ -362,10 +374,13 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
+const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+
 export {
   illustration,
   greeting,
   socialMediaLinks,
+  splashScreen,
   skillsSection,
   educationInfo,
   techStack,
@@ -377,5 +392,6 @@ export {
   talkSection,
   podcastSection,
   contactInfo,
-  twitterDetails
+  twitterDetails,
+  isHireable
 };
