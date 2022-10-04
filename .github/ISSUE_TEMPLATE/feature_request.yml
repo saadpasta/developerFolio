@@ -1,5 +1,5 @@
 name: 💡 Feature request
-description: Have a new idea/feature ? Please suggest!
+description: Got a suggestion for a new idea/feature ?
 labels: ["enhancement"]
 body:
   - type: textarea
