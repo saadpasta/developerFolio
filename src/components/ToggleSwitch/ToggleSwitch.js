@@ -17,7 +17,6 @@ const ToggleSwitch = () => {
     "--dark-mode": emojis.dark
   };
 
-  console.log(isChecked);
   return (
     <label className="switch">
       <input
