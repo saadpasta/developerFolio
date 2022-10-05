@@ -52,7 +52,9 @@ export default function Greeting() {
           </div>
           <div className="greeting-image-div">
             {illustration.animated ? (
-              <DisplayLottie animationData={landingPerson} />
+              <div className="fade-in">
+                <DisplayLottie animationData={landingPerson} />
+              </div>
             ) : (
               <img
                 alt="man sitting on table"
