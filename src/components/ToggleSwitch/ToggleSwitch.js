@@ -8,15 +8,6 @@ const ToggleSwitch = () => {
   const [isChecked, setChecked] = useState(isDark);
   const styleContext = useContext(StyleContext);
 
-  const emojis = {
-    light: emoji("☀️"),
-    dark: emoji("🌜")
-  };
-  const themeStyle = {
-    "--light-mode": emojis.light,
-    "--dark-mode": emojis.dark
-  };
-
   return (
     <label className="switch">
       <input
@@ -29,7 +20,7 @@ const ToggleSwitch = () => {
       />
       <span className="slider round">
         <span className="emoji">
-          {isChecked ? themeStyle["--dark-mode"] : themeStyle["--light-mode"]}
+          {isChecked ? emoji("🌜") : emoji("☀️")}
         </span>
       </span>
     </label>
