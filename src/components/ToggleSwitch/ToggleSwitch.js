@@ -19,9 +19,7 @@ const ToggleSwitch = () => {
         }}
       />
       <span className="slider round">
-        <span className="emoji">
-          {isChecked ? emoji("🌜") : emoji("☀️")}
-        </span>
+        <span className="emoji">{isChecked ? emoji("🌜") : emoji("☀️")}</span>
       </span>
     </label>
   );
