@@ -14,7 +14,7 @@ const greeting = {
   username: "Carmelo Fiorello",
   title: "Hi all, I'm Carmelo",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Angular / Nodejs / Ionic and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / React / Angular / Nodejs / Ionic and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1zNbQU5OPEJUbw7lE5OU1IKkToLWLgLcy/view?usp=sharing",
@@ -391,6 +391,17 @@ const bigProjects = {
         }
         //  you can add extra buttons here.
       ]
+    },
+    {
+      image: require("./assets/images/music-player-logo.svg"),
+      projectName: "Music Player",
+      projectDesc: "Companion application for the \"Prima la Musica!\" school book",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://lattesplayer.web.app/"
+        },
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -403,7 +414,7 @@ const bigProjectsIta = {
     {
       image: require("./assets/images/moma.webp"),
       projectName: "M.O.M.A. Visual",
-      projectDesc: "Applicazione VR a supporto del libro M.O.M.A. Visual",
+      projectDesc: "Applicazione VR a supporto del libro \"M.O.M.A. Visual\"",
       footerLink: [
         {
           name: "Visita il sito",
@@ -418,6 +429,17 @@ const bigProjectsIta = {
           url: "https://play.google.com/store/apps/details?id=it.latteseditori.momavisual"
         }
         //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/music-player-logo.svg"),
+      projectName: "Music Player",
+      projectDesc: "Applicazione a supporto del libro \"Prima la Musica!\"",
+      footerLink: [
+        {
+          name: "Visita il sito",
+          url: "https://lattesplayer.web.app/"
+        },
       ]
     }
   ],
