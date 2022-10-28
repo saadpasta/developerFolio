@@ -280,6 +280,7 @@ const achievementSection = {
       title: "FullStack Web Developer",
       subtitle: "Completed FullStack Web Developer Course on Udemy",
       image: require("./assets/images/Udemy-Logo.webp"),
+      imageAlt: "Udemy",
       footerLink: [
         {
           name: "Certification",
