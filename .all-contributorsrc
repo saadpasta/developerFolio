@@ -435,7 +435,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/55500003?v=4",
       "profile": "https://redheadphone.github.io/",
       "contributions": [
-        "code"
+        "code",
+        "bug"
       ]
     },
     {
@@ -500,6 +501,78 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "Ishan-001",
+      "name": "Ishan Khandelwal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59707330?v=4",
+      "profile": "https://allishaan.co",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "slyapustin",
+      "name": "Sergey Lyapustin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/370774?v=4",
+      "profile": "https://slyapustin.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "camipozas",
+      "name": "Camila Pozas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89259499?v=4",
+      "profile": "https://www.cam1pozas.xyz/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "saiteja13427",
+      "name": "Sai Teja",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40917760?v=4",
+      "profile": "https://saiteja13427.github.io",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "Vinitvh",
+      "name": "Vinit Hemadri ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42197888?v=4",
+      "profile": "https://github.com/Vinitvh",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Njong392",
+      "name": "Njong Emy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81039882?v=4",
+      "profile": "https://github.com/Njong392",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "IAmTamal",
+      "name": "Tamal Das ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72851613?v=4",
+      "profile": "https://tamal.vercel.app/",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "Dun-sin",
+      "name": "Dunsin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/78784850?v=4",
+      "profile": "http://dunsin.vercel.app",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
@@ -507,5 +580,6 @@
   "projectOwner": "saadpasta",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "skipCi": true
+  "skipCi": true,
+  "commitConvention": "angular"
 }

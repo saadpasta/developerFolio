@@ -26,23 +26,22 @@ const greeting = {
     "Experienced 1st and 2nd Line Support and FullsStack Web Developer proficient in Linux, macOS, Windows, Windows Server, NodeJs, MongoDB, SQL, Express.js, HTML5, CSS3, Flutter, Javascript with further interest in Progressive Web Apps."
   ),
   resumeLink:
-    "https://docs.google.com/document/d/1NS5JvWW7RRRBphcZIAvglNJaph4ehq9DHkTNomLt2g0/edit?usp=sharing",
+    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/dittogod",
-  linkedin: "https://www.linkedin.com/in/simbarashe-ndoro/",
-  gmail: "dittogod1@gmail.com",
-  gitlab: "https://gitlab.com/DittoGod",
-  // facebook: "https://www.facebook.com/D1ttoGod/",
-  medium: "https://medium.com/@Dittogod",
-  stackoverflow: "https://stackoverflow.com/users/12103604/dittogod",
+  github: "https://github.com/saadpasta",
+  linkedin: "https://www.linkedin.com/in/saadpasta/",
+  gmail: "saadpasta70@gmail.com",
+  gitlab: "https://gitlab.com/saadpasta",
+  facebook: "https://www.facebook.com/saad.pasta7",
+  medium: "https://medium.com/@saadpasta",
+  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
-
   display: true // Set true to display this section, defaults to false
 };
 
@@ -111,30 +110,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fa-solid fa-fire"
     },
     {
-      skillName: "Python",
-      fontAwesomeClassname: "fa-brands fa-python"
+      skillName: "firebase",
+      fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "Docker",
-      fontAwesomeClassname: "fa-brands fa-docker"
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "Express.js",
-      fontAwesomeClassname: "fa-brands fa-js-square"
-    },
-    {
-      skillName: "BootStrap",
-      fontAwesomeClassname: "fa-brands fa-bootstrap"
-    },
-    {
-      skillName: "Flutter",
-      svgImage: "https://simpleicons.org/icons/flutter.svg",
-      svgColour: "#02569B",
-      svg: '<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Flutter</title><path d="M14.314 0L2.3 12 6 15.7 21.684.013h-7.357zm.014 11.072L7.857 17.53l6.47 6.47H21.7l-6.46-6.468 6.46-6.46h-7.37z"/></svg>'
-    },
-    {
-      skillName: "Dart",
-      fontAwesomeClassname: "fa-solid fa-bullseye"
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -274,113 +259,44 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "FullStack Web Developer",
-      subtitle: "Completed FullStack Web Developer Course on Udemy",
-      image: require("./assets/images/Udemy-Logo.webp"),
+      title: "Google Code-In Finalist",
+      subtitle:
+        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+      image: require("./assets/images/codeInLogo.webp"),
+      imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://udemy-certificate.s3.amazonaws.com/image/UC-2Y2YGPYB.jpg?l=null"
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
         },
         {
           name: "Award Letter",
-          url: "https://www.udemy.com/certificate/UC-2Y2YGPYB/"
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
         },
         {
-          name: "Udemy Course",
-          url: "https://www.udemy.com/course/the-web-developer-bootcamp/"
-        }
-      ]
-    },
-    {
-      title: "Flutter Developer",
-      subtitle: "Completed Flutter Developer Course on Udemy",
-      image: require("./assets/images/Udemy-Logo.webp"),
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://udemy-certificate.s3.amazonaws.com/image/UC-b140cee4-0dda-4a76-b226-35764b953964.jpg?v=1586560149000"
-        },
-        {
-          name: "Award Letter",
-          url: "https://www.udemy.com/certificate/UC-b140cee4-0dda-4a76-b226-35764b953964/"
-        },
-        {
-          name: "Udemy Course",
-          url: "https://www.udemy.com/course/flutter-bootcamp-with-dart/"
-        }
-      ]
-    },
-    {
-      title: "MTA: Cloud Fundamentals",
-      subtitle:
-        "Earners of the MTA: Cloud Fundamentals certification have demonstrated fundamental knowledge of and basic skills using Microsoft cloud services.",
-      image: require("./assets/images/MTA-Cloud-Fundamentals-2018.png"),
-      footerLink: [
-        {
-          name: "Badge",
-          url: "https://www.youracclaim.com/badges/665f34ac-fb91-490c-9096-5bbda9aff088/public_url"
-        }
-      ]
-    },
-    {
-      title: "MTA: Mobility and Device Fundamentals",
-      subtitle:
-        "Earners of the MTA: Mobility and Device Fundamentals certification have demonstrated fundamental Windows devices and mobility knowledge and skills.",
-      image: require("./assets/images/MTA-Mobility-and-Device-Fundamentals-2018.png"),
-      footerLink: [
-        {
-          name: "Badge",
-          url: "https://www.youracclaim.com/badges/ad3ae1da-396a-427d-a58b-c39e1652ce92/public_url"
-        },
-        {
-          name: "Certificate",
-          url: "https://drive.google.com/file/d/1joc5B9c-7evfXEv7s5TKfMm8bG8hlf1k/view?usp=sharing"
+          name: "Google Code-in Blog",
+          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
         }
       ]
     },
     {
       title: "MTA: Networking Fundamentals",
       subtitle:
-        "Earners of the MTA: Networking Fundamentals certification have demonstrated knowledge of fundamental networking concepts.",
-      image: require("./assets/images/MTA_Networking_Fundamentals_2017-01.png"),
+        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+      image: require("./assets/images/googleAssistantLogo.webp"),
+      imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "Badge",
-          url: "https://www.youracclaim.com/badges/b6830478-52da-4460-82b9-5a0b7ac76a1f/public_url"
-        },
-        {
-          name: "Certificate",
-          url: "https://drive.google.com/file/d/12jsUGrNIMiKg6VjEIEC0g1WD6OKlsMtF/view?usp=sharing"
+          name: "View Google Assistant Action",
+          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
         }
       ]
     },
     {
-      title: "BCS Level 3 Award in Business Processes",
-      subtitle: "Completed Level 3 Award in Business Processes",
-      image: require("./assets/images/bcs.png"),
-      footerLink: [
-        {
-          name: "Certificate",
-          url: "https://drive.google.com/file/d/1o0V-wAJ4B9Hms0QgY2gWo_uCv-s_HYT6/view?usp=sharing"
-        }
-      ]
-    },
-    {
-      title: "BCS Level 3 Award in Coding and Logic",
-      subtitle: "Completed Level 3 Award in Coding and Logic",
-      image: require("./assets/images/bcs.png"),
-      footerLink: [
-        {
-          name: "Certificate",
-          url: "https://drive.google.com/file/d/1L6s0v_Nx92VIAkz9xba-cIa2k8w15rwz/view?usp=sharing"
-        }
-      ]
-    },
-    {
-      title: "Computer Science",
-      subtitle: "Completed Higher Education in Computer Science",
-      image: require("./assets/images/RHUL Logo.jpg"),
+      title: "PWA Web App Developer",
+      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      image: require("./assets/images/pwaLogo.webp"),
+      imageAlt: "PWA Logo",
       footerLink: [
         {
           name: "Certificate",
@@ -452,8 +368,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  // number: "+613243454077",
-  email_address: "dittogod1@gmail.com"
+  number: "+92-0000000000",
+  email_address: "saadpasta70@gmail.com"
 };
 
 // Twitter Section
@@ -462,6 +378,8 @@ const twitterDetails = {
   userName: "8BitLion", //Replace "twitter" with your twitter username without @
   display: false // Set true to display this section, defaults to false
 };
+
+const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
@@ -479,5 +397,6 @@ export {
   talkSection,
   podcastSection,
   contactInfo,
-  twitterDetails
+  twitterDetails,
+  isHireable
 };
