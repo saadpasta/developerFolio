@@ -23,10 +23,6 @@
   color: $subTitle;
 }
 
-.software-skill-inline > img {
-  color: $subTitle;
-}
-
 .software-skill-inline > i:hover {
   color: $skillsColor;
 }
@@ -40,9 +36,5 @@
   font-size: 10px;
 }
 .software-skill-inline > i:hover ~ p {
-  color: $skillsColor;
-}
-
-.software-skill-inline > img:hover ~ p {
   color: $skillsColor;
 }
