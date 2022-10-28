@@ -1,7 +1,7 @@
 {
   "homepage": "https://developerfolio.js.org/",
   "name": "developerfolio",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "colorthief": "^2.3.0",
