@@ -18,6 +18,16 @@ export default function Footer() {
             developerFolio
           </a>
         </p>
+        <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
+          {/* eslint-disable-next-line react/jsx-no-target-blank*/}
+          <a target="_blank" href="https://icons8.com/icon/7AFcZ2zirX6Y/dart">
+            Dart
+          </a>{" "}
+          icon by {/* eslint-disable-next-line react/jsx-no-target-blank*/}
+          <a target="_blank" href="https://icons8.com">
+            Icons8
+          </a>
+        </p>
       </div>
     </Fade>
   );

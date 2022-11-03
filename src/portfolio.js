@@ -23,7 +23,7 @@ const greeting = {
   username: "Simba Ndoro",
   title: "Hi, I'm Simba",
   subTitle: emoji(
-    "Experienced 1st and 2nd Line Support and FullsStack Web Developer proficient in Linux, macOS, Windows, Windows Server, NodeJs, MongoDB, SQL, Express.js, HTML5, CSS3, Flutter, Javascript with further interest in Progressive Web Apps."
+    "An Experienced 1st and 2nd Line Support and FullsStack Web Developer proficient in Linux, macOS, Windows, Windows Server, NodeJs, MongoDB, SQL, Express.js, HTML5, CSS3, Flutter, Javascript with further interest in Progressive Web Apps."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -106,10 +106,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fa-solid fa-database"
     },
     {
-      skillName: "Firebase",
-      fontAwesomeClassname: "fa-solid fa-fire"
-    },
-    {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
@@ -122,20 +118,20 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-docker"
     },
     {
-      skillName: "Express.js",
-      fontAwesomeClassname: "fa-brands fa-js-square"
-    },
-    {
       skillName: "BootStrap",
       fontAwesomeClassname: "fa-brands fa-bootstrap"
     },
     {
       skillName: "Flutter",
-      svgImage: "https://simpleicons.org/icons/flutter.svg"
+      svgImage: require("./assets/images/icons8-flutter.svg")
     },
     {
       skillName: "Dart",
-      fontAwesomeClassname: "fa-solid fa-bullseye"
+      svgImage: require("./assets/images/icons8-dart.svg")
+    },
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fa-brands fa-java"
     }
   ],
   display: true // Set false to hide this section, defaults to true
