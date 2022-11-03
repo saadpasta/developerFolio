@@ -34,11 +34,11 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/dittogod",
-  linkedin: "https://www.linkedin.com/in/simbarashe-ndoro/",
+  // linkedin: "https://www.linkedin.com/in/simbarashe-ndoro/",
   gmail: "simba.ndoro@dittogod.com",
   gitlab: "https://gitlab.com/DittoGod",
   // facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@Dittogod",
+  // medium: "https://medium.com/@Dittogod",
   stackoverflow: "https://stackoverflow.com/users/12103604/dittogod",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
