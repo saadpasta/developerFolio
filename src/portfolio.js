@@ -411,10 +411,11 @@ const educationInfo = {
       logo: require("./assets/images/uniwue.png"),
       subHeader: "Games Engineering BSc",
       duration: "September 2019 - Current",
-      desc: "Received highest grade for multiple Games Engineering projects:",
+      desc: "Received highest grade for all Games Engineering projects:",
       descBullets: [
         "GameLab I: EmptySpaces",
         "GameLab II: Balancing Hub",
+        "GameLab III: Fractal Engine & Minesweeper",
         "Movie Making with Game Engines: BrightnessBasedTextureLayering",
         "Seminar Current Trends in Games Engineering: Automated Animation of Creatures"
       ]
