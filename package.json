@@ -15,7 +15,7 @@
     "react-headroom": "^3.0.0",
     "react-lottie": "^1.2.3",
     "react-reveal": "^1.2.2",
-    "react-scripts": "^3.4.3",
+    "react-scripts": "^5.0.1",
     "react-test-renderer": "^16.10.2",
     "react-twitter-embed": "3.0.3",
     "sass": "^1.32.8"
