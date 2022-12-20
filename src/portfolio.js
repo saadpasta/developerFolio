@@ -23,7 +23,7 @@ const greeting = {
   username: "Julius Bartolome",
   title: "Hi all, I'm Julius",
   subTitle: emoji(
-          "A passionate Full Stack Software Developer 🚀 having an experience of building Automation workflows, Web applications, and Cloud infrastructure  with .NET / JavaScript / Reactjs / Nodejs / Python / Docker / Kubernetes and some other cool libraries and frameworks."
+          "A passionate Full Stack Software Developer 🚀 with experience building Automation workflows, Web applications, and Cloud infrastructure with .NET / JavaScript / Reactjs / Nodejs / Python / Docker / Kubernetes and some other libraries and frameworks."
   ),
 //  resumeLink:
 //    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -197,29 +197,51 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Senior Software Engineer",
+      company: "NNIT Philippines Inc.",
+      companylogo: require("./assets/images/nnitLogo.png"),
+      date: "October 2018 – Present",
+      desc: "Worked closesly with NNIT Stakeholders in developing various applications.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed NNIT's internal time tracking mobile app.",
+        "Developed new systems for NNIT Employees to improve customer visibility.",
+        "Introduced CI/CD to increase efficiency and streamlined releases."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer",
+      company: "Blast Asia Inc.",
+      companylogo: require("./assets/images/baiLogo.png"),
+      date: "December 2015 – September 2018",
+      desc: "Worked with different teams working directly with different clients and building apps.",
+      descBullets: [
+        "Helped developing dynamic forms using a proprietery software and build certain flows around it",
+        "Worked with WHO Philippines on a project centered around scholar grant management software"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer",
+      company: "Network Managers Inc.",
+      companylogo: require("./assets/images/nmiLogo.png"),
+      date: "December 2013 – November 2015",
+      desc: "Extended a Proprietary Software (Kaseya) and built different apps around it.",
+      descBullets: [
+        "Worked on a Ticket system for Ayala Land", 
+        "Helped in building Automation workflows using Powershell and Kaseya Scripts", 
+        "Helped building multi-tenant incident report web application for SMEs."
+      ]
+    },
+    {
+      role: "Junior Software Engineer",
+      company: "Seansoft Inc.",
+      companylogo: require("./assets/images/nmiLogo.png"),
+      date: "April 2013 – November 2013",
+      desc: "Developed and maintained Sharepoint sites and built custom add-ins for clients",
+      descBullets: [
+        "Built a Sharepoint component for custom user management", 
+        "Worked on a custom file transfer Sharepoint component from FTP to Sharepoint and vise-versa",
+        "Helped working on a prioprietary Digital Rights Management software."
+      ]
     }
   ]
 };
@@ -271,7 +293,7 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements and Certifications 🏆 "),
   subtitle:
-    "Achievements,Certifications and Some Cool Stuff that I have done!",
+    "Achievements, Certifications and Some Cool Stuff that I have done!",
 
   achievementsCards: [
     {
