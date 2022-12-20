@@ -50,10 +50,10 @@ const skillsSection = {
   title: "What I do",
     subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO BUILD SOFTWARE THAT MAKES AN IMPACT ON OTHERS LIVES",
   skills: [
-    emoji("⚡ Develop efficient and effective apps that are scalable"),
-    emoji("⚡ Integration of third party services through available endpoints"),
-    emoji("⚡ Certified DevOps for your CI/CD needs"),
-    emoji("⚡ Automate workflows using no code, low code apps")
+    emoji("⚡ Develop efficient and highly scalable apps"),
+    emoji("⚡ Certified DevOps Engineer for your CI/CD needs"),
+    emoji("⚡ Third-party Service integrations"),
+    emoji("⚡ Automate workflows with latest tools available in the market"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -229,7 +229,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -262,65 +262,77 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements and Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements,Certifications and Some Cool Stuff that I have done!",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      title: "DevOps Engineer Expert",
+      subtitle: "Earning the DevOps Engineer Expert certification demonstrates the ability to combine people, process, and technologies to continuously deliver valuable products and services that meet end user needs and business objectives. DevOps professionals streamline delivery by optimizing practices, improving communications and collaboration, and creating automation.",
+      image: require("./assets/images/msDevopsEngineerExpert.webp"),
+      imageAlt: "Microsoft Certified: DevOps Engineer Expert",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+            url: "https://www.credly.com/badges/81b071f0-ca78-4e9b-97ab-c06000869dd1/public_url"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+      title: "Azure Developer Associate",
+      subtitle: "Earning Azure Developer Associate certification validates the skills and knowledge to design, build, test, and maintain cloud applications and services on Microsoft Azure. Candidates participate in all phases of cloud development from requirements definition and design, to development, deployment, and maintenance.",
+      image: require("./assets/images/msAzureDeveloperAssociate.webp"),
+      imageAlt: "Microsoft Certified: Azure Developer Associate",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+            url: "https://www.credly.com/badges/6b5a1236-0fe0-488e-abc6-8caaea7e5695/public_url"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "MCSA: Web Applications",
+      subtitle: "Earners of the MCSA: Web Applications certification have demonstrated the skills required to implement modern web apps. They are qualified for a position as a web developer or web administrator.",
+      image: require("./assets/images/mcsaWebApplications.webp"),
+      imageAlt: "MCSA: Web Applications",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Certification",
+          url: "https://www.credly.com/badges/da952cb9-db27-4edb-9246-c1768329d687/public_url"
         }
       ]
+    },
+    {
+        title: "MCSA: SQL 2016 Database Development",
+        subtitle: "Earners of the MCSA: SQL 2016 Database Development certification have demonstrated the skills required to build and implement databases across organizations. They are qualified for a position as a database developer.",
+        image: require("./assets/images/mcsaSql2016DatabaseDevelopment.webp"),
+        imageAlt: "MCSA: SQL 2016 Database Development",
+        footerLink: [
+            {
+                name: "Certification",
+                url: "https://www.credly.com/badges/d442df59-05be-43ef-a196-43b1b92b4076/public_url"
+            }
+        ]
+    },
+    {
+        title: "Certified SAFe® 4 Practitioner",
+        subtitle: "A Certified SAFe 4 Practitioner (SP) is a SAFe team member professional responsible for using Scrum, Kanban, and XP in a SAFe environment. Key areas of responsibility include planning Program Increments and iterations, breaking requirements into stories, developing incrementally with built-in quality, demoing value at a team and program level, and problem solving impediments to drive relentless improvement.",
+        image: require("./assets/images/certifiedSafe4Practitioner.webp"),
+        imageAlt: "Certified SAFe® 4 Practitioner",
+        footerLink: [
+            {
+                name: "Certification",
+                url: "https://www.credly.com/badges/3f6a7b8c-4ca2-43ee-acaa-01a60548fc8b/public_url"
+            }
+        ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -347,7 +359,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -366,7 +378,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -379,25 +391,25 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+63 999 492 3605",
+  email_address: "juliusbartolome@hotmail.ph"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
