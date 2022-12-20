@@ -23,10 +23,10 @@ const greeting = {
   username: "Julius Bartolome",
   title: "Hi all, I'm Julius",
   subTitle: emoji(
-          "A passionate Full Stack Software Developer 🚀 with experience building Automation workflows, Web applications, and Cloud infrastructure with .NET / JavaScript / Reactjs / Nodejs / Python / Docker / Kubernetes and some other libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 with experience building Automation workflows, Web applications, and Cloud infrastructure with .NET / JavaScript / Reactjs / Nodejs / Python / Docker / Kubernetes and some other libraries and frameworks."
   ),
-//  resumeLink:
-//    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  //  resumeLink:
+  //    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -48,12 +48,13 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-    subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO BUILD SOFTWARE THAT MAKES AN IMPACT ON OTHERS LIVES",
+  subTitle:
+    "CRAZY FULL STACK DEVELOPER WHO WANTS TO BUILD SOFTWARE THAT MAKES AN IMPACT ON OTHERS LIVES",
   skills: [
     emoji("⚡ Develop efficient and highly scalable apps"),
     emoji("⚡ Certified DevOps Engineer for your CI/CD needs"),
     emoji("⚡ Third-party Service integrations"),
-    emoji("⚡ Automate workflows with latest tools available in the market"),
+    emoji("⚡ Automate workflows with latest tools available in the market")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -73,48 +74,48 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-google"
     },
     {
-        skillName: "nodejs",
-        fontAwesomeClassname: "fab fa-node"
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
     },
     {
-        skillName: "python",
-        fontAwesomeClassname: "fab fa-python"
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-        skillName: "sql-database",
-        fontAwesomeClassname: "fas fa-database"
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
     },
     {
-        skillName: "firebase",
-        fontAwesomeClassname: "fas fa-fire"
+      skillName: "firebase",
+      fontAwesomeClassname: "fas fa-fire"
     },
     {
-        skillName: "windows",
-        fontAwesomeClassname: "fab fa-windows"
+      skillName: "windows",
+      fontAwesomeClassname: "fab fa-windows"
     },
     {
-        skillName: "mac",
-        fontAwesomeClassname: "fab fa-apple"
+      skillName: "mac",
+      fontAwesomeClassname: "fab fa-apple"
     },
     {
-        skillName: "linux",
-        fontAwesomeClassname: "fab fa-linux"
+      skillName: "linux",
+      fontAwesomeClassname: "fab fa-linux"
     },
     {
-        skillName: "ubuntu",
-        fontAwesomeClassname: "fab fa-ubuntu"
+      skillName: "ubuntu",
+      fontAwesomeClassname: "fab fa-ubuntu"
     },
     {
-        skillName: "rhel",
-        fontAwesomeClassname: "fab fa-redhat"
+      skillName: "rhel",
+      fontAwesomeClassname: "fab fa-redhat"
     },
     {
-        skillName: "jenkins",
-        fontAwesomeClassname: "fab fa-jenkins"
+      skillName: "jenkins",
+      fontAwesomeClassname: "fab fa-jenkins"
     },
     {
-        skillName: "docker",
-        fontAwesomeClassname: "fab fa-docker"
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
     },
     {
       skillName: "html-5",
@@ -129,21 +130,21 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-        skillName: "angular",
-        fontAwesomeClassname: "fab fa-angular"
+      skillName: "angular",
+      fontAwesomeClassname: "fab fa-angular"
     },
     {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-        skillName: "markdown",
-        fontAwesomeClassname: "fab fa-markdown"
+      skillName: "markdown",
+      fontAwesomeClassname: "fab fa-markdown"
     },
     {
-        skillName: "git",
-        fontAwesomeClassname: "fab fa-git"
-    },
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git"
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -159,9 +160,7 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Computer Science",
       duration: "June 2009 - March 2013",
       desc: "Participated in the research of Grading System Web App for our own school to improve transparency and trust.",
-      descBullets: [
-        "Best in Programming 2013 Award"
-      ]
+      descBullets: ["Best in Programming 2013 Award"]
     }
   ]
 };
@@ -180,12 +179,12 @@ const techStack = {
       progressPercentage: "90%"
     },
     {
-        Stack: "Cloud Development",
-        progressPercentage: "85%"
+      Stack: "Cloud Development",
+      progressPercentage: "85%"
     },
     {
-        Stack: "Frontend Development", //Insert stack or technology you have experience in
-        progressPercentage: "70%" //Insert relative proficiency in percentage
+      Stack: "Frontend Development", //Insert stack or technology you have experience in
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -226,8 +225,8 @@ const workExperiences = {
       date: "December 2013 – November 2015",
       desc: "Extended a Proprietary Software (Kaseya) and built different apps around it.",
       descBullets: [
-        "Worked on a Ticket system for Ayala Land", 
-        "Helped in building Automation workflows using Powershell and Kaseya Scripts", 
+        "Worked on a Ticket system for Ayala Land",
+        "Helped in building Automation workflows using Powershell and Kaseya Scripts",
         "Helped building multi-tenant incident report web application for SMEs."
       ]
     },
@@ -238,7 +237,7 @@ const workExperiences = {
       date: "April 2013 – November 2013",
       desc: "Developed and maintained Sharepoint sites and built custom add-ins for clients",
       descBullets: [
-        "Built a Sharepoint component for custom user management", 
+        "Built a Sharepoint component for custom user management",
         "Worked on a custom file transfer Sharepoint component from FTP to Sharepoint and vise-versa",
         "Helped working on a prioprietary Digital Rights Management software."
       ]
@@ -298,31 +297,34 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "DevOps Engineer Expert",
-      subtitle: "Earning the DevOps Engineer Expert certification demonstrates the ability to combine people, process, and technologies to continuously deliver valuable products and services that meet end user needs and business objectives. DevOps professionals streamline delivery by optimizing practices, improving communications and collaboration, and creating automation.",
+      subtitle:
+        "Earning the DevOps Engineer Expert certification demonstrates the ability to combine people, process, and technologies to continuously deliver valuable products and services that meet end user needs and business objectives. DevOps professionals streamline delivery by optimizing practices, improving communications and collaboration, and creating automation.",
       image: require("./assets/images/msDevopsEngineerExpert.webp"),
       imageAlt: "Microsoft Certified: DevOps Engineer Expert",
       footerLink: [
         {
           name: "Certification",
-            url: "https://www.credly.com/badges/81b071f0-ca78-4e9b-97ab-c06000869dd1/public_url"
+          url: "https://www.credly.com/badges/81b071f0-ca78-4e9b-97ab-c06000869dd1/public_url"
         }
       ]
     },
     {
       title: "Azure Developer Associate",
-      subtitle: "Earning Azure Developer Associate certification validates the skills and knowledge to design, build, test, and maintain cloud applications and services on Microsoft Azure. Candidates participate in all phases of cloud development from requirements definition and design, to development, deployment, and maintenance.",
+      subtitle:
+        "Earning Azure Developer Associate certification validates the skills and knowledge to design, build, test, and maintain cloud applications and services on Microsoft Azure. Candidates participate in all phases of cloud development from requirements definition and design, to development, deployment, and maintenance.",
       image: require("./assets/images/msAzureDeveloperAssociate.webp"),
       imageAlt: "Microsoft Certified: Azure Developer Associate",
       footerLink: [
         {
           name: "Certification",
-            url: "https://www.credly.com/badges/6b5a1236-0fe0-488e-abc6-8caaea7e5695/public_url"
+          url: "https://www.credly.com/badges/6b5a1236-0fe0-488e-abc6-8caaea7e5695/public_url"
         }
       ]
     },
     {
       title: "MCSA: Web Applications",
-      subtitle: "Earners of the MCSA: Web Applications certification have demonstrated the skills required to implement modern web apps. They are qualified for a position as a web developer or web administrator.",
+      subtitle:
+        "Earners of the MCSA: Web Applications certification have demonstrated the skills required to implement modern web apps. They are qualified for a position as a web developer or web administrator.",
       image: require("./assets/images/mcsaWebApplications.webp"),
       imageAlt: "MCSA: Web Applications",
       footerLink: [
@@ -333,28 +335,30 @@ const achievementSection = {
       ]
     },
     {
-        title: "MCSA: SQL 2016 Database Development",
-        subtitle: "Earners of the MCSA: SQL 2016 Database Development certification have demonstrated the skills required to build and implement databases across organizations. They are qualified for a position as a database developer.",
-        image: require("./assets/images/mcsaSql2016DatabaseDevelopment.webp"),
-        imageAlt: "MCSA: SQL 2016 Database Development",
-        footerLink: [
-            {
-                name: "Certification",
-                url: "https://www.credly.com/badges/d442df59-05be-43ef-a196-43b1b92b4076/public_url"
-            }
-        ]
+      title: "MCSA: SQL 2016 Database Development",
+      subtitle:
+        "Earners of the MCSA: SQL 2016 Database Development certification have demonstrated the skills required to build and implement databases across organizations. They are qualified for a position as a database developer.",
+      image: require("./assets/images/mcsaSql2016DatabaseDevelopment.webp"),
+      imageAlt: "MCSA: SQL 2016 Database Development",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.credly.com/badges/d442df59-05be-43ef-a196-43b1b92b4076/public_url"
+        }
+      ]
     },
     {
-        title: "Certified SAFe® 4 Practitioner",
-        subtitle: "A Certified SAFe 4 Practitioner (SP) is a SAFe team member professional responsible for using Scrum, Kanban, and XP in a SAFe environment. Key areas of responsibility include planning Program Increments and iterations, breaking requirements into stories, developing incrementally with built-in quality, demoing value at a team and program level, and problem solving impediments to drive relentless improvement.",
-        image: require("./assets/images/certifiedSafe4Practitioner.webp"),
-        imageAlt: "Certified SAFe® 4 Practitioner",
-        footerLink: [
-            {
-                name: "Certification",
-                url: "https://www.credly.com/badges/3f6a7b8c-4ca2-43ee-acaa-01a60548fc8b/public_url"
-            }
-        ]
+      title: "Certified SAFe® 4 Practitioner",
+      subtitle:
+        "A Certified SAFe 4 Practitioner (SP) is a SAFe team member professional responsible for using Scrum, Kanban, and XP in a SAFe environment. Key areas of responsibility include planning Program Increments and iterations, breaking requirements into stories, developing incrementally with built-in quality, demoing value at a team and program level, and problem solving impediments to drive relentless improvement.",
+      image: require("./assets/images/certifiedSafe4Practitioner.webp"),
+      imageAlt: "Certified SAFe® 4 Practitioner",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.credly.com/badges/3f6a7b8c-4ca2-43ee-acaa-01a60548fc8b/public_url"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
