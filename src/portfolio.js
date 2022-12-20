@@ -10,7 +10,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 1000 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
@@ -20,7 +20,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Julius Philip Bartolome",
+  username: "Julius Bartolome",
   title: "Hi all, I'm Julius",
   subTitle: emoji(
           "A passionate Full Stack Software Developer 🚀 having an experience of building Automation workflows, Web applications, and Cloud infrastructure  with .NET / JavaScript / Reactjs / Nodejs / Python / Docker / Kubernetes and some other cool libraries and frameworks."
@@ -48,21 +48,74 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+    subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO BUILD SOFTWARE THAT MAKES AN IMPACT ON OTHERS LIVES",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Develop efficient and effective apps that are scalable"),
+    emoji("⚡ Integration of third party services through available endpoints"),
+    emoji("⚡ Certified DevOps for your CI/CD needs"),
+    emoji("⚡ Automate workflows using no code, low code apps")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    {
+      skillName: "aws",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "azure",
+      fontAwesomeClassname: "fab fa-microsoft"
+    },
+    {
+      skillName: "gcp",
+      fontAwesomeClassname: "fab fa-google"
+    },
+    {
+        skillName: "nodejs",
+        fontAwesomeClassname: "fab fa-node"
+    },
+    {
+        skillName: "python",
+        fontAwesomeClassname: "fab fa-python"
+    },
+    {
+        skillName: "sql-database",
+        fontAwesomeClassname: "fas fa-database"
+    },
+    {
+        skillName: "firebase",
+        fontAwesomeClassname: "fas fa-fire"
+    },
+    {
+        skillName: "windows",
+        fontAwesomeClassname: "fab fa-windows"
+    },
+    {
+        skillName: "mac",
+        fontAwesomeClassname: "fab fa-apple"
+    },
+    {
+        skillName: "linux",
+        fontAwesomeClassname: "fab fa-linux"
+    },
+    {
+        skillName: "ubuntu",
+        fontAwesomeClassname: "fab fa-ubuntu"
+    },
+    {
+        skillName: "rhel",
+        fontAwesomeClassname: "fab fa-redhat"
+    },
+    {
+        skillName: "jenkins",
+        fontAwesomeClassname: "fab fa-jenkins"
+    },
+    {
+        skillName: "docker",
+        fontAwesomeClassname: "fab fa-docker"
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -72,49 +125,25 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
+    },
+    {
+        skillName: "angular",
+        fontAwesomeClassname: "fab fa-angular"
     },
     {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+        skillName: "markdown",
+        fontAwesomeClassname: "fab fa-markdown"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+        skillName: "git",
+        fontAwesomeClassname: "fab fa-git"
     },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -125,23 +154,14 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "St. John Technological College of the Philippines",
+      logo: require("./assets/images/sjtcpLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "June 2009 - March 2013",
+      desc: "Participated in the research of Grading System Web App for our own school to improve transparency and trust.",
+      descBullets: [
+        "Best in Programming 2013 Award"
+      ]
     }
   ]
 };
@@ -152,16 +172,20 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Backend Development",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Workflow Automation",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+        Stack: "Cloud Development",
+        progressPercentage: "85%"
+    },
+    {
+        Stack: "Frontend Development", //Insert stack or technology you have experience in
+        progressPercentage: "70%" //Insert relative proficiency in percentage
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
