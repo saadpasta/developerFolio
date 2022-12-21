@@ -268,31 +268,31 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Singapore Ministry of Education, SM1 Full Scholarship",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Merit-based full scholarship program to attend 2 years of secondary school in Singapore, and 2 years of junior college. ",
+      image: require("./assets/images/moe-logo.jpg"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "Certification",
           url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+        // {
+        //   name: "Award Letter",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+        // {
+        //   name: "Google Code-in Blog",
+        //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        // }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Georgia Tech Faculty Honors",
       subtitle:
         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      image: require("./assets/images/gt-merit-badge-faculty-honors2.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
@@ -400,22 +400,22 @@ const personalLifeSection = {
 
   personalLifeCards: [
     {
-      title: "running",
-      subtitle: emoji("I am a dedicated runner! 🏃 My typical weekly milage is around 55-65mpw. My favorite distance is the Half Marathon!"),
+      title: emoji("Running 🏃"),
+      subtitle: emoji("I am a dedicated runner! My typical weekly milage is around 55-65mpw. My favorite distance is the Half Marathon! My PR for the Half Marathon is 1:18. My next goal for the HM is 1:15"),
       image: require("./assets/images/Publix_Half.JPG"),
       imageAlt: "Running Photo",
     },
     {
-      title: "cooking",
-      subtitle: emoji("I enjoy cooking a lot!"),
-      // image: require("./assets/images/Publix_Half.webp"),
-      imageAlt: "Running Photo",
+      title: emoji("Cooking & Baking 🥘"),
+      subtitle: emoji("I enjoy cooking and baking a lot! My grandpa cooked a lot when I was young. Right now I'm replicating some of his recipes. I am also learning some new recipes from all sorts of cuisines!"),
+      image: require("./assets/images/Cooking.jpg"),
+      imageAlt: "Cooking Photo",
     },
     {
-      title: "baking",
-      subtitle: emoji("I enjoy baking too!"),
-      // image: require("./assets/images/Publix_Half.webp"),
-      imageAlt: "Running Photo",
+      title: emoji("Sketching 🖌"),
+      subtitle: emoji("I enjoy sketching in my free time too! I draw cartoon characters mostly. It is a fun way to spend my time and to release some stress!"),
+      image: require("./assets/images/sketching.jpg"),
+      imageAlt: "Sketching Photo",
     },
   ],
 
