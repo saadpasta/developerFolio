@@ -233,7 +233,7 @@ const workExperiences = {
     {
       role: "Junior Software Engineer",
       company: "Seansoft Inc.",
-      companylogo: require("./assets/images/nmiLogo.png"),
+      companylogo: require("./assets/images/seansoftIncLogo.png"),
       date: "April 2013 – November 2013",
       desc: "Developed and maintained Sharepoint sites and built custom add-ins for clients",
       descBullets: [
