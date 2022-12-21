@@ -255,7 +255,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -302,19 +302,19 @@ const achievementSection = {
       ]
     },
 
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
+    // {
+    //   title: "PWA Web App Developer",
+    //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+    //   image: require("./assets/images/pwaLogo.webp"),
+    //   imageAlt: "PWA Logo",
+    //   footerLink: [
+    //     {name: "Certification", url: ""},
+    //     {
+    //       name: "Final Project",
+    //       url: "https://pakistan-olx-1.firebaseapp.com/"
+    //     }
+    //   ]
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -408,7 +408,7 @@ const personalLifeSection = {
     {
       title: emoji("Cooking & Baking 🥘"),
       subtitle: emoji("I enjoy cooking and baking a lot! My grandpa cooked a lot when I was young. Right now I'm replicating some of his recipes. I am also learning some new recipes from all sorts of cuisines!"),
-      image: require("./assets/images/Cooking.jpg"),
+      image: require("./assets/images/cooking.jpg"),
       imageAlt: "Cooking Photo",
     },
     {
