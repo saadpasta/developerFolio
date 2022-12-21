@@ -18,7 +18,7 @@
     "react-scripts": "^3.4.3",
     "react-test-renderer": "^16.10.2",
     "react-twitter-embed": "3.0.3",
-    "sass": "^1.32.8" 
+    "sass": "^1.32.8"
   },
   "scripts": {
     "predeploy": "npm run build",

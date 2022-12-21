@@ -42,7 +42,7 @@ export default function Education() {
                       title: card.title,
                       description: card.subtitle,
                       image: card.image,
-                      imageAlt: card.imageAlt,
+                      imageAlt: card.imageAlt
                       // footer: card.footerLink
                     }}
                   />

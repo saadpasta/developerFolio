@@ -51,10 +51,14 @@ const skillsSection = {
   title: "What I do",
   subTitle: "CRAZY SOFTWARE DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji("⚡ Develop highly interactive and intriguing mobile and app applications"),
-    emoji("⚡ Develop deep neural network for deep learing tasks such as image recognition, scene classifications, etc"),
+    emoji(
+      "⚡ Develop highly interactive and intriguing mobile and app applications"
+    ),
+    emoji(
+      "⚡ Develop deep neural network for deep learing tasks such as image recognition, scene classifications, etc"
+    ),
     emoji("⚡ Integrate third party services such as Firebase/ AWS"),
-    emoji("⚡ Design backend services through MongoDB, Flask and REST API"),
+    emoji("⚡ Design backend services through MongoDB, Flask and REST API")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -116,12 +120,11 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
-    },
+    }
     // {
     //   skillName: "sass",
     //   fontAwesomeClassname: "fab fa-sass"
     // },
-
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -143,7 +146,7 @@ const educationInfo = {
         "I am an active member of the running club. We do track, road and cross country racing. ",
         "GPA: 4.0"
       ]
-    },
+    }
     // {
     //   schoolName: "Stanford University",
     //   logo: require("./assets/images/stanfordLogo.png"),
@@ -175,7 +178,7 @@ const techStack = {
     {
       Stack: "Machine Learning/Deep Learning",
       progressPercentage: "50%"
-    },
+    }
     // {
     //   Stack: "Frontend",
     //   progressPercentage: "50%"
@@ -199,7 +202,7 @@ const workExperiences = {
         "Automate simulation test of the Marta-REACH service using Python, Celery, Redis and MongoDB, including database queries and documentations and automated database comparison. ",
         "Develop features for a react-native called Marta-Reach using Typescript and React-native as well as GTFS real-time feed. "
       ]
-    },
+    }
     // {
     //   role: "Front-End Developer",
     //   company: "Quora",
@@ -277,7 +280,7 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
+        }
         // {
         //   name: "Award Letter",
         //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
@@ -300,7 +303,7 @@ const achievementSection = {
           url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
         }
       ]
-    },
+    }
 
     // {
     //   title: "PWA Web App Developer",
@@ -395,28 +398,33 @@ const isHireable = true; // Set false if you are not looking for a job. Also isH
 // Personal Life Section
 const personalLifeSection = {
   title: "Some little things about me..",
-  subtitle:
-    "Here are some little things I enjoy doing in my free time 😁",
+  subtitle: "Here are some little things I enjoy doing in my free time 😁",
 
   personalLifeCards: [
     {
       title: emoji("Running 🏃"),
-      subtitle: emoji("I am a dedicated runner! My typical weekly milage is around 55-65mpw. My favorite distance is the Half Marathon! My PR for the Half Marathon is 1:18. My next goal for the HM is 1:15"),
+      subtitle: emoji(
+        "I am a dedicated runner! My typical weekly milage is around 55-65mpw. My favorite distance is the Half Marathon! My PR for the Half Marathon is 1:18. My next goal for the HM is 1:15"
+      ),
       image: require("./assets/images/Publix_Half.JPG"),
-      imageAlt: "Running Photo",
+      imageAlt: "Running Photo"
     },
     {
       title: emoji("Cooking & Baking 🥘"),
-      subtitle: emoji("I enjoy cooking and baking a lot! My grandpa cooked a lot when I was young. Right now I'm replicating some of his recipes. I am also learning some new recipes from all sorts of cuisines!"),
+      subtitle: emoji(
+        "I enjoy cooking and baking a lot! My grandpa cooked a lot when I was young. Right now I'm replicating some of his recipes. I am also learning some new recipes from all sorts of cuisines!"
+      ),
       image: require("./assets/images/cooking.jpg"),
-      imageAlt: "Cooking Photo",
+      imageAlt: "Cooking Photo"
     },
     {
       title: emoji("Sketching 🖌"),
-      subtitle: emoji("I enjoy sketching in my free time too! I draw cartoon characters mostly. It is a fun way to spend my time and to release some stress!"),
+      subtitle: emoji(
+        "I enjoy sketching in my free time too! I draw cartoon characters mostly. It is a fun way to spend my time and to release some stress!"
+      ),
       image: require("./assets/images/sketching.jpg"),
-      imageAlt: "Sketching Photo",
-    },
+      imageAlt: "Sketching Photo"
+    }
   ],
 
   display: true
@@ -440,5 +448,5 @@ export {
   contactInfo,
   twitterDetails,
   isHireable,
-  personalLifeSection,
+  personalLifeSection
 };
