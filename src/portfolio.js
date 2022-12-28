@@ -179,7 +179,7 @@ const workExperiences = {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
-    },
+    }
   ]
 };
 
@@ -235,22 +235,18 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "Algorithm 4.O",
-      subtitle:
-        "2nd Runnerup at Algorithm 4.O, intercollege hackathon in 2018",
+      subtitle: "2nd Runnerup at Algorithm 4.O, intercollege hackathon in 2018",
       image: require("./assets/images/hackathon.png"),
       imageAlt: "Hackathon",
-      footerLink: [
-      ]
+      footerLink: []
     },
     {
       title: "Algorithm 5.O",
-      subtitle:
-        "1st Runnerup at Algorithm 5.O, intercollege hackathon in 2019",
+      subtitle: "1st Runnerup at Algorithm 5.O, intercollege hackathon in 2019",
       image: require("./assets/images/hackathon.png"),
       imageAlt: "Hackathon",
-      footerLink: [
-      ]
-    },
+      footerLink: []
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
