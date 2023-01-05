@@ -95,8 +95,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
-    },
-
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -162,7 +161,7 @@ const workExperiences = {
       companylogo: require("./assets/images/quoraLogo.png"),
       date: "May 2017 – May 2018",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
+    }
   ]
 };
 
@@ -209,7 +208,7 @@ const achievementSection = {
       subtitle:
         "Selected as Google Code-in Finalist from 40000 students from 77 different countries.",
       image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      imageAlt: "Google Code-In Logo"
     },
     {
       title: "Google Assistant Action",
@@ -223,8 +222,7 @@ const achievementSection = {
           url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
         }
       ]
-    },
-
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
