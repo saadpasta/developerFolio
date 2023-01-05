@@ -127,6 +127,42 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+
+      {socialMediaLinks.crowdin ? (
+        <a
+        href={socialMediaLinks.crowdin}
+        className="icon-button crowdin"
+        target="_blank"
+        rel="noopener noreferrer"
+        >
+          <i className="fab fa-crowdin"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.telegram ? (
+        <a
+        href={socialMediaLinks.telegram}
+        className="icon-button telegram"
+        target="_blank"
+        rel="noopener noreferrer"
+        >
+          <i className="fab fa-telegram"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.discord ? (
+        <a
+        href={socialMediaLinks.discord}
+        className="icon-button discord"
+        target="_blank"
+        rel="noopener noreferrer"
+        >
+          <i className="fab fa-discord"></i>
+          <span></span>
+        </a>
+      ) : null}
     </div>
   );
 }

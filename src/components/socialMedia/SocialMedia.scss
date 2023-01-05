@@ -68,8 +68,23 @@
   background-color: $instagram;
 }
 
+.crowdin i {
+  background-color: $crowdin;
+}
+
+.telegram i {
+  background-color: $telegram;
+}
+
+.discord i {
+  background-color: $discord;
+}
+
 /* Hover Transition */
 .twitter i:hover,
+.telegram i:hover,
+.crowdin i:hover,
+.discord i:hover,
 .google i:hover,
 .gitlab i:hover,
 .github i:hover,
