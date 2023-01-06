@@ -131,11 +131,11 @@ export default function socialMedia() {
       {socialMediaLinks.crowdin ? (
         <a
         href={socialMediaLinks.crowdin}
-        className="icon-button translate"
+        className="icon-button language"
         target="_blank"
         rel="noopener noreferrer"
         >
-          <i className="fab fa-crowdin"></i>
+          <i className="fad fa-language"></i>
           <span></span>
         </a>
       ) : null}
