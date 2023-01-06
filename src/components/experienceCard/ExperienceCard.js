@@ -78,6 +78,23 @@ export default function ExperienceCard({cardInfo, isDark}) {
         <ul>
           <GetDescBullets descBullets={cardInfo.descBullets} isDark={isDark} />
         </ul>
+          {cardInfo.footerLink ? (
+                      <div className="experience-text-footer">
+                        {cardInfo.footerLink.map((link, i) => {
+                          return (
+                            <span
+                              key={i}
+                              className={
+                                isDark ? "dark-mode experience-tag" : "experience-tag"
+                              }
+                              onClick={() => openUrlInNewTab(link.url)}
+                            >
+                              {link.name}
+                            </span>
+                          );
+                        })}
+                      </div>
+                    ) : null}
       </div>
     </div>
   );

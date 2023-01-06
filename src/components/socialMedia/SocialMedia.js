@@ -135,7 +135,7 @@ export default function socialMedia() {
         target="_blank"
         rel="noopener noreferrer"
         >
-          <i className="fa-solid fa-language"></i>
+          <i className="fas fa-language"></i>
           <span></span>
         </a>
       ) : null}
