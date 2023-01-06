@@ -1,6 +1,7 @@
 import React, {useState, createRef} from "react";
 import "./ExperienceCard.scss";
 import ColorThief from "colorthief";
+import Button from "../button/Button";
 
 export default function ExperienceCard({cardInfo, isDark}) {
   const [colorArrays, setColorArrays] = useState([]);
@@ -9,14 +10,6 @@ export default function ExperienceCard({cardInfo, isDark}) {
   function getColorArrays() {
     const colorThief = new ColorThief();
     setColorArrays(colorThief.getColor(imgRef.current));
-  }
-
-  function openUrlInNewTab(url) {
-    if (!url) {
-      return;
-    }
-    var win = window.open(url, "_blank");
-    win.focus();
   }
 
   function rgb(values) {
@@ -86,24 +79,16 @@ export default function ExperienceCard({cardInfo, isDark}) {
         <ul>
           <GetDescBullets descBullets={cardInfo.descBullets} isDark={isDark} />
         </ul>
-          {cardInfo.footerLink ? (
-                      <div className="experience-text-footer">
-                        {cardInfo.footerLink.map((link, i) => {
-                          return (
-                            <span
-                              key={i}
-                              className={
-                                isDark ? "dark-mode experience-button" : "experience-button"
-                              }
-                              onClick={() => openUrlInNewTab(link.url)}
-                            >
-                              {link.name}
-                            </span>
-                          );
-                        })}
-                      </div>
-                    ) : null}
-      </div>
+        {cardInfo.footerLink && (
+                    <div className="button-experience-div">
+                      <Button
+                      text={cardInfo.footerLink.name}
+                      newTab={true}
+                      href={cardInfo.footerLink.url}
+                      />
+                    </div>
+        
+      )}</div>
     </div>
   );
 }
