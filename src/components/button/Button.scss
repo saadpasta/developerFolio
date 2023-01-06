@@ -32,6 +32,17 @@
 .project-button > .main-button {
   margin-right: 0 !important;
 }
+
+.experience-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.experience-button > .main-button {
+  margin-right: 0 !important;
+}
+
 /* Media Query */
 @media (max-width: 768px) {
   .main-button {

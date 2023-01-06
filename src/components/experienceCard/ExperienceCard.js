@@ -93,7 +93,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
                             <span
                               key={i}
                               className={
-                                isDark ? "dark-mode experience-tag" : "experience-tag"
+                                isDark ? "dark-mode experience-button" : "experience-button"
                               }
                               onClick={() => openUrlInNewTab(link.url)}
                             >
