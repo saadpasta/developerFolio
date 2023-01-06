@@ -195,7 +195,7 @@ const workExperiences = {
     company: "POPMods",
     companylogo: require("./assets/images/popmods.jpg"),
     date: "2022 - present",
-    desc: "POPMods is a tech channel on Android. I'm an active admin.",
+    desc: "POPMods is a tech channel on Telegram. I'm an active admin.",
     url: "https://t.me/popmods/"
   }
   ]
