@@ -80,13 +80,12 @@ export default function ExperienceCard({cardInfo, isDark}) {
           <GetDescBullets descBullets={cardInfo.descBullets} isDark={isDark} />
         </ul>
         {cardInfo.footerLink && (
-                    <div className="button-experience-div">
                       <Button
+                      className={button-experience-div}
                       text={cardInfo.footerLink.name}
                       newTab={true}
                       href={cardInfo.footerLink.url}
                       />
-                    </div>
         
       )}</div>
     </div>
