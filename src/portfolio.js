@@ -182,7 +182,7 @@ const workExperiences = {
     {
       role: "Italian translator",
       company: "Rboard",
-      companylogo: require("./assets/images/rboard.jpg"),
+      companylogo: require("./assets/images/rboard.png"),
       date: "2021 – present",
       desc: "Rboard is an app to customize the Google Keyboard.",
       footerLink: [
