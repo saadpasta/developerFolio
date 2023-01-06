@@ -172,12 +172,7 @@ const workExperiences = {
       companylogo: require("./assets/images/statsfm.webp"),
       date: "2021-present",
       desc: "Stats.fm is my biggest project. It's an app to check your Spotify statistics. I didn't translate it alone.",
-      footerLink: [
-        {
-          urlname: "Check it out",
-          url: "https://stats.fm/"
-        }
-      ]
+      url: "https://stats.fm/"
     },
     {
       role: "Italian translator",
@@ -185,12 +180,7 @@ const workExperiences = {
       companylogo: require("./assets/images/rboard.png"),
       date: "2021 – present",
       desc: "Rboard is an app to customize the Google Keyboard.",
-      footerLink: [
-        {
-          urlname: "Check it out",
-          url: "https://github.com/DerTyp7214/RboardThemeManagerV3/"
-        }
-      ]
+      url: "https://github.com/DerTyp7214/RboardThemeManagerV3/"
     },
     {
       role: "Italian translator",
@@ -198,12 +188,7 @@ const workExperiences = {
       companylogo: require("./assets/images/songtube.jpg"),
       date: "2021 - present",
       desc: "Songtube it's an app to download music from YouTube.",
-      footerLink: [
-        {
-          urlname: "Check it out",
-          url: "https://songtube.github.io/"
-        }
-      ]
+      url: "https://songtube.github.io/"
     },
     {
     role: "Admin",
@@ -211,12 +196,7 @@ const workExperiences = {
     companylogo: require("./assets/images/popmods.jpg"),
     date: "2022 - present",
     desc: "POPMods is a tech channel on Android. I'm an active admin.",
-    footerLink: [
-      {
-        urlname: "Check it out",
-        url: "https://t.me/popmods/"
-      }
-    ]
+    url: "https://t.me/popmods/"
   }
   ]
 };

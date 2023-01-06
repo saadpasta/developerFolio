@@ -2,6 +2,7 @@ import React, {useState, createRef} from "react";
 import "./ExperienceCard.scss";
 import ColorThief from "colorthief";
 import Button from "../button/Button";
+import workExperiences from "../../portfolio"
 
 export default function ExperienceCard({cardInfo, isDark}) {
   const [colorArrays, setColorArrays] = useState([]);
@@ -80,7 +81,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
           <GetDescBullets descBullets={cardInfo.descBullets} isDark={isDark} />
         </ul>
         <Button
-                      text={cardInfo.urlname}
+                      text={"Check it out"}
                       className="button-experience-div"
                       href={cardInfo.url}
                       newTab={true}
