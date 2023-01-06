@@ -81,7 +81,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
         </ul>
         {cardInfo.footerLink && (
                       <Button
-                      className={button-experience-div}
+                      className="button-experience-div"
                       text={cardInfo.footerLink.name}
                       newTab={true}
                       href={cardInfo.footerLink.url}
