@@ -81,7 +81,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
         </ul>
         <Button
                       text={cardInfo.urlname}
-                      className="main-button"
+                      className="button-experience-div"
                       href={cardInfo.url}
                       newTab={true}
                       />
