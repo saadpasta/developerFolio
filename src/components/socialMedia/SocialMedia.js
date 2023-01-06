@@ -131,7 +131,7 @@ export default function socialMedia() {
       {socialMediaLinks.crowdin ? (
         <a
         href={socialMediaLinks.crowdin}
-        className="icon-button crowdin"
+        className="icon-button translate"
         target="_blank"
         rel="noopener noreferrer"
         >
