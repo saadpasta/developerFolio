@@ -11,6 +11,14 @@ export default function ExperienceCard({cardInfo, isDark}) {
     setColorArrays(colorThief.getColor(imgRef.current));
   }
 
+  function openUrlInNewTab(url) {
+    if (!url) {
+      return;
+    }
+    var win = window.open(url, "_blank");
+    win.focus();
+  }
+
   function rgb(values) {
     return typeof values === "undefined"
       ? null
