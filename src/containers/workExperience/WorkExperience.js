@@ -27,7 +27,8 @@ export default function WorkExperience() {
                         companylogo: card.companylogo,
                         role: card.role,
                         descBullets: card.descBullets,
-                        footerLink: card.footerLink
+                        urlname: card.footerLink.urlname,
+                        url: card.footerLink.url
                       }}
                     />
                   );

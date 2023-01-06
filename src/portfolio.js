@@ -174,7 +174,7 @@ const workExperiences = {
       desc: "Stats.fm is my biggest project. It's an app to check your Spotify statistics. I didn't translate it alone.",
       footerLink: [
         {
-          name: "Check it out",
+          urlname: "Check it out",
           url: "https://stats.fm/"
         }
       ]
@@ -187,7 +187,7 @@ const workExperiences = {
       desc: "Rboard is an app to customize the Google Keyboard.",
       footerLink: [
         {
-          name: "Check it out",
+          urlname: "Check it out",
           url: "https://github.com/DerTyp7214/RboardThemeManagerV3/"
         }
       ]
@@ -200,7 +200,7 @@ const workExperiences = {
       desc: "Songtube it's an app to download music from YouTube.",
       footerLink: [
         {
-          name: "Check it out",
+          urlname: "Check it out",
           url: "https://songtube.github.io/"
         }
       ]
@@ -213,7 +213,7 @@ const workExperiences = {
     desc: "POPMods is a tech channel on Android. I'm an active admin.",
     footerLink: [
       {
-        name: "Check it out",
+        urlname: "Check it out",
         url: "https://t.me/popmods/"
       }
     ]
