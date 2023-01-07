@@ -170,7 +170,7 @@ const workExperiences = {
       role: "Italian translator",
       company: "Stats.fm",
       companylogo: require("./assets/images/statsfm.webp"),
-      date: "2021-present",
+      date: "2021 - present",
       desc: "Stats.fm is my biggest project. It's an app to check your Spotify statistics. I didn't translate it alone.",
       url: "https://stats.fm/"
     },
@@ -197,6 +197,38 @@ const workExperiences = {
     date: "2022 - present",
     desc: "POPMods is a tech channel on Telegram. I'm an active admin.",
     url: "https://t.me/popmods/"
+  },
+  {
+    role: "Italian translator",
+    company: "PixelOS",
+    companylogo: require("./assets/images/pixelos.png"),
+    date: "2022 - present",
+    desc: "PixelOS is a custom ROM for Android.",
+    url: "https://pixelos.net"
+  },
+  {
+    role: "Italian translator",
+    company: "Inure",
+    companylogo: require("./assets/images/inure.jpg"),
+    date: "2023 - present",
+    desc: "Inure is an app manager for Android.",
+    url: "https://play.google.com/store/apps/details?id=app.simple.inure"
+  },
+  {
+    role: "Italian community admin",
+    company: "Xiaomiui",
+    companylogo: require("./assets/images/xiaomiui.jpg"),
+    date: "2021 - present",
+    desc: "Xiaomiui is the biggest community on Telegram about Xiaomi's devices. I'm one of the admins in the Italian group.",
+    url: "https://t.me/xiaomiui"
+  },
+  {
+    role: "Italian translator",
+    company: "MIUIHome",
+    companylogo: require("./assets/images/miuihome.jpg"),
+    date: "2021 - present",
+    desc: "MIUIHome is an app to customize the official launcher of MIUI.",
+    url: "https://github.com/qqlittleice/MiuiHome_R"
   }
   ]
 };
