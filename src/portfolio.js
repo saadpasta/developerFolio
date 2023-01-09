@@ -413,6 +413,7 @@ export {
   greeting,
   socialMediaLinks,
   splashScreen,
+  donationInfo,
   skillsSection,
   educationInfo,
   techStack,
