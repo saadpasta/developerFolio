@@ -30,6 +30,12 @@ const greeting = {
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
+const donationInfo = {
+  title: emoji("Offer me a coffee ☕"),
+  subtitle: "I'm not getting any money reward from my translations, so any donation is very appreciated as it keeps me motivated while I translate.",
+  link: "https://ko-fi.com/alpha4041"
+};
+
 // Social Media Links
 
 const socialMediaLinks = {
@@ -185,7 +191,7 @@ const workExperiences = {
     {
       role: "Italian translator",
       company: "Songtube",
-      companylogo: require("./assets/images/songtube.jpg"),
+      companylogo: require("./assets/images/songtube.png"),
       date: "2021 - present",
       desc: "Songtube it's an app to download music from YouTube.",
       url: "https://songtube.github.io/"
