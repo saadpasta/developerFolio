@@ -5,6 +5,7 @@
   background-color: $lightBackground2;
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
   border-radius: 10px;
+  padding-bottom: 50px;
   border: 1px solid $lightBorder1;
 }
 
@@ -13,6 +14,7 @@
   background-color: $darkBackground;
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
   border-radius: 10px;
+  padding-bottom: 50px;
   border: 1px solid $lightBorder1;
 }
 
@@ -119,6 +121,7 @@
 
 .experience-text-desc {
   text-align: center;
+  min-height: 100px;
 }
 
 .experience-text-details {
