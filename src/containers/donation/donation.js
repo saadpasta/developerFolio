@@ -2,7 +2,6 @@ import React, {useContext} from "react";
 import "./donation.scss";
 import {illustration, donationInfo} from "../../portfolio";
 import {Fade} from "react-reveal";
-import "../../_globalColor";
 import donation from "../../assets/lottie/donation";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
