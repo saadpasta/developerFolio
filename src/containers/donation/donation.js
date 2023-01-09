@@ -26,6 +26,7 @@ export default function Donation() {
                         <Button
                         text="Support me"
                         href={donationInfo.link}
+                        newTab={true}
                         ></Button>
                         </div>
                     </div>

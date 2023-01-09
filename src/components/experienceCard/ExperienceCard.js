@@ -79,7 +79,9 @@ export default function ExperienceCard({cardInfo, isDark}) {
         <ul>
           <GetDescBullets descBullets={cardInfo.descBullets} isDark={isDark} />
         </ul>
-        <Button
+      </div>
+      <div className="experience-card-footer">
+      <Button
                       text={"Check it out"}
                       className="button-experience-div"
                       href={cardInfo.url}
