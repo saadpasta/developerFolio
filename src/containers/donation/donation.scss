@@ -21,19 +21,15 @@
     font-weight: 400;
   }
 
-.donation-subtitle {
-    text-transform: uppercase;
-  }
-
 .button-greeting-div {
     display: flex;
     margin-top: 20px;
   }
 
 .donation-image-div > img {
-    max-width: 100%;
+    max-width: 60%;
     height: auto;
-    margin-left: 1.5rem;
+    margin-left: 2rem;
     margin-top: -4rem;
   }
 
