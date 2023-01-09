@@ -32,7 +32,7 @@ const greeting = {
 
 const donationInfo = {
   title: emoji("Offer me a coffee ☕"),
-  subtitle: "I'm not getting any monetary reward from my translations yet, so any donation is appreciated as it keeps me motivated while I translate.",
+  subtitle: "I'm not getting any monetary reward from my translations yet, so any donation is appreciated as it keeps me motivated while I translate. You can donate with Kofi clicking the button below or you can contact me if you prefer to use another payment method (crypto, PayPal...)",
   link: "https://ko-fi.com/alpha4041"
 };
 
