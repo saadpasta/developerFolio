@@ -127,6 +127,13 @@
 }
 
 .experience-card-footer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.experience-card-footer span.button-experience-div {
   background: $buttonColor;
   color: $lightBackground3;
   vertical-align: middle;
