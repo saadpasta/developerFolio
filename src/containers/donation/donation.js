@@ -30,15 +30,6 @@ export default function Donation() {
                         href={donationInfo.link}
                         ></Button>
                         </div>
-                        <div className="donation-image-div">
-                        {illustration.animated ? (
-                        <DisplayLottie animationData={donation} />
-                        ) : (
-                        <img
-                        alt="Donation"
-                        src={require("../../assets/images/donation.svg")}
-                        ></img>)}
-                        </div>
                     </div>
                 </div>
             </div>
