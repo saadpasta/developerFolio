@@ -93,11 +93,7 @@ npm start
 
 ## Linking Portfolio to GitHub
 
-Generate a classic GitHub personal access token following these [instructions](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-personal-access-token-classic) (make sure you don't select any scope just generate a simple token). If you are using [GitHub Actions](#configuring-github-actions-recommended) to deploy your portfolio you can skip this section.
-
-1. Create a file called .env in the root directory of your project (if not done already in section: [How To Use](#how-to-use))
-
-Note: Configuring environment variables before deploying your portfolio is highly recommended as some components depend on API data. 
+1. Create a file called .env in the root directory of your project.
 
 ```bash
 - DeveloperFolio
@@ -105,46 +101,22 @@ Note: Configuring environment variables before deploying your portfolio is highl
   - public
   - src
   - .env         <-- create it here
-  - env.example  <-- this is the base file
   - .gitignore
   - package-lock.json
   - package.json
 ```
 
-2. Inside the .env file, add key `REACT_APP_GITHUB_TOKEN` and assign your GitHub token like this, also add your username as `GITHUB_USERNAME`
+2. Inside the .env file, add key `REACT_APP_GITHUB_TOKEN` and assign your github token like this.
 
-```env
-// .env
-REACT_APP_GITHUB_TOKEN = "YOUR GITHUB TOKEN HERE"
-GITHUB_USERNAME = "YOUR GITHUB USERNAME"
-USE_GITHUB_DATA = "true"
+```javascript
+ // .env
+
+  REACT_APP_GITHUB_TOKEN = "YOUR GITHUB TOKEN HERE"
+
+};
 ```
 
-Set `showGithubProfile` to true or false to show Contact Profile using GitHub, defaults to false.
-
-**Warning:** Treat your tokens like passwords and keep them secret. When working with the API, use tokens as environment variables instead of hardcoding them into your programs.
-
-Note: Open Source Projects section only show pinned items of your GitHub.
-If you are seeing something as shown below, follow these [instructions](https://docs.github.com/en/enterprise/2.13/user/articles/pinning-items-to-your-profile).
-
-![ERROR](https://i.imgur.com/Hj6mu1K.png)
-
-If the above solution still doesn't work, visit the [wiki page](https://github.com/saadpasta/developerFolio/wiki/Github-Setup-For-Open-Source-Projects).
-
-## Linking blogs section to Medium
-
-Optionally, you can link the blogs section to your medium user account:
-
-* Inside the .env file, add key `MEDIUM_USERNAME` and assign your Medium username
-
-```env
-// .env
-MEDIUM_USERNAME = "YOUR MEDIUM USERNAME"
-```
-
-* For Github Action, change the environment variable `MEDIUM_USERNAME` in `.github/workflows/deploy.yml`
-
-Set `displayMediumBlogs` to true or false in portofolio.js to display fetched Medium blogs, defaults to true.
+Set `showGithubProfile` to true or false to show Contact Profile using Github, defaults to false.
 
 ## Change and customize every section according to your need.
 
