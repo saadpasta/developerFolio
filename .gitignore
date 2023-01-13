@@ -7,22 +7,26 @@
 
 # testing
 /coverage
-/build
 
+# next.js
+/.next/
+/out/
+
+# production
+/build
 
 # misc
 .DS_Store
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+*.pem
 
+# debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.pnpm-debug.log*
 
-#user generated content
-public/profile.json
-public/blogs.json
-/developerfolio/package-lock.json
+# local env files
+.env*.local
+
+# vercel
+.vercel
