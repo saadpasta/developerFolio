@@ -1,57 +1,19 @@
 {
-  "homepage": "https://developerfolio.js.org/",
-  "name": "developerfolio",
+  "name": "no",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "colorthief": "^2.3.0",
-    "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.6",
-    "gh-pages": "^2.1.1",
-    "jest-canvas-mock": "^2.3.1",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2",
-    "react-easy-emoji": "^1.3.0",
-    "react-headroom": "^3.0.0",
-    "react-lottie": "^1.2.3",
-    "react-reveal": "^1.2.2",
-    "react-scripts": "^3.4.3",
-    "react-test-renderer": "^16.10.2",
-    "react-twitter-embed": "3.0.3",
-    "sass": "^1.32.8"
-  },
   "scripts": {
-    "predeploy": "npm run build",
-    "start": "node fetch.js && react-scripts start",
-    "build": "node fetch.js && react-scripts build",
-    "deploy": "gh-pages -b master -d build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
-    "check-format": "prettier -c \"./**/*.{js,css,json,scss}\""
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.3%",
-      "not ie 11",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      ">0.3%",
-      "not ie 11",
-      "not dead",
-      "not op_mini all",
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "dotenv": "^8.2.0",
-    "prettier": "^2.3.1"
+  "dependencies": {
+    "@next/font": "13.1.3",
+    "eslint": "8.32.0",
+    "eslint-config-next": "13.1.3",
+    "next": "13.1.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   }
 }
