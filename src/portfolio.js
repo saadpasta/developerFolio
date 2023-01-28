@@ -127,7 +127,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "YDN University",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/download(3).png"),
       subHeader: "Master of Science in Computer Science",
       duration: "September 2021 - April 2025",
       desc: "Participated in the research of XXX and published 3 papers.",
