@@ -14,8 +14,8 @@ export default function Footer() {
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           Theme by{" "}
-          <a href="https://github.com/saadpasta/developerFolio">
-            developerFolio
+          <a href="hhttps://github.com/81devGL/developerFolio">
+            81CuongVn
           </a>
         </p>
       </div>
