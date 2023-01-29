@@ -132,8 +132,8 @@ const educationInfo = {
       duration: "September 2021 - April 2025",
       desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Điều tuyệt vời khi học là biết, là cảm nhận của riêng bạn 💖",
+        "Chúng ta nhìn nhận công việc thông qua lối tư duy và suy nghĩ phản biện 🤼"
       ]
     },
     {
@@ -142,7 +142,7 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2022 - now",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      descBullets: ["Trước mắt chúng ta là cả một đại dương vô tận không biết điểm dừng ở đâu 🚢"]
     }
   ]
 };
