@@ -360,7 +360,7 @@ const podcastSection = {
   // Please Provide with Your Podcast embeded Link
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo",
-    "https://anchor.fm/codevcast/episodes/TechTalk---Front-End-Career-Path-ft--Slobodan-from-Serbia--Ex-Microsoft-e17jmvh"
+    "https://anchor.fm/codevcast/embed/episodes/TechTalk---Front-End-Career-Path-ft--Slobodan-from-Serbia--Ex-Microsoft-e17jmvh"
   ],
   display: true // Set false to hide this section, defaults to true
 };
