@@ -1,0 +1,47 @@
+/*Blog Cards Layout*/
+@import "../../../styles/globalColor.scss";
+
+.headerText {
+  font-size: 56px;
+  font-weight: 400;
+}
+
+.subtitle {
+  text-transform: uppercase;
+}
+.mainDiv > * {
+  flex: 1;
+  margin-bottom: 30px;
+}
+.mainDiv {
+  display: flex;
+}
+.textDiv {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 32px;
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .headerText {
+    font-size: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .headerText {
+    font-size: 30px;
+    text-align: center;
+  }
+  .subtitle {
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) and (min-width: 300px) {
+  .textDiv {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
