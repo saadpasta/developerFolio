@@ -1,6 +1,6 @@
-import '@/styles/globals.scss';
+import "@/styles/globals.scss";
 
-export default function RootLayout({ children }) {
+export default function RootLayout({children}) {
   return (
     <html lang="en">
       {/*
@@ -10,6 +10,5 @@ export default function RootLayout({ children }) {
       <head />
       <body>{children}</body>
     </html>
-  )
+  );
 }
-

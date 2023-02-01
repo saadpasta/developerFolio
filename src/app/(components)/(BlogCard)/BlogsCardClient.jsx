@@ -10,7 +10,9 @@ function BlogCardClient({blog, children}) {
     var win = window.open(url, "_blank");
     win.focus();
   }
-  return <div  onClick={() => openUrlInNewTab(blog.url, blog.title)}>{children}</div>;
+  return (
+    <div onClick={() => openUrlInNewTab(blog.url, blog.title)}>{children}</div>
+  );
 }
 
 export default BlogCardClient;

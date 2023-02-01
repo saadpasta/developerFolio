@@ -39,7 +39,8 @@ async function Blogs() {
       </div>
       <div className={styles.mainDiv}>
         <div className={styles.textDiv}>
-          {(!mediumBlogs && blogSection.displayMediumBlogs !== "true") || mediumBlogs === "Error"
+          {(!mediumBlogs && blogSection.displayMediumBlogs !== "true") ||
+          mediumBlogs === "Error"
             ? blogSection.blogs.map((blog, i) => {
                 return (
                   <BlogCard

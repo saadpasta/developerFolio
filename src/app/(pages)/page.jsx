@@ -1,6 +1,5 @@
 import Blogs from "../(containers)/(Blogs)/Blogs";
 
-
 export default function Home() {
   return (
     <>
