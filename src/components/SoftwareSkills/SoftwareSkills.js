@@ -1,17 +1,17 @@
 import React from "react";
-import "../styles/softwareSkills.module.scss";
-import {skillsSection} from "../portfolio";
+import styles from "./SoftwareSkills.module.scss";
+import {skillsSection} from "../../portfolio";
 
-export default function SoftwareSkill() {
+export default function SoftwareSkills() {
   return (
     <div>
       <div className="software-skills-main-div">
-        <ul className="dev-icons">
+        <ul className={styles.devIcons}>
           {skillsSection.softwareSkills.map((skills, i) => {
             return (
               <li
                 key={i}
-                className="software-skill-inline"
+                className={styles.softwareSkillInline}
                 name={skills.skillName}
               >
                 <i className={skills.fontAwesomeClassname}></i>
