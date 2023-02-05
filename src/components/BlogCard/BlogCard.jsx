@@ -1,10 +1,18 @@
+"use client";
 import React from "react";
 import styles from "./BlogCard.module.scss";
-import BlogCardClient from "./BlogsCardClient";
 
 export default function BlogCard({blog}) {
+  function openUrlInNewTab(url, name) {
+    if (!url) {
+      console.log(`URL for ${name} not found`);
+      return;
+    }
+    var win = window.open(url, "_blank");
+    win.focus();
+  }
   return (
-    <BlogCardClient blog={blog}>
+    <div onClick={() => openUrlInNewTab(blog.url, blog.title)}>
       <div className={styles.container}>
         <a className={styles.card} href="#blog">
           <h3 className={styles.title}>{blog.title}</h3>
@@ -14,6 +22,6 @@ export default function BlogCard({blog}) {
           </div>
         </a>
       </div>
-    </BlogCardClient>
+    </div>
   );
 }

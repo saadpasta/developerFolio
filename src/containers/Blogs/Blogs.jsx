@@ -1,7 +1,7 @@
 import React from "react";
 import {blogSection} from "../../portfolio";
 import styles from "./Blogs.module.scss";
-import BlogCard from "../../(components)/(BlogCard)/BlogCard";
+import BlogCard from "../../components/BlogCard/BlogCard";
 
 const getData = async () => {
   const {MEDIUM_USERNAME} = process.env;

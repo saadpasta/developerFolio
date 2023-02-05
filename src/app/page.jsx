@@ -1,6 +1,6 @@
-import Blogs from "../(containers)/(Blogs)/Blogs";
+import Blogs from "../containers/Blogs/Blogs";
 
-export default function Home() {
+export default async function Home() {
   return (
     <>
       <div>DeveloperFolio Migration to be done</div>
