@@ -85,7 +85,4 @@ const skillsSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-export {
-    illustration,
-    skillsSection,
-};
+export {illustration, skillsSection};

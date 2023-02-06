@@ -9,7 +9,7 @@ import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 
 export default function Skills() {
   //const {isDark} = useContext(StyleContext);
-  const isDark = true; 
+  const isDark = true;
   if (!skillsSection.display) {
     return null;
   }

@@ -6,7 +6,8 @@ export default function Document() {
       <Head>
         <link
           rel="stylesheet"
-          type="text/css" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.4/css/all.min.css"
+          type="text/css"
+          href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.4/css/all.min.css"
         />
       </Head>
       <body>
