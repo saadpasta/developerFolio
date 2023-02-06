@@ -1,6 +1,6 @@
 @import "../../styles/globalColor.scss";
 
-.devIcons {
+.dev-icons {
     padding-left: 0;
     list-style: none;
     font-size: 3rem;
@@ -9,23 +9,23 @@
     text-align: center;
   }
   
-  .softwareSkillInline {
+  .software-skill-inline {
     display: inline-block;
     margin-right: 20px;
     margin-bottom: 20px;
   }
   
-  .softwareSkillInline > i {
+  .software-skill-inline > i {
     color: $subTitle;
   }
   
-  .softwareSkillInline > i:hover {
+  .software-skill-inline > i:hover {
     color: $skillsColor;
   }
-  .softwareSkillInline > p {
+  .software-skill-inline > p {
     color: $subTitle;
     font-size: 10px;
   }
-  .softwareSkillInline > i:hover ~ p {
+  .software-skill-inline > i:hover ~ p {
     color: $skillsColor;
   }
