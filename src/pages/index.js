@@ -1,6 +1,6 @@
 import Head from "next/head";
 import {Inter} from "@next/font/google";
-import SoftwareSkills from "@/components/SoftwareSkills/SoftwareSkills";
+import Skills from "../containers/Skills/Skills";
 
 const inter = Inter({subsets: ["latin"]});
 
@@ -11,7 +11,7 @@ export default function Home() {
         <title>DeveloperFolio</title>
       </Head>
       <div>DeveloperFolio Migration to be done</div>
-      <SoftwareSkills />
+      <Skills />
     </>
   );
 }
