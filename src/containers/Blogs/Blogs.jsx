@@ -2,35 +2,12 @@ import React from "react";
 import {blogSection} from "../../portfolio";
 import styles from "./Blogs.module.scss";
 import BlogCard from "../../components/BlogCard/BlogCard";
-
-const getData = async () => {
-  const {MEDIUM_USERNAME} = process.env;
-  if (!MEDIUM_USERNAME) return "Error";
-  const options = {
-    method: "GET",
-    cache: "force-cache"
-  };
-  const url = `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@${MEDIUM_USERNAME}`;
-
-  const result = await fetch(url, options);
-  if (!result.ok) return "Error";
-
-  const res = await result.json();
-  return res.items;
-};
+import {getMediumBlogs} from "../../client/mediumBlogs";
+import {extractTextContentFromHtml} from "../../utils";
 
 async function Blogs() {
-  const mediumBlogs = await getData();
-  //Medium API returns blogs' content in HTML format. Below function extracts blogs' text content within paragraph tags
-  function extractTextContent(html) {
-    return typeof html === "string"
-      ? html
-          .split("p>")
-          .filter(el => !el.includes(">"))
-          .map(el => el.replace("</", ".").replace("<", ""))
-          .join(" ")
-      : NaN;
-  }
+  const mediumBlogs = await getMediumBlogs();
+
   return (
     <div className="main" id="blogs">
       <div>
@@ -61,7 +38,7 @@ async function Blogs() {
                     blog={{
                       url: blog.link,
                       title: blog.title,
-                      description: extractTextContent(blog.content)
+                      description: extractTextContentFromHtml(blog.content)
                     }}
                   />
                 );
