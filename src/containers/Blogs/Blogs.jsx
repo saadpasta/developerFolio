@@ -1,5 +1,5 @@
 import React from "react";
-import {blogSection} from "../../portfolio";
+import {blogSection} from "../../pages/portfolio";
 import styles from "./Blogs.module.scss";
 import BlogCard from "../../components/BlogCard/BlogCard";
 import {getMediumBlogs} from "../../client/mediumBlogs";
