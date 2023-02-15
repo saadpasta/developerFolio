@@ -1,5 +1,3 @@
-"use client";
-
 import React, {Suspense} from "react";
 //import Lottie from "react-lottie";
 import Lottie from "lottie-react";
