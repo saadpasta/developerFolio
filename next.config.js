@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  distDir: 'build',
+  distDir: "build",
   experimental: {
-    appDir: true,
-  },  
+    appDir: true
+  },
   //this is to support automatic camelCasing in module.scss files
   webpack: config => {
     const rules = config.module.rules
