@@ -1,10 +1,14 @@
+"use client"
+
 import React, {useContext} from "react";
 import "./Skills.module.scss";
 import SoftwareSkills from "../../components/softwareSkills/SoftwareSkills";
 import {illustration, skillsSection} from "../../pages/portfolio";
-import {Fade} from "react-reveal";
+//import {Fade} from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
+import Image from 'next/image';
 //import StyleContext from "../../contexts/StyleContext";
 
 export default function Skills() {
@@ -21,10 +25,10 @@ export default function Skills() {
             {illustration.animated ? (
               <DisplayLottie animationData={codingPerson} />
             ) : (
-              <img
+              <Image
                 alt="Man Working"
                 src={require("../../assets/images/developerActivity.svg")}
-              ></img>
+              />
             )}
           </div>
         </Fade>

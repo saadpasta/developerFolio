@@ -12,12 +12,22 @@
     "@next/font": "13.1.3",
     "eslint": "8.32.0",
     "eslint-config-next": "13.1.3",
+    "lottie-react": "^2.3.1",
     "next": "13.1.3",
     "react": "18.2.0",
+    "react-awesome-reveal": "^4.2.3",
     "react-dom": "18.2.0",
-    "sass": "^1.58.0",
     "react-easy-emoji": "^1.8.1",
     "react-lottie": "^1.2.3",
-    "react-reveal": "^1.2.2"
+    "react-reveal": "^1.2.2",
+    "sass": "^1.58.0"
+  },
+  "overrides": {
+    "react-lottie": {
+      "react": "^18.0.0"
+    },
+    "react-reveal": {
+      "react": "^18.0.0"
+    }
   }
 }
