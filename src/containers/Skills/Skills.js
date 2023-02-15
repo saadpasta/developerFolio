@@ -1,14 +1,14 @@
-"use client"
+"use client";
 
 import React, {useContext} from "react";
 import styles from "./Skills.module.scss";
 import SoftwareSkills from "../../components/SoftwareSkills/SoftwareSkills";
 import {illustration, skillsSection} from "../../pages/portfolio";
 //import {Fade} from "react-reveal";
-import { Fade } from "react-awesome-reveal";
+import {Fade} from "react-awesome-reveal";
 import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
-import Image from 'next/image';
+import Image from "next/image";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Skills() {
