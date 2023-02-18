@@ -2,6 +2,9 @@
   "homepage": "https://developerfolio.js.org/",
   "name": "developerfolio",
   "version": "0.1.0",
+  "engines": {
+    "node": "14.20.0"
+  },
   "private": true,
   "dependencies": {
     "colorthief": "^2.3.0",
