@@ -23,7 +23,7 @@ const greeting = {
   username: "Rob Meyer",
   title: "Rob Meyer",
   subTitle: 
-    "Passionate Software Quality Engineer 🚀 I build robust integration and UI automated testing solutions using Javascript / Nodejs / Python and some other cool libraries and frameworks."
+    "Software Quality Engineer 🚀 I build robust integration and UI automated testing solutions using Javascript / Nodejs / Python and some other cool libraries and frameworks."
   ,
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -182,7 +182,7 @@ const workExperiences = {
       descBullets: [
         "Architected, developed and maintained a UI automation framework using Selenium and Python Bindings.",
         "Developed and maintained several integration test suites using Postman.",
-        "Integrated our testing frameworks into our Azure build pipelines which captured software defects in lower environments and enhanced overall product stability."
+        "Integrated our testing frameworks into Azure build pipelines which captured software defects in lower environments and enhanced overall product stability."
 
       ]
     },
