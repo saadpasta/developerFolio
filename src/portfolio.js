@@ -125,7 +125,7 @@ const educationInfo = {
       schoolName: "Ohio University",
       logo: require("./assets/images/ohioLogo.png"),
       subHeader: "Bachelor of Science in Management Information Systems (MIS)",
-      duration: "September 2011 - September 2014",
+      duration: "September 2011 - June 2014",
       desc: "Completed the under graduate program in the Fischer College of Business.",
       descBullets: [
         "Established strong object oriented programming fundamentals using C#.",
