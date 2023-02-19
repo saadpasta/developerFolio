@@ -8,6 +8,7 @@
   "private": true,
   "dependencies": {
     "colorthief": "^2.3.0",
+    "dotenv": "^8.6.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.6",
     "gh-pages": "^2.1.1",
@@ -54,7 +55,7 @@
     ]
   },
   "devDependencies": {
-    "dotenv": "^8.2.0",
+    "dotenv": "^8.6.0",
     "prettier": "^2.3.1"
   }
 }
