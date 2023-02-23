@@ -50,10 +50,10 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly scalable solutions for your applications on the cloud"
     ),
-    emoji("⚡ Deploy serverless architecture on the cloud for simpler applications"),
     emoji(
-      "⚡ Integration of third party services"
-    )
+      "⚡ Deploy serverless architecture on the cloud for simpler applications"
+    ),
+    emoji("⚡ Integration of third party services")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
