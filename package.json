@@ -18,16 +18,6 @@
     "react-awesome-reveal": "^4.2.3",
     "react-dom": "18.2.0",
     "react-easy-emoji": "^1.8.1",
-    "react-lottie": "^1.2.3",
-    "react-reveal": "^1.2.2",
     "sass": "^1.58.0"
-  },
-  "overrides": {
-    "react-lottie": {
-      "react": "^18.0.0"
-    },
-    "react-reveal": {
-      "react": "^18.0.0"
-    }
   }
 }

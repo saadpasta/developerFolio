@@ -24,11 +24,3 @@ export default function SoftwareSkills() {
     </div>
   );
 }
-
-// export async function getStaticProps() {
-//   return {
-//     props: {
-//       skillsSection
-//     }
-//   }
-// }
