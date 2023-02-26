@@ -39,7 +39,7 @@
 }
 .achievement-cards-div {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 600px));
   gap: 1rem 1rem;
 }
 .certificate-card-footer {

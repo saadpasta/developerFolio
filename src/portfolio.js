@@ -156,7 +156,7 @@ https://fontawesome.com/icons?d=gallery */
       iconData: {
         link: "https://isocpp.org/",
         icon: require("./assets/images/ISO_C++_Logo.svg"),
-        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/cpp.png"),
+        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/cpp.webp"),
         tooltip: {
           name: "C++",
           type: "PROGRAMMING LANGUAGE",
@@ -168,23 +168,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "C#",
       iconData: {
         link: "https://docs.microsoft.com/en-us/dotnet/csharp/",
-        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/csharp.png"),
+        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/csharp.webp"),
         icon: require("./assets/images/csharp.svg"),
         tooltip: {
           name: "C#",
-          type: "PROGRAMMING LANGUAGE",
-          proficiency: 4
-        }
-      }
-    },
-    {
-      skillName: "Java",
-      iconData: {
-        link: "https://www.java.com/en/",
-        icon: require("./assets/images/java.png"),
-        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/javaComposit.png"),
-        tooltip: {
-          name: "Java",
           type: "PROGRAMMING LANGUAGE",
           proficiency: 4
         }
@@ -195,7 +182,7 @@ https://fontawesome.com/icons?d=gallery */
       iconData: {
         link: "https://www.typescriptlang.org/",
         icon: require("./assets/images/TypeScript.svg"),
-        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/ts.png"),
+        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/ts.webp"),
         tooltip: {
           name: "TypeScript",
           type: "PROGRAMMING LANGUAGE",
@@ -207,8 +194,8 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "JavaScript",
       iconData: {
         link: "https://www.javascript.com/",
-        icon: require("./assets/images/js.png"),
-        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/jsComposit.png"),
+        icon: require("./assets/images/js.webp"),
+        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/jsComposit.webp"),
         tooltip: {
           name: "JavaScript",
           type: "PROGRAMMING LANGUAGE",
@@ -222,7 +209,7 @@ https://fontawesome.com/icons?d=gallery */
         link: "https://www.unrealengine.com/en-US/",
         icon: require("./assets/images/ue4Desat.svg"),
         saturatedIcon: require("./assets/images/ue4.svg"),
-        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/ue4.png"),
+        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/ue4.webp"),
         tooltip: {
           name: "Unreal Engine 4",
           type: "GAME ENGINE",
@@ -236,7 +223,7 @@ https://fontawesome.com/icons?d=gallery */
         link: "https://unity.com/",
         icon: require("./assets/images/unityDesat.svg"),
         saturatedIcon: require("./assets/images/unitySat.svg"),
-        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/unityComposit.png"),
+        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/unityComposit.webp"),
         tooltip: {
           name: "Unity",
           type: "GAME ENGINE",
@@ -248,8 +235,8 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Blender",
       iconData: {
         link: "https://www.blender.org/",
-        icon: require("./assets/images/blender_icon_64x64.png"),
-        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/blenderComposit.png"),
+        icon: require("./assets/images/blender_icon_64x64.webp"),
+        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/blenderComposit.webp"),
         tooltip: {
           name: "Blender",
           type: "3D MODELING TOOL",
@@ -261,8 +248,8 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Git",
       iconData: {
         link: "https://git-scm.com",
-        icon: require("./assets/images/Git.png"),
-        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/gitComposit.png"),
+        icon: require("./assets/images/Git.webp"),
+        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/gitComposit.webp"),
         tooltip: {
           name: "Git",
           type: "VERSION CONTROL",
@@ -276,11 +263,81 @@ https://fontawesome.com/icons?d=gallery */
         name: "Visual Studio",
         link: "https://visualstudio.microsoft.com/",
         icon: require("./assets/images/vs19.svg"),
-        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/vsComposit.png"),
+        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/vsComposit.webp"),
         tooltip: {
           name: "Visual Studio",
           type: "IDE",
           proficiency: 4
+        }
+      }
+    },
+    {
+      skillName: "Switch SDK",
+      iconData: {
+        link: "https://developer.nintendo.com/",
+        icon: require("./assets/images/ndiDesat.webp"),
+        saturatedIcon: require("./assets/images/ndi.webp"),
+        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/ndiComposit.webp"),
+        tooltip: {
+          name: "Nintendo Switch SDK",
+          type: "API/SDK",
+          proficiency: 3
+        }
+      }
+    },
+    {
+      skillName: "OpenGL",
+      iconData: {
+        link: "https://www.opengl.org//",
+        icon: require("./assets/images/openglDesat.svg"),
+        saturatedIcon: require("./assets/images/opengl.svg"),
+        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/glComposit.webp"),
+        tooltip: {
+          name: "OpenGL",
+          type: "GRAPHICS API",
+          proficiency: 4
+        }
+      }
+    },
+    {
+      skillName: "WebGL",
+      iconData: {
+        link: "https://www.khronos.org/webgl/",
+        icon: require("./assets/images/WebGL_LogoDeSat.svg"),
+        saturatedIcon: require("./assets/images/WebGL_Logo.svg"),
+        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/glComposit.webp"),
+        tooltip: {
+          name: "WebGL",
+          type: "GRAPHICS API",
+          proficiency: 4
+        }
+      }
+    },
+    {
+      skillName: "Discord API",
+      iconData: {
+        link: "https://discord.com/developers/docs/intro",
+        icon: require("./assets/images/Discord-Logo-Color.svg"),
+        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/discordComposit.webp"),
+        tooltip: {
+          name: "Discord API",
+          type: "API (JS, PYTHON, C#)",
+          proficiency: 5
+        }
+      }
+    }
+  ],
+  /*
+  unusedSoftwareSkills:[ {
+    skillName: "Java",
+    iconData: {
+      link: "https://www.java.com/en/",
+      icon: require("./assets/images/java.png"),
+      boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/javaComposit.png"),
+      tooltip: {
+        name: "Java",
+        type: "PROGRAMMING LANGUAGE",
+        proficiency: 4
         }
       }
     },
@@ -342,62 +399,7 @@ https://fontawesome.com/icons?d=gallery */
         }
       }
     },
-    {
-      skillName: "Switch SDK",
-      iconData: {
-        link: "https://developer.nintendo.com/",
-        icon: require("./assets/images/ndiDesat.png"),
-        saturatedIcon: require("./assets/images/ndi.png"),
-        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/ndiComposit.png"),
-        tooltip: {
-          name: "Nintendo Switch SDK",
-          type: "API/SDK",
-          proficiency: 3
-        }
-      }
-    },
-    {
-      skillName: "OpenGL",
-      iconData: {
-        link: "https://www.opengl.org//",
-        icon: require("./assets/images/openglDesat.svg"),
-        saturatedIcon: require("./assets/images/opengl.svg"),
-        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/glComposit.png"),
-        tooltip: {
-          name: "OpenGL",
-          type: "GRAPHICS API",
-          proficiency: 4
-        }
-      }
-    },
-    {
-      skillName: "WebGL",
-      iconData: {
-        link: "https://www.khronos.org/webgl/",
-        icon: require("./assets/images/WebGL_LogoDeSat.svg"),
-        saturatedIcon: require("./assets/images/WebGL_Logo.svg"),
-        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/glComposit.png"),
-        tooltip: {
-          name: "WebGL",
-          type: "GRAPHICS API",
-          proficiency: 4
-        }
-      }
-    },
-    {
-      skillName: "Discord API",
-      iconData: {
-        link: "https://discord.com/developers/docs/intro",
-        icon: require("./assets/images/Discord-Logo-Color.svg"),
-        boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/discordComposit.png"),
-        tooltip: {
-          name: "Discord API",
-          type: "API (JS, PYTHON, C#)",
-          proficiency: 5
-        }
-      }
-    }
-  ],
+  ],*/
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -408,7 +410,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Julius-Maximilians University",
-      logo: require("./assets/images/uniwue.png"),
+      logo: require("./assets/images/uniwue.webp"),
       subHeader: "Games Engineering BSc",
       duration: "September 2019 - Current",
       desc: "Received highest grade for all Games Engineering projects:",
@@ -422,7 +424,7 @@ const educationInfo = {
     },
     {
       schoolName: "Friedrich-List-Gymnasium Gemünden",
-      logo: require("./assets/images/flg.jpg"),
+      logo: require("./assets/images/flg.webp"),
       subHeader: "Abitur",
       duration: "September 2011 - July 2019"
     }
@@ -458,7 +460,7 @@ const workExperiences = {
     {
       role: "Software Engineering Intern",
       company: "Advanced Micro Devices, Inc.",
-      companylogo: require("./assets/images/AMD_E_Wh_RGB.jpg"),
+      companylogo: require("./assets/images/AMD_E_Wh_RGB.webp"),
       date: "October 2022 – Present",
       desc: "",
       descBullets: [
@@ -467,7 +469,7 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "Building Information Innovator GmbH",
-      companylogo: require("./assets/images/bii2.png"),
+      companylogo: require("./assets/images/bii2.webp"),
       date: "March 2021 – September 2021",
       desc: "Developed professional digital tool for modeling, simulation and visualization of construction processes with Unity and a functional C# library.",
       descBullets: [
@@ -478,7 +480,7 @@ const workExperiences = {
     {
       role: "Tutor for Game Lab I",
       company: "Julius-Maximilians University",
-      companylogo: require("./assets/images/uniwue.png"),
+      companylogo: require("./assets/images/uniwue.webp"),
       date: "October 2020 – September 2022",
       desc: "Supported students at overcoming problems they faced during game development process.",
       descBullets: [
@@ -505,7 +507,7 @@ const bigProjects = {
   projects: [
     {
       video: require("./assets/videos/fractalWebSnippet.webm"),
-      image: require("./assets/images/fractalEngineLogo.png"),
+      image: require("./assets/images/fractalEngineLogo.webp"),
       projectName: "",
       projectDesc:
         "Hardware-oriented, specialised Framework for the Nintendo Switch ™ console with a focus on compile-time-safe loading, use of hardware features and various graphics options. Minesweeper was implemented as proof of concept game.",
@@ -519,7 +521,7 @@ const bigProjects = {
     },
     {
       video: require("./assets/videos/HauntedForest.webm"),
-      image: require("./assets/images/mmwge.png"),
+      image: require("./assets/images/mmwge.webp"),
       projectName: "BrightnessBasedTextureLayering",
       projectDesc:
         "This PostProcess effect uses the Unreal Engine 4 exposure system to create an artistic image from textures. Created in collaboration with four design students.",
@@ -537,7 +539,7 @@ const bigProjects = {
     },
     {
       video: require("./assets/videos/EmptySpaces.webm"),
-      image: require("./assets/images/emptySpaces.png"),
+      image: require("./assets/images/emptySpaces.webp"),
       projectName: "Empty Spaces",
       projectDesc:
         "A game prototype that explores the combination of Bullet-Hell-Twin-Stick-Shooters and Metroidvania style games. The game contains four areas and three bosses. ",
@@ -554,7 +556,7 @@ const bigProjects = {
     },
     {
       video: require("./assets/videos/balancingHub.webm"),
-      image: require("./assets/images/balancingHub.png"),
+      image: require("./assets/images/balancingHub.webp"),
       projectName: "Balancing Hub",
       projectDesc:
         'Balance your variables while playing with the "Balancing Hub" plugin for Unreal Engine 4.24.3. Created in collaboration with Quirin Maier.',
@@ -586,7 +588,7 @@ const gameJams = {
   projects: [
     {
       video: require("./assets/videos/boids.webm"),
-      image: require("./assets/images/boidLogo.png"),
+      image: require("./assets/images/boidLogo.webp"),
       projectName: "WebGL Boid Simulation",
       projectDesc:
         "Boid Simulation on this website. Calculated on the GPU via Transform Feedbacks.",
@@ -599,7 +601,7 @@ const gameJams = {
     },
     {
       video: require("./assets/videos/dada.webm"),
-      image: require("./assets/images/longLegs.png"),
+      image: require("./assets/images/longLegs.webp"),
       projectName: "Dada LongLegs",
       projectDesc:
         "This game was submission the Franken Game Jam 2021. The theme was Growth.",
@@ -617,7 +619,7 @@ const gameJams = {
     },
     {
       video: require("./assets/videos/TDCratos.webm"),
-      image: require("./assets/images/TDCratos.png"),
+      image: require("./assets/images/TDCratos.webp"),
       projectName: "TD Cratos",
       projectDesc:
         "This game started as a self proposed 72H game challenge and introduced me to unity.",
@@ -652,7 +654,7 @@ const referencesSection = {
       location: "Würzburg, Germany",
       website: "https://www.bii-gmbh.com/",
       email: "goetz@bii-gmbh.com",
-      image: require("./assets/images/bii2.png")
+      image: require("./assets/images/bii2.webp")
     }
   ]
 };
@@ -661,58 +663,25 @@ const referencesSection = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Honors & Scholarships"),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Honors and Scholarships i received",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Deutschlandstipendium",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Scholarship granted by the Julius-Maximilians-Universität Würzburg. Co-financed by Lotum media GmbH",
+      image: require("./assets/images/logo-deutschlandstipendium.webp"),
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "University Page",
+          url: "https://www.uni-wuerzburg.de/aktuelles/einblick/single/news/gemeinsam-sind-wir-stark/"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
