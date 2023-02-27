@@ -82,6 +82,10 @@
   transition: 0.2s ease-in;
 }
 
+.project-card-footer span.project-tag:hover {
+  background: $buttonHover;
+}
+
 @media (max-width: 768px) {
   .project-subtitle {
     font-size: 16px;
