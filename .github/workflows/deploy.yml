@@ -15,10 +15,11 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v3 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
         with:
-          node-version: 16
           persist-credentials: false
           submodules: true
       - name: Install and Build 🔧 # Build the Project
+        with:
+          node-version: 16
         run: |
           npm install
           npm run build
