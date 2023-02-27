@@ -17,10 +17,11 @@ jobs:
         with:
           persist-credentials: false
           submodules: true
-      - name: Install and Build 🔧 # Build the Project
+      - name: Node
         uses: actions/setup-node@v3
         with:
           node-version: 16
+      - name: Install and Build 🔧 # Build the Project
         run: |
           npm install
           npm run build
