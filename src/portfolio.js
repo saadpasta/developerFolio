@@ -155,7 +155,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "C++",
       iconData: {
         link: "https://isocpp.org/",
-        icon: require("./assets/images/ISO_C++_Logo.svg"),
+        icon: require("./assets/images/ISO_C++_Logo.webp"),
         boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/cpp.webp"),
         tooltip: {
           name: "C++",
@@ -169,7 +169,7 @@ https://fontawesome.com/icons?d=gallery */
       iconData: {
         link: "https://docs.microsoft.com/en-us/dotnet/csharp/",
         boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/csharp.webp"),
-        icon: require("./assets/images/csharp.svg"),
+        icon: require("./assets/images/csharp.webp"),
         tooltip: {
           name: "C#",
           type: "PROGRAMMING LANGUAGE",
@@ -181,7 +181,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "TypeScript",
       iconData: {
         link: "https://www.typescriptlang.org/",
-        icon: require("./assets/images/TypeScript.svg"),
+        icon: require("./assets/images/TypeScript.webp"),
         boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/ts.webp"),
         tooltip: {
           name: "TypeScript",
@@ -207,8 +207,8 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Unreal 4",
       iconData: {
         link: "https://www.unrealengine.com/en-US/",
-        icon: require("./assets/images/ue4Desat.svg"),
-        saturatedIcon: require("./assets/images/ue4.svg"),
+        icon: require("./assets/images/ue4Desat.webp"),
+        saturatedIcon: require("./assets/images/ue4.webp"),
         boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/ue4.webp"),
         tooltip: {
           name: "Unreal Engine 4",
@@ -221,8 +221,8 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Unity",
       iconData: {
         link: "https://unity.com/",
-        icon: require("./assets/images/unityDesat.svg"),
-        saturatedIcon: require("./assets/images/unitySat.svg"),
+        icon: require("./assets/images/unityDesat.webp"),
+        saturatedIcon: require("./assets/images/unitySat.webp"),
         boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/unityComposit.webp"),
         tooltip: {
           name: "Unity",
@@ -262,7 +262,7 @@ https://fontawesome.com/icons?d=gallery */
       iconData: {
         name: "Visual Studio",
         link: "https://visualstudio.microsoft.com/",
-        icon: require("./assets/images/vs19.svg"),
+        icon: require("./assets/images/vs19.webp"),
         boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/vsComposit.webp"),
         tooltip: {
           name: "Visual Studio",
@@ -289,8 +289,8 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "OpenGL",
       iconData: {
         link: "https://www.opengl.org//",
-        icon: require("./assets/images/openglDesat.svg"),
-        saturatedIcon: require("./assets/images/opengl.svg"),
+        icon: require("./assets/images/openglDesat.webp"),
+        saturatedIcon: require("./assets/images/opengl.webp"),
         boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/glComposit.webp"),
         tooltip: {
           name: "OpenGL",
@@ -303,8 +303,8 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "WebGL",
       iconData: {
         link: "https://www.khronos.org/webgl/",
-        icon: require("./assets/images/WebGL_LogoDeSat.svg"),
-        saturatedIcon: require("./assets/images/WebGL_Logo.svg"),
+        icon: require("./assets/images/WebGL_LogoDeSat.webp"),
+        saturatedIcon: require("./assets/images/WebGL_Logo.webp"),
         boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/glComposit.webp"),
         tooltip: {
           name: "WebGL",
@@ -317,7 +317,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Discord API",
       iconData: {
         link: "https://discord.com/developers/docs/intro",
-        icon: require("./assets/images/Discord-Logo-Color.svg"),
+        icon: require("./assets/images/Discord-Logo-Color.webp"),
         boidForceTexture: require("./submodules/WebGL-Boids/forceFieldTextureCreator/mediaOut/discordComposit.webp"),
         tooltip: {
           name: "Discord API",
@@ -645,7 +645,7 @@ const referencesSection = {
       location: "Würzburg, Germany",
       website: "http://hci.uni-wuerzburg.de/people/sebastian-von-mammen/",
       email: "sebastian.von.mammen@uni-wuerzburg.de",
-      image: require("./assets/images/GE-logo.svg")
+      image: require("./assets/images/GE-logo.webp")
     },
     {
       name: "Daniel Götz",
@@ -692,18 +692,6 @@ const blogSection = {
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
   ],
   display: false // Set false to hide this section, defaults to true
 };
@@ -755,6 +743,8 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
+const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+
 export {
   illustration,
   greeting,
@@ -773,5 +763,6 @@ export {
   talkSection,
   podcastSection,
   contactInfo,
-  twitterDetails
+  twitterDetails,
+  isHireable
 };

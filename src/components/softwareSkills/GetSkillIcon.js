@@ -8,6 +8,7 @@ export default function GetSkillIcon(input) {
         id={input.tooltip.name + "-forceTexture"}
         className="dev-hidden-img"
         src={input.boidForceTexture}
+        alt="texture-for-boids"
       ></img>
       <a
         className="software-skill-pointer"
