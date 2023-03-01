@@ -1,0 +1,4 @@
+import { Provider } from "@aws-sdk/types";
+export declare const normalizeProvider: <T>(
+  input: T | Provider<T>
+) => Provider<T>;

@@ -1,0 +1,38 @@
+@import "../../_globalColor";
+
+.video-card {
+    position: relative;
+    background-color: $lightBackground2;
+    box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
+    border-radius: 10px;
+    border: 1px solid $lightBorder1;
+  }
+  
+  .video-card-dark {
+    position: relative;
+    background-color: $darkBackground;
+    box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
+    border-radius: 10px;
+    border: 1px solid $lightBorder1;
+  }
+  
+  .video-card:hover {
+    box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
+  }
+  
+  .video-banner {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background: $experienceCardBannerLG;
+    border-radius: 10px 10px 0px 0px;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+    height: 11rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }

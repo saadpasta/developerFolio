@@ -1,0 +1,9 @@
+import { AbortController } from "./abort";
+export interface WaiterConfiguration<Client> {
+  client: Client;
+  maxWaitTime: number;
+  abortController?: AbortController;
+  abortSignal?: AbortController["signal"];
+  minDelay?: number;
+  maxDelay?: number;
+}

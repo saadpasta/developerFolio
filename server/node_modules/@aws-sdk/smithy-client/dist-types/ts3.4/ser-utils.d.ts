@@ -1,0 +1,1 @@
+export declare const serializeFloat: (value: number) => string | number;

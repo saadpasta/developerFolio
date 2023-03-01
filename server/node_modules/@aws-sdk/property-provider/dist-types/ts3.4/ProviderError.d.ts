@@ -1,0 +1,6 @@
+export declare class ProviderError extends Error {
+  readonly tryNextLink: boolean;
+  name: string;
+  constructor(message: string, tryNextLink?: boolean);
+  static from(error: Error, tryNextLink?: boolean): ProviderError;
+}

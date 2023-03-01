@@ -1,0 +1,5 @@
+import { EndpointVariantTag } from "./EndpointVariantTag";
+export declare type EndpointVariant = {
+  hostname: string;
+  tags: EndpointVariantTag[];
+};

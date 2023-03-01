@@ -1,0 +1,32 @@
+import { EndpointParameterInstructions } from "@aws-sdk/middleware-endpoint";
+import { Command as $Command } from "@aws-sdk/smithy-client";
+import {
+  Handler,
+  HttpHandlerOptions as __HttpHandlerOptions,
+  MetadataBearer as __MetadataBearer,
+  MiddlewareStack,
+} from "@aws-sdk/types";
+import { LogoutRequest } from "../models/models_0";
+import {
+  ServiceInputTypes,
+  ServiceOutputTypes,
+  SSOClientResolvedConfig,
+} from "../SSOClient";
+export interface LogoutCommandInput extends LogoutRequest {}
+export interface LogoutCommandOutput extends __MetadataBearer {}
+export declare class LogoutCommand extends $Command<
+  LogoutCommandInput,
+  LogoutCommandOutput,
+  SSOClientResolvedConfig
+> {
+  readonly input: LogoutCommandInput;
+  static getEndpointParameterInstructions(): EndpointParameterInstructions;
+  constructor(input: LogoutCommandInput);
+  resolveMiddleware(
+    clientStack: MiddlewareStack<ServiceInputTypes, ServiceOutputTypes>,
+    configuration: SSOClientResolvedConfig,
+    options?: __HttpHandlerOptions
+  ): Handler<LogoutCommandInput, LogoutCommandOutput>;
+  private serialize;
+  private deserialize;
+}

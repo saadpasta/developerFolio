@@ -1,0 +1,4 @@
+export declare const defaultDelayDecider: (
+  delayBase: number,
+  attempts: number
+) => number;

@@ -1,0 +1,14 @@
+export interface ResponseMetadata {
+  httpStatusCode?: number;
+  requestId?: string;
+  extendedRequestId?: string;
+  cfId?: string;
+  attempts?: number;
+  totalRetryDelay?: number;
+}
+export interface MetadataBearer {
+  $metadata: ResponseMetadata;
+}
+export interface Response {
+  body: any;
+}

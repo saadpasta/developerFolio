@@ -1,0 +1,6 @@
+export declare enum RETRY_MODES {
+  STANDARD = "standard",
+  ADAPTIVE = "adaptive",
+}
+export declare const DEFAULT_MAX_ATTEMPTS = 3;
+export declare const DEFAULT_RETRY_MODE: RETRY_MODES;

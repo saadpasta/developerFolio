@@ -1,0 +1,6 @@
+import { ProviderError } from "./ProviderError";
+export declare class CredentialsProviderError extends ProviderError {
+  readonly tryNextLink: boolean;
+  name: string;
+  constructor(message: string, tryNextLink?: boolean);
+}

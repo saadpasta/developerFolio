@@ -1,0 +1,18 @@
+export declare type RequestHandlerOutput<ResponseType> = {
+  response: ResponseType;
+};
+export interface RequestHandler<
+  RequestType,
+  ResponseType,
+  HandlerOptions = {}
+> {
+  metadata?: RequestHandlerMetadata;
+  destroy?: () => void;
+  handle: (
+    request: RequestType,
+    handlerOptions?: HandlerOptions
+  ) => Promise<RequestHandlerOutput<ResponseType>>;
+}
+export interface RequestHandlerMetadata {
+  handlerProtocol: string;
+}

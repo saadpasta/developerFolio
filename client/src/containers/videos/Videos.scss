@@ -1,0 +1,39 @@
+@import "../../_globalColor";
+
+.videos-container {
+    display: flex;
+    width: 90%;
+    padding: 20px 10px;
+    margin: 0px auto;
+    margin-top: 2rem;
+  }
+
+.video-cards-div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 1rem 1rem;
+  }
+
+.videos-container > * {
+    flex: 1;
+  }
+
+.videos-heading {
+    font-size: 56px;
+    font-weight: 400;
+  }
+
+/* Media Query */
+
+@media (max-width: 1380px) {
+    .videos-heading {
+      font-size: 40px;
+    }
+  }
+  
+@media (max-width: 768px) {
+    .videos-heading {
+      font-size: 30px;
+      text-align: center;
+    }
+  }  

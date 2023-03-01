@@ -1,0 +1,6 @@
+import { Provider } from "@aws-sdk/types";
+import { RemoteProviderInit } from "./remoteProvider/RemoteProviderInit";
+import { InstanceMetadataCredentials } from "./types";
+export declare const fromInstanceMetadata: (
+  init?: RemoteProviderInit
+) => Provider<InstanceMetadataCredentials>;

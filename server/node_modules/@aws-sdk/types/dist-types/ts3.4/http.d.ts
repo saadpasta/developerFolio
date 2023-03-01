@@ -1,0 +1,33 @@
+import { AbortSignal } from "./abort";
+export interface Headers extends Map<string, string> {
+  withHeader(headerName: string, headerValue: string): Headers;
+  withoutHeader(headerName: string): Headers;
+}
+export declare type HeaderBag = Record<string, string>;
+export interface HttpMessage {
+  headers: HeaderBag;
+  body?: any;
+}
+export declare type QueryParameterBag = Record<
+  string,
+  string | Array<string> | null
+>;
+export interface Endpoint {
+  protocol: string;
+  hostname: string;
+  port?: number;
+  path: string;
+  query?: QueryParameterBag;
+}
+export interface HttpRequest extends HttpMessage, Endpoint {
+  method: string;
+}
+export interface HttpResponse extends HttpMessage {
+  statusCode: number;
+}
+export interface ResolvedHttpResponse extends HttpResponse {
+  body: string;
+}
+export interface HttpHandlerOptions {
+  abortSignal?: AbortSignal;
+}

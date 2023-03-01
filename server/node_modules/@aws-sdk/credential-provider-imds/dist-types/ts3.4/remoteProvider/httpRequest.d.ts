@@ -1,0 +1,2 @@
+import { RequestOptions } from "http";
+export declare function httpRequest(options: RequestOptions): Promise<Buffer>;

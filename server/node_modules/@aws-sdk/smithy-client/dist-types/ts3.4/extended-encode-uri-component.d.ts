@@ -1,0 +1,1 @@
+export declare function extendedEncodeURIComponent(str: string): string;
