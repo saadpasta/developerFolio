@@ -3,7 +3,6 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import React from "react";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
 // Splash Screen
@@ -615,6 +614,23 @@ const gameJams = {
           url: "https://frankengamejam.de/de/"
         }
         //  you can add extra buttons here.
+      ]
+    },
+    {
+      video: require("./assets/videos/rgb.webm"),
+      image: require("./assets/images/rgbWeel.webp"),
+      projectName: "\n",
+      projectDesc:
+        "A silly small website.",
+      footerLink: [
+        {
+          name: "Visit",
+          url: "rgb.prmn.eu"
+        },
+        {
+          name: "GitHub",
+          url: "https://github.com/Darkblizzard21/rgb-website"
+        }
       ]
     },
     {

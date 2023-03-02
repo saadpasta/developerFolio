@@ -1,0 +1,1 @@
+ffmpeg -i "%~1" -c:v libvpx-vp9 -crf 30 -b:v 0 -b:a 128k -vf scale=-1:360 -c:a libopus "%~1".webm
