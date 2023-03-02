@@ -1,6 +1,0 @@
-import { Provider, UserAgent } from "@aws-sdk/types";
-import { DefaultUserAgentOptions } from "./configurations";
-export declare const defaultUserAgent: ({
-  serviceId,
-  clientVersion,
-}: DefaultUserAgentOptions) => Provider<UserAgent>;

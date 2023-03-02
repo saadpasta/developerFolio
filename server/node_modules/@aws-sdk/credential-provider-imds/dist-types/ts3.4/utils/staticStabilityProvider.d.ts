@@ -1,8 +1,0 @@
-import { Logger, Provider } from "@aws-sdk/types";
-import { InstanceMetadataCredentials } from "../types";
-export declare const staticStabilityProvider: (
-  provider: Provider<InstanceMetadataCredentials>,
-  options?: {
-    logger?: Logger | undefined;
-  }
-) => Provider<InstanceMetadataCredentials>;

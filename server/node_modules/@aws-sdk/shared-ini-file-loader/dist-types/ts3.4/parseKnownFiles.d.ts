@@ -1,8 +1,0 @@
-import { ParsedIniData } from "@aws-sdk/types";
-import { SharedConfigInit } from "./loadSharedConfigFiles";
-export interface SourceProfileInit extends SharedConfigInit {
-  profile?: string;
-}
-export declare const parseKnownFiles: (
-  init: SourceProfileInit
-) => Promise<ParsedIniData>;

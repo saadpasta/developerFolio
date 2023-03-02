@@ -1,8 +1,0 @@
-import { DefaultsMode, ResolvedDefaultsMode } from "@aws-sdk/smithy-client";
-import { Provider } from "@aws-sdk/types";
-export interface ResolveDefaultsModeConfigOptions {
-  defaultsMode?: DefaultsMode | Provider<DefaultsMode>;
-}
-export declare const resolveDefaultsModeConfig: ({
-  defaultsMode,
-}?: ResolveDefaultsModeConfigOptions) => Provider<ResolvedDefaultsMode>;

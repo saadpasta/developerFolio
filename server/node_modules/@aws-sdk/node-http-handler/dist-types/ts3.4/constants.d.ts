@@ -1,1 +1,0 @@
-export declare const NODEJS_TIMEOUT_ERROR_CODES: string[];

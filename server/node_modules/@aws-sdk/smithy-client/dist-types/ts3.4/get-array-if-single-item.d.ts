@@ -1,1 +1,0 @@
-export declare const getArrayIfSingleItem: <T>(mayBeArray: T) => T | T[];

@@ -1,5 +1,0 @@
-export declare function splitEvery(
-  value: string,
-  delimiter: string,
-  numDelimiters: number
-): Array<string>;

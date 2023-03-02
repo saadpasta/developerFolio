@@ -1,6 +1,10 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const dotenv = require('dotenv');
 const { VideoModel } = require('../models/video');
+
+// Load environment variables from .env file
+dotenv.config();
 
 const router = express.Router();
 

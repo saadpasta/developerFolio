@@ -1,2 +1,0 @@
-import { Provider } from "@aws-sdk/types";
-export declare function chain<T>(...providers: Array<Provider<T>>): Provider<T>;

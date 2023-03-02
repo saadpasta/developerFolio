@@ -1,7 +1,0 @@
-export declare function dateToUtcString(date: Date): string;
-export declare const parseRfc3339DateTime: (value: unknown) => Date | undefined;
-export declare const parseRfc3339DateTimeWithOffset: (
-  value: unknown
-) => Date | undefined;
-export declare const parseRfc7231DateTime: (value: unknown) => Date | undefined;
-export declare const parseEpochTimestamp: (value: unknown) => Date | undefined;

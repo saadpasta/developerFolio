@@ -1,8 +1,0 @@
-import {
-  ParsedIniData as __ParsedIniData,
-  Profile as __Profile,
-  SharedConfigFiles as __SharedConfigFiles,
-} from "@aws-sdk/types";
-export declare type Profile = __Profile;
-export declare type ParsedIniData = __ParsedIniData;
-export declare type SharedConfigFiles = __SharedConfigFiles;

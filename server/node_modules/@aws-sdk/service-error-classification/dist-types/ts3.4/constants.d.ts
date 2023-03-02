@@ -1,5 +1,0 @@
-export declare const CLOCK_SKEW_ERROR_CODES: string[];
-export declare const THROTTLING_ERROR_CODES: string[];
-export declare const TRANSIENT_ERROR_CODES: string[];
-export declare const TRANSIENT_ERROR_STATUS_CODES: number[];
-export declare const NODEJS_TIMEOUT_ERROR_CODES: string[];

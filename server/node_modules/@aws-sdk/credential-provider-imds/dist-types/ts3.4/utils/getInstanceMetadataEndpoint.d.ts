@@ -1,2 +1,0 @@
-import { Endpoint } from "@aws-sdk/types";
-export declare const getInstanceMetadataEndpoint: () => Promise<Endpoint>;

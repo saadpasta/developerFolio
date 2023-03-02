@@ -1,2 +1,0 @@
-import { HttpRequest } from "@aws-sdk/types";
-export declare const prepareRequest: (request: HttpRequest) => HttpRequest;

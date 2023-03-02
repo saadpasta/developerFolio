@@ -1,2 +1,0 @@
-export declare function fromHex(encoded: string): Uint8Array;
-export declare function toHex(bytes: Uint8Array): string;
