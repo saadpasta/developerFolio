@@ -8,11 +8,13 @@
   "private": true,
   "dependencies": {
     "colorthief": "^2.3.0",
+    "crypto-browserify": "^3.12.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.6",
     "gh-pages": "^2.1.1",
     "jest-canvas-mock": "^2.3.1",
     "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-easy-emoji": "^1.8.1",
@@ -23,12 +25,13 @@
     "react-test-renderer": "^16.10.2",
     "react-twitter-embed": "3.0.3",
     "sass": "^1.32.8",
+    "stream-browserify": "^3.0.0",
     "typewriter-effect": "^2.19.0"
   },
   "scripts": {
     "predeploy": "npm run build",
     "start": "node fetch.js && react-scripts start",
-    "build": "node fetch.js && react-scripts build",
+    "build": "node fetch.js && react-scripts start",
     "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -56,9 +59,17 @@
     ]
   },
   "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@svgr/webpack": "^6.5.1",
+    "babel-loader": "^9.1.2",
     "dotenv": "^8.6.0",
+    "dotenv-webpack": "^8.0.1",
+    "file-loader": "^6.2.0",
     "prettier": "^2.3.1",
     "react-player": "^2.11.2",
+    "webpack-cli": "^5.0.1",
     "webpack-dotenv-plugin": "^2.1.0"
   }
 }

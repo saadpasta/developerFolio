@@ -3,15 +3,14 @@ import "./Videos.scss";
 import {Fade} from "react-reveal";
 import VideoPlayer from '../../components/videoPlayer/VideoPlayer';
 import { Videos } from "../../portfolio";
-/*uncomment line 7 and the app breaks */
-//require("dotenv").config();
 
 const VideoContainer = () => {
   const [videos, setVideoUrls] = useState([]);
+  console.log(`process.env object: ${JSON.stringify(process.env)}`)
+  console.log(`Node App Server: ${process.env.NODE_APP_SERVER_URL}`)
 
   useEffect(() => {
-    /* I want to make line 14 process.env.NODE_SERVER  */
-    fetch("http://localhost:4000/api/videos")
+    fetch(process.env.NODE_APP_SERVER_URL)
       .then(response => response.json())
       .then(data => setVideoUrls(data))
       .catch(error => console.error(error));

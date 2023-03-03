@@ -1,0 +1,19 @@
+var _defs, _use;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgTalksCardBack = function SvgTalksCardBack(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    viewBox: "0 0 640 640",
+    width: 380,
+    height: 380
+  }, props), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("path", {
+    d: "m4.67-288.49 817.98 79.41-46.21 476.03-817.98-79.4L4.67-288.49Z",
+    id: "talksCardBack_svg__a"
+  }))), _use || (_use = /*#__PURE__*/React.createElement("use", {
+    xlinkHref: "#talksCardBack_svg__a",
+    fill: "#55198b"
+  })));
+};
+export default SvgTalksCardBack;
