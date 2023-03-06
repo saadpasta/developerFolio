@@ -44,6 +44,7 @@ export default function socialMedia() {
         </a>
       ) : null}
 
+      /*
       {socialMediaLinks.gitlab ? (
         <a
           href={socialMediaLinks.gitlab}
@@ -127,6 +128,7 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+      */
     </div>
   );
 }
