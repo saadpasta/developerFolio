@@ -10,7 +10,7 @@ const VideoContainer = () => {
   console.log(`Node App Server: ${process.env.NODE_APP_SERVER_URL}`)
 
   useEffect(() => {
-    fetch(process.env.NODE_APP_SERVER_URL)
+    fetch('api/videos')
       .then(response => response.json())
       .then(data => setVideoUrls(data))
       .catch(error => console.error(error));

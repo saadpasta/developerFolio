@@ -2,6 +2,7 @@
   "homepage": "https://developerfolio.js.org/",
   "name": "developerfolio",
   "version": "0.1.0",
+  "proxy": "http://localhost:4000/",
   "engines": {
     "node": "14.20.0"
   },
