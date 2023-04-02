@@ -142,9 +142,17 @@ const educationInfo = {
       schoolName: "Code Academy",
       logo: require("./assets/images/code-academy-logo-new.webp"),
       subHeader: "Full Stack Development",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "May 2022 - February 2023",
+      desc: "Ranked top 10% in the program. Took courses about C# .NET, and basic frontend for mvc, ...",
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    },
+    {
+      schoolName: "Technest scolarship",
+      logo: require("./assets/images/technest.jpg"),
+      subHeader: "Mobile Development",
+      duration: "October 2022 - March 2023",
+      desc: "Ranked top 10% in the program. Took courses about Cross platform development with React Native, ...",
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
