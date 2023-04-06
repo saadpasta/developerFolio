@@ -6,6 +6,7 @@ env:
   USE_GITHUB_DATA: "true"
   MEDIUM_USERNAME: "saadpasta" # Change this to your medium username
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
@@ -16,13 +17,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v2 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
+        uses: actions/checkout@v3 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
         with:
           persist-credentials: false
 
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+
       - name: Install and Build 🔧 # Build the Project
         run: |
-          npm install
+          npm install --legacy-peer-deps
           npm run build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
