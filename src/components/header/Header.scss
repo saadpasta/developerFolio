@@ -19,6 +19,10 @@
 .dark-menu li a:hover {
   background-color: $buttonColor !important;
 }
+.toggle-theme:hover{
+  background-color: $darkBackground !important;
+  color: blue;
+}
 
 .header {
   background-color: $lightBackground1;

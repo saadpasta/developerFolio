@@ -2,6 +2,6 @@
 
 .dark-mode {
   background-color: $darkBackground;
-  color: white;
+  color: white !important;
   transition: "0.1s";
 }

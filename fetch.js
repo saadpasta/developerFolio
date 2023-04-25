@@ -1,3 +1,5 @@
+/* eslint-disable no-native-reassign */
+/* eslint-disable no-undef */
 fs = require("fs");
 const https = require("https");
 process = require("process");

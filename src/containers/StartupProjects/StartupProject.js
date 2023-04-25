@@ -54,13 +54,13 @@ export default function StartupProject() {
                   ) : null}
                   <div className="project-detail">
                     <h5
-                      className={isDark ? "dark-mode card-title" : "card-title"}
+                      className={isDark ? " card-title" : "card-title"}
                     >
                       {project.projectName}
                     </h5>
                     <p
                       className={
-                        isDark ? "dark-mode card-subtitle" : "card-subtitle"
+                        isDark ? "card-subtitle" : "card-subtitle"
                       }
                     >
                       {project.projectDesc}

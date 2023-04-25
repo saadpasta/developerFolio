@@ -6,14 +6,17 @@
   width: 250px;
 }
 .card-title {
-  color: $titleColor;
+  color: #fff !important;
+  // color: $titleColor0;
+  // background-color: transparent;
   font-size: 22px;
   line-height: 24px;
   font-weight: 700;
   margin: 15px 0 0 0;
 }
 .card-subtitle {
-  color: $cardSubtitle;
+  // color: $cardSubtitle;
+  color: #fff !important;
   font-size: 17px;
   line-height: 1.5rem;
 }
@@ -25,6 +28,10 @@
   border-radius: 10px;
   border: 1px solid $lightBorder1;
   justify-content: center;
+  // background-image: url("../../assets/images/univ.png");
+  // background: url("../../assets/images/univ.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .project-card-light {
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;

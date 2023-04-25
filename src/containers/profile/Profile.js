@@ -19,6 +19,7 @@ export default function Profile() {
         fetch("/profile.json")
           .then(result => {
             if (result.ok) {
+              // console.log("profile data: ", result.json());
               return result.json();
             }
           })

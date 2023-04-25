@@ -11,8 +11,8 @@
 
 .software-skill-inline {
   display: inline-block;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  margin-right: 35px;
+  margin-bottom: 50px;
 }
 
 .software-skill-inline > i {
@@ -28,4 +28,8 @@
 }
 .software-skill-inline > i:hover ~ p {
   color: $skillsColor;
+}
+.icon{
+  height: 55px;
+  width: 55px;
 }

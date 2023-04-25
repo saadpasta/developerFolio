@@ -46,31 +46,31 @@ function Header() {
           )}
           {viewExperience && (
             <li>
-              <a href="#experience">Work Experiences</a>
+              <a href="#experience">Experiences</a>
             </li>
           )}
           {viewOpenSource && (
             <li>
-              <a href="#opensource">Open Source</a>
+              <a href="#projects">Projects</a>
             </li>
           )}
-          {viewAchievement && (
+          {/* {viewAchievement && (
             <li>
               <a href="#achievements">Achievements</a>
             </li>
-          )}
-          {viewBlog && (
+          )} */}
+          {/* {viewBlog && (
             <li>
               <a href="#blogs">Blogs</a>
             </li>
-          )}
-          {viewTalks && (
+          )} */}
+          {/* {viewTalks && (
             <li>
               <a href="#talks">Talks</a>
             </li>
-          )}
+          )} */}
           <li>
-            <a href="#contact">Contact Me</a>
+            <a className="toggle-theme" href="#contact">Contact Me</a>
           </li>
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
