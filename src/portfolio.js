@@ -142,9 +142,7 @@ const educationInfo = {
       subHeader: "",
       duration: "September 2021 - present",
       desc: "Studying Latin and ancient Greek."
-    },
-    {
-      schoolName: "
+    }
   ]
 };
 
