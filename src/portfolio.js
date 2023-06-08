@@ -32,7 +32,7 @@ const greeting = {
 
 const donationInfo = {
   title: emoji("Offer me a coffee ☕"),
-  subtitle: "I'm not getting any monetary reward from my translations yet, so any donation is appreciated as it keeps me motivated while I translate. You can donate with Kofi clicking the button below or you can contact me if you prefer to use another payment method (crypto, PayPal...)",
+  subtitle: "Any donation is appreciated as it keeps me motivated while I translate. You can donate with Kofi clicking the button below or you can contact me if you prefer to use another payment method (crypto, PayPal...)",
   link: "https://ko-fi.com/alpha4041"
 };
 
@@ -143,6 +143,8 @@ const educationInfo = {
       duration: "September 2021 - present",
       desc: "Studying Latin and ancient Greek."
     },
+    {
+      schoolName: "
   ]
 };
 
@@ -288,52 +290,19 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Trinity College London GESE Grade 4",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      imageAlt: "Google Code-In Logo",
+        "Graded Examination in Spoken English. Entry Level Certificate in ESOL International - Speaking and Listening (Entry 2) - CEFR Level A2.2. With Distinction.",
+      imageAlt: "Trinity College London logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://example.com/"
         }
       ]
     },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
