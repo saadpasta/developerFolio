@@ -58,6 +58,31 @@
   transform-origin: 70% 70%;
 }
 
+.blop {
+  overflow: hidden;
+
+  margin-left: 40%;
+  width: 23rem;
+  height: 25rem;
+  border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+  background: url("../../assets/images/profilePhoto.jpg");
+  background-size: cover;
+  animation: morph 3.75s linear infinite;
+}
+
+@keyframes morph {
+  0%,
+  100% {
+    border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+  }
+  33% {
+    border-radius: 72% 28% 48% 48% / 28% 28% 72% 72%;
+  }
+  66% {
+    border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%;
+  }
+}
+
 @keyframes wave {
   0% {
     transform: rotate(0deg);
