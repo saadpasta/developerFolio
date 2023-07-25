@@ -34,7 +34,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/Darkblizzard21",
   gmail: "hi@pirminpfeifer.eu",
-  twitter: "https://twitter.com/PirminPfeifer",
+  // twitter: "https://twitter.com/PirminPfeifer",
   itch: "https://darkblizzard.itch.io/",
   linkedin: "https://www.linkedin.com/in/pirmin-pfeifer/",
   // Instagram, Twitter and Kaggle are also supported in the links!
