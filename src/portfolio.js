@@ -638,7 +638,7 @@ const gameJams = {
       footerLink: [
         {
           name: "Visit",
-          url: "rgb.prmn.eu"
+          url: "http://rgb.prmn.eu"
         },
         {
           name: "GitHub",
