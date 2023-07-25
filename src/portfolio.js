@@ -617,6 +617,19 @@ const gameJams = {
       ]
     },
     {
+      video: require("./assets/videos/TDCratos.webm"),
+      image: require("./assets/images/TDCratos.webp"),
+      projectName: "TD Cratos",
+      projectDesc:
+        "This game started as a self proposed 72H game challenge and introduced me to unity.",
+      footerLink: [
+        {
+          name: "Download on Itch.io",
+          url: "https://darkblizzard.itch.io/td-project"
+        }
+      ]
+    },
+    {
       video: require("./assets/videos/rgb.webm"),
       image: require("./assets/images/rgbWeel.webp"),
       projectName: "\n",
@@ -633,19 +646,6 @@ const gameJams = {
         }
       ]
     },
-    {
-      video: require("./assets/videos/TDCratos.webm"),
-      image: require("./assets/images/TDCratos.webp"),
-      projectName: "TD Cratos",
-      projectDesc:
-        "This game started as a self proposed 72H game challenge and introduced me to unity.",
-      footerLink: [
-        {
-          name: "Download on Itch.io",
-          url: "https://darkblizzard.itch.io/td-project"
-        }
-      ]
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
