@@ -23,7 +23,7 @@ const greeting = {
   username: "Alpha",
   title: "Hi, I'm Alpha",
   subTitle: emoji(
-    "An Italian translator that translates open-source apps for free. I have translated many important applications for the Android modding community."
+    "An Italian translator that translates open-source apps for free. I have translated many well-known applications in the Android modding community."
   ),
   resumeLink:
     "", // Set to empty to hide the button
@@ -173,11 +173,18 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Italian translator",
+      role: "Italian translator and proofreader",
+      company: "Swipefy",
+      companylogo: require("./assets/images/swipefy.webp"),
+      date: "2023 - present",
+      desc: "Swipefy is a new application by Stats.fm's developers. It's a Tinder-style music recommendation app."
+    },
+    {
+      role: "Italian translator and proofreader",
       company: "Stats.fm",
       companylogo: require("./assets/images/statsfm.webp"),
       date: "2021 - present",
-      desc: "Stats.fm is my biggest project. It's an app to check your Spotify statistics. I didn't translate it alone.",
+      desc: "Stats.fm is my biggest project. It's an app to check your Spotify statistics.",
       url: "https://stats.fm/"
     },
     {
@@ -282,20 +289,21 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Certifications 🏆"),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "My certifications",
 
   achievementsCards: [
     {
       title: "Trinity College London GESE Grade 4",
       subtitle:
         "Graded Examination in Spoken English. Entry Level Certificate in ESOL International - Speaking and Listening (Entry 2) - CEFR Level A2.2. With Distinction.",
+      image: require("./assets/images/trinity.png"),
       imageAlt: "Trinity College London logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://example.com/"
+          name: "Certification (due to recent doxing threats, please contact me to see the certification)",
+          url: "https://t.me/alph4"
         }
       ]
     },
