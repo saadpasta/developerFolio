@@ -9,11 +9,11 @@
     "enzyme-adapter-react-16": "^1.15.6",
     "gh-pages": "^2.1.1",
     "jest-canvas-mock": "^2.3.1",
+    "lottie-react": "^2.4.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-easy-emoji": "^1.8.1",
     "react-headroom": "^3.0.0",
-    "react-lottie": "^1.2.3",
     "react-reveal": "^1.2.2",
     "react-scripts": "^5.0.1",
     "react-test-renderer": "^16.10.2",
@@ -51,6 +51,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "dotenv": "^8.2.0",
     "prettier": "^2.3.1"
   }
