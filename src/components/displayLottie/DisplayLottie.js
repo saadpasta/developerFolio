@@ -1,5 +1,5 @@
 import React, {Component, Suspense} from "react";
-import Lottie from "react-lottie";
+import Lottie from "lottie-react";
 import Loading from "../../containers/loading/Loading";
 
 export default class DisplayLottie extends Component {
@@ -13,7 +13,10 @@ export default class DisplayLottie extends Component {
 
     return (
       <Suspense fallback={<Loading />}>
-        <Lottie options={defaultOptions} isClickToPauseDisabled={true} />
+        <Lottie
+          animationData={defaultOptions.animationData}
+          loop={defaultOptions.loop}
+        />
       </Suspense>
     );
   }
