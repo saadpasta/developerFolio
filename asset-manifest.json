@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.73ffea83.css",
-    "main.js": "/static/js/main.ad51d7a6.js",
-    "static/css/64.917cfe77.chunk.css": "/static/css/64.917cfe77.chunk.css",
-    "static/js/64.a2201178.chunk.js": "/static/js/64.a2201178.chunk.js",
-    "static/css/769.70f3b610.chunk.css": "/static/css/769.70f3b610.chunk.css",
-    "static/js/769.7f15e30f.chunk.js": "/static/js/769.7f15e30f.chunk.js",
+    "main.css": "/static/css/main.3cf13eba.css",
+    "main.js": "/static/js/main.b96239c3.js",
+    "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
+    "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
+    "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
+    "static/js/769.bda0d7b7.chunk.js": "/static/js/769.bda0d7b7.chunk.js",
     "static/media/stanfordLogo.png": "/static/media/stanfordLogo.5a8e3a0a00949c93a9b8.png",
     "static/media/harvardLogo.png": "/static/media/harvardLogo.542dab89bfb35b7f5c0d.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
@@ -24,15 +24,15 @@
     "static/media/nextuLogo.webp": "/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.73ffea83.css.map": "/static/css/main.73ffea83.css.map",
-    "main.ad51d7a6.js.map": "/static/js/main.ad51d7a6.js.map",
-    "64.917cfe77.chunk.css.map": "/static/css/64.917cfe77.chunk.css.map",
-    "64.a2201178.chunk.js.map": "/static/js/64.a2201178.chunk.js.map",
-    "769.70f3b610.chunk.css.map": "/static/css/769.70f3b610.chunk.css.map",
-    "769.7f15e30f.chunk.js.map": "/static/js/769.7f15e30f.chunk.js.map"
+    "main.3cf13eba.css.map": "/static/css/main.3cf13eba.css.map",
+    "main.b96239c3.js.map": "/static/js/main.b96239c3.js.map",
+    "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
+    "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map",
+    "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
+    "769.bda0d7b7.chunk.js.map": "/static/js/769.bda0d7b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73ffea83.css",
-    "static/js/main.ad51d7a6.js"
+    "static/css/main.3cf13eba.css",
+    "static/js/main.b96239c3.js"
   ]
 }

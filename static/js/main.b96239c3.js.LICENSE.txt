@@ -5,15 +5,6 @@ object-assign
 */
 
 /*!
-   Transformation Matrix v2.0
-   (c) Epistemex 2014-2015
-   www.epistemex.com
-   By Ken Fyrstenberg
-   Contributions by leeoniya.
-   License: MIT, header required.
-   */
-
-/*!
   * $script.js JS loader & dependency manager
   * https://github.com/ded/script.js
   * (c) Dustin Diaz 2014 | License MIT
@@ -34,7 +25,7 @@ object-assign
  * LICENSE file in the root directory of this source tree.
  */
 
-/** @license React v16.13.1
+/** @license React v16.14.0
  * react-dom.production.min.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -60,3 +51,5 @@ object-assign
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
+
+//! goToAndStop must be relative to the start of the current segment
