@@ -284,7 +284,8 @@ const achievementSection = {
 
     {
       title: "CTI-Accelerate Program",
-      subtitle: "Demonstrated rapid progress and high achievement among peers in the Python programming course.",
+      subtitle:
+        "Demonstrated rapid progress and high achievement among peers in the Python programming course.",
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
@@ -373,7 +374,21 @@ const twitterDetails = {
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
-  achievementSection, bigProjects, blogSection, contactInfo, educationInfo, greeting, illustration, isHireable, openSource, podcastSection, skillsSection, socialMediaLinks,
-  splashScreen, talkSection, techStack, twitterDetails, workExperiences
+  achievementSection,
+  bigProjects,
+  blogSection,
+  contactInfo,
+  educationInfo,
+  greeting,
+  illustration,
+  isHireable,
+  openSource,
+  podcastSection,
+  skillsSection,
+  socialMediaLinks,
+  splashScreen,
+  talkSection,
+  techStack,
+  twitterDetails,
+  workExperiences
 };
-
