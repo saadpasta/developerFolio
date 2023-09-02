@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Njoli Patrick",
+  title: "Hi, I'm Patrick",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "An experienced Backend Engineer  🚀 with a strong passion for developing robust server-side solutions. Proficient in building scalable applications using technologies such as Node.js, Express, and Laravel, along with deployment ⛵  expertise. "
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1_WJDcujv292CWGye_9tUyuNuP8tFhvF2/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/njolipatrick",
+  linkedin: "https://www.linkedin.com/in/njolipatrick/",
+  gmail: "ogmaro@gmail.com",
+  gitlab: "https://gitlab.com/ogmaro",
+  medium: "https://medium.com/@ogmaro",
+  stackoverflow: "https://stackoverflow.com/users/15658681/njoli-patrick",
+  x: "https://x.com/njolipatrick",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -81,16 +81,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
     },
     {
       skillName: "npm",
@@ -126,23 +118,27 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Stutern - Graduate Accelerator Program",
+      logo: require("./assets/images/stutern_logo_icon.png"),
+      subHeader: "Backend Development",
+      duration: "September 2021 - December 2022",
+      desc: "Ranked top 1% in the program. Wrote and deployed an ecommerece backend server",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Crafted the homepage of stutern.com using HTML, CSS, and JavaScript, greatly enhancing the website's overall design and user experience.",
+        "Constructed an image processing API using typescript, executed unit tests with jasmine and used postman for documentation, enhancing the reliability and stability of the system.",
+        "Designed a database schema and crafted a mini storefront API with typescript on a PostgreSQL database, resulting in increased development time.",
+        "Performed integration and unit tests to test individual and large portions of the mini store API, ensuring 60% test coverage throughout the system which helped identify bugs, which were fixed.",
+        "Worked on a frontend mentor challenge using JavaScript to build a tip calculator, allowing individuals to calculate the tip they can contribute and enhancing the user experience.",
+        "Collaborated with a front-end developer to build an ecommerce book store using NodeJs, Postgres. We hosted it on Heroku and later migrated it to a railway server, increasing server uptime by 70%."
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Modibbo Adama University of Technology, Yola",
+      logo: require("./assets/images/new.png"),
+      subHeader: "Bachelor in Electronic Technology",
+      duration: "January 2011 - April 2017",
+      desc: " ",
+      descBullets: []
     }
   ]
 };
@@ -154,15 +150,15 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "50%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "89%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,10 +170,10 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      role: "Backend Engineer",
+      company: "Beezop",
+      companylogo: require("./assets/images/beezop-logo.png"),
+      date: "October 2022 – August 2023",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -185,18 +181,24 @@ const workExperiences = {
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
+      role: "Backend Engineer",
+      company: "Revent Technologies",
+      companylogo: require("./assets/images/revent.jpeg"),
+      date: "January 2023 – March 2023",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
       role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      company: "HNG",
+      companylogo: require("./assets/images/hng.jpeg"),
       date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+        "Established project repositories to facilitate collaboration among developers and simplify the development process, leading to a more efficient and effective project outcome.",
+        "Lead and managed a team that finished a project utilizing advanced generative AI tools such as OpenAI, Whisper, and AssemblyAI, creating a cutting-edge and innovative solution.",
+        "Participated in the development of key authentication features such as Google Oauth, Reset Password and refresh token feature for both frontend and mobile usage, enhancing the security and usability of the system.",
+        "Played a crucial role in the system design process by creating system interaction diagrams, product requirement documents(PRD), and database schema, contributing to the well-planned and executed project."
+      ]
     }
   ]
 };

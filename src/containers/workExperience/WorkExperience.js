@@ -15,7 +15,7 @@ export default function WorkExperience() {
             <div>
               <h1 className="experience-heading">Experiences</h1>
               <div className="experience-cards-div">
-                {workExperiences.experience.map((card, i) => {
+                {workExperiences.experience.map((card, i) => { 
                   return (
                     <ExperienceCard
                       key={i}
