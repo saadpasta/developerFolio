@@ -23,12 +23,10 @@ function Header() {
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
 
-
-
   return (
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
-        <p className="logo" onClick={()=>window.scrollTo(0,0)}>
+        <p className="logo" onClick={() => window.scrollTo(0, 0)}>
           <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
@@ -41,7 +39,7 @@ function Header() {
         >
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
-      <ul className={isDark ? "dark-menu menu" : "menu"}>
+        <ul className={isDark ? "dark-menu menu" : "menu"}>
           {viewSkills && (
             <li>
               <a href="#skills">Skills</a>
