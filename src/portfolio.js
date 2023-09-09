@@ -49,15 +49,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Create web applications that encompass various APIs, integrations with third-party services, and databases. Driven and diligent, with a strong commitment to crafting personalized interfaces that consider distinctive requirements for accessibility, usability, and security.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly secured and scalable backend infrastructure"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    // emoji(
+    //   "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+    // )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -97,17 +97,17 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
+      skillName: "firestore",
       fontAwesomeClassname: "fas fa-fire"
     },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+    // {
+    //   skillName: "python",
+    //   fontAwesomeClassname: "fab fa-python"
+    // },
+    // {
+    //   skillName: "docker",
+    //   fontAwesomeClassname: "fab fa-docker"
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -174,10 +174,13 @@ const workExperiences = {
       company: "Beezop",
       companylogo: require("./assets/images/beezop-logo.png"),
       date: "October 2022 – August 2023",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Build a business that runs like a well-oiled machine. Train new hires faster, delegate confidently, reduce errors, and achieve maximum consistency.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Overhauled company’s existing notification micro service to handle 100% of all notifications.",
+        "Implemented a RESTful API for the company's SAAS platform, resulting in a 40% increase in sales due to improved user experience.",
+        "Designed a complex import feature using excel sheet as input file to help users import in bulk documents to drive companies software adoption rate.",
+        "Collaborated with cross-functional teams to integrate third-party APIs and platforms, resulting in a seamless user experience and increased customer satisfaction by 60%",
+        "Participated in Agile development processes and Scrum meetings, resulting in a 30% increase in project completion rate and a 15% reduction in project costs"
       ]
     },
     {
@@ -185,14 +188,22 @@ const workExperiences = {
       company: "Revent Technologies",
       companylogo: require("./assets/images/revent.jpeg"),
       date: "January 2023 – March 2023",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Technology solution provider of choice unlocking tangible business values and their potential for growth.",
+      descBullets: [
+        "Designed and implemented a scalable, high-performance Node.js API using Javascript that improved the overall speed and reliability of the client’s financial infrastructure web application by 60%.",
+        "Lead and managed a team that finished a project utilizing advanced generative AI tools such as OpenAI, Whisper, and AssemblyAI, creating a cutting-edge and innovative solution.",
+        "Led the development of a MySQL database system, streamlining data management and increasing data processing speed by 50%.",
+        "Worked with a team of highly talented engineers to implement client’s financial web application as a microservice by integrating from other services.",
+        "Improved overall code quality and efficiency through regular code reviews and collaboration with other developers, resulting in a 25% decrease in bugs and support tickets.",
+        "Created and maintained documentation for internal APIs, resulting in a 50% increase in frontend developers productivity due to improved understanding of the system.        "
+      ]
     },
     {
       role: "Software Engineer Intern",
       company: "HNG",
       companylogo: require("./assets/images/hng.jpeg"),
       date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "The HNG Internship is an ambitious attempt to change the way education is done in Africa. It is the bridge between learning to code and becoming the best in the world.",
       descBullets: [
         "Established project repositories to facilitate collaboration among developers and simplify the development process, leading to a more efficient and effective project outcome.",
         "Lead and managed a team that finished a project utilizing advanced generative AI tools such as OpenAI, Whisper, and AssemblyAI, creating a cutting-edge and innovative solution.",
@@ -365,18 +376,18 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+2348031370465",
+  email_address: "ogmaro@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "njolipatrick", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
