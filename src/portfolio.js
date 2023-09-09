@@ -49,11 +49,10 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Create web applications that encompass various APIs, integrations with third-party services, and databases. Driven and diligent, with a strong commitment to crafting personalized interfaces that consider distinctive requirements for accessibility, usability, and security.",
+  subTitle:
+    "Create web applications that encompass various APIs, integrations with third-party services, and databases. Driven and diligent, with a strong commitment to crafting personalized interfaces that consider distinctive requirements for accessibility, usability, and security.",
   skills: [
-    emoji(
-      "⚡ Develop highly secured and scalable backend infrastructure"
-    ),
+    emoji("⚡ Develop highly secured and scalable backend infrastructure")
     // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     // emoji(
     //   "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
@@ -99,7 +98,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "firestore",
       fontAwesomeClassname: "fas fa-fire"
-    },
+    }
     // {
     //   skillName: "python",
     //   fontAwesomeClassname: "fab fa-python"
