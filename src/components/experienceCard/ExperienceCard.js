@@ -5,7 +5,7 @@ import ColorThief from "colorthief";
 import {Fade, Slide} from "react-reveal";
 
 export default function ExperienceCard({cardInfo, isDark}) {
-  const [colorArrays, setColorArrays] = useState([]);
+  const [setColorArrays] = useState([]);
   const imgRef = createRef();
 
   function getColorArrays() {
@@ -13,11 +13,11 @@ export default function ExperienceCard({cardInfo, isDark}) {
     setColorArrays(colorThief.getColor(imgRef.current));
   }
 
-  function rgb(values) {
-    return typeof values === "undefined"
-      ? null
-      : "rgb(" + values.join(", ") + ")";
-  }
+  // function rgb(values) {
+  //   return typeof values === "undefined"
+  //     ? null
+  //     : "rgb(" + values.join(", ") + ")";
+  // }
 
   const GetDescBullets = ({descBullets, isDark}) => {
     return descBullets
