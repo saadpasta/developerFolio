@@ -13,14 +13,15 @@ jobs:
         with:
           persist-credentials: false
 
-      - uses: actions/setup-node@v2-beta
+      - uses: actions/setup-node@v3.8.1
         with:
-          node-version: '12'
-
-      - name: Install Prettier
-        run: npm install -g prettier
-
+          node-version: 16.x
+      
+      - name: Install 🔧 # Install dependencies
+        run: |
+          npm install
+      
       - name: Check Format
         run: |
-          prettier -c "./**/*.{js,css,json}"
+          npm run check-format
 
