@@ -99,15 +99,13 @@ const educationInfo = {
       schoolName: "Mehmet Akif Ersoy University",
       logo: require("./assets/images/makü.png"),
       subHeader: "Computer Programming",
-      duration: "September 2021 - June 2023",
-
+      duration: "September 2021 - June 2023"
     },
     {
       schoolName: "Ankara University Open Education",
       logo: require("./assets/images/ankaraUniversity.png"),
       subHeader: "Knowledge Managment",
-      duration: "September 2023 - April 2025",
-
+      duration: "September 2023 - April 2025"
     }
   ]
 };
@@ -340,5 +338,5 @@ export {
   podcastSection,
   contactInfo,
   twitterDetails,
-  isHireable
+  isHireable
 };
