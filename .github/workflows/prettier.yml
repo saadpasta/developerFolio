@@ -15,7 +15,7 @@ jobs:
 
       - uses: actions/setup-node@v3.8.1
         with:
-          node-version: 16.x
+          node-version: 18.x
       
       - name: Install 🔧 # Install dependencies
         run: |
