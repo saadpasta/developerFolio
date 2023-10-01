@@ -80,9 +80,9 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.twitter ? (
+      {socialMediaLinks.x ? (
         <a
-          href={socialMediaLinks.twitter}
+          href={socialMediaLinks.x}
           className="icon-button twitter"
           target="_blank"
           rel="noopener noreferrer"
