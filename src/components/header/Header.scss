@@ -58,6 +58,7 @@
   text-decoration: none;
   margin-top: 10px;
   line-height: normal;
+  cursor: pointer;
 }
 
 .header .logo-name {
@@ -66,6 +67,7 @@
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   padding: 0 10px;
+  color: $buttonColor;
 }
 
 /* menu */
