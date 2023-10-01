@@ -33,12 +33,12 @@
   width: 15px;
 }
 ::-webkit-scrollbar-track {
-  background: #E2D2FF; 
+  background: #e2d2ff;
 }
 ::-webkit-scrollbar-thumb {
-  background: $buttonColor; 
+  background: $buttonColor;
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: $buttonHover; 
+  background: $buttonHover;
 }
