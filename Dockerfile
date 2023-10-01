@@ -1,29 +1,39 @@
-# This file is the main docker file configurations
+# Stage 1 - the build process
+# FROM node:14-alpine as build
 
-# Official Node JS runtime as a parent image
-FROM node:10.16.0-alpine
+FROM node:14-alpine as build-stage
 
-# Set the working directory to ./app
-WORKDIR /app
+# set working directory
+RUN mkdir /usr/app
+#copy all files from current directory to docker
+COPY . /usr/app
 
-# Install app dependencies
-# A wildcard is used to ensure both package.json AND package-lock.json are copied
-# where available (npm@5+)
-COPY package.json ./
+WORKDIR /usr/app
 
-RUN apk add --no-cache git
+# Remove package-lock.json
+RUN rm ./package-lock.json
 
-# Install any needed packages
+# install and cache app dependencies
 RUN npm install
 
-# Audit fix npm packages
-RUN npm audit fix
+# add `/usr/src/app/node_modules/.bin` to $PATH
+ENV PATH /usr/src/app/node_modules/.bin:$PATH
 
-# Bundle app source
-COPY . /app
+RUN npm run build
 
-# Make port 3000 available to the world outside this container
-EXPOSE 3000
+# Stage 2
+# Copy the react app build above in nginx
+FROM nginx:alpine
 
-# Run app.js when the container launches
-CMD ["npm", "start"]
+# Set working directory to nginx asset directory
+WORKDIR /usr/share/nginx/html
+
+# Remove default nginx static assets
+RUN rm -rf ./*
+
+# Copy static assets from builder stage
+COPY --from=build-stage /usr/app/build .
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
+# Containers run nginx with global directives and daemon off
+ENTRYPOINT ["nginx", "-g", "daemon off;"]
