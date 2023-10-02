@@ -14,6 +14,7 @@
     "react-dom": "^16.10.2",
     "react-easy-emoji": "^1.8.1",
     "react-headroom": "^3.0.0",
+    "react-responsive-carousel": "^3.2.23",
     "react-reveal": "^1.2.2",
     "react-scripts": "^5.0.1",
     "react-test-renderer": "^16.10.2",
