@@ -253,8 +253,7 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "Google Code-In Finalist",
-      subtitle:
-        "add data",
+      subtitle: "add data",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
