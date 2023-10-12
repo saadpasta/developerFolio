@@ -7,25 +7,35 @@
   margin-bottom: 0px;
   margin-top: 0px;
   text-align: center;
-}
 
-.software-skill-inline {
-  display: inline-block;
-  margin-right: 20px;
-  margin-bottom: 20px;
-}
+  .software-skill-inline {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
 
-.software-skill-inline > i {
-  color: $subTitle;
-}
+    .icon-style {
+      color: $subTitle;
 
-.software-skill-inline > i:hover {
-  color: $skillsColor;
-}
-.software-skill-inline > p {
-  color: $subTitle;
-  font-size: 10px;
-}
-.software-skill-inline > i:hover ~ p {
-  color: $skillsColor;
+      svg {
+        fill: $subTitle;  // Set initial fill color
+      }
+
+      &:hover {
+        color: $skillsColor;
+
+        svg {
+          fill: $skillsColor;  // Update fill color on hover
+        }
+      }
+    }
+
+    p {
+      color: $subTitle;
+      font-size: 10px;
+    }
+
+    .icon-style:hover ~ p {
+      color: $skillsColor;
+    }
+  }
 }
