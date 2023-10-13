@@ -23,7 +23,7 @@ const greeting = {
   username: "Farhaan Nishtar",
   title: "Hi, I'm Farhaan",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with TypeScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer🚀 building Web applications with TypeScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
   // resumeLink:
   //   "https://docs.google.com/document/d/e/2PACX-1vRau2txUx1DNPVTu882Xs3C6MaeQ_YBDogYqq-ebhEPiBjEMMNwoIIReSrzu2YWUa88et-J_HN-OZ_d/pub", // Set to empty to hide the button
@@ -55,13 +55,13 @@ const skillsSection = {
   subTitle: "FULL STACK DEVELOPER AND CRYPTO EVANGELIST",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
+      "⚡ Develop highly interactive front-end/user interfaces for web applications"
     ),
     emoji(
-      "⚡ Server-Side Rendering (SSR) and Static Site Generation (SSG) for SEO and Performance Optimization"
+      "⚡ Optimize SEO and performance through server-side rendering (SSR) and static site generation (SSG)"
     ),
     emoji(
-      "⚡ Integration of third party services such as Firebase, Supabase and MongoDB"
+      "⚡ Integrate third-party services like Firebase, Supabase, and MongoDB"
     )
   ],
 
@@ -192,9 +192,9 @@ const workExperiences = {
       desc: "Tabyt is a mobile app for seamless event planning, effortless guestlist management, and creating meaningful new connections."
     },
     {
-      role: "Software Engineer Intern",
+      role: "Software Engineer",
       company: "Desi Dance NYC",
-      companylogo: require("./assets/images/desi-dance.png"),
+      companylogo: require("./assets/images/desi-dance.jpg"),
       date: "December 2022 – June 2023",
       desc: "Desi Dance NYC is a website that automatically aggregates all upcoming Bollywood and South Asian influence dance classes in New York City."
     },
@@ -223,7 +223,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Personal Project",
+  title: "Personal Projects",
   // subtitle: "A Project I worked on my free time",
   projects: [
     {
@@ -361,10 +361,10 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+1-559-330-4353",
+  // number: "+1-559-330-4353",
   email_address: "farhaannishtar@gmail.com"
 };
 

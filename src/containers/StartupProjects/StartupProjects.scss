@@ -51,12 +51,30 @@
 }
 .project-image {
   position: relative;
-  height: 250px;
+  height: 140px;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.project-image img {
+  // width: 150px;  /* Adjust as needed */
+  // height: auto; /* Maintain aspect ratio */
+  position: absolute;
+  object-fit: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8rem;
+  height: 8rem;
+  box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
+  border-radius: 50%;
+}
+
 
 .projects-container {
   display: grid;
