@@ -92,6 +92,18 @@ export default function socialMedia() {
         </a>
       ) : null}
 
+      {socialMediaLinks.resume ? (
+        <a
+          href={socialMediaLinks.resume}
+          className="icon-button gitlab"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fas fa-file-alt"></i>
+          <span></span>
+        </a>
+      ) : null}
+
       {socialMediaLinks.medium ? (
         <a
           href={socialMediaLinks.medium}

@@ -25,8 +25,8 @@ const greeting = {
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with TypeScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
-  resumeLink:
-    "https://docs.google.com/document/d/e/2PACX-1vRau2txUx1DNPVTu882Xs3C6MaeQ_YBDogYqq-ebhEPiBjEMMNwoIIReSrzu2YWUa88et-J_HN-OZ_d/pub", // Set to empty to hide the button
+  // resumeLink:
+  //   "https://docs.google.com/document/d/e/2PACX-1vRau2txUx1DNPVTu882Xs3C6MaeQ_YBDogYqq-ebhEPiBjEMMNwoIIReSrzu2YWUa88et-J_HN-OZ_d/pub", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -37,6 +37,8 @@ const socialMediaLinks = {
   twitter: "https://twitter.com/farhaan_nishtar",
   // gmail: "farhaannishtar@gmail.com",
   linkedin: "https://www.linkedin.com/in/farhaan-nishtar/",
+  resume:
+    "https://docs.google.com/document/d/e/2PACX-1vRau2txUx1DNPVTu882Xs3C6MaeQ_YBDogYqq-ebhEPiBjEMMNwoIIReSrzu2YWUa88et-J_HN-OZ_d/pub",
   // gitlab: "https://gitlab.com/saadpasta",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",
