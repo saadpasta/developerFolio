@@ -17,14 +17,14 @@
       color: $subTitle;
 
       svg {
-        fill: $subTitle;  // Set initial fill color
+        fill: $subTitle; // Set initial fill color
       }
 
       &:hover {
         color: $skillsColor;
 
         svg {
-          fill: $skillsColor;  // Update fill color on hover
+          fill: $skillsColor; // Update fill color on hover
         }
       }
     }
