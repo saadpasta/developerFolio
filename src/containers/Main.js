@@ -23,7 +23,8 @@ import "./Main.scss";
 
 const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
-  const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
+  const [isDark, setIsDark] = useLocalStorage("isDark", true);
+  // const [isDark, setIsDark] = useState(darkPref.matches); // default to dark mode
   const [isShowingSplashAnimation, setIsShowingSplashAnimation] =
     useState(true);
 
@@ -55,15 +56,11 @@ const Main = () => {
             <Skills />
             <StackProgress />
             <WorkExperience />
-            <Projects />
             <StartupProject />
-            <Achievement />
-            <Blogs />
-            <Talks />
             <Education />
             <Twitter />
             <Podcast />
-            <Profile />
+            {/* <Profile /> */}
             <Footer />
             <ScrollToTopButton />
           </>

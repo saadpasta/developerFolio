@@ -6,6 +6,14 @@ export default function ExperienceCard({cardInfo, isDark}) {
   const [colorArrays, setColorArrays] = useState([]);
   const imgRef = createRef();
 
+  function openUrlInNewTab(url) {
+    if (!url) {
+      return;
+    }
+    var win = window.open(url, "_blank");
+    win.focus();
+  }
+
   function getColorArrays() {
     const colorThief = new ColorThief();
     setColorArrays(colorThief.getColor(imgRef.current));
@@ -78,6 +86,23 @@ export default function ExperienceCard({cardInfo, isDark}) {
         <ul>
           <GetDescBullets descBullets={cardInfo.descBullets} isDark={isDark} />
         </ul>
+        <div className="your-class-name">
+          {cardInfo.footerLink ? (
+            <div className="project-card-footer project-card-extra">
+              {cardInfo.footerLink.map((link, i) => {
+                return (
+                  <span
+                    key={i}
+                    className={isDark ? "dark-mode project-tag" : "project-tag"}
+                    onClick={() => openUrlInNewTab(link.url)}
+                  >
+                    {link.name}
+                  </span>
+                );
+              })}
+            </div>
+          ) : null}
+        </div>
       </div>
     </div>
   );
