@@ -60,7 +60,7 @@ const Main = () => {
             <Education />
             <Twitter />
             <Podcast />
-            <Profile />
+            {/* <Profile /> */}
             <Footer />
             <ScrollToTopButton />
           </>
