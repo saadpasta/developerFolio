@@ -17,6 +17,14 @@ export default function ExperienceCard({cardInfo, isDark}) {
       : "rgb(" + values.join(", ") + ")";
   }
 
+  function openUrlInNewTab(url) {
+    if (!url) {
+      return;
+    }
+    const win = window.open(url, "_blank");
+    win.focus();
+  }
+
   const GetDescBullets = ({descBullets, isDark}) => {
     return descBullets
       ? descBullets.map((item, i) => (
@@ -37,7 +45,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
         <div className="experience-div-company">
           <h5 className="experience-text-company">{cardInfo.company}</h5>
         </div>
-
+        <a href={cardInfo.url}>
         <img
           crossOrigin={"anonymous"}
           ref={imgRef}
@@ -45,7 +53,9 @@ export default function ExperienceCard({cardInfo, isDark}) {
           src={cardInfo.companylogo}
           alt={cardInfo.company}
           onLoad={() => getColorArrays()}
+          onClick={() => openUrlInNewTab(cardInfo.url)}
         />
+        </a>
       </div>
       <div className="experience-text-details">
         <h5
