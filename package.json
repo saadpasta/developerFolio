@@ -13,7 +13,7 @@
     "react-dom": "^16.14.0",
     "react-easy-emoji": "^1.8.1",
     "react-headroom": "^3.2.0",
-    "react-lottie": "^1.2.3",
+    "lottie-react": "^2.4.0",
     "react-reveal": "^1.2.2",
     "react-scripts": "^5.0.1",
     "react-test-renderer": "^16.10.2",
@@ -52,6 +52,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "dotenv": "^8.6.0",
     "jquery": "^3.6.0",
     "prettier": "^2.5.1"
