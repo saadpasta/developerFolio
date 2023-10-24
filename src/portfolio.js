@@ -23,7 +23,7 @@ const greeting = {
   username: "Pirmin Pfeifer",
   title: "Hello There",
   subTitle: emoji(
-    "I'm Pirmin Pfeifer, an aspiring games engineer. Currently I am studying Games Engineering BSc in Würzburg, Germany. My passions are game engines, computer graphics and graph theory."
+    "I'm Pirmin Pfeifer, an aspiring games engineer. Currently I am studying a computer science master in Würzburg, Germany. My passions are game technology, computer graphics and algorithms."
   ),
   resumeLink: require("./assets/CV.pdf"), // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -50,13 +50,22 @@ const skillsSection = {
     "FOCUS ON GRAPHICS ENGINEERING AND GAME ENGINE SYSTEMS BUT ALSO A BIT OF ALL OTHER DISCIPLINES OF GAME DEVELOPMENT",
   skills: [
     emoji("⚡ Develop new Engine Features, Extensions and Development Tools"),
-    emoji("⚡ Design and Implementation of Gameplay Systems"),
+    emoji("⚡ Optimisation and Algorithm development"),
     emoji("✨ Scripting of Shaders and Post-Processing-Effects")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
   projects: [
+    {
+      description: "Ray Vis",
+      link: "https://github.com/Darkblizzard21/RayVis",
+      skills: [
+        "C++",
+        "Visual Studio",
+        "DirectX"
+      ]
+    },
     {
       description: "GameLab III: Fractal Engine",
       link: "https://www.youtube.com/watch?v=Gxc_A7myOg4",
@@ -284,6 +293,7 @@ https://fontawesome.com/icons?d=gallery */
         }
       }
     },
+    /*
     {
       skillName: "OpenGL",
       iconData: {
@@ -297,7 +307,7 @@ https://fontawesome.com/icons?d=gallery */
           proficiency: 4
         }
       }
-    },
+    },*/
     {
       skillName: "WebGL",
       iconData: {
@@ -410,8 +420,20 @@ const educationInfo = {
     {
       schoolName: "Julius-Maximilians University",
       logo: require("./assets/images/uniwue.webp"),
+      subHeader: "Computer Science MSc",
+      duration: "October 2023 - Current",
+      desc: "CS master with a personal focus on:",
+      descBullets: [
+          "Algorithm design",
+          "Computer graphics",
+          "Game engine technologies"
+      ]
+    },
+    {
+      schoolName: "Julius-Maximilians University",
+      logo: require("./assets/images/uniwue.webp"),
       subHeader: "Games Engineering BSc",
-      duration: "September 2019 - Current",
+      duration: "September 2019 - September 2023",
       desc: "Received highest grade for all Games Engineering projects:",
       descBullets: [
         "GameLab I: EmptySpaces",
@@ -457,13 +479,24 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Engineering Working Student",
+      company: "Advanced Micro Devices, Inc.",
+      companylogo: require("./assets/images/AMD_E_Wh_RGB.webp"),
+      date: "April 2023 – Current",
+      desc: "Project currently under NDA.",
+      descBullets: [
+      ],
+      url: "https://www.amd.com/"
+    },
+    {
       role: "Software Engineering Intern",
       company: "Advanced Micro Devices, Inc.",
       companylogo: require("./assets/images/AMD_E_Wh_RGB.webp"),
-      date: "October 2022 – Present",
-      desc: "",
+      date: "October 2022 – March 2023",
+      desc: "Developed and maintained research software for raytracing. I also worked on a web platform and some shell automations",
       descBullets: [
-      ]
+      ],
+      url: "https://www.amd.com/"
     },
     {
       role: "Software Engineer",
@@ -474,7 +507,8 @@ const workExperiences = {
       descBullets: [
         "Build graph data structures for the management of cargo flows",
         "Build development & debug tools"
-      ]
+      ],
+      url: "https://www.bii-gmbh.com/"
     },
     {
       role: "Tutor for Game Lab I",
@@ -486,7 +520,8 @@ const workExperiences = {
         "Explained basic and intermediate topics the students brought up",
         "Created introductory tutorials for Unreal Engine 4 & Unity",
         "Tested and reviewed the students games"
-      ]
+      ],
+      url: "https://hci.uni-wuerzburg.de/"
     }
   ]
 };
@@ -541,7 +576,7 @@ const bigProjects = {
       image: require("./assets/images/emptySpaces.webp"),
       projectName: "Empty Spaces",
       projectDesc:
-        "A game prototype that explores the combination of Bullet-Hell-Twin-Stick-Shooters and Metroidvania style games. The game contains four areas and three bosses. ",
+        "A game prototype that explores the combination of Bullet-Hell-Twin-Stick-Shooters and Metroidvania style games. The game contains multiple areas and three boss fights. ",
       footerLink: [
         {
           name: "Watch Trailer",
@@ -638,7 +673,7 @@ const gameJams = {
       footerLink: [
         {
           name: "Visit",
-          url: "http://rgb.prmn.eu"
+          url: "https://rgb.prmn.eu"
         },
         {
           name: "GitHub",
@@ -685,7 +720,7 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Deutschlandstipendium",
+      title: "Deutschlandstipendium 2022",
       subtitle:
         "Scholarship granted by the Julius-Maximilians-Universität Würzburg. Co-financed by Lotum media GmbH",
       image: require("./assets/images/logo-deutschlandstipendium.webp"),
