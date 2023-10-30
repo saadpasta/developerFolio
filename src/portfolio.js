@@ -97,7 +97,7 @@ const educationInfo = {
       schoolName: "Curtin University",
       logo: require("./assets/images/CurtinLogo.png"),
       subHeader: "Bacholer of Computing (Software Engineering)",
-      duration: "September 2017 - April 2019",
+      duration: "September 2021 - April 2024",
       desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
