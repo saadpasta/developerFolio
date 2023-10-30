@@ -108,7 +108,7 @@ const educationInfo = {
       schoolName: "Curtin University",
       logo: require("./assets/images/CurtinLogo.png"),
       subHeader: "Bachelor of Science in Nanotechnology",
-      duration: "September 2013 - April 2017",
+      duration: "February 2005 - November 2012",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
