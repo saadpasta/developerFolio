@@ -44,7 +44,7 @@ const socialMediaLinks = {
 
 const projectPages = [
   {
-    routes: ["/rayvis"],
+    routes: ["/rayvis", "/ray-vis"],
     header: "RayVis",
     image: require("./assets/projects/rayvis/example.webp"),
     organization: "University Würzburg & AMD",
