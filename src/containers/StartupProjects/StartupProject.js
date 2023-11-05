@@ -9,24 +9,22 @@ export default function StartupProject() {
     if (!url) {
       return;
     }
-    const win = window.open(
-      url,
-      url.startsWith("./") ? "_self" : "_blank");
+    const win = window.open(url, url.startsWith("./") ? "_self" : "_blank");
     win.focus();
   }
 
-  const startVideo = (event) => {
+  const startVideo = event => {
     event.target.play();
     event.target.parentElement
       .querySelector("img")
       .setAttribute("class", "card-image hidden");
-  }
-  const stopVideo = (event) => {
+  };
+  const stopVideo = event => {
     event.target.pause();
     event.target.parentElement
       .querySelector("img")
       .setAttribute("class", "card-image visible");
-  }
+  };
 
   const {isDark} = useContext(StyleContext);
   if (!bigProjects.display) {
@@ -62,10 +60,10 @@ export default function StartupProject() {
                     className="video"
                     preload
                     onMouseOver={event => {
-                      if(window.screen.width>768) startVideo(event);
+                      if (window.screen.width > 768) startVideo(event);
                     }}
                     onMouseOut={event => {
-                      if(window.screen.width>768) stopVideo(event);
+                      if (window.screen.width > 768) stopVideo(event);
                     }}
                     onTouchStart={event => {
                       startVideo(event);
@@ -74,8 +72,8 @@ export default function StartupProject() {
                       stopVideo(event);
                     }}
                     onTouchCancelCapture={event => {
-                    stopVideo(event);
-                  }}
+                      stopVideo(event);
+                    }}
                     loop
                     muted
                   >
@@ -92,13 +90,19 @@ export default function StartupProject() {
                   ) : null}
                   <div className="project-detail">
                     <h5
-                      className={isDark ? "dark-mode project-card-title" : "project-card-title"}
+                      className={
+                        isDark
+                          ? "dark-mode project-card-title"
+                          : "project-card-title"
+                      }
                     >
                       {project.projectName}
                     </h5>
                     <p
                       className={
-                        isDark ? "dark-mode project-card-subtitle" : "project-card-subtitle"
+                        isDark
+                          ? "dark-mode project-card-subtitle"
+                          : "project-card-subtitle"
                       }
                     >
                       {project.projectDesc}

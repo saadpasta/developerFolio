@@ -2,7 +2,7 @@ import React, {useContext, createRef} from "react";
 import StyleContext from "../contexts/StyleContext";
 import {referencesSection} from "../portfolio";
 import {Fade} from "react-reveal";
-import "./OtherProjects.scss"
+import "./OtherProjects.scss";
 export default function OtherProjects(project) {
   const {isDark} = useContext(StyleContext);
 

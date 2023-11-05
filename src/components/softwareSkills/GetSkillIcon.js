@@ -13,8 +13,11 @@ export default function GetSkillIcon(input) {
       <a
         className="software-skill-pointer"
         onClick={event => {
-        if(window.screen.width>768)
-          window.open(input.link, '_blank').focus();}} target="_blank">
+          if (window.screen.width > 768)
+            window.open(input.link, "_blank").focus();
+        }}
+        target="_blank"
+      >
         {input.saturatedIcon ? (
           <img
             className="dev-icons-picture-saturated"

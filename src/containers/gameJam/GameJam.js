@@ -9,23 +9,22 @@ export default function GameJams() {
     if (!url) {
       return;
     }
-    const win = window.open(
-      url,
-      url.startsWith("./") ? "_self" : "_blank");
+    const win = window.open(url, url.startsWith("./") ? "_self" : "_blank");
     win.focus();
   }
 
-  const startVideo = (event) => {event.target.play();
+  const startVideo = event => {
+    event.target.play();
     event.target.parentElement
       .querySelector("img")
       .setAttribute("class", "g-card-image hidden");
-  }
-  const stopVideo = (event) => {
+  };
+  const stopVideo = event => {
     event.target.pause();
     event.target.parentElement
       .querySelector("img")
       .setAttribute("class", "g-card-image visible");
-  }
+  };
 
   const {isDark} = useContext(StyleContext);
   if (!gameJams.display) {
@@ -61,10 +60,10 @@ export default function GameJams() {
                     className="gameJam-video"
                     preload
                     onMouseOver={event => {
-                      if(window.screen.width>768) startVideo(event);
+                      if (window.screen.width > 768) startVideo(event);
                     }}
                     onMouseOut={event => {
-                      if(window.screen.width>768) stopVideo(event);
+                      if (window.screen.width > 768) stopVideo(event);
                     }}
                     onTouchStart={event => {
                       startVideo(event);

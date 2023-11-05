@@ -134,24 +134,24 @@ gameJam-video::-webkit-media-controls {
   }
 }
 
-
 @media (max-width: 700px) {
   .gameJam-container {
     font-size: 3.7vw;
     gap: 0.1vw;
   }
 
-  .gameJam-card{
+  .gameJam-card {
     width: 23.5em;
   }
 
-  .gameJam-image{
+  .gameJam-image {
     margin-top: 0.5em;
     height: 5em;
   }
 
   .gameJam-detail {
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+      1px 1px 0 #000;
   }
 
   .g-card-title {

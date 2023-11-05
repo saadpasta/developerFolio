@@ -25,12 +25,11 @@ export default function SoftwareSkill(skillList) {
                 }
                 name={skills.skillName}
                 onMouseOver={event => {
-                  if(window.screen.width>768)
+                  if (window.screen.width > 768)
                     activateTexture(getTexture(skills.iconData.tooltip.name));
                 }}
                 onMouseOut={event => {
-                  if(window.screen.width>768)
-                    deactivateTexture();
+                  if (window.screen.width > 768) deactivateTexture();
                 }}
               >
                 {GetSkillIcon(skills.iconData)}

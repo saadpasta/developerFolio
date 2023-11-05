@@ -46,15 +46,15 @@ export default function ExperienceCard({cardInfo, isDark}) {
           <h5 className="experience-text-company">{cardInfo.company}</h5>
         </div>
         <a href={cardInfo.url}>
-        <img
-          crossOrigin={"anonymous"}
-          ref={imgRef}
-          className="experience-roundedimg"
-          src={cardInfo.companylogo}
-          alt={cardInfo.company}
-          onLoad={() => getColorArrays()}
-          onClick={() => openUrlInNewTab(cardInfo.url)}
-        />
+          <img
+            crossOrigin={"anonymous"}
+            ref={imgRef}
+            className="experience-roundedimg"
+            src={cardInfo.companylogo}
+            alt={cardInfo.company}
+            onLoad={() => getColorArrays()}
+            onClick={() => openUrlInNewTab(cardInfo.url)}
+          />
         </a>
       </div>
       <div className="experience-text-details">
