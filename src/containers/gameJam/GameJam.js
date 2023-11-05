@@ -9,7 +9,9 @@ export default function GameJams() {
     if (!url) {
       return;
     }
-    const win = window.open(url, "_blank");
+    const win = window.open(
+      url,
+      url.startsWith("./") ? "_self" : "_blank");
     win.focus();
   }
 

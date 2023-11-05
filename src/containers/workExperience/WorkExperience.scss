@@ -4,6 +4,12 @@
   gap: 1rem 1rem;
 }
 
+@media (max-width: 1380px) {
+  .experience-cards-div {
+    grid-template-columns: none;
+  }
+}
+
 .experience-heading {
   font-size: 56px;
   font-weight: 400;

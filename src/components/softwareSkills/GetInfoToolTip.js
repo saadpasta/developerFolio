@@ -14,7 +14,7 @@ export default function GetInfoToolTip(input) {
           {relatedProjects.map((project, i) => {
             return (
               <li key={i} className="toolTipBulletPoint">
-                <a href={project.link} className="noUnderline" target="_blank" rel="noreferrer">
+                <a href={project.link} className="noUnderline" target={GetTarget(project)} rel="noreferrer">
                   {project.description}
                 </a>
               </li>
@@ -30,4 +30,13 @@ export default function GetInfoToolTip(input) {
       {projectList}
     </div>
   );
+}
+
+function GetTarget(project){
+  if("link" in project){
+    if(project.link.startsWith("./")){
+      return "_self";
+    }
+  }
+  return "_blank";
 }
