@@ -1,0 +1,33 @@
+version: '3'
+
+services:
+  portfolio:
+    build:
+      dockerfile: Dockerfile
+      context: . 
+    ports:
+      - "3000:3000"
+    container_name: portfolio
+    restart: unless-stopped
+  
+  nginx:
+    image: nginx:1.24.0-alpine
+    restart: always
+    user: root
+    volumes:
+      - ./nginx/https.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/proxy_params:/etc/nginx/proxy_params:ro
+      - ./nginx/logs/:/var/log/nginx/:rw
+      - ./certbot/www:/var/www/certbot/:ro
+      - ./certbot/conf/:/etc/letsencrypt/:ro
+    ports:
+      - "80:80"
+      - "443:443"
+
+  certbot:
+    image: certbot/certbot:v1.8.0
+    container_name: certbot
+    volumes:
+      - ./certbot/www/:/var/www/certbot/:rw
+      - ./certbot/conf/:/etc/letsencrypt/:rw
