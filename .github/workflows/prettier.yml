@@ -21,7 +21,4 @@ jobs:
 
       - name: Check Format
         run: |
-          prettier --config .prettierrc --check "./**/*.{js,css,json,scss}"
-
-      #   run: |
-      #     prettier -c "./**/*.{js,css,json}"
+          prettier -c "./**/*.{js,css,json}"
