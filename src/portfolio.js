@@ -31,9 +31,9 @@ const greeting = {
   username: "Hesam Ossanloo",
   title: "Heya, I'm Hesam",
   subTitle: emoji(
-    `I'm a proactive technology and people leader with 12+ years of experience in leadership and software 
+    `I'm a cofounder, proactive technology and people leader with 19+ years of experience in leadership and software 
 development across multiple disciplines and tech stacks for startups and established companies. A volunteer PhD 
-candidate (Semantic Search and Ontology) and research fellow at Planetary Transportation Systems 
+candidate focusing on Semantic Search and Ontology (Dropped out) and research fellow at Planetary Transportation Systems 
 working on sending a lunar rover to the Moon. Passionate about 
 working in great teams focusing on quality, personal development, mentoring and solving problems.`
   ),
@@ -364,7 +364,6 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: `Need to solve a complex problem, make sure your Tech is scalable and secure, need a mentor to build your team 
     or just want to say hi? Drop me an email 🙂`,
-  number: "+64272091761",
   email_address: "hesam@ossanloo.com"
 };
 
