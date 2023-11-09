@@ -164,9 +164,9 @@ const educationInfo = {
       schoolName:
         "Hochschule Darmstadt - University of Applied Sciences (Germany)",
       logo: require("./assets/images/hdaLogo.png"),
-      subHeader: "Phd. in Computer Science (in progress)",
-      duration: "September 2015 - September 2025",
-      desc: "Focus: Big Data, Machine learning, AI, ETL, Search result clustering, Semantic Web, Taxonomy, Linked Open Data, Information Retrieval, Semantic Information Visualization."
+      subHeader: "Phd. in Computer Science (Dropped out)",
+      duration: "September 2015 - September 2023",
+      desc: "Focus: Semantic search, Ontology, Big Data, Machine learning, AI, ETL, Search result clustering, Semantic Web, Taxonomy, Linked Open Data, Information Retrieval, Semantic Information Visualization."
     },
     {
       schoolName:
