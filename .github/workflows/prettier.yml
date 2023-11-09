@@ -20,7 +20,7 @@ jobs:
         run: npm install -g prettier
 
       - name: Run Prettier
-        run: prettier --write \"./**/*.{js,css,json,scss}\"
+        run: prettier --write "./**/*.{js,css,json,scss}"
 
       - name: Check Format
         run: |
