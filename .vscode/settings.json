@@ -1,4 +1,4 @@
 {
-    "files.autoSave": "onFocusChange",
-    "search.useGlobalIgnoreFiles": true
+  "files.autoSave": "onFocusChange",
+  "search.useGlobalIgnoreFiles": true
 }

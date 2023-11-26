@@ -21,10 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Kaedee",
-  title: "Chào mừng đến với trang thông tin của mình, xin tự giới thiệu mình tên là Hiếu ",
-  subTitle: emoji(
-    "."
-  ),
+  title:
+    "Chào mừng đến với trang thông tin của mình, xin tự giới thiệu mình tên là Hiếu ",
+  subTitle: emoji("."),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -96,7 +95,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
-    
+
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
@@ -120,10 +119,8 @@ const educationInfo = {
       subHeader: "Học tốt ở các môn: Toán, Anh, Tin",
       duration: "Niên Khoá: 2021 - 2024",
       desc: "",
-      descBullets: [
-       
-      ]
-    },
+      descBullets: []
+    }
   ]
 };
 
