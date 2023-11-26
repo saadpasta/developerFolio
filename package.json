@@ -1,8 +1,8 @@
 {
-  "homepage": "https://developerfolio.js.org/",
-  "name": "developerfolio",
+  "homepage": "https://Kirito4truz.github.io/developerFolio",
+  "name": "aboutme",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "colorthief": "^2.3.0",
     "enzyme": "^3.11.0",
