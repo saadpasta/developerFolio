@@ -1,8 +1,10 @@
 import React, {useContext} from "react";
 import "./StartupProjects.scss";
-import {bigProjects} from "../../portfolio";
+import {bigProjects, bigProjectsIta} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import LanguageContext from "../../contexts/LanguageContext";
+
 
 export default function StartupProject() {
   function openUrlInNewTab(url) {
@@ -14,14 +16,19 @@ export default function StartupProject() {
   }
 
   const {isDark} = useContext(StyleContext);
+  const {lang} = useContext(LanguageContext);
+
   if (!bigProjects.display) {
     return null;
   }
+
+  const myProjects = lang === "en" ? bigProjects : bigProjectsIta;
+
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="projects">
         <div>
-          <h1 className="skills-heading">{bigProjects.title}</h1>
+          <h1 className="skills-heading">{lang === "en" ? bigProjects.title : bigProjectsIta.title}</h1>
           <p
             className={
               isDark
@@ -29,11 +36,11 @@ export default function StartupProject() {
                 : "subTitle project-subtitle"
             }
           >
-            {bigProjects.subtitle}
+            {lang === "en" ? bigProjects.subtitle : bigProjectsIta.subtitle}
           </p>
 
           <div className="projects-container">
-            {bigProjects.projects.map((project, i) => {
+            {myProjects.projects.map((project, i) => {
               return (
                 <div
                   key={i}

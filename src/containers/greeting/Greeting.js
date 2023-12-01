@@ -7,11 +7,13 @@ import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 
-import {illustration, greeting} from "../../portfolio";
+import {illustration, greeting, greetingIta} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
+import LanguageContext from "../../contexts/LanguageContext";
 
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
+  const {lang} = useContext(LanguageContext);
   if (!greeting.displayGreeting) {
     return null;
   }
@@ -25,7 +27,7 @@ export default function Greeting() {
                 className={isDark ? "dark-mode greeting-text" : "greeting-text"}
               >
                 {" "}
-                {greeting.title}{" "}
+                {lang === "en" ? greeting.title : greetingIta.title}{" "}
                 <span className="wave-emoji">{emoji("👋")}</span>
               </h1>
               <p
@@ -35,18 +37,16 @@ export default function Greeting() {
                     : "greeting-text-p subTitle"
                 }
               >
-                {greeting.subTitle}
+                {lang === "en" ? greeting.subTitle : greetingIta.subTitle}
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button text="Contact me" href="#contact" />
-                {greeting.resumeLink && (
-                  <Button
-                    text="See my resume"
-                    newTab={true}
-                    href={greeting.resumeLink}
-                  />
-                )}
+                <Button text={lang === "en" ? "Contact me" : "Contattami"} href="#contact" />
+                <Button
+                  text={lang === "en" ? "See my resume" : "Scarica il mio CV"}
+                  newTab={true}
+                  href={lang === "en" ? greeting.resumeLink : greetingIta.resumeLink}
+                />
               </div>
             </div>
           </div>

@@ -1,20 +1,23 @@
 import React, {useContext} from "react";
 import "./Contact.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import {illustration, contactInfo} from "../../portfolio";
+import {illustration, contactInfo, contactInfoIta} from "../../portfolio";
 import {Fade} from "react-reveal";
 import email from "../../assets/lottie/email";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
+import LanguageContext from "../../contexts/LanguageContext";
 
 export default function Contact() {
   const {isDark} = useContext(StyleContext);
+  const {lang} = useContext(LanguageContext);
+
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main contact-margin-top" id="contact">
         <div className="contact-div-main">
           <div className="contact-header">
-            <h1 className="heading contact-title">{contactInfo.title}</h1>
+            <h1 className="heading contact-title">{lang === "en" ? contactInfo.title : contactInfoIta.title}</h1>
             <p
               className={
                 isDark
@@ -22,7 +25,7 @@ export default function Contact() {
                   : "subTitle contact-subtitle"
               }
             >
-              {contactInfo.subtitle}
+              {lang === "en" ? contactInfo.subtitle : contactInfoIta.subtitle}
             </p>
             <div
               className={
