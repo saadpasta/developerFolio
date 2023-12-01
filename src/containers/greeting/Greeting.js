@@ -41,11 +41,16 @@ export default function Greeting() {
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button text={lang === "en" ? "Contact me" : "Contattami"} href="#contact" />
+                <Button
+                  text={lang === "en" ? "Contact me" : "Contattami"}
+                  href="#contact"
+                />
                 <Button
                   text={lang === "en" ? "See my resume" : "Scarica il mio CV"}
                   newTab={true}
-                  href={lang === "en" ? greeting.resumeLink : greetingIta.resumeLink}
+                  href={
+                    lang === "en" ? greeting.resumeLink : greetingIta.resumeLink
+                  }
                 />
               </div>
             </div>

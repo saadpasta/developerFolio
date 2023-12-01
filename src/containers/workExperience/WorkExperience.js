@@ -6,7 +6,6 @@ import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 import LanguageContext from "../../contexts/LanguageContext";
 
-
 export default function WorkExperience() {
   const {isDark} = useContext(StyleContext);
   const {lang} = useContext(LanguageContext);
@@ -17,7 +16,9 @@ export default function WorkExperience() {
         <Fade bottom duration={1000} distance="20px">
           <div className="experience-container" id="workExperience">
             <div>
-              <h1 className="experience-heading">{lang === "en" ? "Experiences" : "Esperienze"}</h1>
+              <h1 className="experience-heading">
+                {lang === "en" ? "Experiences" : "Esperienze"}
+              </h1>
               <div className="experience-cards-div">
                 {workExperiences.experience.map((card, i) => {
                   return (

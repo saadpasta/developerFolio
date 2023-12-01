@@ -15,7 +15,6 @@ import {
 } from "../../portfolio";
 import LanguageContext from "../../contexts/LanguageContext";
 
-
 function Header() {
   const {isDark} = useContext(StyleContext);
   const {lang} = useContext(LanguageContext);
@@ -51,17 +50,23 @@ function Header() {
           )}
           {viewExperience && (
             <li>
-              <a href="#experience">{lang === "en" ? "Work Experiences" : "Esperienze"}</a>
+              <a href="#experience">
+                {lang === "en" ? "Work Experiences" : "Esperienze"}
+              </a>
             </li>
           )}
           {viewOpenSource && (
             <li>
-              <a href="#opensource">{lang === "en" ? "Open Source" : "Open Source"}</a>
+              <a href="#opensource">
+                {lang === "en" ? "Open Source" : "Open Source"}
+              </a>
             </li>
           )}
           {viewAchievement && (
             <li>
-              <a href="#achievements">{lang === "en" ? "Achievements" : "Achievements"}</a>
+              <a href="#achievements">
+                {lang === "en" ? "Achievements" : "Achievements"}
+              </a>
             </li>
           )}
           {viewBlog && (

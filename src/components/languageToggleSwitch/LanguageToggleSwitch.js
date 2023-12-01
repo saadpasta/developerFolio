@@ -18,7 +18,9 @@ const LanguageToggleSwitch = () => {
           setChecked(lang === "it");
         }}
       />
-      <span className={lang=== "it" ? " slider round ita" : "slider round eng"}></span>
+      <span
+        className={lang === "it" ? " slider round ita" : "slider round eng"}
+      ></span>
     </label>
   );
 };

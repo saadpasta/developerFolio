@@ -44,7 +44,9 @@ export default function Skills() {
                   : "subTitle skills-text-subtitle"
               }
             >
-              {lang === "en" ? skillsSection.subTitle : skillsSectionIta.subTitle}
+              {lang === "en"
+                ? skillsSection.subTitle
+                : skillsSectionIta.subTitle}
             </p>
             <SoftwareSkill />
             <div>

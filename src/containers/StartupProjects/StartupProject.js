@@ -5,7 +5,6 @@ import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 import LanguageContext from "../../contexts/LanguageContext";
 
-
 export default function StartupProject() {
   function openUrlInNewTab(url) {
     if (!url) {
@@ -28,7 +27,9 @@ export default function StartupProject() {
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="projects">
         <div>
-          <h1 className="skills-heading">{lang === "en" ? bigProjects.title : bigProjectsIta.title}</h1>
+          <h1 className="skills-heading">
+            {lang === "en" ? bigProjects.title : bigProjectsIta.title}
+          </h1>
           <p
             className={
               isDark
