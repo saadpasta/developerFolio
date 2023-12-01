@@ -68,12 +68,8 @@ const skillsSection = {
     emoji(
       "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
     ),
-    emoji(
-      "⚡ VR/AR and games development with Unity game engine"
-    ),
-    emoji(
-      "⚡ Microcontroller and sensors development"
-    )
+    emoji("⚡ VR/AR and games development with Unity game engine"),
+    emoji("⚡ Microcontroller and sensors development")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -143,11 +139,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "unity",
       fontAwesomeClassname: "fab fa-unity"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
 
 const skillsSectionIta = {
   title: "Cosa faccio",
@@ -160,9 +155,7 @@ const skillsSectionIta = {
     emoji(
       "⚡ Integrazione con i principali servizi di terze parti come Firebase/ AWS / Digital Ocean"
     ),
-    emoji(
-      "⚡ Sviluppo applicazioni VR/AR e giochi con il Game Engine Unity"
-    ),
+    emoji("⚡ Sviluppo applicazioni VR/AR e giochi con il Game Engine Unity"),
     emoji(
       "⚡ Sviluppo applicazioni embedded per microcontrollori, IOT e sensoristica avanzata"
     )
@@ -249,13 +242,13 @@ const educationInfo = {
       schoolName: "Politecnico di Milano",
       logo: require("./assets/images/Logo_Politecnico_Milano.png"),
       subHeader: "Computer Science",
-      duration: "September 2013 - April 2017",
+      duration: "September 2013 - April 2017"
       // desc: "Participated in the research of XXX and published 3 papers.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       // ]
-    },
+    }
     // {
     //   schoolName: "Stanford University",
     //   logo: require("./assets/images/stanfordLogo.png"),
@@ -295,15 +288,22 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
+      company: "Triboo",
+      companylogo: require("./assets/images/logo-triboo_400.jpg"),
+      date: "",
+      desc: "Ecommerce AI development"
+    },
+    {
+      role: "Software Engineer",
       company: "Waterjug S.L.",
-      companylogo: require("./assets/images/logo_waterjug-1.png"),
+      companylogo: require("./assets/images/logo_waterjug_800.jpg"),
       date: "",
       desc: "AR/VR development, dashboard and mobile applications"
     },
     {
       role: "Software Engineer",
       company: "Lattes Editori S.R.L.",
-      companylogo: require("./assets/images/lattes_logo_circle.jpg"),
+      companylogo: require("./assets/images/lattes_logo_250.jpg"),
       date: "",
       desc: "Development of a virtual reality applications",
       descBullets: [
@@ -314,20 +314,19 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "Haptica S.R.L",
-      companylogo: require("./assets/images/logo-haptica-1.jpg"),
+      companylogo: require("./assets/images/logo-haptica_1800.jpg"),
       date: "",
       desc: "Microcontroller and advanced sensors development"
     },
     {
       role: "Software Engineer",
       company: "Francy Solutions",
-      companylogo: require("./assets/images/francy_logo.png"),
+      companylogo: require("./assets/images/francy_logo_250.jpg"),
       date: "",
       desc: ".NET Core and .NET Framework development"
-    },
+    }
   ]
 };
-
 
 const workExperiencesIta = {
   display: true, //Set it to true to show workExperiences Section
@@ -363,7 +362,7 @@ const workExperiencesIta = {
       companylogo: require("./assets/images/francy_logo.png"),
       date: "",
       desc: "Sviluppo applicazioni con .NET Core and .NET Framework"
-    },
+    }
   ]
 };
 
@@ -382,9 +381,21 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
+      image: require("./assets/images/skin-plus.png"),
+      projectName: "Skin",
+      projectDesc: "Speed and evolution headless e-commerce front-end",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://skin-headless.com/"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/moma.webp"),
       projectName: "M.O.M.A. Visual",
-      projectDesc: "VR companion application for the M.O.M.A. Visual school book",
+      projectDesc:
+        "VR companion application for the M.O.M.A. Visual school book",
       footerLink: [
         {
           name: "Visit Website",
@@ -404,12 +415,13 @@ const bigProjects = {
     {
       image: require("./assets/images/music-player-logo.png"),
       projectName: "Music Player",
-      projectDesc: "Companion application for the \"Prima la Musica!\" school book",
+      projectDesc:
+        'Companion application for the "Prima la Musica!" school book',
       footerLink: [
         {
           name: "Visit Website",
           url: "https://lattesplayer.web.app/"
-        },
+        }
       ]
     }
   ],
@@ -418,12 +430,24 @@ const bigProjects = {
 
 const bigProjectsIta = {
   title: "I miei progetti",
-  subtitle: "ALCUNE AZIENDE E STARTUPS CHE HO AIUTATO PER CREARE LE LORO TECNOLOGIE",
+  subtitle:
+    "ALCUNE AZIENDE E STARTUPS CHE HO AIUTATO PER CREARE LE LORO TECNOLOGIE",
   projects: [
+    {
+      image: require("./assets/images/skin-plus.png"),
+      projectName: "Skin",
+      projectDesc: "Sviluppo front-end headless e-commerce basato su AI",
+      footerLink: [
+        {
+          name: "Visita il sito",
+          url: "https://skin-headless.com/"
+        }
+      ]
+    },
     {
       image: require("./assets/images/moma.webp"),
       projectName: "M.O.M.A. Visual",
-      projectDesc: "Applicazione VR a supporto del libro \"M.O.M.A. Visual\"",
+      projectDesc: 'Applicazione VR a supporto del libro "M.O.M.A. Visual"',
       footerLink: [
         {
           name: "Visita il sito",
@@ -441,20 +465,19 @@ const bigProjectsIta = {
       ]
     },
     {
-      image: require("./assets/images/music-player-logo.svg"),
+      image: require("./assets/images/music-player-logo.png"),
       projectName: "Music Player",
-      projectDesc: "Applicazione a supporto del libro \"Prima la Musica!\"",
+      projectDesc: 'Applicazione a supporto del libro "Prima la Musica!"',
       footerLink: [
         {
           name: "Visita il sito",
           url: "https://lattesplayer.web.app/"
-        },
+        }
       ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
 
 // Achievement Section
 // Include certificates, talks etc
