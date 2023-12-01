@@ -10,7 +10,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 3000 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
@@ -20,26 +20,22 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Faruk Aygun",
+  title: "Hi all, I'm Faruk",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Game / Backend Developer 🚀 having an experience of game / backend development with C# & .NET core and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://www.canva.com/design/DAFtB9IT8nE/T03U41Weil-zP1-68fIVaw/edit?utm_content=DAFtB9IT8nE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/farukaygun",
+  linkedin: "https://www.linkedin.com/in/farukaygun/",
+  gmail: "farukaygun@outlook.com.tr",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,15 +45,16 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "GAME / BACKEND DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly fun games!"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Innovative Progressing Games"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡ Integration of third party services such as Unity Game Services / Firebase / Photon Fusion."
+    ),
+    emoji("⚡ Developing powerful and effective backend applications with .NET Core.")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -65,44 +62,44 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Unity",
+      fontAwesomeClassname: "fab fa-unity"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Photon Fusion",
+      fontAwesomeClassname: "fab fa-unity"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Unity Game Services",
+      fontAwesomeClassname: "fab fa-unity"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "VContainer DI",
+      fontAwesomeClassname: "fab fa-unity"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "C#",
+      fontAwesomeClassname: "fab fa-microsoft"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: ".NET Core",
+      fontAwesomeClassname: "fab fa-microsoft"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Entity Framework",
+      fontAwesomeClassname: "fab fa-microsoft"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "Kotlin",
+      fontAwesomeClassname: "fab fa-android"
+    },
+    {
+      skillName: "Android",
+      fontAwesomeClassname: "fab fa-android"
     },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
     },
     {
       skillName: "firebase",
@@ -112,10 +109,6 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,23 +119,24 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Yalova University",
+      logo: require("./assets/images/YalovaLogo.png"),
+      subHeader: "Bachelor Degree of Computer Science",
+      duration: "September 2015 - December 2022",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Anadolu University",
+      logo: require("./assets/images/AnadoluLogo.png"),
+      subHeader: "Studying Management Information Systems",
+      duration: "October 2023 - Present",
+      desc: "",
+      descBullets: [
+
+      ]
     }
   ]
 };
@@ -153,16 +147,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Game Development", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Backend Development",
+      progressPercentage: "80%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Android Development",
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,30 +168,20 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      role: "Game Developer",
+      company: "NG Software and Consultancy Co.",
+      companylogo: require("./assets/images/ngss-logo-2.png"),
+      date: "January 2023 – Present",
+      desc: "As a game developer, we develop mobile games with Unity. We developed 5 mobile games currently.",
+      descBullets: []
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Game Developer Intern",
+      company: "Nitra Games Software Ltd. Co",
+      //companylogo: require(""),
+      date: "August 2022 – September 2022",
+      desc: "I developed a wrapper and integrated part of the Bullet3 physics library into the Glist Engine game engine."
     },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
   ]
 };
 
@@ -212,29 +196,44 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Works",
+  subtitle: "GAMES AND APPLICATIONS I WORKED ON",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      // image: require("./assets/images/"),
+      projectName: "Word Expedition",
+      projectDesc: "Word expedition is the last game we are currently developing. It is a 1v1 multiplayer competitive mobile word puzzle game. The game is currently in the development stage, and I am involved in the project as a Game Developer. We utilize technological tools such as Photon Fusion, Cloud Code, Cloud Save, Economy, Leaderboards, Push Notifications, and more within the Unity Game Services for the project.",
+    },
+    {
+      image: require("./assets/images/bar-control-icon.png"),
+      projectName: "Bar Control",
+      projectDesc: "Bar Control is a hypercasual mobile game. I worked on the project as a Game Developer, utilizing Unity Game Services' Cloud Code, Cloud Save, Economy, Leaderboards, Push Notifications, and other technological features.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Bar Control",
+          url: "https://play.google.com/store/apps/details?id=com.xnggames.barcontrol"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/ic_launcher_round.png"),
+      projectName: "Catch Me!",
+      projectDesc: "Catch Me! is a hypercasual mobile game. I worked on the project as a Game Developer, utilizing Unity Game Services' Cloud Code, Cloud Save, Economy, Leaderboards, Push Notifications, and other technological features.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Google Play",
+          url: "https://play.google.com/store/apps/details?id=com.xnggames.catchme"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/ZombieGameIconPixelOk.png"),
+      projectName: "Zombie Runner",
+      projectDesc: "Zombie Runner is an action-packed endless running game where players kill zombies while running. I worked on the project as a Game Developer, incorporating technological features such as Cloud Save and Economy from Unity Game Services.",
+      footerLink: [
+        {
+          name: "Zombie Runner",
+          url: "https://play.google.com/store/apps/details?id=com.NGSS.ZombieRunner"
         }
       ]
     }
@@ -252,53 +251,31 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Game and Application Academy: Game Development with Unity",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Google Turkey, in collaboration with the Entrepreneurship Foundation and T3 Innovation Center, has successfully implemented the Game and Application Academy with the support of the Ministry of Industry and Technology and the Presidency Digital Transformation Office. The scholarship recipient has successfully completed a total of 46 hours of training, consisting of 218 instructional videos, titled \"Introduction to Game Development with Unity\" and \"Specialization in Game Development with Unity\", along with the relevant assessment exams, thanks to the support provided.",
+      image: require("./assets/images/GameAndApplicationAcademyLogo.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://verified.sertifier.com/en/verify/89128009161108/"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Game and Application Academy: Technology Entrepreneurship",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "In collaboration with the Entrepreneurship Foundation and T3 Innovation Center, Google Turkey has successfully implemented the Game and Application Academy with the support of the Ministry of Industry and Technology and the Presidency Digital Transformation Office. The scholarship recipient has successfully completed the 11-hour Technology Entrepreneurship Training Program, consisting of 73 instructional videos, along with the relevant assessment exams. The Technology Entrepreneurship Training Program covers topics such as entrepreneurship, law, human resources, and finance within its curriculum.",
+      image: require("./assets/images/GameAndApplicationAcademyLogo.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://verified.sertifier.com/en/verify/07815939306130/"
         }
       ]
     },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -324,7 +301,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +320,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,25 +333,24 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  email_address: "farukaygun@outlook.com.tr"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  userName: "frkaygun", //Replace "twitter" with your twitter username without @
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
