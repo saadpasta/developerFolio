@@ -125,7 +125,7 @@ if (MEDIUM_USERNAME !== undefined) {
   });
 
   req.on("error", error => {
-    throw error;
+    // throw error;
   });
 
   req.end();
