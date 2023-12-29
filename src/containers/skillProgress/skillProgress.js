@@ -32,6 +32,7 @@ export default function StackProgress() {
               <DisplayLottie animationData={Build} />
             ) : (
               <img
+                crossOrigin="anonymous"
                 alt="Skills"
                 src={require("../../assets/images/skill.svg")}
               />

@@ -52,6 +52,7 @@
 
 .header .logo {
   display: block;
+  color: orangered;
   flex: none;
   float: left;
   font-size: 1.5em;
@@ -175,6 +176,7 @@
     display: none;
   }
 }
+
 @media (max-width: 960px) and (min-width: 768px) {
   .header {
     font-size: 12px;
