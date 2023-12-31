@@ -25,7 +25,8 @@
   user-select: none;
   width: 2.6rem;
   margin-bottom: 10px;
-  transition: 0.2s ease-in;
+  opacity: 0.8;
+  transition: 0.2s;
 }
 
 .facebook i {
@@ -79,7 +80,9 @@
 .stack-overflow i:hover,
 .kaggle i:hover,
 .medium i:hover {
-  background-color: $textColor;
+  // background-color: $textColor;
+  transform: translateY(-6px) scale(1.1);
+  opacity: 1;
 }
 
 /* Media Query */
