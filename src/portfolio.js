@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Dereje Getahun",
+  title: "Hi all, I'm Dereje",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A versatile Full Stack Web Developer 🚀 with 5+ years of experience in Web applications with React / Node / AWS Lambda / Java Spring Boot and other cool technologies. Also a Mechanical Engineer with a M.Sc. degree and 10+ years of engineering experience."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1SA6YsQ5CFkDN9b6sXL52Jax1UfB0jFOO/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Dereje1",
+  linkedin: "https://www.linkedin.com/in/dereje-getahun-447018134",
+  gmail: "dereje.jobs@gmail.com",
+  // gitlab: "https://gitlab.com/saadpasta",
+  // facebook: "https://www.facebook.com/saad.pasta7",
+  // medium: "https://medium.com/@saadpasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,15 +49,16 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "VERSATILE FULL STACK WEB DEVELOPER WHO LOVES TO CREATE USER-FRIENDLY AND INNOVATIVE WEB APPLICATIONS",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Build, deploy, and operate new products and services using technologies such as React, Node, AWS Lambda, Java Spring Boot, PostgreSQL, and MongoDB."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Create user-friendly and intuitive web-based interfaces with React, Redux, TypeScript, CSS, HTML, and Material UI."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡ Write well-structured, tested, and scalable code using best practices and frameworks such as Jest, JUnit, Enzyme, Express, Passport, and Socket.io."
+    ),
+    emoji("⚡ Collaborate with remote teams using git workflow and agile methodologies."),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -89,24 +90,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "SQL/NoSQL-databases",
       fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
     },
     {
       skillName: "python",
@@ -126,23 +119,14 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Purdue School of Engineering and Technology",
+      subHeader: "Master of Science (M.Sc.), Mechanical Engineering",
+      duration: "Indianapolis, IN | May, 2005",
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Purdue School of Engineering and Technology",
+      subHeader: "Bachelor of Science (B.Sc.), Mechanical Engineering",
+      duration: "Indianapolis, IN | Dec, 1998",
     }
   ]
 };
@@ -153,16 +137,12 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Frontend", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -175,28 +155,37 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      company: "OneGlobe LLC",
+      companylogo: require("./assets/images/oneglobe.png"),
+      date: "Sep 2020 - Mar 2022",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Contributed to the U.S. FEMA Grants management modernization project, participating in all agile ceremonies.",
+        "Maintained, debugged, and tested UI features and backend services using technologies such as React, Redux, Jest, Java Spring Boot/Framework, PostgreSQL, and DynamoDB.",
+        "Utilized Node to write scripts for identifying and fixing production defects in a fast-paced kanban agile environment.",
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Cloud Software Engineer",
+      company: "The College Board",
+      companylogo: require("./assets/images/collegeboard.jpeg"),
+      date: "Jun 2019 – Sep 2020",
+      descBullets: [
+        "Built, maintained and tested UI features with React, Redux and Jest.",
+        "Built, maintained and tested backend services with AWS lambda, AWS Cognito, SQL, Node and Jest.",
+        "Maintained and troubleshooted CI/CD pipelines with AWS code commit and deploy.",
+        "Participated in all agile ceremonies (Sprint Planning, Daily Stand-up, Review and Retrospective)."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Full Stack Web Developer",
+      company: "Freelance",
+      companylogo: require("./assets/images/freelance.png"),
+      date: "Nov 2017 – Jun 2019",
+      descBullets: [
+        "Built full stack progressive web apps using MongoDB, Express, Passport, React and Node.",
+        "Collaborated with remote team members using git workflow.",
+        "Continuously learned web app development technologies."
+      ]
     }
   ]
 };
@@ -239,7 +228,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -247,58 +236,63 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      title: "Front-End Certifications",
+      subtitle: "Computer Software Engineering",
+      image: require("./assets/images/FCC.png"),
+      imageAlt: "FCC Logo",
+      footerLink: [
+        {
+          name: "Certification 1",
+          url: "https://www.freecodecamp.org/certification/dereje1/legacy-front-end"
+        },
+        {
+          name: "Certification 2",
+          url: "https://www.freecodecamp.org/certification/dereje1/front-end-development-libraries"
+        },
+      ]
+    },
+    {
+      title: "Back-End Certifications",
+      subtitle: "Computer Software Engineering",
+      image: require("./assets/images/FCC.png"),
+      imageAlt: "FCC Logo",
+      footerLink: [
+        {
+          name: "Certification 1",
+          url: "https://www.freecodecamp.org/certification/dereje1/legacy-back-end"
+        },
+        {
+          name: "Certification 2",
+          url: "https://www.freecodecamp.org/certification/dereje1/back-end-development-and-apis"
+        },
+      ]
+    },
+    {
+      title: "Algorithms and Data Structures Certification",
+      subtitle: "Computer Software Engineering",
+      image: require("./assets/images/FCC.png"),
+      imageAlt: "FCC Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://www.freecodecamp.org/certification/dereje1/javascript-algorithms-and-data-structures"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+      title: "Data Visualization Certification",
+      subtitle: "Computer Software Engineering",
+      image: require("./assets/images/FCC.png"),
+      imageAlt: "FCC Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
+          name: "Certification",
+          url: "https://www.freecodecamp.org/certification/dereje1/legacy-data-visualization"
+        },
       ]
     },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -324,7 +318,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +337,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,25 +350,23 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
+  email_address: "dereje.jobs@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
