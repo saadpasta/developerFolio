@@ -13,10 +13,7 @@ export default function Footer() {
           {emoji("Crafted with passion by Hamza. 🔧✨")}
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          Managed by{" "}
-          <a href="https://teammeg.online">
-            Team Meg Corporation
-          </a>
+          Managed by <a href="https://teammeg.online">Team Meg Corporation</a>
         </p>
       </div>
     </Fade>

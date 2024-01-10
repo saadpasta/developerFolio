@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "Yo, meet your coding guru and the brains behind Team Meg Corporation, straight outta Pakistan! I'm the rebel dev who's got Google on speed dial. Crushing it with React JS, slaying Machine Learning dragons in Python, and Node Js? It bows down to my command. Oh, did I mention? I'm just a 17-year-old college student, proving that age is just a number in the digital cosmos. I'm not just a coder; I'm the swagger-filled commander of the digital universe. 🚀💻"
   ),
-  resumeLink:
-    "#", // Set to empty to hide the button
+  resumeLink: "#", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -54,7 +53,9 @@ const skillsSection = {
     emoji(
       "⚡ Developed AI models reminiscent of MegAI, showcasing a mastery in the realm of artificial intelligence"
     ),
-    emoji("⚡ Developed kick-ass APIs, leveling up the game for well-known industries in the coding arena"),
+    emoji(
+      "⚡ Developed kick-ass APIs, leveling up the game for well-known industries in the coding arena"
+    ),
     emoji(
       "⚡ Incorporated human simulation with a coding twist, blending virtual and real-world dynamics seamlessly"
     )
@@ -142,7 +143,9 @@ const educationInfo = {
       subHeader: "Currently Doing ICS",
       duration: "September 2023 - Now",
       desc: "Juggling priorities and struggling to make it to college – life's a bit of a balancing act right now. ⏳📚",
-      descBullets: ["Yeah! Yar tune prh lia ha na college nahi jata itna ab aur kia janana tu ne⏳"]
+      descBullets: [
+        "Yeah! Yar tune prh lia ha na college nahi jata itna ab aur kia janana tu ne⏳"
+      ]
     }
   ]
 };
@@ -178,8 +181,7 @@ const workExperiences = {
       company: "Facebook",
       companylogo: require("./assets/images/facebookLogo.png"),
       date: "June 2023 – Present",
-      desc: "Extending the reach of my AI APIs to Facebook, seamlessly weaving them into the intricate fabric of their Meta chatbots",
-    
+      desc: "Extending the reach of my AI APIs to Facebook, seamlessly weaving them into the intricate fabric of their Meta chatbots"
     },
     {
       role: "API Developer",
@@ -286,7 +288,8 @@ const achievementSection = {
 
     {
       title: "OpenAI Contributer",
-      subtitle: "Played a role in OpenAI's humor conversation by making my own unique contributions",
+      subtitle:
+        "Played a role in OpenAI's humor conversation by making my own unique contributions",
       image: require("https://i.ibb.co/sJRGX3C/Open-AI-Logo-svg.png"),
       imageAlt: "PWA Logo",
       footerLink: [
@@ -351,9 +354,7 @@ const podcastSection = {
   subtitle: "Comming SOON!",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    ""
-  ],
+  podcast: [""],
   display: true // Set false to hide this section, defaults to true
 };
 
