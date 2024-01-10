@@ -20,13 +20,13 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Hamza Asjid",
+  title: "Hi all, I'm Muhammad Hamza Asjid",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Yo, meet your coding guru and the brains behind Team Meg Corporation, straight outta Pakistan! I'm the rebel dev who's got Google on speed dial. Crushing it with React JS, slaying Machine Learning dragons in Python, and Node Js? It bows down to my command. Oh, did I mention? I'm just a 17-year-old college student, proving that age is just a number in the digital cosmos. I'm not just a coder; I'm the swagger-filled commander of the digital universe. 🚀💻"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "#", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -52,11 +52,11 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Developed AI models reminiscent of MegAI, showcasing a mastery in the realm of artificial intelligence"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Developed kick-ass APIs, leveling up the game for well-known industries in the coding arena"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Incorporated human simulation with a coding twist, blending virtual and real-world dynamics seamlessly"
     )
   ],
 
@@ -126,23 +126,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "Army Public School",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      subHeader: "Completed Matriculation",
+      duration: "September 2012 - April 2023",
+      desc: "Steered clear of participation—let's just say that school isn't exactly my scene. 🚶‍♂️",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Navigated through school without much participation; my vibe is beyond the classroom walls.",
+        "Chose to stay on the sidelines at school, my interests reaching far beyond its confines."
       ]
     },
     {
-      schoolName: "Stanford University",
+      schoolName: "Punjab Group of Colleges",
       logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      subHeader: "Currently Doing ICS",
+      duration: "September 2023 - Now",
+      desc: "Juggling priorities and struggling to make it to college – life's a bit of a balancing act right now. ⏳📚",
+      descBullets: ["Yeah! Yar tune prh lia ha na college nahi jata itna ab aur kia janana tu ne⏳"]
     }
   ]
 };
@@ -153,12 +153,12 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "NLP/Natural Process Learning", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Front/Backend Web Development",
+      progressPercentage: "85%"
     },
     {
       Stack: "Programming",
@@ -174,29 +174,27 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
+      role: "API Prov",
       company: "Facebook",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      date: "June 2023 – Present",
+      desc: "Extending the reach of my AI APIs to Facebook, seamlessly weaving them into the intricate fabric of their Meta chatbots",
+    
     },
     {
-      role: "Front-End Developer",
+      role: "API Developer",
       company: "Quora",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "July 2023 – Sep 2023",
+      desc: "Quora has also jumped on board, leveraging the prowess of my AI APIs to enhance and elevate the intelligence of their platform. It's a collaboration that's rewriting the rules of digital interaction. 🚀💬"
     },
+
     {
-      role: "Software Engineer Intern",
+      role: "Dashboard Engineer",
       company: "Airbnb",
       companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "Jan 2024 – Now",
+      desc: "Recently joined forces with Airbnb, and now, donning the Google badge, I'm on a mission to revolutionize and uplift their AI Management Dashboard, pushing the boundaries of what's possible in the realm of digital innovation. 🌐✨ "
     }
   ]
 };
@@ -218,7 +216,7 @@ const bigProjects = {
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "Provided My Dashboard NLP APIs",
       footerLink: [
         {
           name: "Visit Website",
@@ -230,7 +228,7 @@ const bigProjects = {
     {
       image: require("./assets/images/nextuLogo.webp"),
       projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "Helping them with my brain.js projects.",
       footerLink: [
         {
           name: "Visit Website",
@@ -252,50 +250,50 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Google's Cloud AI Engineer",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "First Google Cloud Remote Developer in Pakistan, currently working on the exciting Gemini Project. Out of 40 devs in the Google Remote team, I'm bringing innovation right from here. ",
+      image: require("./assets/images/codeInLogo.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "#"
         },
         {
           name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          url: "#"
         },
         {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Google Cloud-Blog",
+          url: "#"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Google Bard Optimizer",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Enhanced the capabilities of Google Bard AI by integrating my cutting-edge chatbot, MegAI, bringing a futuristic touch to the conversation game",
+      image: require("./assets/images/bard.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
           name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          url: "#"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "OpenAI Contributer",
+      subtitle: "Played a role in OpenAI's humor conversation by making my own unique contributions",
+      image: require("./assets/images/openai.png"),
       imageAlt: "PWA Logo",
       footerLink: [
         {name: "Certification", url: ""},
         {
           name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          url: "#"
         }
       ]
     }
@@ -312,13 +310,13 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+      url: "#",
       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
       description:
         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+      url: "#",
       title: "Why REACT is The Best?",
       description:
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
@@ -350,11 +348,11 @@ const talkSection = {
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  subtitle: "Comming SOON!",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    ""
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -363,8 +361,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+92 3071249630",
+  email_address: "contacthamza@teammeg.online"
 };
 
 // Twitter Section
