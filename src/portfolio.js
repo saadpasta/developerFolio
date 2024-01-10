@@ -253,7 +253,7 @@ const achievementSection = {
       title: "Google's Cloud AI Engineer",
       subtitle:
         "First Google Cloud Remote Developer in Pakistan, currently working on the exciting Gemini Project. Out of 40 devs in the Google Remote team, I'm bringing innovation right from here. ",
-      image: require("./assets/images/codeInLogo.png"),
+      image: require("https://i.ibb.co/ctW1R30/msoss-0-1660232236133.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
@@ -274,7 +274,7 @@ const achievementSection = {
       title: "Google Bard Optimizer",
       subtitle:
         "Enhanced the capabilities of Google Bard AI by integrating my cutting-edge chatbot, MegAI, bringing a futuristic touch to the conversation game",
-      image: require("./assets/images/bard.png"),
+      image: require("https://i.ibb.co/GTBFkbp/images.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
@@ -287,7 +287,7 @@ const achievementSection = {
     {
       title: "OpenAI Contributer",
       subtitle: "Played a role in OpenAI's humor conversation by making my own unique contributions",
-      image: require("./assets/images/openai.png"),
+      image: require("https://i.ibb.co/sJRGX3C/Open-AI-Logo-svg.png"),
       imageAlt: "PWA Logo",
       footerLink: [
         {name: "Certification", url: ""},
