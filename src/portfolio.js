@@ -23,7 +23,7 @@ const greeting = {
   username: "Farhaan Nishtar",
   title: "Hi, I'm Farhaan",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer building Web applications with TypeScript, Reactjs and Nodejs"
+    "A passionate and driven Full Stack Software Developer building Web applications with TypeScript, Reactjs and Nodejs"
   ),
   // resumeLink:
   //   "https://docs.google.com/document/d/e/2PACX-1vRau2txUx1DNPVTu882Xs3C6MaeQ_YBDogYqq-ebhEPiBjEMMNwoIIReSrzu2YWUa88et-J_HN-OZ_d/pub", // Set to empty to hide the button
@@ -38,7 +38,7 @@ const socialMediaLinks = {
   // gmail: "farhaannishtar@gmail.com",
   linkedin: "https://www.linkedin.com/in/farhaan-nishtar/",
   resume:
-    "https://docs.google.com/document/d/e/2PACX-1vRau2txUx1DNPVTu882Xs3C6MaeQ_YBDogYqq-ebhEPiBjEMMNwoIIReSrzu2YWUa88et-J_HN-OZ_d/pub",
+    "https://docs.google.com/document/d/e/2PACX-1vQkqwoqSc0VURTEdJhP2JQgodZN43r5vPw46IeebUoBVhYyrOsvpknPoUdWP3x4GkTUs9qG4506v784/pub",
   // gitlab: "https://gitlab.com/saadpasta",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",
@@ -52,7 +52,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "FULL STACK DEVELOPER AND CRYPTO EVANGELIST",
+  subTitle: "FULL STACK DEVELOPER",
   skills: [
     emoji(
       "⚡ Develop highly interactive front-end/user interfaces for web applications"
