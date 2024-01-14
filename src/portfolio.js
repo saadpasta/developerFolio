@@ -23,7 +23,7 @@ const greeting = {
   username: "Farhaan Nishtar",
   title: "Hi, I'm Farhaan",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer building Web applications with TypeScript, Reactjs and Nodejs"
+    "A passionate and driven Full Stack Software Developer building Web applications with TypeScript, Reactjs and Nodejs"
   ),
   // resumeLink:
   //   "https://docs.google.com/document/d/e/2PACX-1vRau2txUx1DNPVTu882Xs3C6MaeQ_YBDogYqq-ebhEPiBjEMMNwoIIReSrzu2YWUa88et-J_HN-OZ_d/pub", // Set to empty to hide the button
@@ -38,7 +38,7 @@ const socialMediaLinks = {
   // gmail: "farhaannishtar@gmail.com",
   linkedin: "https://www.linkedin.com/in/farhaan-nishtar/",
   resume:
-    "https://docs.google.com/document/d/e/2PACX-1vRau2txUx1DNPVTu882Xs3C6MaeQ_YBDogYqq-ebhEPiBjEMMNwoIIReSrzu2YWUa88et-J_HN-OZ_d/pub",
+    "https://docs.google.com/document/d/e/2PACX-1vQkqwoqSc0VURTEdJhP2JQgodZN43r5vPw46IeebUoBVhYyrOsvpknPoUdWP3x4GkTUs9qG4506v784/pub",
   // gitlab: "https://gitlab.com/saadpasta",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",
@@ -52,13 +52,13 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "FULL STACK DEVELOPER AND CRYPTO EVANGELIST",
+  subTitle: "FULL STACK DEVELOPER",
   skills: [
     emoji(
       "⚡ Develop highly interactive front-end/user interfaces for web applications"
     ),
     emoji(
-      "⚡ Optimize SEO and performance through server-side rendering (SSR) and static site generation (SSG)"
+      "⚡ Build robust and scalable backend systems to power web applications, ensuring efficient data management and seamless integration with front-end technologies."
     ),
     emoji(
       "⚡ Integrate third-party services like Firebase, Supabase, and MongoDB"
@@ -185,28 +185,37 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer (Contract)",
+      role: "Full Stack Web Developer (Contract)",
+      company: "Deelz",
+      companylogo: require("./assets/images/deelz-logo.jpeg"),
+      date: "December 2023 – Present",
+      desc: "Building the Deelz web platform to find the most competitive deals on used cars by automating searches on used car markets",
+      descBullets: [
+        "Used d3.js to create data visualizations of the used car market in the United States.",
+        "Built a web scraper using puppeteer to automate the process of searching for used cars on Craigslist"
+      ]
+    },
+    {
+      role: "Full Stack Web Developer (Contract)",
       company: "Tabyt",
       companylogo: require("./assets/images/tabyt.png"),
       date: "July 2023 – August 2023",
-      desc: "Tabyt is a mobile app for seamless event planning, effortless guestlist management, and creating meaningful new connections."
+      desc: "Tabyt is a mobile app for seamless event planning, effortless guestlist management, and creating meaningful new connections.",
+      descBullets: [
+        "Used Next.js and TailwindCSS to develop a dynamic and responsive landing page for the Tabyt mobile app",
+        "Collaborated with backend developers to efficiently fetch data from established endpoints, dynamically rendering upcoming events in an engaging, user-friendly interface."
+      ]
     },
     {
-      role: "Software Engineer",
+      role: "Full Stack Web Developer",
       company: "Desi Dance NYC",
       companylogo: require("./assets/images/desi-dance.jpg"),
       date: "December 2022 – June 2023",
-      desc: "Desi Dance NYC is a website that automatically aggregates all upcoming Bollywood and South Asian influence dance classes in New York City."
-    },
-    {
-      role: "Software Engineer",
-      company: "Nouns Vision",
-      companylogo: require("./assets/images/nouns_vision.png"),
-      date: "March 2022 – July 2022",
-      desc: "Created a product page for a NFT raffle.",
+      desc: "Desi Dance NYC is a website that automatically aggregates all upcoming Bollywood and South Asian dance classes in New York City.",
       descBullets: [
-        "Used Tailwind CSS to style the page",
-        "Added functionality for the user to connect their wallet and purchase an NFT."
+        "Used cheerio to scrape data from various dance instructor's websites.",
+        "Created a REST API using Node.js and Express.js to serve the scraped data to the frontend.",
+        "Created filtering logic to allow users to filter classes by dance instructor"
       ]
     }
   ]
@@ -234,7 +243,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://life-dashboard-one.vercel.app/"
+          url: "https://life-dashboard-indol.vercel.app/"
         }
         //  you can add extra buttons here.
       ]

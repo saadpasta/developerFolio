@@ -14,11 +14,11 @@ export default function StartupProject() {
         company: "Life Dashboard",
         companylogo: require("../../assets/images/life-dashboard.png"),
         // date: "July 2023 – August 2023",
-        desc: "A full-stack web application designed to provide a comprehensive view of your health and wellness metrics in real-time",
+        desc: "A full-stack web application providing comprehensive, real-time health and wellness metrics by integrating devices like Oura ring, blood glucose monitors, and Fitbit scales. Designed for health enthusiasts and professionals, it offers a seamless experience in centralizing and monitoring health data.",
         footerLink: [
           {
             name: "Visit Website",
-            url: "https://life-dashboard-one.vercel.app/"
+            url: "https://life-dashboard-indol.vercel.app/"
           }
           //  you can add extra buttons here.
         ]
