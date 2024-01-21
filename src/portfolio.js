@@ -219,7 +219,7 @@ const workExperiences = {
       date: "December 2022 – June 2023",
       desc: "Desi Dance NYC is a website that automatically aggregates all upcoming Bollywood and South Asian dance classes in New York City.",
       descBullets: [
-        "Used cheerio.js to scrape data from various dance instructor's websites.",
+        "Used Node.js library, cheerio.js, to scrape data from various dance instructor's websites.",
         "Created a REST API using Node.js and Express.js to serve the scraped data to the frontend.",
         "Created filtering logic to allow users to filter classes by dance instructor"
       ],
