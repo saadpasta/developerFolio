@@ -229,8 +229,7 @@ const workExperiences = {
           url: "https://www.desidance.nyc/"
         }
       ]
-    },
-
+    }
   ]
 };
 
