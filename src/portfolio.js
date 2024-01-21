@@ -185,25 +185,31 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Full Stack Web Developer (Contract)",
+      role: "Full Stack Web Developer",
       company: "Deelz",
       companylogo: require("./assets/images/deelz-logo.jpeg"),
       date: "December 2023 – Present",
       desc: "Building the Deelz web platform to find the most competitive deals on used cars by automating searches on used car markets",
       descBullets: [
-        "Used d3.js to create data visualizations of the used car market in the United States.",
+        "Used d3.js to create data-driven visualizations of the used car market in the United States.",
         "Built a web scraper using puppeteer to automate the process of searching for used cars on Craigslist"
+      ],
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://app.deelz.ai/home/searches"
+        }
       ]
     },
     {
-      role: "Full Stack Web Developer (Contract)",
+      role: "Full Stack Web Developer",
       company: "Tabyt",
       companylogo: require("./assets/images/tabyt.png"),
       date: "July 2023 – August 2023",
       desc: "Tabyt is a mobile app for seamless event planning, effortless guestlist management, and creating meaningful new connections.",
       descBullets: [
         "Used Next.js and TailwindCSS to develop a dynamic and responsive landing page for the Tabyt mobile app",
-        "Collaborated with backend developers to efficiently fetch data from established endpoints, dynamically rendering upcoming events in an engaging, user-friendly interface."
+        "Collaborated with backend developers to efficiently fetch data from established REST API endpoints, dynamically rendering upcoming events in an engaging, user-friendly interface."
       ]
     },
     {
@@ -213,11 +219,18 @@ const workExperiences = {
       date: "December 2022 – June 2023",
       desc: "Desi Dance NYC is a website that automatically aggregates all upcoming Bollywood and South Asian dance classes in New York City.",
       descBullets: [
-        "Used cheerio to scrape data from various dance instructor's websites.",
+        "Used cheerio.js to scrape data from various dance instructor's websites.",
         "Created a REST API using Node.js and Express.js to serve the scraped data to the frontend.",
         "Created filtering logic to allow users to filter classes by dance instructor"
+      ],
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.desidance.nyc/"
+        }
       ]
-    }
+    },
+
   ]
 };
 

@@ -39,10 +39,10 @@ export default function Greeting() {
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button
+                {/* <Button
                   text="Contact me"
                   href="mailto:farhaannishtar@gmail.com"
-                />
+                /> */}
               </div>
             </div>
           </div>

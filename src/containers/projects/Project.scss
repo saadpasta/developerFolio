@@ -5,14 +5,15 @@
   background-color: $lightBackground2;
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
   border-radius: 10px;
-  border: 1px solid $lightBorder1;
+  // border: 1px solid $lightBorder1;
 }
 
 .experience-div {
-  border: 1px solid red;
+  // border: 1px solid red;
 }
 
 .experience-card-dark {
+  display: flex;
   position: relative;
   background-color: $darkBackground;
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
@@ -39,6 +40,20 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
+}
+
+.banner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.lower-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
 }
 
 .experience-blurred_div {
@@ -183,7 +198,7 @@
   width: 100%;
   justify-content: center;
   align-items: center;
-  vertical-align: middle;
+  vertical-align: bottom;
 }
 
 .container {
