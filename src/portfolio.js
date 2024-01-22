@@ -47,12 +47,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE AND WANT TO DIVE INTO TECH",
+  subTitle:
+    "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE AND WANT TO DIVE INTO TECH",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Create and deploy backend servecies using Node for large scale user handle"),
+    emoji(
+      "⚡ Create and deploy backend servecies using Node for large scale user handle"
+    )
     // emoji(
     //   "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
     // )
@@ -112,7 +115,7 @@ const educationInfo = {
       logo: require("./assets/images/iet_logo.jpeg"),
       subHeader: "Bachelor of Technology in Computer Science",
       duration: "September 2019 - April 2023",
-      desc: "Part of PARMART a social club and hold Secratory post at MEF",
+      desc: "Part of PARMART a social club and hold Secratory post at MEF"
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -123,7 +126,7 @@ const educationInfo = {
       logo: require("./assets/images/svnic_logo.jpeg"),
       subHeader: "Schooling from 8-12",
       duration: "September 2013 - April 2017",
-      desc: "Ranked top 9th in ditrict in class 10th and achive 85% marks in 12th",
+      desc: "Ranked top 9th in ditrict in class 10th and achive 85% marks in 12th"
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
@@ -144,7 +147,7 @@ const techStack = {
     },
     {
       Stack: "React-Native",
-      progressPercentage:"50%"
+      progressPercentage: "50%"
     },
     {
       Stack: "Programming(DS & algos)",
