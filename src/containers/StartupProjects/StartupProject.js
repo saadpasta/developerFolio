@@ -2,7 +2,7 @@ import React, {useContext} from "react";
 import "../projects/Project.scss";
 import ExperienceCard from "../../components/experienceCard/ExperienceCard";
 // import {workExperiences} from "../../portfolio";
-import {Fade} from  "react-reveal";
+import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function StartupProject() {
