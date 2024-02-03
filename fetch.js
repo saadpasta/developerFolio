@@ -120,20 +120,22 @@ if (MEDIUM_USERNAME !== undefined) {
     res.on("end", () => {
       // Parse the JSON data
       const jsonData = JSON.parse(mediumData);
-      
+
       // Limit the items fetched
       const limitedData = {
         ...jsonData,
         items: jsonData.items.slice(0, MAX_ITEMS_TO_FETCH)
       };
-      
+
       // Convert back to JSON
       const limitedDataJSON = JSON.stringify(limitedData);
-      
+
       // Write to file
       fs.writeFile("./public/blogs.json", limitedDataJSON, function (err) {
         if (err) return console.log(err);
-        console.log(`Saved ${limitedData.items.length} items to public/blogs.json`);
+        console.log(
+          `Saved ${limitedData.items.length} items to public/blogs.json`
+        );
       });
     });
   });
