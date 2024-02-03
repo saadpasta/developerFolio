@@ -95,6 +95,9 @@ if (USE_GITHUB_DATA === "true") {
 }
 
 if (MEDIUM_USERNAME !== undefined) {
+  // Define the maximum number of items to fetch
+  const MAX_ITEMS_TO_FETCH = 4; // Change this number to limit the number of blogs fetched
+
   console.log(`Fetching Medium blogs data for ${MEDIUM_USERNAME}`);
   const options = {
     hostname: "api.rss2json.com",
@@ -115,9 +118,22 @@ if (MEDIUM_USERNAME !== undefined) {
       mediumData += d;
     });
     res.on("end", () => {
-      fs.writeFile("./public/blogs.json", mediumData, function (err) {
+      // Parse the JSON data
+      const jsonData = JSON.parse(mediumData);
+      
+      // Limit the items fetched
+      const limitedData = {
+        ...jsonData,
+        items: jsonData.items.slice(0, MAX_ITEMS_TO_FETCH)
+      };
+      
+      // Convert back to JSON
+      const limitedDataJSON = JSON.stringify(limitedData);
+      
+      // Write to file
+      fs.writeFile("./public/blogs.json", limitedDataJSON, function (err) {
         if (err) return console.log(err);
-        console.log("saved file to public/blogs.json");
+        console.log(`Saved ${limitedData.items.length} items to public/blogs.json`);
       });
     });
   });
