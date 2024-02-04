@@ -14,10 +14,10 @@ const greeting = {
   username: "Mahsa Eskandari-Ghadi",
   title: "Hi all, I'm Mahsa",
   subTitle: emoji(
-    "A passionate student🚀 Having Experience in Game Development."
+    "A passionate game programmer 🚀 Looking for greater challenges."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1mj7p_dyyM5XSij_ahDyVyECq1QuTNSnu/view?usp=sharing", // Set to empty to hide the button
+    "resume/MahsaEskandari_Resume.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -26,7 +26,8 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/thedownsideup",
   linkedin: "https://www.linkedin.com/in/mahsa-esk/",
-  email: "mahsa.eskandari77@ut.ac.ir",
+  email: "mahsa.eskandari1998@gmail.com",
+  gmail: "mahsa.eskandari1998@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -36,51 +37,41 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "GAME DEVELOPMENT ENTHUSIAST WHO WANTS TO EXPLORE EVERYTHING IN GAMES",
+  subTitle: "GAME DEVELOPMENT PROFESSIONAL WHO WANTS TO EXPLORE EVERYTHING IN GAMES",
   skills: [
-    emoji(
-      "⚡ Programming Languages: Python, C/C++, C#, SQL (MySQL), Java, HTML/CSS, R, Verilog"
-    ),
-    emoji("⚡ Programming Libraries: Numpy, Pandas, Seaborn, NLTK, SKlearn, Pytorch, Tensorflow, Keras"),
-    emoji("⚡ Game Engines: Unity"),
-    emoji("⚡ Graphics: Photoshop, Adobe After Effects, Krita, Blender"),
-    emoji("⚡ Miscellaneous: Latex, Word, Excel, PowerPoint, Jupyter Notebook, Arduino, Proteus, ModelSim, MultiSim, Quartus, Multiple Music Instruments")
+    emoji("⚡ Programming Languages: C#, C++, Python, Java"),
+    emoji("⚡ Software Design: SOLID, Clean Code, MVC, ECS, DI, Observer, Service Locator, Black Board, Factory, Singleton"),
+	emoji("⚡ Game Engines: Unity, Unreal Engine 5"),
+    emoji("⚡ Graphics: Adobe Photoshop, Adobe After Effects, Blender, Aseprite, Krita"),
+    emoji("⚡ Miscellaneous: Git, Latex")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "C#",
+      fontAwesomeClassname: "fas fa-laptop-code"
     },
     {
       skillName: "Unity",
       fontAwesomeClassname: "fab fa-unity"
     },
     {
-      skillName: "C/C++",
+      skillName: "C++",
       fontAwesomeClassname: "fas fa-laptop-code"
     },
     {
-      skillName: "C#",
-      fontAwesomeClassname: "fas fa-laptop-code"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "Unreal 5",
+      fontAwesomeClassname: "fa fa-gamepad"
     },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -92,16 +83,28 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "University of Tehran",
-      logo: require("./assets/1200px-University_of_Tehran_logo.svg.png"),
-      subHeader: "Computer Engineering Undergraduate Student",
-      duration: "September 2017 - now",
-      desc: "Working on My Thesis Project",
+      schoolName: "University of Alberta",
+      logo: require("./assets/images/university_of_alberta_logo.jpg"),
+      subHeader: "Master's degree, Computer Science",
+      duration: "September 2023 - Present",
+     desc: "Edmonton, Alberta, Canada",
 //       descBullets: [
 //         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
 //         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
 //       ]
-    }]
+    },
+	{
+      schoolName: "University of Tehran",
+      logo: require("./assets/images/University_of_Tehran_logo.png"),
+      subHeader: "Bachelor of Computer Engineering",
+      duration: "September 2017 - February 2022",
+     desc: "Tehran, Iran",
+       //descBullets: [
+        // "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        // "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
+    }
+	]
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -110,12 +113,24 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Unity Programming", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
+      Stack: "Game Software Design", //Insert stack or technology you have experience in
+      progressPercentage: "90%" //Insert relative proficiency in percentage
+    },
+	{
+      Stack: "C#", //Insert stack or technology you have experience in
+      progressPercentage: "90%" //Insert relative proficiency in percentage
+    },
+	{
+      Stack: "Unity", //Insert stack or technology you have experience in
+      progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Python Programming",
-      progressPercentage: "90%"
+      Stack: "C++",
+      progressPercentage: "50%"
+    },
+	{
+      Stack: "Unreal Engine",
+      progressPercentage: "50%"
     },
     {
       Stack: "Teaching",
@@ -128,34 +143,37 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-//   display: true, //Set it to true to show workExperiences Section
-//   experience: [
-//     {
-//       role: "Software Engineer",
-//       company: "Facebook",
-//       companylogo: require("./assets/images/facebookLogo.png"),
-//       date: "June 2018 – Present",
-//       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-//       descBullets: [
-//         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-//         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-//       ]
-//     },
-//     {
-//       role: "Front-End Developer",
-//       company: "Quora",
-//       companylogo: require("./assets/images/quoraLogo.png"),
-//       date: "May 2017 – May 2018",
-//       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-//     },
-//     {
-//       role: "Software Engineer Intern",
-//       company: "Airbnb",
-//       companylogo: require("./assets/images/airbnbLogo.png"),
-//       date: "Jan 2015 – Sep 2015",
-//       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-//     }
-//   ]
+   display: true, //Set it to true to show workExperiences Section
+   experience: [
+     {
+       role: "Technical Lead",
+       company: "Medrick FZE",
+       companylogo: require("./assets/images/MedrickLogo.png"),
+       //date: "Feb 2023 – Sep 2023",
+       desc: "I led the development of Golmorad, a popular story driven game with multiple mini-games played by over 10 million users.",
+       descBullets: [
+	     "Set goals, ensured smooth functioning and efficient performance of technical operations.",
+         "Designed architecture, and programmed gameplay that resulted in more than 1M downloads and a rating of 4.5 stars by 80.9K reviews on Google Play.",
+		 "This exposure deepened my proficiency in following software design principles, guaranteeing the creation of code that is clean, scalable, and easy to maintain.",
+         "Monitored and evaluated staff progress, also improved team technical pipelines.",
+		 "Recruited, interviewed, assisted, and trained new technical employee.",
+		 "..."
+       ]
+     },
+     {
+       role: "Senior Game Programmer",
+       company: "Medrick FZE",
+       companylogo: require("./assets/images/MedrickLogo.png"),
+       //date: "Aug 2022 – Sep 2023",
+       desc: "As a Senior Game Developer at Medrick Studio, the largest game studio in MENA, I played a key role in developing casual mobile games that has been enjoyed by millions of users worldwide.",
+	   descBullets: [
+	     "Designed, developed and optimized features for the Match3 Games this included the development of interactive elements, gameplay mechanics, and user interfaces fostering a dynamic and captivating gameplay environment",
+         "Improved the performace of our core gameplay by 70%.",
+		 "Developed various editor tools that facitilated the development process for other team members.",
+		 "..."
+       ]
+     }
+   ]
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -163,35 +181,71 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  displayonlyopensource: false, // Set false to hide this section, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-    subtitle: "SOME OF THE PROJECTS THAT I HELPED TO CREATE",
+  title: "Projects",
+    subtitle: "SOME OF THE PROJECTS THAT I'VE HELPED TO CREATE",
   projects: [
     {
-//       image: require("./assets/images/saayaHealthLogo.webp"),
+       image: require("./assets/images/DreamHome.png"),
+      projectName: "Dream Home",
+      projectDesc: "A recently released story-driven mobile game with a mix of various mini-games and an enchanting gamification system to keep things engaging.",
+      footerLink: [
+        {
+          name: "Check out",
+          url: "https://play.google.com/store/apps/details?id=com.relicbit.mansion&hl=en&gl=US"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+	{
+       image: require("./assets/images/Golmorad.png"),
+      projectName: "Golmorad",
+      projectDesc: "A popular match-3 game with a captivating storyline and various dynamic live-ops, enjoyed by millions of users.",
+      footerLink: [
+        {
+          name: "Check out",
+          url: "https://play.google.com/store/apps/details?id=com.medrick.match3&hl=en&gl=US"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+	{
+       image: require("./assets/images/NeuroCare.png"),
       projectName: "NEUROCARE",
       projectDesc: " Thesis Project: Design and implementation of a set of cognitive games to evaluate the possibility of M.C.I. (Mild Cognitive Impairment) in the elderly - Supervisor: Prof. Hadi(Manouchehr) Moradi",
       footerLink: [
         {
-          name: "Get Files",
+          name: "Check out",
           url: "https://drive.google.com/file/d/1ndmI9Hv6p0tSnXuJqL4gJfQ4GwcQE1M2/view?usp=sharing"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-//       image: require("./assets/images/nextuLogo.webp"),
+       image: require("./assets/images/GalaxyShooter.png"),
       projectName: "2D Galaxy Shooter",
-      projectDesc: "Unity game I got started with in the course: Ultimate Guide to Game Development with Unity",
+      projectDesc: "A Unity game project I crafted, inspired by the course: Ultimate Guide to Game Development with Unity.",
       footerLink: [
         {
-          name: "Get Files",
+          name: "Check out",
           url: "https://drive.google.com/drive/folders/1V_s9TcnBLb1CGZymCDV1Ems_1t1F4geB?usp=sharing"
+        }
+      ]
+    },
+    {
+       image: require("./assets/images/MyPixelArts.png"),
+      projectName: "My Pixel Arts",
+      projectDesc: "As a hobby, I create pixel art from time to time.",
+      footerLink: [
+        {
+          name: "Check out",
+          url: "https://drive.google.com/drive/folders/12P0aSPDsKrXORsNgC3DDyM84lRSyU9Tz?usp=sharing"
         }
       ]
     }
@@ -209,40 +263,36 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "3rd Prize in AYPT",
-      subtitle:
-        "The Austrian Young Physicists Tournament is a team-oriented physics competition among teams of secondary school students. During the tournament the students present their solutions to scientific problems which they have prepared over several months. Their solution is criticized during the course of the tournament by other students and their performance is graded by a jury consisting of experts in the field of physics.",
+      title: "Unreal Engine 5 C++ The Ultimate Game Developer Course",
+      //subtitle:
+      //  "",
       image: require("./assets/images/cert1.png"),
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/1EUJaOPJD9RcaF7DpqLCV8YjK25C0JubM/view?usp=sharing"
-        },
-        {
-          name: "AYPT Website",
-          url: "https://www.aypt.at/new/index_en.html#thisyear"
+          url: "/certificates/UC-a180698e-2930-453b-850f-a02bfa4fee0a.jpg"
         }
       ]
     },
     {
-      title: "Teacher Training Course (TTC)",
-      subtitle:
-        "TTC is the Certificate in Teaching English to Speakers of Other Language.",
+	  title: "Turn Based Puzzle Game in Unreal With Blueprints & C++",
+      //subtitle:
+      //  "TTC is the Certificate in Teaching English to Speakers of Other Language.",
       image: require("./assets/images/cert3.png"),
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/1CHrRD1hVJ-h2niKzDoxYfvg87NG6s82C/view?usp=sharing"
+          url: "/certificates/UC-bbfeea15-a057-4a79-850a-d41adc2df778.jpg"
         }
       ]
     },
 
     {
-      title: "Udemy: A Beginner's Guide to Machine Learing with Unity",
-      subtitle: "Completed Certifcation from Udemy",
+      title: "Unreal Engine 5 Action Adventure Game Development Course",
+//      subtitle: "Completed Certifcation from Udemy",
       image: require("./assets/images/cert2.png"),
       footerLink: [
-        {name: "Certification", url: "https://drive.google.com/file/d/1h3rAGWKi1nSQ0knGO_xQjSXVx_ZhTQ5w/view?usp=sharing"}
+        {name: "Certification", url: "/certificates/UC-0a0f62fc-5aa8-4296-b48d-8603e18e1162.jpg"}
       ]
     }
   ],
@@ -308,8 +358,12 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "",
-  email_address: "mahsa.eskandari77@ut.ac.ir"
+    "Want to chat about an amazing job opportunity? Feel free to drop me an email.",
+  subtitle2:
+    "Experienced Game Programmer & Software Engineer",
+  subtitle3:
+    "Mahsa Eskandari",	
+  email_address: "mahsa.eskandari1998@gmail.com"
 };
 
 // Twitter Section
