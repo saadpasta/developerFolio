@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.5eb39f5e.css",
-    "main.js": "/static/js/main.0f854194.js",
-    "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
-    "static/js/64.f827553a.chunk.js": "/static/js/64.f827553a.chunk.js",
+    "main.css": "/static/css/main.7d9e4eeb.css",
+    "main.js": "/static/js/main.4e54c933.js",
+    "static/css/141.fa09a82f.chunk.css": "/static/css/141.fa09a82f.chunk.css",
+    "static/js/141.1544a560.chunk.js": "/static/js/141.1544a560.chunk.js",
     "static/css/769.c9ee9ba6.chunk.css": "/static/css/769.c9ee9ba6.chunk.css",
     "static/js/769.068c23e4.chunk.js": "/static/js/769.068c23e4.chunk.js",
     "static/media/University_of_Tehran_logo.png": "/static/media/University_of_Tehran_logo.4eef60844a4b1866b8ff.png",
@@ -25,15 +25,15 @@
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.5eb39f5e.css.map": "/static/css/main.5eb39f5e.css.map",
-    "main.0f854194.js.map": "/static/js/main.0f854194.js.map",
-    "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
-    "64.f827553a.chunk.js.map": "/static/js/64.f827553a.chunk.js.map",
+    "main.7d9e4eeb.css.map": "/static/css/main.7d9e4eeb.css.map",
+    "main.4e54c933.js.map": "/static/js/main.4e54c933.js.map",
+    "141.fa09a82f.chunk.css.map": "/static/css/141.fa09a82f.chunk.css.map",
+    "141.1544a560.chunk.js.map": "/static/js/141.1544a560.chunk.js.map",
     "769.c9ee9ba6.chunk.css.map": "/static/css/769.c9ee9ba6.chunk.css.map",
     "769.068c23e4.chunk.js.map": "/static/js/769.068c23e4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5eb39f5e.css",
-    "static/js/main.0f854194.js"
+    "static/css/main.7d9e4eeb.css",
+    "static/js/main.4e54c933.js"
   ]
 }
