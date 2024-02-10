@@ -34,8 +34,12 @@ export default function WorkExperience() {
                   );
                 })}
               </div>
-			  <div className="experience-see-more-button">
-                <Button text="See More" href={socialMediaLinks.linkedin} newTab={true} />
+              <div className="experience-see-more-button">
+                <Button
+                  text="See More"
+                  href={socialMediaLinks.linkedin}
+                  newTab={true}
+                />
               </div>
             </div>
           </div>

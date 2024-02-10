@@ -31,8 +31,8 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
-	  
-	  {socialMediaLinks.github ? (
+
+      {socialMediaLinks.github ? (
         <a
           href={socialMediaLinks.github}
           className="icon-button github"
@@ -43,8 +43,6 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
-
-      
 
       {socialMediaLinks.gitlab ? (
         <a

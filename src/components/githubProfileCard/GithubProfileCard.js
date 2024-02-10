@@ -22,7 +22,7 @@ export default function GithubProfileCard({prof}) {
             <div className="blog-header">
               <p className="subTitle blog-subtitle">{contactInfo.subtitle}</p>
             </div>
-			<div
+            <div
               className={
                 isDark ? "dark-mode contact-text-div" : "contact-text-div"
               }
@@ -49,16 +49,18 @@ export default function GithubProfileCard({prof}) {
               <br />
               <SocialMedia />
             </div>
-			<div className="opp-div">
+            <div className="opp-div">
               <span className="desc-prof-hirable">
                 Open for opportunities: {prof.hireable}
               </span>
             </div>
-			
-			<div className="bio-text-container">
-			<h2 className="bio-text">{emoji(contactInfo.subtitle2)}</h2>
-			<h2 className="bio-text">{emoji(contactInfo.subtitle3)}</h2>
-            <h2 style={{display:'none'}} className="bio-text">"{emoji(String(prof.bio))}"</h2>
+
+            <div className="bio-text-container">
+              <h2 className="bio-text">{emoji(contactInfo.subtitle2)}</h2>
+              <h2 className="bio-text">{emoji(contactInfo.subtitle3)}</h2>
+              <h2 style={{display: "none"}} className="bio-text">
+                "{emoji(String(prof.bio))}"
+              </h2>
             </div>
             {prof.location !== null && (
               <div className="location-div">
@@ -80,8 +82,6 @@ export default function GithubProfileCard({prof}) {
                 </span>
               </div>
             )}
-            
-            
           </div>
           <div className="image-content-profile">
             <img

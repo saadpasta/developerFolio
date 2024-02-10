@@ -18,10 +18,9 @@
 }
 
 .education-card-container {
-
   flex-direction: row;
   padding-top: 20px;
-   display: grid;
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
   gap: 1rem 1rem;
 }
