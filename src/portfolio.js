@@ -51,15 +51,12 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "A VERSATILE PYTHON TECHNOLOGIST WHOS SKILLSET ENCOMPASSES A MULTITUDE OF TECHNOLOGIES AND PROGRAMMING LANGUAGES",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Develope AI Powered IoT-based solutions"),
+    emoji("⚡ Integrate AI in custom software solutions and APIs."),
+    emoji("⚡ Design strong APIs that support mobile and desktop clients"),
+    emoji("⚡ Develope AI models using machine learning and deep learning principles"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
