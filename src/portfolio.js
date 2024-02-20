@@ -54,15 +54,19 @@ const skillsSection = {
   subTitle: "A VERSATILE PYTHON TECHNOLOGIST WHOS SKILLSET ENCOMPASSES A MULTITUDE OF TECHNOLOGIES AND PROGRAMMING LANGUAGES",
   skills: [
     emoji("⚡ Develope AI Powered IoT-based solutions"),
+    emoji("⚡ Develope AI models using ML, DL principles"),
     emoji("⚡ Integrate AI in custom software solutions and APIs."),
     emoji("⚡ Design strong APIs that support mobile and desktop clients"),
-    emoji("⚡ Develope AI models using machine learning and deep learning principles"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -72,48 +76,24 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
     },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "php",
+      fontAwesomeClassname: "fab fa-php"
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git"
     }
   ],
   display: true // Set false to hide this section, defaults to true
