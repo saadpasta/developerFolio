@@ -105,24 +105,19 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "IQRA NATIONAL UNIVERSITY",
+      logo: require("./assets/images/inuLogo.png"),
+      subHeader: "Bachelor of Science in Computer Science",
+      duration: "February 2019 - February 2023",
+      desc: "Graduated as the topper of my batch, with a CGPA of 3.78 out of 4.0",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Artificial Intelligence, Data Mining, Information Security",
+        "Programming Fundamentals, Object Oriented Programming, Modern Programming, Visual Programming, Internet Programming, Microprocessors and Assembly Language, Database Systems",
+        "Calculus, Differential Equations, Linear Algebra, Theory of Automata, Discrete Structures, Data Structures, Design and Analysis of Algorithms, Statistics",
+        "Software Engineering, Object Oriented Analysis and Design",
+        "Digital Image Processing, Computer Graphics, Human Computer Interaction",
       ]
     },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
   ]
 };
 
