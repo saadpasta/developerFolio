@@ -23,7 +23,7 @@ const greeting = {
   username: "Hassan Mehdi",
   title: "Hi, I'm Hassan",
   subTitle: emoji(
-    "A Self-motivated, creative & passionate python developer, I weave the threads of Computer Science in the realms of Computer Vision, AI and RESTful APIs."
+    "A Self-motivated, creative & passionate python developer, I weave the threads of Computer Science in the realms of Computer Vision, AI and RESTful APIs"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1YoiZIZouYp171q1dhowDFsVftbzWGQEf/view?usp=drive_link", // Set to empty to hide the button
@@ -55,7 +55,7 @@ const skillsSection = {
   skills: [
     emoji("⚡ Develope AI Powered IoT-based solutions"),
     emoji("⚡ Develope AI models using ML, DL principles"),
-    emoji("⚡ Integrate AI in custom software solutions and APIs."),
+    emoji("⚡ Integrate AI in custom software solutions and APIs"),
     emoji("⚡ Design strong APIs that support mobile and desktop clients"),
   ],
 
@@ -116,6 +116,7 @@ const educationInfo = {
         "Calculus, Differential Equations, Linear Algebra, Theory of Automata, Discrete Structures, Data Structures, Design and Analysis of Algorithms, Statistics",
         "Software Engineering, Object Oriented Analysis and Design",
         "Digital Image Processing, Computer Graphics, Human Computer Interaction",
+        "C++, C#, Java, Python, JavaScript, PHP, HTML, CSS, MATLAB, SQL, GIT",
       ]
     },
   ]
@@ -156,30 +157,37 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Team Lead - Backend / Data Science",
+      company: "Ri Software",
+      companylogo: require("./assets/images/riLogo.jpeg"),
+      date: "April 2023 – February 2024",
+      desc: "At a Ukrainian-based software company, I led a team of back-end developers and data scientists, focusing on creating custom software solutions and algorithms that help businesses grow. During this time, I",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Collaborated closely with relevant stakeholders to ensure timely delivery of high-quality products",
+        "Managed frequent code deployments without causing downtime",
+        "Conducted thorough code reviews and provided constructive feedback to team members",
+        "Designed and implemented efficient back-end components to optimize application performance",
+        "Integrated advanced machine learning and deep learning algorithms into our offerings",
+        "Analyzed data and identified opportunities for improvement.",
+        "Created robust APIs supporting mobile and desktop clients",
+        "Worked alongside cross-functional teams to establish project goals and deliverables",
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Jr. Web Developer",
+      company: "NetChain Media",
+      companylogo: require("./assets/images/netchainLogo.png"),
+      date: "January 2022 – Jan 2023",
+      desc: "At a UK-based software company, I contributed to build and maintain resilient and functional websites. I",
+      descBullets: [
+        "Assisted with the creation of websites and updating existing websites and web applications",
+        "Worked under the supervision of senior developers, assisted with coding, testing, design adjustments, and client reviews",
+        "Resolved escalated customer issues independently and was part of development on large product initiatives",
+        "Paired with other developers as well as collaborated with designers, product managers, and other stakeholders",
+        "Contributed to building and maintaining websites that were resilient and functional",
+        "participated in code reviews and provided feedback to other developers",
+      ]
     },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
   ]
 };
 
