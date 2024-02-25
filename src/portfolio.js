@@ -227,6 +227,17 @@ const bigProjects = {
           url: "http://nextu.se/"
         }
       ]
+    },
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Busses to Cars Ad Distribution System",
+      projectDesc: "BCADS is an advertisment distribution system that uses Vehicle Area Networks(VANETS) to distribute ads from busses with pre-determined rute to other cars",
+      footerLink: [
+        {
+          name: "Visit Project Repository",
+          url: "http://nextu.se/"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
