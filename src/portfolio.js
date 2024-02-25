@@ -208,7 +208,7 @@ const bigProjects = {
     {
       image: require("./assets/images/riLogo.jpeg"),
       projectName: "Ri Software",
-      projectDesc: "RI Software is an innovative business management solution that enables small businesses to not only showcase and sell their products and services but also gain valuable insights through integrated AI algorithms, fostering growth and success.",
+      projectDesc: "RI Software is an innovative business management solution that enables small businesses to not only showcase and sell their products and services but also gain valuable insights through integrated AI algorithms, fostering growth and success",
       footerLink: [
         {
           name: "Visit Website",
@@ -219,11 +219,11 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Driving Negligence Dissuager System",
+      projectDesc: "DNDS is a vehicle safety recommendation system that can be fitted in all kinds of vehicles. The system detects drivers' drowsiness, lane lines, lane deviation, and objetcs like other vehicles, animals and pedestrians etc. The system alerts the driver if necessory to get them to focus on the raod and avoid mishaps",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Visit Project Repository",
           url: "http://nextu.se/"
         }
       ]
