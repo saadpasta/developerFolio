@@ -1,8 +1,8 @@
 import React, {useContext} from "react";
 import "./StartupProjects.scss";
-import {bigProjects} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import {LanguageContext} from "../../contexts/LanguageContent";
 
 export default function StartupProject() {
   function openUrlInNewTab(url) {
@@ -12,7 +12,7 @@ export default function StartupProject() {
     var win = window.open(url, "_blank");
     win.focus();
   }
-
+  const {bigProjects} = useContext(LanguageContext).data;
   const {isDark} = useContext(StyleContext);
   if (!bigProjects.display) {
     return null;

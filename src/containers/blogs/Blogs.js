@@ -1,11 +1,12 @@
 import React, {useState, useEffect, useContext} from "react";
 import "./Blog.scss";
 import BlogCard from "../../components/blogCard/BlogCard";
-import {blogSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import {LanguageContext} from "../../contexts/LanguageContent";
 export default function Blogs() {
   const {isDark} = useContext(StyleContext);
+  const {blogSection} = useContext(LanguageContext).data;
   const [mediumBlogs, setMediumBlogs] = useState([]);
   function setMediumBlogsFunction(array) {
     setMediumBlogs(array);
@@ -42,6 +43,9 @@ export default function Blogs() {
       };
       getProfileData();
     }
+    return () => {
+      setMediumBlogsFunction([]);
+    };
   }, []);
   if (!blogSection.display) {
     return null;

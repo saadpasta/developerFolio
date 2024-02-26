@@ -6,11 +6,12 @@ import landingPerson from "../../assets/lottie/landingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-
-import {illustration, greeting} from "../../portfolio";
+import {illustration} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
+import {LanguageContext} from "../../contexts/LanguageContent";
 
 export default function Greeting() {
+  const {greeting, buttons} = useContext(LanguageContext).data;
   const {isDark} = useContext(StyleContext);
   if (!greeting.displayGreeting) {
     return null;
@@ -39,10 +40,10 @@ export default function Greeting() {
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button text="Contact me" href="#contact" />
+                <Button text={buttons.moreProjects} href="#contact" />
                 {greeting.resumeLink && (
                   <Button
-                    text="See my resume"
+                    text={buttons.seeResume}
                     newTab={true}
                     href={greeting.resumeLink}
                   />

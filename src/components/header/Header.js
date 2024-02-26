@@ -3,18 +3,22 @@ import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
-import {
-  greeting,
-  workExperiences,
-  skillsSection,
-  openSource,
-  blogSection,
-  talkSection,
-  achievementSection
-} from "../../portfolio";
+import {skillsSection, openSource} from "../../portfolio";
+import {LanguageContext} from "../../contexts/LanguageContent";
+import LanguageSwitcher from "../languageSwitcher";
 
 function Header() {
+  const {data} = useContext(LanguageContext);
+  const {
+    greeting,
+    workExperiences,
+    blogSection,
+    talkSection,
+    achievementSection,
+    navbar
+  } = data;
   const {isDark} = useContext(StyleContext);
+
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
@@ -41,39 +45,43 @@ function Header() {
         <ul className={isDark ? "dark-menu menu" : "menu"}>
           {viewSkills && (
             <li>
-              <a href="#skills">Skills</a>
+              <a href="#skills">{navbar.skills}</a>
             </li>
           )}
           {viewExperience && (
             <li>
-              <a href="#experience">Work Experiences</a>
+              <a href="#experience">{navbar.workExperiences}</a>
             </li>
           )}
           {viewOpenSource && (
             <li>
-              <a href="#opensource">Open Source</a>
+              <a href="#opensource">{navbar.openSource}</a>
             </li>
           )}
           {viewAchievement && (
             <li>
-              <a href="#achievements">Achievements</a>
+              <a href="#achievements">{navbar.achievements}</a>
             </li>
           )}
           {viewBlog && (
             <li>
-              <a href="#blogs">Blogs</a>
+              <a href="#blogs">{navbar.blogs}</a>
             </li>
           )}
           {viewTalks && (
             <li>
-              <a href="#talks">Talks</a>
+              <a href="#talks">{navbar.talk}</a>
             </li>
           )}
           <li>
-            <a href="#contact">Contact Me</a>
+            <a href="#contact">{navbar.contactMe}</a>
           </li>
           <li>
-            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+            <LanguageSwitcher
+              className={"lang-switcher-header" + (isDark ? " dark-mode" : "")}
+            />
+          </li>
+          <li>
             <a>
               <ToggleSwitch />
             </a>

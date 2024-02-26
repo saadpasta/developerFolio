@@ -148,17 +148,11 @@ Set `displayMediumBlogs` to true or false in portofolio.js to display fetched Me
 
 ## Change and customize every section according to your need.
 
-#### Personalize page content in `/src/portfolio.js` & modify it as per your need. You will also need to modify `index.html` to change the title and metadata to provide accurate SEO for your personal portfolio.
+#### You can find constants like social media in `/src/portfolio.js` & modify it as per your need. You will also need to modify `index.html` to change the title and metadata to provide accurate SEO for your personal portfolio.
 
 ```javascript
 /* Change this file to get your Personal Porfolio */
 
-const greeting = {
-  /* Your Summary And Greeting Section */
-  title: "Hi all I'm Saad",
-  subTitle: emoji("A passionate Full Stack Software Developer 🚀"),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
-};
 
 const socialMediaLinks = {
   /* Your Social Media Link */
@@ -169,27 +163,45 @@ const socialMediaLinks = {
   facebook: "https://www.facebook.com/saad.pasta7"
 };
 
-
-const skillsSection = { .... }
-
-const techStack = { .... }
-
-const workExperience = { .... }
-
-const openSource = { .... }
-
-const bigProjects = { .... }
-
-const achievementSection = { .... }
-
-const blogSection = { .... }
-
-const contactInfo = { .... }
-
-const twitterDetails = { ... }
-
 ```
 
+
+### How Can I Change o Add Languages
+
+1. If you want to add new language,  you need to go this file `src/portfolio.js` after you can change or add languages.  
+```js
+const supportedLanguages = [
+  {
+    value: "TR",
+    label: "Türkçe"
+  },
+  {
+    value: "EN",
+    label: "English"
+  },
+  {
+    value: "DE",
+    label: "Deutsch"
+  }
+];
+```
+2. After you have to go `src/languages` folder, and add new language file for example en,tr...
+3. You have to add or update LanguageContent from `src/contexts/LanguageContent.js` 
+4. and 🎉 u added a new language
+
+You can add the texts to be displayed in `/src/languages` so that they can be integrated into supportedLanguages.
+
+
+```javascript
+
+const data = { 
+  skillsSection = { .... } ,
+  techStack = { .... },
+  workExperience = { .... },
+   ...
+  }
+
+```
 #### Using Emojis
 
 For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` function and pass the text you need as an argument. This would help in keeping emojis compatible across different browsers and platforms.

@@ -1,0 +1,44 @@
+@import "../../_globalColor";
+
+.lang-switcher-header {
+  select {
+    width: 100%;
+    border: none;
+    padding: 15px 20px;
+    font-size: 20px;
+    color: $textColor;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+
+    &:hover {
+      background-color: $headerHoverBG;
+    }
+
+    option {
+      padding: 20px;
+      border: none;
+      background-color: $headerHoverBG;
+      color: $textColor;
+
+      &:hover {
+        background-color: $buttonColor;
+      }
+    }
+  }
+
+  // isDark true ise dark-mode sınıfını ekler
+  &.dark-mode {
+    select {
+      color: $textColorDark;
+      &:hover {
+        background-color: $buttonColor;
+      }
+
+      option {
+        background-color: $buttonColor;
+        color: $textColorDark;
+      }
+    }
+  }
+}

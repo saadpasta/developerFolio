@@ -1,11 +1,13 @@
-import React from "react";
+import React, {useContext} from "react";
 import "./GithubProfileCard.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import {contactInfo, isHireable} from "../../portfolio";
+import {isHireable} from "../../portfolio";
+import {LanguageContext} from "../../contexts/LanguageContent";
 import emoji from "react-easy-emoji";
 import {Fade} from "react-reveal";
 
 export default function GithubProfileCard({prof}) {
+  const {contactInfo} = useContext(LanguageContext).data;
   if (isHireable) {
     prof.hireable = "Yes";
   } else {
