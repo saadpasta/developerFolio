@@ -25,6 +25,7 @@ const data = {
     ]
   },
   educationInfo: {
+    title: "Education",
     display: true,
     schools: [
       {
@@ -49,6 +50,7 @@ const data = {
     ]
   },
   techStack: {
+    title: "Proficiency",
     viewSkillBars: true,
     experience: [
       {
@@ -67,6 +69,7 @@ const data = {
     displayCodersrank: false
   },
   workExperiences: {
+    title: "Work Experiences",
     display: true,
     experience: [
       {

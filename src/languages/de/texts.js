@@ -25,6 +25,7 @@ const data = {
     ]
   },
   educationInfo: {
+    title: "Bildung",
     display: true, // Auf false setzen, um diesen Abschnitt auszublenden, Standardwert ist true
     schools: [
       {
@@ -49,6 +50,7 @@ const data = {
     ]
   },
   techStack: {
+    title: "Kompetenz",
     viewSkillBars: true, // Setze es auf true, um den Abschnitt "Fähigkeiten" anzuzeigen
     experience: [
       {
@@ -67,6 +69,7 @@ const data = {
     displayCodersrank: false // Setze true, um den Abschnitt "codersrank badges" anzuzeigen, Benutzernamen in src/containers/skillProgress/skillProgress.js:17:62 ändern, Standardwert ist false
   },
   workExperiences: {
+    title: "Berufserfahrung",
     display: true, // Setze es auf true, um den Arbeitsbereich anzuzeigen
     experience: [
       {

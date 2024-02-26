@@ -25,6 +25,7 @@ const data = {
     ]
   },
   educationInfo: {
+    title: "Eğitim",
     display: true, // Bu bölümü gizlemek için false ayarlayın, varsayılan olarak true
     schools: [
       {
@@ -49,6 +50,7 @@ const data = {
     ]
   },
   techStack: {
+    title: "Yeterlilik",
     viewSkillBars: true, // Beceriler Bölümünü göstermek için true ayarlayın
     experience: [
       {
@@ -67,6 +69,7 @@ const data = {
     displayCodersrank: false // true ayarlayarak codersrank rozetler bölümünü göstermek için değiştirin, varsayılan olarak false
   },
   workExperiences: {
+    title: "Deneyimler",
     display: true, // workExperiences Bölümünü göstermek için true ayarlayın
     experience: [
       {
