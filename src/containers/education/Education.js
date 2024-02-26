@@ -4,7 +4,7 @@ import EducationCard from "../../components/educationCard/EducationCard";
 import {LanguageContext} from "../../contexts/LanguageContent";
 
 export default function Education() {
-  const {educationInfo} = React.useContext(LanguageContext).data
+  const {educationInfo} = React.useContext(LanguageContext).data;
   if (educationInfo.display) {
     return (
       <div className="education-section" id="education">

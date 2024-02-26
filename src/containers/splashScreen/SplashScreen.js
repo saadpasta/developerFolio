@@ -6,7 +6,7 @@ import StyleContext from "../../contexts/StyleContext";
 import {LanguageContext} from "../../contexts/LanguageContent";
 export default function SplashScreen() {
   const {isDark} = useContext(StyleContext);
-  const {greeting} = useContext(LanguageContext).data
+  const {greeting} = useContext(LanguageContext).data;
   return (
     <div className={isDark ? "dark-mode splash-container" : "splash-container"}>
       <div className="splash-animation-container">

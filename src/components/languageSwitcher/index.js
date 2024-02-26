@@ -4,9 +4,7 @@ import {supportedLanguages} from "../../portfolio";
 import {LanguageContext} from "../../contexts/LanguageContent";
 import "./LanguageSwitcher.scss";
 
-function LanguageSwitcher({
-  className,
-}) {
+function LanguageSwitcher({className}) {
   const {selectedLanguage, handleLanguageChange} = useContext(LanguageContext);
   return (
     <>

@@ -250,7 +250,7 @@ const data = {
     talk: "Konuşmalar",
     contactMe: "Bana Ulaşın"
   },
-  buttons:{
+  buttons: {
     contact: "Bana Ulaşın",
     moreProjects: "Daha Fazla Proje",
     seeResume: "Özgeçmişimi Gör"

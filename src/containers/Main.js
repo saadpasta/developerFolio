@@ -48,7 +48,7 @@ const Main = () => {
     <div className={isDark ? "dark-mode" : null}>
       <LanguageProvider>
         <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
-          { isShowingSplashAnimation && splashScreen.enabled ? (
+          {isShowingSplashAnimation && splashScreen.enabled ? (
             <SplashScreen />
           ) : (
             <>

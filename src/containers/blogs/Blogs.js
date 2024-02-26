@@ -45,7 +45,7 @@ export default function Blogs() {
     }
     return () => {
       setMediumBlogsFunction([]);
-    }
+    };
   }, []);
   if (!blogSection.display) {
     return null;

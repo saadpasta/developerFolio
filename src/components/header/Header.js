@@ -3,16 +3,20 @@ import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
-import {
-  skillsSection,
-  openSource,
-} from "../../portfolio";
+import {skillsSection, openSource} from "../../portfolio";
 import {LanguageContext} from "../../contexts/LanguageContent";
 import LanguageSwitcher from "../languageSwitcher";
 
 function Header() {
-  const { data } = useContext(LanguageContext);
-  const { greeting,workExperiences, blogSection, talkSection,achievementSection,navbar} = data;
+  const {data} = useContext(LanguageContext);
+  const {
+    greeting,
+    workExperiences,
+    blogSection,
+    talkSection,
+    achievementSection,
+    navbar
+  } = data;
   const {isDark} = useContext(StyleContext);
 
   const viewExperience = workExperiences.display;
@@ -41,68 +45,41 @@ function Header() {
         <ul className={isDark ? "dark-menu menu" : "menu"}>
           {viewSkills && (
             <li>
-              <a href="#skills">{
-                navbar.skills
-              }</a>
+              <a href="#skills">{navbar.skills}</a>
             </li>
           )}
           {viewExperience && (
             <li>
-              <a href="#experience">
-                {
-                  navbar.workExperiences
-                }
-              </a>
+              <a href="#experience">{navbar.workExperiences}</a>
             </li>
           )}
           {viewOpenSource && (
             <li>
-              <a href="#opensource">
-                {
-                  navbar.openSource
-                }
-              </a>
+              <a href="#opensource">{navbar.openSource}</a>
             </li>
           )}
           {viewAchievement && (
             <li>
-              <a href="#achievements">
-                {
-                  navbar.achievements
-                }
-              </a>
+              <a href="#achievements">{navbar.achievements}</a>
             </li>
           )}
           {viewBlog && (
             <li>
-              <a href="#blogs">
-                {
-                  navbar.blogs
-                }
-              </a>
+              <a href="#blogs">{navbar.blogs}</a>
             </li>
           )}
           {viewTalks && (
             <li>
-              <a href="#talks">
-                {
-                  navbar.talk
-                }
-              </a>
+              <a href="#talks">{navbar.talk}</a>
             </li>
           )}
           <li>
-            <a href="#contact">
-              {
-                navbar.contactMe
-              }
-            </a>
+            <a href="#contact">{navbar.contactMe}</a>
           </li>
           <li>
-              <LanguageSwitcher 
-              className={
-               "lang-switcher-header" + (isDark ? " dark-mode" : "")
-              }  />
+            <LanguageSwitcher
+              className={"lang-switcher-header" + (isDark ? " dark-mode" : "")}
+            />
           </li>
           <li>
             <a>

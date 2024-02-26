@@ -244,7 +244,7 @@ const data = {
     talk: "Talks",
     contactMe: "Contact Me"
   },
-  buttons:{
+  buttons: {
     contact: "Contact Me",
     moreProjects: "More Projects",
     seeResume: "See my resume"

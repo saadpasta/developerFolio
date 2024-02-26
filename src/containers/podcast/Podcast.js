@@ -6,7 +6,7 @@ import {LanguageContext} from "../../contexts/LanguageContent";
 
 export default function Podcast() {
   const {isDark} = useContext(StyleContext);
-  const {podcastSection} = useContext(LanguageContext).data
+  const {podcastSection} = useContext(LanguageContext).data;
   if (!podcastSection)
     console.error("podcastSection object for Podcast section is missing");
 

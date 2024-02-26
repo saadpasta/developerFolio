@@ -250,7 +250,7 @@ const data = {
     talk: "Vorträge",
     contactMe: "Kontaktiere mich"
   },
-  buttons:{
+  buttons: {
     contact: "Kontaktiere mich",
     moreProjects: "Weitere Projekte",
     seeResume: "Lebenslauf ansehen"
