@@ -166,7 +166,30 @@ const socialMediaLinks = {
 ```
 
 
-You can add the texts to be displayed in `/src/languages` so that they can be integrated into supported languages.
+### How Can I Change o Add Languages
+
+1. If you want to add new language,  you need to go this file `src/portfolio.js` after you can change or add languages.  
+```js
+const supportedLanguages = [
+  {
+    value: "TR",
+    label: "Türkçe"
+  },
+  {
+    value: "EN",
+    label: "English"
+  },
+  {
+    value: "DE",
+    label: "Deutsch"
+  }
+];
+```
+2. After you have to go `src/languages` folder, and add new language file for example en,tr...
+3. You have to add or update LanguageContent from `src/contexts/LanguageContent.js` 
+4. and 🎉 u added a new language
+
+You can add the texts to be displayed in `/src/languages` so that they can be integrated into supportedLanguages.
 
 
 ```javascript
