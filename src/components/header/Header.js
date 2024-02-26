@@ -12,7 +12,7 @@ import LanguageSwitcher from "../languageSwitcher";
 
 function Header() {
   const { data } = useContext(LanguageContext);
-  const { greeting,workExperiences, blogSection, talkSection,achievementSection} = data;
+  const { greeting,workExperiences, blogSection, talkSection,achievementSection,navbar} = data;
   const {isDark} = useContext(StyleContext);
 
   const viewExperience = workExperiences.display;
@@ -41,36 +41,62 @@ function Header() {
         <ul className={isDark ? "dark-menu menu" : "menu"}>
           {viewSkills && (
             <li>
-              <a href="#skills">Skills</a>
+              <a href="#skills">{
+                navbar.skills
+              }</a>
             </li>
           )}
           {viewExperience && (
             <li>
-              <a href="#experience">Work Experiences</a>
+              <a href="#experience">
+                {
+                  navbar.workExperiences
+                }
+              </a>
             </li>
           )}
           {viewOpenSource && (
             <li>
-              <a href="#opensource">Open Source</a>
+              <a href="#opensource">
+                {
+                  navbar.openSource
+                }
+              </a>
             </li>
           )}
           {viewAchievement && (
             <li>
-              <a href="#achievements">Achievements</a>
+              <a href="#achievements">
+                {
+                  navbar.achievements
+                }
+              </a>
             </li>
           )}
           {viewBlog && (
             <li>
-              <a href="#blogs">Blogs</a>
+              <a href="#blogs">
+                {
+                  navbar.blogs
+                }
+              </a>
             </li>
           )}
           {viewTalks && (
             <li>
-              <a href="#talks">Talks</a>
+              <a href="#talks">
+                {
+                  navbar.talk
+                }
+              </a>
             </li>
           )}
           <li>
-            <a href="#contact">Contact Me</a>
+            <a href="#contact">
+              {
+                navbar.contact
+              }
+            </a>
           </li>
           <li>
             <a>

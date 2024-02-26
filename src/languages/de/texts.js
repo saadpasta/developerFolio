@@ -237,6 +237,20 @@ const data = {
       "Möchten Sie über ein Projekt sprechen oder einfach nur hallo sagen? Mein Posteingang steht allen offen.",
     number: "+92-0000000000",
     email_address: "saadpasta70@gmail.com"
+  },
+  navbar: {
+    skills: "Fähigkeiten",
+    workExperiences: "Berufserfahrung",
+    openSource: "Open Source",
+    achievements: "Leistungen",
+    blogs: "Blogs",
+    talk: "Vorträge",
+    contact: "Kontaktiere mich"
+  },
+  buttons:{
+    contact: "Kontaktiere mich",
+    moreProjects: "Weitere Projekte",
+    seeResume: "Lebenslauf ansehen"
   }
 };
 

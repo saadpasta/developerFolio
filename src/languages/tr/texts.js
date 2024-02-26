@@ -232,11 +232,25 @@ const data = {
     display: true // Set false to hide this section, defaults to true
   },
   contactInfo: {
-    title: emoji("Contact Me ☎️"),
+    title: emoji("İletişim ☎️"),
     subtitle:
       "Bir projeyi tartışmak mı istiyorsunuz yoksa sadece merhaba mı demek istiyorsunuz? Mesaj kutum herkese açıktır.",
     number: "+92-0000000000",
     email_address: "saadpasta70@gmail.com"
+  },
+  navbar: {
+    skills: "Yetenekler",
+    workExperiences: "İş Deneyimleri",
+    openSource: "Açık Kaynak",
+    achievements: "Başarılar",
+    blogs: "Bloglar",
+    talk: "Konuşmalar",
+    contactMe: "Bana Ulaşın"
+  },
+  buttons:{
+    contact: "Bana Ulaşın",
+    moreProjects: "Daha Fazla Proje",
+    seeResume: "Özgeçmişimi Gör"
   }
 };
 
