@@ -51,12 +51,13 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "A VERSATILE PYTHON TECHNOLOGIST WHOS SKILLSET ENCOMPASSES A MULTITUDE OF TECHNOLOGIES AND PROGRAMMING LANGUAGES",
+  subTitle:
+    "A VERSATILE PYTHON TECHNOLOGIST WHOS SKILLSET ENCOMPASSES A MULTITUDE OF TECHNOLOGIES AND PROGRAMMING LANGUAGES",
   skills: [
     emoji("⚡ Develope AI Powered IoT-based solutions"),
     emoji("⚡ Develope AI models using ML, DL principles"),
     emoji("⚡ Integrate AI in custom software solutions and APIs"),
-    emoji("⚡ Design strong APIs that support mobile and desktop clients"),
+    emoji("⚡ Design strong APIs that support mobile and desktop clients")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -116,9 +117,9 @@ const educationInfo = {
         "Calculus, Differential Equations, Linear Algebra, Theory of Automata, Discrete Structures, Data Structures, Design and Analysis of Algorithms, Statistics",
         "Software Engineering, Object Oriented Analysis and Design",
         "Digital Image Processing, Computer Graphics, Human Computer Interaction",
-        "C++, C#, Java, Python, JavaScript, PHP, HTML, CSS, MATLAB, SQL, GIT",
+        "C++, C#, Java, Python, JavaScript, PHP, HTML, CSS, MATLAB, SQL, GIT"
       ]
-    },
+    }
   ]
 };
 
@@ -146,7 +147,7 @@ const techStack = {
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
       progressPercentage: "60%" //Insert relative proficiency in percentage
-    },
+    }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -170,7 +171,7 @@ const workExperiences = {
         "Integrated advanced machine learning and deep learning algorithms into our offerings",
         "Analyzed data and identified opportunities for improvement.",
         "Created robust APIs supporting mobile and desktop clients",
-        "Worked alongside cross-functional teams to establish project goals and deliverables",
+        "Worked alongside cross-functional teams to establish project goals and deliverables"
       ]
     },
     {
@@ -185,9 +186,9 @@ const workExperiences = {
         "Resolved escalated customer issues independently and was part of development on large product initiatives",
         "Paired with other developers as well as collaborated with designers, product managers, and other stakeholders",
         "Contributed to building and maintaining websites that were resilient and functional",
-        "participated in code reviews and provided feedback to other developers",
+        "participated in code reviews and provided feedback to other developers"
       ]
-    },
+    }
   ]
 };
 
@@ -203,12 +204,14 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "AS A DILIGENT COMPUTER SCIENTIST, I HAVE BEEN INVOLVED IN SEVERAL IMPACTFUL PROJECTS, INCLUDING",
+  subtitle:
+    "AS A DILIGENT COMPUTER SCIENTIST, I HAVE BEEN INVOLVED IN SEVERAL IMPACTFUL PROJECTS, INCLUDING",
   projects: [
     {
       image: require("./assets/images/riLogo.jpeg"),
       projectName: "Ri Software",
-      projectDesc: "RI Software is an innovative business management solution that enables small businesses to not only showcase and sell their products and services but also gain valuable insights through integrated AI algorithms, fostering growth and success",
+      projectDesc:
+        "RI Software is an innovative business management solution that enables small businesses to not only showcase and sell their products and services but also gain valuable insights through integrated AI algorithms, fostering growth and success",
       footerLink: [
         {
           name: "Visit Website",
@@ -220,7 +223,8 @@ const bigProjects = {
     {
       image: require("./assets/images/nextuLogo.webp"),
       projectName: "Driving Negligence Dissuager System",
-      projectDesc: "DNDS is a vehicle safety recommendation system that can be fitted in all kinds of vehicles. The system detects drivers' drowsiness, lane lines, lane deviation, and objetcs like other vehicles, animals and pedestrians etc. The system alerts the driver if necessory to get them to focus on the raod and avoid mishaps",
+      projectDesc:
+        "DNDS is a vehicle safety recommendation system that can be fitted in all kinds of vehicles. The system detects drivers' drowsiness, lane lines, lane deviation, and objetcs like other vehicles, animals and pedestrians etc. The system alerts the driver if necessory to get them to focus on the raod and avoid mishaps",
       footerLink: [
         {
           name: "Visit Project Repository",
@@ -231,7 +235,8 @@ const bigProjects = {
     {
       image: require("./assets/images/nextuLogo.webp"),
       projectName: "Busses to Cars Ad Distribution System",
-      projectDesc: "BCADS is an advertisment distribution system that uses Vehicle Area Networks(VANETS) to distribute ads from busses with pre-determined rute to other cars",
+      projectDesc:
+        "BCADS is an advertisment distribution system that uses Vehicle Area Networks(VANETS) to distribute ads from busses with pre-determined rute to other cars",
       footerLink: [
         {
           name: "Visit Project Repository",
