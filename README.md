@@ -148,17 +148,11 @@ Set `displayMediumBlogs` to true or false in portofolio.js to display fetched Me
 
 ## Change and customize every section according to your need.
 
-#### Personalize page content in `/src/portfolio.js` & modify it as per your need. You will also need to modify `index.html` to change the title and metadata to provide accurate SEO for your personal portfolio.
+#### You can find constants like social media in `/src/portfolio.js` & modify it as per your need. You will also need to modify `index.html` to change the title and metadata to provide accurate SEO for your personal portfolio.
 
 ```javascript
 /* Change this file to get your Personal Porfolio */
 
-const greeting = {
-  /* Your Summary And Greeting Section */
-  title: "Hi all I'm Saad",
-  subTitle: emoji("A passionate Full Stack Software Developer 🚀"),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
-};
 
 const socialMediaLinks = {
   /* Your Social Media Link */
@@ -169,27 +163,22 @@ const socialMediaLinks = {
   facebook: "https://www.facebook.com/saad.pasta7"
 };
 
-
-const skillsSection = { .... }
-
-const techStack = { .... }
-
-const workExperience = { .... }
-
-const openSource = { .... }
-
-const bigProjects = { .... }
-
-const achievementSection = { .... }
-
-const blogSection = { .... }
-
-const contactInfo = { .... }
-
-const twitterDetails = { ... }
-
 ```
 
+
+You can add the texts to be displayed in `/src/languages` so that they can be integrated into supported languages.
+
+
+```javascript
+
+const data = { 
+  skillsSection = { .... } ,
+  techStack = { .... },
+  workExperience = { .... },
+   ...
+  }
+
+```
 #### Using Emojis
 
 For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` function and pass the text you need as an argument. This would help in keeping emojis compatible across different browsers and platforms.
