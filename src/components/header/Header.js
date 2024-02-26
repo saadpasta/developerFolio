@@ -94,14 +94,15 @@ function Header() {
           <li>
             <a href="#contact">
               {
-                navbar.contact
+                navbar.contactMe
               }
             </a>
           </li>
           <li>
-            <a>
-              <LanguageSwitcher />
-            </a>
+              <LanguageSwitcher 
+              className={
+               "lang-switcher-header" + (isDark ? " dark-mode" : "")
+              }  />
           </li>
           <li>
             <a>

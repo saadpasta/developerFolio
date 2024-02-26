@@ -2,8 +2,11 @@ import React, {useContext} from "react";
 import Dropdown from "../dropdown/Dropdown";
 import {supportedLanguages} from "../../portfolio";
 import {LanguageContext} from "../../contexts/LanguageContent";
+import "./LanguageSwitcher.scss";
 
-function LanguageSwitcher() {
+function LanguageSwitcher({
+  className,
+}) {
   const {selectedLanguage, handleLanguageChange} = useContext(LanguageContext);
   return (
     <>
@@ -11,6 +14,7 @@ function LanguageSwitcher() {
         options={supportedLanguages}
         onSelect={selectedOption => handleLanguageChange(selectedOption.value)}
         selectedValue={selectedLanguage}
+        className={className}
       />
     </>
   );

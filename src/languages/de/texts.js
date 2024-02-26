@@ -245,7 +245,7 @@ const data = {
     achievements: "Leistungen",
     blogs: "Blogs",
     talk: "Vorträge",
-    contact: "Kontaktiere mich"
+    contactMe: "Kontaktiere mich"
   },
   buttons:{
     contact: "Kontaktiere mich",
