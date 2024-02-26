@@ -1,12 +1,13 @@
 import React, {useContext} from "react";
 import "./WorkExperience.scss";
 import ExperienceCard from "../../components/experienceCard/ExperienceCard";
-import {workExperiences} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import {LanguageContext} from "../../contexts/LanguageContent";
 
 export default function WorkExperience() {
   const {isDark} = useContext(StyleContext);
+  const {workExperiences} = useContext(LanguageContext).data;
   if (workExperiences.display) {
     return (
       <div id="experience">

@@ -4,17 +4,17 @@ import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 import {
-  greeting,
-  workExperiences,
   skillsSection,
   openSource,
-  blogSection,
-  talkSection,
-  achievementSection
 } from "../../portfolio";
+import {LanguageContext} from "../../contexts/LanguageContent";
+import LanguageSwitcher from "../languageSwitcher";
 
 function Header() {
+  const { data } = useContext(LanguageContext);
+  const { greeting,workExperiences, blogSection, talkSection,achievementSection} = data;
   const {isDark} = useContext(StyleContext);
+
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
@@ -73,7 +73,11 @@ function Header() {
             <a href="#contact">Contact Me</a>
           </li>
           <li>
-            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+            <a>
+              <LanguageSwitcher />
+            </a>
+          </li>
+          <li>
             <a>
               <ToggleSwitch />
             </a>

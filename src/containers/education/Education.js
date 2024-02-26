@@ -1,9 +1,10 @@
 import React from "react";
 import "./Education.scss";
 import EducationCard from "../../components/educationCard/EducationCard";
-import {educationInfo} from "../../portfolio";
+import {LanguageContext} from "../../contexts/LanguageContent";
 
 export default function Education() {
+  const {educationInfo} = React.useContext(LanguageContext).data
   if (educationInfo.display) {
     return (
       <div className="education-section" id="education">

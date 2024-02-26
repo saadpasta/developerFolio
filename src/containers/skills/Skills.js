@@ -2,13 +2,15 @@ import React, {useContext} from "react";
 import "./Skills.scss";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import {illustration, skillsSection} from "../../portfolio";
+
 import {Fade} from "react-reveal";
 import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
-
+import {LanguageContext} from "../../contexts/LanguageContent";
 export default function Skills() {
   const {isDark} = useContext(StyleContext);
+  const {skillsSectionF} = useContext(LanguageContext).data;
   if (!skillsSection.display) {
     return null;
   }
@@ -32,7 +34,7 @@ export default function Skills() {
             <h1
               className={isDark ? "dark-mode skills-heading" : "skills-heading"}
             >
-              {skillsSection.title}{" "}
+              {skillsSectionF.title}{" "}
             </h1>
             <p
               className={
@@ -41,11 +43,11 @@ export default function Skills() {
                   : "subTitle skills-text-subtitle"
               }
             >
-              {skillsSection.subTitle}
+              {skillsSectionF.subTitle}
             </p>
             <SoftwareSkill />
             <div>
-              {skillsSection.skills.map((skills, i) => {
+              {skillsSectionF.skills.map((skills, i) => {
                 return (
                   <p
                     key={i}
