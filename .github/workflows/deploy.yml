@@ -37,5 +37,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           GITHUB_TOKEN : ${{ secrets.GITHUB_TOKEN }} # This is provided by GitHub.
-          BRANCH: gh-pages # The branch the action should deploy to.
+          BRANCH: my_portfolio # The branch the action should deploy to.
           FOLDER: build # The folder the action should deploy.
