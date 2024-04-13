@@ -38,13 +38,13 @@ export default function Podcast() {
             return (
               <div key={i}>
                 <iframe
-                    className="podcast"
-                    src={podcastLink}
-                    frameBorder="0"
-                    scrolling="yes"
-                    height={500}
-                    width="100%"
-                    title="Podcast"
+                  className="podcast"
+                  src={podcastLink}
+                  frameBorder="0"
+                  scrolling="yes"
+                  height={500}
+                  width="100%"
+                  title="Podcast"
                 ></iframe>
               </div>
             );

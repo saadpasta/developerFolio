@@ -23,10 +23,10 @@ const greeting = {
   username: "Sourabh Kumar",
   title: "Hi all, I'm Sourabh",
   subTitle: emoji(
-      "A Tech Enthusiast | YouTuber | Software Developer  🚀 having an experience of building SaaS application with Python / Java / Go  and some other cool libraries and frameworks."
+    "A Tech Enthusiast | YouTuber | Software Developer  🚀 having an experience of building SaaS application with Python / Java / Go  and some other cool libraries and frameworks."
   ),
   resumeLink:
-      "https://drive.google.com/file/d/1AMYOOvZ73Fl6eDGXV0sNxXT398i6RT9B/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1AMYOOvZ73Fl6eDGXV0sNxXT398i6RT9B/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -56,7 +56,7 @@ const skillsSection = {
     emoji("⚡ Algorithm Design & Optimization"), // Added this line for your algorithm skills
     emoji("⚡ Open Source Enthusiast (Reading & Contributing)"),
     emoji("⚡ Integration Specialist (AWS, GCP, DigitalOcean)"), // Kept integration skills
-    emoji("⚡ Familiar with Frontend Technologies (HTML, CSS, JavaScript)"), // Added frontend familiarity
+    emoji("⚡ Familiar with Frontend Technologies (HTML, CSS, JavaScript)") // Added frontend familiarity
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -150,7 +150,7 @@ const educationInfo = {
       descBullets: [
         "Served as head of the coding cell for 2 years, guiding over 200 students in competitive programming.",
         "Secured the runner-up position in Debug-Time, an intercollegiate coding event organized by AIT.",
-        "Excelled in table tennis and volleyball, earning the title of Best Sports Person (Junior) in the first year.",
+        "Excelled in table tennis and volleyball, earning the title of Best Sports Person (Junior) in the first year."
       ]
     }
   ]
@@ -205,7 +205,7 @@ const workExperiences = {
       desc: "",
       descBullets: [
         "Crafted a centralized service streamlining the deployment of ad server code across test servers. This service also automates the retrieval of essential information from ad servers, effectively reducing 20% manual verification time for team members.",
-        "Explored techniques for crafting personalized automated services utilizing the Ansible Runner library in tandem with Python.",
+        "Explored techniques for crafting personalized automated services utilizing the Ansible Runner library in tandem with Python."
       ]
     }
   ]
@@ -258,25 +258,26 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-      "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
       title: "Druva All Stars Award",
       subtitle:
-          "Received award for excellence on the Planner App and consistently resolving complex customer escalations with exceptional solutions.",
+        "Received award for excellence on the Planner App and consistently resolving complex customer escalations with exceptional solutions.",
       image: require("./assets/images/DruvaAward.png"),
       imageAlt: "All-Stars Award Logo",
       footerLink: [
         {
           name: "Certification",
           url: "https://www.linkedin.com/posts/sourabhkumar08_druva-latepost-activity-7065239752148475904-7ria?utm_source=share&utm_medium=member_desktop"
-        },
+        }
       ]
     },
     {
       title: "Postman API Fundamentals Student Expert",
-      subtitle: "Completed Certification from Postman for API Fundamentals Expert",
+      subtitle:
+        "Completed Certification from Postman for API Fundamentals Expert",
       image: require("./assets/images/PostmanStudentExpert.png"),
       imageAlt: "Postman Student Expert Logo",
       footerLink: [
@@ -299,14 +300,14 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-      "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://medium.com/@sourabhkr/the-power-of-many-how-distributed-systems-make-our-lives-easier-89dfaff8a08f",
       title: "The Power of Many: How Distributed Systems Make Our Lives Easier",
       description:
-          "Distributed systems are the invisible heroes powering the digital world. They work behind the scenes, keeping things fast, reliable, and ever-growing. "
+        "Distributed systems are the invisible heroes powering the digital world. They work behind the scenes, keeping things fast, reliable, and ever-growing. "
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -317,7 +318,7 @@ const blogSection = {
 const talkSection = {
   title: "TALKS",
   subtitle: emoji(
-      "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
   ),
 
   talks: [
@@ -347,7 +348,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-      "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+1-0000000000",
   email_address: "sourabh7.tech@gmail.com"
 };
