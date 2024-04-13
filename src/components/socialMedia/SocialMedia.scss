@@ -64,6 +64,10 @@
   background-color: $kaggle;
 }
 
+.youtube i {
+  background-color: $youtube;
+}
+
 .instagram i {
   background-color: $instagram;
 }
@@ -78,6 +82,7 @@
 .instagram i:hover,
 .stack-overflow i:hover,
 .kaggle i:hover,
+.youtube i:hover,
 .medium i:hover {
   background-color: $textColor;
 }
