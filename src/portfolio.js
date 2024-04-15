@@ -5,16 +5,16 @@
 import emoji from "react-easy-emoji";
 
 // make our custom icons `./myicons` available in Font Awesome
-import {library, dom} from "@fortawesome/fontawesome-svg-core";
+import { dom, library } from "@fortawesome/fontawesome-svg-core";
 import {
-  faTS,
+  faAzure,
+  faBlockchain,
+  faCypress,
   faLambda,
   faServerless,
-  faBlockchain,
-  faAzure,
-  faCypress
+  faTS
 } from "./assets/myicons";
-import {workExpArray} from "./data/WorkExpArray";
+import { workExpArray } from "./data/WorkExpArray";
 
 // noinspection JSCheckFunctionSignatures
 library.add([faTS, faLambda, faServerless, faBlockchain, faAzure, faCypress]);
@@ -368,16 +368,7 @@ const contactInfo = {
 };
 
 export {
-  illustration,
-  greeting,
-  socialMediaLinks,
-  skillsSection,
-  educationInfo,
-  techStack,
-  workExperiences,
-  openSource,
-  bigProjects,
-  achievementSection,
-  podcastSection,
-  contactInfo
+  achievementSection, bigProjects, contactInfo, educationInfo, greeting, illustration, openSource, podcastSection, skillsSection, socialMediaLinks, techStack,
+  workExperiences
 };
+
