@@ -201,6 +201,37 @@ const workExperiences = {
   ]
 };
 
+const projectExperiences = {
+  display: true, 
+  experience: [
+    {
+      role: "Project Manager",
+      projectName: "Green Horizon Initiative",
+      projectlogo: require("./assets/images/facebookLogo.png"),
+      date: "Jan 2015 – Sep 2015",
+      desc: "The Green Horizon Initiative was a pioneering project aimed at reducing the carbon footprint of urban transport through the integration of AI in traffic light systems across the city.",
+      descBullets: [
+        "Conducted a comprehensive analysis of traffic patterns using machine learning algorithms",
+        "Implemented a real-time adaptive traffic control system to optimize traffic flow and reduce emissions.",
+        "Collaborated with a cross-functional team to integrate the system with existing city infrastructure.",
+      ]
+    },
+
+    {
+      role: "Lead Developer",
+      project: "AquaNova Desalination Project",
+      projectlogo: require("./assets/images/facebookLogo.png"),
+      date: "Jan 2015 – Sep 2015",
+      desc: "The AquaNova Desalination Project aimed to introduce an innovative, energy-efficient method of converting seawater to potable water for coastal communities.",
+      descBullets: [
+        "Developed a novel reverse osmosis membrane that increases desalination efficiency by 30%.",
+        "Oversaw the design and installation of solar-powered desalination units along the coastline."
+      ]
+    }
+   
+  ]
+};
+
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
@@ -385,6 +416,7 @@ export {
   educationInfo,
   techStack,
   workExperiences,
+  projectExperiences,
   openSource,
   bigProjects,
   achievementSection,
