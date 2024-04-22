@@ -202,7 +202,7 @@ const workExperiences = {
 };
 
 const projectExperiences = {
-  display: true, 
+  display: true,
   experience: [
     {
       role: "Project Manager",
@@ -213,7 +213,7 @@ const projectExperiences = {
       descBullets: [
         "Conducted a comprehensive analysis of traffic patterns using machine learning algorithms",
         "Implemented a real-time adaptive traffic control system to optimize traffic flow and reduce emissions.",
-        "Collaborated with a cross-functional team to integrate the system with existing city infrastructure.",
+        "Collaborated with a cross-functional team to integrate the system with existing city infrastructure."
       ]
     },
 
@@ -229,7 +229,6 @@ const projectExperiences = {
         "Orchestrated the integration of the watermarking technology with Facebook's existing content management system to automate copyright protection.."
       ]
     }
-   
   ]
 };
 

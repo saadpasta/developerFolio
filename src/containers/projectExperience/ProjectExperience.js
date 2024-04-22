@@ -1,15 +1,15 @@
-import React, { useContext } from "react";
+import React, {useContext} from "react";
 import "./ProjectExperience.scss";
 import ExperienceCard from "../../components/experienceCard/ExperienceCard";
-import { projectExperiences } from "../../portfolio";
-import { Fade } from "react-reveal";
+import {projectExperiences} from "../../portfolio";
+import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function ProjectExperience() {
-  const { isDark } = useContext(StyleContext);
+  const {isDark} = useContext(StyleContext);
 
   // This could be any date you choose to filter experiences by.
-  const cutoffDate = new Date('2023-01-01');
+  const cutoffDate = new Date("2023-01-01");
 
   if (projectExperiences.display) {
     return (
@@ -27,12 +27,12 @@ export default function ProjectExperience() {
                         key={i}
                         isDark={isDark}
                         cardInfo={{
-                            company: card.projectName, // changed from card.company to card.projectName
-                            desc: card.desc,
-                            date: card.date,
-                            companylogo: card.projectlogo, // changed from card.companylogo to card.projectlogo
-                            role: card.role,
-                            descBullets: card.descBullets,
+                          company: card.projectName, // changed from card.company to card.projectName
+                          desc: card.desc,
+                          date: card.date,
+                          companylogo: card.projectlogo, // changed from card.companylogo to card.projectlogo
+                          role: card.role,
+                          descBullets: card.descBullets
                         }}
                       />
                     );
