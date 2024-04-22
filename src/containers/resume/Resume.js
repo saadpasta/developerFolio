@@ -33,7 +33,7 @@ export default function Resume() {
         <div className="resume-container">
           {/* Display the subtitle */}
           <object
-            data={require("./FINAL RESUME CMU FEB 2024.pdf")} // Ensure the PDF file is located at this path
+            data={require("./resume.pdf")} // Ensure the PDF file is located at this path
             type="application/pdf"
             width="100%"
             height="100%"
@@ -41,7 +41,7 @@ export default function Resume() {
             <p>
               Your browser does not support PDFs. Please download the PDF to
               view it:{" "}
-              <a href={require("./FINAL RESUME CMU FEB 2024.pdf")}>
+              <a href={require("./resume.pdf")}>
                 Download PDF
               </a>
               .
