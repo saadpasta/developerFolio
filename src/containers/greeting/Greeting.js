@@ -6,6 +6,7 @@ import landingPerson from "../../assets/lottie/landingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
+import ResumeDownloadButton from "../../components/downloadResume/ResumeDownloadButton";
 
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
@@ -42,9 +43,8 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <Button
-                    text="See my resume"
-                    newTab={true}
-                    href={greeting.resumeLink}
+                    text="See my resume "
+                    href={"#resume"}
                   />
                 )}
               </div>
