@@ -206,7 +206,7 @@ const projectExperiences = {
   experience: [
     {
       role: "Project Manager",
-      projectName: "Green Horizon Initiative",
+      projectName: "Facebook Green Project Initiative",
       projectlogo: require("./assets/images/facebookLogo.png"),
       date: "Jan 2015 – Sep 2015",
       desc: "The Green Horizon Initiative was a pioneering project aimed at reducing the carbon footprint of urban transport through the integration of AI in traffic light systems across the city.",
@@ -219,13 +219,14 @@ const projectExperiences = {
 
     {
       role: "Lead Developer",
-      project: "AquaNova Desalination Project",
+      project: "Facebook Watermark Initiative ",
       projectlogo: require("./assets/images/facebookLogo.png"),
       date: "Jan 2015 – Sep 2015",
-      desc: "The AquaNova Desalination Project aimed to introduce an innovative, energy-efficient method of converting seawater to potable water for coastal communities.",
+      desc: "The Facebook Watermark Initiative was a groundbreaking project designed to protect digital media content on social media platforms through advanced watermarking technology.",
+
       descBullets: [
-        "Developed a novel reverse osmosis membrane that increases desalination efficiency by 30%.",
-        "Oversaw the design and installation of solar-powered desalination units along the coastline."
+        "Spearheaded the development of an AI-driven algorithm to embed imperceptible watermarks in images and videos uploaded to Facebook.Developed a novel reverse osmosis membrane that increases desalination efficiency by 30%.",
+        "Orchestrated the integration of the watermarking technology with Facebook's existing content management system to automate copyright protection.."
       ]
     }
    
