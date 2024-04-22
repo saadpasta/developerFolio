@@ -40,11 +40,7 @@ export default function Resume() {
           >
             <p>
               Your browser does not support PDFs. Please download the PDF to
-              view it:{" "}
-              <a href={require("./resume.pdf")}>
-                Download PDF
-              </a>
-              .
+              view it: <a href={require("./resume.pdf")}>Download PDF</a>.
             </p>
           </object>
         </div>
