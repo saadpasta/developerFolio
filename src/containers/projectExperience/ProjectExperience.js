@@ -33,20 +33,10 @@ export default function ProjectExperience() {
                           date: card.date,
                           companylogo: card.projectlogo, // changed from card.companylogo to card.projectlogo
                           role: card.role,
-                          descBullets: card.descBullets
+                          descBullets: card.descBullets,
+                          projectImage: card.projectImage,
                         }}
                       />
-                      // <ProjectCard
-                      //   isDark={isDark}
-                      //   projectInfo={{
-                      //     name: card.projectName, // The name of the project
-                      //     description: card.desc, // A short description of the project
-                      //     duration: card.date, // Duration or timeline of the project
-                      //     projectLogo: card.projectlogo, // The project logo
-                      //     lead: card.role, // The project lead or responsible person
-                      //     descBullets: card.descBullets, // Bullet points about the project
-                      //   }}
-                      // />
                     );
                   })}
               </div>

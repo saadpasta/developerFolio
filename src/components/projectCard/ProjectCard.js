@@ -31,7 +31,7 @@ export default function ProjectCard({cardInfo, isDark}) {
   };
 
   return (
-    <div className={isDark ? "experience-card-dark" : "experience-card"}>
+    <div className={isDark ? "project-card-dark" : "experience-card"}>
       <div style={{background: rgb(colorArrays)}} className="experience-banner">
         <div className="experience-blurred_div"></div>
         <div className="experience-div-company">
@@ -79,8 +79,8 @@ export default function ProjectCard({cardInfo, isDark}) {
           <GetDescBullets descBullets={cardInfo.descBullets} isDark={isDark} />
         </ul>
       </div>
-      <div className="experience-image">
-        
+      <div className="project-image">
+        <img src={cardInfo.projectImage} alt={cardInfo.company} />
       </div>
     </div>
   );

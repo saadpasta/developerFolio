@@ -208,26 +208,28 @@ const projectExperiences = {
       role: "Project Manager",
       projectName: "Facebook Green Project Initiative",
       projectlogo: require("./assets/images/facebookLogo.png"),
-      date: "Jan 2015 - Sep 2015",
+      date: "Jan 2023 - Sep 2023",
       desc: "The Green Horizon Initiative was a pioneering project aimed at reducing the carbon footprint of urban transport through the integration of AI in traffic light systems across the city.",
       descBullets: [
-        "Conducted a comprehensive analysis of traffic patterns using machine learning algorithms",
-        "Implemented a real-time adaptive traffic control system to optimize traffic flow and reduce emissions.",
-        "Collaborated with a cross-functional team to integrate the system with existing city infrastructure."
-      ]
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Cras pulvinar mattis nunc sed blandit. Praesent tristique magna sit amet purus gravida quis blandit turpis.",
+        "Aliquam id diam maecenas ultricies mi eget mauris pharetra. Lorem ipsum dolor sit amet"
+      ],
+      projectImage: require("./assets/images/projectimage1.png")
     },
 
     {
       role: "Lead Developer",
-      project: "Facebook Watermark Initiative ",
+      projectName: "Facebook Watermark Initiative ",
       projectlogo: require("./assets/images/facebookLogo.png"),
-      date: "Jan 2015 - Sep 2015",
+      date: "Jan 2024 - Present",
       desc: "The Facebook Watermark Initiative was a groundbreaking project designed to protect digital media content on social media platforms through advanced watermarking technology.",
-
       descBullets: [
-        "Spearheaded the development of an AI-driven algorithm to embed imperceptible watermarks in images and videos uploaded to Facebook.Developed a novel reverse osmosis membrane that increases desalination efficiency by 30%.",
-        "Orchestrated the integration of the watermarking technology with Facebook's existing content management system to automate copyright protection.."
-      ]
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Cras pulvinar mattis nunc sed blandit. Praesent tristique magna sit amet purus gravida quis blandit turpis. Aliquam id diam maecenas ultricies mi eget mauris pharetra. Lorem ipsum dolor sit amet",
+        "Aliquam id diam maecenas ultricies"
+      ],
+      projectImage: require("./assets/images/projectimage1.png")
     }
   ]
 };

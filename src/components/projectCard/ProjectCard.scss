@@ -1,6 +1,6 @@
 @import "../../_globalColor";
 
-.experience-card {
+.project-card {
   position: relative;
   background-color: $lightBackground2;
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
@@ -8,7 +8,7 @@
   border: 1px solid $lightBorder1;
 }
 
-.experience-card-dark {
+.project-card-dark {
   position: relative;
   background-color: $darkBackground;
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
@@ -16,7 +16,7 @@
   border: 1px solid $lightBorder1;
 }
 
-.experience-card:hover {
+.project-card:hover {
   box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
 }
 
@@ -35,6 +35,10 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
+}
+
+.project-image {
+  height:30rem
 }
 
 .experience-blurred_div {
