@@ -37,7 +37,7 @@ export default function ProjectCard({cardInfo, isDark}) {
         <div className="experience-div-company">
           <h5 className="experience-text-company">{cardInfo.company}</h5>
         </div>
-
+{/* 
         <img
           crossOrigin={"anonymous"}
           ref={imgRef}
@@ -45,7 +45,7 @@ export default function ProjectCard({cardInfo, isDark}) {
           src={cardInfo.companylogo}
           alt={cardInfo.company}
           onLoad={() => getColorArrays()}
-        />
+        /> */}
       </div>
       <div className="experience-text-details">
         <h5
