@@ -1,6 +1,7 @@
 import React, {useContext} from "react";
 import "./ProjectExperience.scss";
-import ExperienceCard from "../../components/experienceCard/ExperienceCard";
+// import ExperienceCard from "../../components/experienceCard/ExperienceCard";
+import ProjectCard from "../../components/projectCard/ProjectCard";
 import {projectExperiences} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
@@ -23,7 +24,7 @@ export default function ProjectExperience() {
                   //.filter(card => new Date(card.date) >= cutoffDate)
                   .map((card, i) => {
                     return (
-                      <ExperienceCard
+                      <ProjectCard
                         key={i}
                         isDark={isDark}
                         cardInfo={{
@@ -35,6 +36,17 @@ export default function ProjectExperience() {
                           descBullets: card.descBullets
                         }}
                       />
+                      // <ProjectCard
+                      //   isDark={isDark}
+                      //   projectInfo={{
+                      //     name: card.projectName, // The name of the project
+                      //     description: card.desc, // A short description of the project
+                      //     duration: card.date, // Duration or timeline of the project
+                      //     projectLogo: card.projectlogo, // The project logo
+                      //     lead: card.role, // The project lead or responsible person
+                      //     descBullets: card.descBullets, // Bullet points about the project
+                      //   }}
+                      // />
                     );
                   })}
               </div>

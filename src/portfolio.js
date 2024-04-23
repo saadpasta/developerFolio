@@ -208,7 +208,7 @@ const projectExperiences = {
       role: "Project Manager",
       projectName: "Facebook Green Project Initiative",
       projectlogo: require("./assets/images/facebookLogo.png"),
-      date: "Jan 2015 – Sep 2015",
+      date: "Jan 2015 - Sep 2015",
       desc: "The Green Horizon Initiative was a pioneering project aimed at reducing the carbon footprint of urban transport through the integration of AI in traffic light systems across the city.",
       descBullets: [
         "Conducted a comprehensive analysis of traffic patterns using machine learning algorithms",
@@ -221,7 +221,7 @@ const projectExperiences = {
       role: "Lead Developer",
       project: "Facebook Watermark Initiative ",
       projectlogo: require("./assets/images/facebookLogo.png"),
-      date: "Jan 2015 – Sep 2015",
+      date: "Jan 2015 - Sep 2015",
       desc: "The Facebook Watermark Initiative was a groundbreaking project designed to protect digital media content on social media platforms through advanced watermarking technology.",
 
       descBullets: [
