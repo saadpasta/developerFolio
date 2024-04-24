@@ -213,9 +213,9 @@ const projectExperiences = {
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "Cras pulvinar mattis nunc sed blandit. Praesent tristique magna sit amet purus gravida quis blandit turpis.",
-        "Aliquam id diam maecenas ultricies mi eget mauris pharetra. Lorem ipsum dolor sit amet"
+        "Aliquam id diam maecenas ultricies mi eget mauris pharetra. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       ],
-      projectImage: require("./assets/images/projectimage1.png")
+      projectImage: require("./assets/images/sampleImage1.png")
     },
 
     {
@@ -229,7 +229,7 @@ const projectExperiences = {
         "Cras pulvinar mattis nunc sed blandit. Praesent tristique magna sit amet purus gravida quis blandit turpis. Aliquam id diam maecenas ultricies mi eget mauris pharetra. Lorem ipsum dolor sit amet",
         "Aliquam id diam maecenas ultricies"
       ],
-      projectImage: require("./assets/images/projectimage1.png")
+      projectImage: require("./assets/images/sampleImage1.png")
     }
   ]
 };
