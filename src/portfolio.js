@@ -206,10 +206,10 @@ const projectExperiences = {
   experience: [
     {
       role: "Project Manager",
-      projectName: "Facebook Green Project Initiative",
-      projectlogo: require("./assets/images/facebookLogo.png"),
+      projectName: "Full-Stack E-Commerce Platform",
+      projectlogo: require("./assets/images/c++Icon.png"),
       date: "Jan 2023 - Sep 2023",
-      desc: "The Green Horizon Initiative was a pioneering project aimed at reducing the carbon footprint of urban transport through the integration of AI in traffic light systems across the city.",
+      desc: "Cras pulvinar mattis nunc sed blandit. Praesent tristique magna sit amet purus gravida quis blandit turpis.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "Cras pulvinar mattis nunc sed blandit. Praesent tristique magna sit amet purus gravida quis blandit turpis.",
@@ -220,10 +220,10 @@ const projectExperiences = {
 
     {
       role: "Lead Developer",
-      projectName: "Facebook Watermark Initiative ",
-      projectlogo: require("./assets/images/facebookLogo.png"),
+      projectName: "AI-Powered Chatbot",
+      projectlogo: require("./assets/images/javaIcon.png"),
       date: "Jan 2024 - Present",
-      desc: "The Facebook Watermark Initiative was a groundbreaking project designed to protect digital media content on social media platforms through advanced watermarking technology.",
+      desc: "Cras pulvinar mattis nunc sed blandit. Praesent tristique magna sit amet purus gravida quis blandit turpis.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "Cras pulvinar mattis nunc sed blandit. Praesent tristique magna sit amet purus gravida quis blandit turpis. Aliquam id diam maecenas ultricies mi eget mauris pharetra. Lorem ipsum dolor sit amet",

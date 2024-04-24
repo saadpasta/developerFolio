@@ -35,15 +35,15 @@ export default function ProjectCard({cardInfo, isDark}) {
       <div style={{background: rgb(colorArrays)}} className="experience-banner">
         <div className="experience-blurred_div"></div>
         <div className="experience-div-company">
-          <h5 className="experience-text-company">{cardInfo.company}</h5>
+          <h5 className="experience-text-company">{cardInfo.projectname}</h5>
         </div>
 
         <img
           crossOrigin={"anonymous"}
           ref={imgRef}
           className="experience-roundedimg"
-          src={cardInfo.companylogo}
-          alt={cardInfo.company}
+          src={cardInfo.projectlanguage}
+          alt={cardInfo.language}
           onLoad={() => getColorArrays()}
         />
       </div>
@@ -80,7 +80,7 @@ export default function ProjectCard({cardInfo, isDark}) {
         </ul>
       </div>
       <div className="project-image">
-        <img src={cardInfo.projectImage} alt={cardInfo.company} />
+        <img src={cardInfo.projectImage} alt={cardInfo.projectname} />
       </div>
     </div>
   );

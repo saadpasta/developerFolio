@@ -28,10 +28,10 @@ export default function ProjectExperience() {
                         key={i}
                         isDark={isDark}
                         cardInfo={{
-                          company: card.projectName, // changed from card.company to card.projectName
+                          projectname: card.projectName, // changed from card.company to card.projectName
                           desc: card.desc,
                           date: card.date,
-                          companylogo: card.projectlogo, // changed from card.companylogo to card.projectlogo
+                          projectlanguage: card.projectlogo, // changed from card.companylogo to card.projectlogo
                           role: card.role,
                           descBullets: card.descBullets,
                           projectImage: card.projectImage,
