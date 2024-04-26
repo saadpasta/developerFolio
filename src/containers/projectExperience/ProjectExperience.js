@@ -34,7 +34,7 @@ export default function ProjectExperience() {
                           projectlanguage: card.projectlogo, // changed from card.companylogo to card.projectlogo
                           role: card.role,
                           descBullets: card.descBullets,
-                          projectImage: card.projectImage,
+                          projectImage: card.projectImage
                         }}
                       />
                     );
