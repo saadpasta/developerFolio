@@ -189,6 +189,8 @@ const contactInfo = { .... }
 const twitterDetails = { ... }
 
 ```
+#### Resume upload
+To upload your own resume, simply upload a pdf to `src/containers/resume` and rename the pdf to `resume.pdf`. 
 
 #### Using Emojis
 
