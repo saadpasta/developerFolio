@@ -11,7 +11,7 @@ const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
   duration: 2000 // Set animation duration as per your animation
-}; 
+};
 
 // Summary And Greeting Section
 
@@ -26,10 +26,9 @@ const greeting = {
     "I'm a Data Science Enthusiast focusing on AI and Cloud Tech. I thrive on transforming complex data into smart solutions using my data science skills. Eager to bring these skills to life in the real world!"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1aQzDFpYmC4dAIq8RUR7PRYKOUrWsddcu/view?usp=sharing", // Add a link to your online resume if available, create one if you don't have; ; ; ; ; ; 
+    "https://drive.google.com/file/d/1aQzDFpYmC4dAIq8RUR7PRYKOUrWsddcu/view?usp=sharing", // Add a link to your online resume if available, create one if you don't have; ; ; ; ; ;
   displayGreeting: true
 };
-
 
 // Social Media Links
 
@@ -42,7 +41,6 @@ const socialMediaLinks = {
   twitter: "https://twitter.com/liaichi_m", // replace with your Twitter profile link
   display: true
 };
-
 
 // Skills Section
 
@@ -102,7 +100,6 @@ const skillsSection = {
   display: true
 };
 
-
 // Education Section
 
 const educationInfo = {
@@ -114,9 +111,7 @@ const educationInfo = {
       subHeader: "CPGE Student",
       duration: "2018 – 2020",
       desc: "Preparatory Classes’s degree - Mathematics and Physics", // You can customize this description
-      descBullets: [
-        "Located in Errachidia, Morocco"
-      ]
+      descBullets: ["Located in Errachidia, Morocco"]
     },
     {
       schoolName: "School Of Information Science",
@@ -124,13 +119,10 @@ const educationInfo = {
       subHeader: "Data Science Student",
       duration: "2020 – 2025",
       desc: "Engineer’s degree - Data Science", // Customize this description as needed
-      descBullets: [
-        "Located in Rabat, Morocco"
-      ]
+      descBullets: ["Located in Rabat, Morocco"]
     }
   ]
 };
-
 
 // Your top 3 proficient stacks/tech experience
 
@@ -190,12 +182,11 @@ const workExperiences = {
       company: "ONSSA",
       companylogo: require("./assets/images/onssaLogo.png"), // Replace with the path to ONSSA's logo
       date: "July 2023 - August 2023",
-      desc: "I was assigned the responsibility of designing and implementing a sophisticated Python script, with the primary objective of automating a complex calculation process. This task required seamless integration with Microsoft Excel, ensuring efficient data manipulation and analysis.",
+      desc: "I was assigned the responsibility of designing and implementing a sophisticated Python script, with the primary objective of automating a complex calculation process. This task required seamless integration with Microsoft Excel, ensuring efficient data manipulation and analysis."
       // Add 'descBullets' if you have bullet points to add
     }
   ]
 };
-
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -214,7 +205,8 @@ const bigProjects = {
     {
       image: require("./assets/images/docuMindsLogo.png"), // Replace with the path to your DocuMinds project's logo
       projectName: "DocuMinds - File Embedding App",
-      projectDesc: "DocuMinds is a Streamlit-based web application for processing and analyzing text documents. It enables users to upload documents, input prompts, and receive insightful responses. Features include document upload, embeddings storage in AWS S3, and generating responses based on user prompts.",
+      projectDesc:
+        "DocuMinds is a Streamlit-based web application for processing and analyzing text documents. It enables users to upload documents, input prompts, and receive insightful responses. Features include document upload, embeddings storage in AWS S3, and generating responses based on user prompts.",
       footerLink: [
         {
           name: "View Project", // Change this if you have a different call to action
@@ -226,7 +218,8 @@ const bigProjects = {
     {
       image: require("./assets/images/schoolTextAnalysisLogo.png"), // Replace with the path to your School Text Analysis project's logo
       projectName: "School Text Analysis using Word Cloud",
-      projectDesc: "This project focuses on analyzing text from various schools using word cloud visualization. It involves data collection, processing, keyword extraction using nlp_rake, and visualizing the most frequent terms with word clouds and bar plots. The project is collaborative, inviting contributions for analyzing different schools.",
+      projectDesc:
+        "This project focuses on analyzing text from various schools using word cloud visualization. It involves data collection, processing, keyword extraction using nlp_rake, and visualizing the most frequent terms with word clouds and bar plots. The project is collaborative, inviting contributions for analyzing different schools.",
       footerLink: [
         {
           name: "View Project", // Change this if you have a different call to action
@@ -239,13 +232,11 @@ const bigProjects = {
   display: true // Set false to hide this section, defaults to true
 };
 
-
 // Achievement Section
 // Include certificates, talks etc
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "My journey in learning and achieving milestones in my career",
+  subtitle: "My journey in learning and achieving milestones in my career",
 
   achievementsCards: [
     {
@@ -275,12 +266,11 @@ const achievementSection = {
         }
         // You can add more links related to this achievement if available
       ]
-    },
+    }
     // ... Include other achievements or certifications here
   ],
   display: true // Set true to display this section
 };
-
 
 // Blogs Section
 
@@ -292,7 +282,8 @@ const blogSection = {
   blogs: [
     {
       url: "https://it-lounge.hashnode.dev/unlocking-the-power-of-data-science-a-journey-into-the-world-of-data",
-      title: "Unlocking the Power of Data Science: A Journey into the World of Data",
+      title:
+        "Unlocking the Power of Data Science: A Journey into the World of Data",
       description:
         "This blog post delves into the significance of data in the digital age, highlighting its role in driving advancements and innovations. It explores the field of data science, an interdisciplinary domain that combines various techniques to extract insights from data."
     },
@@ -304,14 +295,14 @@ const blogSection = {
     },
     {
       url: "https://it-lounge.hashnode.dev/customizing-ai-responses-with-llama-index-a-case-study-in-data-specific-interaction",
-      title: "Customizing AI Responses with Llama Index: A Case Study in Data-Specific Interaction",
+      title:
+        "Customizing AI Responses with Llama Index: A Case Study in Data-Specific Interaction",
       description:
         "In this blog post, I delve into the technical intricacies of customizing AI models to respond exclusively from a predefined dataset. I discuss the development of a Flask-based application that leverages OpenAI's models, focusing on restricting the AI’s responses to only those derived from our own indexed documents."
     }
   ],
   display: true // Set true to display this section
 };
-
 
 // Talks Sections
 
