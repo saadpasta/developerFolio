@@ -82,15 +82,14 @@ if (USE_GITHUB_DATA === "true") {
     res.on("end", () => {
       const repoData = JSON.parse(responseData);
 
-      
-      const projectNames = bigProjects.projects.map(project => project.projectName);
+      const projectNames = bigProjects.projects.map(
+        project => project.projectName
+      );
 
-      
       const filteredRepos = repoData.user.repositories.edges.filter(repo => {
         return !projectNames.includes(repo.node.name);
       });
       setRepoFunction(filteredRepos);
-
     });
   });
 
