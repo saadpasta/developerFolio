@@ -2,6 +2,7 @@ fs = require("fs");
 const https = require("https");
 process = require("process");
 require("dotenv").config();
+const bigProjects = require("./portfolio").bigProjects;
 
 const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
 const GITHUB_USERNAME = process.env.GITHUB_USERNAME;
@@ -30,7 +31,7 @@ if (USE_GITHUB_DATA === "true") {
     bio
     avatarUrl
     location
-    pinnedItems(first: 6, types: [REPOSITORY]) {
+    repositories(first: 100, orderBy: {field: CREATED_AT, direction: DESC},privacy: PUBLIC) {
       totalCount
       edges {
           node {
@@ -79,10 +80,17 @@ if (USE_GITHUB_DATA === "true") {
       data += d;
     });
     res.on("end", () => {
-      fs.writeFile("./public/profile.json", data, function (err) {
-        if (err) return console.log(err);
-        console.log("saved file to public/profile.json");
+      const repoData = JSON.parse(responseData);
+
+      
+      const projectNames = bigProjects.projects.map(project => project.projectName);
+
+      
+      const filteredRepos = repoData.user.repositories.edges.filter(repo => {
+        return !projectNames.includes(repo.node.name);
       });
+      setRepoFunction(filteredRepos);
+
     });
   });
 
