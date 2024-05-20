@@ -201,6 +201,39 @@ const workExperiences = {
   ]
 };
 
+const projectExperiences = {
+  display: true,
+  experience: [
+    {
+      role: "Project Manager",
+      projectName: "Full-Stack E-Commerce Platform",
+      projectlogo: require("./assets/images/c++Icon.png"),
+      date: "Jan 2023 - Sep 2023",
+      desc: "Cras pulvinar mattis nunc sed blandit. Praesent tristique magna sit amet purus gravida quis blandit turpis.",
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Cras pulvinar mattis nunc sed blandit. Praesent tristique magna sit amet purus gravida quis blandit turpis.",
+        "Aliquam id diam maecenas ultricies mi eget mauris pharetra. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      ],
+      projectImage: require("./assets/images/sampleImage1.png")
+    },
+
+    {
+      role: "Lead Developer",
+      projectName: "AI-Powered Chatbot",
+      projectlogo: require("./assets/images/javaIcon.png"),
+      date: "Jan 2024 - Present",
+      desc: "Cras pulvinar mattis nunc sed blandit. Praesent tristique magna sit amet purus gravida quis blandit turpis.",
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Cras pulvinar mattis nunc sed blandit. Praesent tristique magna sit amet purus gravida quis blandit turpis. Aliquam id diam maecenas ultricies mi eget mauris pharetra. Lorem ipsum dolor sit amet",
+        "Aliquam id diam maecenas ultricies"
+      ],
+      projectImage: require("./assets/images/sampleImage1.png")
+    }
+  ]
+};
+
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
@@ -394,6 +427,7 @@ export {
   educationInfo,
   techStack,
   workExperiences,
+  projectExperiences,
   openSource,
   bigProjects,
   achievementSection,
