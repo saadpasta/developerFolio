@@ -1,7 +1,8 @@
 @import "../../_globalColor";
 
 #topButton {
-  visibility: hidden;
+  transition: opacity 0.5s;
+  opacity: 0;
   position: fixed;
   bottom: 20px;
   right: 30px;
