@@ -16,7 +16,7 @@
   color: $textColorDark !important;
 }
 
-.dark-menu li a:hover {
+.dark-menu li:not(:last-child) a:hover {
   background-color: $buttonColor !important;
 }
 
@@ -45,7 +45,7 @@
   text-decoration: none;
 }
 
-.header li a:hover,
+.header li:not(:last-child) a:hover,
 .header .menu-btn:hover {
   background-color: $headerHoverBG;
 }
