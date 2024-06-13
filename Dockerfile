@@ -9,18 +9,15 @@ WORKDIR /app
 # Install app dependencies
 # A wildcard is used to ensure both package.json AND package-lock.json are copied
 # where available (npm@5+)
-COPY package.json ./
-
-RUN apk add --no-cache git
+COPY package.json package-lock.json ./
 
 # Install any needed packages
-RUN npm install
-
-# Audit fix npm packages
-RUN npm audit fix
+RUN apk add --no-cache git \
+    && npm install \
+    && npm audit fix
 
 # Bundle app source
-COPY . /app
+COPY . .
 
 # Make port 3000 available to the world outside this container
 EXPOSE 3000
