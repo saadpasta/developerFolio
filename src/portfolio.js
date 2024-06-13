@@ -20,13 +20,14 @@ const illustration = {
 };
 
 // User Information
-const username = 'saadpasta';
-const first_name = 'Saad';
-const last_name = 'Pasta';
-const email = 'saadpasta70@gmail.com';
-const fb_username = 'saad.pasta7';
-const stackoverflow_user = '10422806/saad-pasta';
-const resume_link = 'https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing';
+const username = "saadpasta";
+const first_name = "Saad";
+const last_name = "Pasta";
+const email = "saadpasta70@gmail.com";
+const fb_username = "saad.pasta7";
+const stackoverflow_user = "10422806/saad-pasta";
+const resume_link =
+  "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing";
 
 const greeting = {
   username: `${first_name} ${last_name}`,
