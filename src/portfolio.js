@@ -1,9 +1,9 @@
 /* Change this file to get your personal Portfolio */
 
 // To change portfolio colors globally go to the  _globalColor.scss file
-
+import dayjs from "dayjs";
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/loading"; // Rename to your file name for custom animation
 
 // Splash Screen
 
@@ -20,26 +20,24 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "ChaichanaS",
+  title: "Hello everyone, I'm James",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    `A dedicated and passionate Full Stack Software Developer from Thailand, with ${Number(dayjs().format('YYYY')) - 2021} years of experience in building innovative web and mobile applications using JavaScript, React.js, Node.js, React Native, and various other modern libraries and frameworks. Known for being hardworking, highly enthusiastic, and committed to delivering high-quality solutions.`
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1KQie2ie0wg0qvmD3pWzrNw2O4j8FgyMF/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/sudjairakc",
+  linkedin: "https://www.linkedin.com/in/chaichana-sudjairak/",
+  gmail: "sudjairak.c@gmail.com",
+  gitlab: "https://gitlab.com/chaichanas",
+  facebook: "https://www.facebook.com/chaichana.sudjairak",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,15 +47,12 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "VERSATILE FULL STACK DEVELOPER WITH EXPERTISE IN WEB AND MOBILE APP DEVELOPMENT, EAGER TO DELIVER EXCEPTIONAL SOLUTIONS",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji(`⚡ Over ${Number(dayjs().format('YYYY')) - 2021} years of experience in web app development, delivering high-quality designs.`),
+    emoji(`⚡ ${Number(dayjs().format('YYYY')) - 2022}+ years in hybrid mobile app development, ensuring seamless performance on iOS and Android.`),
+    emoji("⚡ Full-stack capabilities with expertise in frontend, backend, and API integration."),
+    emoji("⚡ Excellent at client management and collaborating with cross-functional teams.")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -73,10 +68,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
@@ -85,37 +76,17 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
+      skillName: "react-native",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
     },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,31 +97,24 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Burapha University, Thailand",
+      logo: require("./assets/images/buuLogo.png"),
+      subHeader: "Bachelor of Science, Computer Science",
+      duration: "August 2017 - April 2021",
+      desc: "GPA 3.31",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Proficient in software development and programming (A grades in Programming Fundamentals, Software Development, UI Design, Software Testing, Mobile App Development)",
+        "Strong foundation in computer science and mathematics (A grades in Discrete Structures, Math for Computing, Probability & Statistics)",
+        "Solid understanding of web and mobile technologies (good grades in Web Programming, Networks Programming, IoT for Smart Living)",
       ]
     },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
   ]
 };
 
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -174,29 +138,36 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Full Stack Developer",
+      company: "FIN Insurance Broker Co., Ltd.",
+      companylogo: require("./assets/images/finLogo.png"),
+      link: "https://www.fininsurance.co.th/",
+      date: "June 2023 – Present",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Managed critical car insurance data and APIs, handling premium rates, insurer details, and vehicle model logic.",
+        "Spearheaded the development of a comprehensive CMS for insurance-related organizational data, marketing insights, and advanced reporting features, presenting innovative ideas to the CTO.",
+        "Developed and integrated a mobile app for car insurance, enhancing user engagement and accessibility alongside the CMS.",
+        "Successfully implemented robust API notification systems for seamless communication with Lark Technologies Pte and LINE platforms."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Developer",
+      company: "Customix Co., Ltd.",
+      companylogo: require("./assets/images/customixLogo.png"),
+      link: "https://www.customix.co/",
+      date: "Apr 2021 – May 2023",
+      descBullets: [
+        "Innovated eKYC solutions, crafting a robust API (Node.js, AWS, Kong, PostgresDB), a sleek web app (Next.js, Material UI), and a versatile CMS (Next.js, React).",
+        "Spearheaded the development of impactful mobile applications for Content Monetization, CCTV Mapping, and E-Commerce (React Native, WooCommerce).",
+        "Engineered cutting-edge API Middleware using Golang and AWS Lambda, ensuring seamless integration and deployment with CI / CD pipelines (Jenkins, YAML).",
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Web Developer Intern",
+      company: "ClickNext Co., Ltd.",
+      companylogo: require("./assets/images/clicknextLogo.png"),
+      date: "Nov 2020 ‐ Mar 2021",
+      desc: "Engineered a dynamic CMS tailored for Insurance Bureau and Financial Cooperative Systems, leveraging ASP.NET to streamline data management and operational efficiency."
     }
   ]
 };
@@ -212,32 +183,36 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Freelance Projects",
+  subtitle: "SOME PROJECTS I CONTRIBUTED TO",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
+      image: require("./assets/images/forumLogo.png"),
+      projectName: "Prime Minister's Secretariat Question Forum System",
+      descBullets: [
+        "Role as a Frontend Developer",
+        "Using Tech such as React.js, Ant Design",
+        "Implemented a tracking system for parliamentary questions and consultations, improving transparency and efficiency for the Office of the Prime Minister's Secretariat.",
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
+      image: require("./assets/images/chatBroadcastLogo.png"),
+      projectName: "Line OA & Facebook Chat Broadcasting",
+      descBullets: [
+        "Role as a Frontend Developer",
+        "Using Tech such as React.js, Next.js, Material UI",
+        "Created and optimized user interfaces for a broadcasting tool, enabling efficient communication via Line OA and Facebook chat.",
       ]
-    }
+    },
+    {
+      image: require("./assets/images/kpiLogo.png"),
+      projectName: "KPI Platform Open API",
+      descBullets: [
+        "Role as a Backend Developer",
+        "Using Tech such as Golang, MongoDB",
+        "Developed and maintained the backend for a KPI platform, ensuring seamless integration and data handling through open APIs."
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -300,7 +275,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -324,7 +299,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +318,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +331,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -365,22 +340,22 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+66-0853997206",
+  email_address: "sudjairak.c@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  userName: "jchaichanah", //Replace "twitter" with your twitter username without @
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer

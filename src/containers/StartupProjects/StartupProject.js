@@ -13,6 +13,19 @@ export default function StartupProject() {
     win.focus();
   }
 
+  const GetDescBullets = ({ descBullets, isDark }) => {
+    return descBullets
+      ? descBullets.map((item, i) => (
+        <li
+          key={i}
+          className={isDark ? "subTitle dark-mode-text" : "subTitle"}
+        >
+          {item}
+        </li>
+      ))
+      : null;
+  };
+
   const {isDark} = useContext(StyleContext);
   if (!bigProjects.display) {
     return null;
@@ -65,6 +78,11 @@ export default function StartupProject() {
                     >
                       {project.projectDesc}
                     </p>
+                    <div className="project-details-bullet">
+                      <ul>
+                        <GetDescBullets descBullets={project.descBullets} isDark={isDark} />
+                      </ul>
+                    </div>
                     {project.footerLink ? (
                       <div className="project-card-footer">
                         {project.footerLink.map((link, i) => {
