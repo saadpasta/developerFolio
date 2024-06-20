@@ -23,7 +23,9 @@ const greeting = {
   username: "ChaichanaS",
   title: "Hello everyone, I'm James",
   subTitle: emoji(
-    `A dedicated and passionate Full Stack Software Developer from Thailand, with ${Number(dayjs().format('YYYY')) - 2021} years of experience in building innovative web and mobile applications using JavaScript, React.js, Node.js, React Native, and various other modern libraries and frameworks. Known for being hardworking, highly enthusiastic, and committed to delivering high-quality solutions.`
+    `A dedicated and passionate Full Stack Software Developer from Thailand, with ${
+      Number(dayjs().format("YYYY")) - 2021
+    } years of experience in building innovative web and mobile applications using JavaScript, React.js, Node.js, React Native, and various other modern libraries and frameworks. Known for being hardworking, highly enthusiastic, and committed to delivering high-quality solutions.`
   ),
   resumeLink:
     "https://drive.google.com/file/d/1KQie2ie0wg0qvmD3pWzrNw2O4j8FgyMF/view?usp=sharing", // Set to empty to hide the button
@@ -47,12 +49,25 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "VERSATILE FULL STACK DEVELOPER WITH EXPERTISE IN WEB AND MOBILE APP DEVELOPMENT, EAGER TO DELIVER EXCEPTIONAL SOLUTIONS",
+  subTitle:
+    "VERSATILE FULL STACK DEVELOPER WITH EXPERTISE IN WEB AND MOBILE APP DEVELOPMENT, EAGER TO DELIVER EXCEPTIONAL SOLUTIONS",
   skills: [
-    emoji(`⚡ Over ${Number(dayjs().format('YYYY')) - 2021} years of experience in web app development, delivering high-quality designs.`),
-    emoji(`⚡ ${Number(dayjs().format('YYYY')) - 2022}+ years in hybrid mobile app development, ensuring seamless performance on iOS and Android.`),
-    emoji("⚡ Full-stack capabilities with expertise in frontend, backend, and API integration."),
-    emoji("⚡ Excellent at client management and collaborating with cross-functional teams.")
+    emoji(
+      `⚡ Over ${
+        Number(dayjs().format("YYYY")) - 2021
+      } years of experience in web app development, delivering high-quality designs.`
+    ),
+    emoji(
+      `⚡ ${
+        Number(dayjs().format("YYYY")) - 2022
+      }+ years in hybrid mobile app development, ensuring seamless performance on iOS and Android.`
+    ),
+    emoji(
+      "⚡ Full-stack capabilities with expertise in frontend, backend, and API integration."
+    ),
+    emoji(
+      "⚡ Excellent at client management and collaborating with cross-functional teams."
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -86,7 +101,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -105,9 +120,9 @@ const educationInfo = {
       descBullets: [
         "Proficient in software development and programming (A grades in Programming Fundamentals, Software Development, UI Design, Software Testing, Mobile App Development)",
         "Strong foundation in computer science and mathematics (A grades in Discrete Structures, Math for Computing, Probability & Statistics)",
-        "Solid understanding of web and mobile technologies (good grades in Web Programming, Networks Programming, IoT for Smart Living)",
+        "Solid understanding of web and mobile technologies (good grades in Web Programming, Networks Programming, IoT for Smart Living)"
       ]
-    },
+    }
   ]
 };
 
@@ -159,7 +174,7 @@ const workExperiences = {
       descBullets: [
         "Innovated eKYC solutions, crafting a robust API (Node.js, AWS, Kong, PostgresDB), a sleek web app (Next.js, Material UI), and a versatile CMS (Next.js, React).",
         "Spearheaded the development of impactful mobile applications for Content Monetization, CCTV Mapping, and E-Commerce (React Native, WooCommerce).",
-        "Engineered cutting-edge API Middleware using Golang and AWS Lambda, ensuring seamless integration and deployment with CI / CD pipelines (Jenkins, YAML).",
+        "Engineered cutting-edge API Middleware using Golang and AWS Lambda, ensuring seamless integration and deployment with CI / CD pipelines (Jenkins, YAML)."
       ]
     },
     {
@@ -192,7 +207,7 @@ const bigProjects = {
       descBullets: [
         "Role as a Frontend Developer",
         "Using Tech such as React.js, Ant Design",
-        "Implemented a tracking system for parliamentary questions and consultations, improving transparency and efficiency for the Office of the Prime Minister's Secretariat.",
+        "Implemented a tracking system for parliamentary questions and consultations, improving transparency and efficiency for the Office of the Prime Minister's Secretariat."
       ]
     },
     {
@@ -201,7 +216,7 @@ const bigProjects = {
       descBullets: [
         "Role as a Frontend Developer",
         "Using Tech such as React.js, Next.js, Material UI",
-        "Created and optimized user interfaces for a broadcasting tool, enabling efficient communication via Line OA and Facebook chat.",
+        "Created and optimized user interfaces for a broadcasting tool, enabling efficient communication via Line OA and Facebook chat."
       ]
     },
     {
@@ -212,7 +227,7 @@ const bigProjects = {
         "Using Tech such as Golang, MongoDB",
         "Developed and maintained the backend for a KPI platform, ensuring seamless integration and data handling through open APIs."
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
