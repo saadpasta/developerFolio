@@ -28,6 +28,10 @@
   transition: 0.2s ease-in;
 }
 
+.youtube i {
+  background-color: $youtube;
+}
+
 .facebook i {
   background-color: $faceBook;
 }
@@ -69,6 +73,7 @@
 }
 
 /* Hover Transition */
+.youtube i:hover,
 .twitter i:hover,
 .google i:hover,
 .gitlab i:hover,

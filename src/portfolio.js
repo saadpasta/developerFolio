@@ -33,6 +33,7 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
+  youtube: "https://www.youtube.com/@saadpasta",
   github: "https://github.com/saadpasta",
   linkedin: "https://www.linkedin.com/in/saadpasta/",
   gmail: "saadpasta70@gmail.com",

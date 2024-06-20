@@ -8,6 +8,18 @@ export default function socialMedia() {
   }
   return (
     <div className="social-media-div">
+      {socialMediaLinks.youtube ? (
+        <a
+          href={socialMediaLinks.youtube}
+          className="icon-button youtube"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-youtube"></i>
+          <span></span>
+        </a>
+      ) : null}
+
       {socialMediaLinks.github ? (
         <a
           href={socialMediaLinks.github}
