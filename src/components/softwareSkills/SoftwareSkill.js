@@ -13,7 +13,9 @@ export default function SoftwareSkill() {
             return (
               <li
                 key={i}
-                className={"software-skill-inline" + (isDark ? " dark-mode" : "")}
+                className={
+                  "software-skill-inline" + (isDark ? " dark-mode" : "")
+                }
                 name={skills.skillName}
               >
                 <i className={skills.fontAwesomeClassname}></i>

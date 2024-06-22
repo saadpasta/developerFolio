@@ -16,7 +16,13 @@ export default function GithubProfileCard({prof}) {
         <div className="row">
           <div className="main-content-profile">
             <div className="blog-header">
-              <p className={(isDark ? "dark-mode " : "") + "subTitle blog-subtitle"}>{contactInfo.subtitle}</p>
+              <p
+                className={
+                  (isDark ? "dark-mode " : "") + "subTitle blog-subtitle"
+                }
+              >
+                {contactInfo.subtitle}
+              </p>
             </div>
             <h2 className="bio-text">"{emoji(String(prof.bio))}"</h2>
             {prof.location !== null && (
