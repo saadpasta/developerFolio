@@ -101,15 +101,22 @@
   line-height: normal;
 }
 .dark-mode-text {
-  color: $textColorDark !important;
+  color: $textColorDark;
+}
+.subTitle.dark-mode-text {
+  color: $subTitleDark;
 }
 .experience-text-date {
   text-align: center;
-  color: $textColor;
   font-size: 20px;
   margin: 0px;
   padding-top: 1rem;
   font-weight: 600;
+  color: $textColor;
+  
+  &.dark-mode-text {
+    color: $textColorDark;
+  }
 }
 
 .experience-text-desc {

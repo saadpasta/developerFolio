@@ -38,6 +38,14 @@
   color: $subTitle;
 }
 
+.dark-menu .grey-color {
+  color: $subTitleDark;
+}
+
+.dark-mode .grey-color {
+  color: $subTitleDark;
+}
+
 .header li a {
   display: block;
   padding: 15px 20px;
@@ -63,8 +71,8 @@
 .header .logo-name {
   font-family: "Agustina Regular";
   font-weight: bold;
-  font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
+  font-variant-ligatures: no-common-ligatures;
   padding: 0 10px;
 }
 
@@ -80,10 +88,11 @@
 
 .header .menu-icon {
   cursor: pointer;
-  display: inline-block;
+  display: block;
   float: right;
   padding: 28px 20px;
   position: relative;
+  -webkit-user-select: none;
   user-select: none;
 }
 

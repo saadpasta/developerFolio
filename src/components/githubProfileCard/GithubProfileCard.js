@@ -1,16 +1,14 @@
-import React from "react";
+import React, {useContext} from "react";
 import "./GithubProfileCard.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import {contactInfo, isHireable} from "../../portfolio";
 import emoji from "react-easy-emoji";
 import {Fade} from "react-reveal";
+import StyleContext from "../../contexts/StyleContext";
 
 export default function GithubProfileCard({prof}) {
-  if (isHireable) {
-    prof.hireable = "Yes";
-  } else {
-    prof.hireable = "No";
-  }
+  prof.hireable = isHireable ? "Yes" : "No";
+  const {isDark} = useContext(StyleContext);
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="contact">
@@ -18,7 +16,7 @@ export default function GithubProfileCard({prof}) {
         <div className="row">
           <div className="main-content-profile">
             <div className="blog-header">
-              <p className="subTitle blog-subtitle">{contactInfo.subtitle}</p>
+              <p className={(isDark ? "dark-mode " : "") + "subTitle blog-subtitle"}>{contactInfo.subtitle}</p>
             </div>
             <h2 className="bio-text">"{emoji(String(prof.bio))}"</h2>
             {prof.location !== null && (

@@ -72,14 +72,55 @@
 .twitter i:hover,
 .google i:hover,
 .gitlab i:hover,
-.github i:hover,
 .linkedin i:hover,
 .facebook i:hover,
 .instagram i:hover,
 .stack-overflow i:hover,
-.kaggle i:hover,
-.medium i:hover {
+.kaggle i:hover {
   background-color: $textColor;
+}
+
+.fa-github {
+  background-color: $github;
+  color: $githubDark;
+}
+
+.fa-github:hover {
+  background-color: $githubDark;
+  color: $github;
+}
+
+.fa-medium {
+  background-color: $medium;
+  color: $mediumDark;
+}
+
+.fa-medium:hover {
+  background-color: $mediumDark;
+  color: $medium;
+}
+
+.dark-mode {
+
+  .fa-github {
+    background-color: $githubDark;
+    color: $github;
+  }
+
+  .fa-github:hover {
+    background-color: $github;
+    color: $githubDark;
+  }
+
+  .fa-medium {
+    background-color: $mediumDark;
+    color: $medium;
+  }
+
+  .fa-medium:hover {
+    background-color: $medium;
+    color: $mediumDark;
+  }
 }
 
 /* Media Query */

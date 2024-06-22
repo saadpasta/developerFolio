@@ -12,6 +12,9 @@
   font-weight: 700;
   margin: 15px 0 0 0;
 }
+.dark-mode.card-subtitle {
+  color: $cardSubtitleDark;
+}
 .card-subtitle {
   color: $cardSubtitle;
   font-size: 1.063rem;

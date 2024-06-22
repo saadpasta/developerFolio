@@ -10,17 +10,20 @@ $topButtonHover: #000;
 // text colors light theme
 $titleColor: #000000;
 $textColor: #000000;
-$subTitle: #868e96;
+$subTitle: #666666;
 $cardSubtitle: #666666;
-$talkCardSubTitle: #7f8287;
+$talkCardSubTitle: #666666;
 $blogCardTitleColor: #262626;
 
-// text color dark theme
+// text colors dark theme
 $textColorDark: #ffffff;
+$subTitleDark: #cccccc;
+$cardSubtitleDark: #cccccc;
+$talkCardSubTitleDark: #cccccc;
 
 // toggle switch colors
 $toggleCheck: #2196f3;
-$toggleSwitchSliderBG: #ccc;
+$toggleSwitchSliderBG: #cccccc;
 
 // githubRepo specific colors
 $githubRepoCardLanguageColorBG: #0000ff;
@@ -80,11 +83,13 @@ $appLink: #09d3ac;
 // social media icons
 $faceBook: #3b5998;
 $linkedin: #0e76a8;
-$github: #333;
 $gitlab: #fca326;
 $google: #ea4335;
 $twitter: #1da1f2;
-$medium: #000;
 $stackoverflow: #f48024;
 $instagram: #c13584;
 $kaggle: #20beff;
+$github: #000000;
+$githubDark: #ffffff;
+$medium: #000000;
+$mediumDark: #ffffff;

@@ -13,19 +13,21 @@
   display: inline-block;
   margin-right: 20px;
   margin-bottom: 20px;
+  color: $subTitle;
+
+  &.dark-mode {
+    color: $subTitleDark;
+  }
 }
 
-.software-skill-inline > i {
-  color: $subTitle;
+.software-skill-inline > p {
+  font-size: 10px;
 }
 
 .software-skill-inline > i:hover {
   color: $skillsColor;
 }
-.software-skill-inline > p {
-  color: $subTitle;
-  font-size: 10px;
-}
+
 .software-skill-inline > i:hover ~ p {
   color: $skillsColor;
 }
