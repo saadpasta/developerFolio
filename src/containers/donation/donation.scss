@@ -1,51 +1,50 @@
 @import "../../_globalColor";
 
 .donation-div-main {
-    display: flex;
-  }
-  
+  display: flex;
+}
+
 .dark-mode a {
-    color: $textColorDark;
-  }
-  
+  color: $textColorDark;
+}
+
 .donation-div-main > * {
-    flex: 1;
-  }
+  flex: 1;
+}
 
 .donation-margin-top {
-    margin-top: 4rem;
-  }
+  margin-top: 4rem;
+}
 
 .donation-title {
-    font-size: 65px;
-    font-weight: 400;
-  }
+  font-size: 65px;
+  font-weight: 400;
+}
 
 .button-donation-div {
-    display: flex;
-    margin-top: 20px;
-  }
-
+  display: flex;
+  margin-top: 20px;
+}
 
 @media (max-width: 1380px), (max-width: 768px) {
-    .donation-title {
-      font-size: 56px;
-      font-weight: 400;
-      text-align: center;
-    }
-  
-    .donation-title {
-      font-size: 40px;
-      text-align: center;
-    }
-  
-    .donation-subtitle {
-      font-size: 16px;
-      line-height: normal;
-      text-align: center;
-    }
-
-    .button-donation-div {
-      justify-content: space-around;
-    }
+  .donation-title {
+    font-size: 56px;
+    font-weight: 400;
+    text-align: center;
   }
+
+  .donation-title {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .donation-subtitle {
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .button-donation-div {
+    justify-content: space-around;
+  }
+}

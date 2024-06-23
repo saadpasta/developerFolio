@@ -81,12 +81,12 @@ export default function ExperienceCard({cardInfo, isDark}) {
         </ul>
       </div>
       <div className="experience-card-footer">
-      <Button
-                      text={"Check it out"}
-                      className="button-experience-div"
-                      href={cardInfo.url}
-                      newTab={true}
-                      />
+        <Button
+          text={"Check it out"}
+          className="button-experience-div"
+          href={cardInfo.url}
+          newTab={true}
+        />
       </div>
     </div>
   );

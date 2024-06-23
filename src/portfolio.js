@@ -25,14 +25,14 @@ const greeting = {
   subTitle: emoji(
     "An Italian translator that translates open-source apps for free. I have translated many well-known applications in the Android modding community."
   ),
-  resumeLink:
-    "", // Set to empty to hide the button
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 const donationInfo = {
   title: emoji("Offer me a coffee ☕"),
-  subtitle: "Any donation is appreciated as it keeps me motivated while I translate. You can donate with Kofi clicking the button below or you can contact me if you prefer to use another payment method (crypto, PayPal...)",
+  subtitle:
+    "Any donation is appreciated as it keeps me motivated while I translate. You can donate with Kofi clicking the button below or you can contact me if you prefer to use another payment method (crypto, PayPal...)",
   link: "https://ko-fi.com/alpha4041"
 };
 
@@ -53,7 +53,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "ITALIAN TRANSLATOR THAT USES THEIR TIME TO TRANSLATE APPS WITHOUT GETTING PAID",
+  subTitle:
+    "ITALIAN TRANSLATOR THAT USES THEIR TIME TO TRANSLATE APPS WITHOUT GETTING PAID",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -134,7 +135,7 @@ const educationInfo = {
       logo: require("./assets/images/giua.png"),
       subHeader: "",
       duration: "September 2021 - August 2022",
-      desc: "",
+      desc: ""
     },
     {
       schoolName: "Siotto Pintor classical high school",
@@ -204,45 +205,45 @@ const workExperiences = {
       url: "https://songtube.github.io/"
     },
     {
-    role: "Admin",
-    company: "POPMods",
-    companylogo: require("./assets/images/popmods.jpg"),
-    date: "2022 - present",
-    desc: "POPMods is a tech channel on Telegram. I'm an active admin.",
-    url: "https://t.me/popmods/"
-  },
-  {
-    role: "Italian translator",
-    company: "PixelOS",
-    companylogo: require("./assets/images/pixelos.png"),
-    date: "2022 - present",
-    desc: "PixelOS is a custom ROM for Android.",
-    url: "https://pixelos.net"
-  },
-  {
-    role: "Italian translator",
-    company: "Inure",
-    companylogo: require("./assets/images/inure.jpg"),
-    date: "2023 - present",
-    desc: "Inure is an app manager for Android.",
-    url: "https://play.google.com/store/apps/details?id=app.simple.inure"
-  },
-  {
-    role: "Italian community admin",
-    company: "Xiaomiui",
-    companylogo: require("./assets/images/xiaomiui.jpg"),
-    date: "2021 - present",
-    desc: "Xiaomiui is the biggest community on Telegram about Xiaomi's devices. I'm one of the admins in the Italian group.",
-    url: "https://t.me/xiaomiui"
-  },
-  {
-    role: "Italian translator",
-    company: "MIUIHome",
-    companylogo: require("./assets/images/miuihome.jpg"),
-    date: "2021 - present",
-    desc: "MIUIHome is an app to customize the official launcher of MIUI.",
-    url: "https://github.com/qqlittleice/MiuiHome_R"
-  }
+      role: "Admin",
+      company: "POPMods",
+      companylogo: require("./assets/images/popmods.jpg"),
+      date: "2022 - present",
+      desc: "POPMods is a tech channel on Telegram. I'm an active admin.",
+      url: "https://t.me/popmods/"
+    },
+    {
+      role: "Italian translator",
+      company: "PixelOS",
+      companylogo: require("./assets/images/pixelos.png"),
+      date: "2022 - present",
+      desc: "PixelOS is a custom ROM for Android.",
+      url: "https://pixelos.net"
+    },
+    {
+      role: "Italian translator",
+      company: "Inure",
+      companylogo: require("./assets/images/inure.jpg"),
+      date: "2023 - present",
+      desc: "Inure is an app manager for Android.",
+      url: "https://play.google.com/store/apps/details?id=app.simple.inure"
+    },
+    {
+      role: "Italian community admin",
+      company: "Xiaomiui",
+      companylogo: require("./assets/images/xiaomiui.jpg"),
+      date: "2021 - present",
+      desc: "Xiaomiui is the biggest community on Telegram about Xiaomi's devices. I'm one of the admins in the Italian group.",
+      url: "https://t.me/xiaomiui"
+    },
+    {
+      role: "Italian translator",
+      company: "MIUIHome",
+      companylogo: require("./assets/images/miuihome.jpg"),
+      date: "2021 - present",
+      desc: "MIUIHome is an app to customize the official launcher of MIUI.",
+      url: "https://github.com/qqlittleice/MiuiHome_R"
+    }
   ]
 };
 
@@ -290,8 +291,7 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Certifications 🏆"),
-  subtitle:
-    "My certifications",
+  subtitle: "My certifications",
 
   achievementsCards: [
     {
@@ -306,7 +306,7 @@ const achievementSection = {
           url: "https://t.me/alph4"
         }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };

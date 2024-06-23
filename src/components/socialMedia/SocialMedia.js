@@ -130,10 +130,10 @@ export default function socialMedia() {
 
       {socialMediaLinks.crowdin ? (
         <a
-        href={socialMediaLinks.crowdin}
-        className="icon-button language"
-        target="_blank"
-        rel="noopener noreferrer"
+          href={socialMediaLinks.crowdin}
+          className="icon-button language"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <i className="fas fa-language"></i>
           <span></span>
@@ -142,10 +142,10 @@ export default function socialMedia() {
 
       {socialMediaLinks.telegram ? (
         <a
-        href={socialMediaLinks.telegram}
-        className="icon-button telegram"
-        target="_blank"
-        rel="noopener noreferrer"
+          href={socialMediaLinks.telegram}
+          className="icon-button telegram"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <i className="fab fa-telegram"></i>
           <span></span>
@@ -154,10 +154,10 @@ export default function socialMedia() {
 
       {socialMediaLinks.discord ? (
         <a
-        href={socialMediaLinks.discord}
-        className="icon-button discord"
-        target="_blank"
-        rel="noopener noreferrer"
+          href={socialMediaLinks.discord}
+          className="icon-button discord"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <i className="fab fa-discord"></i>
           <span></span>
