@@ -189,6 +189,8 @@ const contactInfo = { .... }
 const twitterDetails = { ... }
 
 ```
+#### Resume upload
+To upload your own resume, simply upload a pdf to `src/containers/resume` and rename the pdf to `resume.pdf`. 
 
 #### Using Emojis
 
@@ -196,7 +198,7 @@ For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` functi
 
 #### Customize Lottie Animations
 
-You can choose a Lottie and download it in json format from from sites like [this](https://lottiefiles.com/). In `src/assets/lottie`, replace the Lottie json file you want to alter with the same file name. If you want to change the Lottie options, go to `src/components/displayLottie/DisplayLottie.js` and change the `defaultOptions` object, you can refer [lottie-react docs](https://www.npmjs.com/package/lottie-react) for more info on the `defaultOptions` object.
+You can choose a Lottie and download it in json format from sites like [this](https://lottiefiles.com/). In `src/assets/lottie`, replace the Lottie json file you want to alter with the same file name. If you want to change the Lottie options, go to `src/components/displayLottie/DisplayLottie.js` and change the `defaultOptions` object, you can refer [lottie-react docs](https://www.npmjs.com/package/lottie-react) for more info on the `defaultOptions` object.
 
 #### Adding Twitter Time line to your Page
 Insert your Twitter username in `portfolio.js` to show your recent activity on your page.
