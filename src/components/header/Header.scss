@@ -20,6 +20,10 @@
   background-color: $buttonColor !important;
 }
 
+.dark-menu li:last-child a:hover {
+  background-color: transparent !important;
+}
+
 .header {
   background-color: $lightBackground1;
   max-width: 100%;
@@ -48,6 +52,9 @@
 .header li a:hover,
 .header .menu-btn:hover {
   background-color: $headerHoverBG;
+}
+.header li:last-child a:hover {
+  background-color: transparent;
 }
 
 .header .logo {
