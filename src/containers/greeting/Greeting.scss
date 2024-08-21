@@ -115,6 +115,14 @@
   }
 }
 
+@media (max-width: 480px) {
+  .button-greeting-div {
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+}
+
 @media (max-width: 320px) {
   .main {
     width: auto;
