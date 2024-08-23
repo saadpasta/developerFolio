@@ -23,7 +23,7 @@ export default function Blogs() {
   useEffect(() => {
     if (blogSection.displayMediumBlogs === "true") {
       const getProfileData = () => {
-        fetch("/blogs.json")
+        fetch(`${process.env.PUBLIC_URL}/blogs.json`)
           .then(result => {
             if (result.ok) {
               return result.json();
@@ -83,9 +83,9 @@ export default function Blogs() {
                       key={i}
                       isDark={isDark}
                       blog={{
-                        url: blog.link,
+                        url: blog.url,
                         title: blog.title,
-                        description: extractTextContent(blog.content)
+                        description: extractTextContent(blog.content_html)
                       }}
                     />
                   );
