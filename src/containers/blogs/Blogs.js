@@ -15,9 +15,9 @@ export default function Blogs() {
     return typeof html === "string"
       ? html
           .split(/<\/p>/i)
-          .map((part) => part.split(/<p[^>]*>/i).pop())
-          .filter((el) => el.trim().length > 0)
-          .map((el) => el.replace(/<\/?[^>]+(>|$)/g, "").trim())
+          .map(part => part.split(/<p[^>]*>/i).pop())
+          .filter(el => el.trim().length > 0)
+          .map(el => el.replace(/<\/?[^>]+(>|$)/g, "").trim())
           .join(" ")
       : NaN;
   }
