@@ -61,6 +61,12 @@
   transform-origin: 70% 70%;
 }
 
+.image-content-profile {
+  margin-left: auto;
+  margin-right: auto;
+  order: 1;
+}
+
 @keyframes wave {
   0% {
     transform: rotate(0deg);

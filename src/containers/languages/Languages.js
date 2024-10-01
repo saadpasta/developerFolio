@@ -1,13 +1,13 @@
 import React, {useContext} from "react";
-import "./Achievement.scss";
+import "./Languages.scss";
 import AchievementCard from "../../components/achievementCard/AchievementCard";
-import {achievementSection} from "../../portfolio";
+import {certSection as achievementSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 import Button from "../../components/button/Button";
 import {socialMediaLinks} from "../../portfolio";
 
-export default function Achievement() {
+export default function Languages() {
   const {isDark} = useContext(StyleContext);
   if (!achievementSection.display) {
     return null;
@@ -53,12 +53,6 @@ export default function Achievement() {
               );
             })}
           </div>
-          <Button
-            text={"See more in Linkedin"}
-            className="project-button"
-            href={socialMediaLinks.linkedin}
-            newTab={true}
-          />
         </div>
       </div>
     </Fade>

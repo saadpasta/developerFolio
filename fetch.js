@@ -94,37 +94,37 @@ if (USE_GITHUB_DATA === "true") {
   req.end();
 }
 
-if (MEDIUM_USERNAME !== undefined) {
-  console.log(`Fetching Medium blogs data for ${MEDIUM_USERNAME}`);
-  const options = {
-    hostname: "api.rss2json.com",
-    path: `/v1/api.json?rss_url=https://medium.com/feed/@${MEDIUM_USERNAME}`,
-    port: 443,
-    method: "GET"
-  };
+// if (MEDIUM_USERNAME !== undefined) {
+//   console.log(`Fetching Medium blogs data for ${MEDIUM_USERNAME}`);
+//   const options = {
+//     hostname: "api.rss2json.com",
+//     path: `/v1/api.json?rss_url=https://medium.com/feed/@${MEDIUM_USERNAME}`,
+//     port: 443,
+//     method: "GET"
+//   };
 
-  const req = https.request(options, res => {
-    let mediumData = "";
+//   const req = https.request(options, res => {
+//     let mediumData = "";
 
-    console.log(`statusCode: ${res.statusCode}`);
-    if (res.statusCode !== 200) {
-      throw new Error(ERR.requestMediumFailed);
-    }
+//     console.log(`statusCode: ${res.statusCode}`);
+//     if (res.statusCode !== 200) {
+//       throw new Error(ERR.requestMediumFailed);
+//     }
 
-    res.on("data", d => {
-      mediumData += d;
-    });
-    res.on("end", () => {
-      fs.writeFile("./public/blogs.json", mediumData, function (err) {
-        if (err) return console.log(err);
-        console.log("saved file to public/blogs.json");
-      });
-    });
-  });
+//     res.on("data", d => {
+//       mediumData += d;
+//     });
+//     res.on("end", () => {
+//       fs.writeFile("./public/blogs.json", mediumData, function (err) {
+//         if (err) return console.log(err);
+//         console.log("saved file to public/blogs.json");
+//       });
+//     });
+//   });
 
-  req.on("error", error => {
-    throw error;
-  });
+//   req.on("error", error => {
+//     throw error;
+//   });
 
-  req.end();
-}
+//   req.end();
+// }
