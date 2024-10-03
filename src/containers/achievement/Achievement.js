@@ -56,7 +56,7 @@ export default function Achievement() {
           <Button
             text={"See more in Linkedin"}
             className="project-button"
-            href={socialMediaLinks.linkedin}
+            href="https://www.linkedin.com/in/nkcanh/details/honors/"
             newTab={true}
           />
         </div>

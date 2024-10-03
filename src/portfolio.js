@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Nguyen Kieu Chau Anh",
+  username: "Chau Anh",
   title: "Hi all, I'm Chau Anh",
   subTitle: emoji(
-    "As a motivated web developer having a valid skills set of web development,  I'm passionate about continuous learning, collaboration, and career development"
+    "As a motivated web developer having a valid skills set of web development,  I'm passionate about continuous learning, collaboration, and sustainable development"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1McW4Hff8pyuD3A9iit8tk6HCeqIFgHkz/view?usp=sharing", // Set to empty to hide the button
@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/nguyenkieuchauanh0908",
   linkedin: "https://www.linkedin.com/in/nkcanh",
-  // gmail: "nkieuchauanh@gmail.com",
+  gmail: "nkieuchauanh@gmail.com",
   facebook: "https://www.facebook.com/share/g3zFCf2LrJ4iVLYY/?mibextid=qi2Omg",
   medium: "https://medium.com/@nkieuchauanh",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
@@ -50,13 +50,13 @@ const skillsSection = {
   title: "My Tech Stack",
   subTitle: "Crafting Solutions with Modern Tech, Powered by Innovation",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    // emoji(
+    //   "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
+    // ),
+    // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    // emoji(
+    //   "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+    // )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -121,11 +121,12 @@ const educationInfo = {
       logo: require("./assets/images/uteLogo.png"),
       subHeader: "Bachelor of Information Technology",
       duration: "September 2020 - April 2024",
-      desc: "Being Awarded With 5 Merits Students 2 times & Receving Encouragement Scholarship for Top 5 GPA students",
       descBullets: [
         "GPA: 8.55/10 (3.39/4)",
-        "The Head of Organizing Team of HCMC English Speaking Club",
-        "Project leader of EOC 2022 and 2023 (English Olympic Contest)"
+        "Five Merits Students in 2023 and 2024",
+        "Encouragement Scholarship for Top 5 GPA students"
+        // "The Head of Organizing Team of HCMC English Speaking Club",
+        // "Project leader of EOC 2022 and 2023 (English Olympic Contest)"
       ]
     }
   ]
@@ -134,7 +135,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -164,9 +165,9 @@ const workExperiences = {
       date: "Oct 2023 – Aug 2024",
       desc: "Rental Hub Platform For Finding & Renting Apartments",
       descBullets: [
-        "Building user-friendly, maintainable, and scalable UI components",
-        "Building a social forum with real-time chat and notifications using socket.io",
-        "Improving the security with JWT tokens, two-way authentication, Google authentication, and citizen cardidentification"
+        // "Building user-friendly, maintainable, and scalable UI components",
+        // "Building a social forum with real-time chat and notifications using socket.io",
+        // "Improving the security with JWT tokens, two-way authentication, Google authentication, and citizen cardidentification"
       ]
     },
     {
@@ -175,8 +176,8 @@ const workExperiences = {
       companylogo: require("./assets/images/fptLogo.png"),
       date: "Oct 2023 – Jan 2024",
       descBullets: [
-        "Designing, implementing, and improving scalable and reusable UI components for the internal task management website using Angular",
-        "Building and improving maintainable and scalable UI components for internal management dashboard and optimizing the current UI  using Angular"
+        // "Designing, implementing, and improving scalable and reusable UI components for the internal task management website using Angular",
+        // "Building and improving maintainable and scalable UI components for internal management dashboard and optimizing the current UI  using Angular"
       ]
     },
     {
@@ -185,9 +186,9 @@ const workExperiences = {
       companylogo: require("./assets/images/uptechLogo.png"),
       date: "June 2023 – Sep 2023",
       descBullets: [
-        "Designing, implementing, and improving scalable and reusable UI components for the client's website using React",
-        "Managing and maintaining the MongoDB database",
-        "Designing and implement restful API using ExpressJS"
+        // "Designing, implementing, and improving scalable and reusable UI components for the client's website using React",
+        // "Managing and maintaining the MongoDB database",
+        // "Designing and implement restful API using ExpressJS"
       ]
     }
   ]
@@ -245,7 +246,7 @@ const achievementSection = {
     {
       title: "Bosch Activator Scholarship Program 2023",
       subtitle:
-        "Top 10 Final of Bosch Activator Scholarship Program for students with excellent academic achievements and a passion for technology.",
+        "Top 10 Final of Bosch Activator Scholarship Program for Female Leaders",
       image: require("./assets/images/boschLogo.jpg"),
       imageAlt: "Bosch Logo",
       footerLink: [
@@ -266,7 +267,7 @@ const achievementSection = {
     {
       title: "Jabil Scholarship Program 2024",
       subtitle:
-        "Competing with over 800 candidates to be in the top 30 Jabil ambassadors receiving the scholarship",
+        "Competing with over 800 candidates to be in the top 30 Jabil Ambassadors receiving the scholarship",
       image: require("./assets/images/jabilLogo.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
@@ -341,20 +342,20 @@ const blogSection = {
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
+    // {
+    //   url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+    //   title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+    //   description:
+    //     "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+    // },
+    // {
+    //   url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+    //   title: "Why REACT is The Best?",
+    //   description:
+    //     "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+    // }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections

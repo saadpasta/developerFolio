@@ -62,34 +62,41 @@ export default function Blogs() {
         <div className="blog-main-div">
           <div className="blog-text-div">
             {blogSection.displayMediumBlogs !== "true" ||
-            mediumBlogs === "Error"
-              ? blogSection.blogs.map((blog, i) => {
-                  return (
-                    <BlogCard
-                      key={i}
-                      isDark={isDark}
-                      blog={{
-                        url: blog.url,
-                        image: blog.image,
-                        title: blog.title,
-                        description: blog.description
-                      }}
-                    />
-                  );
-                })
-              : mediumBlogs.map((blog, i) => {
-                  return (
-                    <BlogCard
-                      key={i}
-                      isDark={isDark}
-                      blog={{
-                        url: blog.link,
-                        title: blog.title,
-                        description: extractTextContent(blog.content)
-                      }}
-                    />
-                  );
-                })}
+            mediumBlogs === "Error" ? (
+              <>
+                <p style={{width: "100%", textAlign: "center"}}>
+                  Coming soon...
+                </p>
+              </>
+            ) : (
+              // ? blogSection.blogs.map((blog, i) => {
+              //     return (
+              //       <BlogCard
+              //         key={i}
+              //         isDark={isDark}
+              //         blog={{
+              //           url: blog.url,
+              //           image: blog.image,
+              //           title: blog.title,
+              //           description: blog.description
+              //         }}
+              //       />
+              //     );
+              //   })
+              mediumBlogs.map((blog, i) => {
+                return (
+                  <BlogCard
+                    key={i}
+                    isDark={isDark}
+                    blog={{
+                      url: blog.link,
+                      title: blog.title,
+                      description: extractTextContent(blog.content)
+                    }}
+                  />
+                );
+              })
+            )}
           </div>
         </div>
       </div>

@@ -6,6 +6,7 @@ export default function socialMedia() {
   if (!socialMediaLinks.display) {
     return null;
   }
+
   return (
     <div className="social-media-div">
       {socialMediaLinks.github ? (
@@ -36,8 +37,9 @@ export default function socialMedia() {
         <a
           href={`mailto:${socialMediaLinks.gmail}`}
           className="icon-button google"
-          target="_blank"
-          rel="noopener noreferrer"
+          // target="_blank"
+          // rel="noopener noreferrer"
+          // onClick={handleCopy(socialMediaLinks.gmail)}
         >
           <i className="fas fa-envelope"></i>
           <span></span>
