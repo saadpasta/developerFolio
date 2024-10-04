@@ -40,8 +40,17 @@
     margin-right: 0px;
   }
 }
+
 @media (max-width: 320px) {
   .main-button {
     font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 435px) {
+  .main-button {
+   font-size: 12px;
+   margin-right: 15px;
+   
   }
 }
