@@ -26,7 +26,7 @@ const greeting = {
     "A Data Scientist & Full Stack Web Developer 🚀 I turn your DATA into STORIES and build web solutions that make them come alive."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1Dg1QJrn_UdeZW0mX3kW-Hn_zXN85j4fT/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -37,10 +37,12 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/saadrasheeddev/",
   gmail: "saadrasheeddev@gmail.com",
   kaggle: "https://www.kaggle.com/saadrasheed20",
+  
+  facebook: "https://www.facebook.com/saad.pasta7",
+  medium: "https://medium.com/@saadpasta",
+  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+
   // gitlab: "https://gitlab.com/saadpasta",
-  // facebook: "https://www.facebook.com/saad.pasta7",
-  // medium: "https://medium.com/@saadpasta",
-  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false

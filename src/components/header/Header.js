@@ -100,6 +100,7 @@ import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 import {
   greeting,
+  educationInfo,
   workExperiences,
   skillsSection,
   openSource,
@@ -118,6 +119,7 @@ function Header() {
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
   const viewResume = resumeSection.display;
+  const viewEducation = educationInfo.display;
 
   const menuCheckboxRef = useRef(null);
 
@@ -154,6 +156,11 @@ function Header() {
               <a href="#skills">Skills</a>
             </li>
           )}
+          {viewEducation && (
+            <li onClick={handleMenuItemClick}>
+              <a href="#education">Education</a>
+            </li>
+          )}
           {viewExperience && (
             <li onClick={handleMenuItemClick}>
               <a href="#experience">Work Experiences</a>
@@ -164,12 +171,12 @@ function Header() {
               <a href="#opensource">Open Source</a>
             </li>
           )}
-          {/* {viewAchievement && (
+          {viewAchievement && (
             <li onClick={handleMenuItemClick}>
               <a href="#achievements">Achievements</a>
             </li>
           )}
-          {viewBlog && (
+          {/* {viewBlog && (
             <li onClick={handleMenuItemClick}>
               <a href="#blogs">Blogs</a>
             </li>
