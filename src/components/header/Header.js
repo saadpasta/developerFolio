@@ -176,12 +176,12 @@ function Header() {
               <a href="#achievements">Achievements</a>
             </li>
           )}
-           {viewBlog && (
+           {/*{viewBlog && (
             <li onClick={handleMenuItemClick}>
               <a href="#blogs">Blogs</a>
             </li>
           )}
-          {/*{viewTalks && (
+          {viewTalks && (
             <li onClick={handleMenuItemClick}>
               <a href="#talks">Talks</a>
             </li>
