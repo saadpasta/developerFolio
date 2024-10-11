@@ -49,23 +49,30 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "PASSIONATE DATA SCIENTIST WHO LOVES TO UNCOVER INSIGHTS FROM DATA AND SOLVE COMPLEX PROBLEMS WITH AI",
+  subTitle:
+    "PASSIONATE DATA SCIENTIST WHO LOVES TO UNCOVER INSIGHTS FROM DATA AND SOLVE COMPLEX PROBLEMS WITH AI",
   skills: [
     emoji(
       "⚡ Develop end-to-end machine learning models, from data wrangling to deployment"
     ),
-    emoji("⚡ Build powerful data visualizations to uncover trends and insights"),
+    emoji(
+      "⚡ Build powerful data visualizations to uncover trends and insights"
+    ),
     emoji(
       "⚡ Leverage AI techniques to create intelligent solutions for complex problems"
     ),
-    emoji("⚡ Develop and deploy cloud-based machine learning solutions using AWS, GCP, or Azure"),
-    emoji("⚡ Integration of third-party APIs and services like AWS, Google Cloud, or custom-built AI models"),
+    emoji(
+      "⚡ Develop and deploy cloud-based machine learning solutions using AWS, GCP, or Azure"
+    ),
+    emoji(
+      "⚡ Integration of third-party APIs and services like AWS, Google Cloud, or custom-built AI models"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-softwareSkills: [
+  softwareSkills: [
     {
       skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
@@ -132,13 +139,13 @@ const educationInfo = {
       schoolName: "University of London",
       logo: require("./assets/images/uolLogo.png"),
       subHeader: "BSc Computer Science (Hons)",
-      duration: "October 2021 - September 2024",
+      duration: "October 2021 - September 2024"
       // desc: "Participated in the research of XXX and published 3 papers.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       // ]
-    },
+    }
     // {
     //   schoolName: "Whales College",
     //   logo: require("./assets/images/stanfordLogo.png"),
@@ -183,7 +190,6 @@ const techStack = {
   displayCodersrank: false // Set true to display codersrank badges section
 };
 
-
 // Work experience section
 
 const workExperiences = {
@@ -210,7 +216,7 @@ const workExperiences = {
         "Scraped data for 75+ countries, including visa requirements, high-paying professions, living expenses, and opportunities.",
         "Transformed data into a consistent format for seamless country comparisons."
       ]
-    },
+    }
     // {
     //   role: "Software Engineer Intern",
     //   company: "Airbnb",
@@ -285,7 +291,7 @@ const achievementSection = {
         {
           name: "Certificate",
           url: "https://drive.google.com/file/d/1aM0GBJZZOy6fMk7q3XOzyd9TqRy6r-pg/view?usp=sharing"
-        },
+        }
       ]
     },
     {
@@ -308,7 +314,7 @@ const achievementSection = {
           url: "https://coursera.org/share/f624df220cbd0abf2514f6802387acf3"
         }
       ]
-    },
+    }
 
     // {
     //   title: "PWA Web App Developer",
