@@ -92,8 +92,7 @@
 // }
 // export default Header;
 
-
-import React, { useContext, useRef } from "react";
+import React, {useContext, useRef} from "react";
 import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
@@ -107,11 +106,11 @@ import {
   blogSection,
   talkSection,
   achievementSection,
-  resumeSection,
+  resumeSection
 } from "../../portfolio";
 
 function Header() {
-  const { isDark } = useContext(StyleContext);
+  const {isDark} = useContext(StyleContext);
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
@@ -146,7 +145,7 @@ function Header() {
         <label
           className="menu-icon"
           htmlFor="menu-btn"
-          style={{ color: "white" }}
+          style={{color: "white"}}
         >
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
@@ -176,7 +175,7 @@ function Header() {
               <a href="#achievements">Achievements</a>
             </li>
           )}
-           {/*{viewBlog && (
+          {/*{viewBlog && (
             <li onClick={handleMenuItemClick}>
               <a href="#blogs">Blogs</a>
             </li>
@@ -207,4 +206,3 @@ function Header() {
 }
 
 export default Header;
-
