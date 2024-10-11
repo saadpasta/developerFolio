@@ -181,8 +181,7 @@ function Header() {
               <a href="#blogs">Blogs</a>
             </li>
           )}
-          {/*
-          {viewTalks && (
+          {/*{viewTalks && (
             <li onClick={handleMenuItemClick}>
               <a href="#talks">Talks</a>
             </li>
