@@ -3,7 +3,7 @@ import emoji from "react-easy-emoji";
 import StyleContext from "../../contexts/StyleContext";
 import "./ToggleSwitch.scss";
 
-const ToggleSwitch = () => {
+const ToggleSwitch = ({handleMenuItemClick}) => {
   const {isDark} = useContext(StyleContext);
   const [isChecked, setChecked] = useState(isDark);
   const styleContext = useContext(StyleContext);
@@ -16,6 +16,7 @@ const ToggleSwitch = () => {
         onChange={() => {
           styleContext.changeTheme();
           setChecked(!isChecked);
+          handleMenuItemClick()
         }}
       />
       <span className="slider round">

@@ -197,7 +197,7 @@ function Header() {
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a>
-              <ToggleSwitch />
+              <ToggleSwitch handleMenuItemClick={handleMenuItemClick}/>
             </a>
           </li>
         </ul>
