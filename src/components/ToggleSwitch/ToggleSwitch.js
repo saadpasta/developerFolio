@@ -16,7 +16,7 @@ const ToggleSwitch = ({handleMenuItemClick}) => {
         onChange={() => {
           styleContext.changeTheme();
           setChecked(!isChecked);
-          handleMenuItemClick()
+          handleMenuItemClick();
         }}
       />
       <span className="slider round">
