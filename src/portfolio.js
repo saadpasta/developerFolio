@@ -37,10 +37,8 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/saadrasheeddev/",
   gmail: "saadrasheeddev@gmail.com",
   kaggle: "https://www.kaggle.com/saadrasheed20",
-  
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  facebook: "https://www.facebook.com/saadrasheed20",
+  medium: "https://medium.com/@saadrasheeddev",
 
   // gitlab: "https://gitlab.com/saadpasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -52,74 +50,77 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "PASSIONATE DATA SCIENTIST WHO LOVES TO UNCOVER INSIGHTS FROM DATA AND SOLVE COMPLEX PROBLEMS WITH AI",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop end-to-end machine learning models, from data wrangling to deployment"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Build powerful data visualizations to uncover trends and insights"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "⚡ Leverage AI techniques to create intelligent solutions for complex problems"
+    ),
+    emoji("⚡ Develop and deploy cloud-based machine learning solutions using AWS, GCP, or Azure"),
+    emoji("⚡ Integration of third-party APIs and services like AWS, Google Cloud, or custom-built AI models"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
+softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
+      skillName: "Pandas",
+      fontAwesomeClassname: "fas fa-table"
+    },
+    {
+      skillName: "NumPy",
+      fontAwesomeClassname: "fas fa-square-root-alt"
+    },
+    {
+      skillName: "Scikit-learn",
+      fontAwesomeClassname: "fas fa-robot"
+    },
+    {
+      skillName: "TensorFlow",
+      fontAwesomeClassname: "fas fa-brain"
+    },
+    {
+      skillName: "PyTorch",
+      fontAwesomeClassname: "fas fa-bolt"
+    },
+    {
+      skillName: "SQL",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "Google Cloud",
+      fontAwesomeClassname: "fab fa-google"
+    },
+    {
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Airflow",
+      fontAwesomeClassname: "fas fa-cloud"
+    },
+    {
+      skillName: "Tableau",
+      fontAwesomeClassname: "fas fa-chart-line"
+    },
+    {
+      skillName: "Jupyter",
+      fontAwesomeClassname: "fas fa-book"
     }
   ],
+
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -131,22 +132,22 @@ const educationInfo = {
     {
       schoolName: "University of London",
       logo: require("./assets/images/uolLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      subHeader: "BSc Computer Science (Hons)",
+      duration: "October 2021 - September 2024",
+      // desc: "Participated in the research of XXX and published 3 papers.",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
+    // {
+    //   schoolName: "Whales College",
+    //   logo: require("./assets/images/stanfordLogo.png"),
+    //   subHeader: "Bachelor of Science in Computer Science",
+    //   duration: "September 2013 - April 2017",
+    //   // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+    //   // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    // }
   ]
 };
 
@@ -156,20 +157,33 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Data Science", //Insert stack or technology you have experience in
+      progressPercentage: "85%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Machine Learning",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Data Engineering",
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "Cloud Computing",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Deep Learning",
+      progressPercentage: "65%"
+    },
+    {
+      Stack: "Programming (Python, SQL, etc.)",
+      progressPercentage: "90%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false // Set true to display codersrank badges section
 };
+
 
 // Work experience section
 
@@ -181,10 +195,10 @@ const workExperiences = {
       company: "Zaavia",
       companylogo: require("./assets/images/zaaviaLogo.png"),
       date: "September 2023 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Enabling Stakeholders to Take Informed Blood Banking Decisions",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developing End-to-End Data Pipeline for OLAP Databases",
+        "Leveraging OLAP for research analysis and predictive analysis to optimize blood product inventory management"
       ]
     },
     {
@@ -192,7 +206,11 @@ const workExperiences = {
       company: "VisaBridge",
       companylogo: require("./assets/images/visabridgeLogo.png"),
       date: "September 2023 – December 2023",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Aiming to help people migrate for better opportunities",
+      descBullets: [
+        "Scraped data for 75+ countries, including visa requirements, high-paying professions, living expenses, and opportunities.",
+        "Transformed data into a consistent format for seamless country comparisons."
+      ]
     },
     // {
     //   role: "Software Engineer Intern",
