@@ -15,8 +15,9 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem 1rem;
 }
-.subTitle {
-  color: $subTitle;
+
+.dark-mode.podcast-header-subtitle {
+  color: $subTitleDark;
 }
 
 @media (max-width: 768px) {

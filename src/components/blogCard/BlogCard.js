@@ -20,10 +20,10 @@ export default function BlogCard({blog, isDark}) {
           }
           href="#blog"
         >
-          <h3 className={isDark ? "small-dark blog-title" : "blog-title"}>
+          <h3 className={isDark ? "dark-mode blog-title" : "blog-title"}>
             {blog.title}
           </h3>
-          <p className={isDark ? "small-dark small" : "small"}>
+          <p className={isDark ? "small dark-mode" : "small"}>
             {blog.description}
           </p>
           <div className="go-corner">

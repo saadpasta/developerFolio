@@ -1,9 +1,5 @@
 @import "../../_globalColor";
 
-.small-dark {
-  color: $textColorDark !important;
-}
-
 .blog-container {
   border-radius: 10px;
   color: $blogCardContainerColor;
@@ -39,6 +35,10 @@
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   margin: 0px;
+
+  &.dark-mode {
+    color: $subTitleDark;
+  }
 }
 
 .go-corner {

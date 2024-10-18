@@ -22,6 +22,10 @@
   font-weight: 400;
 }
 
+.dark-mode.blog-subtitle {
+  color: $subTitleDark;
+}
+
 .blog-subtitle {
   text-transform: uppercase;
 }
@@ -40,9 +44,6 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: 32px;
-}
-.subTitle {
-  color: $subTitle;
 }
 
 /* Media Query */

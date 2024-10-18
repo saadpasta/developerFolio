@@ -1,8 +1,10 @@
-import React from "react";
+import React, {useContext} from "react";
 import "./SoftwareSkill.scss";
 import {skillsSection} from "../../portfolio";
+import StyleContext from "../../contexts/StyleContext";
 
 export default function SoftwareSkill() {
+  const {isDark} = useContext(StyleContext);
   return (
     <div>
       <div className="software-skills-main-div">
@@ -11,7 +13,9 @@ export default function SoftwareSkill() {
             return (
               <li
                 key={i}
-                className="software-skill-inline"
+                className={
+                  "software-skill-inline" + (isDark ? " dark-mode" : "")
+                }
                 name={skills.skillName}
               >
                 <i className={skills.fontAwesomeClassname}></i>
