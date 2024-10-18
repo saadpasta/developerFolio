@@ -14,9 +14,10 @@ export default function Blogs() {
   function extractTextContent(html) {
     return typeof html === "string"
       ? html
-          .split("p>")
-          .filter(el => !el.includes(">"))
-          .map(el => el.replace("</", ".").replace("<", ""))
+          .split(/<\/p>/i)
+          .map(part => part.split(/<p[^>]*>/i).pop())
+          .filter(el => el.trim().length > 0)
+          .map(el => el.replace(/<\/?[^>]+(>|$)/g, "").trim())
           .join(" ")
       : NaN;
   }
