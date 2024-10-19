@@ -35,12 +35,11 @@ body {
   }
 }
 
-
 /* hide the overflow  */
 @media (max-width: 400px) {
   html,
   body {
-   overflow-x: hidden;
-   overflow-y: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
 }
