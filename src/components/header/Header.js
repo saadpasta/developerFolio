@@ -40,7 +40,12 @@ function Header() {
           <span className="logo-name">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
         </a>
-        <input className="menu-btn" type="checkbox" id="menu-btn" ref={menuCheckboxRef}/>
+        <input
+          className="menu-btn"
+          type="checkbox"
+          id="menu-btn"
+          ref={menuCheckboxRef}
+        />
         <label
           className="menu-icon"
           htmlFor="menu-btn"
@@ -90,7 +95,7 @@ function Header() {
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a>
-              <ToggleSwitch handleMenuItemClick={handleMenuItemClick}/>
+              <ToggleSwitch handleMenuItemClick={handleMenuItemClick} />
             </a>
           </li>
         </ul>
