@@ -176,7 +176,7 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "blackbird",
-      companylogo: require("C:\Users\3TEE\Desktop\black-bird-logo-design-sillhouette-bird-logo-vector.jpg"),
+      companylogo: require("C:Users\3TEEDesktop\black-bird-logo-design-sillhouette-bird-logo-vector.jpg"),
       date: "octuber 2024 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
@@ -187,14 +187,14 @@ const workExperiences = {
     {
       role: "Graphics designer",
       company: "fiverr",
-      companylogo: require("C:\Users\3TEE\Desktop\png-clipart-fiverr-freelancer-logo-business-online-marketplace-fiverr-text-service-thumbnail.png"),
+      companylogo: require("C:Users\3TEEDesktoppng-clipart-fiverr-freelancer-logo-business-online-marketplace-fiverr-text-service-thumbnail.png"),
       date: "May 2020 – May 2022",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
       role: "C++ INTERN",
       company: "CODE ALPHA",
-      companylogo: require("C:\Users\3TEE\Desktop\1677167041761.jpeg"),
+      companylogo: require("C:Users\3TEEDesktop\1677167041761.jpeg"),
       date: "JaN 2024 – Sep 2024",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
@@ -284,7 +284,7 @@ const achievementSection = {
           url: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Blackbird/8XSySTLv68WYeFhke_Blackbird%20Australia_Qciq2idqDjT9P8qTs_1728813427318_completion_certificate.pdf"
         }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
