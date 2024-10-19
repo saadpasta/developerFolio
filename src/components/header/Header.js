@@ -1,4 +1,4 @@
-import React, {useContext} from "react";
+import React, {useContext, useRef} from "react";
 import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
@@ -24,6 +24,14 @@ function Header() {
   const viewTalks = talkSection.display;
   const viewResume = resumeSection.display;
 
+  const menuCheckboxRef = useRef(null);
+
+  const handleMenuItemClick = () => {
+    if (menuCheckboxRef.current) {
+      menuCheckboxRef.current.checked = false;
+    }
+  };
+
   return (
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
@@ -32,7 +40,7 @@ function Header() {
           <span className="logo-name">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
         </a>
-        <input className="menu-btn" type="checkbox" id="menu-btn" />
+        <input className="menu-btn" type="checkbox" id="menu-btn" ref={menuCheckboxRef}/>
         <label
           className="menu-icon"
           htmlFor="menu-btn"
@@ -82,7 +90,7 @@ function Header() {
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a>
-              <ToggleSwitch />
+              <ToggleSwitch handleMenuItemClick={handleMenuItemClick}/>
             </a>
           </li>
         </ul>
