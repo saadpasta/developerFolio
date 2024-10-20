@@ -4,11 +4,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "colorthief": "^2.3.0",
+    "caniuse-lite": "^1.0.30001651",
+    "colorthief": "^2.4.0",
     "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.6",
-    "gh-pages": "^2.1.1",
-    "jest-canvas-mock": "^2.3.1",
+    "enzyme-adapter-react-16": "^1.15.8",
+    "feed2json": "^0.6.0",
+    "gh-pages": "^6.1.1",
+    "jest-canvas-mock": "^2.5.2",
     "lottie-react": "^2.4.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
@@ -16,9 +18,9 @@
     "react-headroom": "^3.0.0",
     "react-reveal": "^1.2.2",
     "react-scripts": "^5.0.1",
-    "react-test-renderer": "^16.10.2",
-    "react-twitter-embed": "3.0.3",
-    "sass": "^1.32.8"
+    "react-test-renderer": "^16.14.0",
+    "react-twitter-embed": "4.0.4",
+    "sass": "^1.77.8"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -52,7 +54,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "dotenv": "^8.2.0",
-    "prettier": "^2.3.1"
+    "dotenv": "^16.4.5",
+    "prettier": "^3.3.3"
   }
 }
