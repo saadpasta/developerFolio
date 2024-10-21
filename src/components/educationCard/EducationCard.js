@@ -7,12 +7,14 @@ export default function EducationCard({school}) {
   const imgRef = createRef();
 
   const GetDescBullets = ({descBullets}) => {
-    return descBullets
-      ? descBullets.map((item, i) => (
-          <li key={i} className="subTitle">
-            {item}
-          </li>
-        ))
+    return descBullets && descBullets.length > 0
+      ? descBullets.map((item, i) =>
+          item !== "" ? (
+            <li key={i} className="subTitle">
+              {item}
+            </li>
+          ) : null
+        )
       : null;
   };
   const {isDark} = useContext(StyleContext);
