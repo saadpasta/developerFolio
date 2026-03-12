@@ -3,6 +3,7 @@ import emoji from "react-easy-emoji";
 import StyleContext from "../../contexts/StyleContext";
 import "./ToggleSwitch.scss";
 
+
 const ToggleSwitch = () => {
   const {isDark} = useContext(StyleContext);
   const [isChecked, setChecked] = useState(isDark);
