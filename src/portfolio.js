@@ -37,7 +37,8 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/jared-collins/",
   gmail: "collinsjared73@gmail.com",
   orcid: "https://orcid.org/0009-0006-7184-3875",
-  researchgate: "https://www.researchgate.net/profile/Jared-Collins-5?ev=hdr_xprf",
+  researchgate:
+    "https://www.researchgate.net/profile/Jared-Collins-5?ev=hdr_xprf",
   scholar: "https://scholar.google.com/citations?user=TxC9P4AAAAAJ&hl=en&oi=ao",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // researchgate: "https://www.researchgate.net/profile/Jared-Collins-5?ev=hdr_xprf",
@@ -53,18 +54,20 @@ const skillsSection = {
   title: "What I do",
   subTitle: "",
   skills: [
-    emoji("🔬 Analyze large, multimodal biological datasets to address complex questions"),
     emoji(
-      "🛠️ Build new methods to address problems with multi-omics data"
+      "🔬 Analyze large, multimodal biological datasets to address complex questions"
     ),
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for web applications")
+    emoji("🛠️ Build new methods to address problems with multi-omics data"),
+    emoji(
+      "⚡ Develop highly interactive Front end / User Interfaces for web applications"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-   {
+    {
       skillName: "R",
       fontAwesomeClassname: "fab fa-r-project"
     },
@@ -74,7 +77,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "java",
-      fontAwesomeClassname: "fab fa-java"  
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "c-sharp",
@@ -121,15 +124,15 @@ https://fontawesome.com/icons?d=gallery */
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
-   {
+    {
       schoolName: "Massachusetts Institute of Technology",
       logo: require("./assets/images/MIT_Social-Media-Logo_MIT-Red.png"),
       subHeader: "Computational and Systems Biology PhD Program",
       duration: "Sept 2025 - Present",
       desc: "PhD Student in David Page's Lab",
       descBullets: [""]
-   }, 
-   {
+    },
+    {
       schoolName: "Georgia Institute of Technology",
       logo: require("./assets/images/gt-seal.png"),
       subHeader: "Master of Science in Biology",
@@ -148,12 +151,12 @@ const educationInfo = {
       desc: "Graduation with Highest Honors",
       descBullets: [
         "Designed novel method to explore bacterial heteroresistance and evolution across porous cultures",
-        "Explored multicellular sparse topologies & selection favoring specialization with waning fitness return"            
+        "Explored multicellular sparse topologies & selection favoring specialization with waning fitness return"
       ]
-    } 
-  ]  
+    }
+  ]
 };
-      
+
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
@@ -187,8 +190,8 @@ const workExperiences = {
       date: "June 2023 – Present",
       descBullets: [
         "Conducted novel analysis of drug resistant using combined single-cell transcriptomics and single-cell evolutionary clone-tracking barcode technology",
-	"Developed and applied statistical methods to analyze and compare high-dimensional single cell and spatial multi-omic dataset",
-        "Analyzed single cell and spatial RNA-seq data from longitudinal serial biopsies as part of paradigm shifting clinical trials in GBM alongside collaborators worldwide",
+        "Developed and applied statistical methods to analyze and compare high-dimensional single cell and spatial multi-omic dataset",
+        "Analyzed single cell and spatial RNA-seq data from longitudinal serial biopsies as part of paradigm shifting clinical trials in GBM alongside collaborators worldwide"
       ]
     },
     {
@@ -196,10 +199,11 @@ const workExperiences = {
       company: "Georgia Institute of Technology",
       companylogo: require("./assets/images/gt-seal.png"),
       date: "Aug 2021 – May 2023",
-      descBullets: ["Created and held weekly lectures and review sessions for 80+ students",
-	"Taught weekly recitation and guided flipped-classroom style sessions 3x weekly",
-	"Led two wet laboratory classes of 24 students in lecture and experiments across a range of biological sciences",
-	"Wrote and conducted test reviews to bolster student understanding and engagement"
+      descBullets: [
+        "Created and held weekly lectures and review sessions for 80+ students",
+        "Taught weekly recitation and guided flipped-classroom style sessions 3x weekly",
+        "Led two wet laboratory classes of 24 students in lecture and experiments across a range of biological sciences",
+        "Wrote and conducted test reviews to bolster student understanding and engagement"
       ]
     },
     {
@@ -207,9 +211,10 @@ const workExperiences = {
       company: "Lucid Scientific",
       companylogo: require("./assets/images/lucid_logo.jpeg"),
       date: "May 2022 – Aug 2022",
-      descBullets: ["Analyzed oxygen consumption rate of iPSCs during induced differentiation to cardiomyocytes",
-	"Conducted metabolic assays to verify multiple adherent and suspension cell lines for research use with RESIPHER",
-	"Characterized metabolic activity during induced T cell activation and differentiation"
+      descBullets: [
+        "Analyzed oxygen consumption rate of iPSCs during induced differentiation to cardiomyocytes",
+        "Conducted metabolic assays to verify multiple adherent and suspension cell lines for research use with RESIPHER",
+        "Characterized metabolic activity during induced T cell activation and differentiation"
       ]
     }
   ]
@@ -232,7 +237,8 @@ const bigProjects = {
     {
       image: require("./assets/images/gt-library.png"),
       projectName: "Georgia Tech Master's Thesis",
-      projectDesc: "Mechanisms of Coherence and Incoherence Between GWAS and Single-Cell eQTL Effects in Crohn's Disease",
+      projectDesc:
+        "Mechanisms of Coherence and Incoherence Between GWAS and Single-Cell eQTL Effects in Crohn's Disease",
       footerLink: [
         {
           name: "View Thesis",
@@ -244,15 +250,16 @@ const bigProjects = {
     {
       image: require("./assets/images/code_for_a_cause.png"),
       projectName: "Mini Code for a Cause Game Jam",
-      projectDesc: "A game developed in GameMakerStudio2 for the 2025 Mini Code for a Cause charity game jam!",
+      projectDesc:
+        "A game developed in GameMakerStudio2 for the 2025 Mini Code for a Cause charity game jam!",
       footerLink: [
         {
           name: "Play the Game",
           url: "https://gx.games/games/81a6n1/you-only-get-one-appendage/"
         },
         {
-	  name: "Game Jam",
-	  url: "https://itch.io/jam/mini-code-for-a-cause"
+          name: "Game Jam",
+          url: "https://itch.io/jam/mini-code-for-a-cause"
         }
       ]
     }
@@ -265,8 +272,7 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Awards, etc!",
+  subtitle: "Achievements, Awards, etc!",
 
   achievementsCards: [
     {
@@ -298,7 +304,8 @@ const achievementSection = {
 
     {
       title: "Zell Miller Scholarship",
-      subtitle: "Scholarship available to qualifying Georgia residents who demonstrate academic achievement",
+      subtitle:
+        "Scholarship available to qualifying Georgia residents who demonstrate academic achievement",
       image: require("./assets/images/GSFC.jpeg"),
       imageAlt: "Georgia Student Finance Commission",
       footerLink: [
@@ -379,8 +386,7 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to reach out? My Inbox is open!",
+  subtitle: "Discuss a project or just want to reach out? My Inbox is open!",
   number: "+1-6789640619",
   email_address: "collinsjared73+githubpage@gmail.com"
 };

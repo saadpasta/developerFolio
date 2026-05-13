@@ -31,8 +31,9 @@
 }
 .csharp {
   background-color: currentColor; /* Inherit the parent color */
-  mask-image: url('../../assets/icons/csharp.svg');
-  mask-size: cover;  width: 60px; /* Adjust width */
+  mask-image: url("../../assets/icons/csharp.svg");
+  mask-size: cover;
+  width: 60px; /* Adjust width */
   height: 60px; /* Adjust height */
   display: inline-block; /* Ensures it behaves like an inline element */
 }
