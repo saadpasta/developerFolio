@@ -4,6 +4,10 @@ import AchievementCard from "../../components/achievementCard/AchievementCard";
 import {achievementSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import {Swiper, SwiperSlide} from "swiper/react";
+import {Navigation} from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
 export default function Achievement() {
   const {isDark} = useContext(StyleContext);
   if (!achievementSection.display) {
@@ -33,22 +37,35 @@ export default function Achievement() {
               {achievementSection.subtitle}
             </p>
           </div>
+
           <div className="achievement-cards-div">
-            {achievementSection.achievementsCards.map((card, i) => {
-              return (
-                <AchievementCard
-                  key={i}
-                  isDark={isDark}
-                  cardInfo={{
-                    title: card.title,
-                    description: card.subtitle,
-                    image: card.image,
-                    imageAlt: card.imageAlt,
-                    footer: card.footerLink
-                  }}
-                />
-              );
-            })}
+            <div>
+              <Swiper
+                spaceBetween={20}
+                slidesPerView={1}
+                modules={[Navigation]}
+                // breakpoints={{
+                //   768: {slidesPerView: 2},
+                //   1024: {slidesPerView: 3} ##carousel only in small screen##
+                // }}
+                navigation
+              >
+                {achievementSection.achievementsCards.map((card, i) => (
+                  <SwiperSlide key={i}>
+                    <AchievementCard
+                      isDark={isDark}
+                      cardInfo={{
+                        title: card.title,
+                        description: card.subtitle,
+                        image: card.image,
+                        imageAlt: card.imageAlt,
+                        footer: card.footerLink
+                      }}
+                    />
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+            </div>
           </div>
         </div>
       </div>
