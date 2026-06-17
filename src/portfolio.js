@@ -134,13 +134,13 @@ const bigProjects = {
   subtitle: "SOME OF THE COOL PROJECTS DEVELOPED BY ME",
   projects: [
     {
-      image: require("./assets/images/trendpacks.png"), // प्रोजेक्टचा फोटो (नसेल तर ही लाईन अशीच राहू द्या)
+      image: require("./assets/images/trendpacks.png"), 
       projectName: "Trendpacks E-commerce UI/UX",
       projectDesc: "A modern, premium retail e-commerce web platform designed for premium bags with a highly responsive user experience and clean checkout forms.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://your-trendpacks-link.vercel.app" // तुमच्याकडे लिंक असेल तर ती टाका
+          url: "https://your-trendpacks-link.vercel.app" 
         }
       ]
 const achievementSection = {
@@ -151,44 +151,53 @@ const achievementSection = {
 achievementsCards: [
   {
     title: "AWS Cloud Practitioner Essentials",
-    subtitle:
-      "Successfully completed the AWS Cloud Practitioner Essentials course, validating fundamental knowledge of cloud concepts, AWS services, security, architecture, and pricing models.",
-    image: require("./assets/images/awsCloudLogo.webp"), // Tumchya AWS/Cloud logo cha path taka
+    subtitle: "Successfully completed the AWS Cloud Practitioner Essentials course, validating fundamental knowledge of cloud concepts, AWS services, security, architecture, and pricing models.",
+    image: require("./assets/images/codeInLogo.webp"), 
     imageAlt: "AWS Cloud Practitioner Essentials Certificate",
     footerLink: [
       {
         name: "Certification",
-        url: "https://www.mindluster.com" // Jar online digital verification link asel tr ti taka
+        url: "https://www.mindluster.com"
       }
     ]
   },
   {
     title: "Python and Artificial Intelligence Bootcamp",
-    subtitle:
-      "Successfully completed a 7-days intensive bootcamp on Python programming and Artificial Intelligence concepts, organized by DevTown in collaboration with Google Developer Student Clubs (GDSC KIIT Chapter) and AWS Community Builders.",
-    image: require("./assets/images/pythonAiLogo.webp"), // Tumchya Python/AI logo cha path taka
+    subtitle: "Successfully completed a 7-days intensive bootcamp on Python programming and Artificial Intelligence concepts, organized by DevTown in collaboration with Google Developer Student Clubs (GDSC KIIT Chapter) and AWS Community Builders.",
+    image: require("./assets/images/codeInLogo.webp"), 
     imageAlt: "Python and AI Bootcamp Certificate",
     footerLink: [
       {
         name: "Certificate of Completion",
-        url: "https://cert.devtown.in/verify/YOUR_ID" // Certificate varil QR javalchi link taka
+        url: "https://cert.devtown.in/verify/1WJmeT"
       }
     ]
   },
   {
     title: "Python Programming Language",
-    subtitle:
-      "Completed a comprehensive course focusing on Python programming foundations, syntax, data structures, and foundational coding principles.",
-    image: require("./assets/images/pythonLogo.webp"), // Tumchya Python logo cha path taka
+    subtitle: "Completed a comprehensive course focusing on Python programming foundations, syntax, data structures, and foundational coding principles.",
+    image: require("./assets/images/codeInLogo.webp"), 
     imageAlt: "Python Programming Language Certificate",
     footerLink: [
       {
         name: "Certification",
-        url: "https://www.mindluster.com" // Certified No. 11196785035 sathi online link taka
+        url: "https://www.mindluster.com"
+      }
+    ]
+  },
+  {
+    title: "Launched 'Linux Learning Hub' Blog",
+    subtitle: "Authored and published technical content to help beginners understand operating system fundamentals. Featured post: 'Getting Started with Linux: Essential Commands Every Beginner Should Know' focused on Cloud and DevOps prerequisites.",
+    image: require("./assets/images/codeInLogo.webp"), 
+    imageAlt: "Linux Learning Hub",
+    footerLink: [
+      {
+        name: "Read Blog Post",
+        url: "https://your-linux-hub-link.vercel.app"
       }
     ]
   }
-]
+  ]
 // Blogs Section
 
 const blogSection = {
@@ -203,9 +212,9 @@ const blogSection = {
       "Linux is one of the most important operating systems used in Cloud Computing, DevOps, and software development. This guide covers foundational commands every beginner needs.",
     date: "Jan 15, 2026",
     readTime: "2 min read",
-    image: require("./assets/images/linuxBlog.webp"), // Blog cha screenshot kiwa Linux thumbnail cha path
+    image: require("./assets/images/linuxBlog.webp"), 
     imageAlt: "Linux Learning Hub Blog Post",
-    url: "https://your-linux-hub-link.vercel.app" // Tumchya live blog chi link tithe taka
+    url: "https://your-linux-hub-link.vercel.app" 
   }
 ]
 
