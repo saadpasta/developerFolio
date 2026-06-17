@@ -23,7 +23,8 @@ const greeting = {
   subTitle: emoji(
     "A passionate Cloud and DevOps Engineer passionate about cloud computing, automation, and open-source technologies. Git, GitHub, AWS, and DevOps tools while building responsive frontends."
   ),
-  resumeLink: "https://drive.google.com/file/d/137YKoYvZw6woG-U04RMp4rG-UEox8v_T/view?usp=drivesdk", // Set to empty to hide the button
+  resumeLink:
+    "https://drive.google.com/file/d/137YKoYvZw6woG-U04RMp4rG-UEox8v_T/view?usp=drivesdk", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -38,7 +39,7 @@ const socialMediaLinks = {
 
 // Skills Section
 const skillsSection = {
-  const: skillsSection = {
+  const: (skillsSection = {
     title: "What I Do",
     subTitle: "ASPIRING CLOUD INFRASTRUCTURE & DEVOPS ENGINEER",
     skills: [
@@ -82,7 +83,7 @@ const skillsSection = {
       }
     ],
     display: true
-  }
+  })
 };
 
 /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -127,8 +128,10 @@ const bigProjects = {
     {
       title: "TRENDPACKS - Shopping Website",
       subtitle: "E-Commerce Web Application (Final Year Project)",
-      image: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg", 
-      description: "Developed a comprehensive and user-friendly e-commerce shopping website as a final year graduation project. Implemented efficient product lists.",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      description:
+        "Developed a comprehensive and user-friendly e-commerce shopping website as a final year graduation project. Implemented efficient product lists.",
       softwareSkills: [
         {
           skillName: "ASP.NET",
@@ -171,24 +174,37 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "AWS Cloud Practitioner Essentials",
-      subtitle: "Successfully completed formal training validating foundational knowledge of cloud concepts, AWS services, security, architecture, and pricing models.",
-      image: "https://upload.wikimedia.org/wikipedia/commons/5/5c/Amazon_Web_Services_Logo.svg",
+      subtitle:
+        "Successfully completed formal training validating foundational knowledge of cloud concepts, AWS services, security, architecture, and pricing models.",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/5/5c/Amazon_Web_Services_Logo.svg",
       imageAlt: "AWS Cloud Practitioner Essentials Certificate",
-      footerLink: [{ name: "Certification Details", url: "https://www.mindluster.com" }]
+      footerLink: [
+        {name: "Certification Details", url: "https://www.mindluster.com"}
+      ]
     },
     {
       title: "Python Programming Language",
-      subtitle: "Verified competency in core Python scripting methodology, syntax structure, data blocks, and foundational automation scripts.",
-      image: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+      subtitle:
+        "Verified competency in core Python scripting methodology, syntax structure, data blocks, and foundational automation scripts.",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
       imageAlt: "Python Programming Certificate",
-      footerLink: [{ name: "Certificate of Completion", url: "https://cert.devtown.in/verify/1WJmeT" }]
+      footerLink: [
+        {
+          name: "Certificate of Completion",
+          url: "https://cert.devtown.in/verify/1WJmeT"
+        }
+      ]
     },
     {
       title: "MS Excel",
-      subtitle: "Gained structural hands-on expertise in data organization matrices, formula executions, and spreadsheet reporting models.",
-      image: "https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Excel_2013_logo_PNG.png",
+      subtitle:
+        "Gained structural hands-on expertise in data organization matrices, formula executions, and spreadsheet reporting models.",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Excel_2013_logo_PNG.png",
       imageAlt: "MS Excel Certification",
-      footerLink: [{ name: "Verification", url: "https://www.mindluster.com" }]
+      footerLink: [{name: "Verification", url: "https://www.mindluster.com"}]
     }
   ],
   display: true
@@ -202,12 +218,14 @@ const blogSection = {
     {
       url: "https://github.com/rutujagophane",
       title: "Introduction to Cloud Infrastructures",
-      description: "A quick technical guide capturing standard foundational notes on cloud scaling, server roles, and automated deployments."
+      description:
+        "A quick technical guide capturing standard foundational notes on cloud scaling, server roles, and automated deployments."
     },
     {
       url: "https://github.com/rutujagophane",
       title: "Getting Started with Linux Administration",
-      description: "Documenting essential terminal configurations, file permissions, and directory controls vital for systems architecture."
+      description:
+        "Documenting essential terminal configurations, file permissions, and directory controls vital for systems architecture."
     }
   ],
   display: true
@@ -223,7 +241,8 @@ const resumeSection = {
 // Contact Section
 const contactInfo = {
   title: emoji("Contact Me 📬"),
-  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
+  subtitle:
+    "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+91-9423000000",
   email_address: "gophanerutuja2@gmail.com"
 };
