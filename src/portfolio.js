@@ -149,54 +149,54 @@ const achievementSection = {
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
 achievementsCards: [
-  {
-    title: "AWS Cloud Practitioner Essentials",
-    subtitle: "Successfully completed the AWS Cloud Practitioner Essentials course, validating fundamental knowledge of cloud concepts, AWS services, security, architecture, and pricing models.",
-    image: require("./assets/images/codeInLogo.webp"), 
-    imageAlt: "AWS Cloud Practitioner Essentials Certificate",
-    footerLink: [
-      {
-        name: "Certification",
-        url: "https://www.mindluster.com"
-      }
-    ]
-  },
-  {
-    title: "Python and Artificial Intelligence Bootcamp",
-    subtitle: "Successfully completed a 7-days intensive bootcamp on Python programming and Artificial Intelligence concepts, organized by DevTown in collaboration with Google Developer Student Clubs (GDSC KIIT Chapter) and AWS Community Builders.",
-    image: require("./assets/images/codeInLogo.webp"), 
-    imageAlt: "Python and AI Bootcamp Certificate",
-    footerLink: [
-      {
-        name: "Certificate of Completion",
-        url: "https://cert.devtown.in/verify/1WJmeT"
-      }
-    ]
-  },
-  {
-    title: "Python Programming Language",
-    subtitle: "Completed a comprehensive course focusing on Python programming foundations, syntax, data structures, and foundational coding principles.",
-    image: require("./assets/images/codeInLogo.webp"), 
-    imageAlt: "Python Programming Language Certificate",
-    footerLink: [
-      {
-        name: "Certification",
-        url: "https://www.mindluster.com"
-      }
-    ]
-  },
-  {
-    title: "Launched 'Linux Learning Hub' Blog",
-    subtitle: "Authored and published technical content to help beginners understand operating system fundamentals. Featured post: 'Getting Started with Linux: Essential Commands Every Beginner Should Know' focused on Cloud and DevOps prerequisites.",
-    image: require("./assets/images/codeInLogo.webp"), 
-    imageAlt: "Linux Learning Hub",
-    footerLink: [
-      {
-        name: "Read Blog Post",
-        url: "https://your-linux-hub-link.vercel.app"
-      }
-    ]
-  }
+    {
+      title: "AWS Cloud Practitioner Essentials",
+      subtitle: "Successfully completed the AWS Cloud Practitioner Essentials course, validating fundamental knowledge of cloud concepts, AWS services, security, architecture, and pricing models.",
+      image: require("./assets/images/codeInLogo.webp"),
+      imageAlt: "AWS Cloud Practitioner Essentials Certificate",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.mindluster.com"
+        }
+      ]
+    },
+    {
+      title: "Python and Artificial Intelligence Bootcamp",
+      subtitle: "Successfully completed a 7-days intensive bootcamp on Python programming and Artificial Intelligence concepts, organized by DevTown in collaboration with Google Developer Student Clubs (GDSC KIIT Chapter) and AWS Community Builders.",
+      image: require("./assets/images/codeInLogo.webp"),
+      imageAlt: "Python and AI Bootcamp Certificate",
+      footerLink: [
+        {
+          name: "Certificate of Completion",
+          url: "https://cert.devtown.in/verify/1WJmeT"
+        }
+      ]
+    },
+    {
+      title: "Python Programming Language",
+      subtitle: "Completed a comprehensive course focusing on Python programming foundations, syntax, data structures, and foundational coding principles.",
+      image: require("./assets/images/codeInLogo.webp"),
+      imageAlt: "Python Programming Language Certificate",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.mindluster.com"
+        }
+      ]
+    },
+    {
+      title: "Launched 'Linux Learning Hub' Blog",
+      subtitle: "Authored and published technical content to help beginners understand operating system fundamentals. Featured post: 'Getting Started with Linux: Essential Commands Every Beginner Should Know' focused on Cloud and DevOps prerequisites.",
+      image: require("./assets/images/codeInLogo.webp"),
+      imageAlt: "Linux Learning Hub",
+      footerLink: [
+        {
+          name: "Read Blog Post",
+          url: "https://your-linux-hub-link.vercel.app"
+        }
+      ]
+    }
   ]
 // Blogs Section
 
