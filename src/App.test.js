@@ -2,19 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 
-Object.defineProperty(window, "matchMedia", {
-  writable: true,
-  value: jest.fn().mockImplementation(query => ({
-    matches: false,
-    media: query,
-    onchange: null,
-    addListener: jest.fn(), // Deprecated
-    removeListener: jest.fn(), // Deprecated
-    addEventListener: jest.fn(),
-    removeEventListener: jest.fn(),
-    dispatchEvent: jest.fn()
-  }))
-});
+// window.matchMedia is stubbed globally in src/setupTests.js.
 
 it("renders without crashing", () => {
   const div = document.createElement("div");
