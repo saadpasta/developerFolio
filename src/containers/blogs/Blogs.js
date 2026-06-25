@@ -1,52 +1,38 @@
-import React, {useState, useEffect, useContext} from "react";
+import React, {useContext} from "react";
 import "./Blog.scss";
 import BlogCard from "../../components/blogCard/BlogCard";
 import {blogSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import useFetch from "../../hooks/useFetch";
+
+//Medium API returns blogs' content in HTML format. Below function extracts blogs' text content within paragraph tags
+function extractTextContent(html) {
+  return typeof html === "string"
+    ? html
+        .split(/<\/p>/i)
+        .map(part => part.split(/<p[^>]*>/i).pop())
+        .filter(el => el.trim().length > 0)
+        .map(el => el.replace(/<\/?[^>]+(>|$)/g, "").trim())
+        .join(" ")
+    : NaN;
+}
+
 export default function Blogs() {
   const {isDark} = useContext(StyleContext);
-  const [mediumBlogs, setMediumBlogs] = useState([]);
-  function setMediumBlogsFunction(array) {
-    setMediumBlogs(array);
-  }
-  //Medium API returns blogs' content in HTML format. Below function extracts blogs' text content within paragraph tags
-  function extractTextContent(html) {
-    return typeof html === "string"
-      ? html
-          .split(/<\/p>/i)
-          .map(part => part.split(/<p[^>]*>/i).pop())
-          .filter(el => el.trim().length > 0)
-          .map(el => el.replace(/<\/?[^>]+(>|$)/g, "").trim())
-          .join(" ")
-      : NaN;
-  }
-  useEffect(() => {
-    if (blogSection.displayMediumBlogs === "true") {
-      const getProfileData = () => {
-        fetch("/blogs.json")
-          .then(result => {
-            if (result.ok) {
-              return result.json();
-            }
-          })
-          .then(response => {
-            setMediumBlogsFunction(response.items);
-          })
-          .catch(function (error) {
-            console.error(
-              `${error} (because of this error Blogs section could not be displayed. Blogs section has reverted to default)`
-            );
-            setMediumBlogsFunction("Error");
-            blogSection.displayMediumBlogs = "false";
-          });
-      };
-      getProfileData();
-    }
-  }, []);
+  const displayMediumBlogs = blogSection.displayMediumBlogs === "true";
+  const {data, error} = useFetch(displayMediumBlogs ? "/blogs.json" : null, {
+    errorMessage:
+      "(because of this error Blogs section could not be displayed. Blogs section has reverted to default)"
+  });
+
   if (!blogSection.display) {
     return null;
   }
+
+  const mediumBlogs = data?.items ?? [];
+  const showMediumBlogs = displayMediumBlogs && !error;
+
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="blogs">
@@ -62,8 +48,7 @@ export default function Blogs() {
         </div>
         <div className="blog-main-div">
           <div className="blog-text-div">
-            {blogSection.displayMediumBlogs !== "true" ||
-            mediumBlogs === "Error"
+            {!showMediumBlogs
               ? blogSection.blogs.map((blog, i) => {
                   return (
                     <BlogCard
