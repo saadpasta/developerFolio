@@ -57,6 +57,9 @@
   max-width: 100%;
   height: auto;
 }
+.dark-mode-illustration path[fill="rgb(7,0,57)"] {
+  fill: #d8c5ff !important;
+}
 
 .wave-emoji {
   animation-duration: 1.8s;
