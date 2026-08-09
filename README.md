@@ -1,9 +1,84 @@
-# Software Developer Folio ⚡️ [![GitHub](https://img.shields.io/github/license/saadpasta/developer-portfolio?color=blue)](https://github.com/saadpasta/developerFolio/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/saadpasta/developerFolio)](https://github.com/saadpasta/developerFolio/stargazers)  [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
+# Hi,I'm Almah Khan|Aspiring project manager⚡️ [![GitHub](# Hi, I'm Almah Khan 👋
 
-## A clean, beautiful and responsive portfolio template for Developers!
+**Aspiring Project Manager | Pre-Engineering Student | Islamabad, Pakistan**
+
+---
+
+### ABOUT ME
+I'm a Pre-Engineering student from Islamabad, Pakistan passionate about Project Management and Civil Engineering.
+
+In 2026 I completed virtual job simulations with **WSP** and **LJA Engineering** where I worked on sustainable project planning, budgeting, and CAD-based land development projects.
+
+I'm organized, detail-oriented, and actively seeking remote internship opportunities to apply my skills and grow as a Project Manager.
+
+---
+
+### EXPERIENCE
+
+#### VIRTUAL JOB SIMULATION - WSP
+*Springpod | Aug 2026 | Remote*
+- Completed WSP's sustainable infrastructure project planning simulation
+- Created project plans with budgeting, timeline, and stakeholder management
+- Applied principles of sustainable design and risk assessment
+
+#### VIRTUAL JOB SIMULATION - LJA ENGINEERING
+*Forage | Jun 2026 - Aug 2026 | Remote*
+- Completed CAD-Based Practice Project using AutoCAD for land development
+- Produced engineering drawings and project documentation
+- Learned foundations of civil project delivery and quantity estimation
+
+---
+
+### CERTIFICATIONS
+| Certificate | Platform | Link |
+| --- | --- | --- |
+| Sustainable Infrastructure Project | WSP | [View Certificate](./WSP-Certificate.png) |
+| Civil Engineering Job Simulation | LJA Engineering | [View Certificate](./LJA-Certificate.png) |
+
+---
+
+### SKILLS
+**Project Management:** , MS ProjectRisk Management,Project management,project planning  
+**Technical:** AutoCAD, Civil 3D, Engineering Drawings, Quantity Estimation  
+**Soft Skills:** Stakeholder Communication, Sustainable Design, Documentation
+
+---
+
+### CONTACT
+- **Email:** almahkhanalmah@gmail.com
+- **LinkedIn:** linkedin.com/in/almah-khan
+- **Location:** Islamabad, Pakistan
 
 
-<p align="center">
+<p### PROJECTS
+
+#### Land Development CAD Project - LJA Engineering
+*Virtual Job Simulation | Forage | Aug 2026*
+- Completed CAD-Based Practice Project using AutoCAD for residential land development
+- Created site grading, lot layout, and utility placement drawings
+- Produced engineering documentation and quantity estimation reports
+- [View Certificate + Drawings](./Projects/LJA-CAD-Project.pdf)
+
+#### Sustainable 5-Marla Residential Layout - AutoCAD
+*Personal Academic Project | Islamabad | 2026*
+- Designed a complete 5-marla residential plot layout using AutoCAD
+- Planned room allocation, drainage system, road access, and green spaces
+- Ensured compliance with local building codes and sustainable design principles
+- [View Drawings](./Projects/5-Marla-Layout.pdf)
+
+#### External Housing Visualization - SketchUp
+*Personal Project | 2026*
+- Modeled exterior of a 2-story residential house in SketchUp
+- Applied materials, lighting, and landscaping for realistic rendering
+- Focused on elevation design, curb appeal, and spatial planning
+- [View Renders](./Projects/SketchUp-House-Renders.png)
+
+#### Client Communication & Response Letter - WSP Simulation
+*Virtual Job Simulation | Springpod | Aug 2026*
+- Drafted professional client response letter addressing project scope and timeline concerns
+- Managed stakeholder expectations through clear, concise project communication
+- Incorporated risk assessment and sustainable design solutions in client correspondence
+- [View Sample Letter](./Projects/WSP-Client-Letter.pdf) align="center">
   <kbd>
 <img src="https://user-images.githubusercontent.com/53429438/106779355-e9cd9e80-666c-11eb-9417-8a4b54441bc6.gif"></img>
   </kbd>
@@ -27,7 +102,7 @@ Created something awesome for your fork of the portfolio and want to share it? F
 - [Technologies Used](#technologies-used)
 - [Illustrations](#illustrations)
 - [For the Future](#for-the-future)
-- [Contributors](#project-maintainers)
+- [Contributors](#prect-maintainers)
 
 ## Portfolio Sections
 ✔️ Summary and About me\
